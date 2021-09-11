@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mille modis morimur: We die in a thousand ways.
+
+Dying cells subjected to apoptotic programs are engulfed by neighboring cells or 
+by professional phagocytes, without inflammation or immunological reactions in 
+the tissue where apoptosis takes place. Apoptotic cells release 
+danger-associated project signals to their neighbours, through different 
+molecular patterns, stimulate antigen production and immune responses. 
+Microenvironmental effects with several functional consequences indicate that 
+cell death is a complex process and may take place in several ways. This idea is 
+expressed by the title of the Special Issue and by the title of the guest 
+editorial "Mille modis morimur" meaning that not only multicellular organisms, 
+but also single cells may die in a thousand ways. This idea is demonstrated by 
+the papers serving as examples for cell death. Apoptosis was induced by clary 
+sage oil in Candida cells. Heavy metal (Gd) induced cell motility and apoptosis 
+was found in mammalian cells. RNA oxidation enhanced the reversion frequency of 
+apoptosis in yeast mutants. The frequency of apoptotic micronucleus formation 
+increased in a concentration-dependent manner by methotrexate. The antioxidant 
+coenzyme Q10 protected renal proximal tubule cells against nicotine-induced 
+apoptosis. The synergy of 2-deoxy-D-glucose combined with berberine induced 
+lysosome/autophagy. The mitochondrial apoptotic pathway could be regulated by 
+glucocorticoid receptor in collaboration with Bcl-2 family proteins in 
+developing T cells. Cylindrospermopsin induced biochemical changes led to 
+apoptosis in plants. Mechanisms of stress seriously impacted the risk of 
+apoptosis. Transcriptional control of apoptotic cell clearance was achieved by 
+macrophage nuclear receptors. Finally, the clinical aspects of apoptosis-induced 
+lymphopenia were reviewed in sepsis and other severe injuries. These examples 
+not only support the view of many ways of cell death, but predict further 
+potential ways to induce or reduce the risk of cell death.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="909~922" text="Candida cells" experiment_type="cells" species="yeast" />
+<CONTEXT id="C1" spans="1072~1077" text="yeast" experiment_type="organism" species="yeast" />
+<CONTEXT id="C2" spans="1241~1268" text="renal proximal tubule cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1523~1541" text="developing T cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1611~1617" text="plants" experiment_type="organism" species="other" />
+<CONTEXT id="C5" spans="991~1006" text="mammalian cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="865~886" text="Apoptosis was induced" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="941~948,967~976" text="induced ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E3" spans="1022~1068" text="enhanced the reversion frequency of  apoptosis" phenotype="apoptosis" activity="regulates" />
+<EFFECT id="E4" spans="1231~1240,1269~1276,1295~1304" text="protected ... against ... apoptosis" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E5" spans="1363~1370,1381~1390" text="induced ... autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E6" spans="1590~1607" text="led to  apoptosis" phenotype="apoptosis" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

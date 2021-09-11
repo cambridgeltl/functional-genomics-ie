@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Crosstalk between Lys63- and Lys11-polyubiquitin signaling at DNA damage sites 
+is driven by Cezanne.
+
+The establishment of polyubiquitin conjugates with distinct linkages play 
+important roles in the DNA damage response. Much remains unknown about the 
+regulation of linkage-specific ubiquitin signaling at sites of DNA damage. Here 
+we reveal that Cezanne (also known as Otud7B) deubiquitinating enzyme promotes 
+the recruitment of Rap80/BRCA1-A complex by binding to Lys63-polyubiquitin and 
+targeting Lys11-polyubiquitin. Using a ubiquitin binding domain protein array 
+screen, we identify that the UBA domains of Cezanne and Cezanne2 (also known as 
+Otud7A) selectively bind to Lys63-linked polyubiquitin. Increased Lys11-linkage 
+ubiquitination due to lack of Cezanne DUB activity compromises the recruitment 
+of Rap80/BRCA1-A. Cezanne2 interacts with Cezanne, facilitating Cezanne in the 
+recruitment of Rap80/BRCA1-A, Rad18, and 53BP1, in cellular resistance to 
+ionizing radiation and DNA repair. Our work presents a model that Cezanne serves 
+as a "reader" of the Lys63-linkage polyubiquitin at DNA damage sites and an 
+"eraser" of the Lys11-linkage ubiquitination, indicating a crosstalk between 
+linkage-specific ubiquitination at DNA damage sites.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Transcriptome-Wide Association Study Identifies Candidate Susceptibility Genes 
+for Pancreatic Cancer Risk.
+
+Pancreatic cancer is among the most well-characterized cancer types, yet a large 
+proportion of the heritability of pancreatic cancer risk remains unclear. Here, 
+we performed a large transcriptome-wide association study to systematically 
+investigate associations between genetically predicted gene expression in normal 
+pancreas tissue and pancreatic cancer risk. Using data from 305 subjects of 
+mostly European descent in the Genotype-Tissue Expression Project, we built 
+comprehensive genetic models to predict normal pancreas tissue gene expression, 
+modifying the UTMOST (unified test for molecular signatures). These prediction 
+models were applied to the genetic data of 8,275 pancreatic cancer cases and 
+6,723 controls of European ancestry. Thirteen genes showed an association of 
+genetically predicted expression with pancreatic cancer risk at an FDR ≤ 0.05, 
+including seven previously reported genes (INHBA, SMC2, ABO, PDX1, RCCD1, CFDP1, 
+and PGAP3) and six novel genes not yet reported for pancreatic cancer risk 
+[6q27: SFT2D1 OR (95% confidence interval (CI), 1.54 (1.25-1.89); 13q12.13: 
+MTMR6 OR (95% CI), 0.78 (0.70-0.88); 14q24.3: ACOT2 OR (95% CI), 1.35 
+(1.17-1.56); 17q12: STARD3 OR (95% CI), 6.49 (2.96-14.27); 17q21.1: GSDMB OR 
+(95% CI), 1.94 (1.45-2.58); and 20p13: ADAM33 OR (95% CI): 1.41 (1.20-1.66)]. 
+The associations for 10 of these genes (SFT2D1, MTMR6, ACOT2, STARD3, GSDMB, 
+ADAM33, SMC2, RCCD1, CFDP1, and PGAP3) remained statistically significant even 
+after adjusting for risk SNPs identified in previous genome-wide association 
+study. Collectively, this analysis identified novel candidate susceptibility 
+genes for pancreatic cancer that warrant further investigation.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

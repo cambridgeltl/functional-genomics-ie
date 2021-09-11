@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Rotenone protects against β-cell apoptosis and attenuates type 1 diabetes 
+mellitus.
+
+Type 1 diabetes mellitus (T1DM) is caused by pancreatic β-cell dysfunction and 
+apoptosis, with consequent severe insulin deficiency. Thus, β-cell protection 
+may be a primary target in the treatment of T1DM. Evidence has demonstrated that 
+defective mitochondrial function plays an important role in pancreatic β-cell 
+dysfunction and apoptosis; however, the fundamental effect of mitochondrial 
+complex I action on β-cells and T1DM remains unclear. In the current study, the 
+pancreas protective effect of complex I inhibitor rotenone (ROT) and its 
+potential mechanism were assessed in a streptozotocin (STZ)-induced mouse model 
+of T1DM and in cultured mouse pancreatic β-cell line, Min6. ROT treatment 
+exerted a hypoglycemic effect, restored the insulin level, and decreased 
+inflammation and cell apoptosis in the pancreas. In vitro experiments also 
+showed that ROT decreased STZ- and inflammatory cytokines-induced β-cell 
+apoptosis. These protective effects were accompanied by attenuation of reactive 
+oxygen species, increased mitochondrial membrane potential, and upregulation of 
+transcriptional coactivator PPARα coactivator 1α (PGC-1α)-controlled 
+mitochondrial biogenesis. These findings suggest that mitochondrial complex I 
+inhibition may represent a promising strategy for β-cell protection in T1DM.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="885~889" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="907~915" text="pancreas" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="1010~1016" text="β-cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="857~866,890~899" text="decreased ... apoptosis" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E2" spans="1002~1009,1018~1027" text="induced ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E3" spans="960~969,1002~1009,1018~1027" text="decreased ... induced ... apoptosis" phenotype="apoptosis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

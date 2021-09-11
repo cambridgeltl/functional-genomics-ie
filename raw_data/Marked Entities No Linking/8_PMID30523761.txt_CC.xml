@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TLR4 (toll-like receptor 4) activation suppresses autophagy through inhibition 
+of FOXO3 and impairs phagocytic capacity of microglia.
+
+Macroautophagy/autophagy is a lysosome-dependent catabolic process for the 
+turnover of proteins and organelles in eukaryotes. Autophagy plays an important 
+role in immunity and inflammation, as well as metabolism and cell survival. 
+Diverse immune and inflammatory signals induce autophagy in macrophages through 
+pattern recognition receptors, such as toll-like receptors (TLRs). However, the 
+physiological role of autophagy and its signaling mechanisms in microglia remain 
+poorly understood. Microglia are phagocytic immune cells that are resident in 
+the central nervous system and share many characteristics with macrophages. 
+Here, we show that autophagic flux and expression of autophagy-related (Atg) 
+genes in microglia are significantly suppressed upon TLR4 activation by 
+lipopolysaccharide (LPS), in contrast to their stimulation by LPS in 
+macrophages. Metabolomics analysis of the levels of phosphatidylinositol 
+(PtdIns) and its 3-phosphorylated form, PtdIns3P, in combination with 
+bioinformatics prediction, revealed an LPS-induced reduction in the synthesis of 
+PtdIns and PtdIns3P in microglia but not macrophages. Interestingly, inhibition 
+of PI3K, but not MTOR or MAPK1/3, restored autophagic flux with concomitant 
+dephosphorylation and nuclear translocation of FOXO3. A constitutively active 
+form of FOXO3 also induced autophagy, suggesting FOXO3 as a downstream target of 
+the PI3K pathway for autophagy inhibition. LPS treatment impaired phagocytic 
+capacity of microglia, including MAP1LC3B/LC3-associated phagocytosis (LAP) and 
+amyloid β (Aβ) clearance. PI3K inhibition restored LAP and degradation capacity 
+of microglia against Aβ. These findings suggest a unique mechanism for the 
+regulation of microglial autophagy and point to the PI3K-FOXO3 pathway as a 
+potential therapeutic target to regulate microglial function in brain disorders. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1287~1306" text="inhibition  of PI3K" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1430~1468" text="A constitutively active  form of FOXO3" description="knock in" />
+<PERTURBING_ACTION id="P2" spans="1722~1737" text="PI3K inhibition" description="pharmacological inhibition" />
+<EFFECT id="E0" spans="1333~1357" text="restored autophagic flux" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="1474~1491" text="induced autophagy" phenotype="autophagy" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

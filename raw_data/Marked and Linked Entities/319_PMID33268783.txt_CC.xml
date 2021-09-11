@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LncRNA LINC00998 inhibits the malignant glioma phenotype via the CBX3-mediated 
+c-Met/Akt/mTOR axis.
+
+Long noncoding RNAs (lncRNAs), once considered to be nonfunctional relics of 
+evolution, are emerging as essential genes in tumor progression. However, the 
+function and underlying mechanisms of lncRNAs in glioma remain unclear. This 
+study aimed to investigate the role of LINC00998 in glioma progression. Through 
+screening using TCGA database, we found that LINC00998 was downregulated in 
+glioblastoma tissues and that low expression of LINC00998 was associated with 
+poor prognosis. Overexpression of LINC00998 inhibited glioma cell proliferation 
+in vitro and in vivo and blocked the G1/S cell cycle transition, which exerted a 
+tumor-suppressive effect on glioma progression. Mechanistically, RNA pull-down 
+and mass spectrometry results showed an interaction between LINC00998 and CBX3. 
+IP assays demonstrated that LINC00998 could stabilize CBX3 and prevent its 
+ubiquitination degradation. GSEA indicated that LINC00998 could regulate the 
+c-Met/Akt/mTOR signaling pathway, which was further confirmed by a rescue assay 
+using siRNA-mediated knockdown of CBX3 and the Akt inhibitor MK2206. In 
+addition, dual-luciferase assays showed that miR-34c-5p could directly bind to 
+LINC00998 and downregulate its expression. Our results identified LINC00998 as a 
+novel tumor suppressor in glioma, and LINC00998 could be a novel prognostic 
+biomarker, providing a strategy for precision therapy in glioma patients.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="590~617" text="Overexpression of LINC00998" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="1139~1171" text="siRNA-mediated knockdown of CBX3" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1180~1200" text="Akt inhibitor MK2206" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="628~639,655~663" text="glioma cell ... in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="628~639,668~675" text="glioma cell ... in vivo" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="765~771" text="glioma" experiment_type="tumour" species="not stated" />
+<EFFECT id="E1" spans="618~627,640~653" text="inhibited ... proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E2" spans="680~718" text="blocked the G1/S cell cycle transition" phenotype="cell cycle arrest" activity="causes" />
+<EFFECT id="E3" spans="737~761" text="tumor-suppressive effect" phenotype="tumourigenesis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Overexpression of LINC00998" contextID="C0" contextText="glioma cell ... in vitro" effectID="E1" effectText="inhibited ... proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Overexpression of LINC00998" contextID="C1" contextText="glioma cell ... in vivo" effectID="E1" effectText="inhibited ... proliferation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="Overexpression of LINC00998" contextID="C2" contextText="glioma" effectID="E3" effectText="tumor-suppressive effect" />
+</TAGS>
+</Genomics_ConceptTask>

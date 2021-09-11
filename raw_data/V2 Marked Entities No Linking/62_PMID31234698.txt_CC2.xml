@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagic death of neural stem cells mediates chronic stress-induced decline of 
+adult hippocampal neurogenesis and cognitive deficits.
+
+Macroautophagy/autophagy is generally regarded as a cytoprotective mechanism, 
+and it remains a matter of controversy whether autophagy can cause cell death in 
+mammals. Here, we show that chronic restraint stress suppresses adult 
+hippocampal neurogenesis in mice by inducing autophagic cell death (ACD) of 
+hippocampal neural stem cells (NSCs). We generated NSC-specific, inducible Atg7 
+conditional knockout mice and found that they had an intact number of NSCs and 
+neurogenesis level under chronic restraint stress and were resilient to stress- 
+or corticosterone-induced cognitive and mood deficits. Corticosterone treatment 
+of adult hippocampal NSC cultures induced ACD via SGK3 (serum/glucocorticoid 
+regulated kinase 3) without signs of apoptosis. Our results demonstrate that ACD 
+is biologically important in a mammalian system in vivo and would be an 
+attractive target for therapeutic intervention for psychological stress-induced 
+disorders.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P2" spans="498~548" text="NSC-specific, inducible Atg7  conditional knockout" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="549~553" text="mice" context="organism" />
+<CONTEXT id="C1" spans="773~803" text="adult hippocampal NSC cultures" context="cells" />
+<PHENOTYPE id="PH0" spans="885~894" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="868~881" text="without signs" effect="no effect" />
+</TAGS>
+</Genomics_ConceptTask>

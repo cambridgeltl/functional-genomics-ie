@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Exploiting Preexisting Immunity to Enhance Oncolytic Cancer Immunotherapy.
+
+Because of the high coverage of international vaccination programs, most people 
+worldwide have been vaccinated against common pathogens, leading to acquired 
+pathogen-specific immunity with a robust memory T-cell repertoire. Although CD8+ 
+antitumor cytotoxic T lymphocytes (CTL) are the preferred effectors of cancer 
+immunotherapy, CD4+ T-cell help is also required for an optimal antitumor immune 
+response to occur. Hence, we investigated whether the pathogen-related CD4+ 
+T-cell memory populations could be reengaged to support the CTLs, converting a 
+weak primary antitumor immune response into a stronger secondary one. To this 
+end, we used our PeptiCRAd technology that consists of an oncolytic adenovirus 
+coated with MHC-I-restricted tumor-specific peptides and developed it further by 
+introducing pathogen-specific MHC-II-restricted peptides. Mice preimmunized with 
+tetanus vaccine were challenged with B16.OVA tumors and treated with the newly 
+developed hybrid TT-OVA-PeptiCRAd containing both tetanus toxoid- and 
+tumor-specific peptides. Treatment with the hybrid PeptiCRAd significantly 
+enhanced antitumor efficacy and induced TT-specific, CD40 ligand-expressing CD4+ 
+T helper cells and maturation of antigen-presenting cells. Importantly, this 
+approach could be extended to naturally occurring tumor peptides (both 
+tumor-associated antigens and neoantigens), as well as to other pathogens beyond 
+tetanus, highlighting the usefulness of this technique to take full advantage of 
+CD4+ memory T-cell repertoires when designing immunotherapeutic treatment 
+regimens. Finally, the antitumor effect was even more prominent when combined 
+with the immune checkpoint inhibitor anti-PD-1, str]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="934~938" text="Mice" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

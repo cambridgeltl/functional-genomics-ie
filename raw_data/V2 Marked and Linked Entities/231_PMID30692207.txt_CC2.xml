@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A ZNRF3-dependent Wnt/β-catenin signaling gradient is required for adrenal 
+homeostasis.
+
+Spatiotemporal control of Wnt signaling is essential for the development and 
+homeostasis of many tissues. The transmembrane E3 ubiquitin ligases ZNRF3 (zinc 
+and ring finger 3) and RNF43 (ring finger protein 43) antagonize Wnt signaling 
+by promoting degradation of frizzled receptors. ZNRF3 and RNF43 are frequently 
+inactivated in human cancer, but the molecular and therapeutic implications 
+remain unclear. Here, we demonstrate that adrenocortical-specific loss of ZNRF3, 
+but not RNF43, results in adrenal hyperplasia that depends on Porcupine-mediated 
+Wnt ligand secretion. Furthermore, we discovered a Wnt/β-catenin signaling 
+gradient in the adrenal cortex that is disrupted upon loss of ZNRF3. Unlike 
+β-catenin gain-of-function models, which induce high Wnt/β-catenin activation 
+and expansion of the peripheral cortex, ZNRF3 loss triggers activation of 
+moderate-level Wnt/β-catenin signaling that drives proliferative expansion of 
+only the histologically and functionally distinct inner cortex. Genetically 
+reducing β-catenin dosage significantly reverses the ZNRF3-deficient phenotype. 
+Thus, homeostatic maintenance of the adrenal cortex is dependent on varying 
+levels of Wnt/β-catenin activation, which is regulated by ZNRF3.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="528~565" text="adrenocortical-specific loss of ZNRF3" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="780~793" text="loss of ZNRF3" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="922~932" text="ZNRF3 loss" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="1166~1181" text="ZNRF3-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="1086~1098" text="inner cortex" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="1008~1031" text="proliferative expansion" phenotype="proliferation" />
+<EFFECT id="E0" spans="1001~1007" text="drives" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="ZNRF3 loss" effectID="E0" effectText="drives" phenotypeID="PH0" phenotypeText="proliferative expansion" contextID="C0" contextText="inner cortex" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[mPGES-1-derived prostaglandin E2 stimulates Stat3 to promote podocyte apoptosis.
+
+We previously reported that microsomal prostaglandin E synthase-1 (mPGES-1) 
+contributed to adriamycin (Adr)-induced podocyte apoptosis. However, the 
+molecular mechanism remains unclear. Here we studied the role of mPGES-1/PGE2 
+cascade in activating Stat3 signaling and the contribution of Stat3 in PGE2- and 
+Adr-induced podocyte apoptosis. In murine podocytes, PGE2 dose- and 
+time-dependently increased the phosphorylation of Stat3 in line with the 
+enhanced cell apoptosis and reduced podocyte protein podocin. In agreement with 
+the increased Stat3 phosphorylation, Stat3-derived cytokines including IL-6, 
+IL-17, MCP-1, and ICAM-1 were significantly upregulated following PGE2 
+treatment. By application of a specific Stat3 inhibitor S3I-201, PGE2-induced 
+podocyte apoptosis was largely abolished in parallel with a blockade of podocin 
+reduction. Next, we observed that Adr treatment also enhanced p-Stat3 and 
+activated mPGES-1/PGE2 cascade. Blockade of Stat3 by S3I-201 significantly 
+ameliorated Adr-induced cell apoptosis and podocin reduction. More 
+interestingly, silencing mPGES-1 in podocytes by mPGES-1 siRNA blocked 
+Adr-induced increments of Stat-3 phosphorylation, PGE2 production, and 
+Stat3-derived inflammatory cytokines. Taken together, this study suggested that 
+mPGES-1-derived PGE2 could activate Stat3 signaling to promote podocyte 
+apoptosis. Targeting mPGES-1/PGE2/Stat3 signaling might be a potential strategy 
+for the treatment of podocytopathy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1035~1063" text="Blockade of Stat3 by S3I-201" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1162~1179,1193~1209" text="silencing mPGES-1 ... by mPGES-1 siRNA" description="knock down" />
+<CONTEXT id="C0" spans="429~445" text="murine podocytes" experiment_type="cells" species="mouse" />
+<CONTEXT id="C1" spans="546~550" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="573~581" text="podocyte" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="847~855" text="podocyte" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1103~1107" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1183~1192" text="podocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C7" spans="1435~1443" text="podocyte" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="537~545,551~560" text="enhanced ... apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E1" spans="838~845,856~865" text="induced ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E2" spans="1079~1090,1095~1102,1108~1117" text="ameliorated ... induced ... apoptosis" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E3" spans="1427~1434,1445~1454" text="promote ... apoptosis" phenotype="apoptosis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Blockade of Stat3 by S3I-201" contextID="C4" contextText="cell" effectID="E2" effectText="ameliorated ... induced ... apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Widespread transcriptional pausing and elongation control at enhancers.
+
+Regulation by gene-distal enhancers is critical for cell type-specific and 
+condition-specific patterns of gene expression. Thus, to understand the basis of 
+gene activity in a given cell type or tissue, we must identify the precise 
+locations of enhancers and functionally characterize their behaviors. Here, we 
+demonstrate that transcription is a nearly universal feature of enhancers in 
+Drosophila and mammalian cells and that nascent RNA sequencing strategies are 
+optimal for identification of both enhancers and superenhancers. We dissect the 
+mechanisms governing enhancer transcription and discover remarkable similarities 
+to transcription at protein-coding genes. We show that RNA polymerase II 
+(RNAPII) undergoes regulated pausing and release at enhancers. However, as 
+compared with mRNA genes, RNAPII at enhancers is less stable and more prone to 
+early termination. Furthermore, we found that the level of histone H3 Lys4 
+(H3K4) methylation at enhancers corresponds to transcriptional activity such 
+that highly active enhancers display H3K4 trimethylation rather than the H3K4 
+monomethylation considered a hallmark of enhancers. Finally, our work provides 
+insights into the unique characteristics of superenhancers, which stimulate 
+high-level gene expression through rapid pause release; interestingly, this 
+property renders associated genes resistant to the loss of factors that 
+stabilize paused RNAPII.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

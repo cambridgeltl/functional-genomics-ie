@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ATDC is required for the initiation of KRAS-induced pancreatic tumorigenesis.
+
+Pancreatic adenocarcinoma (PDA) is an aggressive disease driven by oncogenic 
+KRAS and characterized by late diagnosis and therapeutic resistance. Here we 
+show that deletion of the ataxia-telangiectasia group D-complementing (Atdc) 
+gene, whose human homolog is up-regulated in the majority of pancreatic 
+adenocarcinoma, completely prevents PDA development in the context of oncogenic 
+KRAS. ATDC is required for KRAS-driven acinar-ductal metaplasia (ADM) and its 
+progression to pancreatic intraepithelial neoplasia (PanIN). As a result, mice 
+lacking ATDC are protected from developing PDA. Mechanistically, we show ATDC 
+promotes ADM progression to PanIN through activation of β-catenin signaling and 
+subsequent SOX9 up-regulation. These results provide new insight into PDA 
+initiation and reveal ATDC as a potential target for preventing early 
+tumor-initiating events.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="245~317" text="deletion of the ataxia-telangiectasia group D-complementing (Atdc)  gene" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="626~638" text="lacking ATDC" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C1" spans="620~624" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

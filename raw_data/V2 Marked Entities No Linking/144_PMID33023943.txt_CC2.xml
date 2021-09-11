@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Novel Inhibitor of HSP70 Induces Mitochondrial Toxicity and Immune Cell 
+Recruitment in Tumors.
+
+The protein chaperone HSP70 is overexpressed in many cancers including 
+colorectal cancer, where overexpression is associated with poor survival. We 
+report here the creation of a uniquely acting HSP70 inhibitor (HSP70i) that 
+targets multiple compartments in the cancer cell, including mitochondria. This 
+inhibitor was mitochondria toxic and cytotoxic to colorectal cancer cells, but 
+not to normal colon epithelial cells. Inhibition of HSP70 was efficacious as a 
+single agent in primary and metastatic models of colorectal cancer and enabled 
+identification of novel mitochondrial client proteins for HSP70. In a syngeneic 
+colorectal cancer model, the inhibitor increased immune cell recruitment into 
+tumors. Cells treated with the inhibitor secreted danger-associated molecular 
+patterns (DAMP), including ATP and HMGB1, and functioned effectively as a tumor 
+vaccine. Interestingly, the unique properties of this HSP70i in the disruption 
+of mitochondrial function and the inhibition of proteostasis both contributed to 
+DAMP release. This HSP70i constitutes a promising therapeutic opportunity in 
+colorectal cancer and may exhibit antitumor activity against other tumor types. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="524~543" text="Inhibition of HSP70" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="456~479" text="colorectal cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="493~522" text="normal colon epithelial cells" context="cells" />
+<CONTEXT id="C2" spans="582~632" text="primary and metastatic models of colorectal cancer" context="neoplasm" />
+<CONTEXT id="C3" spans="716~750" text="syngeneic  colorectal cancer model" context="neoplasm" />
+<CONTEXT id="C4" spans="814~819" text="Cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

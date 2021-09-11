@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Ablation of the Brca1-Palb2 Interaction Phenocopies Fanconi Anemia in Mice.
+
+Heterozygous mutations in the BRCA1 gene predispose women to breast and ovarian 
+cancer, while biallelic BRCA1 mutations are a cause of Fanconi anemia (FA), a 
+rare genetic disorder characterized by developmental abnormalities, early-onset 
+bone marrow failure, increased risk of cancers, and hypersensitivity to 
+DNA-crosslinking agents. BRCA1 is critical for homologous recombination of DNA 
+double-strand breaks (DSB). Through its coiled-coil domain, BRCA1 interacts with 
+an essential partner, PALB2, recruiting BRCA2 and RAD51 to sites of DNA damage. 
+Missense mutations within the coiled-coil domain of BRCA1 (e.g., L1407P) that 
+affect the interaction with PALB2 have been reported in familial breast cancer. 
+We hypothesized that if PALB2 regulates or mediates BRCA1 tumor suppressor 
+function, ablation of the BRCA1-PALB2 interaction may also elicit genomic 
+instability and tumor susceptibility. We generated mice defective for the 
+Brca1-Palb2 interaction (Brca1 L1363P in mice) and established MEF cells from 
+these mice. Brca1 L1363P/L1363P MEF exhibited hypersensitivity to DNA-damaging 
+agents and failed to recruit Rad51 to DSB. Brca1 L1363P/L1363P mice were viable 
+but exhibited various FA symptoms including growth retardation, 
+hyperpigmentation, skeletal abnormalities, and male/female infertility. 
+Furthermore, all Brca1 L1363P/L1363P mice exhibited macrocytosis and died due to 
+bone marrow failure or lymphoblastic lymphoma/leukemia with activating Notch1 
+mutations. These phenotypes closely recapitulate clinical features observed in 
+patients with FA. Collectively, this model effectively demonstrates the 
+significance of the BRCA1-PALB2 interaction in genome integrity and provides an 
+FA model to investigate hematopoietic stem cells for mechanisms underlying 
+progressive failure of hematopoiesis and associated development of 
+leukemia/lymphoma, and other FA phenotypes.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="996~1000" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1083~1092" text="MEF cells" context="cells" />
+<CONTEXT id="C2" spans="1105~1109" text="mice" context="organism" />
+<CONTEXT id="C3" spans="1435~1439" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

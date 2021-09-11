@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[N(6)-methyladenosine METTL3 promotes cervical cancer tumorigenesis and Warburg 
+effect through YTHDF1/HK2 modification.
+
+N6-methyladenosine (m6A) serves as the most common and conserved internal 
+transcriptional modification. However, the roles of m6A on cervical cancer (CC) 
+tumorigenesis are still unclear. Here, results indicated that METTL3 was 
+significantly upregulated in CC tissue and cells, which was closely correlated 
+with the lymph node metastasis and poor prognosis of CC patients. MeRIP-Seq 
+analysis revealed the m6A profiles in CC cells. Functionally, METTL3 promoted 
+the proliferation and Warburg effect (aerobic glycolysis) of CC cells. 
+Mechanistically, METTL3 targeted the 3'-Untranslated Region (3'-UTR) of 
+hexokinase 2 (HK2) mRNA. Moreover, METTL3 recruited YTHDF1, a m6A reader, to 
+enhance HK2 stability. These findings demonstrated that METTL3 enhanced the HK2 
+stability through YTHDF1-mediated m6A modification, thereby promoting the 
+Warburg effect of CC, which might promote a novel insight for the CC treatment.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="648~656" text="CC cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="577~604" text="promoted  the proliferation" phenotype="proliferation" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

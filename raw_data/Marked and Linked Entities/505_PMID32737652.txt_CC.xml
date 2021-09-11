@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BAX-dependent mitochondrial pathway mediates the crosstalk between ferroptosis 
+and apoptosis.
+
+Ferroptosis is considered a distinctive form of cell death compared to other 
+types of death such as apoptosis. It is known to result from iron-dependent 
+accumulation of lipid peroxides rather than caspase activation. However, we 
+reported recently that ferroptosis interplays with apoptosis. In this study, we 
+investigated a possible mechanism of this interplay between ferroptosis and 
+apoptosis. Results from our studies reveal that combined treatment of the 
+ferroptotic agent erastin and the apoptotic agent TRAIL effectively disrupted 
+mitochondrial membrane potential (ΔΨm) and subsequently promoted caspase 
+activation. The alterations of mitochondrial membrane potential are probably due 
+to an increase in oligomerization of BAX and its accumulation at the 
+mitochondria during treatment with erastin and TRAIL. Interestingly, the 
+combined treatment-promoted apoptosis was effectively inhibited in BAX-deficient 
+HCT116 cells, but not BAK-deficient cells. These results indicate that the 
+BAX-associated mitochondria-dependent pathway plays a pivotal role in 
+erastin-enhanced TRAIL-induced apoptosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1007~1020" text="BAX-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="1044~1057" text="BAK-deficient" description="decreased expression level" />
+<CONTEXT id="C0" spans="1022~1034" text="HCT116 cells" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C1" spans="1058~1063" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="959~977" text="promoted apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E1" spans="959~981,994~1003" text="promoted apoptosis was ... inhibited" phenotype="apoptosis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="BAX-deficient" contextID="C0" contextText="HCT116 cells" effectID="E1" effectText="promoted apoptosis was ... inhibited" />
+</TAGS>
+</Genomics_ConceptTask>

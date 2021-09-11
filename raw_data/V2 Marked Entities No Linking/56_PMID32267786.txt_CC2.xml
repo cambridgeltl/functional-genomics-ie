@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy suppresses breast cancer metastasis by degrading NBR1.
+
+Macroautophagy/autophagy plays complex, context-dependent roles in cancer. How 
+autophagy governs the emergence of metastatic disease has been incompletely 
+understood. We recently uncovered that genetic autophagy inhibition strongly 
+attenuates primary tumor growth in mammary cancer models, yet paradoxically 
+promotes spontaneous metastasis to the lung and enables the outgrowth of 
+disseminated tumor cells (DTCs) into overt macro-metastases. Furthermore, at 
+both primary and metastatic sites, genetic autophagy inhibition leads to the 
+marked expansion of tumor cells exhibiting aggressive and pro-metastatic basal 
+epithelial differentiation. These pro-metastatic effects of autophagy inhibition 
+are due to the cytosolic accumulation of the autophagy cargo receptor NBR1 in 
+autophagy-deficient tumor cells.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="336~357" text="mammary cancer models" context="neoplasm" />
+<CONTEXT id="C1" spans="628~639" text="tumor cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="320~332" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH1" spans="399~409" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="495~511" text="macro-metastases" phenotype="metastasis" />
+<PHENOTYPE id="PH3" spans="615~624" text="expansion" phenotype="proliferation" />
+<EFFECT id="E0" spans="301~311" text="attenuates" effect="negative" />
+<EFFECT id="E1" spans="378~386" text="promotes" effect="positive" />
+<EFFECT id="E2" spans="426~433" text="enables" effect="positive" />
+<EFFECT id="E3" spans="594~602" text="leads to" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Induction of AP-1 by YAP/TAZ contributes to cell proliferation and organ growth.
+
+Yes-associated protein (YAP) and its homolog transcriptional coactivator with 
+PDZ-binding motif (TAZ) are key effectors of the Hippo pathway to control cell 
+growth and organ size, of which dysregulation yields to tumorigenesis or 
+hypertrophy. Upon activation, YAP/TAZ translocate into the nucleus and bind to 
+TEAD transcription factors to promote transcriptional programs for proliferation 
+or cell specification. Immediate early genes, represented by AP-1 complex, are 
+rapidly induced and control later-phase transcriptional program to play key 
+roles in tumorigenesis and organ maintenance. Here, we report that YAP/TAZ 
+directly promote FOS transcription that in turn contributes to the biological 
+function of YAP/TAZ. YAP/TAZ bind to the promoter region of FOS to stimulate its 
+transcription. Deletion of YAP/TAZ blocks the induction of immediate early genes 
+in response to mitogenic stimuli. FOS induction contributes to expression of 
+YAP/TAZ downstream target genes. Genetic deletion or chemical inhibition of AP-1 
+suppresses growth of YAP-driven cancer cells, such as Lats1/2-deficient cancer 
+cells as well as Gαq/11 mutated uveal melanoma. Furthermore, AP-1 inhibition 
+almost completely abrogates the hepatomegaly induced by YAP overexpression. Our 
+findings reveal a feed-forward interplay between immediate early transcription 
+of AP-1 and Hippo pathway function.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="886~905" text="Deletion of YAP/TAZ" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1064~1080,1104~1111" text="Genetic deletion ... of AP-1" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1084~1111" text="chemical inhibition of AP-1" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1167~1184" text="Lats1/2-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="1210~1224" text="Gαq/11 mutated" description="other" />
+<PERTURBING_ACTION id="P5" spans="1254~1269" text="AP-1 inhibition" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P6" spans="1327~1345" text="YAP overexpression" description="increased expression level" />
+<CONTEXT id="C0" spans="1134~1157" text="YAP-driven cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1185~1198" text="cancer  cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1225~1239" text="uveal melanoma" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="1113~1130" text="suppresses growth" phenotype="cell growth" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Genetic deletion ... of AP-1" effectID="E0" effectText="suppresses growth" contextID="C0" contextText="YAP-driven cancer cells" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="chemical inhibition of AP-1" contextID="C0" contextText="YAP-driven cancer cells" effectID="E0" effectText="suppresses growth" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="Genetic deletion ... of AP-1" effectID="E0" effectText="suppresses growth" contextID="C1" contextText="cancer  cells" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P2" perturbing_actionText="chemical inhibition of AP-1" effectID="E0" effectText="suppresses growth" contextID="C1" contextText="cancer  cells" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P1" perturbing_actionText="Genetic deletion ... of AP-1" contextID="C2" contextText="uveal melanoma" effectID="E0" effectText="suppresses growth" />
+<ENTITY_LINKING id="EN5" effectID="E0" effectText="suppresses growth" contextID="C2" contextText="uveal melanoma" perturbing_actionID="P2" perturbing_actionText="chemical inhibition of AP-1" />
+</TAGS>
+</Genomics_ConceptTask>

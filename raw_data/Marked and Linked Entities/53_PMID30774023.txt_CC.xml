@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SIRT3 promotes antimycobacterial defenses by coordinating mitochondrial and 
+autophagic functions.
+
+SIRT3 (sirtuin 3), a mitochondrial protein deacetylase, maintains respiratory 
+function, but its role in the regulation of innate immune defense is largely 
+unknown. Herein, we show that SIRT3 coordinates mitochondrial function and 
+macroautophagy/autophagy activation to promote anti-mycobacterial responses 
+through PPARA (peroxisome proliferator activated receptor alpha). SIRT3 
+deficiency enhanced inflammatory responses and mitochondrial dysfunction, 
+leading to defective host defense and pathological inflammation during 
+mycobacterial infection. Antibody-mediated depletion of polymorphonuclear 
+neutrophils significantly increased protection against mycobacterial infection 
+in sirt3-/- mice. In addition, mitochondrial oxidative stress promoted excessive 
+inflammation induced by Mycobacterium tuberculosis infection in sirt3-/- 
+macrophages. Notably, SIRT3 was essential for the enhancement of PPARA, a key 
+regulator of mitochondrial homeostasis and autophagy activation in the context 
+of infection. Importantly, overexpression of either PPARA or TFEB (transcription 
+factor EB) in sirt3-/- macrophages recovered antimicrobial activity through 
+autophagy activation. Furthermore, pharmacological activation of SIRT3 enhanced 
+antibacterial autophagy and functional mitochondrial pools during mycobacterial 
+infection. Finally, the levels of SIRT3 and PPARA were downregulated and 
+inversely correlated with TNF (tumor necrosis factor) levels in peripheral blood 
+mononuclear cells from tuberculosis patients. Collectively, these data 
+demonstrate a previously unappreciated function of SIRT3 in orchestrating 
+mitochondrial and autophagic functions to promote antimycobacterial responses. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="476~493" text="SIRT3  deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="788~796" text="sirt3-/-" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="931~939" text="sirt3-/-" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1127~1144,1152~1157" text="overexpression of ... PPARA" description="increased expression level" />
+<PERTURBING_ACTION id="P5" spans="1196~1204" text="sirt3-/-" description="knock out" />
+<PERTURBING_ACTION id="P6" spans="1127~1144,1161~1192" text="overexpression of ... TFEB (transcription  factor EB)" description="increased expression level" />
+<PERTURBING_ACTION id="P7" spans="1294~1329" text="pharmacological activation of SIRT3" description="other" />
+<CONTEXT id="C0" spans="797~801" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="941~952" text="macrophages" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1205~1216" text="macrophages" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="348~368" text="autophagy activation" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="1259~1279" text="autophagy activation" phenotype="autophagy" activity="causes" />
+<EFFECT id="E2" spans="1330~1363" text="enhanced  antibacterial autophagy" phenotype="autophagy" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="overexpression of ... PPARA" contextID="C2" contextText="macrophages" effectID="E1" effectText="autophagy activation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P6" perturbing_actionText="overexpression of ... TFEB (transcription  factor EB)" contextID="C2" contextText="macrophages" effectID="E1" effectText="autophagy activation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Circular RNA circHIPK3 modulates autophagy via MIR124-3p-STAT3-PRKAA/AMPKα 
+signaling in STK11 mutant lung cancer.
+
+The role of circular RNA in cancer is emerging. A newly reported circular RNA 
+HIPK3 (circHIPK3) is critical in cell proliferation of various cancer types, 
+although its role in non-small cell lung cancer (NSCLC), has yet to be 
+elucidated. Our results provided evidence that silencing of circHIPK3 
+significantly impaired cell proliferation, migration, invasion and induced 
+macroautophagy/autophagy. Mechanistically, we uncovered that autophagy was 
+induced upon loss of circHIPK3 via the MIR124-3p-STAT3-PRKAA/AMPKa axis in STK11 
+mutant lung cancer cell lines (A549 and H838). STAT3 abrogation as well as 
+transfection with a MIR124-3p mimic, recapitulated the induction of autophagy. 
+We also demonstrated antagonistic regulation on autophagy between circHIPK3 and 
+linear HIPK3 (linHIPK3). We therefore propose that the ratio between circHIPK3 
+and linHIPK3 (C:L ratio) may reflect autophagy levels in cancer cells. We 
+observed that a high C:L ratio (>0.49) was an indicator of poor survival, 
+especially in advanced-stage NSCLC patients. These results support that 
+circHIPK3 is a key autophagy regulator in a subset of lung cancer and has 
+potential clinical use as a prognostic factor. The circular RNA HIPK3 
+(circHIPK3) functions as an oncogene and autophagy regulator may potential use 
+as a prognostic marker and therapeutic target in lung cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="392~414" text="silencing of circHIPK3" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="581~598" text="loss of circHIPK3" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="697~713" text="STAT3 abrogation" description="decreased expression level" />
+<PERTURBING_ACTION id="P3" spans="726~761" text="transfection with a MIR124-3p mimic" description="plasmid vector" />
+<CONTEXT id="C0" spans="439~443" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="643~695" text="STK11  mutant lung cancer cell lines (A549 and H838)" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="430~438,444~457" text="impaired ... proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E1" spans="430~438,459~468" text="impaired ... migration" phenotype="migration" activity="inhibits" />
+<EFFECT id="E2" spans="430~438,470~478" text="impaired ... invasion" phenotype="invasion" activity="inhibits" />
+<EFFECT id="E3" spans="483~490,507~516" text="induced ... autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E4" spans="553~575" text="autophagy was  induced" phenotype="autophagy" activity="causes" />
+<EFFECT id="E5" spans="781~803" text="induction of autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E6" spans="840~863" text="regulation on autophagy" phenotype="autophagy" activity="regulates" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="silencing of circHIPK3" contextID="C0" contextText="cell" effectID="E0" effectText="impaired ... proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="silencing of circHIPK3" contextID="C0" contextText="cell" effectID="E1" effectText="impaired ... migration" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="silencing of circHIPK3" contextID="C0" contextText="cell" effectID="E2" effectText="impaired ... invasion" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="silencing of circHIPK3" contextID="C0" contextText="cell" effectID="E3" effectText="induced ... autophagy" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P1" perturbing_actionText="loss of circHIPK3" contextID="C1" contextText="STK11  mutant lung cancer cell lines (A549 and H838)" effectID="E4" effectText="autophagy was  induced" />
+</TAGS>
+</Genomics_ConceptTask>

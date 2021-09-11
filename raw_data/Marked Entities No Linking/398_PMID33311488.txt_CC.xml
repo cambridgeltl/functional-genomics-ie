@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Intravenous injection of the oncolytic virus M1 awakens antitumor T cells and 
+overcomes resistance to checkpoint blockade.
+
+Reversing the highly immunosuppressive tumor microenvironment (TME) is essential 
+to achieve long-term efficacy with cancer immunotherapy. Despite the impressive 
+clinical response to checkpoint blockade in multiple types of cancer, only a 
+minority of patients benefit from this approach. Here, we report that the 
+oncolytic virus M1 induces immunogenic tumor cell death and subsequently 
+restores the ability of dendritic cells to prime antitumor T cells. Intravenous 
+injection of M1 disrupts immune tolerance in the privileged TME, reprogramming 
+immune-silent (cold) tumors into immune-inflamed (hot) tumors. M1 elicits potent 
+CD8+ T cell-dependent therapeutic effects and establishes long-term antitumor 
+immune memory in poorly immunogenic tumor models. Pretreatment with M1 
+sensitizes refractory tumors to subsequent checkpoint blockade by boosting 
+T-cell recruitment and upregulating the expression of PD-L1. These findings 
+reveal the antitumor immunological mechanism of the M1 virus and indicated that 
+oncolytic viruses are ideal cotreatments for checkpoint blockade immunotherapy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="468~485" text="immunogenic tumor" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="539~554" text="dendritic cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="676~703" text="immune-silent (cold) tumors" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C3" spans="854~885" text="poorly immunogenic tumor models" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C4" spans="920~937" text="refractory tumors" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="460~467,486~496" text="induces ... cell death" phenotype="cell death" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

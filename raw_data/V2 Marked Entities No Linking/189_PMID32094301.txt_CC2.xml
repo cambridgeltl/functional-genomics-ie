@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[FGF Trapping Inhibits Multiple Myeloma Growth through c-Myc Degradation-Induced 
+Mitochondrial Oxidative Stress.
+
+Multiple myeloma, the second most common hematologic malignancy, frequently 
+relapses because of chemotherapeutic resistance. Fibroblast growth factors (FGF) 
+act as proangiogenic and mitogenic cytokines in multiple myeloma. Here, we 
+demonstrate that the autocrine FGF/FGFR axis is essential for multiple myeloma 
+cell survival and progression by protecting multiple myeloma cells from 
+oxidative stress-induced apoptosis. In keeping with the hypothesis that the 
+intracellular redox status can be a target for cancer therapy, FGF/FGFR blockade 
+by FGF trapping or tyrosine kinase inhibitor impaired the growth and 
+dissemination of multiple myeloma cells by inducing mitochondrial oxidative 
+stress, DNA damage, and apoptotic cell death that were prevented by the 
+antioxidant vitamin E or mitochondrial catalase overexpression. In addition, 
+mitochondrial oxidative stress occurred as a consequence of proteasomal 
+degradation of the c-Myc oncoprotein that led to glutathione depletion. 
+Accordingly, expression of a proteasome-nondegradable c-Myc protein mutant was 
+sufficient to avoid glutathione depletion and rescue the proapoptotic effects 
+due to FGF blockade. These findings were confirmed on bortezomib-resistant 
+multiple myeloma cells as well as on bone marrow-derived primary multiple 
+myeloma cells from newly diagnosed and relapsed/refractory patients, including 
+plasma cells bearing the t(4;14) translocation obtained from patients with 
+high-risk multiple myeloma. Altogether, these findings dissect the mechanism by 
+which the FGF/FGFR system plays a nonredundant role in multiple myeloma cell 
+survival and disease progression, and indicate that FGF targeting may represent 
+a therapeutic approach for patients with multiple myeloma with poor prognosis 
+and advanced disease stage.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1118~1179" text="expression of a proteasome-nondegradable c-Myc protein mutant" perturbingaction="other" />
+<CONTEXT id="C0" spans="748~770" text="multiple myeloma cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1318~1362" text="bortezomib-resistant  multiple myeloma cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1377~1428" text="bone marrow-derived primary multiple  myeloma cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1495~1507" text="plasma cells" context="cells" />
+<PHENOTYPE id="PH0" spans="832~852" text="apoptotic cell death" phenotype="apoptosis" />
+<EFFECT id="E0" spans="774~782" text="inducing" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

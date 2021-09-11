@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Exosomal arrow (Arr)/lipoprotein receptor protein 6 (LRP6) in Drosophila 
+melanogaster increases the extracellular level of Sol narae (Sona) in a 
+Wnt-independent manner.
+
+Wg/Wnt as a signaling protein binds to Frizzled (Fz) and Arrow (Arr), two Wg 
+co-receptors essential for Wg signaling for cell proliferation, differentiation, 
+and cell survival. Arr has a long extracellular region, a single transmembrane 
+domain and an intracellular region. Here, we report that a new arrm7 mutant is 
+identified in a genetic screen as a suppressor of lethality induced by 
+overexpression of Sol narae (Sona), a secreted metalloprotease in ADAMTS family 
+involved in Wg signaling. arrm7 allele has a premature stop codon, which encodes 
+Arrm7 protein missing the intracellular region. arrm7 clones show cell death 
+phenotype and overexpression of Arrm7 protein also induces cell death. Levels of 
+extracellular Sona were decreased in both arrm7 and arr2 null clones, 
+demonstrating that Arr increases the level of extracellular Sona. Indeed, Arr 
+but not Arrm7, increased levels of Sona in cytoplasm and exosome fraction by 
+inhibiting the lysosomal degradation pathway. Interestingly, Arr itself was 
+identified in the exosome fraction, demonstrating that Arr is secreted to 
+extracellular space. When Sona-expressing S2 cells were treated with exosomal 
+Arr, the extracellular level of active Sona was increased. These results show 
+that exosomal Arr dictates Sona-expressing cells to increase the level of 
+extracellular Sona. This new function of Arr occurred in the absence of Wg 
+because S2 cells do not express Wg. We propose that Arr plays two distinct 
+roles, one as an exosomal protein to increase the level of extracellular Sona in 
+a Wnt-independent manner and the other as a Wg co-receptor in a Wnt-dependent 
+manner.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="819~850" text="overexpression of Arrm7 protein" description="other" />
+<PERTURBING_ACTION id="P1" spans="775~780" text="arrm7" description="other" />
+<PERTURBING_ACTION id="P2" spans="929~934" text="arrm7" description="other" />
+<PERTURBING_ACTION id="P3" spans="939~948" text="arr2 null" description="knock out" />
+<CONTEXT id="C2" spans="1293~1317" text="Sona-expressing S2 cells" experiment_type="cells" species="fly" />
+<EFFECT id="E0" spans="788~814" text="show cell death  phenotype" phenotype="cell death" activity="not stated" />
+<EFFECT id="E1" spans="856~874" text="induces cell death" phenotype="cell death" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cell cycle arrest in mitosis promotes interferon-induced necroptosis.
+
+Resistance to apoptosis is a hallmark of cancer and deregulation of apoptosis 
+often leads to chemoresistance. Therefore, new approaches to target 
+apoptosis-resistant cancer cells are crucial for the development of directed 
+cancer therapies. In the present study, we investigated the effect of cell cycle 
+regulators on interferon (IFN)-induced necroptosis as an alternative cell death 
+mechanism to overcome apoptosis resistance. Here, we report a novel combination 
+treatment of IFNs with cell cycle arrest-inducing compounds that induce 
+necroptosis in apoptosis-resistant cancer cells and elucidate the underlying 
+molecular mechanisms. Combination treatment of IFNs (i.e. IFNβ) with inhibitors 
+of the cell cycle (e.g. vinorelbine (VNR), nocodazole (Noc), polo-like kinase-1 
+(Plk-1) inhibitor BI 6727) co-operate to induce necroptotic cell death upon 
+caspase inactivation. The mode of cell death was confirmed by pharmacological 
+inhibition and siRNA-mediated downregulation of the key necroptotic factors 
+receptor-interacting protein (RIP) kinase 3 (RIP3) and mixed-lineage kinase-like 
+(MLKL) in various cell lines. Mechanistically, we show that necroptosis upon 
+VNR/IFNβ/zVAD.fmk treatment is RIP1-independent but relies on IFNβ-induced gene 
+expression of Z-DNA-binding protein 1 (ZBP1) as shown by quantitative RT-PCR and 
+genetic knockdown experiments. Interestingly, we find that RIP3 is 
+phosphorylated in response to compounds that trigger mitotic arrest, even in the 
+absence of IFNβ signaling and necroptosis induction. Together, the 
+identification of a novel combination treatment that triggers necroptosis has 
+implications for the development of molecular-targeted therapies to circumvent 
+apoptosis resistance and point to an underestimated role of cell cycle 
+regulation in cell death signaling.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="993~1020,1116~1175" text="pharmacological  inhibition ... (RIP) kinase 3 (RIP3) and mixed-lineage kinase-like  (MLKL)" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1025~1054,1116~1175" text="siRNA-mediated downregulation ... (RIP) kinase 3 (RIP3) and mixed-lineage kinase-like  (MLKL)" description="knock down" />
+<CONTEXT id="C0" spans="629~661" text="apoptosis-resistant cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1187~1197" text="cell lines" experiment_type="cell line" species="not stated" />
+<EFFECT id="E0" spans="606~625" text="induce  necroptosis" phenotype="necroptosis" activity="causes" />
+<EFFECT id="E1" spans="895~924" text="induce necroptotic cell death" phenotype="necroptosis" activity="causes" />
+<EFFECT id="E2" spans="1229~1240" text="necroptosis" phenotype="necroptosis" activity="not stated" />
+<EFFECT id="E3" spans="1523~1545" text="trigger mitotic arrest" activity="causes" phenotype="cell cycle arrest" />
+</TAGS>
+</Genomics_ConceptTask>

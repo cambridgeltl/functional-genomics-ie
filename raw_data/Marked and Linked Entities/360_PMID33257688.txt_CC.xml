@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BRDT promotes ovarian cancer cell growth.
+
+Bromodomain testis-specific factor (BRDT) is a member of the bromodomain and 
+extra-terminal (BET) family proteins. Its expression and potential functions in 
+ovarian cancer were examined. We show that BRDT is overexpressed in human 
+ovarian cancer tissues and in established (CaOV3)/primary ovarian cancer cells. 
+However, its expression is low in ovarian epithelial tissues and cells. 
+Significantly, shRNA-induced silencing or CRISPR/Cas9-mediated knockout of BRDT 
+inhibited ovarian cancer cell growth, viability, proliferation and migration, 
+and induced significant apoptosis activation. Conversely, exogenous 
+overexpression of BRDT, by a lentiviral construct, augmented CaOV3 cell 
+proliferation and migration. In CaOV3 cells expression of two key BRDT target 
+genes, polo-like kinase 1 (PLK1) and aurora kinase C (AURKC), was downregulated 
+by BRDT shRNA or knockout, but upregulated with BRDT overexpression. In vivo, 
+xenograft tumors-derived from BRDT-knockout CaOV3 cells grew significantly 
+slower than control tumors in severe combined immunodeficient (SCID) mice. 
+Furthermore, intratumoral injection of BRDT shRNA lentivirus potently inhibited 
+the growth of primary ovarian cancer xenografts in SCID mice. Downregulation of 
+PLK1 and AURKC was detected in BRDT-knockout and BRDT-silenced tumor tissues. 
+Collectively, BRDT overexpression promotes ovarian cancer cell progression. 
+Targeting BRDT could be a novel strategy to treat ovarian cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="446~469,503~510" text="shRNA-induced silencing ... of BRDT" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="473~510" text="CRISPR/Cas9-mediated knockout of BRDT" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="649~709" text="exogenous  overexpression of BRDT, by a lentiviral construct" description="viral vector" />
+<PERTURBING_ACTION id="P3" spans="896~906" text="BRDT shRNA" description="knock down" />
+<PERTURBING_ACTION id="P4" spans="896~900,910~918" text="BRDT ... knockout" description="knock out" />
+<PERTURBING_ACTION id="P5" spans="941~960" text="BRDT overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P6" spans="1002~1015" text="BRDT-knockout" description="knock out" />
+<PERTURBING_ACTION id="P7" spans="1137~1184" text="intratumoral injection of BRDT shRNA lentivirus" description="knock down" />
+<PERTURBING_ACTION id="P8" spans="1317~1330" text="BRDT-knockout" description="knock out" />
+<PERTURBING_ACTION id="P9" spans="1335~1348" text="BRDT-silenced" description="knock down" />
+<PERTURBING_ACTION id="P10" spans="1379~1398" text="BRDT overexpression" description="increased expression level" />
+<CONTEXT id="C1" spans="522~541" text="ovarian cancer cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="721~731" text="CaOV3 cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="765~776" text="CaOV3 cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C6" spans="962~969,972~1001,1016~1027" text="In vivo ... xenograft tumors-derived from ... CaOV3 cells" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C7" spans="1078~1121" text="severe combined immunodeficient (SCID) mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C8" spans="1219~1265" text="primary ovarian cancer xenografts in SCID mice" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C9" spans="1349~1362" text="tumor tissues" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C10" spans="1408~1427" text="ovarian cancer cell" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="512~521,542~548" text="inhibited ... growth" phenotype="cell growth" activity="inhibits" />
+<EFFECT id="E1" spans="512~521,550~559" text="inhibited ... viability" phenotype="cell survival" activity="inhibits" />
+<EFFECT id="E2" spans="512~521,561~574" text="inhibited ... proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E3" spans="512~521,579~588" text="inhibited ... migration" phenotype="migration" activity="inhibits" />
+<EFFECT id="E4" spans="595~602,615~635" text="induced ... apoptosis activation" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E5" spans="711~720,733~746" text="augmented ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E6" spans="711~720,751~760" text="augmented ... migration" phenotype="migration" activity="increases" />
+<EFFECT id="E7" spans="1028~1054" text="grew significantly  slower" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E8" spans="1194~1215" text="inhibited  the growth" phenotype="cell growth" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="shRNA-induced silencing ... of BRDT" contextID="C1" contextText="ovarian cancer cell" effectID="E0" effectText="inhibited ... growth" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="shRNA-induced silencing ... of BRDT" contextID="C1" contextText="ovarian cancer cell" effectID="E1" effectText="inhibited ... viability" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="shRNA-induced silencing ... of BRDT" contextID="C1" contextText="ovarian cancer cell" effectID="E2" effectText="inhibited ... proliferation" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="shRNA-induced silencing ... of BRDT" contextID="C1" contextText="ovarian cancer cell" effectID="E3" effectText="inhibited ... migration" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P0" perturbing_actionText="shRNA-induced silencing ... of BRDT" contextID="C1" contextText="ovarian cancer cell" effectID="E4" effectText="induced ... apoptosis activation" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P1" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" contextID="C1" contextText="ovarian cancer cell" effectID="E0" effectText="inhibited ... growth" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P1" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" contextID="C1" contextText="ovarian cancer cell" effectID="E1" effectText="inhibited ... viability" />
+<ENTITY_LINKING id="EN7" perturbing_actionID="P1" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" contextID="C1" contextText="ovarian cancer cell" effectID="E2" effectText="inhibited ... proliferation" />
+<ENTITY_LINKING id="EN8" perturbing_actionID="P1" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" effectID="E3" effectText="inhibited ... migration" contextID="C1" contextText="ovarian cancer cell" />
+<ENTITY_LINKING id="EN9" perturbing_actionID="P1" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" contextID="C1" contextText="ovarian cancer cell" effectID="E4" effectText="induced ... apoptosis activation" />
+<ENTITY_LINKING id="EN10" perturbing_actionID="P2" perturbing_actionText="exogenous  overexpression of BRDT, by a lentiviral construct" contextID="C2" contextText="CaOV3 cell" effectID="E5" effectText="augmented ... proliferation" />
+<ENTITY_LINKING id="EN11" perturbing_actionID="P2" perturbing_actionText="exogenous  overexpression of BRDT, by a lentiviral construct" contextID="C2" contextText="CaOV3 cell" effectID="E6" effectText="augmented ... migration" />
+<ENTITY_LINKING id="EN12" contextID="C6" contextText="In vivo ... xenograft tumors-derived from ... CaOV3 cells" perturbing_actionID="P6" perturbing_actionText="BRDT-knockout" effectID="E7" effectText="grew significantly  slower" />
+<ENTITY_LINKING id="EN13" perturbing_actionID="P7" perturbing_actionText="intratumoral injection of BRDT shRNA lentivirus" contextID="C8" contextText="primary ovarian cancer xenografts in SCID mice" effectID="E8" effectText="inhibited  the growth" />
+</TAGS>
+</Genomics_ConceptTask>

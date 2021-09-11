@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Induction of autophagy and suppression of type I IFN secretion by CSFV.
+
+Macroautophagy/autophagy plays an essential role in cellular responses to 
+pathogens. However, the precise mechanisms and signaling pathways that modulate 
+cellular autophagy in classical swine fever virus (CSFV)-infected host cells 
+have not been confirmed. In this study, we showed that CSFV infection inhibits 
+the phosphorylation of MTOR (mechanistic target of rapamycin kinase), 
+subsequently leading to autophagy initiation. We also show that MAPK/ERK 
+(mitogen-activated protein kinase) signaling is involved in CSFV-induced 
+autophagy. The CSFV-induced inhibition of AKT/PKB (AKT serine/threonine 
+kinase)-MTOR was observed to be partially responsible for the MTOR inactivation 
+and subsequent autophagy initiation. Moreover, the CAMKK2/CaMKKβ 
+(calcium/calmodulin dependent protein kinase kinase 2)-PRKAA/AMPK (protein 
+kinase AMP-activated catalytic subunit alpha) axis was found to be involved in 
+CSFV-induced autophagy. Meanwhile, CSFV non-structural protein NS5A induced 
+autophagy via the CAMKK2-PRKAA-MTOR signaling pathway but not the AKT-MTOR or 
+MAPK1/ERK2-MAPK3/ERK1-MTOR pathway. Although the AKT-MTOR pathway also plays an 
+important role in the induction of autophagy by CSFV. We also found the 
+interaction between HSP90AB1/HSPCB and NS5A by tandem affinity 
+purification/liquid chromatography-mass spectrometry (LC-MS) and 
+immunoprecipitation. Furthermore, the CSFV-induced [Ca2+]cyto increase potently 
+induced autophagy through CAMKK2 and PRKAA. Moreover, we isolated and identified 
+the BECN1/Beclin 1 protein complexes by tandem affinity purification/LC-MS and 
+immunoprecipitation, the interaction between BECN1 and MAVS was confirmed by 
+immunoprecipitation, laser scanning confocal microscope technology, and GST 
+affinity-isolation experiments. Furthermore, CSFV-mediated autophagy suppressing 
+type I IFN production is related to the interaction between MAVS and BECN1. 
+Finally, the modulation of autophagy induction pathways by different autophagy 
+regulatory factors significantly affected the replication of CSFV.]]></TEXT>
+<TAGS>
+<EFFECT id="E0" spans="482~502" text="autophagy initiation" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="597~615" text="induced  autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E2" spans="775~795" text="autophagy initiation" phenotype="autophagy" activity="causes" />
+<EFFECT id="E3" spans="987~1004" text="induced autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E4" spans="1050~1068" text="induced  autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E5" spans="1241~1263" text="induction of autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E6" spans="1503~1520" text="induced autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E7" spans="1870~1888" text="mediated autophagy" phenotype="autophagy" activity="regulates" />
+<EFFECT id="E8" spans="1992~2034" text="modulation of autophagy induction pathways" phenotype="autophagy" activity="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

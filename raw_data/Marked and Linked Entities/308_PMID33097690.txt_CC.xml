@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CSF1R signaling is a regulator of pathogenesis in progressive MS.
+
+Microglia serve as the innate immune cells of the central nervous system (CNS) 
+by providing continuous surveillance of the CNS microenvironment and initiating 
+defense mechanisms to protect CNS tissue. Upon injury, microglia transition into 
+an activated state altering their transcriptional profile, transforming their 
+morphology, and producing pro-inflammatory cytokines. These activated microglia 
+initially serve a beneficial role, but their continued activation drives 
+neuroinflammation and neurodegeneration. Multiple sclerosis (MS) is a chronic, 
+inflammatory, demyelinating disease of the CNS, and activated microglia and 
+macrophages play a significant role in mediating disease pathophysiology and 
+progression. Colony-stimulating factor-1 receptor (CSF1R) and its ligand CSF1 
+are elevated in CNS tissue derived from MS patients. We performed a large-scale 
+RNA-sequencing experiment and identified CSF1R as a key node of disease 
+progression in a mouse model of progressive MS. We hypothesized that modulating 
+microglia and infiltrating macrophages through the inhibition of CSF1R will 
+attenuate deleterious CNS inflammation and reduce subsequent demyelination and 
+neurodegeneration. To test this hypothesis, we generated a novel potent and 
+selective small-molecule CSF1R inhibitor (sCSF1Rinh) for preclinical testing. 
+sCSF1Rinh blocked receptor phosphorylation and downstream signaling in both 
+microglia and macrophages and altered cellular functions including 
+proliferation, survival, and cytokine production. In vivo, CSF1R inhibition with 
+sCSF1Rinh attenuated neuroinflammation and reduced microglial proliferation in a 
+murine acute LPS model. Furthermore, the sCSF1Rinh attenuated a 
+disease-associated microglial phenotype and blocked both axonal damage and 
+neurological impairments in an experimental autoimmune encephalomyelitis (EAE) 
+model of MS. While previous studies have focused on microglial depletion 
+following CSF1R inhibition, our data clearly show that signaling downstream of 
+this receptor can be beneficially modulated in the context of CNS injury. 
+Together, these data suggest that CSF1R inhibition can reduce deleterious 
+microglial proliferation and modulate microglial phenotypes during 
+neuroinflammatory pathogenesis, particularly in progressive MS.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1406~1415" text="sCSF1Rinh" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1609~1642" text=" CSF1R inhibition with  sCSF1Rinh" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1756~1765" text="sCSF1Rinh" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="2199~2215" text="CSF1R inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1483~1492" text="microglia" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1497~1508" text="macrophages" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1601~1608" text="In vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C3" spans="1684~1694" text="microglial" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1715~1737" text="murine acute LPS model" experiment_type="organism" species="mouse" />
+<CONTEXT id="C5" spans="1799~1809" text="microglial" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1887~1947" text="experimental autoimmune encephalomyelitis (EAE)  model of MS" experiment_type="organism" species="not stated" />
+<CONTEXT id="C7" spans="2240~2250" text="microglial" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1513~1520,1551~1564" text="altered ... proliferation" phenotype="proliferation" activity="not stated" />
+<EFFECT id="E1" spans="1513~1520,1566~1574" text="altered ... survival" phenotype="cell survival" activity="not stated" />
+<EFFECT id="E2" spans="1676~1683,1695~1708" text="reduced ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E3" spans="2220~2226,2251~2264" text="reduce ... proliferation" phenotype="proliferation" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="sCSF1Rinh" contextID="C0" contextText="microglia" effectID="E0" effectText="altered ... proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="sCSF1Rinh" contextID="C1" contextText="macrophages" effectID="E0" effectText="altered ... proliferation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="sCSF1Rinh" contextID="C0" contextText="microglia" effectID="E1" effectText="altered ... survival" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="sCSF1Rinh" contextID="C1" contextText="macrophages" effectID="E1" effectText="altered ... survival" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P2" perturbing_actionText=" CSF1R inhibition with  sCSF1Rinh" contextID="C3" contextText="microglial" effectID="E2" effectText="reduced ... proliferation" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P4" perturbing_actionText="CSF1R inhibition" contextID="C7" contextText="microglial" effectID="E3" effectText="reduce ... proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

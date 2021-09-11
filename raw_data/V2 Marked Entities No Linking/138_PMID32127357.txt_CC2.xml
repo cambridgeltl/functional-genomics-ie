@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+ATM Loss Confers Greater Sensitivity to ATR Inhibition Than PARP Inhibition in 
+Prostate Cancer.
+
+Alterations in DNA damage response (DDR) genes are common in advanced prostate 
+tumors and are associated with unique genomic and clinical features. ATM is a 
+DDR kinase that has a central role in coordinating DNA repair and cell-cycle 
+response following DNA damage, and ATM alterations are present in approximately 
+5% of advanced prostate tumors. Recently, inhibitors of PARP have demonstrated 
+activity in advanced prostate tumors harboring DDR gene alterations, 
+particularly in tumors with BRCA1/2 alterations. However, the role of 
+alterations in DDR genes beyond BRCA1/2 in mediating PARP inhibitor sensitivity 
+is poorly understood. To define the role of ATM loss in prostate tumor DDR 
+function and sensitivity to DDR-directed agents, we created a series of 
+ATM-deficient preclinical prostate cancer models and tested the impact of ATM 
+loss on DNA repair function and therapeutic sensitivities. ATM loss altered DDR 
+signaling, but did not directly impact homologous recombination function. 
+Furthermore, ATM loss did not significantly impact sensitivity to PARP 
+inhibition but robustly sensitized to inhibitors of the related DDR kinase ATR. 
+These results have important implications for planned and ongoing prostate 
+cancer clinical trials and suggest that patients with tumor ATM alterations may 
+be more likely to benefit from ATR inhibitor than PARP inhibitor therapy. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="868~881" text="ATM-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1006~1014" text="ATM loss" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1116~1124" text="ATM loss" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="882~916" text="preclinical prostate cancer models" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

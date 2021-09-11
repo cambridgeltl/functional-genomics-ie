@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Imbalance of Regulatory and Cytotoxic SARS-CoV-2-Reactive CD4(+) T Cells in 
+COVID-19.
+
+The contribution of CD4+ T cells to protective or pathogenic immune responses to 
+SARS-CoV-2 infection remains unknown. Here, we present single-cell 
+transcriptomic analysis of >100,000 viral antigen-reactive CD4+ T cells from 40 
+COVID-19 patients. In hospitalized patients compared to non-hospitalized 
+patients, we found increased proportions of cytotoxic follicular helper cells 
+and cytotoxic T helper (TH) cells (CD4-CTLs) responding to SARS-CoV-2 and 
+reduced proportion of SARS-CoV-2-reactive regulatory T cells (TREG). 
+Importantly, in hospitalized COVID-19 patients, a strong cytotoxic TFH response 
+was observed early in the illness, which correlated negatively with antibody 
+levels to SARS-CoV-2 spike protein. Polyfunctional TH1 and TH17 cell subsets 
+were underrepresented in the repertoire of SARS-CoV-2-reactive CD4+ T cells 
+compared to influenza-reactive CD4+ T cells. Together, our analyses provide 
+insights into the gene expression patterns of SARS-CoV-2-reactive CD4+ T cells 
+in distinct disease severities.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

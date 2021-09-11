@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Differential Regulation of Cancer Progression by CDK4/6 Plays a Central Role in 
+DNA Replication and Repair Pathways.
+
+Although the cyclin-dependent kinases CDK4 and CDK6 play fundamental roles in 
+cancer, the specific pathways and downstream targets by which they exert their 
+tumorigenic effects remain elusive. In this study, we uncover distinct and novel 
+functions for these kinases in regulating tumor formation and metastatic 
+colonization in various solid tumors, including those of the breast, prostate, 
+and pancreas. Combining in vivo CRISPR-based CDK4 and CDK6 gene editing with 
+pharmacologic inhibition approaches in orthotopic transplantation and 
+patient-derived xenograft preclinical models, we defined clear functions for 
+CDK4 and CDK6 in facilitating tumor growth and progression in metastatic 
+cancers. Transcriptomic profiling of CDK4/6 CRISPR knockouts in breast cancer 
+revealed these two kinases to regulate cancer progression through distinct 
+mechanisms. CDK4 regulated prometastatic inflammatory cytokine signaling, 
+whereas CDK6 mainly controlled DNA replication and repair processes. Inhibition 
+of CDK6 but not CDK4 resulted in defective DNA repair and increased DNA damage. 
+Multiple CDK6 DNA replication/repair genes were not only associated with cancer 
+subtype, grades, and poor clinical outcomes, but also facilitated primary tumor 
+growth and metastasis in vivo. CRISPR-based genomic deletion of CDK6 efficiently 
+blocked tumor formation and progression in preestablished cell- and 
+patient-derived xenograft preclinical models of breast cancer, providing a 
+potential novel targeted therapy for these deadly tumors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="546~585" text="CRISPR-based CDK4 and CDK6 gene editing" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="852~875" text="CDK4/6 CRISPR knockouts" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1114~1133" text="Inhibition  of CDK6" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1400~1437" text="CRISPR-based genomic deletion of CDK6" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="538~545" text="in vivo" context="in vivo" />
+<CONTEXT id="C1" spans="663~688" text="patient-derived xenograft" context="xenograft" />
+<CONTEXT id="C2" spans="803~822" text="metastatic  cancers" context="neoplasm" />
+<CONTEXT id="C3" spans="879~892" text="breast cancer" context="neoplasm" />
+<CONTEXT id="C5" spans="1391~1398" text="in vivo" context="in vivo" />
+<CONTEXT id="C6" spans="1509~1513" text="cell" context="cells" />
+<CONTEXT id="C7" spans="1520~1545" text="patient-derived xenograft" context="xenograft" />
+<PHENOTYPE id="PH0" spans="771~783" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH1" spans="1380~1390" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="1459~1474" text="tumor formation" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH3" spans="1354~1375" text="primary tumor  growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="758~770" text="facilitating" effect="positive" />
+<EFFECT id="E1" spans="1342~1353" text="facilitated" effect="positive" />
+<EFFECT id="E2" spans="1451~1458" text="blocked" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="CRISPR-based genomic deletion of CDK6" phenotypeID="PH2" phenotypeText="tumor formation" effectID="E2" effectText="blocked" contextID="C6" contextText="cell" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="CRISPR-based genomic deletion of CDK6" effectID="E2" effectText="blocked" phenotypeID="PH2" phenotypeText="tumor formation" contextID="C7" contextText="patient-derived xenograft" />
+</TAGS>
+</Genomics_ConceptTask>

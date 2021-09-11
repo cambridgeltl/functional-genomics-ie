@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[USP10 Promotes Proliferation of Hepatocellular Carcinoma by Deubiquitinating and 
+Stabilizing YAP/TAZ.
+
+Yes-associated protein (YAP) and its paralog, transcriptional coactivator with 
+PDZ-binding motif (TAZ), play pivotal roles in promoting the progression of 
+hepatocellular carcinoma. However, the regulatory mechanism underpinning 
+aberrant activation of YAP/TAZ in hepatocellular carcinoma remains unclear. In 
+this study, we globally profiled the contribution of deubiquitinating enzymes 
+(DUB) to both transcriptional activity and protein abundance of YAP/TAZ in 
+hepatocellular carcinoma models and identified ubiquitin-specific peptidase 10 
+(USP10) as a potent YAP/TAZ-activating DUB. Mechanistically, USP10 directly 
+interacted with and stabilized YAP/TAZ by reverting their proteolytic 
+ubiquitination. Depletion of USP10 enhanced polyubiquitination of YAP/TAZ, 
+promoted their proteasomal degradation, and ultimately arrested the 
+proliferation of hepatocellular carcinoma in vitro and in vivo. Expression 
+levels of USP10 positively correlated with the abundance of YAP/TAZ in 
+hepatocellular carcinoma patient samples as well as in N-nitrosodiethylamine 
+(DEN)-induced liver cancer mice models. Collectively, this study establishes the 
+causal link between USP10 and hyperactivated YAP/TAZ in hepatocellular carcinoma 
+cells and provides a rationale for potential therapeutic interventions in the 
+treatment of patients with hepatocellular carcinoma harboring a high level of 
+YAP/TAZ. SIGNIFICANCE: These findings identify USP10 as a DUB of YAP/TAZ and its 
+role in hepatocellular carcinoma progression, which may serve as a potential 
+therapeutic target for hepatocellular carcinoma treatment.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="814~832" text="Depletion of USP10" description="decreased expression level" />
+<CONTEXT id="C0" spans="960~993" text="hepatocellular carcinoma in vitro" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="960~984,998~1005" text="hepatocellular carcinoma ... in vivo" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C2" spans="1196~1207" text="mice models" experiment_type="organism" species="mouse" />
+<EFFECT id="E2" spans="929~937,943~956" text="arrested ... proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E3" spans="1175~1195" text="induced liver cancer" phenotype="tumourigenesis" activity="causes" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Depletion of USP10" contextID="C0" contextText="hepatocellular carcinoma in vitro" effectID="E2" effectText="arrested ... proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Depletion of USP10" contextID="C1" contextText="hepatocellular carcinoma ... in vivo" effectID="E2" effectText="arrested ... proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

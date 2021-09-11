@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mitochondrial DNA stress triggers autophagy-dependent ferroptotic death.
+
+Pancreatic cancer tends to be highly resistant to current therapy and remains 
+one of the great challenges in biomedicine with very low 5-year survival rates. 
+Here, we report that zalcitabine, an antiviral drug for human immunodeficiency 
+virus infection, can suppress the growth of primary and immortalized human 
+pancreatic cancer cells through the induction of ferroptosis, an iron-dependent 
+form of regulated cell death. Mechanically, this effect relies on 
+zalcitabine-induced mitochondrial DNA stress, which activates the 
+STING1/TMEM173-mediated DNA sensing pathway, leading to 
+macroautophagy/autophagy-dependent ferroptotic cell death via lipid 
+peroxidation, but not a type I interferon response. Consequently, the genetic 
+and pharmacological inactivation of the autophagy-dependent ferroptosis pathway 
+diminishes the anticancer effects of zalcitabine in cell culture and animal 
+models. Together, these findings not only provide a new approach for pancreatic 
+cancer therapy but also increase our understanding of the interplay between 
+autophagy and DNA damage response in shaping cell death.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="358~413" text="primary and immortalized human  pancreatic cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="943~955" text="cell culture" context="cells" />
+<CONTEXT id="C2" spans="960~974" text="animal  models" context="organism" />
+<PHENOTYPE id="PH0" spans="348~354" text="growth" phenotype="cell growth" />
+<PHENOTYPE id="PH1" spans="439~450" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH2" spans="697~719" text="ferroptotic cell death" phenotype="ferroptosis" />
+<EFFECT id="E0" spans="335~343" text="suppress" effect="negative" />
+<EFFECT id="E1" spans="426~435" text="induction" effect="positive" />
+<EFFECT id="E2" spans="650~660" text="leading to" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

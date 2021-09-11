@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SLC27A5 deficiency activates NRF2/TXNRD1 pathway by increased lipid peroxidation 
+in HCC.
+
+Solute carrier family 27 member 5 (SLC27A5/FATP5) is involved in fatty acid 
+transport and bile acid metabolism; however, little is known about its role in 
+human diseases. Here, we first show that SLC27A5 expression is downregulated in 
+hepatocellular carcinoma (HCC) by DNA hypermethylation, and reduced SCL27A5 
+expression contributes to tumor progression and poor prognosis. Both gain- and 
+loss-of-function studies demonstrated that SLC27A5 has an antiproliferative 
+effect on HCC cells in vitro and in vivo. Knockout of SLC27A5 increases 
+polyunsaturated lipids, leading to increased NADP+/NADPH ratio, ROS production 
+as well as lipid peroxidation and the subsequent accumulation of 
+4-hydroxy-2-nonenal (4-HNE) in hepatoma cells. Mass spectrometry analysis found 
+that 4-HNE directly modifies cysteine residues (Cys513, 518) on KEAP1, thus 
+leading KEAP1/NRF2 pathway activation and increases the expression levels of 
+NRF2 target genes, such as TXNRD1. Further, SLC27A5 expression negatively 
+correlates with TXNRD1 expression in hepatoma cells and clinical HCC samples, 
+and blockade of NRF2/TXNRD1 using genetic approaches or inhibitors sensitizes 
+SLC27A5-deficient hepatoma cells to sorafenib treatment. Collectively, we 
+demonstrated that SLC27A5 acts as a novel tumor suppressor by suppressing TXNRD1 
+expression via the KEAP1/NRF2 pathway in HCC. Combination therapy of sorafenib 
+and NRF2/TXNRD1 inhibitors may be a promising strategy in personalized HCC 
+treatment.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="605~624" text="Knockout of SLC27A5" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1176~1224" text="blockade of NRF2/TXNRD1 using genetic approaches" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="1176~1205,1228~1238" text="blockade of NRF2/TXNRD1 using ... inhibitors" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1251~1268" text="SLC27A5-deficient" description="decreased expression level" />
+<CONTEXT id="C0" spans="573~591" text="HCC cells in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="573~582,596~603" text="HCC cells ... in vivo" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="813~827" text="hepatoma cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1269~1283" text="hepatoma cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="544~569" text="antiproliferative  effect" phenotype="proliferation" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

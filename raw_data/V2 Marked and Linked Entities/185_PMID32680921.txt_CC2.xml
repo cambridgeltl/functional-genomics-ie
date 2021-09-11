@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[FTO Inhibition Enhances the Antitumor Effect of Temozolomide by Targeting 
+MYC-miR-155/23a Cluster-MXI1 Feedback Circuit in Glioma.
+
+Malignant glioma constitutes one of the fatal primary brain tumors in adults. 
+Such poor prognosis calls for a better understanding of cancer-related signaling 
+pathways of this disease. Here we elucidate a MYC-miRNA-MXI1 feedback loop that 
+regulates proliferation and tumorigenesis in glioma. MYC suppressed MXI1 
+expression via microRNA-155 (miR-155) and the microRNA-23a∼27a∼24-2 cluster 
+(miR-23a cluster), whereas MXI1, in turn, inhibited MYC expression by binding to 
+its promoter. Overexpression of miR-155 and the miR-23a cluster promoted 
+tumorigenesis in U87 glioma cells. Furthermore, fat mass and obesity-associated 
+protein (FTO), an N6-methyladenosine (m6A) RNA demethylase, regulated the loop 
+by targeting MYC. The ethyl ester form of meclofenamic acid (MA2) inhibited FTO 
+and enhanced the effect of the chemotherapy drug temozolomide on suppressing 
+proliferation of glioma cells and negatively regulated the loop. These data 
+collectively highlight a key regulatory circuit in glioma and provide potential 
+targets for clinical treatment. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="622~671" text="Overexpression of miR-155 and the miR-23a cluster" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="699~715" text="U87 glioma cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1019~1031" text="glioma cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="682~695" text="tumorigenesis" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH1" spans="1002~1015" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="672~680" text="promoted" effect="positive" />
+<EFFECT id="E1" spans="989~1000" text="suppressing" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Overexpression of miR-155 and the miR-23a cluster" phenotypeID="PH0" phenotypeText="tumorigenesis" effectID="E0" effectText="promoted" contextID="C0" contextText="U87 glioma cells" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Set1/COMPASS repels heterochromatin invasion at euchromatic sites by disrupting 
+Suv39/Clr4 activity and nucleosome stability.
+
+Protection of euchromatin from invasion by gene-repressive heterochromatin is 
+critical for cellular health and viability. In addition to constitutive loci 
+such as pericentromeres and subtelomeres, heterochromatin can be found 
+interspersed in gene-rich euchromatin, where it regulates gene expression 
+pertinent to cell fate. While heterochromatin and euchromatin are globally 
+poised for mutual antagonism, the mechanisms underlying precise spatial encoding 
+of heterochromatin containment within euchromatic sites remain opaque. We 
+investigated ectopic heterochromatin invasion by manipulating the fission yeast 
+mating type locus boundary using a single-cell spreading reporter system. We 
+found that heterochromatin repulsion is locally encoded by Set1/COMPASS on 
+certain actively transcribed genes and that this protective role is most 
+prominent at heterochromatin islands, small domains interspersed in euchromatin 
+that regulate cell fate specifiers. Sensitivity to invasion by heterochromatin, 
+surprisingly, is not dependent on Set1 altering overall gene expression levels. 
+Rather, the gene-protective effect is strictly dependent on Set1's catalytic 
+activity. H3K4 methylation, the Set1 product, antagonizes spreading in two ways: 
+directly inhibiting catalysis by Suv39/Clr4 and locally disrupting nucleosome 
+stability. Taken together, these results describe a mechanism for spatial 
+encoding of euchromatic signals that repel heterochromatin invasion.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

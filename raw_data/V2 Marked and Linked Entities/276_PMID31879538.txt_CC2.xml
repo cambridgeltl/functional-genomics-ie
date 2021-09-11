@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TRPS1 acts as a context-dependent regulator of mammary epithelial cell 
+growth/differentiation and breast cancer development.
+
+The GATA-type zinc finger transcription factor TRPS1 has been implicated in 
+breast cancer. However, its precise role remains unclear, as both amplifications 
+and inactivating mutations in TRPS1 have been reported. Here, we used in vitro 
+and in vivo loss-of-function approaches to dissect the role of TRPS1 in mammary 
+gland development and invasive lobular breast carcinoma, which is hallmarked by 
+functional loss of E-cadherin. We show that TRPS1 is essential in mammary 
+epithelial cells, since TRPS1-mediated suppression of interferon signaling 
+promotes in vitro proliferation and lactogenic differentiation. Similarly, TRPS1 
+expression is indispensable for proliferation of mammary organoids and in vivo 
+survival of luminal epithelial cells during mammary gland development. However, 
+the consequences of TRPS1 loss are dependent on E-cadherin status, as combined 
+inactivation of E-cadherin and TRPS1 causes persistent proliferation of mammary 
+organoids and accelerated mammary tumor formation in mice. Together, our results 
+demonstrate that TRPS1 can function as a context-dependent tumor suppressor in 
+breast cancer, while being essential for growth and differentiation of normal 
+mammary epithelial cells.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="942~952" text="TRPS1 loss" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="992~1038" text="combined  inactivation of E-cadherin and TRPS1" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="688~696" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="1074~1092" text="mammary  organoids" context="organoid" />
+<CONTEXT id="C2" spans="1136~1140" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="697~710" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="715~741" text="lactogenic differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH2" spans="1057~1070" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH3" spans="1109~1132" text="mammary tumor formation" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="679~687" text="promotes" effect="positive" />
+<EFFECT id="E1" spans="1039~1045" text="causes" effect="positive" />
+<EFFECT id="E2" spans="1097~1108" text="accelerated" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="combined  inactivation of E-cadherin and TRPS1" contextID="C1" contextText="mammary  organoids" phenotypeID="PH2" phenotypeText="proliferation" effectID="E1" effectText="causes" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="combined  inactivation of E-cadherin and TRPS1" effectID="E2" effectText="accelerated" phenotypeID="PH3" phenotypeText="mammary tumor formation" contextID="C2" contextText="mice" />
+</TAGS>
+</Genomics_ConceptTask>

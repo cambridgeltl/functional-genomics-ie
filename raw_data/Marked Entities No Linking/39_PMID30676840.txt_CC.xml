@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Macrophages target Salmonella by Lc3-associated phagocytosis in a systemic 
+infection model.
+
+Innate immune defense against intracellular pathogens, like Salmonella, relies 
+heavily on the autophagy machinery of the host. This response is studied 
+intensively in epithelial cells, the target of Salmonella during 
+gastrointestinal infections. However, little is known of the role that autophagy 
+plays in macrophages, the predominant carriers of this pathogen during systemic 
+disease. Here we utilize a zebrafish embryo model to study the interaction of S. 
+enterica serovar Typhimurium with the macroautophagy/autophagy machinery of 
+macrophages in vivo. We show that phagocytosis of live but not heat-killed 
+Salmonella triggers recruitment of the autophagy marker GFP-Lc3 in a variety of 
+patterns labeling tight or spacious bacteria-containing compartments, also 
+revealed by electron microscopy. Neutrophils display similar GFP-Lc3 
+associations, but genetic modulation of the neutrophil/macrophage balance and 
+ablation experiments show that macrophages are critical for the defense 
+response. Deficiency of atg5 reduces GFP-Lc3 recruitment and impairs host 
+resistance, in contrast to atg13 deficiency, indicating that Lc3-Salmonella 
+association at this stage is independent of the autophagy preinitiation complex 
+and that macrophages target Salmonella by Lc3-associated phagocytosis (LAP). In 
+agreement, GFP-Lc3 recruitment and host resistance are impaired by deficiency of 
+Rubcn/Rubicon, known as a negative regulator of canonical autophagy and an 
+inducer of LAP. We also found strict dependency on NADPH oxidase, another 
+essential factor for LAP. Both Rubcn and NADPH oxidase are required to activate 
+a Salmonella biosensor for reactive oxygen species inside infected macrophages. 
+These results identify LAP as the major host protective autophagy-related 
+pathway responsible for macrophage defense against Salmonella during systemic 
+infection.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1101~1119" text="Deficiency of atg5" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="1193~1209" text="atg13 deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="1472~1500" text="deficiency of  Rubcn/Rubicon" description="decreased expression level" />
+<CONTEXT id="C0" spans="504~526" text="zebrafish embryo model" experiment_type="organism" species="fish" />
+<CONTEXT id="C1" spans="636~655" text="macrophages in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="1786~1797" text="macrophages" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,53 @@
+{
+    "MODE": "analyse",
+    "HISTORY_DATA": {
+        "PATH": "outputs/outputs_db.json",
+        "MODELS": [
+            "BioBERTv11_multi_output_bl05_k5_e12_2021-07-31_21-31",
+            "BioBERTv11_multi_output_ss_bl05_bs16_k5_e12_2021-08-03_17-07",
+            "BioBERTv11_multi_output_nonlin_bl05_k5_e12_2021-08-05_23-55",
+            "BioBERTv11_multi_output_bl05_k5_e12_cp2l_2021-08-06_02-07"
+        ]
+    },
+    "ANALYSIS": {
+        "GRAPHING": {
+            "OUTPUT": "save",
+            "FOLDER": "plots/biobert/all_e12",
+            "GRAPHS": [
+                {
+                    "TITLE": "Combined Train Losses",
+                    "VALUES": {
+                        "train_losses": null
+                    },
+                    "HEAD_COMBINE": "sum"
+                },
+                {
+                    "TITLE": "Combined Val Losses",
+                    "VALUES": {
+                        "validation_losses": null
+                    },
+                    "HEAD_COMBINE": "sum"
+                },
+                {
+                    "TITLE": "F1 Geometric Mean",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_COMBINE": "g_mean"
+                },
+                {
+                    "TITLE": "F1 Arithmetic Mean",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_COMBINE": "mean"
+                }
+            ]
+        }
+    }
+}
+

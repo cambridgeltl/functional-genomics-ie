@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CD9 induces cellular senescence and aggravates atherosclerotic plaque formation.
+
+CD9, a 24 kDa tetraspanin membrane protein, is known to regulate cell adhesion 
+and migration, cancer progression and metastasis, immune and allergic responses, 
+and viral infection. CD9 is upregulated in senescent endothelial cells, 
+neointima hyperplasia, and atherosclerotic plaques. However, its role in 
+cellular senescence and atherosclerosis remains undefined. We investigated the 
+potential mechanism for CD9-mediated cellular senescence and its role in 
+atherosclerotic plaque formation. CD9 knockdown in senescent human umbilical 
+vein endothelial cells significantly rescued senescence phenotypes, while CD9 
+upregulation in young cells accelerated senescence. CD9 regulated cellular 
+senescence through a phosphatidylinositide 3 kinase-AKT-mTOR-p53 signal pathway. 
+CD9 expression increased in arterial tissues from humans and rats with age, and 
+in atherosclerotic plaques in humans and mice. Anti-mouse CD9 antibody 
+noticeably prevented the formation of atherosclerotic lesions in ApoE-/- mice 
+and Ldlr-/- mice. Furthermore, CD9 ablation in ApoE-/- mice decreased 
+atherosclerotic lesions in aorta and aortic sinus. These results suggest that 
+CD9 plays critical roles in endothelial cell senescence and consequently the 
+pathogenesis of atherosclerosis, implying that CD9 is a novel target for 
+prevention and treatment of vascular aging and atherosclerosis.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="579~592" text="CD9 knockdown" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="697~714" text="CD9  upregulation" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="1078~1085" text="ApoE-/-" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1096~1103" text="Ldlr-/-" description="knock out" />
+<PERTURBING_ACTION id="P4" spans="1123~1135" text="CD9 ablation" description="decreased expression level" />
+<PERTURBING_ACTION id="P5" spans="1139~1146" text="ApoE-/-" description="knock out" />
+<CONTEXT id="C0" spans="596~645" text="senescent human umbilical  vein endothelial cells" experiment_type="cells" species="human" />
+<CONTEXT id="C1" spans="718~729" text="young cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1086~1090" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="1104~1108" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C4" spans="1147~1151" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="660~689" text="rescued senescence phenotypes" phenotype="senescence" activity="decreases" />
+<EFFECT id="E1" spans="730~752" text="accelerated senescence" phenotype="senescence" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="CD9 knockdown" contextID="C0" contextText="senescent human umbilical  vein endothelial cells" effectID="E0" effectText="rescued senescence phenotypes" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="CD9  upregulation" contextID="C1" contextText="young cells" effectID="E1" effectText="accelerated senescence" />
+</TAGS>
+</Genomics_ConceptTask>

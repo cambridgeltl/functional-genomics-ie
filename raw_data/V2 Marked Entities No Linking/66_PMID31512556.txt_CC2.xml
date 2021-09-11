@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LncRNA 2810403D21Rik/Mirf promotes ischemic myocardial injury by regulating 
+autophagy through targeting Mir26a.
+
+More evidence is emerging of the roles long non-coding RNAs (lncRNAs) play as 
+regulatory factors in a variety of biological processes, but the mechanisms 
+underlying the function of lncRNAs in acute myocardial infarction (AMI) have not 
+been explicitly delineated. The present study identified the lncRNA 
+2810403D21Rik/AK007586/Mirf (myocardial infarction-regulatory factor), that 
+inhibited macroautophagy/autophagy by modulating Mir26a (microRNA 26a). 
+Inhibition of Mir26a led to cardiac injury both in vitro and in vivo, whereas 
+overexpression of Mir26a attenuated ischemic stress-induced cell death by 
+activating autophagy through targeting Usp15 (ubiquitin specific peptidase 15). 
+More importantly, 2810403D21Rik/Mirf acted as a competitive endogenous RNA 
+(ceRNA) of Mir26a; forced expression of 2810403D21Rik/Mirf downregulated Mir26a 
+to inhibit autophagy. In contrast, loss of 2810403D21Rik/Mirf resulted in 
+upregulation of Mir26a to promote autophagy and alleviate cardiac injury, which 
+in turn improved cardiac function in MI mice. This study identified a lncRNA 
+2810403D21Rik/Mirf that functions as an anti-autophagic molecule via ceRNA 
+activity toward Mir26a. Our findings suggest that knockdown of 
+2810403D21Rik/Mirf might be a novel therapeutic approach for cardiac diseases 
+associated with autophagy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="650~674" text="overexpression of Mir26a" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="619~627" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="632~639" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="1159~1163" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="710~720" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH1" spans="736~745" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="974~983" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="1072~1081" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="675~685" text="attenuated" effect="negative" />
+<EFFECT id="E1" spans="725~735" text="activating" effect="positive" />
+<EFFECT id="E2" spans="966~973" text="inhibit" effect="negative" />
+<EFFECT id="E3" spans="1064~1071" text="promote" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

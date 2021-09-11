@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[HIF1A and NFAT5 coordinate Na(+)-boosted antibacterial defense via enhanced 
+autophagy and autolysosomal targeting.
+
+Infection and inflammation are able to induce diet-independent Na+-accumulation 
+without commensurate water retention in afflicted tissues, which favors the 
+pro-inflammatory activation of mouse macrophages and augments their 
+antibacterial and antiparasitic activity. While Na+-boosted host defense against 
+the protozoan parasite Leishmania major is mediated by increased expression of 
+the leishmanicidal NOS2 (nitric oxide synthase 2, inducible), the molecular 
+mechanisms underpinning this enhanced antibacterial defense of mouse macrophages 
+with high Na+ (HS) exposure are unknown. Here, we provide evidence that 
+HS-increased antibacterial activity against E. coli was neither dependent on 
+NOS2 nor on the phagocyte oxidase. In contrast, HS-augmented antibacterial 
+defense hinged on HIF1A (hypoxia inducible factor 1, alpha subunit)-dependent 
+increased autophagy, and NFAT5 (nuclear factor of activated T cells 5)-dependent 
+targeting of intracellular E. coli to acidic autolysosomal compartments. 
+Overall, these findings suggest that the autolysosomal compartment is a novel 
+target of Na+-modulated cell autonomous innate immunity. ]]></TEXT>
+<TAGS>
+<PHENOTYPE id="PH0" spans="981~990" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="971~980" text="increased" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

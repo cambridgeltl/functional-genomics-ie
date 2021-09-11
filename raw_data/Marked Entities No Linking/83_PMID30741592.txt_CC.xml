@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BNIP3L/NIX and FUNDC1-mediated mitophagy is required for mitochondrial network 
+remodeling during cardiac progenitor cell differentiation.
+
+Cell-based therapies represent a very promising strategy to repair and 
+regenerate the injured heart to prevent progression to heart failure. To date, 
+these therapies have had limited success due to a lack of survival and retention 
+of the infused cells. Therefore, it is important to increase our understanding 
+of the biology of these cells and utilize this information to enhance their 
+survival and function in the injured heart. Mitochondria are critical for 
+progenitor cell function and survival. Here, we demonstrate the importance of 
+mitochondrial autophagy, or mitophagy, in the differentiation process in adult 
+cardiac progenitor cells (CPCs). We found that mitophagy was rapidly induced 
+upon initiation of differentiation in CPCs. We also found that mitophagy was 
+mediated by mitophagy receptors, rather than the PINK1-PRKN/PARKIN pathway. 
+Mitophagy mediated by BNIP3L/NIX and FUNDC1 was not involved in regulating 
+progenitor cell fate determination, mitochondrial biogenesis, or reprogramming. 
+Instead, mitophagy facilitated the CPCs to undergo proper mitochondrial network 
+reorganization during differentiation. Abrogating BNIP3L- and FUNDC1-mediated 
+mitophagy during differentiation led to sustained mitochondrial fission and 
+formation of donut-shaped impaired mitochondria. It also resulted in increased 
+susceptibility to cell death and failure to survive the infarcted heart. 
+Finally, aging is associated with accumulation of mitochondrial DNA (mtDNA) 
+damage in cells and we found that acquiring mtDNA mutations selectively 
+disrupted the differentiation-activated mitophagy program in CPCs. These 
+findings demonstrate the importance of BNIP3L- and FUNDC1-mediated mitophagy as 
+a critical regulator of mitochondrial network formation during differentiation, 
+as well as the consequences of accumulating mtDNA mutations. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="758~796" text="adult  cardiac progenitor cells (CPCs)" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="881~885" text="CPCs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1074~1089" text="progenitor cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1190~1194" text="CPCs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1757~1761" text="CPCs" experiment_type="cells" species="not stated" />
+<EFFECT id="E1" spans="812~825,834~841" text="mitophagy was ... induced" phenotype="mitophagy" activity="causes" />
+<EFFECT id="E2" spans="1461~1500" text="increased  susceptibility to cell death" phenotype="cell death" activity="increases" />
+<EFFECT id="E3" spans="1505~1523" text="failure to survive" phenotype="cell survival" activity="inhibits" />
+<EFFECT id="E4" spans="1696~1709,1736~1753" text="disrupted the ... mitophagy program" phenotype="mitophagy" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

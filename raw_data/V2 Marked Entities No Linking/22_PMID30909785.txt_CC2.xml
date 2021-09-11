@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Identification of transcription factors that regulate ATG8 expression and 
+autophagy in Arabidopsis.
+
+Autophagy is a conserved catabolic process in eukaryotes that contributes to 
+cell survival in response to multiple stresses and is important for organism 
+fitness. In Arabidopsis thaliana, the core machinery of autophagy is well 
+defined, but its transcriptional regulation is largely unknown. The ATG8 
+(autophagy-related 8) protein plays central roles in decorating autophagosomes 
+and binding to specific cargo receptors to recruit cargo to autophagosomes. We 
+propose that the transcriptional control of ATG8 genes is important during the 
+formation of autophagosomes and therefore contributes to survival during stress. 
+Here, we describe a yeast one-hybrid (Y1H) screen for transcription factors 
+(TFs) that regulate ATG8 gene expression in Arabidopsis, using the promoters of 
+4 ATG8 genes. We identified a total of 225 TFs from 35 families that bind these 
+promoters. The TF-ATG8 promoter interactions revealed a wide array of diverse TF 
+families for different promoters, as well as enrichment for families of TFs that 
+bound to specific fragments. These TFs are not only involved in plant 
+developmental processes but also in the response to environmental stresses. TGA9 
+(TGACG (TGA) motif-binding protein 9)/AT1G08320 was confirmed as a positive 
+regulator of autophagy. TGA9 overexpression activated autophagy under both 
+control and stress conditions and transcriptionally up-regulated expression of 
+ATG8B, ATG8E and additional ATG genes via binding to their promoters. Our 
+results provide a comprehensive resource of TFs that regulate ATG8 gene 
+expression and lay a foundation for understanding the transcriptional regulation 
+of plant autophagy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1386~1405" text="TGA9 overexpression" perturbingaction="gene gain-of-function" />
+<PHENOTYPE id="PH0" spans="1416~1425" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="1406~1415" text="activated" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

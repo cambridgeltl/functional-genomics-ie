@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Deubiquitylatinase inhibitor b-AP15 induces c-Myc-Noxa-mediated apoptosis in 
+esophageal squamous cell carcinoma.
+
+Esophageal squamous cell carcinoma (ESCC) is one of the most malignant tumors in 
+east Asia. However, the molecular mechanism underlying its progression remains 
+unclear. The ubiquitin-proteasome system (UPS) is a central mechanism for 
+protein degradation and turnover. Accumulating evidence showed that more and 
+more deubiquitinases could serve as attractive anti-cancer target. The 
+expression of USP14 and UCH37 in esophagus squamous cell carcinoma tissues were 
+examined by immunohistochemistry and western blot assays. Effect of b-AP15, a 
+USP14 and UCH37 inhibitor, on ESCC cell growth was evaluated by cell viability 
+assay. After cell lines being treated with b-AP15, cell cycle, apoptosis and the 
+expression of related proteins were further explored to investigate the 
+anti-ESCC mechanism of b-AP15. Results showed that deubiquitinating enzymes 
+(DUBs) USP14 and UCH37 expressed at higher levels in ESCC tissues than in 
+adjacent tissues. b-AP15 could inhibit cell proliferation and induce G2/M cell 
+cycle arrest and apoptosis in ESCC cells. Mechanistically, b-AP15 treatment 
+triggered Noxa-dependent apoptosis, which was regulated by c-Myc. Silencing Noxa 
+and c-Myc could reduce b-AP15-induced apoptosis in ESCC cells. Our results 
+revealed a novel mechanism of anti-tumor activity of b-AP15 in ESCC, and b-AP15 
+could be used as a potential therapeutic agent in ESCC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1272~1297" text="Silencing Noxa  and c-Myc" description="knock down" />
+<CONTEXT id="C0" spans="755~765" text="cell lines" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C1" spans="1088~1092" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1159~1169" text="ESCC cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1339~1349" text="ESCC cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1080~1087,1093~1106" text="inhibit ... proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E1" spans="1111~1141" text="induce G2/M cell  cycle arrest" phenotype="cell cycle arrest" activity="causes" />
+<EFFECT id="E2" spans="1111~1117,1146~1155" text="induce ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E3" spans="1206~1215,1231~1240" text="triggered ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E4" spans="1304~1310,1318~1335" text="reduce ... induced apoptosis" phenotype="apoptosis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Silencing Noxa  and c-Myc" contextID="C3" contextText="ESCC cells" effectID="C3" effectText="ESCC cells" />
+</TAGS>
+</Genomics_ConceptTask>

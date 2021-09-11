@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CD44/HA signaling mediates acquired resistance to a PI3Kα inhibitor.
+
+Most luminal breast carcinomas (BrCas) bearing PIK3CA mutations initially 
+respond to phosphoinositide-3-kinase (PI3K)-α inhibitors, but many eventually 
+become resistant. The underlying mechanisms of this resistance remain obscure. 
+In this work, we showed that a CD44high state due to aberrant isoform splicing 
+was acquired from adaptive resistance to a PI3Kα inhibitor (BLY719) in luminal 
+BrCas. Notably, the expression of CD44 was positively correlated with estrogen 
+receptor (ER) activity in PIK3CA-mutant breast cancers, and ER-dependent 
+transcription upon PI3Kα pathway inhibition was in turn mediated by CD44. 
+Furthermore, the interaction of CD44 with the ligand hyaluronan (HA) initiated 
+the Src-ERK signaling cascade, which subsequently maintained AKT and mTOR 
+activity in the presence of a PI3Kα inhibitor. Activation of this pathway was 
+prevented by disruption of the CD44/HA interaction, which in turn restored 
+sensitivity to BLY719. Our results revealed that an ER-CD44-HA signaling circuit 
+that mediates robust compensatory activation of the Src-ERK signaling cascade 
+may contribute to the development of acquired resistance to PI3Kα inhibitors. 
+This study provides new insight into the mechanism of adaptive resistance to 
+PI3Kα inhibition therapy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="455~469" text="luminal  BrCas" experiment_type="tumour" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

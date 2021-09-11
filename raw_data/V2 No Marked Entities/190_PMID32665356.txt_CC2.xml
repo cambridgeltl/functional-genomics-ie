@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Tissue-Engineered 3D Microvessel Model Reveals the Dynamics of Mosaic Vessel 
+Formation in Breast Cancer.
+
+In solid tumors, vascular structure and function varies from the core to the 
+periphery. This structural heterogeneity has been proposed to influence the 
+mechanisms by which tumor cells enter the circulation. Blood vessels exhibit 
+regional defects in endothelial coverage, which can result in cancer cells 
+directly exposed to flow and potentially promoting intravasation. Consistent 
+with prior reports, we observed in human breast tumors and in a mouse model of 
+breast cancer that approximately 6% of vessels consisted of both endothelial 
+cells and tumor cells, so-called mosaic vessels. Due, in part, to the challenges 
+associated with observing tumor-vessel interactions deep within tumors in 
+real-time, the mechanisms by which mosaic vessels form remain incompletely 
+understood. We developed a tissue-engineered model containing a physiologically 
+realistic microvessel in coculture with mammary tumor organoids. This approach 
+allows real-time and quantitative assessment of tumor-vessel interactions under 
+conditions that recapitulate many in vivo features. Imaging revealed that tumor 
+organoids integrate into the endothelial cell lining, resulting in mosaic 
+vessels with gaps in the basement membrane. While mosaic vessel formation was 
+the most frequently observed interaction, tumor organoids also actively 
+constricted and displaced vessels. Furthermore, intravasation of cancer cell 
+clusters was observed following the formation of a mosaic vessel. Taken 
+together, our data reveal that cancer cells can rapidly reshape, destroy, or 
+integrate into existing blood vessels, thereby affecting oxygenation, perfusion, 
+and systemic dissemination. Our novel assay also enables future studies to 
+identify targetable mechanisms of vascular recruitment and intravasation.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

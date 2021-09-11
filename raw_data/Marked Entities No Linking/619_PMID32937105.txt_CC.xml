@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Network of Macrophages Supports Mitochondrial Homeostasis in the Heart.
+
+Cardiomyocytes are subjected to the intense mechanical stress and metabolic 
+demands of the beating heart. It is unclear whether these cells, which are 
+long-lived and rarely renew, manage to preserve homeostasis on their own. While 
+analyzing macrophages lodged within the healthy myocardium, we discovered that 
+they actively took up material, including mitochondria, derived from 
+cardiomyocytes. Cardiomyocytes ejected dysfunctional mitochondria and other 
+cargo in dedicated membranous particles reminiscent of neural exophers, through 
+a process driven by the cardiomyocyte's autophagy machinery that was enhanced 
+during cardiac stress. Depletion of cardiac macrophages or deficiency in the 
+phagocytic receptor Mertk resulted in defective elimination of mitochondria from 
+the myocardial tissue, activation of the inflammasome, impaired autophagy, 
+accumulation of anomalous mitochondria in cardiomyocytes, metabolic alterations, 
+and ventricular dysfunction. Thus, we identify an immune-parenchymal pair in the 
+murine heart that enables transfer of unfit material to preserve metabolic 
+stability and organ function.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="755~799" text="deficiency in the  phagocytic receptor Mertk" description="decreased expression level" />
+<EFFECT id="E0" spans="911~929" text="impaired autophagy" phenotype="autophagy" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

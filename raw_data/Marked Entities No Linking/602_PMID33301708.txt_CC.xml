@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Obesity Shapes Metabolism in the Tumor Microenvironment to Suppress Anti-Tumor 
+Immunity.
+
+Obesity is a major cancer risk factor, but how differences in systemic 
+metabolism change the tumor microenvironment (TME) and impact anti-tumor 
+immunity is not understood. Here, we demonstrate that high-fat diet 
+(HFD)-induced obesity impairs CD8+ T cell function in the murine TME, 
+accelerating tumor growth. We generate a single-cell resolution atlas of 
+cellular metabolism in the TME, detailing how it changes with diet-induced 
+obesity. We find that tumor and CD8+ T cells display distinct metabolic 
+adaptations to obesity. Tumor cells increase fat uptake with HFD, whereas 
+tumor-infiltrating CD8+ T cells do not. These differential adaptations lead to 
+altered fatty acid partitioning in HFD tumors, impairing CD8+ T cell 
+infiltration and function. Blocking metabolic reprogramming by tumor cells in 
+obese mice improves anti-tumor immunity. Analysis of human cancers reveals 
+similar transcriptional changes in CD8+ T cell markers, suggesting interventions 
+that exploit metabolism to improve cancer immunotherapy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="341~347,364~370" text="T cell ... murine" experiment_type="cells" species="mouse" />
+<CONTEXT id="C1" spans="624~635" text="Tumor cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="694~706" text="CD8+ T cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="794~800" text="tumors" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C4" spans="812~823" text="CD8+ T cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="888~914" text="tumor cells in  obese mice" experiment_type="transformed cell line" species="mouse" />
+<EFFECT id="E0" spans="377~402" text="accelerating tumor growth" phenotype="tumour growth" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A C9orf72-CARM1 axis regulates lipid metabolism under glucose starvation-induced 
+nutrient stress.
+
+Cells undergo metabolic adaptation during environmental changes by using 
+evolutionarily conserved stress response programs. This metabolic homeostasis is 
+exquisitely regulated, and its imbalance could underlie human pathological 
+conditions. We report here that C9orf72, which is linked to the most common 
+forms of the neurodegenerative diseases amyotrophic lateral sclerosis (ALS) and 
+frontotemporal dementia (FTD), is a key regulator of lipid metabolism under 
+stress. Loss of C9orf72 leads to an overactivation of starvation-induced lipid 
+metabolism that is mediated by dysregulated autophagic digestion of lipids and 
+increased de novo fatty acid synthesis. C9orf72 acts by promoting the lysosomal 
+degradation of coactivator-associated arginine methyltransferase 1 (CARM1), 
+which in turn regulates autophagy-lysosomal functions and lipid metabolism. In 
+ALS/FTD patient-derived neurons or tissues, a reduction in C9orf72 function is 
+associated with dysregulation in the levels of CARM1, fatty acids, and NADPH 
+oxidase NOX2. These results reveal a C9orf72-CARM1 axis in the control of 
+stress-induced lipid metabolism and implicates epigenetic dysregulation in 
+relevant human diseases.
+
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="575~590" text="Loss of C9orf72" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

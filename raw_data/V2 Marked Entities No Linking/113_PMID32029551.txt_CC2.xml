@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[UBR5 Is Coamplified with MYC in Breast Tumors and Encodes an Ubiquitin Ligase 
+That Limits MYC-Dependent Apoptosis.
+
+For maximal oncogenic activity, cellular MYC protein levels need to be tightly 
+controlled so that they do not induce apoptosis. Here, we show how ubiquitin 
+ligase UBR5 functions as a molecular rheostat to prevent excess accumulation of 
+MYC protein. UBR5 ubiquitinates MYC and its effects on MYC protein stability are 
+independent of FBXW7. Silencing of endogenous UBR5 induced MYC protein 
+expression and regulated MYC target genes. Consistent with the tumor suppressor 
+function of UBR5 (HYD) in Drosophila, HYD suppressed dMYC-dependent overgrowth 
+of wing imaginal discs. In contrast, in cancer cells, UBR5 suppressed 
+MYC-dependent priming to therapy-induced apoptosis. Of direct cancer relevance, 
+MYC and UBR5 genes were coamplified in MYC-driven human cancers. Functionally, 
+UBR5 suppressed MYC-mediated apoptosis in p53-mutant breast cancer cells with 
+UBR5/MYC coamplification. Furthermore, single-cell immunofluorescence analysis 
+demonstrated reciprocal expression of UBR5 and MYC in human basal-type breast 
+cancer tissues. In summary, UBR5 is a novel MYC ubiquitin ligase and an 
+endogenous rheostat for MYC activity. In MYC-amplified, and p53-mutant breast 
+cancer cells, UBR5 has an important role in suppressing MYC-mediated apoptosis 
+priming and in protection from drug-induced apoptosis. SIGNIFICANCE: These 
+findings identify UBR5 as a novel MYC regulator, the inactivation of which could 
+be very important for understanding of MYC dysregulation on cancer cells. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="460~488" text="Silencing of endogenous UBR5" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="711~723" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="956~975" text="breast cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="783~792" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="932~941" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="775~782" text="induced" effect="positive" />
+<EFFECT id="E1" spans="908~918" text="suppressed" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

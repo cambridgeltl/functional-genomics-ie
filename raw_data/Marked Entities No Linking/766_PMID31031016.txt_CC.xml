@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Combination of Hypoglycemia and Metformin Impairs Tumor Metabolic Plasticity and 
+Growth by Modulating the PP2A-GSK3β-MCL-1 Axis.
+
+Tumor cells may adapt to metabolic challenges by alternating between glycolysis 
+and oxidative phosphorylation (OXPHOS). To target this metabolic plasticity, we 
+combined intermittent fasting, a clinically feasible approach to reduce glucose 
+availability, with the OXPHOS inhibitor metformin. In mice exposed to 24-h 
+feeding/fasting cycles, metformin impaired tumor growth only when administered 
+during fasting-induced hypoglycemia. Synergistic anti-neoplastic effects of the 
+metformin/hypoglycemia combination were mediated by glycogen synthase kinase 3β 
+(GSK3β) activation downstream of PP2A, leading to a decline in the pro-survival 
+protein MCL-1, and cell death. Mechanistically, specific activation of the 
+PP2A-GSK3β axis was the sum of metformin-induced inhibition of CIP2A, a PP2A 
+suppressor, and of upregulation of the PP2A regulatory subunit B56δ by low 
+glucose, leading to an active PP2A-B56δ complex with high affinity toward GSK3β.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="428~432" text="mice" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="484~505" text="impaired tumor growth" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E1" spans="731~741,792~802" text="leading to ... cell death" phenotype="cell death" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

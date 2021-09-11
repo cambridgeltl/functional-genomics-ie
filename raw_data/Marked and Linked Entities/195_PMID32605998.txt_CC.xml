@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[HDAC6 Plays a Noncanonical Role in the Regulation of Antitumor Immune Responses, 
+Dissemination, and Invasiveness of Breast Cancer.
+
+Despite the outstanding clinical results of immune checkpoint blockade (ICB) in 
+melanoma and other cancers, clinical trials in breast cancer have reported low 
+responses to these therapies. Current efforts are now focused on improving the 
+treatment efficacy of ICB in breast cancer using new combination designs such as 
+molecularly targeted agents, including histone deacetylase inhibitors (HDACi). 
+These epigenetic drugs have been widely described as potent cytotoxic agents for 
+cancer cells. In this work, we report new noncanonical regulatory properties of 
+ultra-selective HDAC6i over the expression and function of 
+epithelial-mesenchymal transition pathways and the invasiveness potential of 
+breast cancer. These unexplored roles position HDAC6i as attractive options to 
+potentiate ongoing immunotherapeutic approaches. These new functional activities 
+of HDAC6i involved regulation of the E-cadherin/STAT3 axis. Pretreatment of 
+tumors with HDAC6i induced critical changes in the tumor microenvironment, 
+resulting in improved effectiveness of ICB and preventing dissemination of 
+cancer cells to secondary niches. Our results demonstrate for the first time 
+that HDAC6i can both improve ICB antitumor immune responses and diminish the 
+invasiveness of breast cancer with minimal cytotoxic effects, thus departing 
+from the cytotoxicity-centric paradigm previously assigned to HDACi. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="1311~1317" text="HDAC6i" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1059~1071,1083~1094" text="Pretreatment ... with HDAC6i" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1076~1082" text="tumors" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="1400~1413" text="breast cancer" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C2" spans="1228~1240" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E1" spans="1370~1396" text="diminish the  invasiveness" phenotype="invasion" activity="decreases" />
+<EFFECT id="E2" spans="1199~1223,1241~1260" text="preventing dissemination ... to secondary niches" activity="inhibits" phenotype="metastasis" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="Pretreatment ... with HDAC6i" contextID="C0" contextText="tumors" effectID="E2" effectText="preventing dissemination ... to secondary niches" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="Pretreatment ... with HDAC6i" contextID="C2" contextText="cancer cells" effectID="E2" effectText="preventing dissemination ... to secondary niches" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="HDAC6i" contextID="C1" contextText="breast cancer" effectID="E1" effectText="diminish the  invasiveness" />
+</TAGS>
+</Genomics_ConceptTask>

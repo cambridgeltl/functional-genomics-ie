@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Regorafenib induces lethal autophagy arrest by stabilizing PSAT1 in 
+glioblastoma.
+
+GBM (glioblastoma multiforme) is the most common and aggressive brain tumor with 
+no curative options available. Therefore, it is imperative to develop novel 
+potent therapeutic drugs for GBM treatment. Here, we show that regorafenib, an 
+oral multi-kinase inhibitor, exhibits superior therapeutic efficacy over 
+temozolomide, the first-line chemotherapeutic agent for GBM treatment both in 
+vitro and in vivo. Mechanistically, regorafenib directly stabilizes PSAT1 
+(phosphoserine aminotransferase 1), a critical enzyme for serine synthesis, to 
+trigger PRKAA-dependent autophagy initiation and inhibit RAB11A-mediated 
+autophagosome-lysosome fusion, resulting in lethal autophagy arrest in GBM 
+cells. Maintenance of PSAT1 at a high level is essential for regorafenib-induced 
+GBM suppression. Together, our data provide novel mechanistic insights of 
+regorafenib-induced autophagy arrest and suggest a new paradigm for effective 
+treatment of GBM.Abbreviations: 3-MA: 3-methyladenine; ACACA: acetyl coenzyme A 
+carboxylase alpha; ACTB/β-actin: actin, beta; AMPK: adenosine 
+monophosphate-activated protein kinase; ATG5: autophagy related 5; CTSD: 
+cathepsin D; DN-: dominant-negative; GBM: glioblastoma multiforme; LAMP1: 
+lysosomal-associated membrane protein 1; MAP1LC3B/LC3B: microtubule associated 
+protein 1 light chain 3 beta; PIK3C3/VPS34: phosphatidylinositol 3-kinase 
+catalytic subunit type 3; PRKAA/AMPKα: protein kinase AMP-activated catalytic 
+subunit alpha; PSAT1: phosphoserine aminotransferase 1; SQSTM1/p62: sequestosome 
+1; TKIs: tyrosine kinase inhibitors.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="776~786" text="GBM  cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="655~664" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="756~765" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="631~638" text="trigger" effect="positive" />
+<EFFECT id="E2" spans="766~772" text="arrest" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

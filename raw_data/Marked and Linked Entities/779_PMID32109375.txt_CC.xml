@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CDK4/6 Inhibitors Impair Recovery from Cytotoxic Chemotherapy in Pancreatic 
+Adenocarcinoma.
+
+Inhibition of the cell-cycle kinases CDK4 and CDK6 is now part of the standard 
+treatment in advanced breast cancer. CDK4/6 inhibitors, however, are not 
+expected to cooperate with DNA-damaging or antimitotic chemotherapies as the 
+former prevent cell-cycle entry, thus interfering with S-phase- or 
+mitosis-targeting agents. Here, we report that sequential administration of 
+CDK4/6 inhibitors after taxanes cooperates to prevent cellular proliferation in 
+pancreatic ductal adenocarcinoma (PDAC) cells, patient-derived xenografts, and 
+genetically engineered mice with Kras G12V and Cdkn2a-null mutations frequently 
+observed in PDAC. This effect correlates with the repressive activity of CDK4/6 
+inhibitors on homologous recombination proteins required for the recovery from 
+chromosomal damage. CDK4/6 inhibitors also prevent recovery from multiple 
+DNA-damaging agents, suggesting broad applicability for their sequential 
+administration after available chemotherapeutic agents.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="471~488" text="CDK4/6 inhibitors" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="679~700" text="Cdkn2a-null mutations" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="665~674,691~700" text="Kras G12V ... mutations" description="other" />
+<CONTEXT id="C0" spans="552~597" text="pancreatic ductal adenocarcinoma (PDAC) cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="599~625" text="patient-derived xenografts" experiment_type="xenotransplantation" species="human" />
+<CONTEXT id="C2" spans="655~659" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="517~524,534~547" text="prevent ... proliferation" phenotype="proliferation" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="CDK4/6 inhibitors" effectID="E0" effectText="prevent ... proliferation" contextID="C0" contextText="pancreatic ductal adenocarcinoma (PDAC) cells" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="CDK4/6 inhibitors" contextID="C1" contextText="patient-derived xenografts" effectID="E0" effectText="prevent ... proliferation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="CDK4/6 inhibitors" contextID="C2" contextText="mice" effectID="E0" effectText="prevent ... proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[NRAS Status Determines Sensitivity to SHP2 Inhibitor Combination Therapies 
+Targeting the RAS-MAPK Pathway in Neuroblastoma.
+
+Survival for high-risk neuroblastoma remains poor and treatment for relapsed 
+disease rarely leads to long-term cures. Large sequencing studies of 
+neuroblastoma tumors from diagnosis have not identified common targetable driver 
+mutations other than the 10% of tumors that harbor mutations in the anaplastic 
+lymphoma kinase (ALK) gene. However, at neuroblastoma recurrence, more frequent 
+mutations in genes in the RAS-MAPK pathway have been detected. The 
+PTPN11-encoded tyrosine phosphatase SHP2 is an activator of the RAS pathway, and 
+we and others have shown that pharmacologic inhibition of SHP2 suppresses the 
+growth of various tumor types harboring KRAS mutations such as pancreatic and 
+lung cancers. Here we report inhibition of growth and downstream RAS-MAPK 
+signaling in neuroblastoma cells in response to treatment with the SHP2 
+inhibitors SHP099, II-B08, and RMC-4550. However, neuroblastoma cell lines 
+harboring endogenous NRAS Q61K mutation (which is commonly detected at relapse) 
+or isogenic neuroblastoma cells engineered to overexpress NRASQ61K were 
+distinctly resistant to SHP2 inhibitors. Combinations of SHP2 inhibitors with 
+other RAS pathway inhibitors such as trametinib, vemurafenib, and ulixertinib 
+were synergistic and reversed resistance to SHP2 inhibition in neuroblastoma in 
+vitro and in vivo. These results suggest for the first time that combination 
+therapies targeting SHP2 and other components of the RAS-MAPK pathway may be 
+effective against conventional therapy-resistant relapsed neuroblastoma, 
+including those that have acquired NRAS mutations.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="948~1012" text="treatment with the SHP2  inhibitors SHP099, II-B08, and RMC-4550" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1049~1088" text="harboring endogenous NRAS Q61K mutation" description="other" />
+<PERTURBING_ACTION id="P2" spans="1162~1196" text="engineered to overexpress NRASQ61K" description="increased expression level" />
+<PERTURBING_ACTION id="P3" spans="1227~1242" text="SHP2 inhibitors" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="1405~1420" text="SHP2 inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="913~932" text="neuroblastoma cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1023~1047" text="neuroblastoma cell lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1133~1161" text="isogenic neuroblastoma cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1424~1447" text="neuroblastoma in  vitro" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C4" spans="1424~1437,1452~1459" text="neuroblastoma ... in vivo" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="854~874" text="inhibition of growth" phenotype="cell growth" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="treatment with the SHP2  inhibitors SHP099, II-B08, and RMC-4550" contextID="C0" contextText="neuroblastoma cells" effectID="E0" effectText="inhibition of growth" />
+</TAGS>
+</Genomics_ConceptTask>

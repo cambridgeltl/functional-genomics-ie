@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Telomere Maintenance Mechanisms Define Clinical Outcome in High-Risk 
+Neuroblastoma.
+
+Neuroblastoma is a childhood cancer with heterogeneous clinical outcomes. To 
+comprehensively assess the impact of telomere maintenance mechanism (TMM) on 
+clinical outcomes in high-risk neuroblastoma, we integrated the C-circle assay 
+[a marker for alternative lengthening of telomeres (ALT)], TERT mRNA expression 
+by RNA-sequencing, whole-genome/exome sequencing, and clinical covariates in 134 
+neuroblastoma patient samples at diagnosis. In addition, we assessed TMM in 
+neuroblastoma cell lines (n = 104) and patient-derived xenografts (n = 28). ALT 
+was identified in 23.4% of high-risk neuroblastoma tumors and genomic 
+alterations in ATRX were detected in 60% of ALT tumors; 40% of ALT tumors lacked 
+genomic alterations in known ALT-associated genes. Patients with high-risk 
+neuroblastoma were classified into three subgroups (TERT-high, ALT+, and 
+TERT-low/non-ALT) based on presence of C-circles and TERT mRNA expression (above 
+or below median TERT expression). Event-free survival was similar among 
+TERT-high, ALT+, or TERT-low/non-ALT patients. However, overall survival (OS) 
+for TERT-low/non-ALT patients was significantly higher relative to TERT-high or 
+ALT patients (log-rank test; P < 0.01) independent of current clinical and 
+molecular prognostic markers. Consistent with the observed higher OS in patients 
+with TERT-low/non-ALT tumors, continuous shortening of telomeres and decreasing 
+viability occurred in low TERT-expressing, non-ALT patient-derived high-risk 
+neuroblastoma cell lines. These findings demonstrate that assaying TMM with TERT 
+mRNA expression and C-circles provides precise stratification of high-risk 
+neuroblastoma into three subgroups with substantially different OS: a previously 
+undescribed TERT-low/non-ALT cohort with superior OS (even after relapse) and 
+two cohorts of patients with poor survival that have distinct molecular 
+therapeutic targets.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

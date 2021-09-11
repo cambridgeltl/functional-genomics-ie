@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[GPD1 Enhances the Anticancer Effects of Metformin by Synergistically Increasing 
+Total Cellular Glycerol-3-Phosphate.
+
+Metformin is an oral drug widely used for the treatment of type 2 diabetes 
+mellitus. Numerous studies have demonstrated the value of metformin in cancer 
+treatment. However, for metformin to elicit effects on cancer often requires a 
+high dosage, and any underlying mechanism for how to improve its inhibitory 
+effects remains unknown. Here, we found that low mRNA expression of 
+glycerol-3-phosphate dehydrogenase 1 (GPD1) may predict a poor response to 
+metformin treatment in 15 cancer cell lines. In vitro and in vivo, metformin 
+treatment alone significantly suppressed cancer cell proliferation, a phenotype 
+enhanced by GPD1 overexpression. Total cellular glycerol-3-phosphate 
+concentration was significantly increased by the combination of GPD1 
+overexpression and metformin treatment, which suppressed cancer growth via 
+inhibition of mitochondrial function. Eventually, increased reactive oxygen 
+species and mitochondrial structural damage was observed in GPD1-overexpressing 
+cell lines treated with metformin, which may contribute to cell death. In 
+summary, this study demonstrates that GPD1 overexpression enhances the 
+anticancer activity of metformin and that patients with increased GPD1 
+expression in tumor cells may respond better to metformin therapy. SIGNIFICANCE: 
+GPD1 overexpression enhances the anticancer effect of metformin through 
+synergistic inhibition of mitochondrial function, thereby providing new insight 
+into metformin-mediated cancer therapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="747~766" text="GPD1 overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="869~889" text="GPD1  overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="1088~1107" text="GPD1-overexpressing" description="increased expression level" />
+<PERTURBING_ACTION id="P3" spans="1222~1241" text="GPD1 overexpression" description="increased expression level" />
+<CONTEXT id="C0" spans="621~629,695~706" text="In vitro ... cancer cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="634~641,695~706" text="in vivo ... cancer cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="932~938" text="cancer" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C3" spans="1109~1119" text="cell lines" experiment_type="cell line" species="not stated" />
+<EFFECT id="E1" spans="684~694,707~720" text="suppressed ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E2" spans="684~694,706~720,724~743" text="suppressed ...  proliferation ... phenotype  enhanced" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E3" spans="921~931,939~945" text="suppressed ... growth" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E5" spans="1150~1178" text="may contribute to cell death" phenotype="cell death" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="GPD1 overexpression" contextID="C0" contextText="In vitro ... cancer cell" effectID="E2" effectText="suppressed ...  proliferation ... phenotype  enhanced" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="GPD1 overexpression" contextID="C1" contextText="in vivo ... cancer cell" effectID="E2" effectText="suppressed ...  proliferation ... phenotype  enhanced" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="GPD1  overexpression" contextID="C2" contextText="cancer" effectID="E3" effectText="suppressed ... growth" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P2" perturbing_actionText="GPD1-overexpressing" contextID="C3" contextText="cell lines" effectID="E5" effectText="may contribute to cell death" />
+</TAGS>
+</Genomics_ConceptTask>

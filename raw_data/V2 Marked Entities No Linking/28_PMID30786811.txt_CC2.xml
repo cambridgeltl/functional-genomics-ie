@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The HGF-MET axis coordinates liver cancer metabolism and autophagy for 
+chemotherapeutic resistance.
+
+Notwithstanding the numerous drugs available for liver cancer, emerging evidence 
+suggests that chemotherapeutic resistance is a significant issue. HGF and its 
+receptor MET play critical roles in liver carcinogenesis and metastasis, mainly 
+dependent on the activity of receptor tyrosine kinase. However, for unknown 
+reasons, all HGF-MET kinase activity-targeted drugs have failed or have been 
+suspended in clinical trials thus far. Macroautophagy/autophagy is a protective 
+'self-eating' process for resisting metabolic stress by recycling obsolete 
+components, whereas the impact of autophagy-mediated reprogrammed metabolism on 
+therapeutic resistance is largely unclear, especially in liver cancer. In the 
+present study, we first observed that HGF stimulus facilitated the Warburg 
+effect and glutaminolysis to promote biogenesis in multiple liver cancer cells. 
+We then identified the pyruvate dehydrogenase complex (PDHC) and GLS/GLS1 as 
+crucial substrates of HGF-activated MET kinase; MET-mediated phosphorylation 
+inhibits PDHC activity but activates GLS to promote cancer cell metabolism and 
+biogenesis. We further found that the key residues of kinase activity in MET 
+(Y1234/1235) also constitute a conserved LC3-interacting region motif 
+(Y1234-Y1235-x-V1237). Therefore, on inhibiting HGF-mediated MET kinase 
+activation, Y1234/1235-dephosphorylated MET induced autophagy to maintain 
+biogenesis for cancer cell survival. Moreover, we verified that 
+Y1234/1235-dephosphorylated MET correlated with autophagy in clinical liver 
+cancer. Finally, a combination of MET inhibitor and autophagy suppressor 
+significantly improved the therapeutic efficiency of liver cancer in vitro and 
+in mice. Together, our findings reveal an HGF-MET axis-coordinated functional 
+interaction between tyrosine kinase signaling and autophagy, and establish a 
+MET-autophagy double-targeted strategy to overcome chemotherapeutic resistance 
+in liver cancer. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="943~970" text="multiple liver cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1521~1532" text="cancer cell" context="transformed cells" />
+<CONTEXT id="C2" spans="1775~1787" text="liver cancer" context="neoplasm" />
+<CONTEXT id="C3" spans="1788~1796" text="in vitro" context="in vitro" />
+<CONTEXT id="C4" spans="1805~1809" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="1483~1492" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1533~1541" text="survival" phenotype="cell survival" />
+<EFFECT id="E0" spans="1475~1482" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

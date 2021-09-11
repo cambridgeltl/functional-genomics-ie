@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CB13, a novel PPARγ ligand, overcomes radio-resistance via ROS generation and ER 
+stress in human non-small cell lung cancer.
+
+Peroxisome proliferator-activated receptor gamma (PPARγ) is a well-known 
+therapeutic target for type 2 diabetes as well as is a potential target for 
+effective anti-cancer drug, since PPARγ ligands such as ciglitazone (Cig) 
+frequently cause cell death in many types of cancer cells and suppress tumor 
+growth. However, many cancer patients acquire chemo-resistance or 
+radio-resistance after chemo or radiotherapy, and it is still unclear. In the 
+difficulty of well-known anti-cancer drugs, we developed a novel PPARγ agonist 
+CB13 (1-benzyl-5-(4-methylphenyl) pyrido [2,3-d]pyrimidine-2,4(1H,3H)-dione) and 
+investigated the anti-cancer effect and cell death mechanism on human non-small 
+cell lung cancer (NSCLC) cells. With anti-cancer effect of Cig, CB13 also causes 
+inhibition of cell growth by decreasing cell viability, increasing the release 
+of LDH, and increasing caspase-3, and caspase-9 activities. CB13 generates 
+reactive oxygen species (ROS) and causes cell death via ER stress in NSCLC and 
+radio-resistant NSCLC cells (A549R and H460R), and a combination of CB13 and 
+radiation induces greater ER stress and cell death when compared to CB13 alone. 
+Taken together, our results suggest that a combination of CB13 and radiation may 
+overcome radio-resistance caused by radiotherapy.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1127~1183" text="NSCLC and  radio-resistant NSCLC cells (A549R and H460R)" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="902~927" text="inhibition of cell growth" phenotype="cell growth" activity="inhibits" />
+<EFFECT id="E1" spans="931~956" text="decreasing cell viability" phenotype="cell survival" activity="decreases" />
+<EFFECT id="E2" spans="1092~1109" text="causes cell death" phenotype="cell death" activity="causes" />
+<EFFECT id="E3" spans="1226~1233,1256~1266" text="induces ... cell death" phenotype="cell death" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

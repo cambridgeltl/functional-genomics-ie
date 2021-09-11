@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Infiltrating Mast Cell-Mediated Stimulation of Estrogen Receptor Activity in 
+Breast Cancer Cells Promotes the Luminal Phenotype.
+
+Tumor growth and development is determined by both cancer cell-autonomous and 
+microenvironmental mechanisms, including the contribution of infiltrating immune 
+cells. Because the role of mast cells (MC) in this process is poorly 
+characterized and even controversial, we investigated their part in breast 
+cancer. Crossing C57BL/6 MMTV-PyMT mice, which spontaneously develop mammary 
+carcinomas, with MC-deficient C57BL/6-KitW-sh/W-sh (Wsh) mice, showed that MCs 
+promote tumor growth and prevent the development of basal CK5-positive areas in 
+favor of a luminal gene program. When cocultured with breast cancer cells in 
+vitro, MCs hindered activation of cMET, a master regulator of the basal program, 
+and simultaneously promoted expression and activation of estrogen receptor 
+(ESR1/ER) and its target genes (PGR, KRT8/CK8, BCL2), which are all luminal 
+markers. Moreover, MCs reduced ERBB2/HER2 levels, whose inhibition further 
+increased ESR1 expression. In vivo and in silico analysis of patients with 
+breast cancer revealed a direct correlation between MC density and ESR1 
+expression. In mice engrafted with HER2-positive breast cancer tumors, 
+coinjection of MCs increased tumor engraftment and outgrowth, supporting the 
+link between MCs and increased risk of relapse in patients with breast cancer. 
+Together, our findings support the notion that MCs influence the phenotype of 
+breast cancer cells by stimulating a luminal phenotype and ultimately modifying 
+the outcome of the disease.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="455~472" text="C57BL/6 MMTV-PyMT" description="other" />
+<PERTURBING_ACTION id="P1" spans="546~572" text="C57BL/6-KitW-sh/W-sh (Wsh)" description="other" />
+<CONTEXT id="C0" spans="473~477" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="573~577" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="731~760" text="breast cancer cells in  vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1230~1284" text="mice engrafted with HER2-positive breast cancer tumors" experiment_type="xenotransplantation" species="not stated" />
+<EFFECT id="E0" spans="596~616" text="promote tumor growth" phenotype="tumour growth" activity="increases" />
+<EFFECT id="E1" spans="499~526" text="develop mammary  carcinomas" phenotype="tumourigenesis" activity="causes" />
+<EFFECT id="E2" spans="1306~1347" text="increased tumor engraftment and outgrowth" phenotype="tumourigenesis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="C57BL/6 MMTV-PyMT" contextID="C0" contextText="mice" effectID="E1" effectText="develop mammary  carcinomas" />
+</TAGS>
+</Genomics_ConceptTask>

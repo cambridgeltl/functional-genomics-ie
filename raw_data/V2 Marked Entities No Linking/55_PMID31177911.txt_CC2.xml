@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TGFB1-induced autophagy affects the pattern of pancreatic cancer progression in 
+distinct ways depending on SMAD4 status.
+
+Pancreatic ductal adenocarcinoma (PDAC) is one of the most aggressive and lethal 
+malignancies. Given that macroautophagy/autophagy activation is prevalent in 
+PDAC, the dual roles of autophagy could be involved in PDAC heterogeneity. In 
+this work, we demonstrated that TGFB1 induced autophagic flux through 
+SMAD4-dependent or SMAD4-independent pathways based on a distinct genetic 
+context. In SMAD4-positive PDAC cells, TGFB1-induced autophagy promoted 
+proliferation and inhibited migration by decreasing the nuclear translocation of 
+SMAD4. Conversely, TGFB1-induced autophagy inhibited proliferation and promoted 
+migration in SMAD4-negative cells through the regulation of MAPK/ERK activation. 
+TGFB1 expression also positively correlated with LC3B expression in PDAC 
+specimens. A high level of LC3B was associated with unfavorable overall survival 
+(OS) and disease-free survival (DFS) in SMAD4-negative PDAC patients, although 
+LC3B could not predict OS and DFS for the 110 PDAC patients. Thus, TGFB1-induced 
+autophagy contributed to the different patterns of PDAC progression. This 
+knowledge can aid in improving our understanding of the molecular classification 
+of PDAC and might guide the development of therapeutic strategies for PDAC, 
+especially for SMAD4-negative PDAC.]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="520~545" text="SMAD4-positive PDAC cells" context="transformed cells" />
+<CONTEXT id="C2" spans="757~777" text="SMAD4-negative cells" context="cells" />
+<PHENOTYPE id="PH0" spans="561~570" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="581~594" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH2" spans="609~618" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH3" spans="696~705" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH4" spans="716~729" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH5" spans="744~753" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH6" spans="1144~1153" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="553~560" text="induced" effect="positive" />
+<EFFECT id="E1" spans="571~579" text="promoted" effect="positive" />
+<EFFECT id="E2" spans="599~608" text="inhibited" effect="negative" />
+<EFFECT id="E3" spans="688~695" text="induced" effect="positive" />
+<EFFECT id="E4" spans="706~715" text="inhibited" effect="negative" />
+<EFFECT id="E5" spans="734~742" text="promoted" effect="positive" />
+<EFFECT id="E6" spans="1135~1142" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

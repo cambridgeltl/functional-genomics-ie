@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Blocking SHH/Patched Interaction Triggers Tumor Growth Inhibition through 
+Patched-Induced Apoptosis.
+
+The Sonic Hedgehog (SHH) pathway plays a key role in cancer. Alterations of SHH 
+canonical signaling, causally linked to tumor progression, have become rational 
+targets for cancer therapy. However, Smoothened (SMO) inhibitors have failed to 
+show clinical benefit in patients with cancers displaying SHH 
+autocrine/paracrine expression. We reported earlier that the SHH receptor 
+Patched (PTCH) is a dependence receptor that triggers apoptosis in the absence 
+of SHH through a pathway that differs from the canonical one, thus generating a 
+state of dependence on SHH for survival. Here, we propose a dual function for 
+SHH: its binding to PTCH not only activates the SHH canonical pathway but also 
+blocks PTCH-induced apoptosis. Eighty percent, 64%, and 8% of human colon, 
+pancreatic, and lung cancer cells, respectively, overexpressed SHH at 
+transcriptional and protein levels. In addition, SHH-overexpressing cells 
+expressed all the effectors of the PTCH-induced apoptotic pathway. Although the 
+canonical pathway remained unchanged, autocrine SHH interference in colon, 
+pancreatic, and lung cell lines triggered cell death through PTCH proapoptotic 
+signaling. In vivo, SHH interference in colon cancer cell lines decreased 
+primary tumor growth and metastasis. Therefore, the antitumor effect associated 
+to SHH deprivation, usually thought to be a consequence of the inactivation of 
+the canonical SHH pathway, is, at least in part, because of the engagement of 
+PTCH proapoptotic activity. Together, these data strongly suggest that 
+therapeutic strategies based on the disruption of SHH/PTCH interaction in 
+SHH-overexpressing cancers should be explored. SIGNIFICANCE: Sonic 
+Hedgehog-overexpressing tumors express PTCH-induced cell death effectors, 
+suggesting that this death signaling could be activated as an antitumor 
+strategy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1000~1018" text="SHH-overexpressing" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="1145~1171" text="autocrine SHH interference" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1283~1299" text="SHH interference" description="knock down" />
+<CONTEXT id="C0" spans="1019~1024" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1175~1214" text="colon,  pancreatic, and lung cell lines" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C2" spans="1303~1326" text="colon cancer cell lines" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="1215~1235" text="triggered cell death" phenotype="cell death" activity="causes" />
+<EFFECT id="E1" spans="1327~1358" text="decreased  primary tumor growth" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E4" spans="1327~1336,1363~1373" text="decreased ... metastasis" phenotype="metastasis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="autocrine SHH interference" contextID="C1" contextText="colon,  pancreatic, and lung cell lines" effectID="E0" effectText="triggered cell death" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="SHH interference" contextID="C2" contextText="colon cancer cell lines" effectID="E1" effectText="decreased  primary tumor growth" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="SHH interference" contextID="C2" contextText="colon cancer cell lines" effectID="E4" effectText="decreased ... metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

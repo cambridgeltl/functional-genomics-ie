@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Circular RNA circHIPK3 modulates autophagy via MIR124-3p-STAT3-PRKAA/AMPKα 
+signaling in STK11 mutant lung cancer.
+
+The role of circular RNA in cancer is emerging. A newly reported circular RNA 
+HIPK3 (circHIPK3) is critical in cell proliferation of various cancer types, 
+although its role in non-small cell lung cancer (NSCLC), has yet to be 
+elucidated. Our results provided evidence that silencing of circHIPK3 
+significantly impaired cell proliferation, migration, invasion and induced 
+macroautophagy/autophagy. Mechanistically, we uncovered that autophagy was 
+induced upon loss of circHIPK3 via the MIR124-3p-STAT3-PRKAA/AMPKa axis in STK11 
+mutant lung cancer cell lines (A549 and H838). STAT3 abrogation as well as 
+transfection with a MIR124-3p mimic, recapitulated the induction of autophagy. 
+We also demonstrated antagonistic regulation on autophagy between circHIPK3 and 
+linear HIPK3 (linHIPK3). We therefore propose that the ratio between circHIPK3 
+and linHIPK3 (C:L ratio) may reflect autophagy levels in cancer cells. We 
+observed that a high C:L ratio (>0.49) was an indicator of poor survival, 
+especially in advanced-stage NSCLC patients. These results support that 
+circHIPK3 is a key autophagy regulator in a subset of lung cancer and has 
+potential clinical use as a prognostic factor. The circular RNA HIPK3 
+(circHIPK3) functions as an oncogene and autophagy regulator may potential use 
+as a prognostic marker and therapeutic target in lung cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="392~414" text="silencing of circHIPK3" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="581~598" text="loss of circHIPK3" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="643~656" text="STK11  mutant" perturbingaction="other" />
+<PERTURBING_ACTION id="P3" spans="697~713" text="STAT3 abrogation" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="726~761" text="transfection with a MIR124-3p mimic" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="439~443" text="cell" context="cells" />
+<CONTEXT id="C1" spans="657~695" text="lung cancer cell lines (A549 and H838)" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="444~457" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="459~468" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH2" spans="470~478" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH3" spans="507~516" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH4" spans="553~562" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH5" spans="794~803" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="430~438" text="impaired" effect="negative" />
+<EFFECT id="E1" spans="483~490" text="induced" effect="positive" />
+<EFFECT id="E2" spans="568~575" text="induced" effect="positive" />
+<EFFECT id="E3" spans="781~790" text="induction" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="silencing of circHIPK3" contextID="C0" contextText="cell" phenotypeID="PH0" phenotypeText="proliferation" effectID="E0" effectText="impaired" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="silencing of circHIPK3" contextID="C0" contextText="cell" phenotypeID="PH1" phenotypeText="migration" effectID="E0" effectText="impaired" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="silencing of circHIPK3" contextID="C0" contextText="cell" phenotypeID="PH2" phenotypeText="invasion" effectID="E0" effectText="impaired" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="silencing of circHIPK3" contextID="C0" contextText="cell" effectID="E1" effectText="induced" phenotypeID="PH3" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P1" perturbing_actionText="loss of circHIPK3" contextID="C1" contextText="lung cancer cell lines (A549 and H838)" phenotypeID="PH4" phenotypeText="autophagy" effectID="E2" effectText="induced" />
+</TAGS>
+</Genomics_ConceptTask>

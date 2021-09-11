@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Endothelin-1-Mediated Drug Resistance in EGFR-Mutant Non-Small Cell Lung 
+Carcinoma.
+
+Progression on therapy in non-small cell lung carcinoma (NSCLC) is often 
+evaluated radiographically, however, image-based evaluation of said therapies 
+may not distinguish disease progression due to intrinsic tumor drug resistance 
+or inefficient tumor penetration of the drugs. Here we report that the 
+inhibition of mutated EGFR promotes the secretion of a potent vasoconstrictor, 
+endothelin-1 (EDN1), which continues to increase as the cells become resistant 
+with a mesenchymal phenotype. As EDN1 and its receptor (EDNR) is linked to 
+cancer progression, EDNR-antagonists have been evaluated in several clinical 
+trials with disappointing results. These trials were based on a hypothesis that 
+the EDN1-EDNR axis activates the MAPK-ERK signaling pathway that is vital to the 
+cancer cell survival; the trials were not designed to evaluate the impact of 
+tumor-derived EDN1 in modifying tumor microenvironment or contributing to drug 
+resistance. Ectopic overexpression of EDN1 in cells with mutated EGFR resulted 
+in poor drug delivery and retarded growth in vivo but not in vitro. Intratumoral 
+injection of recombinant EDN significantly reduced blood flow and subsequent 
+gefitinib accumulation in xenografted EGFR-mutant tumors. Furthermore, depletion 
+of EDN1 or the use of endothelin receptor inhibitors bosentan and ambrisentan 
+improved drug penetration into tumors and restored blood flow in 
+tumor-associated vasculature. Correlatively, these results describe a simplistic 
+endogenous yet previously unrealized resistance mechanism inherent to a subset 
+of EGFR-mutant NSCLC to attenuate tyrosine kinase inhibitor delivery to the 
+tumors by limiting drug-carrying blood flow and the drug concentration in 
+tumors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="392~418" text="inhibition of mutated EGFR" description="other" />
+<PERTURBING_ACTION id="P1" spans="1039~1069" text="Ectopic overexpression of EDN1" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="1084~1096" text="mutated EGFR" description="other" />
+<PERTURBING_ACTION id="P3" spans="1338~1356" text="depletion  of EDN1" description="other" />
+<CONTEXT id="C0" spans="528~533" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1073~1078,1149~1156" text="cells ... in vivo" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1073~1078,1165~1173" text="cells ... in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1293~1323" text="xenografted EGFR-mutant tumors" experiment_type="xenotransplantation" species="not stated" />
+<EFFECT id="E0" spans="1133~1148" text="retarded growth" phenotype="cell growth" activity="decreases" />
+<EFFECT id="E1" spans="1133~1148,1161~1164" text="retarded growth ... not" phenotype="cell growth" activity="no effect" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Ectopic overexpression of EDN1" contextID="C2" contextText="cells ... in vivo" effectID="E0" effectText="retarded growth" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="Ectopic overexpression of EDN1" contextID="C3" contextText="cells ... in vitro" effectID="E1" effectText="retarded growth ... not" />
+</TAGS>
+</Genomics_ConceptTask>

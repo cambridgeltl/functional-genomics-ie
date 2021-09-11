@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CASP9 (caspase 9) is essential for autophagosome maturation through regulation 
+of mitochondrial homeostasis.
+
+CASP9 (caspase 9) is a well-known initiator caspase which triggers intrinsic 
+apoptosis. Recent studies also suggest various non-apoptotic roles of CASP9, 
+including macroautophagy/autophagy regulation. However, the involvement of CASP9 
+in autophagy and its molecular mechanisms are not well understood. Here we 
+report the non-apoptotic function of CASP9 in positive regulation of autophagy 
+through maintenance of mitochondrial homeostasis. Growth factor or amino acid 
+deprivation-induced autophagy activated CASP9, but without apoptotic features. 
+Pharmacological inhibition or genetic ablation of CASP9 decreased autophagy 
+flux, while ectopic expression of CASP9 rescued autophagy defects. In CASP9 
+knockout (KO) cells, initiation and elongation of phagophore membranes were 
+normal, but sealing of the membranes and autophagosome maturation were impaired, 
+and the lifetime of autophagosomes was prolonged. Ablation of CASP9 caused an 
+accumulation of inactive ATG3 and decreased lipidation of the Atg8-family 
+members, most severely that of GABARAPL1. Moreover, it resulted in abnormal 
+mitochondrial morphology with depolarization of the membrane potential, reduced 
+reactive oxygen species production, and aberrant accumulation of mitochondrial 
+fusion-fission proteins. CASP9 expression or exogenously added H2O2 in the CASP9 
+KO cells corrected the ATG3 level and lipidation status of Atg8-family members, 
+and restored autophagy flux. Of note, only CASP9 expression but not H2O2 rescued 
+mitochondrial defects, revealing regulation of mitochondrial homeostasis by 
+CASP9. Our findings suggest a new regulatory link between mitochondria and 
+autophagy through CASP9 activity, especially for the proper operation of the 
+Atg8-family conjugation system and autophagosome closure and maturation.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="694~719" text="genetic ablation of CASP9" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="753~780" text="ectopic expression of CASP9" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="811~831" text="CASP9  knockout (KO)" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="1027~1044" text="Ablation of CASP9" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="1394~1410" text="CASP9 expression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P5" spans="1444~1453" text="CASP9  KO" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P6" spans="1575~1591" text="CASP9 expression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="832~837" text="cells" context="cells" />
+<CONTEXT id="C1" spans="1454~1459" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="604~613" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="730~739" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="789~798" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="1545~1559" text="autophagy flux" phenotype="autophagy" />
+<EFFECT id="E0" spans="596~603" text="induced" effect="positive" />
+<EFFECT id="E1" spans="720~729" text="decreased" effect="negative" />
+<EFFECT id="E2" spans="781~788" text="rescued" effect="rescues" />
+<EFFECT id="E3" spans="1536~1544" text="restored" effect="rescues" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P4" perturbing_actionText="CASP9 expression" contextID="C1" contextText="cells" effectID="E3" effectText="restored" phenotypeID="PH3" phenotypeText="autophagy flux" />
+</TAGS>
+</Genomics_ConceptTask>

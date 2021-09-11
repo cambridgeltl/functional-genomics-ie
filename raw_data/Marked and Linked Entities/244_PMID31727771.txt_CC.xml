@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The KDM5A/RBP2 histone demethylase represses NOTCH signaling to sustain 
+neuroendocrine differentiation and promote small cell lung cancer tumorigenesis.
+
+More than 90% of small cell lung cancers (SCLCs) harbor loss-of-function 
+mutations in the tumor suppressor gene RB1 The canonical function of the RB1 
+gene product, pRB, is to repress the E2F transcription factor family, but pRB 
+also functions to regulate cellular differentiation in part through its binding 
+to the histone demethylase KDM5A (also known as RBP2 or JARID1A). We show that 
+KDM5A promotes SCLC proliferation and SCLC's neuroendocrine differentiation 
+phenotype in part by sustaining expression of the neuroendocrine transcription 
+factor ASCL1. Mechanistically, we found that KDM5A sustains ASCL1 levels and 
+neuroendocrine differentiation by repressing NOTCH2 and NOTCH target genes. To 
+test the role of KDM5A in SCLC tumorigenesis in vivo, we developed a 
+CRISPR/Cas9-based mouse model of SCLC by delivering an adenovirus (or an 
+adeno-associated virus [AAV]) that expresses Cre recombinase and sgRNAs 
+targeting Rb1, Tp53, and Rbl2 into the lungs of Lox-Stop-Lox Cas9 mice. 
+Coinclusion of a KDM5A sgRNA decreased SCLC tumorigenesis and metastasis, and 
+the SCLCs that formed despite the absence of KDM5A had higher NOTCH activity 
+compared to KDM5A +/+ SCLCs. This work establishes a role for KDM5A in SCLC 
+tumorigenesis and suggests that KDM5 inhibitors should be explored as treatments 
+for SCLC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P2" spans="973~1108,1127~1144,1152~1180" text="delivering an adenovirus (or an  adeno-associated virus [AAV]) that expresses Cre recombinase and sgRNAs  targeting Rb1, Tp53, and Rbl2 ... Lox-Stop-Lox Cas9 ... Coinclusion of a KDM5A sgRNA" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="973~1108,1127~1144" text="delivering an adenovirus (or an  adeno-associated virus [AAV]) that expresses Cre recombinase and sgRNAs  targeting Rb1, Tp53, and Rbl2 ... Lox-Stop-Lox Cas9" description="knock out" />
+<CONTEXT id="C0" spans="562~566" text="SCLC" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="585~589" text="SCLC" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C2" spans="888~892,907~914" text="SCLC ... in vivo" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C8" spans="1118~1126,1145~1149" text="lungs of ... mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C9" spans="1191~1195" text="SCLC" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="553~561,567~580" text="promotes ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E1" spans="553~561,592~622" text="promotes ... neuroendocrine differentiation" phenotype="differentiation" activity="increases" />
+<EFFECT id="E2" spans="1181~1190,1196~1209" text="decreased ... tumorigenesis" phenotype="tumourigenesis" activity="decreases" />
+<EFFECT id="E3" spans="1181~1190,1214~1224" text="decreased ... metastasis" phenotype="metastasis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="delivering an adenovirus (or an  adeno-associated virus [AAV]) that expresses Cre recombinase and sgRNAs  targeting Rb1, Tp53, and Rbl2 ... Lox-Stop-Lox Cas9 ... Coinclusion of a KDM5A sgRNA" contextID="C9" contextText="SCLC" effectID="E2" effectText="decreased ... tumorigenesis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="delivering an adenovirus (or an  adeno-associated virus [AAV]) that expresses Cre recombinase and sgRNAs  targeting Rb1, Tp53, and Rbl2 ... Lox-Stop-Lox Cas9 ... Coinclusion of a KDM5A sgRNA" contextID="C9" contextText="SCLC" effectID="E3" effectText="decreased ... metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

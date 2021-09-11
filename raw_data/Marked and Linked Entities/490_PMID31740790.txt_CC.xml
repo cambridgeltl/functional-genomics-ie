@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Tumor suppressor ZHX2 inhibits NAFLD-HCC progression via blocking LPL-mediated 
+lipid uptake.
+
+Non-alcoholic fatty liver disease (NAFLD) leads to hepatocellular carcinoma 
+(HCC). However, the underlying mechanism remains largely unclear. Here, we 
+investigated the role of the tumor suppressor Zinc fingers and homeoboxes 2 
+(ZHX2) in the progression of NAFLD to HCC. ZHX2 expression was significantly 
+decreased in fatty liver tissues, especially in the liver with NAFLD-HCC. ZHX2 
+overexpression disturbed lipid homeostasis of cultured HCC cells, and inhibited 
+lipid deposition in hepatocytes both in vitro and in vivo. Moreover, ZHX2 
+inhibited uptake of exogenous lipids through transcriptional suppression of 
+lipid lipase (LPL), leading to retarded proliferation of HCC cells. Importantly, 
+LPL overexpression significantly reversed ZHX2-mediated inhibition of HCC cell 
+proliferation, xenograft tumor growth, lipid deposition, and spontaneous liver 
+tumor formation. Consistently, IHC staining demonstrated a negative correlation 
+of ZHX2 with LPL in an HCC cohort. Collectively, ZHX2 protects hepatocytes from 
+abnormal lipid deposition in NAFLD through transcriptional repression of LPL, 
+which subsequently retards cell growth and NAFLD-HCC progression. These findings 
+illustrate a novel mechanism of NAFLD progression into HCC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="477~497" text="ZHX2  overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="798~816" text="LPL overexpression" description="increased expression level" />
+<CONTEXT id="C0" spans="529~547" text="cultured HCC cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="584~595,601~609" text="hepatocytes ... in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="584~595,614~621" text="hepatocytes ... in vivo" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="773~782" text="HCC cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C4" spans="868~876" text="HCC cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C5" spans="893~902" text="xenograft" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C6" spans="951~956" text="liver" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="747~769" text="retarded proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E2" spans="831~839,854~867,878~891" text="reversed ... inhibition of ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E5" spans="831~839,854~867,902~915" text="reversed ... inhibition of ...  tumor growth" phenotype="tumour growth" activity="increases" />
+<EFFECT id="E6" spans="831~839,854~867,958~973" text="reversed ... inhibition of ... tumor formation" phenotype="tumourigenesis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="LPL overexpression" contextID="C4" contextText="HCC cell" effectID="E2" effectText="reversed ... inhibition of ... proliferation" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P1" perturbing_actionText="LPL overexpression" contextID="C5" contextText="xenograft" effectID="E5" effectText="reversed ... inhibition of ...  tumor growth" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P1" perturbing_actionText="LPL overexpression" contextID="C6" contextText="liver" effectID="E6" effectText="reversed ... inhibition of ... tumor formation" />
+</TAGS>
+</Genomics_ConceptTask>

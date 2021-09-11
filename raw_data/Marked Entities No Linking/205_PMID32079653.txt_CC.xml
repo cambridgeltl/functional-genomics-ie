@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Estrogen-related receptors are targetable ROS sensors.
+
+Excessive reactive oxygen species (ROS) can cause oxidative stress and 
+consequently cell injury contributing to a wide range of diseases. Addressing 
+the critical gaps in our understanding of the adaptive molecular events 
+downstream ROS provocation holds promise for the identification of druggable 
+metabolic vulnerabilities. Here, we unveil a direct molecular link between the 
+activity of two estrogen-related receptor (ERR) isoforms and the control of 
+glutamine utilization and glutathione antioxidant production. ERRα 
+down-regulation restricts glutamine entry into the TCA cycle, while ERRγ 
+up-regulation promotes glutamine-driven glutathione production. Notably, we 
+identify increased ERRγ expression/activation as a hallmark of oxidative stress 
+triggered by mitochondrial disruption or chemotherapy. Enhanced tumor 
+antioxidant capacity is an underlying feature of human breast cancer (BCa) 
+patients that respond poorly to treatment. We demonstrate that pharmacological 
+inhibition of ERRγ with the selective inverse agonist GSK5182 increases 
+antitumor efficacy of the chemotherapeutic paclitaxel on poor outcome BCa tumor 
+organoids. Our findings thus underscore the ERRs as novel redox sensors and 
+effectors of a ROS defense program and highlight the potential therapeutic 
+advantage of exploiting ERRγ inhibitors for the treatment of BCa and other 
+diseases where oxidative stress plays a central role.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1025~1103" text="pharmacological  inhibition of ERRγ with the selective inverse agonist GSK5182" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1172~1205" text="poor outcome BCa tumor  organoids" experiment_type="organoid culture" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

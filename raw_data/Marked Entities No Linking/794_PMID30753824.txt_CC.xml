@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Antitumor Responses in the Absence of Toxicity in Solid Tumors by Targeting 
+B7-H3 via Chimeric Antigen Receptor T Cells.
+
+The high expression across multiple tumor types and restricted expression in 
+normal tissues make B7-H3 an attractive target for immunotherapy. We generated 
+chimeric antigen receptor (CAR) T cells targeting B7-H3 (B7-H3.CAR-Ts) and found 
+that B7-H3.CAR-Ts controlled the growth of pancreatic ductal adenocarcinoma, 
+ovarian cancer and neuroblastoma in vitro and in orthotopic and metastatic 
+xenograft mouse models, which included patient-derived xenograft. We also found 
+that 4-1BB co-stimulation promotes lower PD-1 expression in B7-H3.CAR-Ts, and 
+superior antitumor activity when targeting tumor cells that constitutively 
+expressed PD-L1. We took advantage of the cross-reactivity of the B7-H3.CAR with 
+murine B7-H3, and found that B7-H3.CAR-Ts significantly controlled tumor growth 
+in a syngeneic tumor model without evident toxicity. These findings support the 
+clinical development of B7-H3.CAR-Ts.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="406~438,474~482" text="pancreatic ductal adenocarcinoma ... in vitro" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="441~455,474~482" text="ovarian cancer ... in vitro" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C2" spans="460~482" text="neuroblastoma in vitro" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C3" spans="490~500,527~539" text="orthotopic ... mouse models" experiment_type="organism" species="mouse" />
+<CONTEXT id="C4" spans="505~539" text="metastatic  xenograft mouse models" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C5" spans="556~581" text="patient-derived xenograft" experiment_type="xenotransplantation" species="human" />
+<CONTEXT id="C6" spans="921~942" text="syngeneic tumor model" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="381~402" text="controlled the growth" phenotype="tumour growth" activity="regulates" />
+<EFFECT id="E1" spans="891~914" text="controlled tumor growth" phenotype="tumour growth" activity="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

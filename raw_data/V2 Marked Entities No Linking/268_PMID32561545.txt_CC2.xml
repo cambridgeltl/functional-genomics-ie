@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Human RTEL1 associates with Poldip3 to facilitate responses to replication 
+stress and R-loop resolution.
+
+RTEL1 helicase is a component of DNA repair and telomere maintenance 
+machineries. While RTEL1's role in DNA replication is emerging, how RTEL1 
+preserves genomic stability during replication remains elusive. Here we used a 
+range of proteomic, biochemical, cell, and molecular biology and gene editing 
+approaches to provide further insights into potential role(s) of RTEL1 in DNA 
+replication and genome integrity maintenance. Our results from complementary 
+human cell culture models established that RTEL1 and the Polδ subunit Poldip3 
+form a complex and are/function mutually dependent in chromatin binding after 
+replication stress. Loss of RTEL1 and Poldip3 leads to marked R-loop 
+accumulation that is confined to sites of active replication, enhances 
+endogenous replication stress, and fuels ensuing genomic instability. The impact 
+of depleting RTEL1 and Poldip3 is epistatic, consistent with our proposed 
+concept of these two proteins operating in a shared pathway involved in DNA 
+replication control under stress conditions. Overall, our data highlight a 
+previously unsuspected role of RTEL1 and Poldip3 in R-loop suppression at 
+genomic regions where transcription and replication intersect, with implications 
+for human diseases including cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="746~771" text="Loss of RTEL1 and Poldip3" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="953~980" text="depleting RTEL1 and Poldip3" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

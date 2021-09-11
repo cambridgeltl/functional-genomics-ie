@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ETV4 Is Necessary for Estrogen Signaling and Growth in Endometrial Cancer Cells.
+
+Estrogen signaling through estrogen receptor alpha (ER) plays a major role in 
+endometrial cancer risk and progression, however, the molecular mechanisms 
+underlying ER's regulatory role in endometrial cancer are poorly understood. In 
+breast cancer cells, ER genomic binding is enabled by FOXA1 and GATA3, but the 
+transcription factors that control ER genomic binding in endometrial cancer 
+cells remain unknown. We previously identified ETV4 as a candidate factor 
+controlling ER genomic binding in endometrial cancer cells, and here we explore 
+the functional importance of ETV4. Homozygous deletion of ETV4, using 
+CRISPR/Cas9, led to greatly reduced ER binding at the majority of loci normally 
+bound by ER. Consistent with the dramatic loss of ER binding, the gene 
+expression response to estradiol was dampened for most genes. ETV4 contributes 
+to estrogen signaling in two distinct ways. ETV4 loss affects chromatin 
+accessibility at some ER bound loci and impairs ER nuclear translocation. The 
+diminished estrogen signaling upon ETV4 deletion led to decreased growth, 
+particularly in 3D culture, where hollow organoids were formed and in vivo in 
+the context of estrogen-dependent growth. These results show that ETV4 plays an 
+important role in estrogen signaling in endometrial cancer cells. SIGNIFICANCE: 
+Estrogen receptor alpha (ER) is a key oncogene in endometrial cancer. This study 
+uncovers ETV4 as an important factor in controlling the activity of ER and the 
+growth of endometrial cancer cells.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="666~713" text="Homozygous deletion of ETV4, using  CRISPR/Cas9" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1122~1135" text="ETV4 deletion" description="knock out" />
+<CONTEXT id="C0" spans="1178~1224" text="3D culture, where hollow organoids were formed" experiment_type="organoid culture" species="not stated" />
+<CONTEXT id="C1" spans="1229~1236" text="in vivo" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="1136~1159" text="led to decreased growth" phenotype="cell growth" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="ETV4 deletion" contextID="C0" contextText="3D culture, where hollow organoids were formed" effectID="E0" effectText="led to decreased growth" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="ETV4 deletion" effectID="E0" effectText="led to decreased growth" contextID="C1" contextText="in vivo" />
+</TAGS>
+</Genomics_ConceptTask>

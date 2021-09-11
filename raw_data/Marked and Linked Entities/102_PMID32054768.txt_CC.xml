@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Adipocyte-Induced FABP4 Expression in Ovarian Cancer Cells Promotes Metastasis 
+and Mediates Carboplatin Resistance.
+
+Adipocytes are critical for ovarian cancer cells to home to the omentum, but the 
+metabolic changes initiated by this interaction are unknown. To this end, we 
+carried out unbiased mass spectrometry-based metabolomic and proteomic profiling 
+of cancer cells cocultured with primary human omental adipocytes. Cancer cells 
+underwent significant proteo-metabolomic alteration(s), typified by changes in 
+the lipidome with corresponding upregulation of lipid metabolism proteins. 
+FABP4, a lipid chaperone protein, was identified as the critical regulator of 
+lipid responses in ovarian cancer cells cocultured with adipocytes. 
+Subsequently, knockdown of FABP4 resulted in increased 5-hydroxymethylcytosine 
+levels in the DNA, downregulation of gene signatures associated with ovarian 
+cancer metastasis, and reduced clonogenic cancer cell survival. In addition, 
+clustered regularly interspaced short palindromic repeats (CRISPR)-mediated 
+knockout of FABP4 in high-grade serous ovarian cancer cells reduced metastatic 
+tumor burden in mice. Consequently, a small-molecule inhibitor of FABP4 
+(BMS309403) not only significantly reduced tumor burden in a syngeneic 
+orthotopic mouse model but also increased the sensitivity of cancer cells toward 
+carboplatin both in vitro and in vivo. Taken together, these results show that 
+targeting FABP4 in ovarian cancer cells can inhibit their ability to adapt and 
+colonize lipid-rich tumor microenvironments, providing an opportunity for 
+specific metabolic targeting of ovarian cancer metastasis. SIGNIFICANCE: Ovarian 
+cancer metastatic progression can be restricted by targeting a critical 
+regulator of lipid responses, FABP4.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="758~776" text="knockdown of FABP4" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1038~1074" text="(CRISPR)-mediated  knockout of FABP4" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1175~1221" text="small-molecule inhibitor of FABP4  (BMS309403)" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="363~375" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="426~438" text="Cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="694~714" text="ovarian cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="933~955" text="clonogenic cancer cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C4" spans="1078~1116" text="high-grade serous ovarian cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C5" spans="1153~1157" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C6" spans="1271~1304" text="syngeneic  orthotopic mouse model" experiment_type="organism" species="mouse" />
+<CONTEXT id="C7" spans="1381~1389" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C8" spans="1394~1401" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C9" spans="1463~1483" text="ovarian cancer cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="925~932,956~964" text="reduced ... survival" phenotype="cell survival" activity="decreases" />
+<EFFECT id="E1" spans="1117~1149" text="reduced metastatic  tumor burden" phenotype="metastasis" activity="decreases" />
+<EFFECT id="E2" spans="1245~1265" text="reduced tumor burden" phenotype="tumourigenesis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="knockdown of FABP4" contextID="C3" contextText="clonogenic cancer cell" effectID="E0" effectText="reduced ... survival" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="(CRISPR)-mediated  knockout of FABP4" contextID="C4" contextText="high-grade serous ovarian cancer cells" effectID="E1" effectText="reduced metastatic  tumor burden" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="(CRISPR)-mediated  knockout of FABP4" contextID="C5" contextText="mice" effectID="E1" effectText="reduced metastatic  tumor burden" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P2" perturbing_actionText="small-molecule inhibitor of FABP4  (BMS309403)" contextID="C6" contextText="syngeneic  orthotopic mouse model" effectID="E2" effectText="reduced tumor burden" />
+</TAGS>
+</Genomics_ConceptTask>

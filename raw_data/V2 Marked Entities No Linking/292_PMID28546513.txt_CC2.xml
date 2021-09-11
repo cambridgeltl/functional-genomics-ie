@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The SIAH E3 ubiquitin ligases promote Wnt/β-catenin signaling through mediating 
+Wnt-induced Axin degradation.
+
+The Wnt/β-catenin signaling pathway plays essential roles in embryonic 
+development and adult tissue homeostasis. Axin is a concentration-limiting 
+factor responsible for the formation of the β-catenin destruction complex. Wnt 
+signaling itself promotes the degradation of Axin. However, the underlying 
+molecular mechanism and biological relevance of this targeting of Axin have not 
+been elucidated. Here, we identify SIAH1/2 (SIAH) as the E3 ligase mediating 
+Wnt-induced Axin degradation. SIAH proteins promote the ubiquitination and 
+proteasomal degradation of Axin through interacting with a VxP motif in the 
+GSK3-binding domain of Axin, and this function of SIAH is counteracted by GSK3 
+binding to Axin. Structural analysis reveals that the Axin segment responsible 
+for SIAH binding is also involved in GSK3 binding but adopts distinct 
+conformations in Axin/SIAH and Axin/GSK3 complexes. Knockout of SIAH1 blocks 
+Wnt-induced Axin ubiquitination and attenuates Wnt-induced β-catenin 
+stabilization. Our data suggest that Wnt-induced dissociation of the Axin/GSK3 
+complex allows SIAH to interact with Axin not associated with GSK3 and promote 
+its degradation and that SIAH-mediated Axin degradation represents an important 
+feed-forward mechanism to achieve sustained Wnt/β-catenin signaling.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1011~1028" text="Knockout of SIAH1" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

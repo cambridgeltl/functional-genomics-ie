@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RNF220 mediates K63-linked polyubiquitination of STAT1 and promotes host 
+defense.
+
+STAT1 is a master regulator that orchestrates type 1 and 2 interferon 
+(IFN)-induced IFN-stimulated gene (ISG) expression. The mechanisms by which 
+STAT1 is phosphorylated and activated upon IFN signaling remain elusive. Our 
+work demonstrated that ubiquitination of STAT1 mediated by the E3 ligase RNF220 
+contributed significantly to STAT1 activation and innate immune responses. 
+Rnf220 gene deficiency resulted in the downregulation of IFN signaling and 
+decreased expression of ISGs in response to type 1 and 2 IFNs stimulation and 
+Acinetobacter baumannii and HSV-1 infection. Mechanistically, RNF220 interacted 
+with STAT1 and mediated the K63-linked polyubiquitination of STAT1 at residue 
+K110, which promoted the interaction between STAT1 and the kinase JAK1. The 
+expression of RNF220 was induced by pathogenic infection and IFN signaling. 
+RNF220 promoted STAT1 ubiquitination and phosphorylation through a positive 
+feedback loop. RNF220 haploinsufficiency impaired IFN signaling, and 
+RNF220-defective mice were more susceptible to A. baumannii and HSV-1 infection 
+than WT mice. Our work offers novel insights into the mechanisms of STAT1 
+modulation and provides potential therapeutic targets against bacterial and 
+viral infection and inflammatory diseases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="467~489" text="Rnf220 gene deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="1083~1099" text="RNF220-defective" description="other" />
+<CONTEXT id="C0" spans="1100~1104" text="mice" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

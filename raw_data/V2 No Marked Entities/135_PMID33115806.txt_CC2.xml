@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Chromatin Looping Shapes KLF5-Dependent Transcriptional Programs in Human 
+Epithelial Cancers.
+
+Activation of transcription factors is a key driver event in cancer. We and 
+others have recently reported that the Krüppel-like transcription factor KLF5 is 
+activated in multiple epithelial cancer types including squamous cancer and 
+gastrointestinal adenocarcinoma, yet the functional consequences and the 
+underlying mechanisms of this activation remain largely unknown. Here we 
+demonstrate that activation of KLF5 results in strongly selective KLF5 
+dependency for these cancer types. KLF5 bound lineage-specific regulatory 
+elements and activated gene expression programs essential to cancer cells. 
+HiChIP analysis revealed that multiple distal KLF5 binding events cluster and 
+synergize to activate individual target genes. Immunoprecipitation-mass 
+spectrometry assays showed that KLF5 interacts with other transcription factors 
+such as TP63 and YAP1, as well as the CBP/EP300 acetyltransferase complex. 
+Furthermore, KLF5 guided the CBP/EP300 complex to increase acetylation of H3K27, 
+which in turn enhanced recruitment of the bromodomain protein BRD4 to chromatin. 
+The 3D chromatin architecture aggregated KLF5-dependent BRD4 binding to activate 
+polymerase II elongation at KLF5 target genes, which conferred a transcriptional 
+vulnerability to proteolysis-targeting chimera-induced degradation of BRD4. Our 
+study demonstrates that KLF5 plays an essential role in multiple epithelial 
+cancers by activating cancer-related genes through 3D chromatin loops, providing 
+an evidence-based rationale for targeting the KLF5 pathway. SIGNIFICANCE: An 
+integrative 3D genomics methodology delineates mechanisms underlying the 
+function of KLF5 in multiple epithelial cancers and suggests potential 
+strategies to target cancers with aberrantly activated KLF5.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

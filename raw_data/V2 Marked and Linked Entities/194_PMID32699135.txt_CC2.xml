@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Methylation of HSP70 Orchestrates Its Binding to and Stabilization of BCL2 mRNA 
+and Renders Pancreatic Cancer Cells Resistant to Therapeutics.
+
+Pancreatic cancer is a lethal disease owing to its intrinsic and acquired 
+resistance to therapeutic modalities. The altered balance between pro- and 
+antiapoptosis signals within cancer cells is critical to therapeutic resistance. 
+However, the molecular mechanisms underlying increased antiapoptosis signals 
+remain poorly understood. In this study, we report that PRMT1 expression is 
+increased in pancreatic cancer tissues and is associated with higher tumor 
+grade, increased aggressiveness, and worse prognosis. PRMT1 overexpression 
+increased arginine methylation of HSPs of 70 kDa (HSP70); this methylation 
+enhanced HSP70 binding and stabilization of BCL2 mRNA through AU-rich elements 
+in 3'-untranslated region and consequentially increased BCL2 protein expression 
+and protected cancer cells from apoptosis induced by cellular stresses and 
+therapeutics. RNA binding and regulation function of HSP70 was involved in 
+pancreatic cancer drug resistance and was dependent on protein arginine 
+methylation. These findings not only reveal a novel PRMT1-HSP70-BCL2 signaling 
+axis that is crucial to pancreatic cancer cell survival and therapeutic 
+resistance, but they also provide a proof of concept that targeted inhibition of 
+this axis may represent a new therapeutic strategy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="663~683" text="PRMT1 overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="936~948" text="cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="954~963" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="926~935" text="protected" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="PRMT1 overexpression" effectID="E0" effectText="protected" contextID="C0" contextText="cancer cells" phenotypeID="PH0" phenotypeText="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

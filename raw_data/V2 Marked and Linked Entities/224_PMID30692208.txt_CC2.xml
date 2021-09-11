@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Afadin cooperates with Claudin-2 to promote breast cancer metastasis.
+
+Claudin-2 promotes breast cancer liver metastasis by enabling seeding and early 
+cancer cell survival. We now demonstrate that the PDZ-binding motif of Claudin-2 
+is necessary for anchorage-independent growth of cancer cells and is required 
+for liver metastasis. Several PDZ domain-containing proteins were identified 
+that interact with the PDZ-binding motif of Claudin-2 in liver metastatic breast 
+cancer cells, including Afadin, Arhgap21, Pdlim2, Pdlim7, Rims2, Scrib, and 
+ZO-1. We specifically examined the role of Afadin as a potential 
+Claudin-2-interacting partner that promotes breast cancer liver metastasis. 
+Afadin associates with Claudin-2, an interaction that requires the PDZ-binding 
+motif of Claudin-2. Loss of Afadin also impairs the ability of breast cancer 
+cells to form colonies in soft agar and metastasize to the lungs or liver. 
+Immunohistochemical analysis of Claudin-2 and/or Afadin expression in 206 
+metastatic breast cancer tumors revealed that high levels of both Claudin-2 and 
+Afadin in primary tumors were associated with poor disease-specific survival, 
+relapse-free survival, lung-specific relapse, and liver-specific relapse. Our 
+findings indicate that signaling downstream from a Claudin-2/Afadin complex 
+enables the efficient formation of breast cancer metastases. Moreover, combining 
+Claudin-2 and Afadin as prognostic markers better predicts the potential of 
+breast cancer to metastasize to soft tissues.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="793~807" text="Loss of Afadin" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="836~856" text="breast cancer  cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="860~873" text="form colonies" phenotype="colony formation" />
+<PHENOTYPE id="PH1" spans="891~924" text="metastasize to the lungs or liver" phenotype="metastasis" />
+<EFFECT id="E0" spans="813~832" text="impairs the ability" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Loss of Afadin" contextID="C0" contextText="breast cancer  cells" effectID="E0" effectText="impairs the ability" phenotypeID="PH0" phenotypeText="form colonies" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Loss of Afadin" contextID="C0" contextText="breast cancer  cells" phenotypeID="PH1" phenotypeText="metastasize to the lungs or liver" effectID="E0" effectText="impairs the ability" />
+</TAGS>
+</Genomics_ConceptTask>

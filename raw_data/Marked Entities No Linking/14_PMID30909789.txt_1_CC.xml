@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Regorafenib induces lethal autophagy arrest by stabilizing PSAT1 in 
+glioblastoma.
+
+GBM (glioblastoma multiforme) is the most common and aggressive brain tumor with 
+no curative options available. Therefore, it is imperative to develop novel 
+potent therapeutic drugs for GBM treatment. Here, we show that regorafenib, an 
+oral multi-kinase inhibitor, exhibits superior therapeutic efficacy over 
+temozolomide, the first-line chemotherapeutic agent for GBM treatment both in 
+vitro and in vivo. Mechanistically, regorafenib directly stabilizes PSAT1 
+(phosphoserine aminotransferase 1), a critical enzyme for serine synthesis, to 
+trigger PRKAA-dependent autophagy initiation and inhibit RAB11A-mediated 
+autophagosome-lysosome fusion, resulting in lethal autophagy arrest in GBM 
+cells. Maintenance of PSAT1 at a high level is essential for regorafenib-induced 
+GBM suppression. Together, our data provide novel mechanistic insights of 
+regorafenib-induced autophagy arrest and suggest a new paradigm for effective 
+treatment of GBM.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="776~786" text="GBM  cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="655~675" text="autophagy initiation" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="756~772" text="autophagy arrest" phenotype="autophagy" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

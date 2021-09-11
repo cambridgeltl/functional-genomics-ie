@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hypoxia-induced autophagy drives colorectal cancer initiation and progression by 
+activating the PRKC/PKC-EZR (ezrin) pathway.
+
+In solid tumors, cancer stem cells (CSCs) or tumor-initiating cells (TICs) are 
+often found in hypoxic niches. Nevertheless, the influence of hypoxia on TICs is 
+poorly understood. Using previously established, TIC-enrichedpatient-derived 
+colorectal cancer (CRC) cultures, we show that hypoxia increases the 
+self-renewal capacity of TICs while inducing proliferation arrest in their more 
+differentiated counterpart cultures. Gene expression data revealed 
+macroautophagy/autophagy as one of the major pathways induced by hypoxia in 
+TICs. Interestingly, hypoxia-induced autophagy was found to induce 
+phosphorylation of EZR (ezrin) at Thr567 residue, which could be reversed by 
+knocking down ATG5, BNIP3, BNIP3L, or BECN1. Furthermore, we identified 
+PRKCA/PKCα as a potential kinase involved in hypoxia-induced autophagy-mediated 
+TIC self-renewal. Genetic targeting of autophagy or pharmacological inhibition 
+of PRKC/PKC and EZR resulted in decreased tumor-initiating potential of TICs. In 
+addition, we observed significantly reduced in vivo tumor initiation and growth 
+after a stable knockdown of ATG5. Analysis of human CRC samples showed that 
+p-EZR is often present in TICs located in the hypoxic and autophagic regions of 
+the tumor. Altogether, our results establish the hypoxia-autophagy-PKC-EZR 
+signaling axis as a novel regulatory mechanism of TIC self-renewal and CRC 
+progression. Autophagy inhibition might thus represent a promising therapeutic 
+strategy for cancer patients.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="810~828" text="knocking down ATG5" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="810~823,830~835" text="knocking down ... BNIP3" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="810~823,837~843" text="knocking down ... BNIP3L" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="810~823,848~853" text="knocking down ... BECN1" description="knock down" />
+<PERTURBING_ACTION id="P5" spans="1016~1063" text="pharmacological inhibition  of PRKC/PKC and EZR" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P6" spans="1215~1239" text="stable knockdown of ATG5" description="knock down" />
+<CONTEXT id="C0" spans="339~400" text="TIC-enrichedpatient-derived  colorectal cancer (CRC) cultures" experiment_type="cells" species="human" />
+<CONTEXT id="C1" spans="463~467" text="TICs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="964~967" text="TIC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1116~1120" text="TICs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1170~1177" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C5" spans="1491~1494" text="TIC" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="474~503" text="inducing proliferation arrest" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E1" spans="423~432,438~459" text="increases ... self-renewal capacity" phenotype="self-renewal" activity="increases" />
+<EFFECT id="E2" spans="602~611,641~648" text="autophagy ... induced" phenotype="autophagy" activity="causes" />
+<EFFECT id="E3" spans="693~710" text="induced autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E4" spans="936~953" text="induced autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E5" spans="968~980" text="self-renewal" phenotype="self-renewal" activity="causes" />
+<EFFECT id="E6" spans="1076~1112" text="decreased tumor-initiating potential" phenotype="tumourigenesis" activity="decreases" />
+<EFFECT id="E7" spans="1162~1169,1178~1194" text="reduced ... tumor initiation" phenotype="tumourigenesis" activity="decreases" />
+<EFFECT id="E10" spans="1467~1490,1495~1507" text="regulatory mechanism of ... self-renewal" phenotype="self-renewal" activity="regulates" />
+<EFFECT id="E11" spans="1162~1169,1178~1183,1199~1205" text="reduced ... tumor ... growth" phenotype="tumour growth" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P5" perturbing_actionText="pharmacological inhibition  of PRKC/PKC and EZR" contextID="C3" contextText="TICs" effectID="E6" effectText="decreased tumor-initiating potential" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P6" perturbing_actionText="stable knockdown of ATG5" contextID="C4" contextText="in vivo" effectID="E7" effectText="reduced ... tumor initiation" />
+<ENTITY_LINKING id="EN3" effectID="E11" effectText="reduced ... tumor ... growth" perturbing_actionID="P6" perturbing_actionText="stable knockdown of ATG5" contextID="C4" contextText="in vivo" />
+</TAGS>
+</Genomics_ConceptTask>

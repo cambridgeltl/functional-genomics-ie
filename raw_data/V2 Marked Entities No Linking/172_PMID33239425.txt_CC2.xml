@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Altered mitochondria functionality defines a metastatic cell state in lung 
+cancer and creates an exploitable vulnerability.
+
+Lung cancer is a prevalent and lethal cancer type that leads to more deaths than 
+the next four major cancer types combined. Metastatic cancer spread is 
+responsible for most cancer deaths but the cellular changes that enable cancer 
+cells to leave the primary tumor and establish inoperable and lethal metastases 
+remain poorly understood. To uncover genes that are specifically required to 
+sustain metastasis survival or growth, we performed a genome-scale pooled 
+lentiviral-shRNA library screen in cells that represent non-metastatic and 
+metastatic states of lung adenocarcinoma. Mitochondrial ribosome and 
+mitochondria-associated genes were identified as top gene sets associated with 
+metastasis-specific lethality. Metastasis-derived cell lines in vitro and 
+metastases analyzed ex vivo from an autochthonous lung cancer mouse model had 
+lower mitochondrial membrane potential and reduced mitochondrial functionality 
+than non-metastatic primary tumors. Electron microscopy of metastases uncovered 
+irregular mitochondria with bridging and loss of normal membrane structure. 
+Consistent with these findings, compounds that inhibit mitochondrial translation 
+or replication had a greater effect on the growth of metastasis-derived cells. 
+Finally, mice with established tumors developed fewer metastases upon treatment 
+with phenformin in vivo. These results suggest that the metastatic cell state in 
+lung adenocarcinoma is associated with a specifically altered mitochondrial 
+functionality that can be therapeutically exploited.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1383~1387" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1405~1411" text="tumors" context="neoplasm" />
+<CONTEXT id="C2" spans="1471~1478" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="629~634" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="1428~1438" text="metastases" phenotype="metastasis" />
+<EFFECT id="E0" spans="1412~1427" text="developed fewer" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

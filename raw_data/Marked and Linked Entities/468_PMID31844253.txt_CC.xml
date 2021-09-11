@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ATG12 deficiency leads to tumor cell oncosis owing to diminished mitochondrial 
+biogenesis and reduced cellular bioenergetics.
+
+In contrast to the "Warburg effect" or aerobic glycolysis earlier generalized as 
+a phenomenon in cancer cells, more and more recent evidence indicates that 
+functional mitochondria are pivotal for ensuring the energy supply of cancer 
+cells. Here, we report that cancer cells with reduced autophagy-related protein 
+12 (ATG12) expression undergo an oncotic cell death, a phenotype distinct from 
+that seen in ATG5-deficient cells described before. In addition, using 
+untargeted metabolomics with ATG12-deficient cancer cells, we observed a global 
+reduction in cellular bioenergetic pathways, such as β-oxidation (FAO), 
+glycolysis, and tricarboxylic acid cycle activity, as well as a decrease in 
+mitochondrial respiration as monitored with Seahorse experiments. Analyzing the 
+biogenesis of mitochondria by quantifying mitochondrial DNA content together 
+with several mitochondrion-localizing proteins indicated a reduction in 
+mitochondrial biogenesis in ATG12-deficient cancer cells, which also showed 
+reduced hexokinase II expression and the upregulation of uncoupling protein 2. 
+ATG12, which we observed in normal cells to be partially localized in 
+mitochondria, is upregulated in multiple types of solid tumors in comparison 
+with normal tissues. Strikingly, mouse xenografts of ATG12-deficient cells grew 
+significantly slower as compared with vector control cells. Collectively, our 
+work has revealed a previously unreported role for ATG12 in regulating 
+mitochondrial biogenesis and cellular energy metabolism and points up an 
+essential role for mitochondria as a failsafe mechanism in the growth and 
+survival of glycolysis-dependent cancer cells. Inducing oncosis by imposing an 
+ATG12 deficiency in solid tumors might represent an anticancer therapy 
+preferable to conventional caspase-dependent apoptosis that often leads to 
+undesirable consequences, such as incomplete cancer cell killing and a silencing 
+of the host immune system.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="410~466" text="reduced autophagy-related protein  12 (ATG12) expression" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="626~641" text="ATG12-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P3" spans="1088~1103" text="ATG12-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="1419~1434" text="ATG12-deficient" description="decreased expression level" />
+<CONTEXT id="C0" spans="392~404" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="642~654" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1104~1116" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C4" spans="1399~1418,1435~1440" text="mouse xenografts of ... cells" experiment_type="xenotransplantation" species="mouse" />
+<EFFECT id="E0" spans="467~496" text="undergo an oncotic cell death" phenotype="oncosis" activity="not stated" />
+<EFFECT id="E2" spans="1441~1467" text="grew  significantly slower" phenotype="cell growth" activity="decreases" />
+<ENTITY_LINKING id="EN0" contextID="C0" contextText="cancer cells" perturbing_actionID="P1" perturbing_actionText="reduced autophagy-related protein  12 (ATG12) expression" effectID="E0" effectText="undergo an oncotic cell death" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P4" perturbing_actionText="ATG12-deficient" effectID="E2" effectText="grew  significantly slower" contextID="C4" contextText="mouse xenografts of ... cells" />
+</TAGS>
+</Genomics_ConceptTask>

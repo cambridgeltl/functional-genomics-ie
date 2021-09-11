@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Dysregulation of autophagy and stress granule-related proteins in stress-driven 
+Tau pathology.
+
+Imbalance of neuronal proteostasis associated with misfolding and aggregation of 
+Tau protein is a common neurodegenerative feature in Alzheimer's disease (AD) 
+and other Tauopathies. Consistent with suggestions that lifetime stress may be 
+an important AD precipitating factor, we previously reported that environmental 
+stress and high glucocorticoid (GC) levels induce accumulation of aggregated 
+Tau; however, the molecular mechanisms for such process remain unclear. Herein, 
+we monitor a novel interplay between RNA-binding proteins (RBPs) and autophagic 
+machinery in the underlying mechanisms through which chronic stress and high GC 
+levels impact on Tau proteostasis precipitating Tau aggregation. Using 
+molecular, pharmacological and behavioral analysis, we demonstrate that chronic 
+stress and high GC trigger mTOR-dependent inhibition of autophagy, leading to 
+accumulation of Tau aggregates and cell death in P301L-Tau expressing mice and 
+cells. In parallel, we found that environmental stress and GC disturb cellular 
+homeostasis and trigger the insoluble accumulation of different RBPs, such as 
+PABP, G3BP1, TIA-1, and FUS, shown to form stress granules (SGs) and Tau 
+aggregation. Interestingly, an mTOR-driven pharmacological stimulation of 
+autophagy attenuates the GC-driven accumulation of Tau and SG-related proteins 
+as well as the related cell death, suggesting a critical interface between 
+autophagy and the response of the SG-related protein in the neurodegenerative 
+potential of chronic stress and GC. These studies provide novel insights into 
+the RNA-protein intracellular signaling regulating the precipitating role of 
+environmental stress and GC on Tau-driven brain pathology.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1021~1041" text="P301L-Tau expressing" description="increased expression level" />
+<CONTEXT id="C0" spans="1042~1046" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1052~1057" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="935~958" text="inhibition of autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E1" spans="960~970,1007~1017" text="leading to ... cell death" phenotype="cell death" activity="causes" />
+<EFFECT id="E3" spans="1370~1380,1463~1473" text="attenuates ... cell death" phenotype="cell death" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

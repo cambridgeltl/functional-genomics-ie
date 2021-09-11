@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MEF2c-Dependent Downregulation of Myocilin Mediates Cancer-Induced Muscle 
+Wasting and Associates with Cachexia in Patients with Cancer.
+
+Skeletal muscle wasting is a devastating consequence of cancer that contributes 
+to increased complications and poor survival, but is not well understood at the 
+molecular level. Herein, we investigated the role of Myocilin (Myoc), a skeletal 
+muscle hypertrophy-promoting protein that we showed is downregulated in multiple 
+mouse models of cancer cachexia. Loss of Myoc alone was sufficient to induce 
+phenotypes identified in mouse models of cancer cachexia, including muscle fiber 
+atrophy, sarcolemmal fragility, and impaired muscle regeneration. By 18 months 
+of age, mice deficient in Myoc showed significant skeletal muscle remodeling, 
+characterized by increased fat and collagen deposition compared with wild-type 
+mice, thus also supporting Myoc as a regulator of muscle quality. In cancer 
+cachexia models, maintaining skeletal muscle expression of Myoc significantly 
+attenuated muscle loss, while mice lacking Myoc showed enhanced muscle wasting. 
+Furthermore, we identified the myocyte enhancer factor 2 C (MEF2C) transcription 
+factor as a key upstream activator of Myoc whose gain of function significantly 
+deterred cancer-induced muscle wasting and dysfunction in a preclinical model of 
+pancreatic ductal adenocarcinoma (PDAC). Finally, compared with noncancer 
+control patients, MYOC was significantly reduced in skeletal muscle of patients 
+with PDAC defined as cachectic and correlated with MEF2c. These data therefore 
+identify disruptions in MEF2c-dependent transcription of Myoc as a novel 
+mechanism of cancer-associated muscle wasting that is similarly disrupted in 
+muscle of patients with cachectic cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="497~509" text="Loss of Myoc" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="717~734" text="deficient in Myoc" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="1054~1066" text="lacking Myoc" description="decreased expression level" />
+<PERTURBING_ACTION id="P3" spans="1131~1166,1231~1247" text="myocyte enhancer factor 2 C (MEF2C) ... gain of function" description="increased expression level" />
+<CONTEXT id="C0" spans="712~716" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="932~955" text="cancer  cachexia models" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="1049~1053" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="1323~1384" text="preclinical model of  pancreatic ductal adenocarcinoma (PDAC)" experiment_type="tumour" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

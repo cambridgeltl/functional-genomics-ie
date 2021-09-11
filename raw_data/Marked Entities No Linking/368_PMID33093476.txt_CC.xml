@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BET degrader inhibits tumor progression and stem-like cell growth via 
+Wnt/β-catenin signaling repression in glioma cells.
+
+Based on their histological appearance, gliomas are a very common primary tumor 
+type of the brain and are classified into grades, Grade I to Grade IV, of the 
+World Health Organization. Treatment failure is due to the cancer stem cells 
+(CSC) phenotype maintenance and self-renewal. BET degraders such as ZBC260 
+represents a novel class of BET inhibitors that act by inducing BET proteins 
+degradation. This study explores the mode of action and effects of ZBC260 in 
+vivo and in vitro against glioma. By inhibiting cell proliferation and inducting 
+cell cycle arrest, the fact that glioma cell lines show sensitivity to ZBC260. 
+Notably, ZBC260 targeted glioma without side effects in vivo. In addition, the 
+stem cell-like properties of glioma cells were inhibited upon ZBC260 treatment. 
+When the mechanism was examined, our findings indicated that Wnt/β-catenin 
+pathway repression is required for ZBC260-induced stem cell-like properties and 
+tumor growth suppression. In conclusion, the growth of tumors and stem cell-like 
+properties were inhibited by ZBC260 via Wnt/β-catenin repression, which suggests 
+ZBC260 as a potential therapeutic agent for glioma.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="709~726" text="glioma cell lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="781~787" text="glioma" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C2" spans="809~816" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C3" spans="865~877" text="glioma cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="631~660" text="inhibiting cell proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E1" spans="665~693" text="inducting  cell cycle arrest" phenotype="cell cycle arrest" activity="causes" />
+<EFFECT id="E2" spans="1074~1098" text="tumor growth suppression" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E3" spans="1119~1135,1167~1181" text="growth of tumors ... were inhibited" phenotype="tumour growth" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

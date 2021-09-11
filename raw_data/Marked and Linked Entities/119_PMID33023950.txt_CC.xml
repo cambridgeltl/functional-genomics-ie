@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Stromal SNAI2 Is Required for ERBB2 Breast Cancer Progression.
+
+SNAI2 overexpression appears to be associated with poor prognosis in breast 
+cancer, yet it remains unclear in which breast cancer subtypes this occurs. Here 
+we show that excess SNAI2 is associated with a poor prognosis of luminal B 
+HER2+/ERBB2+ breast cancers in which SNAI2 expression in the stroma but not the 
+epithelium correlates with tumor proliferation. To determine how stromal SNAI2 
+might influence HER2+ tumor behavior, Snai2-deficient mice were crossed with a 
+mouse line carrying the ErbB2/Neu protooncogene to generate HER2+/ERBB2+ breast 
+cancer. Tumors generated in this model expressed SNAI2 in the stroma but not the 
+epithelium, allowing for the role of stromal SNAI2 to be studied without 
+interference from the epithelial compartment. The absence of SNAI2 in the stroma 
+of HER2+/ERBB2+ tumors is associated with: (i) lower levels of cyclin D1 (CCND1) 
+and reduced tumor epithelium proliferation; (ii) higher levels of AKT and a 
+lower incidence of metastasis; (iii) lower levels of angiopoietin-2 (ANGPT2), 
+and more necrosis. Together, these results indicate that the loss of SNAI2 in 
+cancer-associated fibroblasts limits the production of some cytokines, which 
+influences AKT/ERK tumor signaling and subsequent proliferative and metastatic 
+capacity of ERBB2+ breast cancer cells. Accordingly, SNAI2 expression in the 
+stroma enhanced the tumorigenicity of luminal B HER2+/ERBB2+ breast cancers. 
+This work emphasizes the importance of stromal SNAI2 in breast cancer 
+progression and patients' prognosis. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="498~513" text="Snai2-deficient" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="551~587" text="carrying the ErbB2/Neu protooncogene" description="other" />
+<PERTURBING_ACTION id="P3" spans="827~857" text="absence of SNAI2 in the stroma" description="conditional knock out" />
+<PERTURBING_ACTION id="P5" spans="1387~1418" text="SNAI2 expression in the  stroma" description="increased expression level" />
+<PERTURBING_ACTION id="P6" spans="1158~1205" text="loss of SNAI2 in  cancer-associated fibroblasts" description="conditional knock out" />
+<CONTEXT id="C0" spans="514~518" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="540~550" text="mouse line" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="862~881" text="HER2+/ERBB2+ tumors" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C3" spans="953~969" text="tumor epithelium" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C5" spans="1346~1372" text="ERBB2+ breast cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C6" spans="1450~1487" text="luminal B HER2+/ERBB2+ breast cancers" experiment_type="tumour" species="not stated" />
+<EFFECT id="E1" spans="600~627" text="HER2+/ERBB2+ breast  cancer" phenotype="tumourigenesis" activity="causes" />
+<EFFECT id="E2" spans="945~952,970~983" text="reduced ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E4" spans="1018~1047" text="lower incidence of metastasis" phenotype="metastasis" activity="decreases" />
+<EFFECT id="E5" spans="1101~1114" text="more necrosis" phenotype="necrosis" activity="increases" />
+<EFFECT id="E6" spans="1254~1264,1304~1317,1334~1342" text="influences ... proliferative ... capacity" phenotype="proliferation" activity="regulates" />
+<EFFECT id="E7" spans="1254~1264,1322~1342" text="influences ... metastatic  capacity" phenotype="metastasis" activity="regulates" />
+<EFFECT id="E8" spans="1419~1446" text="enhanced the tumorigenicity" phenotype="tumourigenesis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="absence of SNAI2 in the stroma" effectID="E2" effectText="reduced ... proliferation" contextID="C3" contextText="tumor epithelium" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="absence of SNAI2 in the stroma" contextID="C2" contextText="HER2+/ERBB2+ tumors" effectID="E4" effectText="lower incidence of metastasis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P3" perturbing_actionText="absence of SNAI2 in the stroma" contextID="C2" contextText="HER2+/ERBB2+ tumors" effectID="E5" effectText="more necrosis" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P6" perturbing_actionText="loss of SNAI2 in  cancer-associated fibroblasts" contextID="C5" contextText="ERBB2+ breast cancer cells" effectID="E6" effectText="influences ... proliferative ... capacity" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P6" perturbing_actionText="loss of SNAI2 in  cancer-associated fibroblasts" contextID="C5" contextText="ERBB2+ breast cancer cells" effectID="E7" effectText="influences ... metastatic  capacity" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P5" perturbing_actionText="SNAI2 expression in the  stroma" effectID="E8" effectText="enhanced the tumorigenicity" contextID="C6" contextText="luminal B HER2+/ERBB2+ breast cancers" />
+</TAGS>
+</Genomics_ConceptTask>

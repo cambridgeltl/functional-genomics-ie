@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The splicing factor U2AF1 contributes to cancer progression through a 
+noncanonical role in translation regulation.
+
+Somatic mutations in the genes encoding components of the spliceosome occur 
+frequently in human neoplasms, including myeloid dysplasias and leukemias, and 
+less often in solid tumors. One of the affected factors, U2AF1, is involved in 
+splice site selection, and the most common change, S34F, alters a conserved 
+nucleic acid-binding domain, recognition of the 3' splice site, and alternative 
+splicing of many mRNAs. However, the role that this mutation plays in 
+oncogenesis is still unknown. Here, we uncovered a noncanonical function of 
+U2AF1, showing that it directly binds mature mRNA in the cytoplasm and 
+negatively regulates mRNA translation. This splicing-independent role of U2AF1 
+is altered by the S34F mutation, and polysome profiling indicates that the 
+mutation affects translation of hundreds of mRNA. One functional consequence is 
+increased synthesis of the secreted chemokine interleukin 8, which contributes 
+to metastasis, inflammation, and cancer progression in mice and humans.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

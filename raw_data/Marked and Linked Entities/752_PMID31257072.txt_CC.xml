@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Anti-tumor Activity of the Type I PRMT Inhibitor, GSK3368715, Synergizes with 
+PRMT5 Inhibition through MTAP Loss.
+
+Type I protein arginine methyltransferases (PRMTs) catalyze asymmetric 
+dimethylation of arginines on proteins. Type I PRMTs and their substrates have 
+been implicated in human cancers, suggesting inhibition of type I PRMTs may 
+offer a therapeutic approach for oncology. The current report describes 
+GSK3368715 (EPZ019997), a potent, reversible type I PRMT inhibitor with 
+anti-tumor effects in human cancer models. Inhibition of PRMT5, the predominant 
+type II PRMT, produces synergistic cancer cell growth inhibition when combined 
+with GSK3368715. Interestingly, deletion of the methylthioadenosine 
+phosphorylase gene (MTAP) results in accumulation of the metabolite 
+2-methylthioadenosine, an endogenous inhibitor of PRMT5, and correlates with 
+sensitivity to GSK3368715 in cell lines. These data provide rationale to explore 
+MTAP status as a biomarker strategy for patient selection.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="534~553" text="Inhibition of PRMT5" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="684~746" text="deletion of the methylthioadenosine  phosphorylase gene (MTAP)" description="knock out" />
+<CONTEXT id="C0" spans="607~618" text="cancer cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="897~907" text="cell lines" experiment_type="cell line" species="not stated" />
+<EFFECT id="E0" spans="586~594,619~636" text="produces ... growth inhibition" phenotype="cell growth" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Inhibition of PRMT5" contextID="C0" contextText="cancer cell" effectID="E0" effectText="produces ... growth inhibition" />
+</TAGS>
+</Genomics_ConceptTask>

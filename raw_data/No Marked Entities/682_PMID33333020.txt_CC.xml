@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Generation of Functional Human 3D Cortico-Motor Assembloids.
+
+Neurons in the cerebral cortex connect through descending pathways to hindbrain 
+and spinal cord to activate muscle and generate movement. Although components of 
+this pathway have been previously generated and studied in vitro, the assembly 
+of this multi-synaptic circuit has not yet been achieved with human cells. Here, 
+we derive organoids resembling the cerebral cortex or the hindbrain/spinal cord 
+and assemble them with human skeletal muscle spheroids to generate 3D 
+cortico-motor assembloids. Using rabies tracing, calcium imaging, and 
+patch-clamp recordings, we show that corticofugal neurons project and connect 
+with spinal spheroids, while spinal-derived motor neurons connect with muscle. 
+Glutamate uncaging or optogenetic stimulation of cortical spheroids triggers 
+robust contraction of 3D muscle, and assembloids are morphologically and 
+functionally intact for up to 10 weeks post-fusion. Together, this system 
+highlights the remarkable self-assembly capacity of 3D cultures to form 
+functional circuits that could be used to understand development and disease.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

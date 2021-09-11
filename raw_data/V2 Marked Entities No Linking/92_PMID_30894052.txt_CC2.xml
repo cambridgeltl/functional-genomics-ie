@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Alborixin clears amyloid-β by inducing autophagy through PTEN-mediated 
+inhibition of the AKT pathway.
+
+Imbalance in production and clearance of amyloid beta (Aβ) is the primary reason 
+for its deposition in Alzheimer disease. Macroautophagy/autophagy is one of the 
+important mechanisms for clearance of both intracellular and extracellular Aβ. 
+Here, through screening, we identified alborixin, an ionophore, as a potent 
+inducer of autophagy. We found that autophagy induced by alborixin substantially 
+cleared Aβ in microglia and primary neuronal cells. Induction of autophagy was 
+accompanied by up regulation of autophagy proteins BECN1/Beclin 1, ATG5, ATG7 
+and increased lysosomal activities. Autophagy induced by alborixin was 
+associated with inhibition of the phosphoinositide 3-kinase (PI3K)-AKT pathway. 
+A knock down of PTEN and consistent, constitutive activation of AKT inhibited 
+alborixin-induced autophagy and consequent clearance of Aβ. Furthermore, 
+clearance of Aβ by alborixin led to significant reduction of Aβ-mediated 
+cytotoxicity in primary neurons and differentiated N2a cells. Thus, our findings 
+put forward alborixin as a potential anti-Alzheimer therapeutic lead.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="820~838" text="knock down of PTEN" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="855~885" text="constitutive activation of AKT" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="520~529" text="microglia" context="cells" />
+<CONTEXT id="C1" spans="534~556" text="primary neuronal cells" context="cells" />
+<CONTEXT id="C2" spans="1061~1076" text="primary neurons" context="cells" />
+<CONTEXT id="C3" spans="1081~1105" text="differentiated N2a cells" context="cells" />
+<PHENOTYPE id="PH0" spans="460~469" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="571~580" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="701~710" text="Autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="915~924" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="470~477" text="induced" effect="positive" />
+<EFFECT id="E1" spans="558~567" text="Induction" effect="positive" />
+<EFFECT id="E2" spans="711~718" text="induced" effect="positive" />
+<EFFECT id="E3" spans="886~895" text="inhibited" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

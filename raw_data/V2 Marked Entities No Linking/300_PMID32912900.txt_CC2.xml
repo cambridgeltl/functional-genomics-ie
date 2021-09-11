@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SMARCB1 loss interacts with neuronal differentiation state to block maturation 
+and impact cell stability.
+
+Atypical teratoid rhabdoid tumors (ATRTs) are challenging pediatric brain 
+cancers that are predominantly associated with inactivation of the gene SMARCB1, 
+a conserved subunit of the chromatin remodeling BAF complex, which has known 
+contributions to developmental processes. To identify potential interactions 
+between SMARCB1 loss and the process of neural development, we introduced an 
+inducible SMARCB1 loss-of-function system into human induced pluripotent stem 
+cells (iPSCs) that were subjected to either directed neuronal differentiation or 
+differentiation into cerebral organoids. Using this system, we identified 
+substantial differences in the downstream effects of SMARCB1 loss depending on 
+differentiation state and identified an interaction between SMARCB1 loss and 
+neural differentiation pressure that causes a resistance to terminal 
+differentiation and a defect in maintenance of a normal cell state. Our results 
+provide insight into how SMARCB1 loss might interact with neural development in 
+the process of ATRT tumorigenesis.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="788~800" text="SMARCB1 loss" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="875~887" text="SMARCB1 loss" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="499~540" text="inducible SMARCB1 loss-of-function system" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="546~591" text="human induced pluripotent stem  cells (iPSCs)" context="cells" />
+<CONTEXT id="C1" spans="681~699" text="cerebral organoids" context="organoid" />
+<PHENOTYPE id="PH0" spans="953~978" text="terminal  differentiation" phenotype="differentiation" />
+<EFFECT id="E0" spans="930~949" text="causes a resistance" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,37 @@
+{
+    "MODE": "train",
+    "VERBOSE": 1,
+    "MODEL": {
+        "TYPE": "pretrained",
+        "TRANSFORMER_MODEL": "dmis-lab/biobert-v1.1",
+        "HEADS": {
+            "category": {"htype": "single_label", "num_labels": 9, "schema": "BIO"},
+            "perturbing_action": {"htype": "single_label", "num_labels": 13, "schema": "BIO"},
+            "context": {"htype": "single_label", "num_labels": 23, "schema": "BIO"},
+            "effect": {"htype": "single_label", "num_labels": 11, "schema": "BIO"},
+            "phenotype": {"htype": "single_label", "num_labels": 63, "schema": "BIO"}
+        },
+        "TAG_LIST_DEFINITIONS": "tag_list_definitions_v2.json",
+        "TAG_CATEGORY_DEFINITIONS": "tag_categories_v2.json",
+        "MAX_TOKEN_LENGTH": 512
+    },
+    "DATA": {
+        "PATH": "json_data/v2_all_marked.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 1,
+        "BALANCE_CLASSES": 0.5
+    },
+    "TRAINING": {
+        "TRAINED_NAME": "BioBERTv11_multi_output_v2_single_label_bio_bl05_k4_e36",
+        "OPTIMIZER_CLASS": "AdamW",
+        "OPTIMIZER_KWARGS": {
+            "lr": 3e-5,
+            "eps": 1e-8
+        },
+        "FULL_FINETUNING": true,
+        "EPOCHS": 36,
+        "MAX_GRAD_NORM": 1,
+        "K_FOLDS": 4,
+        "DO_FINAL_TRAIN": false
+    }
+}

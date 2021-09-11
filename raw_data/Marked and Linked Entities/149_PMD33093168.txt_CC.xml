@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Tumor Fibroblast-Derived FGF2 Regulates Expression of SPRY1 in Esophageal 
+Tumor-Infiltrating T Cells and Plays a Role in T-cell Exhaustion.
+
+T-cell exhaustion was initially identified in chronic infection in mice and was 
+subsequently described in humans with cancer. Although the distinct signature of 
+exhausted T (TEX) cells in cancer has been well investigated, the molecular 
+mechanism of T-cell exhaustion in cancer is not fully understood. Using 
+single-cell RNA sequencing, we report here that TEX cells in esophageal cancer 
+are more heterogeneous than previously clarified. Sprouty RTK signaling 
+antagonist 1 (SPRY1) was notably enriched in two subsets of exhausted CD8+ T 
+cells. When overexpressed, SPRY1 impaired T-cell activation by interacting with 
+CBL, a negative regulator of ZAP-70 tyrosine phosphorylation. Data from the 
+Tumor Immune Estimation Resource revealed a strong correlation between FGF2 and 
+SPRY1 expression in esophageal cancer. High expression of FGF2 was evident in 
+fibroblasts from esophageal cancer tissue and correlated with poor overall 
+survival. In vitro administration of FGF2 significantly upregulated expression 
+of SPRY1 in CD8+ T cells and attenuated T-cell receptor-triggered CD8+ T-cell 
+activation. A mouse tumor model confirmed that overexpression of FGF2 in 
+fibroblasts significantly upregulated SPRY1 expression in TEX cells, impaired 
+T-cell cytotoxic activity, and promoted tumor growth. Thus, these findings 
+identify FGF2 as an important regulator of SPRY1 expression involved in 
+establishing the dysfunctional state of CD8+ T cells in esophageal cancer. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="698~718" text="overexpressed, SPRY1" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="1286~1308" text="overexpression of FGF2" description="increased expression level" />
+<CONTEXT id="C0" spans="728~734" text="T-cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1172~1184" text="CD8+ T cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1226~1237" text="CD8+ T-cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1253~1270" text="mouse tumor model" experiment_type="organism" species="mouse" />
+<CONTEXT id="C4" spans="1313~1324" text="fibroblasts" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1371~1380" text="TEX cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1423~1444" text="promoted tumor growth" phenotype="tumour growth" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="overexpression of FGF2" contextID="C4" contextText="fibroblasts" effectID="E0" effectText="promoted tumor growth" />
+</TAGS>
+</Genomics_ConceptTask>

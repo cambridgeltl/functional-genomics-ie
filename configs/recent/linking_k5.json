@@ -1,0 +1,37 @@
+{
+    "MODE": "train",
+    "MODEL": {
+        "TYPE": "pretrained",
+        "TRANSFORMER_MODEL": "distilbert-base-cased",
+        "HEADS": {
+            "link": {"htype": "link", "num_labels": 2}
+        },
+        "MAX_TOKEN_LENGTH": 512
+    },
+    "DATA": {
+        "PATH": "json_data/all_marked_train.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 1,
+        "BALANCE_CLASSES": 0
+    },
+    "TRAINING": {
+        "TRAINED_NAME": "DistilBERT_linking_k5",
+        "OPTIMIZER_CLASS": "AdamW",
+        "OPTIMIZER_KWARGS": {
+            "lr": 3e-5,
+            "eps": 1e-8
+        },
+        "FULL_FINETUNING": true,
+        "EPOCHS": 6,
+        "MAX_GRAD_NORM": 1,
+        "VERBOSE": 2,
+        "K_FOLDS": 5
+    },
+    "TEST_DATA": {
+        "PATH": "json_data/all_marked_test.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 8,
+        "BALANCE_CLASSES": 0
+    },
+    "TESTING": {}
+}

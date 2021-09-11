@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SQSTM1/p62 and PPARGC1A/PGC-1alpha at the interface of autophagy and vascular 
+senescence.
+
+Defective macroautophagy/autophagy and mitochondrial dysfunction are known to 
+stimulate senescence. The mitochondrial regulator PPARGC1A (peroxisome 
+proliferator activated receptor gamma, coactivator 1 alpha) regulates 
+mitochondrial biogenesis, reducing senescence of vascular smooth muscle cells 
+(VSMCs); however, it is unknown whether autophagy mediates PPARGC1A-protective 
+effects on senescence. Using ppargc1a-/- VSMCs, we identified the autophagy 
+receptor SQSTM1/p62 (sequestosome 1) as a major regulator of autophagy and 
+senescence of VSMCs. Abnormal autophagosomes were observed in VSMCs in aortas of 
+ppargc1a-/- mice. ppargc1a-/- VSMCs in culture presented reductions in LC3-II 
+levels; in autophagosome number; and in the expression of SQSTM1 (protein and 
+mRNA), LAMP2 (lysosomal-associated membrane protein 2), CTSD (cathepsin D), and 
+TFRC (transferrin receptor). Reduced SQSTM1 protein expression was also observed 
+in aortas of ppargc1a-/- mice and was upregulated by PPARGC1A overexpression, 
+suggesting that SQSTM1 is a direct target of PPARGC1A. Inhibition of autophagy 
+by 3-MA (3 methyladenine), spautin-1 or Atg5 (autophagy related 5) siRNA 
+stimulated senescence. Rapamycin rescued the effect of Atg5 siRNA in Ppargc1a+/+ 
+, but not in ppargc1a-/- VSMCs, suggesting that other targets of MTOR 
+(mechanistic target of rapamycin kinase), in addition to autophagy, also 
+contribute to senescence. Sqstm1 siRNA increased senescence basally and in 
+response to AGT II (angiotensin II) and zinc overload, two known inducers of 
+senescence. Furthermore, Sqstm1 gene deficiency mimicked the phenotype of 
+Ppargc1a depletion by presenting reduced autophagy and increased senescence in 
+vitro and in vivo. Thus, PPARGC1A upregulates autophagy reducing senescence by a 
+SQSTM1-dependent mechanism. We propose SQSTM1 as a novel target in therapeutic 
+interventions reducing senescence.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="502~513" text="ppargc1a-/-" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="708~719" text="ppargc1a-/-" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="726~737" text="ppargc1a-/-" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1042~1053" text="ppargc1a-/-" description="knock out" />
+<PERTURBING_ACTION id="P4" spans="1082~1105" text="PPARGC1A overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P5" spans="1228~1260" text="Atg5 (autophagy related 5) siRNA" description="knock down" />
+<PERTURBING_ACTION id="P6" spans="1317~1327" text="Atg5 siRNA" description="knock down" />
+<PERTURBING_ACTION id="P7" spans="1357~1368" text="ppargc1a-/-" description="knock out" />
+<PERTURBING_ACTION id="P8" spans="1515~1527" text="Sqstm1 siRNA" description="knock down" />
+<PERTURBING_ACTION id="P9" spans="1668~1690" text="Sqstm1 gene deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P10" spans="1718~1736" text="Ppargc1a depletion" description="decreased expression level" />
+<CONTEXT id="C0" spans="514~519" text="VSMCs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="640~645" text="VSMCs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="688~693" text="VSMCs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="720~724" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C5" spans="738~754" text="VSMCs in culture" experiment_type="primary culture" species="not stated" />
+<CONTEXT id="C6" spans="1054~1058" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C7" spans="1369~1374" text="VSMCs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C8" spans="1794~1803" text="in  vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C9" spans="1808~1815" text="in vivo" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="598~620" text="regulator of autophagy" phenotype="autophagy" activity="regulates" />
+<EFFECT id="E2" spans="1163~1186" text="Inhibition of autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E3" spans="1262~1283" text="stimulated senescence" phenotype="senescence" activity="causes" />
+<EFFECT id="E4" spans="1489~1513" text="contribute to senescence" phenotype="senescence" activity="increases" />
+<EFFECT id="E5" spans="1528~1548" text="increased senescence" phenotype="senescence" activity="increases" />
+<EFFECT id="E6" spans="1751~1768" text="reduced autophagy" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E7" spans="1773~1793" text="increased senescence" phenotype="senescence" activity="increases" />
+<EFFECT id="E8" spans="1832~1853" text="upregulates autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E9" spans="1854~1873" text="reducing senescence" phenotype="senescence" activity="decreases" />
+<EFFECT id="E11" spans="598~610,626~636" text="regulator of ... senescence" phenotype="senescence" activity="regulates" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P9" perturbing_actionText="Sqstm1 gene deficiency" effectID="E6" effectText="reduced autophagy" contextID="C8" contextText="in  vitro" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P9" perturbing_actionText="Sqstm1 gene deficiency" contextID="C8" contextText="in  vitro" effectID="E7" effectText="increased senescence" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P9" perturbing_actionText="Sqstm1 gene deficiency" contextID="C9" contextText="in vivo" effectID="E6" effectText="reduced autophagy" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P9" perturbing_actionText="Sqstm1 gene deficiency" contextID="C9" contextText="in vivo" effectID="E7" effectText="increased senescence" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P10" perturbing_actionText="Ppargc1a depletion" contextID="C8" contextText="in  vitro" effectID="E6" effectText="reduced autophagy" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P10" perturbing_actionText="Ppargc1a depletion" contextID="C8" contextText="in  vitro" effectID="E7" effectText="increased senescence" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P10" perturbing_actionText="Ppargc1a depletion" contextID="C9" contextText="in vivo" effectID="E7" effectText="increased senescence" />
+<ENTITY_LINKING id="EN7" perturbing_actionID="P10" perturbing_actionText="Ppargc1a depletion" contextID="C9" contextText="in vivo" effectID="E6" effectText="reduced autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

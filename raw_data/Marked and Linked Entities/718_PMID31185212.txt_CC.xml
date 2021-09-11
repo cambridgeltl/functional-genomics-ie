@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cooperation between Constitutive and Inducible Chemokines Enables T Cell 
+Engraftment and Immune Attack in Solid Tumors.
+
+We investigated the role of chemokines in regulating T cell accumulation in 
+solid tumors. CCL5 and CXCL9 overexpression was associated with CD8+ T cell 
+infiltration in solid tumors. T cell infiltration required tumor cell-derived 
+CCL5 and was amplified by IFN-γ-inducible, myeloid cell-secreted CXCL9. CCL5 and 
+CXCL9 coexpression revealed immunoreactive tumors with prolonged survival and 
+response to checkpoint blockade. Loss of CCL5 expression in human tumors was 
+associated with epigenetic silencing through DNA methylation. Reduction of CCL5 
+expression caused tumor-infiltrating lymphocyte (TIL) desertification, whereas 
+forced CCL5 expression prevented Cxcl9 expression and TILs loss, and attenuated 
+tumor growth in mice through IFN-γ. The cooperation between tumor-derived CCL5 
+and IFN-γ-inducible CXCR3 ligands secreted by myeloid cells is key for 
+orchestrating T cell infiltration in immunoreactive and immunoresponsive tumors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="755~777" text="forced CCL5 expression" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="549~572" text="Loss of CCL5 expression" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="656~685" text="Reduction of CCL5  expression" description="decreased expression level" />
+<CONTEXT id="C0" spans="852~856" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="576~588" text="human tumors" experiment_type="tumour" species="human" />
+<EFFECT id="E0" spans="824~848" text="attenuated  tumor growth" phenotype="tumour growth" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="forced CCL5 expression" contextID="C0" contextText="mice" effectID="E0" effectText="attenuated  tumor growth" />
+</TAGS>
+</Genomics_ConceptTask>

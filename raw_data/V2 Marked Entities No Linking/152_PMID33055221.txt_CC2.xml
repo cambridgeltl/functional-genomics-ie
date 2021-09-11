@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Wnt-Induced Phenotypic Switch in Cancer-Associated Fibroblasts Inhibits EMT in 
+Colorectal Cancer.
+
+Tumor progression is recognized as a result of an evolving cross-talk between 
+tumor cells and their surrounding nontransformed stroma. Although Wnt signaling 
+has been intensively studied in colorectal cancer, it remains unclear whether 
+activity in the tumor-associated stroma contributes to malignancy. To 
+specifically interfere with stromal signals, we generated Wnt-independent tumor 
+organoids that secrete the Wnt antagonist Sfrp1. Subcutaneous transplantation 
+into immunocompetent as well as immunodeficient mice resulted in a strong 
+reduction of tumor growth. Histologic and transcriptomic analyses revealed that 
+Sfrp1 induced an epithelial-mesenchymal transition (EMT) phenotype in tumor 
+cells without affecting tumor-intrinsic Wnt signaling, suggesting involvement of 
+nonimmune stromal cells. Blockage of canonical signaling using Sfrp1, Dkk1, or 
+fibroblast-specific genetic ablation of β-catenin strongly decreased the number 
+of cancer-associated myofibroblasts (myCAF). Wnt activity in CAFs was linked 
+with distinct subtypes, where low and high levels induced an inflammatory-like 
+CAF (iCAF) subtype or contractile myCAFs, respectively. Coculture of tumor 
+organoids with iCAFs resulted in significant upregulation of EMT markers, while 
+myCAFs reverted this phenotype. In summary, we show that tumor growth and 
+malignancy are differentially regulated via distinct fibroblast subtypes under 
+the influence of juxtacrine Wnt signals.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="967~1016" text="fibroblast-specific genetic ablation of β-catenin" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="470~502" text="Wnt-independent tumor  organoids" context="organoid" />
+<CONTEXT id="C1" spans="798~810" text="tumor  cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1051~1091" text="cancer-associated myofibroblasts (myCAF)" context="cells" />
+<CONTEXT id="C3" spans="1275~1291" text="tumor  organoids" context="organoid" />
+<CONTEXT id="C4" spans="1297~1302" text="iCAFs" context="cells" />
+<PHENOTYPE id="PH0" spans="660~672" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH1" spans="745~784" text="epithelial-mesenchymal transition (EMT)" phenotype="epithelial-mesenchymal transition" />
+<EFFECT id="E0" spans="647~656" text="reduction" effect="negative" />
+<EFFECT id="E1" spans="734~741" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BNIP3L/NIX and FUNDC1-mediated mitophagy is required for mitochondrial network 
+remodeling during cardiac progenitor cell differentiation.
+
+Cell-based therapies represent a very promising strategy to repair and 
+regenerate the injured heart to prevent progression to heart failure. To date, 
+these therapies have had limited success due to a lack of survival and retention 
+of the infused cells. Therefore, it is important to increase our understanding 
+of the biology of these cells and utilize this information to enhance their 
+survival and function in the injured heart. Mitochondria are critical for 
+progenitor cell function and survival. Here, we demonstrate the importance of 
+mitochondrial autophagy, or mitophagy, in the differentiation process in adult 
+cardiac progenitor cells (CPCs). We found that mitophagy was rapidly induced 
+upon initiation of differentiation in CPCs. We also found that mitophagy was 
+mediated by mitophagy receptors, rather than the PINK1-PRKN/PARKIN pathway. 
+Mitophagy mediated by BNIP3L/NIX and FUNDC1 was not involved in regulating 
+progenitor cell fate determination, mitochondrial biogenesis, or reprogramming. 
+Instead, mitophagy facilitated the CPCs to undergo proper mitochondrial network 
+reorganization during differentiation. Abrogating BNIP3L- and FUNDC1-mediated 
+mitophagy during differentiation led to sustained mitochondrial fission and 
+formation of donut-shaped impaired mitochondria. It also resulted in increased 
+susceptibility to cell death and failure to survive the infarcted heart. 
+Finally, aging is associated with accumulation of mitochondrial DNA (mtDNA) 
+damage in cells and we found that acquiring mtDNA mutations selectively 
+disrupted the differentiation-activated mitophagy program in CPCs. These 
+findings demonstrate the importance of BNIP3L- and FUNDC1-mediated mitophagy as 
+a critical regulator of mitochondrial network formation during differentiation, 
+as well as the consequences of accumulating mtDNA mutations. ]]></TEXT>
+<TAGS>
+<PHENOTYPE id="PH0" spans="1490~1500" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="1461~1486" text="increased  susceptibility" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

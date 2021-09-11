@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Resolvin D1 promotes the targeting and clearance of necroptotic cells.
+
+Inflammation-resolution is a protective response that is mediated by specialized 
+pro-resolving mediators (SPMs). The clearance of dead cells or efferocytosis is 
+a critical cellular program of inflammation-resolution. Impaired efferocytosis 
+can lead to tissue damage in prevalent human diseases, like atherosclerosis. 
+Therefore understanding mechanisms associated with swift clearance of dead cells 
+is of utmost clinical importance. Recently, the accumulation of necroptotic 
+cells (NCs) was observed in human plaques and we postulated that this is due to 
+defective clearance programs. Here we present evidence that NCs are 
+inefficiently taken up by macrophages because they have increased surface 
+expression of a well-known "don't eat me" signal called CD47. High levels of 
+CD47 on NCs stimulated RhoA-pMLC signaling in macrophages that promoted 
+"nibbling", rather than whole-cell engulfment of NCs. Anti-CD47 blocking 
+antibodies limited RhoA-p-MLC signaling and promoted whole-cell NC engulfment. 
+Treatment with anti-CD47 blocking antibodies to Ldlr-/- mice with established 
+atherosclerosis decreased necrotic cores, limited the accumulation of plaque NCs 
+and increased lesional SPMs, including Resolvin D1 (RvD1) compared with IgG 
+controls. Mechanistically, RvD1 promoted whole-cell engulfment of NCs by 
+decreasing RhoA signaling and activating CDC42. RvD1 specifically targeted NCs 
+for engulfment by facilitating the release of the well-known "eat me signal" 
+called calreticulin from macrophages in a CDC42 dependent manner. Lastly, RvD1 
+enhanced the clearance of NCs in advanced murine plaques. Together, these 
+results suggest new molecules and signaling associated with the clearance of 
+NCs, provide a new paradigm for the regulation of inflammation-resolution, and 
+offer a potential treatment strategy for diseases where NCs underpin the 
+pathology.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1130~1137" text="Ldlr-/-" description="knock out" />
+<CONTEXT id="C0" spans="1138~1142" text="mice" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Zc3h13/Flacc is required for adenosine methylation by bridging the mRNA-binding 
+factor Rbm15/Spenito to the m(6)A machinery component Wtap/Fl(2)d.
+
+N6-methyladenosine (m6A) is the most abundant mRNA modification in eukaryotes, 
+playing crucial roles in multiple biological processes. m6A is catalyzed by the 
+activity of methyltransferase-like 3 (Mettl3), which depends on additional 
+proteins whose precise functions remain poorly understood. Here we identified 
+Zc3h13 (zinc finger CCCH domain-containing protein 13)/Flacc [Fl(2)d-associated 
+complex component] as a novel interactor of m6A methyltransferase complex 
+components in Drosophila and mice. Like other components of this complex, Flacc 
+controls m6A levels and is involved in sex determination in Drosophila We 
+demonstrate that Flacc promotes m6A deposition by bridging Fl(2)d to the 
+mRNA-binding factor Nito. Altogether, our work advances the molecular 
+understanding of conservation and regulation of the m6A machinery.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

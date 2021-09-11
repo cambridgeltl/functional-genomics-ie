@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Comparison of tumor-associated YAP1 fusions identifies a recurrent set of 
+functions critical for oncogenesis.
+
+YAP1 is a transcriptional coactivator and the principal effector of the Hippo 
+signaling pathway, which is causally implicated in human cancer. Several YAP1 
+gene fusions have been identified in various human cancers and identifying the 
+essential components of this family of gene fusions has significant therapeutic 
+value. Here, we show that the YAP1 gene fusions YAP1-MAMLD1, YAP1-FAM118B, 
+YAP1-TFE3, and YAP1-SS18 are oncogenic in mice. Using reporter assays, RNA-seq, 
+ChIP-seq, and loss-of-function mutations, we can show that all of these YAP1 
+fusion proteins exert TEAD-dependent YAP activity, while some also exert 
+activity of the C'-terminal fusion partner. The YAP activity of the different 
+YAP1 fusions is resistant to negative Hippo pathway regulation due to 
+constitutive nuclear localization and resistance to degradation of the YAP1 
+fusion proteins. Genetic disruption of the TEAD-binding domain of these 
+oncogenic YAP1 fusions is sufficient to inhibit tumor formation in vivo, while 
+pharmacological inhibition of the YAP1-TEAD interaction inhibits the growth of 
+YAP1 fusion-expressing cell lines in vitro. These results highlight 
+TEAD-dependent YAP activity found in these gene fusions as critical for 
+oncogenesis and implicate these YAP functions as potential therapeutic targets 
+in YAP1 fusion-positive tumors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="461~531" text="YAP1 gene fusions YAP1-MAMLD1, YAP1-FAM118B,  YAP1-TFE3, and YAP1-SS18" description="other" />
+<PERTURBING_ACTION id="P1" spans="984~1062" text="Genetic disruption of the TEAD-binding domain of these  oncogenic YAP1 fusions" description="other" />
+<CONTEXT id="C0" spans="549~553" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1104~1111" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="1223~1242" text="cell lines in vitro" experiment_type="cell line" species="not stated" />
+<EFFECT id="E0" spans="536~545" text="oncogenic" phenotype="tumourigenesis" activity="causes" />
+<EFFECT id="E1" spans="1080~1103" text="inhibit tumor formation" phenotype="tumourigenesis" activity="inhibits" />
+<EFFECT id="E2" spans="1176~1195" text="inhibits the growth" phenotype="cell growth" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Genetic disruption of the TEAD-binding domain of these  oncogenic YAP1 fusions" contextID="C1" contextText="in vivo" effectID="E1" effectText="inhibit tumor formation" />
+</TAGS>
+</Genomics_ConceptTask>

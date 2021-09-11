@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RAB2 regulates the formation of autophagosome and autolysosome in mammalian 
+cells.
+
+Multiple sources contribute membrane and protein machineries to construct 
+functional macroautophagic/autophagic structures. However, the underlying 
+molecular mechanisms remain elusive. Here, we show that RAB2 connects the Golgi 
+network to autophagy pathway by delivering membrane and by sequentially engaging 
+distinct autophagy machineries. In unstressed cells, RAB2 resides primarily in 
+the Golgi apparatus, as evidenced by its interaction and colocalization with 
+GOLGA2/GM130. Importantly, autophagy stimuli dissociate RAB2 from GOLGA2 to 
+interact with ULK1 complex, which facilitates the recruitment of ULK1 complex to 
+form phagophores. Intriguingly, RAB2 appears to modulate ULK1 kinase activity to 
+propagate signals for autophagosome formation. Subsequently, RAB2 switches to 
+interact with autophagosomal RUBCNL/PACER and STX17 to further specify the 
+recruitment of HOPS complex for autolysosome formation. Together, our study 
+reveals a multivalent pathway in bulk autophagy regulation, and provides 
+mechanistic insights into how the Golgi apparatus contributes to the formation 
+of different autophagic structures.
+
+]]></TEXT>
+<TAGS>
+<EFFECT id="E0" spans="1067~1087" text="autophagy regulation" phenotype="autophagy" activity="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

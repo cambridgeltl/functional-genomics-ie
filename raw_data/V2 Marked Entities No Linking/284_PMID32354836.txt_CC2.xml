@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Distinct roles of BRCA2 in replication fork protection in response to 
+hydroxyurea and DNA interstrand cross-links.
+
+DNA interstrand cross-links (ICLs) are a form of DNA damage that requires the 
+interplay of a number of repair proteins including those of the Fanconi anemia 
+(FA) and the homologous recombination (HR) pathways. Pathogenic variants in the 
+essential gene BRCA2/FANCD1, when monoallelic, predispose to breast and ovarian 
+cancer, and when biallelic, result in a severe subtype of Fanconi anemia. BRCA2 
+function in the FA pathway is attributed to its role as a mediator of the RAD51 
+recombinase in HR repair of programmed DNA double-strand breaks (DSB). BRCA2 and 
+RAD51 functions are also required to protect stalled replication forks from 
+nucleolytic degradation during response to hydroxyurea (HU). While RAD51 has 
+been shown to be necessary in the early steps of ICL repair to prevent aberrant 
+nuclease resection, the role of BRCA2 in this process has not been described. 
+Here, based on the analysis of BRCA2 DNA-binding domain (DBD) mutants 
+(c.8488-1G>A and c.8524C>T) discovered in FA patients presenting with atypical 
+FA-like phenotypes, we establish that BRCA2 is necessary for the protection of 
+DNA at ICLs. Cells carrying BRCA2 DBD mutations are sensitive to ICL-inducing 
+agents but resistant to HU treatment consistent with relatively high HR repair 
+in these cells. BRCA2 function at an ICL protects against DNA2-WRN 
+nuclease-helicase complex and not the MRE11 nuclease that is implicated in the 
+resection of HU-induced stalled replication forks. Our results also indicate 
+that unlike the processing at HU-induced stalled forks, the function of the SNF2 
+translocases (SMARCAL1, ZRANB3, or HLTF), implicated in fork reversal, are not 
+an integral component of the ICL repair, pointing to a different mechanism of 
+fork protection at different DNA lesions.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1256~1275" text="BRCA2 DBD mutations" perturbingaction="other" />
+<CONTEXT id="C0" spans="1241~1246" text="Cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SMARCB1 loss interacts with neuronal differentiation state to block maturation 
+and impact cell stability.
+
+Atypical teratoid rhabdoid tumors (ATRTs) are challenging pediatric brain 
+cancers that are predominantly associated with inactivation of the gene SMARCB1, 
+a conserved subunit of the chromatin remodeling BAF complex, which has known 
+contributions to developmental processes. To identify potential interactions 
+between SMARCB1 loss and the process of neural development, we introduced an 
+inducible SMARCB1 loss-of-function system into human induced pluripotent stem 
+cells (iPSCs) that were subjected to either directed neuronal differentiation or 
+differentiation into cerebral organoids. Using this system, we identified 
+substantial differences in the downstream effects of SMARCB1 loss depending on 
+differentiation state and identified an interaction between SMARCB1 loss and 
+neural differentiation pressure that causes a resistance to terminal 
+differentiation and a defect in maintenance of a normal cell state. Our results 
+provide insight into how SMARCB1 loss might interact with neural development in 
+the process of ATRT tumorigenesis.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="499~540" text="inducible SMARCB1 loss-of-function system" description="conditional knock out" />
+<PERTURBING_ACTION id="P1" spans="788~800" text="SMARCB1 loss" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="875~887" text="SMARCB1 loss" description="decreased expression level" />
+<CONTEXT id="C1" spans="546~614,622~655" text="human induced pluripotent stem  cells (iPSCs) that were subjected to ... directed neuronal differentiation" experiment_type="cells" species="human" />
+<CONTEXT id="C2" spans="546~614,660~699" text="human induced pluripotent stem  cells (iPSCs) that were subjected to ... differentiation into cerebral organoids" experiment_type="organoid culture" species="human" />
+<EFFECT id="E0" spans="930~978" text="causes a resistance to terminal  differentiation" phenotype="differentiation" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

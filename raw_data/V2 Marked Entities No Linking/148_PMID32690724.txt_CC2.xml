@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BRG1 Loss Predisposes Lung Cancers to Replicative Stress and ATR Dependency.
+
+Inactivation of SMARCA4/BRG1, the core ATPase subunit of mammalian SWI/SNF 
+complexes, occurs at very high frequencies in non-small cell lung cancers 
+(NSCLC). There are no targeted therapies for this subset of lung cancers, nor is 
+it known how mutations in BRG1 contribute to lung cancer progression. Using a 
+combination of gain- and loss-of-function approaches, we demonstrate that 
+deletion of BRG1 in lung cancer leads to activation of replication stress 
+responses. Single-molecule assessment of replication fork dynamics in 
+BRG1-deficient cells revealed increased origin firing mediated by the 
+prelicensing protein, CDC6. Quantitative mass spectrometry and 
+coimmunoprecipitation assays showed that BRG1-containing SWI/SNF complexes 
+interact with RPA complexes. Finally, BRG1-deficient lung cancers were sensitive 
+to pharmacologic inhibition of ATR. These findings provide novel mechanistic 
+insight into BRG1-mutant lung cancers and suggest that their dependency on ATR 
+can be leveraged therapeutically and potentially expanded to BRG1-mutant cancers 
+in other tissues. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="465~481" text="deletion of BRG1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="611~625" text="BRG1-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="860~874" text="BRG1-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="907~938" text="pharmacologic inhibition of ATR" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="485~496" text="lung cancer" context="neoplasm" />
+<CONTEXT id="C1" spans="626~631" text="cells" context="neoplasm" />
+<CONTEXT id="C2" spans="875~887" text="lung cancers" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

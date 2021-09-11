@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Vitamin D improves sunburns by increasing autophagy in M2 macrophages.
+
+Cutaneous inflammation from UV radiation exposure causes epidermal damage, 
+cellular infiltration, and secretion of pro-inflammatory mediators that 
+exacerbate tissue destruction. Recovery is mediated chiefly by anti-inflammatory 
+M2 macrophages that suppress inflammation and augment epidermal regeneration. 
+Vitamin D enables anti-inflammation to promote tissue repair in response to 
+injury. Since vitamin D enhances cellular macroautophagy/autophagy, we 
+investigated the role of autophagy in vitamin D protection of UV-mediated 
+sunburn and inflammation. Using a UV-mediated acute skin injury mouse model, we 
+demonstrate that a single dose of vitamin D resolves injury with sustained 
+inhibition of inflammatory cytokines associated with enhanced autophagy in 
+myeloid anti-inflammatory M2 macs. Increased MAP1LC3B/LC3 expression 
+corroborated with complete autolysosome formation detected by electron 
+microscopy and correlated with degradation of SQSTM1/p62 in the skin following 
+vitamin D treatment. Specifically, pharmacological inhibition of autophagy 
+increased UV-induced apoptosis, suppressed M2 macs recruitment, and prevented 
+vitamin D downregulation of Tnf and Mmp9 in the skin. Furthermore, selective 
+deletion of autophagy in myeloid cells of atg7 cKO mice abrogated vitamin 
+D-mediated protection and recapitulated UV-induced inflammation. 
+Mechanistically, vitamin D signaling activated M2-autophagy regulators Klf4, 
+Pparg, and Arg1. Lastly, analysis of UV-exposed human skin biopsies detected a 
+similar increase in macrophage autophagy following vitamin D intervention, 
+identifying an essential role for autophagy in vitamin D-mediated protection of 
+skin from UV damage.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1336~1344" text="atg7 cKO" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="670~681" text="mouse model" context="organism" />
+<CONTEXT id="C1" spans="1319~1332" text="myeloid cells" context="cells" />
+<CONTEXT id="C2" spans="1345~1349" text="mice" context="organism" />
+<CONTEXT id="C3" spans="1561~1580" text="human skin biopsies" context="patient" />
+<CONTEXT id="C4" spans="1613~1623" text="macrophage" context="cells" />
+<PHENOTYPE id="PH0" spans="825~834" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1158~1167" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1624~1633" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="816~824" text="enhanced" effect="positive" />
+<EFFECT id="E1" spans="1150~1157" text="induced" effect="positive" />
+<EFFECT id="E2" spans="1601~1609" text="increase" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

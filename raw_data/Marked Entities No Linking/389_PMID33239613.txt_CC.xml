@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CircCNTNAP3-TP53-positive feedback loop suppresses malignant progression of 
+esophageal squamous cell carcinoma.
+
+Mutation or downregulation of p53 (encoded by TP53) accelerates tumorigenesis 
+and malignant progression in esophageal squamous cell carcinoma (ESCC). However, 
+it is still unknown whether circular RNAs (circRNAs), a novel class of 
+endogenous noncoding RNAs, participate in the regulation of this progress. In 
+this study, we explored the expression profiles of circRNAs in three paired 
+samples of ESCC and identified cCNTNAP3, which is a circRNA that originates from 
+the CNTNAP3 gene transcript and is highly expressed in normal human esophageal 
+tissue. However, we found that the cCNTNAP3 expression level was significantly 
+downregulated in ESCC tissues. In vitro and in vivo studies revealed that 
+cCNTNAP3 inhibited proliferation and increased apoptosis in p53 wild-type ESCC 
+cells, but not in mutant cells. Mechanistically, we found that cCNTNAP3 promotes 
+the expression of p53 by sponging miR-513a-5p. Rescue assay confirmed that the 
+suppressive function of cCNTNAP3 was dependent on miR-513a-5p. We also observed 
+that p53/RBM25 participated in the formation of cCNTNAP3, which implied the 
+existence of a positive feedback loop between cCNTNAP3 and p53. Furthermore, the 
+downregulation of cCNTNAP3 was significantly correlated with later T stage and 
+thus can serve as an independent risk factor for the overall survival of 
+patients with p53 wild-type ESCC. In conclusion, the cCNTNAP3-TP53 positive 
+feedback loop may provide a potential target for the management of ESCC, which 
+also reveals the important role of circRNAs in the regulation of p53.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="925~930" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="776~784" text="In vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="789~796" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="894~905" text="ESCC  cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="829~852" text="inhibited proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E1" spans="857~876" text="increased apoptosis" phenotype="apoptosis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

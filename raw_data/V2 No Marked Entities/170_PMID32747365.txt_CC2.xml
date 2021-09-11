@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Multiomic Analysis of Subtype Evolution and Heterogeneity in High-Grade Serous 
+Ovarian Carcinoma.
+
+Multiple studies have identified transcriptome subtypes of high-grade serous 
+ovarian carcinoma (HGSOC), but their interpretation and translation are 
+complicated by tumor evolution and polyclonality accompanied by extensive 
+accumulation of somatic aberrations, varying cell type admixtures, and different 
+tissues of origin. In this study, we examined the chronology of HGSOC subtype 
+evolution in the context of these factors using a novel integrative analysis of 
+absolute copy-number analysis and gene expression in The Cancer Genome Atlas 
+complemented by single-cell analysis of six independent tumors. Tumor purity, 
+ploidy, and subclonality were reliably inferred from different genomic 
+platforms, and these characteristics displayed marked differences between 
+subtypes. Genomic lesions associated with HGSOC subtypes tended to be subclonal, 
+implying subtype divergence at later stages of tumor evolution. Subclonality of 
+recurrent HGSOC alterations was evident for proliferative tumors, characterized 
+by extreme genomic instability, absence of immune infiltration, and greater 
+patient age. In contrast, differentiated tumors were characterized by largely 
+intact genome integrity, high immune infiltration, and younger patient age. 
+Single-cell sequencing of 42,000 tumor cells revealed widespread heterogeneity 
+in tumor cell type composition that drove bulk subtypes but demonstrated a lack 
+of intrinsic subtypes among tumor epithelial cells. Our findings prompt the 
+dismissal of discrete transcriptome subtypes for HGSOC and replacement by a more 
+realistic model of continuous tumor development that includes mixtures of 
+subclones, accumulation of somatic aberrations, infiltration of immune and 
+stromal cells in proportions correlated with tumor stage and tissue of origin, 
+and evolution between properties previously associated with discrete subtypes. 
+SIGNIFICANCE: This study infers whether transcriptome-based groupings of tumors 
+differentiate early in carcinogenesis and are, therefore, appropriate targets 
+for therapy and demonstrates that this is not the case for HGSOC.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

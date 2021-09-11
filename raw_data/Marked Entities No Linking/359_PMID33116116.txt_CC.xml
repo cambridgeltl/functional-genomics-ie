@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Therapeutic effect of a histone demethylase inhibitor in Parkinson's disease.
+
+Iron accumulation in the substantia nigra is recognized as a hallmark of 
+Parkinson's disease (PD). Therefore, reducing accumulated iron and associated 
+oxidative stress is considered a promising therapeutic strategy for PD. However, 
+current iron chelators have poor membrane permeability and lack cell-type 
+specificity. Here we identified GSK-J4, a histone demethylase inhibitor with the 
+ability to cross blood brain barrier, as a potent iron suppressor. Only a trace 
+amount of GSK-J4 significantly and selectively reduced intracellular labile iron 
+in dopaminergic neurons, and suppressed H2O2 and 6-OHDA-induced cell death in 
+vitro. The iron-suppressive effect was mainly mediated by inducing an increase 
+in the expression of the iron exporter ferroportin-1. In parallel, GSK-J4 
+rescued dopaminergic neuron loss and motor defects in 6-OHDA-induced PD rats, 
+which was accompanied by reduction of oxidative stress. Importantly, GSK-J4 
+rescued the abnormal changes of histone methylation, H3K4me3 and H3K27me3 during 
+6-OHDA treatment although the iron-suppressive and neuroprotective effects were 
+sensitive to H3K4me3 inhibition only. Also, upregulating H3K4me3 increased 
+ferroportin-1 expression and neuroprotection. Taken together, we demonstrate a 
+previously unappreciated action of GSK-J4 on cell-specific iron suppression and 
+neuroprotection via epigenetic mechanism. Compared with conventional iron 
+chelators, this compound has a stronger therapeutic potential for PD.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="709~718" text="in  vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="876~895" text="dopaminergic neuron" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="940~944" text="rats" experiment_type="organism" species="rat" />
+<EFFECT id="E0" spans="663~673,690~708" text="suppressed ... induced cell death" phenotype="cell death" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[m(6)A mRNA methylation regulates testosterone synthesis through modulating 
+autophagy in Leydig cells.
+
+Macroautophagy/autophagy is indispensable for testosterone synthesis in Leydig 
+cells (LCs), and here we report a negative association between m6A modification 
+and autophagy in LCs during testosterone synthesis. A gradual decrease of 
+METTL14 (methyltransferase like 14) and an increase of ALKBH5 (alkB homolog 5, 
+RNA demethylase) were observed in LCs during their differentiation from stem LCs 
+to adult LCs. These events led to reduced mRNA methylation levels of 
+N6-methyladenosine (m6A) and enhanced autophagy in LCs. Similar regulation of 
+METTL14, ALKBH5, and m6A was also observed in LCs upon treatment with human 
+chorionic gonadotropin (HsCG). Mechanistically, m6A modification promoted 
+translation of PPM1A (protein phosphatase 1A, magnesium dependent, alpha 
+isoform), a negative AMP-activated protein kinase (AMPK) regulator, but 
+decreased expression of CAMKK2 (calcium/calmodulin-dependent protein kinase 
+kinase 2, beta), a positive AMPK regulator, by reducing its RNA stability. Thus, 
+m6A modification resulted in reduced AMPK activity and subsequent autophagy 
+inhibition. We further demonstrated that ALKBH5 upregulation by HsCG was 
+dependent on enhanced binding of the transcriptional factor CEBPB 
+(CCAAT/enhancer binding protein [C/EBP], beta) and the TFEB (transcription 
+factor EB) to its gene promoter. Moreover, HsCG treatment decreased METTL14 by 
+reducing its stability. Collectively, this study highlights a vital role of m6A 
+RNA methylation in the modulation of testosterone synthesis in LCs, providing 
+insight into novel therapeutic strategies by exploiting m6A RNA methylation as 
+targets for treating azoospermatism and oligospermatism patients with reduction 
+in serum testosterone.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="623~626" text="LCs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="697~700" text="LCs" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="601~619" text="enhanced autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E1" spans="1175~1196" text="autophagy  inhibition" phenotype="autophagy" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

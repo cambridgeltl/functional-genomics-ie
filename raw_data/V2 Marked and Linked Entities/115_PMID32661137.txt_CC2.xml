@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Glucose-6-Phosphate Dehydrogenase Is Not Essential for K-Ras-Driven Tumor Growth 
+or Metastasis.
+
+The enzyme glucose-6-phosphate dehydrogenase (G6PD) is a major contributor to 
+NADPH production and redox homeostasis and its expression is upregulated and 
+correlated with negative patient outcomes in multiple human cancer types. 
+Despite these associations, whether G6PD is essential for tumor initiation, 
+growth, or metastasis remains unclear. Here, we employ modern genetic tools to 
+evaluate the role of G6PD in lung, breast, and colon cancer driven by oncogenic 
+K-Ras. Human HCT116 colorectal cancer cells lacking G6PD exhibited metabolic 
+indicators of oxidative stress, but developed into subcutaneous xenografts with 
+growth comparable with that of wild-type controls. In a genetically engineered 
+mouse model of non-small cell lung cancer driven by K-Ras G12D and p53 
+deficiency, G6PD knockout did not block formation or proliferation of primary 
+lung tumors. In MDA-MB-231-derived human triple-negative breast cancer cells 
+implanted as orthotopic xenografts, loss of G6PD modestly decreased primary site 
+growth without ablating spontaneous metastasis to the lung and moderately 
+impaired the ability of breast cancer cells to colonize the lung when delivered 
+via tail vein injection. Thus, in the studied K-Ras tumor models, G6PD was not 
+strictly essential for tumorigenesis and at most modestly promoted disease 
+progression. SIGNIFICANCE: K-Ras-driven tumors can grow and metastasize even in 
+the absence of the oxidative pentose pathway, a main NADPH production route.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="612~624" text="lacking G6PD" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="859~869" text="K-Ras G12D" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="874~889" text="p53  deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="891~904" text="G6PD knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="1072~1084" text="loss of G6PD" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="575~611" text="Human HCT116 colorectal cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="783~848" text="genetically engineered  mouse model of non-small cell lung cancer" context="organism" />
+<CONTEXT id="C2" spans="949~969" text="primary  lung tumors" context="neoplasm" />
+<CONTEXT id="C4" spans="1217~1236" text="breast cancer cells" context="transformed cells" />
+<CONTEXT id="C5" spans="974~1034" text="MDA-MB-231-derived human triple-negative breast cancer cells" context="transformed cells" />
+<CONTEXT id="C6" spans="1049~1070" text="orthotopic xenografts" context="xenograft" />
+<PHENOTYPE id="PH0" spans="932~945" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="1154~1176" text="metastasis to the lung" phenotype="metastasis" />
+<EFFECT id="E0" spans="905~918" text="did not block" effect="no effect" />
+<EFFECT id="E1" spans="1125~1141" text="without ablating" effect="no effect" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="G6PD knockout" effectID="E0" effectText="did not block" contextID="C2" contextText="primary  lung tumors" phenotypeID="PH0" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN1" contextID="C5" contextText="MDA-MB-231-derived human triple-negative breast cancer cells" perturbing_actionID="P4" perturbing_actionText="loss of G6PD" effectID="E1" effectText="without ablating" phenotypeID="PH1" phenotypeText="metastasis to the lung" />
+</TAGS>
+</Genomics_ConceptTask>

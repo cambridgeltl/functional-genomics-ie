@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Deep profiling of apoptotic pathways with mass cytometry identifies a 
+synergistic drug combination for killing myeloma cells.
+
+Multiple myeloma is an incurable and fatal cancer of immunoglobulin-secreting 
+plasma cells. Most conventional therapies aim to induce apoptosis in myeloma 
+cells but resistance to these drugs often arises and drives relapse. In this 
+study, we sought to identify the best adjunct targets to kill myeloma cells 
+resistant to conventional therapies using deep profiling by mass cytometry 
+(CyTOF). We validated probes to simultaneously detect 26 regulators of cell 
+death, mitosis, cell signaling, and cancer-related pathways at the single-cell 
+level following treatment of myeloma cells with dexamethasone or bortezomib. 
+Time-resolved visualization algorithms and machine learning random forest models 
+(RFMs) delineated putative cell death trajectories and a hierarchy of parameters 
+that specified myeloma cell survival versus apoptosis following treatment. Among 
+these parameters, increased amounts of phosphorylated cAMP response 
+element-binding protein (CREB) and the pro-survival protein, MCL-1, were 
+defining features of cells surviving drug treatment. Importantly, the RFM 
+prediction that the combination of an MCL-1 inhibitor with dexamethasone would 
+elicit potent, synergistic killing of myeloma cells was validated in other cell 
+lines, in vivo preclinical models and primary myeloma samples from patients. 
+Furthermore, CyTOF analysis of patient bone marrow cells clearly identified 
+myeloma cells and their key cell survival features. This study demonstrates the 
+utility of CyTOF profiling at the single-cell level to identify clinically 
+relevant drug combinations and tracking of patient responses for future clinical 
+trials.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1253~1268" text="MCL-1 inhibitor" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="702~715" text="myeloma cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1161~1166" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1333~1346" text="myeloma cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1370~1381" text="cell  lines" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C4" spans="1383~1409" text="in vivo preclinical models" experiment_type="organism" species="not stated" />
+<CONTEXT id="C5" spans="1414~1451" text="primary myeloma samples from patients" experiment_type="transformed cell line" species="human" />
+</TAGS>
+</Genomics_ConceptTask>

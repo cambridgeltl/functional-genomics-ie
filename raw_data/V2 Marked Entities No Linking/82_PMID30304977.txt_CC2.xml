@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Neuronal-targeted TFEB rescues dysfunction of the autophagy-lysosomal pathway 
+and alleviates ischemic injury in permanent cerebral ischemia.
+
+Mounting attention has been focused on defects in macroautophagy/autophagy and 
+the autophagy-lysosomal pathway (ALP) in cerebral ischemia. TFEB (transcription 
+factor EB)-mediated induction of ALP has been recently considered as the common 
+mechanism in ameliorating the pathological lesion of myocardial ischemia and 
+neurodegenerative diseases. Here we explored the vital role of TFEB in permanent 
+middle cerebral artery occlusion (pMCAO)-mediated dysfunction of ALP and 
+ischemic insult in rats. The results showed that ALP function was first enhanced 
+in the early stage of the ischemic process, especially in neurons of the cortex, 
+and this was accompanied by increased TFEB expression and translocation to the 
+nucleus, which was mediated at least in part through activation by 
+PPP3/calcineurin. At the later stages of ischemia, a gradual decrease in the 
+level of nuclear TFEB was coupled with a progressive decline in lysosomal 
+activity, accumulation of autophagosomes and autophagy substrates, and 
+exacerbation of the ischemic injury. Notably, neuron-specific overexpression of 
+TFEB significantly enhanced ALP function and rescued the ischemic damage, 
+starting as early as 6 h and even lasting to 48 h after ischemia. Furthermore, 
+neuron-specific knockdown of TFEB markedly reversed the activation of ALP and 
+further aggravated the neurological deficits and ischemic outcome at the early 
+stage of pMCAO. These results highlight neuronal-targeted TFEB as one of the key 
+players in the pMCAO-mediated dysfunction of ALP and ischemic injury, and 
+identify TFEB as a promising target for therapies aimed at neuroprotection in 
+cerebral ischemia.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1202~1241" text="neuron-specific overexpression of  TFEB" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="1392~1425" text="neuron-specific knockdown of TFEB" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="638~642" text="rats" context="organism" />
+<CONTEXT id="C2" spans="759~780" text="neurons of the cortex" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

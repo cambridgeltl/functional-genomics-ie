@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PRKN-regulated mitophagy and cellular senescence during COPD pathogenesis.
+
+Cigarette smoke (CS)-induced accumulation of mitochondrial damage has been 
+widely implicated in chronic obstructive pulmonary disease (COPD) pathogenesis. 
+Mitophagy plays a crucial role in eliminating damaged mitochondria, and is 
+governed by the PINK1 (PTEN induced putative protein kinase 1)-PRKN (parkin RBR 
+E3 ubiquitin protein ligase) pathway. Although both increased PINK1 and reduced 
+PRKN have been implicated in COPD pathogenesis in association with mitophagy, 
+there are conflicting reports for the role of mitophagy in COPD progression. To 
+clarify the involvement of PRKN-regulated mitophagy in COPD pathogenesis, prkn 
+knockout (KO) mouse models were used. To illuminate how PINK1 and PRKN regulate 
+mitophagy in relation to CS-induced mitochondrial damage and cellular 
+senescence, overexpression and knockdown experiments were performed in airway 
+epithelial cells (AEC). In comparison to wild-type mice, prkn KO mice 
+demonstrated enhanced airway wall thickening with emphysematous changes 
+following CS exposure. AEC in CS-exposed prkn KO mice showed accumulation of 
+damaged mitochondria and increased oxidative modifications accompanied by 
+accelerated cellular senescence. In vitro experiments showed PRKN overexpression 
+was sufficient to induce mitophagy during CSE exposure even in the setting of 
+reduced PINK1 protein levels, resulting in attenuation of mitochondrial ROS 
+production and cellular senescence. Conversely PINK1 overexpression failed to 
+recover impaired mitophagy caused by PRKN knockdown, indicating that PRKN 
+protein levels can be the rate-limiting factor in PINK1-PRKN-mediated mitophagy 
+during CSE exposure. These results suggest that PRKN levels may play a pivotal 
+role in COPD pathogenesis by regulating mitophagy, suggesting that PRKN 
+induction could mitigate the progression of COPD. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="999~1006" text="prkn KO" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1127~1134" text="prkn KO" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1300~1319" text="PRKN overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P4" spans="704~724" text=" prkn  knockout (KO)" description="knock out" />
+<PERTURBING_ACTION id="P6" spans="1524~1544" text="PINK1 overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P7" spans="1593~1607" text="PRKN knockdown" description="knock down" />
+<CONTEXT id="C0" spans="725~737" text="mouse models" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="934~964" text="airway  epithelial cells (AEC)" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1007~1011" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="1135~1139" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C4" spans="1272~1280" text="In vitro" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1239~1270" text="accelerated cellular senescence" phenotype="senescence" activity="increases" />
+<EFFECT id="E1" spans="1339~1355" text="induce mitophagy" phenotype="mitophagy" activity="causes" />
+<EFFECT id="E2" spans="1443~1457,1492~1511" text="attenuation of ... cellular senescence" phenotype="senescence" activity="decreases" />
+<EFFECT id="E3" spans="1564~1582" text="impaired mitophagy" phenotype="mitophagy" activity="inhibits" />
+<EFFECT id="E4" spans="1545~1582" text="failed to  recover impaired mitophagy" phenotype="mitophagy" activity="no effect" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="prkn KO" contextID="C3" contextText="mice" effectID="E0" effectText="accelerated cellular senescence" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="PRKN overexpression" contextID="C4" contextText="In vitro" effectID="E1" effectText="induce mitophagy" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P3" perturbing_actionText="PRKN overexpression" contextID="C4" contextText="In vitro" effectID="E2" effectText="attenuation of ... cellular senescence" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P6" perturbing_actionText="PINK1 overexpression" contextID="C4" contextText="In vitro" effectID="E4" effectText="failed to  recover impaired mitophagy" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P7" perturbing_actionText="PRKN knockdown" contextID="C4" contextText="In vitro" effectID="E3" effectText="impaired mitophagy" />
+</TAGS>
+</Genomics_ConceptTask>

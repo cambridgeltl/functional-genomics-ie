@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LRRC59 modulates type I interferon signaling by restraining the 
+SQSTM1/p62-mediated autophagic degradation of pattern recognition receptor 
+DDX58/RIG-I.
+
+DDX58/RIG-I, is a critical pattern recognition receptor for viral RNA, which 
+plays an essential role in antiviral immunity. Its posttranslational 
+modifications and stability are tightly regulated to mediate the moderate 
+production of type I IFN to maintain the immune homeostasis. Recently, we 
+reported that macroautophagy/autophagy balances type I IFN signaling through 
+selective degradation of ISG15-associated DDX58 via LRRC25. However, the 
+regulatory mechanism about the autophagic degradation of DDX58 remains largely 
+undefined. Here, we identified LRRC59 as a vital positive regulator of 
+DDX58-mediated type I IFN signaling. Upon virus infection, LRRC59 specifically 
+interacted with ISG15-associated DDX58 and blocked its association with LRRC25, 
+the secondary receptor to deliver DDX58 to autophagosomes for 
+SQSTM1/p62-dependent degradation, leading to the stronger antiviral immune 
+responses. Thus, our study reveals a novel regulatory role of selective 
+autophagy in innate antiviral responses mediated by the cross-regulation of LRRC 
+family members. These data further provide insights into the crosstalk between 
+autophagy and innate immune responses.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

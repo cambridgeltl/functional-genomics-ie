@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SQSTM1/p62 and PPARGC1A/PGC-1alpha at the interface of autophagy and vascular 
+senescence.
+
+Defective macroautophagy/autophagy and mitochondrial dysfunction are known to 
+stimulate senescence. The mitochondrial regulator PPARGC1A (peroxisome 
+proliferator activated receptor gamma, coactivator 1 alpha) regulates 
+mitochondrial biogenesis, reducing senescence of vascular smooth muscle cells 
+(VSMCs); however, it is unknown whether autophagy mediates PPARGC1A-protective 
+effects on senescence. Using ppargc1a-/- VSMCs, we identified the autophagy 
+receptor SQSTM1/p62 (sequestosome 1) as a major regulator of autophagy and 
+senescence of VSMCs. Abnormal autophagosomes were observed in VSMCs in aortas of 
+ppargc1a-/- mice. ppargc1a-/- VSMCs in culture presented reductions in LC3-II 
+levels; in autophagosome number; and in the expression of SQSTM1 (protein and 
+mRNA), LAMP2 (lysosomal-associated membrane protein 2), CTSD (cathepsin D), and 
+TFRC (transferrin receptor). Reduced SQSTM1 protein expression was also observed 
+in aortas of ppargc1a-/- mice and was upregulated by PPARGC1A overexpression, 
+suggesting that SQSTM1 is a direct target of PPARGC1A. Inhibition of autophagy 
+by 3-MA (3 methyladenine), spautin-1 or Atg5 (autophagy related 5) siRNA 
+stimulated senescence. Rapamycin rescued the effect of Atg5 siRNA in Ppargc1a+/+ 
+, but not in ppargc1a-/- VSMCs, suggesting that other targets of MTOR 
+(mechanistic target of rapamycin kinase), in addition to autophagy, also 
+contribute to senescence. Sqstm1 siRNA increased senescence basally and in 
+response to AGT II (angiotensin II) and zinc overload, two known inducers of 
+senescence. Furthermore, Sqstm1 gene deficiency mimicked the phenotype of 
+Ppargc1a depletion by presenting reduced autophagy and increased senescence in 
+vitro and in vivo. Thus, PPARGC1A upregulates autophagy reducing senescence by a 
+SQSTM1-dependent mechanism. We propose SQSTM1 as a novel target in therapeutic 
+interventions reducing senescence.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="502~513" text="ppargc1a-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="708~719" text="ppargc1a-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="726~737" text="ppargc1a-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="1042~1053" text="ppargc1a-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="1082~1105" text="PPARGC1A overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P5" spans="1228~1260" text="Atg5 (autophagy related 5) siRNA" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P6" spans="1317~1327" text="Atg5 siRNA" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P7" spans="1357~1368" text="ppargc1a-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P8" spans="1515~1527" text="Sqstm1 siRNA" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P9" spans="1668~1690" text="Sqstm1 gene deficiency" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="514~519" text="VSMCs" context="cells" />
+<CONTEXT id="C1" spans="720~724" text="mice" context="organism" />
+<CONTEXT id="C2" spans="688~693" text="VSMCs" context="cells" />
+<CONTEXT id="C3" spans="697~703" text="aortas" context="tissue/organ" />
+<CONTEXT id="C4" spans="738~743" text="VSMCs" context="cells" />
+<CONTEXT id="C5" spans="1032~1038" text="aortas" context="tissue/organ" />
+<CONTEXT id="C6" spans="1054~1058" text="mice" context="organism" />
+<CONTEXT id="C7" spans="1369~1374" text="VSMCs" context="cells" />
+<CONTEXT id="C8" spans="1794~1803" text="in  vitro" context="in vitro" />
+<CONTEXT id="C9" spans="1808~1815" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="1273~1283" text="senescence" phenotype="senescence" />
+<PHENOTYPE id="PH1" spans="1538~1548" text="senescence" phenotype="senescence" />
+<PHENOTYPE id="PH2" spans="1759~1768" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="1783~1793" text="senescence" phenotype="senescence" />
+<EFFECT id="E0" spans="1262~1272" text="stimulated" effect="positive" />
+<EFFECT id="E1" spans="1528~1537" text="increased" effect="positive" />
+<EFFECT id="E2" spans="1751~1758" text="reduced" effect="negative" />
+<EFFECT id="E3" spans="1773~1782" text="increased" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P9" perturbing_actionText="Sqstm1 gene deficiency" contextID="C8" contextText="in  vitro" phenotypeID="PH2" phenotypeText="autophagy" effectID="E2" effectText="reduced" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P9" perturbing_actionText="Sqstm1 gene deficiency" contextID="C8" contextText="in  vitro" effectID="E3" effectText="increased" phenotypeID="PH3" phenotypeText="senescence" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P9" perturbing_actionText="Sqstm1 gene deficiency" contextID="C9" contextText="in vivo" effectID="E2" effectText="reduced" phenotypeID="PH2" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P9" perturbing_actionText="Sqstm1 gene deficiency" contextID="C9" contextText="in vivo" phenotypeID="PH3" phenotypeText="senescence" effectID="E3" effectText="increased" />
+</TAGS>
+</Genomics_ConceptTask>

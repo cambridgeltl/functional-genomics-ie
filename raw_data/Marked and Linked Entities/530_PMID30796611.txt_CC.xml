@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Drosophila jumu modulates apoptosis via a JNK-dependent pathway and is required 
+for other processes in wing development.
+
+Previous studies in several model organisms have revealed that members of the 
+Forkhead (Fkh) transcription factor family have multiple functions. Drosophila 
+Jumeau (Jumu), a member of this family, participates in cardiogenesis, 
+hematopoiesis and immune system homeostasis. Here, we show that loss of jumu 
+function positively regulates or triggers apoptosis via a JNK-dependent pathway 
+in wing development. jumu mutants showed reduced wing size and increased 
+apoptosis. Moreover, we observed a loss of the anterior cross vein (ACV) 
+phenotype that was similar to that observed in wings in which JNK signaling has 
+been ectopically activated. The JNK signaling markers puckered (puc) and p-JNK 
+were also significantly increased in the wing discs of jumu mutants. In 
+addition, apoptosis induced by the loss of jumu was rescued by knocking down 
+JNK, indicating a role for JNK in reducing jumu-induced apoptosis. Jumu could 
+also control wing margin development via the positive regulation of cut 
+expression, and the observed wing margin defect did not result from a loss of 
+jumu-induced apoptosis. Further, jumu deficiency in the pupal wing could induce 
+multiple wing hairs via a Rho1-mediated planar cell polarity pathway, but 
+abnormal Rho1 expression was not why jumu loss induced apoptosis via a 
+JNK-dependent pathway in wing discs.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="418~440" text="loss of jumu  function" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="534~546" text="jumu mutants" description="other" />
+<PERTURBING_ACTION id="P2" spans="877~889" text="jumu mutants" description="other" />
+<PERTURBING_ACTION id="P3" spans="930~942" text="loss of jumu" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="958~976" text="knocking down  JNK" description="knock down" />
+<PERTURBING_ACTION id="P5" spans="1195~1208" text="loss of  jumu" description="decreased expression level" />
+<PERTURBING_ACTION id="P6" spans="1237~1252" text="jumu deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P7" spans="1397~1406" text="jumu loss" description="decreased expression level" />
+<CONTEXT id="C0" spans="516~520" text="wing" experiment_type="organism" species="fly" />
+<CONTEXT id="C1" spans="562~566" text="wing" experiment_type="organism" species="fly" />
+<CONTEXT id="C2" spans="1260~1270" text="pupal wing" experiment_type="organism" species="fly" />
+<CONTEXT id="C3" spans="1457~1467" text="wing discs" experiment_type="organism" species="fly" />
+<EFFECT id="E0" spans="465~483" text="triggers apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="576~596" text="increased  apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E2" spans="905~922" text="apoptosis induced" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E3" spans="905~922,943~954" text="apoptosis induced ... was rescued" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E4" spans="1209~1226" text="induced apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E6" spans="1407~1424" text="induced apoptosis" phenotype="apoptosis" activity="causes" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="loss of jumu  function" contextID="C0" contextText="wing" effectID="E0" effectText="triggers apoptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P7" perturbing_actionText="jumu loss" effectID="E6" effectText="induced apoptosis" contextID="C3" contextText="wing discs" />
+</TAGS>
+</Genomics_ConceptTask>

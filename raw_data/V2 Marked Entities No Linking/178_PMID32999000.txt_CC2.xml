@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Protein Arginine Methyltransferase 5 Promotes pICln-Dependent Androgen Receptor 
+Transcription in Castration-Resistant Prostate Cancer.
+
+The majority of advanced prostate cancer therapies aim to inhibit androgen 
+receptor (AR) signaling. However, AR reactivation inevitably drives disease 
+progression to castration-resistant prostate cancer (CRPC). Here we demonstrate 
+that protein arginine methyltransferase 5 (PRMT5) functions as an epigenetic 
+activator of AR transcription in CRPC, requiring cooperation with a methylosome 
+subunit pICln. In vitro and in xenograft tumors in mice, targeting PRMT5 or 
+pICln suppressed growth of CRPC cells. Full-length AR and AR-V7 transcription 
+activation required both PRMT5 and pICln but not MEP50. This activation of 
+transcription was accompanied by PRMT5-mediated symmetric dimethylation of H4R3 
+at the proximal AR promoter. Further, knockdown of PRMT5 abolished the binding 
+of pICln (but not vice versa) to the AR proximal promoter region, suggesting 
+that PRMT5 recruits pICln to the AR promoter to activate AR transcription. 
+Differential gene expression analysis in 22Rv1 cells confirmed that PRMT5 and 
+pICln both regulate the androgen signaling pathway. In addition, PRMT5 and pICln 
+protein expression positively correlated with AR and AR-V7 protein expression in 
+CRPC tissues and their expression was highly correlated at the mRNA level across 
+multiple publicly available CRPC datasets. Our results suggest that targeting 
+PRMT5 or pICln may be explored as a novel therapy for CRPC treatment by 
+suppressing expression of AR and AR splice variants to circumvent AR 
+reactivation.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="587~612" text="targeting PRMT5 or  pICln" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="881~899" text="knockdown of PRMT5" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="545~553" text="In vitro" context="in vitro" />
+<CONTEXT id="C2" spans="634~644" text="CRPC cells" context="transformed cells" />
+<CONTEXT id="C3" spans="561~577" text="xenograft tumors" context="xenograft" />
+<CONTEXT id="C4" spans="581~585" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

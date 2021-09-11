@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MLKL contributes to Western diet-induced liver injury through inhibiting 
+autophagy.
+
+Macroautophagy/autophagy is critical in maintaining cellular functions and 
+homeostasis. Dynamic regulation of autophagy is associated with development of 
+nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis 
+(NASH); however, the mechanisms involved in the regulation of autophagy in 
+NAFLD/NASH are not well understood. Here we discuss our recent work identifying 
+MLKL as an important nexus between autophagy and necroptosis in models of 
+NAFLD/NASH. Mlkl, but not Ripk3, deficiency protects mice from Western 
+diet-induced liver injury. Mlkl deficiency also prevents the accumulation of 
+SQSTM1/p62 and LC3-II in liver in response to Western diet feeding or challenge 
+with the protease inhibitor leupeptin. Western diet increases expression, 
+phosphorylation and oligomerization of MLKL. In hepatocytes, palmitic acid (PA) 
+induces the expression and translocation of MLKL to autophagosomes prior to the 
+plasma membrane. Importantly, Mlkl, but not Ripk3, deficiency prevents the 
+inhibition of autophagy by PA or chloroquine in hepatocytes. In contrast, 
+overexpression of Mlkl blocks autophagic flux. Importantly, inhibition of 
+autophagy by leupeptin or chloroquine triggers MLKL translocation to the plasma 
+membrane, suggesting that MLKL is intimately involved in the regulation of 
+autophagy under multiple conditions. These data indicate that MLKL contributes 
+to Western diet-induced liver injury through inhibition of autophagy and 
+induction of necroptosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="648~663" text="Mlkl deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1168~1190" text="overexpression of Mlkl" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="602~606" text="mice" context="organism" />
+<CONTEXT id="C1" spans="724~729" text="liver" context="tissue/organ" />
+<CONTEXT id="C2" spans="903~914" text="hepatocytes" context="cells" />
+<CONTEXT id="C3" spans="1141~1152" text="hepatocytes" context="cells" />
+<PHENOTYPE id="PH0" spans="1107~1116" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1198~1213" text="autophagic flux" phenotype="autophagy" />
+<EFFECT id="E0" spans="1079~1103" text="prevents the  inhibition" effect="positive" />
+<EFFECT id="E1" spans="1191~1197" text="blocks" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

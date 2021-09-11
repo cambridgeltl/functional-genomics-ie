@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mitochondrial respiratory chain deficiency inhibits lysosomal hydrolysis.
+
+Mitochondria are key organelles for cellular metabolism, and regulate several 
+processes including cell death and macroautophagy/autophagy. Here, we show that 
+mitochondrial respiratory chain (RC) deficiency deactivates AMP-activated 
+protein kinase (AMPK, a key regulator of energy homeostasis) signaling in tissue 
+and in cultured cells. The deactivation of AMPK in RC-deficiency is due to 
+increased expression of the AMPK-inhibiting protein FLCN (folliculin). AMPK is 
+found to be necessary for basal lysosomal function, and AMPK deactivation in 
+RC-deficiency inhibits lysosomal function by decreasing the activity of the 
+lysosomal Ca2+ channel MCOLN1 (mucolipin 1). MCOLN1 is regulated by 
+phosphoinositide kinase PIKFYVE and its product PtdIns(3,5)P2, which is also 
+decreased in RC-deficiency. Notably, reactivation of AMPK, in a 
+PIKFYVE-dependent manner, or of MCOLN1 in RC-deficient cells, restores lysosomal 
+hydrolytic capacity. Building on these data and the literature, we propose that 
+downregulation of the AMPK-PIKFYVE-PtdIns(3,5)P2-MCOLN1 pathway causes lysosomal 
+Ca2+ accumulation and impaired lysosomal catabolism. Besides unveiling a novel 
+role of AMPK in lysosomal function, this study points to the mechanism that 
+links mitochondrial malfunction to impaired lysosomal catabolism, underscoring 
+the importance of AMPK and the complexity of organelle cross-talk in the 
+regulation of cellular homeostasis. ]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The Global Phosphorylation Landscape of SARS-CoV-2 Infection.
+
+The causative agent of the coronavirus disease 2019 (COVID-19) pandemic, severe 
+acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has infected millions and 
+killed hundreds of thousands of people worldwide, highlighting an urgent need to 
+develop antiviral therapies. Here we present a quantitative mass 
+spectrometry-based phosphoproteomics survey of SARS-CoV-2 infection in Vero E6 
+cells, revealing dramatic rewiring of phosphorylation on host and viral 
+proteins. SARS-CoV-2 infection promoted casein kinase II (CK2) and p38 MAPK 
+activation, production of diverse cytokines, and shutdown of mitotic kinases, 
+resulting in cell cycle arrest. Infection also stimulated a marked induction of 
+CK2-containing filopodial protrusions possessing budding viral particles. 
+Eighty-seven drugs and compounds were identified by mapping global 
+phosphorylation profiles to dysregulated kinases and pathways. We found 
+pharmacologic inhibition of the p38, CK2, CDK, AXL, and PIKFYVE kinases to 
+possess antiviral efficacy, representing potential COVID-19 therapies.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="445~459" text="Vero E6  cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="683~713" text="resulting in cell cycle arrest" phenotype="cell cycle arrest" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

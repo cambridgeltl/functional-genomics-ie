@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[NRDE2 negatively regulates exosome functions by inhibiting MTR4 recruitment and 
+exosome interaction.
+
+The exosome functions in the degradation of diverse RNA species, yet how it is 
+negatively regulated remains largely unknown. Here, we show that NRDE2 forms a 
+1:1 complex with MTR4, a nuclear exosome cofactor critical for exosome 
+recruitment, via a conserved MTR4-interacting domain (MID). Unexpectedly, NRDE2 
+mainly localizes in nuclear speckles, where it inhibits MTR4 recruitment and RNA 
+degradation, and thereby ensures efficient mRNA nuclear export. Structural and 
+biochemical data revealed that NRDE2 interacts with MTR4's key residues, locks 
+MTR4 in a closed conformation, and inhibits MTR4 interaction with the exosome as 
+well as proteins important for MTR4 recruitment, such as the cap-binding complex 
+(CBC) and ZFC3H1. Functionally, MID deletion results in the loss of self-renewal 
+of mouse embryonic stem cells. Together, our data pinpoint NRDE2 as a nuclear 
+exosome negative regulator that ensures mRNA stability and nuclear export.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="907~933" text="mouse embryonic stem cells" context="cells" />
+<PHENOTYPE id="PH0" spans="890~902" text="self-renewal" phenotype="self-renewal" />
+<EFFECT id="E0" spans="882~886" text="loss" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Baicalein attenuates caspase-independent cells death via inhibiting PARP-1 
+activation and AIF nuclear translocation in cerebral ischemia/reperfusion rats.
+
+It is reported that baicalein can activate PI3K/AKT pathway, inhibit caspase 
+activation and reduce cerebral infarct volume in middle cerebral artery 
+occlusion (MCAO) rats. However, a caspase-independent mechanism initiated by 
+poly (ADP-ribose) polymerase-1 (PARP-1) activation has been reported to make 
+more contribution to cells death after ischemic stroke. In the present study, we 
+established a cerebral ischemia/reperfusion (I/R) rat model through middle 
+cerebral artery occlusion following reperfusion to investigate the mechanisms of 
+ischemic tissue recovery following baicalein treatment. The data showed that 
+baicalein treatment at dose of 100 mg/kg for 7 days significantly inhibited the 
+release of cytokines, activation of PARP-1, nuclear translocation of 
+apoptosis-inducing factor (AIF) and macrophage migration inhibitory factor (MIF) 
+in cerebral I/R rats, therefore decreased cerebral infarct volume and 
+neurological scores. Then, we further investigated the signal transduction 
+mechanisms of ischemic tissue protection by baicalein in vitro. Following oxygen 
+and glucose deprivation (OGD) in SH-SY5Y cells, the mitochondrial AIF was 
+translocated into nucleus after 12 h. The co-immunoprecipitation analysis showed 
+that the interaction between AIF and MIF was activated by OGD and subsequently 
+resulted in MIF nuclear translocation. Also, the baicalein inhibited apoptosis, 
+reduced oxidative stress, protected mitochondrial function and restored 
+mitochondrial membrane potential in OGD cells. The results obtained from both in 
+vivo and in vitro study demonstrated the PARP-1/AIF pathway involved in 
+mechanisms of baicalein to protect the cerebral tissues from ischemic injury.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1031~1035" text="rats" experiment_type="organism" species="rat" />
+<CONTEXT id="C1" spans="1277~1290" text="SH-SY5Y cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1671~1680" text="OGD cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1540~1559" text="inhibited apoptosis" phenotype="apoptosis" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

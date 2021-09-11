@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Differential regulation of autophagy during metabolic stress in astrocytes and 
+neurons.
+
+Macroautophagy/autophagy is a key homeostatic process that targets cytoplasmic 
+components to the lysosome for breakdown and recycling. Autophagy plays critical 
+roles in glia and neurons that affect development, functionality, and viability 
+of the nervous system. The mechanisms that regulate autophagy in glia and 
+neurons, however, are poorly understood. Here, we define the molecular 
+underpinnings of autophagy in primary cortical astrocytes in response to 
+metabolic stress, and perform a comparative study in primary hippocampal 
+neurons. We find that inducing metabolic stress by nutrient deprivation or 
+pharmacological inhibition of MTOR (mechanistic target of rapamycin kinase) 
+robustly activates autophagy in astrocytes. While both paradigms of metabolic 
+stress dampen MTOR signaling, they affect the autophagy pathway differently. 
+Further, we find that starvation-induced autophagic flux is dependent on the 
+buffering system of the starvation solution. Lastly, starvation conditions that 
+strongly activate autophagy in astrocytes have less pronounced effects on 
+autophagy in neurons. Combined, our study reveals the complexity of regulating 
+autophagy in different paradigms of metabolic stress, as well as in different 
+cell types of the brain. Our findings raise important implications for how 
+neurons and glia may collaborate to maintain homeostasis in the brain.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="704~779" text="pharmacological inhibition of MTOR (mechanistic target of rapamycin kinase)" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="813~823" text="astrocytes" context="cells" />
+<CONTEXT id="C1" spans="1128~1138" text="astrocytes" context="cells" />
+<CONTEXT id="C2" spans="1185~1192" text="neurons" context="cells" />
+<PHENOTYPE id="PH0" spans="800~809" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1115~1124" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="1172~1181" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="790~799" text="activates" effect="positive" />
+<EFFECT id="E1" spans="1106~1114" text="activate" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

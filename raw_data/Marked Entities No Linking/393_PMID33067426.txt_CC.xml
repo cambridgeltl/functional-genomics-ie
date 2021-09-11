@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Enolase 1 regulates stem cell-like properties in gastric cancer cells by 
+stimulating glycolysis.
+
+Recent studies have demonstrated that gastric cancer stem cells (CSCs) are a 
+rare sub-group of gastric cancer (GC) cells and have an important role in 
+promoting the tumor growth and progression of GC. In the present study, we 
+demonstrated that the glycolytic enzyme Enolase 1 (ENO1) was involved in the 
+regulation of the stem cell-like characteristics of GC cells, as compared to the 
+parental cell lines PAMC-82 and SNU16, the expression of ENO1 in spheroids 
+markedly increased. We then observed that ENO1 could enhance stem cell-like 
+characteristics, including self-renewal capacity, cell invasion and migration, 
+chemoresistance, and even the tumorigenicity of GC cells. ENO1 is known as an 
+enzyme that is involved in glycolysis, but our results showed that ENO1 could 
+markedly promote the glycolytic activity of cells. Furthermore, inhibiting 
+glycolysis activity using 2-deoxy-D-glucose treatment significantly reduced the 
+stemness of GC cells. Therefore, ENO1 could improve the stemness of CSCs by 
+enhancing the cells' glycolysis. Subsequently, to further confirm our results, 
+we found that the inhibition of ENO1 using AP-III-a4 (ENOblock) could reduce the 
+stemness of GC cells to a similar extent as the knockdown of ENO1 by shRNA. 
+Finally, increased expression of ENO1 was related to poor prognosis in GC 
+patients. Taken together, our results demonstrated that ENO1 is a significant 
+biomarker associated with the stemness of GC cells.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1211~1256" text="inhibition of ENO1 using AP-III-a4 (ENOblock)" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1323~1349" text="knockdown of ENO1 by shRNA" description="knock down" />
+<CONTEXT id="C0" spans="691~695" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="769~777" text="GC cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="923~928" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1048~1056" text="GC cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C4" spans="1104~1108" text="CSCs" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C5" spans="1287~1295" text="GC cells" species="not stated" experiment_type="transformed cell line" />
+<EFFECT id="E0" spans="617~624,668~689" text="enhance ... self-renewal capacity" phenotype="self-renewal" activity="increases" />
+<EFFECT id="E1" spans="617~624,696~704" text="enhance ... invasion" phenotype="invasion" activity="increases" />
+<EFFECT id="E2" spans="617~624,709~718" text="enhance ... migration" phenotype="migration" activity="increases" />
+<EFFECT id="E3" spans="617~624,751~765" text="enhance ... tumorigenicity" phenotype="tumourigenesis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

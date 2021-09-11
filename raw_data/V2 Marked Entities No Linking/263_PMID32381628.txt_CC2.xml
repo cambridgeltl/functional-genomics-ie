@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Transcriptional down-regulation of metabolic genes by Gdown1 ablation induces 
+quiescent cell re-entry into the cell cycle.
+
+Liver regeneration and metabolism are highly interconnected. Here, we show that 
+hepatocyte-specific ablation of RNA polymerase II (Pol II)-associated Gdown1 
+leads to down-regulation of highly expressed genes involved in plasma protein 
+synthesis and metabolism, a concomitant cell cycle re-entry associated with 
+induction of cell cycle-related genes (including cyclin D1), and up-regulation 
+of p21 through activation of p53 signaling. In the absence of p53, 
+Gdown1-deficient hepatocytes show a severe dysregulation of cell cycle 
+progression, with incomplete mitoses, and a premalignant-like transformation. 
+Mechanistically, Gdown1 is associated with elongating Pol II on the highly 
+expressed genes and its ablation leads to reduced Pol II recruitment to these 
+genes, suggesting that Pol II redistribution may facilitate hepatocyte re-entry 
+into the cell cycle. These results establish an important physiological function 
+for a Pol II regulatory factor (Gdown1) in the maintenance of normal liver cell 
+transcription through constraints on cell cycle re-entry of quiescent 
+hepatocytes.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="206~282" text="hepatocyte-specific ablation of RNA polymerase II (Pol II)-associated Gdown1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="571~585" text="absence of p53" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="588~604" text="Gdown1-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="605~616" text="hepatocytes" context="cells" />
+<PHENOTYPE id="PH0" spans="722~736" text="transformation" phenotype="transformation" />
+</TAGS>
+</Genomics_ConceptTask>

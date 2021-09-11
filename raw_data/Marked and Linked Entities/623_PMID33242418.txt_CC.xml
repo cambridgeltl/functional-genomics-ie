@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Direct Tumor Killing and Immunotherapy through Anti-SerpinB9 Therapy.
+
+Cancer therapies kill tumors either directly or indirectly by evoking immune 
+responses and have been combined with varying levels of success. Here, we 
+describe a paradigm to control cancer growth that is based on both direct tumor 
+killing and the triggering of protective immunity. Genetic ablation of serine 
+protease inhibitor SerpinB9 (Sb9) results in the death of tumor cells in a 
+granzyme B (GrB)-dependent manner. Sb9-deficient mice exhibited protective 
+T cell-based host immunity to tumors in association with a decline in 
+GrB-expressing immunosuppressive cells within the tumor microenvironment (TME). 
+Maximal protection against tumor development was observed when the tumor and 
+host were deficient in Sb9. The therapeutic utility of Sb9 inhibition was 
+demonstrated by the control of tumor growth, resulting in increased survival 
+times in mice. Our studies describe a molecular target that permits a 
+combination of tumor ablation, interference within the TME, and immunotherapy in 
+one potential modality.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="356~417" text="Genetic ablation of serine  protease inhibitor SerpinB9 (Sb9)" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="495~508" text="Sb9-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="776~792" text="deficient in Sb9" description="decreased expression level" />
+<PERTURBING_ACTION id="P3" spans="821~835" text="Sb9 inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="442~453" text="tumor cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="509~513" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="755~760" text="tumor" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C3" spans="928~932" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="418~438" text="results in the death" phenotype="cell death" activity="causes" />
+<EFFECT id="E1" spans="696~732" text="protection against tumor development" phenotype="tumourigenesis" activity="inhibits" />
+<EFFECT id="E2" spans="861~884" text="control of tumor growth" phenotype="tumour growth" activity="regulates" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Genetic ablation of serine  protease inhibitor SerpinB9 (Sb9)" effectID="E0" effectText="results in the death" contextID="C0" contextText="tumor cells" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="deficient in Sb9" contextID="C2" contextText="tumor" effectID="E1" effectText="protection against tumor development" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P3" perturbing_actionText="Sb9 inhibition" effectID="E2" effectText="control of tumor growth" contextID="C3" contextText="mice" />
+</TAGS>
+</Genomics_ConceptTask>

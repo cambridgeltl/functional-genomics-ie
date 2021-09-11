@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Defining the influence of Rad51 and Dmc1 lineage-specific amino acids on genetic 
+recombination.
+
+The vast majority of eukaryotes possess two DNA recombinases: Rad51, which is 
+ubiquitously expressed, and Dmc1, which is meiosis-specific. The evolutionary 
+origins of this two-recombinase system remain poorly understood. Interestingly, 
+Dmc1 can stabilize mismatch-containing base triplets, whereas Rad51 cannot. 
+Here, we demonstrate that this difference can be attributed to three amino acids 
+conserved only within the Dmc1 lineage of the Rad51/RecA family. Chimeric Rad51 
+mutants harboring Dmc1-specific amino acids gain the ability to stabilize 
+heteroduplex DNA joints with mismatch-containing base triplets, whereas Dmc1 
+mutants with Rad51-specific amino acids lose this ability. Remarkably, RAD-51 
+from Caenorhabditis elegans, an organism without Dmc1, has acquired "Dmc1-like" 
+amino acids. Chimeric C. elegans RAD-51 harboring "canonical" Rad51 amino acids 
+gives rise to toxic recombination intermediates, which must be actively 
+dismantled to permit normal meiotic progression. We propose that Dmc1 
+lineage-specific amino acids involved in the stabilization of heteroduplex DNA 
+joints with mismatch-containing base triplets may contribute to normal meiotic 
+recombination.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="561~620" text="Chimeric Rad51  mutants harboring Dmc1-specific amino acids" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="724~769" text="Dmc1  mutants with Rad51-specific amino acids" perturbingaction="other" />
+</TAGS>
+</Genomics_ConceptTask>

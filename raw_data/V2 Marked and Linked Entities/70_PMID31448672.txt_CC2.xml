@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+PAQR3 suppresses the growth of non-small cell lung cancer cells via modulation 
+of EGFR-mediated autophagy.
+
+Macroautophagy/autophagy is an evolutionarily conserved intracellular process 
+that recycles and degrades intracellular components to sustain homeostasis in 
+response to deficiency of nutrients or growth factors. PAQR3 is a newly 
+discovered tumor suppressor that also regulates autophagy induced by nutrient 
+starvation via AMPK and MTORC1 signaling pathways. In this study, we 
+investigated whether PAQR3 modulates EGFR-mediated autophagy and whether such 
+regulation is associated with the tumor suppressive activity of PAQR3. PAQR3 is 
+able to inhibit the in vitro and in vivo growth of non-small cell lung cancer 
+(NSCLC) cells. PAQR3 potentiates autophagy induced by EGFR inhibitor erlotinib. 
+Knockdown of PAQR3 abrogates erlotinib-mediated reduction of BECN1 interaction 
+with autophagy inhibitory proteins RUBCN/Rubicon and BCL2. PAQR3 blocks the 
+interaction of BECN1 with the activated form of EGFR and inhibits tyrosine 
+phosphorylation of BECN1. Furthermore, inhibition of autophagy by knocking down 
+ATG7 abrogates the tumor suppressive activity of PAQR3 in NSCLC cells. 
+Collectively, these data indicate that PAQR3 suppresses tumor progression of 
+NSCLC cells through modulating EGFR-regulated autophagy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="810~828" text="Knockdown of PAQR3" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1109~1128" text="knocking down  ATG7" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="670~678" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="683~690" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="701~742" text="non-small cell lung cancer  (NSCLC) cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1182~1193" text="NSCLC cells" context="cells" />
+<PHENOTYPE id="PH0" spans="762~771" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1096~1105" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="750~761" text="potentiates" effect="positive" />
+<EFFECT id="E1" spans="1082~1092" text="inhibition" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="knocking down  ATG7" effectID="E1" effectText="inhibition" phenotypeID="PH1" phenotypeText="autophagy" contextID="C3" contextText="NSCLC cells" />
+</TAGS>
+</Genomics_ConceptTask>

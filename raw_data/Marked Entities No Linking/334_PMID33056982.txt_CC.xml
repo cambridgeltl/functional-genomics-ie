@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Long non-coding RNA CASC9 promotes gefitinib resistance in NSCLC by epigenetic 
+repression of DUSP1.
+
+Resistance to epidermal growth factor receptor tyrosine kinase inhibitors 
+(EGFR-TKIs), such as gefitinib, has greatly affected clinical outcomes in 
+non-small cell lung cancer (NSCLC) patients. The long noncoding RNAs (lncRNAs) 
+are known to regulate tumorigenesis and cancer progression, but their 
+contributions to NSCLC gefitinib resistance remain poorly understood. In this 
+study, by analyzing the differentially expressed lncRNAs in gefitinib-resistant 
+cells and gefitinib-sensitive cells in the National Institute of Health GEO 
+dataset, we found that lncRNA CASC9 expression was upregulated, and this was 
+also verified in resistant tissues. Gain and loss of function studies showed 
+that CASC9 inhibition restored gefitinib sensitivity both in vitro and in vivo, 
+whereas CASC9 overexpression promoted gefitinib resistance. Mechanistically, 
+CASC9 repressed the tumor suppressor DUSP1 by recruiting histone 
+methyltransferase EZH2, thereby increasing the resistance to gefitinib. 
+Furthermore, ectopic expression of DUSP1 increased gefitinib sensitivity by 
+inactivating the ERK pathway. Our results highlight the essential role of CASC9 
+in gefitinib resistance, suggesting that the CASC9/EZH2/DUSP1 axis might be a 
+novel target for overcoming EGFR-TKI resistance in NSCLC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="801~817" text="CASC9 inhibition" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="885~905" text="CASC9 overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="1107~1134" text="ectopic expression of DUSP1" description="increased expression level" />
+<CONTEXT id="C0" spans="854~862" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="867~874" text="in vivo" experiment_type="organism" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Critical roles of phosphoinositides and NF2 in Hippo pathway regulation.
+
+The Hippo pathway is a master regulator of tissue homeostasis and organ size. 
+NF2 is a well-established tumor suppressor, and loss of NF2 severely compromises 
+Hippo pathway activity. However, the precise mechanism of how NF2 mediates 
+upstream signals to regulate the Hippo pathway is not clear. Here we report 
+that, in mammalian cells, NF2's lipid-binding ability is critical for its 
+function in activating the Hippo pathway in response to osmotic stress. 
+Mechanistically, osmotic stress induces PI(4,5)P2 plasma membrane enrichment by 
+activating the PIP5K family, allowing for NF2 plasma membrane recruitment and 
+subsequent downstream Hippo pathway activation. An NF2 mutant deficient in lipid 
+binding is unable to activate the Hippo pathway in response to osmotic stress, 
+as measured by LATS and YAP phosphorylation. Our findings identify the PIP5K 
+family as novel regulators upstream of Hippo signaling, and uncover the 
+importance of phosphoinositide dynamics, specifically PI(4,5)P2, in Hippo 
+pathway regulation.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="747~757" text="NF2 mutant" description="other" />
+</TAGS>
+</Genomics_ConceptTask>

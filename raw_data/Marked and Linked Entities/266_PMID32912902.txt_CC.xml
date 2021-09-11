@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Yap/Taz promote the scavenging of extracellular nutrients through 
+macropinocytosis.
+
+
+The uptake of macromolecules and cellular debris through macropinocytosis has 
+emerged as an important nutrient acquisition strategy of cancer cells. Genetic 
+alterations commonly found in human cancers (e.g. mutations in KRAS or loss of 
+PTEN) have been shown to increase macropinocytosis. To identify additional 
+effectors that enable cell growth dependent on the uptake of extracellular 
+proteins, pancreatic ductal adenocarcinoma (PDA) cells were selected for growth 
+in medium where extracellular albumin was the obligate source of the essential 
+amino acid leucine. Analysis of global changes in chromatin availability and 
+gene expression revealed that PDA cells selected under these conditions 
+exhibited elevated activity of the transcriptional activators Yap/Taz. Knockout 
+of Yap/Taz prevented growth of PDA cells in leucine-deficient medium, but not in 
+complete medium. Furthermore, constitutively active forms of Yap or Taz were 
+sufficient to stimulate macropinocytosis of extracellular protein. In addition 
+to promoting the uptake of plasma proteins, Yap/Taz also promoted the scavenging 
+of apoptotic cell bodies and necrotic debris by PDA cells. The Yap/Taz 
+transcriptional target Axl was found to be essential for cell growth dependent 
+on the uptake of dead cells and cell debris. Together, these studies suggest 
+that the Hippo pathway effectors Yap and Taz are important transcriptional 
+regulators of endocytic nutrient uptake.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="861~881" text="Knockout  of Yap/Taz" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="983~1017" text="constitutively active forms of Yap" description="other" />
+<PERTURBING_ACTION id="P2" spans="983~1013,1021~1024" text="constitutively active forms of ... Taz" description="other" />
+<CONTEXT id="C0" spans="488~532" text="pancreatic ductal adenocarcinoma (PDA) cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="747~756" text="PDA cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="902~911" text="PDA cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1241~1250" text="PDA cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="882~898,912~939" text="prevented growth ... in leucine-deficient medium" phenotype="cell growth" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Knockout  of Yap/Taz" contextID="C2" contextText="PDA cells" effectID="E0" effectText="prevented growth ... in leucine-deficient medium" />
+</TAGS>
+</Genomics_ConceptTask>

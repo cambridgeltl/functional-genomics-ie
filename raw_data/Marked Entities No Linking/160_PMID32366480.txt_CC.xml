@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Senescent Stromal Cells Promote Cancer Resistance through SIRT1 Loss-Potentiated 
+Overproduction of Small Extracellular Vesicles.
+
+Cellular senescence is a potent tumor-suppressive program that prevents 
+neoplastic events. Paradoxically, senescent cells develop an inflammatory 
+secretome, termed the senescence-associated secretory phenotype, which is 
+implicated in age-related pathologies including cancer. Here, we report that 
+senescent cells actively synthesize and release small extracellular vesicles 
+(sEV) with a distinctive size distribution. Mechanistically, SIRT1 loss 
+supported accelerated sEV production despite enhanced proteome-wide 
+ubiquitination, a process correlated with ATP6V1A downregulation and defective 
+lysosomal acidification. Once released, senescent stromal sEVs significantly 
+altered the expression profile of recipient cancer cells and enhanced their 
+aggressiveness, specifically drug resistance mediated by expression of 
+ATP-binding cassette subfamily B member 4 (ABCB4). Targeting SIRT1 with agonist 
+SRT2104 prevented development of cancer resistance by restraining sEV production 
+by senescent stromal cells. In clinical oncology, sEVs in peripheral blood of 
+posttreatment cancer patients were readily detectable by routine biotechniques, 
+presenting an exploitable biomarker to monitor therapeutic efficacy and predict 
+long-term outcome. Together, this study identifies a distinct mechanism 
+supporting pathologic activities of senescent cells and provides a potent avenue 
+to circumvent advanced human malignancies by cotargeting cancer cells and their 
+surrounding microenvironment, which contributes to drug resistance via secretion 
+of sEVs from senescent stromal cells. SIGNIFICANCE: Senescent stromal cells 
+produce a large number of sEVs to promote cancer resistance in therapeutic 
+settings, a process driven by SIRT1 decline in stromal cells and ABCB4 
+augmentation in cancer cells.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="571~581" text="SIRT1 loss" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="1010~1057" text="Targeting SIRT1 with agonist  SRT2104 prevented" description="other" />
+<CONTEXT id="C0" spans="854~866" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1125~1148" text="senescent stromal cells" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[AFP promotes HCC progression by suppressing the HuR-mediated Fas/FADD apoptotic 
+pathway.
+
+Hepatocellular carcinoma (HCC) is a major leading cause of cancer-related death 
+worldwide. Alpha fetoprotein (AFP) is reactivated in a majority of 
+hepatocellular carcinoma (HCC) and associated with poor patient outcomes. 
+Although increasing evidence has shown that AFP can regulate HCC cell growth, 
+the precise functions of AFP in hepatocarcinogenesis and the associated 
+underlying mechanism remain incompletely understood. In this study, we 
+demostrated that depleting AFP significantly suppressed diethylnitrosamine 
+(DEN)-induced liver tumor progression in an AFP gene-deficient mouse model. 
+Similarly, knocking down AFP expression inhibited human HCC cell proliferation 
+and tumor growth by inducing apoptosis. AFP expression level was inversely 
+associated with the apoptotic rate in mouse and human HCC specimens. 
+Investigation of potential cross-talk between AFP and apoptotic signaling 
+revealed that AFP exerted its growth-promoting effect by suppressing the 
+Fas/FADD-mediated extrinsic apoptotic pathway. Mechanistically, AFP bound to the 
+RNA-binding protein HuR, increasing the accumulation of HuR in the cytoplasm and 
+subsequent inhibition of Fas mRNA translation. In addition, we found that 
+inhibiting AFP enhanced the cytotoxicity of therapeutics to AFP-positive HCC 
+cells by activating HuR-mediated Fas/FADD apoptotic signaling. Conclusion: Our 
+study defined the pro-oncogenic role of AFP in HCC progression and uncovered a 
+novel antiapoptotic mechanism connecting AFP to HuR-mediated Fas translation. 
+Our findings suggest that AFP is involved in the pathogenesis and 
+chemosensitivity of HCC and that blockade of AFP may be a promising strategy to 
+treat advanced HCC.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="556~569" text="depleting AFP" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="659~677" text="AFP gene-deficient" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="703~731" text="knocking down AFP expression" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1306~1320" text="inhibiting AFP" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="678~689" text="mouse model" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="629~640" text="liver tumor" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C2" spans="742~756" text="human HCC cell" experiment_type="transformed cell line" species="human" />
+<CONTEXT id="C3" spans="1366~1389" text="AFP-positive HCC  cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="732~741,757~770" text="inhibited ... proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E1" spans="732~741,776~788" text="inhibited ... tumor growth" phenotype="tumour growth" activity="inhibits" />
+<EFFECT id="E2" spans="792~810" text="inducing apoptosis" phenotype="apoptosis" activity="causes" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="knocking down AFP expression" contextID="C2" contextText="human HCC cell" effectID="E0" effectText="inhibited ... proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="knocking down AFP expression" contextID="C2" contextText="human HCC cell" effectID="E1" effectText="inhibited ... tumor growth" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="knocking down AFP expression" contextID="C2" contextText="human HCC cell" effectID="E2" effectText="inducing apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

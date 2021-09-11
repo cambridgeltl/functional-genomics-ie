@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Dasatinib Is an Effective Treatment for Angioimmunoblastic T-cell Lymphoma.
+
+Recurrent hotspot (p.Gly17Val) mutations in RHOA encoding a small GTPase, 
+together with loss-of-function mutations in TET2 encoding an epigenetic 
+regulator, are genetic hallmarks of angioimmunoblastic T-cell lymphoma (AITL). 
+Mice expressing the p.Gly17Val RHOA mutant on a Tet2-null background succumbed 
+to AITL-like T-cell lymphomas due to deregulated T-cell receptor (TCR) 
+signaling. Using these mice to investigate therapeutics for AITL, we found that 
+dasatinib, a multikinase inhibitor prolonged their survival through inhibition 
+of hyperactivated TCR signaling. A phase I clinical trial study of dasatinib 
+monotherapy in 5 patients with relapsed/refractory AITL was performed. Dasatinib 
+was started at a dose of 100 mg/body once a day and continued until days 10-78 
+(median day 58). All the evaluable patients achieved partial responses. Our 
+findings suggest that AITL is highly dependent on TCR signaling and that 
+dasatinib could be a promising candidate drug for AITL treatment.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="325~373" text="p.Gly17Val RHOA mutant on a Tet2-null background" perturbingaction="other" />
+<CONTEXT id="C0" spans="305~309" text="Mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy regulates glucose-mediated root meristem activity by modulating ROS 
+production in Arabidopsis.
+
+Glucose produced from photosynthesis is a key nutrient signal regulating root 
+meristem activity in plants; however, the underlying mechanisms remain poorly 
+understood. Here, we show that, by modulating reactive oxygen species (ROS) 
+levels, the conserved macroautophagy/autophagy degradation pathway contributes 
+to glucose-regulated root meristem maintenance. In Arabidopsis thaliana roots, a 
+short exposure to elevated glucose temporarily suppresses constitutive 
+autophagosome formation. The autophagy-defective autophagy-related gene (atg) 
+mutants have enhanced tolerance to glucose, established downstream of the 
+glucose sensors, and accumulate less glucose-induced ROS in the root tips. 
+Moreover, the enhanced root meristem activities in the atg mutants are 
+associated with improved auxin gradients and auxin responses. By acting with 
+AT4G39850/ABCD1 (ATP-binding cassette D1; Formerly PXA1/peroxisomal ABC 
+transporter 1), autophagy plays an indispensable role in the glucose-promoted 
+degradation of root peroxisomes, and the atg mutant phenotype is partially 
+rescued by the overexpression of ABCD1. Together, our findings suggest that 
+autophagy is an essential mechanism for glucose-mediated maintenance of the root 
+meristem. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P2" spans="1199~1222" text="overexpression of ABCD1" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="473~499" text="Arabidopsis thaliana roots" context="tissue/organ" />
+</TAGS>
+</Genomics_ConceptTask>

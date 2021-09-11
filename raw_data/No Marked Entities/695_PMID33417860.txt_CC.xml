@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Colorectal Cancer Cells Enter a Diapause-like DTP State to Survive Chemotherapy.
+
+Cancer cells enter a reversible drug-tolerant persister (DTP) state to evade 
+death from chemotherapy and targeted agents. It is increasingly appreciated that 
+DTPs are important drivers of therapy failure and tumor relapse. We combined 
+cellular barcoding and mathematical modeling in patient-derived colorectal 
+cancer models to identify and characterize DTPs in response to chemotherapy. 
+Barcode analysis revealed no loss of clonal complexity of tumors that entered 
+the DTP state and recurred following treatment cessation. Our data fit a 
+mathematical model where all cancer cells, and not a small subpopulation, 
+possess an equipotent capacity to become DTPs. Mechanistically, we determined 
+that DTPs display remarkable transcriptional and functional similarities to 
+diapause, a reversible state of suspended embryonic development triggered by 
+unfavorable environmental conditions. Our study provides insight into how cancer 
+cells use a developmentally conserved mechanism to drive the DTP state, pointing 
+to novel therapeutic opportunities to target DTPs.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

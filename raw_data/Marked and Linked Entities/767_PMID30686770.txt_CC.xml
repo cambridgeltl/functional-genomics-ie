@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeting the Vulnerability of Glutathione Metabolism in ARID1A-Deficient 
+Cancers.
+
+ARID1A encodes an SWI/SNF chromatin-remodeling factor and is frequently mutated 
+in various cancers. This study demonstrates that ARID1A-deficient cancer cells 
+are specifically vulnerable to inhibition of the antioxidant glutathione (GSH) 
+and the glutamate-cysteine ligase synthetase catalytic subunit (GCLC), a 
+rate-limiting enzyme for GSH synthesis. Inhibition of GCLC markedly decreased 
+GSH in ARID1A-deficient cancer cells, leading to apoptotic cell death triggered 
+by excessive amounts of reactive oxygen species. The vulnerability of 
+ARID1A-deficient cancer cells results from low basal levels of GSH due to 
+impaired expression of SLC7A11. The SLC7A11-encoded cystine transporter supplies 
+cells with cysteine, a key source of GSH, and its expression is enhanced by 
+ARID1A-mediated chromatin remodeling. Thus, ARID1A-deficient cancers are 
+susceptible to synthetic lethal targeting of GCLC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="440~458" text="Inhibition of GCLC" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="486~502" text="ARID1A-deficient" description="decreased expression level" />
+<CONTEXT id="C0" spans="503~515" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="517~548" text="leading to apoptotic cell death" phenotype="apoptosis" activity="causes" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Inhibition of GCLC" contextID="C0" contextText="cancer cells" effectID="E0" effectText="leading to apoptotic cell death" />
+</TAGS>
+</Genomics_ConceptTask>

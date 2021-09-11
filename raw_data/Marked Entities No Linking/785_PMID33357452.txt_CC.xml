@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Immunogenic Chemotherapy Enhances Recruitment of CAR-T Cells to Lung Tumors and 
+Improves Antitumor Efficacy when Combined with Checkpoint Blockade.
+
+Adoptive therapy using chimeric antigen receptor-modified T cells (CAR-T cells) 
+is effective in hematologic but not epithelial malignancies, which cause the 
+greatest mortality. In breast and lung cancer patients, CAR-T cells targeting 
+the tumor-associated antigen receptor tyrosine kinase-like orphan receptor 1 
+(ROR1) infiltrate tumors poorly and become dysfunctional. To test strategies for 
+enhancing efficacy, we adapted the KrasLSL-G12D/+;p53f/f autochthonous model of 
+lung adenocarcinoma to express the CAR target ROR1. Murine ROR1 CAR-T cells 
+transferred after lymphodepletion with cyclophosphamide (Cy) transiently control 
+tumor growth but infiltrate tumors poorly and lose function, similar to what is 
+seen in patients. Adding oxaliplatin (Ox) to the lymphodepletion regimen 
+activates tumor macrophages to express T-cell-recruiting chemokines, resulting 
+in improved CAR-T cell infiltration, remodeling of the tumor microenvironment, 
+and increased tumor sensitivity to anti-PD-L1. Combination therapy with Ox/Cy 
+and anti-PD-L1 synergistically improves CAR-T cell-mediated tumor control and 
+survival, providing a strategy to improve CAR-T cell efficacy in the clinic.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="953~970" text="tumor macrophages" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="681~687,699~704" text="Murine ... cells" experiment_type="cells" species="mouse" />
+<EFFECT id="E0" spans="767~800" text="transiently control  tumor growth" phenotype="tumour growth" activity="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

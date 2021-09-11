@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Clustered telomeres in phase-separated nuclear condensates engage mitotic DNA 
+synthesis through BLM and RAD52.
+
+Alternative lengthening of telomeres (ALT) is a telomerase-independent telomere 
+maintenance mechanism that occurs in a subset of cancers. One of the hallmarks 
+of ALT cancer is the excessively clustered telomeres in promyelocytic leukemia 
+(PML) bodies, represented as large bright telomere foci. Here, we present a 
+model system that generates telomere clustering in nuclear polySUMO (small 
+ubiquitin-like modification)/polySIM (SUMO-interacting motif) condensates, 
+analogous to PML bodies, and thus artificially engineered ALT-associated PML 
+body (APB)-like condensates in vivo. We observed that the ALT-like phenotypes 
+(i.e., a small fraction of heterogeneous telomere lengths and formation of C 
+circles) are rapidly induced by introducing the APB-like condensates together 
+with BLM through its helicase domain, accompanied by ssDNA generation and RPA 
+accumulation at telomeres. Moreover, these events lead to mitotic DNA synthesis 
+(MiDAS) at telomeres mediated by RAD52 through its highly conserved N-terminal 
+domain. We propose that the clustering of large amounts of telomeres in human 
+cancers promotes ALT that is mediated by MiDAS, analogous to Saccharomyces 
+cerevisiae type II ALT survivors.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

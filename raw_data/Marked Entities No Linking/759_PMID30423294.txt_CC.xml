@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Inhibition of Amino Acid Metabolism Selectively Targets Human Leukemia Stem 
+Cells.
+
+In this study we interrogated the metabolome of human acute myeloid leukemia 
+(AML) stem cells to elucidate properties relevant to therapeutic intervention. 
+We demonstrate that amino acid uptake, steady-state levels, and catabolism are 
+all elevated in the leukemia stem cell (LSC) population. Furthermore, LSCs 
+isolated from de novo AML patients are uniquely reliant on amino acid metabolism 
+for oxidative phosphorylation and survival. Pharmacological inhibition of amino 
+acid metabolism reduces oxidative phosphorylation and induces cell death. In 
+contrast, LSCs obtained from relapsed AML patients are not reliant on amino acid 
+metabolism due to their ability to compensate through increased fatty acid 
+metabolism. These findings indicate that clinically relevant eradication of LSCs 
+can be achieved with drugs that target LSC metabolic vulnerabilities.]]></TEXT>
+<TAGS>
+<EFFECT id="E0" spans="616~634" text="induces cell death" phenotype="cell death" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

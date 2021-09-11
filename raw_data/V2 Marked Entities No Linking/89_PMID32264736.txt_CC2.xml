@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Acetylation of STX17 (syntaxin 17) controls autophagosome maturation.
+
+The fusion of autophagosomes and endosomes/lysosomes, also called autophagosome 
+maturation, ensures the degradation of autophagic cargoes. It is an important 
+regulatory step of the macroautophagy/autophagy process. STX17 is the key 
+autophagosomal SNARE protein that mediates autophagosome maturation. Here, we 
+report that the acetylation of STX17 regulates its SNARE activity and autophagic 
+degradation. The histone acetyltransferase CREBBP/CBP and the deacetylase HDAC2 
+specifically regulate the acetylation of STX17. In response to cell starvation 
+and MTORC1 inhibition, the inactivation of CREBBP leads to the deacetylation of 
+STX17 at its SNARE domain. This deacetylation promotes the interaction between 
+STX17 and SNAP29 and the formation of the STX17-SNAP29-VAMP8 SNARE complex with 
+no effect on the recruitment of STX17 to autophagosomal membranes. Deacetylation 
+of STX17 also enhances the interaction between STX17 and the tethering complex 
+HOPS, thereby further promoting autophagosome-lysosome fusion. Our study 
+suggests a mechanism by which acetylation regulates the late-stage of autophagy, 
+and possibly other STX17-related intracellular membrane fusion 
+events.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="632~649" text="MTORC1 inhibition" perturbingaction="pharmacological inhibition" />
+</TAGS>
+</Genomics_ConceptTask>

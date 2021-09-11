@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MAPT/Tau accumulation represses autophagy flux by disrupting IST1-regulated 
+ESCRT-III complex formation: a vicious cycle in Alzheimer neurodegeneration.
+
+Macroautophagy/autophagy deficit induces intracellular MAPT/tau accumulation, 
+the hallmark pathology in Alzheimer disease (AD) and other tauopathies; however, 
+the reverse role of MAPT accumulation in autophagy and neurodegeneration is not 
+clear. Here, we found that overexpression of human wild-type full-length MAPT, 
+which models MAPT pathologies as seen in sporadic AD patients, induced autophagy 
+deficits via repression of autophagosome-lysosome fusion leading to 
+significantly increased LC3 (microtubule-associated protein 1 light chain 3)-II 
+and SQSTM1/p62 (sequestosome 1) protein levels with autophagosome accumulation. 
+At the molecular level, intracellular MAPT aggregation inhibited expression of 
+IST1 (IST1 factor associated with ESCRT-III), a positive modulator for the 
+formation of ESCRT (the Endosomal Sorting Complex Required for Transport) 
+complex that is required for autophagosome-lysosome fusion. Upregulating IST1 in 
+human MAPT transgenic mice attenuated autophagy deficit with reduced MAPT 
+aggregation and ameliorated synaptic plasticity and cognitive functions, while 
+downregulating IST1 per se induced autophagy deficit with impaired synapse and 
+cognitive function in naïve mice. IST1 can facilitate association of CHMP2B 
+(charged multivesicular body protein 2B) and CHMP4B/SNF7-2 to form ESCRT-III 
+complex, while lack of IST1 impeded the complex formation. Finally, we 
+demonstrate that MAPT accumulation suppresses IST1 transcription with the 
+mechanisms involving the ANP32A-regulated mask of histone acetylation. Our 
+findings suggest that the AD-like MAPT accumulation can repress 
+autophagosome-lysosome fusion by deregulating ANP32A-INHAT-IST1-ESCRT-III 
+pathway, which also reveals a vicious cycle of MAPT accumulation and autophagy 
+deficit in the chronic course of AD neurodegeneration.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="424~474" text="overexpression of human wild-type full-length MAPT" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="1081~1098" text="Upregulating IST1" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="1103~1124" text="human MAPT transgenic" description="knock in" />
+<PERTURBING_ACTION id="P3" spans="1258~1277" text="downregulating IST1" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="1508~1520" text="lack of IST1" description="decreased expression level" />
+<CONTEXT id="C0" spans="1125~1129" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1360~1370" text="naïve mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="540~567" text="induced autophagy  deficits" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E2" spans="1130~1158" text="attenuated autophagy deficit" phenotype="autophagy" activity="increases" />
+<EFFECT id="E3" spans="1285~1310" text="induced autophagy deficit" phenotype="autophagy" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Upregulating IST1" contextID="C0" contextText="mice" effectID="E2" effectText="attenuated autophagy deficit" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="downregulating IST1" contextID="C1" contextText="naïve mice" effectID="E3" effectText="induced autophagy deficit" />
+</TAGS>
+</Genomics_ConceptTask>

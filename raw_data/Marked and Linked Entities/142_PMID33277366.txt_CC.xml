@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[KIF15-Mediated Stabilization of AR and AR-V7 Contributes to Enzalutamide 
+Resistance in Prostate Cancer.
+
+The new generation androgen receptor (AR) pathway inhibitor enzalutamide can 
+prolong the survival of patients with metastatic prostate cancer. However, 
+resistance to enzalutamide inevitably develops in these patients, and the 
+underlying mechanisms of this resistance are not fully defined. Here we 
+demonstrate that the kinesin family member 15 (KIF15) contributes to 
+enzalutamide resistance by enhancing the AR signaling in prostate cancer cells. 
+KIF15 directly bound the N-terminus of AR/AR-V7 and prevented AR/AR-V7 proteins 
+from degradation by increasing the protein association of ubiquitin-specific 
+protease 14 (USP14) with AR/AR-V7. In turn, the transcriptionally active AR 
+stimulated KIF15 expression. KIF15 inhibitors alone or in combination with 
+enzalutamide significantly suppressed enzalutamide-resistant prostate cancer 
+cell growth and xenograft progression. These findings highlight a key role of 
+KIF15 in enabling prostate cancer cells to develop therapy resistance to 
+enzalutamide and rationalize KIF15 as a potential therapeutic target. 
+SIGNIFICANCE: These findings demonstrate how reciprocal activation between KIF15 
+and AR contributes to enzalutamide resistance in prostate cancer and highlights 
+cotargeting KIF15 and AR as a therapeutic strategy for these tumors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="824~840" text="KIF15 inhibitors" description="pharmacological inhibition" />
+<CONTEXT id="C1" spans="965~974" text="xenograft" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C2" spans="909~947" text="enzalutamide-resistant prostate cancer" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="898~908,949~960" text="suppressed ... cell growth" phenotype="cell growth" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="KIF15 inhibitors" effectID="E0" effectText="suppressed ... cell growth" contextID="C2" contextText="enzalutamide-resistant prostate cancer" />
+</TAGS>
+</Genomics_ConceptTask>

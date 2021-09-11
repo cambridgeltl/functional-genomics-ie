@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Genomic and Epigenomic Landscaping Defines New Therapeutic Targets for 
+Adenosquamous Carcinoma of the Pancreas.
+
+Adenosquamous cancer of the pancreas (ASCP) is a subtype of pancreatic cancer 
+that has a worse prognosis and greater metastatic potential than the more common 
+pancreatic ductal adenocarcinoma (PDAC) subtype. To distinguish the genomic 
+landscape of ASCP and identify actionable targets for this lethal cancer, we 
+applied DNA content flow cytometry to a series of 15 tumor samples including 
+five patient-derived xenografts (PDX). We interrogated purified sorted tumor 
+fractions from these samples with whole-genome copy-number variant (CNV), 
+whole-exome sequencing, and Assay for Transposase-Accessible Chromatin using 
+sequencing (ATAC-seq) analyses. These identified a variety of somatic genomic 
+lesions targeting chromatin regulators in ASCP genomes that were superimposed on 
+well-characterized genomic lesions including mutations in TP53 (87%) and KRAS 
+(73%), amplification of MYC (47%), and homozygous deletion of CDKN2A (40%) that 
+are common in PDACs. Furthermore, a comparison of ATAC-seq profiles of three 
+ASCP and three PDAC genomes using flow-sorted PDX models identified genes with 
+accessible chromatin unique to the ASCP genomes, including the lysine 
+methyltransferase SMYD2 and the pancreatic cancer stem cell regulator RORC in 
+all three ASCPs, and a FGFR1-ERLIN2 fusion associated with focal CNVs in both 
+genes in a single ASCP. Finally, we demonstrate significant activity of a pan 
+FGFR inhibitor against organoids derived from the FGFR1-ERLIN2 fusion-positive 
+ASCP PDX model. Our results suggest that the genomic and epigenomic landscape of 
+ASCP provide new strategies for targeting this aggressive subtype of pancreatic 
+cancer. ]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

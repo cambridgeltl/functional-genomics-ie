@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A cohesin/HUSH- and LINC-dependent pathway controls ribosomal DNA double-strand 
+break repair.
+
+The ribosomal DNA (rDNA) represents a particularly unstable locus undergoing 
+frequent breakage. DNA double-strand breaks (DSBs) within rDNA induce both rDNA 
+transcriptional repression and nucleolar segregation, but the link between the 
+two events remains unclear. Here we found that DSBs induced on rDNA trigger 
+transcriptional repression in a cohesin- and HUSH (human silencing hub) 
+complex-dependent manner throughout the cell cycle. In S/G2 cells, 
+transcriptional repression is further followed by extended resection within the 
+interior of the nucleolus, DSB mobilization at the nucleolar periphery within 
+nucleolar caps, and repair by homologous recombination. We showed that nuclear 
+envelope invaginations frequently connect the nucleolus and that rDNA DSB 
+mobilization, but not transcriptional repression, involves the nuclear 
+envelope-associated LINC complex and the actin pathway. Altogether, our data 
+indicate that rDNA break localization at the nucleolar periphery is not a direct 
+consequence of transcriptional repression but rather is an active process that 
+shares features with the mobilization of persistent DSB in active genes and 
+heterochromatin.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

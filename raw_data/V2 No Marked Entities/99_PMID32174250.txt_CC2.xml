@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The NEDD4-USP13 axis facilitates autophagy via deubiquitinating PIK3C3.
+
+Macroautophagy/autophagy, an evolutionarily conserved eukaryotic bioprocess, 
+plays an important role in the bulk degradation of intracellular macromolecules, 
+organelles, and invading pathogens. PIK3C3/VPS34 (phosphatidylinositol 3-kinase 
+catalytic subunit type 3) functions as a key protein in autophagy initiation and 
+progression. The activity of PIK3C3 is tightly regulated by multiple 
+post-translational modifications, including ubiquitination, however, the 
+regulatory mechanisms underpinning the reversible deubiquitination of PIK3C3 
+remain poorly understood. Recently, we identified the E3 ubiquitin ligase 
+NEDD4/NEDD4-1 as a positive regulator of autophagy through decreasing the 
+K48-linked ubiquitination of PIK3C3 by recruiting USP13.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,70 @@
+{
+    "category": [
+        "PERTURBING_ACTION",
+        "CONTEXT",
+        "EFFECT",
+        "PHENOTYPE"
+    ],
+    "perturbing_action": [
+        "gene loss-of-function",
+        "gene gain-of-function",
+        "rnai/knockdown",
+        "pharmacological inhibition",
+        "pharmacological augmentation",
+        "other"
+    ],
+    "context": [
+        "patient",
+        "organism",
+        "tissue/organ",
+        "neoplasm",
+        "graft",
+        "xenograft",
+        "cells",
+        "transformed cells",
+        "organoid",
+        "in vitro",
+        "in vivo"
+    ],
+    "effect": [
+        "positive",
+        "negative",
+        "regulates",
+        "rescues",
+        "no effect"
+    ],
+    "phenotype": [
+        "adhesion",
+        "apoptosis",
+        "anoikis",
+        "autophagy",
+        "cell cycle arrest",
+        "cell death",
+        "cell growth",
+        "cell survival",
+        "colony formation",
+        "differentiation",
+        "entosis",
+        "epithelial-mesenchymal transition",
+        "ferroptosis",
+        "invasion",
+        "metastasis",
+        "migration",
+        "mitophagy",
+        "necroptosis",
+        "necrosis",
+        "oncosis",
+        "proliferation",
+        "pyroptosis",
+        "quiescence",
+        "self-renewal",
+        "senescence",
+        "transformation",
+        "tumour growth",
+        "tumourigenesis",
+        "tumour initiation",
+        "tumour progression",
+        "tumour regression"
+    ]
+}
+

@@ -1,0 +1,50 @@
+{
+    "MODE": "analyse",
+    "HISTORY_DATA": {
+        "PATH": "outputs/outputs_db.json",
+        "MODELS": [
+            "BioBERTv11_same_tag_link_234_bl05_k4_2021-09-08_18-34",
+            "BioBERTv11_same_tag_link_bl05_k4_2021-09-08_21-07",
+            "BioBERTv11_same_tag_link_v2_bl05_k4_2021-09-08_22-00",
+            "BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10"
+        ]
+    },
+    "ANALYSIS": {
+        "GRAPHING": {
+            "OUTPUT": "save",
+            "FOLDER": "plots/link_same_tag_only",
+            "GRAPHS": [
+                {
+                    "TITLE": "Train Losses",
+                    "VALUES": {
+                        "train_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "link_same_tag_only"
+                    ]
+                },
+                {
+                    "TITLE": "Val Losses",
+                    "VALUES": {
+                        "validation_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "link_same_tag_only"
+                    ]
+                },
+                {
+                    "TITLE": "F1 Scores",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "link_same_tag_only"
+                    ]
+                }
+            ]
+        }
+    }
+}
+

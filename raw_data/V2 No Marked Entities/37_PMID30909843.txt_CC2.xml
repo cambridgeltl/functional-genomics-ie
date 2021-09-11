@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeted interplay between bacterial pathogens and host autophagy.
+
+Due to the critical role played by autophagy in pathogen clearance, pathogens 
+have developed diverse strategies to subvert it. Despite previous key findings 
+of bacteria-autophagy interplay, asystems-level insight into selective targeting 
+by the host and autophagy modulation by the pathogens is lacking. We predicted 
+potential interactions between human autophagy proteins and effector proteins 
+from 56 pathogenic bacterial species by identifying bacterial proteins predicted 
+to have recognition motifs for selective autophagy receptors SQSTM1/p62, 
+CALCOCO2/NDP52 and MAP1LC3/LC3. Using structure-based interaction prediction, we 
+identified bacterial proteins capable to modify core autophagy components. Our 
+analysis revealed that autophagy receptors in general potentially target mostly 
+genus-specific proteins, and not those present in multiple genera. The 
+complementarity between the predicted SQSTM1/p62 and CALCOCO2/NDP52 targets, 
+which has been shown for Salmonella, Listeria and Shigella, could be observed 
+across other pathogens. This complementarity potentially leaves the host more 
+susceptible to chronic infections upon the mutation of autophagy receptors. 
+Proteins derived from enterotoxigenic and non-toxigenic Bacillus outer membrane 
+vesicles indicated that autophagy targets pathogenic proteins rather than 
+non-pathogenic ones. We also observed apathogen-specific pattern as to which 
+autophagy phase could be modulated by specific genera. We found intriguing 
+examples of bacterial proteins that could modulate autophagy, and in turn being 
+targeted by autophagy as ahost defense mechanism. We confirmed experimentally an 
+interplay between a Salmonella protease, YhjJ and autophagy. Our comparative 
+meta-analysis points out key commonalities and differences in how pathogens 
+could affect autophagy and how autophagy potentially recognizes these pathogenic 
+effectors.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

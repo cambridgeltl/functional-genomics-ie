@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ERK1/2 Signaling Induces Upregulation of ANGPT2 and CXCR4 to Mediate Liver 
+Metastasis in Colon Cancer.
+
+Carcinoma development in colorectal cancer is driven by genetic alterations in 
+numerous signaling pathways. Alterations in the RAS-ERK1/2 pathway are 
+associated with the shortest overall survival for patients after diagnosis of 
+colorectal cancer metastatic disease, yet how RAS-ERK signaling regulates 
+colorectal cancer metastasis remains unknown. In this study, we used an unbiased 
+screening approach based on selection of highly liver metastatic colorectal 
+cancer cells in vivo to determine genes associated with metastasis. From this, 
+an ERK1/2-controlled metastatic gene set (EMGS) was defined. EMGS was associated 
+with increased recurrence and reduced survival in patients with colorectal 
+cancer tumors. Higher levels of EMGS expression were detected in the colorectal 
+cancer subsets consensus molecular subtype (CMS)1 and CMS4. ANGPT2 and CXCR4, 
+two genes within the EMGS, were subjected to gain-of-function and 
+loss-of-function studies in several colorectal cancer cell lines and then tested 
+in clinical samples. The RAS-ERK1/2 axis controlled expression of the cytokine 
+ANGPT2 and the cytokine receptor CXCR4 in colorectal cancer cells, which 
+facilitated development of liver but not lung metastases, suggesting that ANGPT2 
+and CXCR4 are important for metastatic outgrowth in the liver. CXCR4 controlled 
+the expression of cytokines IL10 and CXCL1, providing evidence for a causal role 
+of IL10 in supporting liver colonization. In summary, these studies demonstrate 
+that amplification of ERK1/2 signaling in KRAS-mutated colorectal cancer cells 
+affects the cytokine milieu of the tumors, possibly affecting tumor-stroma 
+interactions and favoring liver metastasis formation. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1071~1099" text="colorectal cancer cell lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1652~1675" text="colorectal cancer cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="1271~1303,1317~1327" text="facilitated development of liver ... metastases" phenotype="metastasis" activity="increases" />
+<EFFECT id="E1" spans="1770~1805" text="favoring liver metastasis formation" phenotype="metastasis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

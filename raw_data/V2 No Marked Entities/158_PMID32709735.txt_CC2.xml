@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Circulating Insulin-like Growth Factor-I Concentrations and Risk of 30 Cancers: 
+Prospective Analyses in UK Biobank.
+
+Circulating insulin-like growth factor I (IGF-I) is positively associated with 
+the risks of colorectal, breast, and prostate cancer, but evidence for other 
+less common cancers is limited. In this study, we investigated associations 
+between serum IGF-I concentrations and incidence of less common cancers in the 
+UK Biobank study. To enable comparison of effect estimates, and as positive 
+controls, both common and less common cancer sites (total 30) were included in 
+an outcome-wide analysis. Data from 394,388 cancer-free participants in the UK 
+Biobank study were analyzed. Multivariable adjusted Cox proportional hazards 
+models were used to determine associations between baseline serum IGF-I 
+concentrations and cancer incidence, using repeated IGF-I measurements from up 
+to 14,149 participants to correct for regression dilution bias. Higher IGF-I 
+concentration was associated with increased risks of thyroid cancer [HR per 5 
+nmol/L higher concentration 1.18; 95% confidence interval (CI), 1.01-1.37] in 
+addition to colorectal (HR, 1.08; 95% CI, 1.03-1.13), breast (HR, 1.11; 95% CI, 
+1.07-1.15), and prostate cancer (HR, 1.08; 95% CI, 1.05-1.12), and reduced risks 
+of ovarian and liver cancer. Mean follow-up was 6.9 years and the possibility 
+that the observed associations may be influenced by reverse causality bias 
+cannot be excluded. Additional nominally significant associations with malignant 
+melanoma, multiple myeloma, oral cancer, and esophageal squamous cell carcinoma 
+did not survive correction for multiple testing. Studies with longer follow-up 
+and pooled analyses are needed to further assess how broad the role of IGF-I is 
+in cancer development.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

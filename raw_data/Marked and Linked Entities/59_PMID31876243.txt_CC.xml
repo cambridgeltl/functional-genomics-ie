@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Differential regulation of autophagy during metabolic stress in astrocytes and 
+neurons.
+
+Macroautophagy/autophagy is a key homeostatic process that targets cytoplasmic 
+components to the lysosome for breakdown and recycling. Autophagy plays critical 
+roles in glia and neurons that affect development, functionality, and viability 
+of the nervous system. The mechanisms that regulate autophagy in glia and 
+neurons, however, are poorly understood. Here, we define the molecular 
+underpinnings of autophagy in primary cortical astrocytes in response to 
+metabolic stress, and perform a comparative study in primary hippocampal 
+neurons. We find that inducing metabolic stress by nutrient deprivation or 
+pharmacological inhibition of MTOR (mechanistic target of rapamycin kinase) 
+robustly activates autophagy in astrocytes. While both paradigms of metabolic 
+stress dampen MTOR signaling, they affect the autophagy pathway differently. 
+Further, we find that starvation-induced autophagic flux is dependent on the 
+buffering system of the starvation solution. Lastly, starvation conditions that 
+strongly activate autophagy in astrocytes have less pronounced effects on 
+autophagy in neurons. Combined, our study reveals the complexity of regulating 
+autophagy in different paradigms of metabolic stress, as well as in different 
+cell types of the brain. Our findings raise important implications for how 
+neurons and glia may collaborate to maintain homeostasis in the brain.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="704~779" text="pharmacological inhibition of MTOR (mechanistic target of rapamycin kinase)" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="510~536" text="primary cortical astrocyte" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="607~635" text="primary hippocampal  neurons" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="813~823" text="astrocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1128~1138" text="astrocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1185~1192" text="neurons" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="790~809" text="activates autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="971~994" text="induced autophagic flux" phenotype="autophagy" activity="causes" />
+<EFFECT id="E3" spans="1106~1124" text="activate autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E4" spans="1160~1181" text="effects on  autophagy" phenotype="autophagy" activity="regulates" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="pharmacological inhibition of MTOR (mechanistic target of rapamycin kinase)" contextID="C2" contextText="astrocytes" effectID="E0" effectText="activates autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

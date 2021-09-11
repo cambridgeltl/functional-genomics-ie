@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Carnitine palmitoyltransferase 1C regulates cancer cell senescence through 
+mitochondria-associated metabolic reprograming.
+
+Cellular senescence is a fundamental biological process that has profound 
+implications in cancer development and therapeutics, but the underlying 
+mechanisms remain elusive. Here we show that carnitine palmitoyltransferase 1C 
+(CPT1C), an enzyme that catalyzes carnitinylation of fatty acids for transport 
+into mitochondria for β-oxidation, plays a major role in the regulation of 
+cancer cell senescence through mitochondria-associated metabolic reprograming. 
+Metabolomics analysis suggested alterations in mitochondria activity, as 
+revealed by the marked decrease in acylcarnitines in senescent human pancreatic 
+carcinoma PANC-1 cells, indicating low CPT1C activity. Direct analyses of mRNA 
+and protein show that CPT1C is significantly reduced in senescent cells. 
+Furthermore, abnormal mitochondrial function was observed in senescent PANC-1 
+cells, leading to lower cell survival under metabolic stress and suppressed 
+tumorigenesis in a mouse xenograft model. Knock-down of CPT1C in PANC-1 cells 
+induced mitochondrial dysfunction, caused senescence-like growth suppression and 
+cellular senescence, suppressed cell survival under metabolic stress, and 
+inhibited tumorigenesis in vivo. Further, CPT1C knock-down suppressed xenograft 
+tumor growth in situ. Silencing of CPT1C in five other tumor cell lines also 
+caused cellular senescence. On the contrary, gain-of-function of CPT1C reversed 
+PANC-1 cell senescence and enhanced mitochondrial function. This study 
+identifies CPT1C as a novel biomarker and key regulator of cancer cell 
+senescence through mitochondria-associated metabolic reprograming, and suggests 
+that inhibition of CPT1C may represent a new therapeutic strategy for cancer 
+treatment through induction of tumor senescence.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1096~1115" text="Knock-down of CPT1C" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1332~1348" text="CPT1C knock-down" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1393~1411" text="Silencing of CPT1C" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1494~1519" text="gain-of-function of CPT1C" description="other" />
+<CONTEXT id="C2" spans="1119~1131" text="PANC-1 cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1314~1321" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C5" spans="1360~1369" text="xenograft" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C6" spans="1415~1442" text="five other tumor cell lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C7" spans="1530~1541" text="PANC-1 cell" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E3" spans="1168~1174,1215~1234" text="caused ... cellular senescence" phenotype="senescence" activity="causes" />
+<EFFECT id="E4" spans="1168~1174,1191~1209" text="caused ... growth suppression" phenotype="cell growth" activity="decreases" />
+<EFFECT id="E5" spans="1236~1260" text="suppressed cell survival" phenotype="cell survival" activity="decreases" />
+<EFFECT id="E6" spans="1290~1313" text="inhibited tumorigenesis" phenotype="tumourigenesis" activity="inhibits" />
+<EFFECT id="E7" spans="1349~1359,1371~1383" text="suppressed ... tumor growth" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E8" spans="1449~1475" text="caused cellular senescence" phenotype="senescence" activity="causes" />
+<EFFECT id="E9" spans="1520~1528,1542~1552" text="reversed ... senescence" phenotype="senescence" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Knock-down of CPT1C" contextID="C2" contextText="PANC-1 cells" effectID="E4" effectText="caused ... growth suppression" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Knock-down of CPT1C" contextID="C2" contextText="PANC-1 cells" effectID="E3" effectText="caused ... cellular senescence" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="Knock-down of CPT1C" effectID="E5" effectText="suppressed cell survival" contextID="C2" contextText="PANC-1 cells" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="Knock-down of CPT1C" contextID="C3" contextText="in vivo" effectID="E6" effectText="inhibited tumorigenesis" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P1" perturbing_actionText="CPT1C knock-down" contextID="C5" contextText="xenograft" effectID="E7" effectText="suppressed ... tumor growth" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P2" perturbing_actionText="Silencing of CPT1C" contextID="C6" contextText="five other tumor cell lines" effectID="E8" effectText="caused cellular senescence" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P3" perturbing_actionText="gain-of-function of CPT1C" contextID="C7" contextText="PANC-1 cell" effectID="E9" effectText="reversed ... senescence" />
+</TAGS>
+</Genomics_ConceptTask>

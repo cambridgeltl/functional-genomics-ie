@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[miR-26 suppresses adipocyte progenitor differentiation and fat production by 
+targeting Fbxl19.
+
+Fat storage in adult mammals is a highly regulated process that involves the 
+mobilization of adipocyte progenitor cells (APCs) that differentiate to produce 
+new adipocytes. Here we report a role for the broadly conserved miR-26 family of 
+microRNAs (miR-26a-1, miR-26a-2, and miR-26b) as major regulators of APC 
+differentiation and adipose tissue mass. Deletion of all miR-26-encoding loci in 
+mice resulted in a dramatic expansion of adipose tissue in adult animals fed 
+normal chow. Conversely, transgenic overexpression of miR-26a protected mice 
+from high-fat diet-induced obesity. These effects were attributable to a 
+cell-autonomous function of miR-26 as a potent inhibitor of APC differentiation. 
+miR-26 blocks adipogenesis, at least in part, by repressing expression of 
+Fbxl19, a conserved miR-26 target without a previously known role in adipocyte 
+biology that encodes a component of SCF-type E3 ubiquitin ligase complexes. 
+These findings have therefore revealed a novel pathway that plays a critical 
+role in regulating adipose tissue formation in vivo and suggest new potential 
+therapeutic targets for obesity and related disorders.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="597~633" text="transgenic overexpression of miR-26a" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="494~498" text="mice" context="organism" />
+<CONTEXT id="C1" spans="535~549" text="adipose tissue" context="tissue/organ" />
+<CONTEXT id="C2" spans="553~566" text="adult animals" context="organism" />
+<CONTEXT id="C3" spans="644~648" text="mice" context="organism" />
+<CONTEXT id="C4" spans="784~787" text="APC" context="cells" />
+<PHENOTYPE id="PH0" spans="788~803" text="differentiation" phenotype="differentiation" />
+<EFFECT id="E0" spans="771~780" text="inhibitor" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

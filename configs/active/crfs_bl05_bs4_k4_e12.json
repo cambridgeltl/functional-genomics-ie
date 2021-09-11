@@ -1,0 +1,44 @@
+{
+    "MODE": "train",
+    "VERBOSE": 2,
+    "MODEL": {
+        "TYPE": "pretrained",
+        "TRANSFORMER_MODEL": "dmis-lab/biobert-base-cased-v1.2",
+        "HEADS": {
+            "category": {"htype": "CRF", "num_labels": 7, "schema": "BIO"},
+            "description": {"htype": "CRF", "num_labels": 23, "schema": "BIO"},
+            "experiment_type": {"htype": "CRF", "num_labels": 23, "schema": "BIO"},
+            "species": {"htype": "CRF", "num_labels": 19, "schema": "BIO"},
+            "phenotype": {"htype": "CRF", "num_labels": 59, "schema": "BIO"},
+            "activity": {"htype": "CRF", "num_labels": 15, "schema": "BIO"}
+        },
+        "TAG_LIST_DEFINITIONS": "tag_list_definitions.json",
+        "TAG_CATEGORY_DEFINITIONS": "tag_categories.json",
+        "MAX_TOKEN_LENGTH": 512
+    },
+    "DATA": {
+        "PATH": "json_data/all_marked_train.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 4,
+        "BALANCE_CLASSES": 0.5
+    },
+    "TRAINING": {
+        "TRAINED_NAME": "BioBERTv12_multi_output_CRFs_bs4_k4_e12",
+        "OPTIMIZER_CLASS": "AdamW",
+        "OPTIMIZER_KWARGS": {
+            "lr": 3e-5,
+            "eps": 1e-8
+        },
+        "FULL_FINETUNING": true,
+        "EPOCHS": 12,
+        "MAX_GRAD_NORM": 1,
+        "K_FOLDS": 4
+    },
+    "TEST_DATA": {
+        "PATH": "json_data/all_marked_test.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 8,
+        "BALANCE_CLASSES": 0
+    },
+    "TESTING": {}
+}

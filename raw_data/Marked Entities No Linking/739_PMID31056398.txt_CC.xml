@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mitochondrial ClpP-Mediated Proteolysis Induces Selective Cancer Cell Lethality.
+
+The mitochondrial caseinolytic protease P (ClpP) plays a central role in 
+mitochondrial protein quality control by degrading misfolded proteins. Using 
+genetic and chemical approaches, we showed that hyperactivation of the protease 
+selectively kills cancer cells, independently of p53 status, by selective 
+degradation of its respiratory chain protein substrates and disrupts 
+mitochondrial structure and function, while it does not affect non-malignant 
+cells. We identified imipridones as potent activators of ClpP. Through 
+biochemical studies and crystallography, we show that imipridones bind ClpP 
+non-covalently and induce proteolysis by diverse structural changes. Imipridones 
+are presently in clinical trials. Our findings suggest a general concept of 
+inducing cancer cell lethality through activation of mitochondrial proteolysis.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="333~345" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

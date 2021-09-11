@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MicroRNA-663 antagonizes apoptosis antagonizing transcription factor to induce 
+apoptosis in epithelial cells.
+
+MicroRNAs are small functional RNAs that modulate various biological processes 
+in cells by interfering with gene translation. We have previously demonstrated 
+that certain miRNAs play a crucial role in the innate immune responses of human 
+oral epithelial cells to Porphyromonas gingivalis. While addressing the 
+mechanisms of P. gingivalis induced apoptosis in these cells, we discovered that 
+certain miRNAs are upregulated upon stimulation with live bacteria. These 
+upregulated miRNAs include hsa-miR-584, hsa-miR-572, hsa-miR-210, hsa-miR-492, 
+hsa-miR-623 and hsa-miR-663. Further analysis revealed an unexpected role for 
+hsa-miR-663 (miR-663). To further evaluate miR-663 function, we overexpressed 
+miR-663 in epithelial cells which resulted in cellular apoptosis. The 
+bioinformatics analysis of the miR-663 target prediction, revealed a strong 
+binding affinity to a 3' UTR region of Apoptosis Antagonizing Transcription 
+Factor (AATF) mRNA. To demonstrate the binding of miR-663 to AATF mRNA, the 
+putative miR-663 target site within the 3'-UTR region of AATF was cloned in 
+luciferase vector and transfected to HEK293T cells. Luminescence data showed the 
+downregulation of luciferase activity in cells that had the full length target 
+region of the putative binding site, confirming that AATF is one of the targets 
+for miR-663. This prompted us to further evaluate its role in a cancer cell line 
+(MCF-7) to determine miR-663s' apoptotic function. The overexpression of miR-663 
+led to a significant increase in apoptosis of MCF-7 cells. Taken together, 
+miR-663 may function as an 'apoptomiR' by inhibiting the anti-apoptotic gene 
+AATF to induce apoptosis. These findings could have therapeutic implications for 
+epithelial cell targeting in cancer therapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="806~828" text="overexpressed  miR-663" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="1580~1605" text="overexpression of miR-663" description="increased expression level" />
+<CONTEXT id="C0" spans="832~848" text="epithelial cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1653~1664" text="MCF-7 cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="855~885" text="resulted in cellular apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="1628~1649" text="increase in apoptosis" phenotype="apoptosis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="overexpressed  miR-663" contextID="C0" contextText="epithelial cells" effectID="E0" effectText="resulted in cellular apoptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="overexpression of miR-663" contextID="C1" contextText="MCF-7 cells" effectID="E1" effectText="increase in apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

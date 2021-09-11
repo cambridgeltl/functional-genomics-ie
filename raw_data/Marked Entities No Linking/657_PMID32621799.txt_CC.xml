@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Type V Collagen in Scar Tissue Regulates the Size of Scar after Heart Injury.
+
+Scar tissue size following myocardial infarction is an independent predictor of 
+cardiovascular outcomes, yet little is known about factors regulating scar size. 
+We demonstrate that collagen V, a minor constituent of heart scars, regulates 
+the size of heart scars after ischemic injury. Depletion of collagen V led to a 
+paradoxical increase in post-infarction scar size with worsening of heart 
+function. A systems genetics approach across 100 in-bred strains of mice 
+demonstrated that collagen V is a critical driver of postinjury heart function. 
+We show that collagen V deficiency alters the mechanical properties of scar 
+tissue, and altered reciprocal feedback between matrix and cells induces 
+expression of mechanosensitive integrins that drive fibroblast activation and 
+increase scar size. Cilengitide, an inhibitor of specific integrins, rescues the 
+phenotype of increased post-injury scarring in collagen-V-deficient mice. These 
+observations demonstrate that collagen V regulates scar size in an 
+integrin-dependent manner.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="991~1011" text="collagen-V-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="645~666" text="collagen V deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="368~391" text="Depletion of collagen V" description="decreased expression level" />
+<CONTEXT id="C0" spans="1012~1016" text="mice" experiment_type="organism" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

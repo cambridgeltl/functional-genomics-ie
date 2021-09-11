@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[REDD1 loss reprograms lipid metabolism to drive progression of RAS mutant 
+tumors.
+
+Human cancers with activating RAS mutations are typically highly aggressive and 
+treatment-refractory, yet RAS mutation itself is insufficient for tumorigenesis, 
+due in part to profound metabolic stress induced by RAS activation. Here we show 
+that loss of REDD1, a stress-induced metabolic regulator, is sufficient to 
+reprogram lipid metabolism and drive progression of RAS mutant cancers. Redd1 
+deletion in genetically engineered mouse models (GEMMs) of KRAS-dependent 
+pancreatic and lung adenocarcinomas converts preneoplastic lesions into invasive 
+and metastatic carcinomas. Metabolic profiling reveals that REDD1-deficient/RAS 
+mutant cells exhibit enhanced uptake of lysophospholipids and lipid storage, 
+coupled to augmented fatty acid oxidation that sustains both ATP levels and 
+ROS-detoxifying NADPH. Mechanistically, REDD1 loss triggers HIF-dependent 
+activation of a lipid storage pathway involving PPARγ and the prometastatic 
+factor CD36. Correspondingly, decreased REDD1 expression and a signature of 
+REDD1 loss predict poor outcomes selectively in RAS mutant but not RAS wild-type 
+human lung and pancreas carcinomas. Collectively, our findings reveal the 
+REDD1-mediated stress response as a novel tumor suppressor whose loss defines a 
+RAS mutant tumor subset characterized by reprogramming of lipid metabolism, 
+invasive and metastatic progression, and poor prognosis. This work thus provides 
+new mechanistic and clinically relevant insights into the phenotypic 
+heterogeneity and metabolic rewiring that underlies these common cancers.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="477~492" text="Redd1  deletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="701~728" text="REDD1-deficient/RAS  mutant" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="917~927" text="REDD1 loss" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="519~531" text="mouse models" context="organism" />
+<CONTEXT id="C1" spans="559~594" text="pancreatic and lung adenocarcinomas" context="neoplasm" />
+<CONTEXT id="C2" spans="729~734" text="cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

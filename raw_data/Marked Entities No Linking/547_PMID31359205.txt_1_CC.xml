@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy protects HUVECs against ER stress-mediated apoptosis under simulated 
+microgravity.
+
+Astronauts exposed to a gravity-free environment experience cardiovascular 
+deconditioning that causes post-spaceflight orthostatic intolerance and other 
+pathological conditions. Endothelial dysfunction is an important factor 
+responsible for this alteration. Our previous study showed enhanced autophagy in 
+endothelial cells under simulated microgravity. The present study explored the 
+cytoprotective role of autophagy under microgravity in human umbilical vein 
+endothelial cells (HUVECs). We found that clinorotation for 48 h induced 
+apoptosis and endoplasmic reticulum (ER) stress in HUVECs. ER stress and the 
+unfolded protein response (UPR) partially contributed to apoptosis under 
+clinorotation. Autophagy partially reduced ER stress and restored UPR signaling 
+by autophagic clearance of ubiquitin-protein aggregates, thereby reducing 
+apoptosis. In addition, the ER stress antagonist 4-phenylbutyric acid 
+upregulated autophagy in HUVECs. Taken together, these findings indicate that 
+autophagy plays a protective role against apoptosis under clinorotation by 
+clearing protein aggregates and partially restoring the UPR.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="687~693" text="HUVECs" experiment_type="cells" species="human" />
+<CONTEXT id="C1" spans="1040~1046" text="HUVECs" species="human" experiment_type="cells" />
+<EFFECT id="E0" spans="627~645" text="induced  apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="1015~1036" text="upregulated autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E2" spans="934~953" text="reducing  apoptosis" phenotype="apoptosis" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RNF168-Mediated Ubiquitin Signaling Inhibits the Viability of BRCA1-Null 
+Cancers.
+
+BRCA1 gene mutations impair homologous recombination (HR) DNA repair, resulting 
+in cellular senescence and embryonic lethality in mice. Therefore, 
+BRCA1-deficient cancers require adaptations that prevent excessive genomic 
+alterations from triggering cell death. RNF168-mediated ubiquitination of γH2AX 
+at K13/15 (ub-H2AX) serves as a recruitment module for the localization of 53BP1 
+to DNA break sites. Here, we found multiple BRCA1-mutant cancer cell lines and 
+primary tumors with low levels of RNF168 protein expression. Overexpression of 
+ectopic RNF168 or a ub-H2AX fusion protein induced cell death and delayed 
+BRCA1-mutant tumor formation. Cell death resulted from the recruitment of 53BP1 
+to DNA break sites and inhibition of DNA end resection. Strikingly, 
+reintroduction of BRCA1 or 53BP1 depletion restored HR and rescued the ability 
+of cells to maintain RNF168 and ub-H2AX overexpression. Thus, downregulation of 
+RNF168 protein expression is a mechanism for providing BRCA1-null cancer cell 
+lines with a residual level of HR that is essential for viability. Overall, our 
+work identifies loss of RNF168 ubiquitin signaling as a proteomic alteration 
+that supports BRCA1-mutant carcinogenesis. We propose that restoring 
+RNF168-ub-H2AX signaling, potentially through inhibition of deubiquitinases, 
+could represent a new therapeutic approach.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="613~646" text="Overexpression of  ectopic RNF168" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="857~899" text="reintroduction of BRCA1 or 53BP1 depletion" description="decreased expression level" />
+<CONTEXT id="C0" spans="940~945" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E1" spans="698~735" text="delayed  BRCA1-mutant tumor formation" phenotype="tumourigenesis" activity="decreases" />
+<EFFECT id="E3" spans="675~693" text="induced cell death" phenotype="cell death" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

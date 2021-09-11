@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mutant IDH1 regulates the tumor-associated immune system in gliomas.
+
+Gliomas harboring mutations in isocitrate dehydrogenase 1/2 (IDH1/2) have the 
+CpG island methylator phenotype (CIMP) and significantly longer patient survival 
+time than wild-type IDH1/2 (wtIDH1/2) tumors. Although there are many factors 
+underlying the differences in survival between these two tumor types, 
+immune-related differences in cell content are potentially important 
+contributors. In order to investigate the role of IDH mutations in immune 
+response, we created a syngeneic pair mouse model for mutant IDH1 (muIDH1) and 
+wtIDH1 gliomas and demonstrated that muIDH1 mice showed many molecular and 
+clinical similarities to muIDH1 human gliomas, including a 100-fold higher 
+concentration of 2-hydroxygluratate (2-HG), longer survival time, and higher CpG 
+methylation compared with wtIDH1. Also, we showed that IDH1 mutations caused 
+down-regulation of leukocyte chemotaxis, resulting in repression of the 
+tumor-associated immune system. Given that significant infiltration of immune 
+cells such as macrophages, microglia, monocytes, and neutrophils is linked to 
+poor prognosis in many cancer types, these reduced immune infiltrates in muIDH1 
+glioma tumors may contribute in part to the differences in aggressiveness of the 
+two glioma types.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="580~600" text="mutant IDH1 (muIDH1)" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="643~649" text="muIDH1" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="895~909" text="IDH1 mutations" perturbingaction="other" />
+<CONTEXT id="C0" spans="564~575" text="mouse model" context="organism" />
+<CONTEXT id="C1" spans="613~620" text="gliomas" context="neoplasm" />
+<CONTEXT id="C2" spans="650~654" text="mice" context="organism" />
+<CONTEXT id="C3" spans="937~946" text="leukocyte" context="cells" />
+<PHENOTYPE id="PH0" spans="947~957" text="chemotaxis" phenotype="migration" />
+<EFFECT id="E0" spans="918~933" text="down-regulation" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="IDH1 mutations" effectID="E0" effectText="down-regulation" contextID="C3" contextText="leukocyte" phenotypeID="PH0" phenotypeText="chemotaxis" />
+</TAGS>
+</Genomics_ConceptTask>

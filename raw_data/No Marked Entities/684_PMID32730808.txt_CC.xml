@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Multiple Signaling Roles of CD3ε and Its Application in CAR-T Cell Therapy.
+
+A T cell receptor (TCR) mediates antigen-induced signaling through its 
+associated CD3ε, δ, γ, and ζ, but the contributions of different CD3 chains 
+remain elusive. Using quantitative mass spectrometry, we simultaneously 
+quantitated the phosphorylation of the immunoreceptor tyrosine-based activation 
+motif (ITAM) of all CD3 chains upon TCR stimulation. A subpopulation of CD3ε 
+ITAMs was mono-phosphorylated, owing to Lck kinase selectivity, and specifically 
+recruited the inhibitory Csk kinase to attenuate TCR signaling, suggesting that 
+TCR is a self-restrained signaling machinery containing both activating and 
+inhibitory motifs. Moreover, we found that incorporation of the CD3ε cytoplasmic 
+domain into a second-generation chimeric antigen receptor (CAR) improved 
+antitumor activity of CAR-T cells. Mechanistically, the Csk-recruiting ITAM of 
+CD3ε reduced CAR-T cytokine production whereas the basic residue rich sequence 
+(BRS) of CD3ε promoted CAR-T persistence via p85 recruitment. Collectively, CD3ε 
+is a built-in multifunctional signal tuner, and increasing CD3 diversity 
+represents a strategy to design next-generation CAR.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

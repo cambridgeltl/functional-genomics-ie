@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[AMPK activation does not enhance autophagy in neurons in contrast to MTORC1 
+inhibition: different impact on β-amyloid clearance.
+
+The physiological AKT-MTORC1 and AMPK signaling pathways are considered key 
+nodes in the regulation of anabolism-catabolism, and particularly of 
+macroautophagy/autophagy. Indeed, it is reported that these are altered 
+processes in neurodegenerative proteinopathies such as Alzheimer disease (AD), 
+mainly characterized by deposits of β-amyloid (Aβ) and hyperphosphorylated MAPT. 
+These accumulations disrupt the optimal neuronal proteostasis, and hence, the 
+recovery/enhancement of autophagy has been proposed as a therapeutic approach 
+against these proteinopathies. The purpose of the present study was to 
+characterize the modulation of autophagy by MTORC1 and AMPK signaling pathways 
+in the highly specialized neurons, as well as their repercussions on Aβ 
+production. Using a double transgenic mice model of AD, we demonstrated that 
+MTORC1 inhibition, either in vivo or ex vivo (primary neuronal cultures), was 
+able to reduce amyloid secretion through moderate autophagy induction in 
+neurons. The pharmacological prevention of autophagy in neurons augmented the Aβ 
+secretion and reversed the effect of rapamycin, confirming the 
+anti-amyloidogenic effects of autophagy in neurons. Inhibition of AMPK with 
+compound C generated the expected decrease in autophagy induction, though 
+surprisingly did not increase the Aβ secretion. In contrast, increased activity 
+of AMPK with metformin, AICAR, 2DG, or by gene overexpression did not enhance 
+autophagy but had different effects on Aβ secretion: whereas metformin and 2DG 
+diminished the secreted Aβ levels, AICAR and PRKAA1/AMPK gene overexpression 
+increased them. We conclude that AMPK has a significantly different role in 
+primary neurons than in other reported cells, lacking a direct effect on 
+autophagy-dependent amyloidosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="974~991" text="MTORC1 inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1325~1360" text="Inhibition of AMPK with  compound C" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1486~1540" text="increased activity  of AMPK with metformin, AICAR, 2DG" perturbingaction="pharmacological augmentation" />
+<PERTURBING_ACTION id="P4" spans="1709~1741" text=" PRKAA1/AMPK gene overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="934~950" text="mice model of AD" context="organism" />
+<CONTEXT id="C1" spans="1000~1007" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="1011~1046" text="ex vivo (primary neuronal cultures)" context="cells" />
+<CONTEXT id="C3" spans="1127~1134" text="neurons" context="cells" />
+<CONTEXT id="C4" spans="1183~1190" text="neurons" context="cells" />
+<CONTEXT id="C5" spans="1316~1323" text="neurons" context="cells" />
+<PHENOTYPE id="PH0" spans="1103~1112" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1396~1405" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="1585~1594" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="1113~1122" text="induction" effect="positive" />
+<EFFECT id="E1" spans="1384~1392" text="decrease" effect="negative" />
+<EFFECT id="E2" spans="1406~1415" text="induction" effect="positive" />
+<EFFECT id="E3" spans="1568~1583" text="did not enhance" effect="no effect" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="MTORC1 inhibition" contextID="C1" contextText="in vivo" phenotypeID="PH0" phenotypeText="autophagy" effectID="E0" effectText="induction" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="MTORC1 inhibition" contextID="C2" contextText="ex vivo (primary neuronal cultures)" phenotypeID="PH0" phenotypeText="autophagy" effectID="E0" effectText="induction" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="MTORC1 inhibition" contextID="C4" contextText="neurons" phenotypeID="PH0" phenotypeText="autophagy" effectID="E0" effectText="induction" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeted chemotherapy overcomes drug resistance in melanoma.
+
+The emergence of drug resistance is a major obstacle for the success of targeted 
+therapy in melanoma. Additionally, conventional chemotherapy has not been 
+effective as drug-resistant cells escape lethal DNA damage effects by inducing 
+growth arrest commonly referred to as cellular dormancy. We present a 
+therapeutic strategy termed "targeted chemotherapy" by depleting protein 
+phosphatase 2A (PP2A) or its inhibition using a small molecule inhibitor 
+(1,10-phenanthroline-5,6-dione [phendione]) in drug-resistant melanoma. Targeted 
+chemotherapy induces the DNA damage response without causing DNA breaks or 
+allowing cellular dormancy. Phendione treatment reduces tumor growth of 
+BRAFV600E-driven melanoma patient-derived xenografts (PDX) and diminishes growth 
+of NRASQ61R-driven melanoma, a cancer with no effective therapy. Remarkably, 
+phendione treatment inhibits the acquisition of resistance to BRAF inhibition in 
+BRAFV600E PDX highlighting its effectiveness in combating the advent of drug 
+resistance.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="565~588" text="drug-resistant melanoma" context="neoplasm" />
+<CONTEXT id="C1" spans="749~807" text="BRAFV600E-driven melanoma patient-derived xenografts (PDX)" context="neoplasm" />
+<CONTEXT id="C2" spans="834~858" text="NRASQ61R-driven melanoma" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="732~744" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="724~731" text="reduces" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

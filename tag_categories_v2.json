@@ -1,0 +1,27 @@
+{
+    "PERTURBING_ACTION": {
+        "entity_linking_field": "@perturbing_actionID",
+        "fields": {
+            "perturbing_action": {"mae_field": "@perturbingaction"}
+        }
+    },
+    "CONTEXT": {
+        "entity_linking_field": "@contextID",
+        "fields": {
+            "context": {"mae_field": "@context"}
+        }
+    },
+    "EFFECT": {
+        "entity_linking_field": "@effectID",
+        "fields": {
+            "effect": {"mae_field": "@effect"}
+        }
+    },
+    "PHENOTYPE": {
+        "entity_linking_field": "@phenotypeID",
+        "fields": {
+            "phenotype": {"mae_field": "@phenotype"}
+        }
+    }
+}
+

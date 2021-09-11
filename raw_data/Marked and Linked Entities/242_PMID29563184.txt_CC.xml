@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Stem cell niche-specific Ebf3 maintains the bone marrow cavity.
+
+Bone marrow is the tissue filling the space between bone surfaces. Hematopoietic 
+stem cells (HSCs) are maintained by special microenvironments known as niches 
+within bone marrow cavities. Mesenchymal cells, termed CXC chemokine ligand 12 
+(CXCL12)-abundant reticular (CAR) cells or leptin receptor-positive (LepR+) 
+cells, are a major cellular component of HSC niches that gives rise to 
+osteoblasts in bone marrow. However, it remains unclear how osteogenesis is 
+prevented in most CAR/LepR+ cells to maintain HSC niches and marrow cavities. 
+Here, using lineage tracing, we found that the transcription factor early B-cell 
+factor 3 (Ebf3) is preferentially expressed in CAR/LepR+ cells and that 
+Ebf3-expressing cells are self-renewing mesenchymal stem cells in adult marrow. 
+When Ebf3 is deleted in CAR/LepR+ cells, HSC niche function is severely 
+impaired, and bone marrow is osteosclerotic with increased bone in aged mice. In 
+mice lacking Ebf1 and Ebf3, CAR/LepR+ cells exhibiting a normal morphology are 
+abundantly present, but their niche function is markedly impaired with depleted 
+HSCs in infant marrow. Subsequently, the mutants become progressively more 
+osteosclerotic, leading to the complete occlusion of marrow cavities in early 
+adulthood. CAR/LepR+ cells differentiate into bone-producing cells with reduced 
+HSC niche factor expression in the absence of Ebf1/Ebf3 Thus, HSC cellular 
+niches express Ebf3 that is required to create HSC niches, to inhibit their 
+osteoblast differentiation, and to maintain spaces for HSCs.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="852~867" text="Ebf3 is deleted" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1007~1028" text="lacking Ebf1 and Ebf3" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1434~1454" text="absence of Ebf1/Ebf3" description="knock out" />
+<CONTEXT id="C0" spans="871~886" text="CAR/LepR+ cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="987~996" text="aged mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="1002~1006" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="1030~1045" text="CAR/LepR+ cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1329~1344" text="CAR/LepR+ cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1345~1384" text="differentiate into bone-producing cells" phenotype="differentiation" activity="not stated" />
+<ENTITY_LINKING id="EN0" contextID="C4" contextText="CAR/LepR+ cells" perturbing_actionID="P2" perturbing_actionText="absence of Ebf1/Ebf3" effectID="E0" effectText="differentiate into bone-producing cells" />
+</TAGS>
+</Genomics_ConceptTask>

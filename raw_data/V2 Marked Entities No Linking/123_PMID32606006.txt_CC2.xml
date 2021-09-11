@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[FTO-Dependent N (6)-Methyladenosine Modifications Inhibit Ovarian Cancer Stem 
+Cell Self-Renewal by Blocking cAMP Signaling.
+
+N 6-Methyladenosine (m6A) is the most abundant modification of mammalian mRNAs. 
+RNA methylation fine tunes RNA stability and translation, altering cell fate. 
+The fat mass- and obesity-associated protein (FTO) is an m6A demethylase with 
+oncogenic properties in leukemia. Here, we show that FTO expression is 
+suppressed in ovarian tumors and cancer stem cells (CSC). FTO inhibited the 
+self-renewal of ovarian CSC and suppressed tumorigenesis in vivo, both of which 
+required FTO demethylase activity. Integrative RNA sequencing and m6A mapping 
+analysis revealed significant transcriptomic changes associated with FTO 
+overexpression and m6A loss involving stem cell signaling, RNA transcription, 
+and mRNA splicing pathways. By reducing m6A levels at the 3'UTR and the mRNA 
+stability of two phosphodiesterase genes (PDE1C and PDE4B), FTO augmented second 
+messenger 3', 5'-cyclic adenosine monophosphate (cAMP) signaling and suppressed 
+stemness features of ovarian cancer cells. Our results reveal a previously 
+unappreciated tumor suppressor function of FTO in ovarian CSC mediated through 
+inhibition of cAMP signaling. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="530~541" text="ovarian CSC" context="transformed cells" />
+<CONTEXT id="C1" spans="571~578" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="1089~1109" text="ovarian cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="514~526" text="self-renewal" phenotype="self-renewal" />
+<PHENOTYPE id="PH1" spans="557~570" text="tumorigenesis" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="499~508" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="546~556" text="suppressed" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

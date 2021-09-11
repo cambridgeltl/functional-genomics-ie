@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cancer Cell-Derived Matrisome Proteins Promote Metastasis in Pancreatic Ductal 
+Adenocarcinoma.
+
+The prognosis for pancreatic ductal adenocarcinoma (PDAC) remains poor despite 
+decades of effort. The abundant extracellular matrix (ECM) in PDAC comprises a 
+major fraction of the tumor mass and plays various roles in promoting resistance 
+to therapies. However, nonselective depletion of ECM has led to poor patient 
+outcomes. Consistent with that observation, we previously showed that individual 
+matrisome proteins derived from stromal cells correlate with either long or 
+short patient survival. In marked contrast, those derived from cancer cells 
+correlate strongly with poor survival. Here, we studied three cancer 
+cell-derived matrisome proteins that are significantly overrepresented during 
+PDAC progression, AGRN (agrin), SERPINB5 (serine protease inhibitor B5), and 
+CSTB (cystatin B). Using both overexpression and knockdown experiments, we 
+demonstrate that all three are promoters of PDAC metastasis. Furthermore, these 
+proteins operate at different metastatic steps. AGRN promoted 
+epithelial-to-mesenchymal transition in primary tumors, whereas SERPINB5 and 
+CSTB enhanced late steps in the metastatic cascade by elevating invadopodia 
+formation and in vivo extravasation. All three genes were associated with a poor 
+prognosis in human patients and high levels of SERPINB5, secreted by cancer 
+cells and deposited in the ECM, correlated with poor patient prognosis. This 
+study provides strong evidence that cancer cell-derived matrisome proteins can 
+be causal in promoting tumorigenesis and metastasis and lead to poor patient 
+survival. Therefore, compared with the bulk matrix, mostly made by stromal 
+cells, precise interventions targeting cancer cell-derived matrisome proteins, 
+such as AGRN, SERPINB5, and CSTB, may represent preferred potential therapeutic 
+targets. SIGNIFICANCE: This study provides insights into the biological roles of 
+cancer cell-derived matrisome proteins in PDAC and supports the notion that 
+these proteins are protumorigenic and better therapeutic targets.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1000~1004" text="PDAC" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="1140~1154" text="primary tumors" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="987~999,1005~1015" text="promoters of ... metastasis" phenotype="metastasis" activity="increases" />
+<EFFECT id="E1" spans="1090~1136" text="promoted  epithelial-to-mesenchymal transition" phenotype="epithelial-mesenchymal transition" activity="increases" />
+<EFFECT id="E2" spans="1183~1228" text="enhanced late steps in the metastatic cascade" phenotype="metastasis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

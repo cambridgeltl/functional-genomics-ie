@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[GADD45 promotes locus-specific DNA demethylation and 2C cycling in embryonic 
+stem cells.
+
+Mouse embryonic stem cell (ESC) cultures contain a rare cell population of 
+"2C-like" cells resembling two-cell embryos, the key stage of zygotic genome 
+activation (ZGA). Little is known about positive regulators of the 2C-like state 
+and two-cell stage embryos. Here we show that GADD45 (growth arrest and DNA 
+damage 45) proteins, regulators of TET (TET methylcytosine dioxygenase)-mediated 
+DNA demethylation, promote both states. Methylome analysis of Gadd45a,b,g 
+triple-knockout (TKO) ESCs reveal locus-specific DNA hypermethylation of ∼7000 
+sites, which are enriched for enhancers and loci undergoing TET-TDG (thymine DNA 
+glycosylase)-mediated demethylation. Gene expression is misregulated in TKOs, 
+notably upon differentiation, and displays signatures of DNMT (DNA 
+methyltransferase) and TET targets. TKOs manifest impaired transition into the 
+2C-like state and exhibit DNA hypermethylation and down-regulation of 2C-like 
+state-specific genes. Gadd45a,b double-mutant mouse embryos display embryonic 
+sublethality, deregulated ZGA gene expression, and developmental arrest. Our 
+study reveals an unexpected role of GADD45 proteins in embryonic two-cell stage 
+regulation.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="548~582" text="Gadd45a,b,g  triple-knockout (TKO)" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1051~1074" text="Gadd45a,b double-mutant" description="other" />
+<CONTEXT id="C0" spans="583~587" text="ESCs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1075~1088" text="mouse embryos" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

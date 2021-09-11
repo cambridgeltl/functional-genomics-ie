@@ -1,0 +1,85 @@
+{
+    "category": [
+        "PERTURBING_ACTION",
+        "CONTEXT",
+        "EFFECT"
+    ],
+    "description": [
+        "knock out",
+        "conditional knock out",
+        "knock in",
+        "conditional knock in",
+        "knock down",
+        "plasmid vector",
+        "viral vector",
+        "pharmacological inhibition",
+        "decreased expression level",
+        "increased expression level",
+        "other"
+    ],
+    "experiment_type": [
+        "organism",
+        "tumour",
+        "cells",
+        "cell line",
+        "transformed cell line",
+        "primary culture",
+        "organoid culture",
+        "cell transplantation",
+        "xenotransplantation",
+        "other",
+        "not stated"
+    ],
+    "species": [
+        "human",
+        "mouse",
+        "rat",
+        "fish",
+        "fly",
+        "yeast",
+        "bacterium",
+        "other",
+        "not stated"
+    ],
+    "phenotype": [
+        "adhesion",
+        "apoptosis",
+        "anoikis",
+        "autophagy",
+        "cell cycle arrest",
+        "cell death",
+        "cell growth",
+        "cell survival",
+        "colony formation",
+        "differentiation",
+        "entosis",
+        "epithelial-mesenchymal transition",
+        "ferroptosis",
+        "invasion",
+        "metastasis",
+        "migration",
+        "mitophagy",
+        "necroptosis",
+        "necrosis",
+        "netosis",
+        "oncosis",
+        "proliferation",
+        "pyroptosis",
+        "quiescence",
+        "self-renewal",
+        "senescence",
+        "transformation",
+        "tumour growth",
+        "tumourigenesis"
+    ],
+    "activity": [
+        "causes",
+        "inhibits",
+        "increases",
+        "decreases",
+        "regulates",
+        "no effect",
+        "not stated"
+    ]
+}
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[NOX4 Inhibition Potentiates Immunotherapy by Overcoming Cancer-Associated 
+Fibroblast-Mediated CD8 T-cell Exclusion from Tumors.
+
+Determining mechanisms of resistance to αPD-1/PD-L1 immune-checkpoint 
+immunotherapy is key to developing new treatment strategies. Cancer-associated 
+fibroblasts (CAF) have many tumor-promoting functions and promote immune evasion 
+through multiple mechanisms, but as yet, no CAF-specific inhibitors are 
+clinically available. Here we generated CAF-rich murine tumor models (TC1, MC38, 
+and 4T1) to investigate how CAFs influence the immune microenvironment and 
+affect response to different immunotherapy modalities [anticancer vaccination, 
+TC1 (HPV E7 DNA vaccine), αPD-1, and MC38] and found that CAFs broadly 
+suppressed response by specifically excluding CD8+ T cells from tumors (not CD4+ 
+T cells or macrophages); CD8+ T-cell exclusion was similarly present in CAF-rich 
+human tumors. RNA sequencing of CD8+ T cells from CAF-rich murine tumors and 
+immunochemistry analysis of human tumors identified significant upregulation of 
+CTLA-4 in the absence of other exhaustion markers; inhibiting CTLA-4 with a 
+nondepleting antibody overcame the CD8+ T-cell exclusion effect without 
+affecting Tregs. We then examined the potential for CAF targeting, focusing on 
+the ROS-producing enzyme NOX4, which is upregulated by CAF in many human 
+cancers, and compared this with TGFβ1 inhibition, a key regulator of the CAF 
+phenotype. siRNA knockdown or pharmacologic inhibition [GKT137831 (Setanaxib)] 
+of NOX4 "normalized" CAF to a quiescent phenotype and promoted intratumoral CD8+ 
+T-cell infiltration, overcoming the exclusion effect; TGFβ1 inhibition could 
+prevent, but not reverse, CAF differentiation. Finally, NOX4 inhibition restored 
+immunotherapy response in CAF-rich tumors. These findings demonstrate that 
+CAF-mediated immunotherapy resistance can be effectively overcome through NOX4 
+inhibition and could improve outcome in a broad range of cancers. SIGNIFICANCE: 
+NOX4 is critical for maintaining the immune-suppressive CAF phenotype in tumors. 
+Pharmacologic inhibition of NOX4 potentiates immunotherapy by overcoming 
+CAF-mediated CD8+ T-cell exclusion.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1462~1477,1531~1538" text="siRNA knockdown ... of NOX4" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1481~1538" text="pharmacologic inhibition [GKT137831 (Setanaxib)]  of NOX4" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1667~1683" text="TGFβ1 inhibition" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1747~1762" text="NOX4 inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1552~1555" text="CAF" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1717~1720" text="CAF" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1799~1814" text="CAF-rich tumors" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="1539~1551,1556~1580" text="&quot;normalized&quot; ... to a quiescent phenotype" phenotype="quiescence" activity="causes" />
+<EFFECT id="E1" spans="1691~1698,1721~1736" text="prevent ... differentiation" phenotype="differentiation" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="siRNA knockdown ... of NOX4" contextID="C0" contextText="CAF" effectID="E0" effectText="&quot;normalized&quot; ... to a quiescent phenotype" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="pharmacologic inhibition [GKT137831 (Setanaxib)]  of NOX4" contextID="C0" contextText="CAF" effectID="E0" effectText="&quot;normalized&quot; ... to a quiescent phenotype" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="TGFβ1 inhibition" contextID="C1" contextText="CAF" effectID="E1" effectText="prevent ... differentiation" />
+</TAGS>
+</Genomics_ConceptTask>

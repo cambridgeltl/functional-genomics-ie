@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TRAF6 inhibits colorectal cancer metastasis through regulating selective 
+autophagic CTNNB1/β-catenin degradation and is targeted for GSK3B/GSK3β-mediated 
+phosphorylation and degradation.
+
+Aberrant CTNNB1 signaling is one of the fundamental processes in cancers, 
+especially colorectal cancer (CRC). Here, we reported that TRAF6, an E3 
+ubiquitin ligase important for inflammatory signaling, inhibited 
+epithelial-mesenchymal transition (EMT) and CRC metastasis through driving a 
+selective autophagic CTNNB1 degradation machinery. Mechanistically, TRAF6 
+interacted with MAP1LC3B/LC3B through its LC3-interacting region 'YxxL' and 
+catalyzed K63-linked polyubiquitination of LC3B. The K63-linked ubiquitination 
+of LC3B promoted the formation of the LC3B-ATG7 complex and was critical to the 
+subsequent recognition of CTNNB1 by LC3B for the selective autophagic 
+degradation. However, TRAF6 was phosphorylated at Thr266 by GSK3B in most 
+clinical CRC, which triggered K48-linked polyubiquitination and degradation of 
+TRAF6 and thereby attenuated its inhibitory activity towards the 
+autophagy-dependent CTNNB1 signaling. Clinically, decreased expression of TRAF6 
+was associated with elevated GSK3B protein levels and activity and reduced 
+overall survival in CRC patients. Pharmacological inhibition of GSK3B activity 
+stabilized the TRAF6 protein, promoted CTNNB1 degradation, and effectively 
+suppressed EMT and CRC metastasis. Thus, targeting TRAF6 and its pathway may be 
+meaningful for treating advanced CRC. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1278~1322" text="Pharmacological inhibition of GSK3B activity" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="448~451" text="CRC" context="transformed cells" />
+<CONTEXT id="C1" spans="1419~1422" text="CRC" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="404~443" text="epithelial-mesenchymal transition (EMT)" phenotype="epithelial-mesenchymal transition" />
+<PHENOTYPE id="PH1" spans="452~462" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="1411~1414" text="EMT" phenotype="epithelial-mesenchymal transition" />
+<PHENOTYPE id="PH3" spans="1423~1433" text="metastasis" phenotype="metastasis" />
+<EFFECT id="E0" spans="393~402" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="1400~1410" text="suppressed" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Pharmacological inhibition of GSK3B activity" effectID="E1" effectText="suppressed" phenotypeID="PH2" phenotypeText="EMT" contextID="C1" contextText="CRC" />
+</TAGS>
+</Genomics_ConceptTask>

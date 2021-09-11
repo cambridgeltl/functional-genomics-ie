@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Genetic Screens Identify Host Factors for SARS-CoV-2 and Common Cold 
+Coronaviruses.
+
+The Coronaviridae are a family of viruses that cause disease in humans ranging 
+from mild respiratory infection to potentially lethal acute respiratory distress 
+syndrome. Finding host factors common to multiple coronaviruses could facilitate 
+the development of therapies to combat current and future coronavirus pandemics. 
+Here, we conducted genome-wide CRISPR screens in cells infected by SARS-CoV-2 as 
+well as two seasonally circulating common cold coronaviruses, OC43 and 229E. 
+This approach correctly identified the distinct viral entry factors ACE2 (for 
+SARS-CoV-2), aminopeptidase N (for 229E), and glycosaminoglycans (for OC43). 
+Additionally, we identified phosphatidylinositol phosphate biosynthesis and 
+cholesterol homeostasis as critical host pathways supporting infection by all 
+three coronaviruses. By contrast, the lysosomal protein TMEM106B appeared unique 
+to SARS-CoV-2 infection. Pharmacological inhibition of phosphatidylinositol 
+kinases and cholesterol homeostasis reduced replication of all three 
+coronaviruses. These findings offer important insights for the understanding of 
+the coronavirus life cycle and the development of host-directed therapies.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="461~466" text="cells" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

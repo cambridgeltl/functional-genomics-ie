@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TRAF6 inhibits colorectal cancer metastasis through regulating selective 
+autophagic CTNNB1/β-catenin degradation and is targeted for GSK3B/GSK3β-mediated 
+phosphorylation and degradation.
+
+Aberrant CTNNB1 signaling is one of the fundamental processes in cancers, 
+especially colorectal cancer (CRC). Here, we reported that TRAF6, an E3 
+ubiquitin ligase important for inflammatory signaling, inhibited 
+epithelial-mesenchymal transition (EMT) and CRC metastasis through driving a 
+selective autophagic CTNNB1 degradation machinery. Mechanistically, TRAF6 
+interacted with MAP1LC3B/LC3B through its LC3-interacting region 'YxxL' and 
+catalyzed K63-linked polyubiquitination of LC3B. The K63-linked ubiquitination 
+of LC3B promoted the formation of the LC3B-ATG7 complex and was critical to the 
+subsequent recognition of CTNNB1 by LC3B for the selective autophagic 
+degradation. However, TRAF6 was phosphorylated at Thr266 by GSK3B in most 
+clinical CRC, which triggered K48-linked polyubiquitination and degradation of 
+TRAF6 and thereby attenuated its inhibitory activity towards the 
+autophagy-dependent CTNNB1 signaling. Clinically, decreased expression of TRAF6 
+was associated with elevated GSK3B protein levels and activity and reduced 
+overall survival in CRC patients. Pharmacological inhibition of GSK3B activity 
+stabilized the TRAF6 protein, promoted CTNNB1 degradation, and effectively 
+suppressed EMT and CRC metastasis. Thus, targeting TRAF6 and its pathway may be 
+meaningful for treating advanced CRC. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1278~1322" text="Pharmacological inhibition of GSK3B activity" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="448~451" text="CRC" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="941~953" text="clinical CRC" experiment_type="tumour" species="human" />
+<CONTEXT id="C2" spans="1264~1276" text="CRC patients" experiment_type="organism" species="human" />
+<CONTEXT id="C3" spans="1419~1422" text="CRC" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="393~443" text="inhibited  epithelial-mesenchymal transition (EMT)" phenotype="epithelial-mesenchymal transition" activity="inhibits" />
+<EFFECT id="E1" spans="393~402,452~462" text="inhibited ... metastasis" phenotype="metastasis" activity="inhibits" />
+<EFFECT id="E2" spans="471~531" text="driving a  selective autophagic CTNNB1 degradation machinery" phenotype="autophagy" activity="causes" />
+<EFFECT id="E3" spans="844~877" text="selective autophagic  degradation" phenotype="autophagy" activity="not stated" />
+<EFFECT id="E4" spans="1400~1414" text="suppressed EMT" phenotype="epithelial-mesenchymal transition" activity="inhibits" />
+<EFFECT id="E5" spans="1400~1410,1423~1433" text="suppressed ... metastasis" phenotype="metastasis" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Pharmacological inhibition of GSK3B activity" contextID="P0" contextText="Pharmacological inhibition of GSK3B activity" effectID="E4" effectText="suppressed EMT" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Pharmacological inhibition of GSK3B activity" contextID="C3" contextText="CRC" effectID="E5" effectText="suppressed ... metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

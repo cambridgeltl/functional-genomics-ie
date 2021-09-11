@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Identification of a Small-Molecule Inhibitor That Disrupts the SIX1/EYA2 
+Complex, EMT, and Metastasis.
+
+Metastasis is the major cause of mortality for patients with cancer, and 
+dysregulation of developmental signaling pathways can significantly contribute 
+to the metastatic process. The Sine oculis homeobox homolog 1 (SIX1)/eyes absent 
+(EYA) transcriptional complex plays a critical role in the development of 
+multiple organs and is typically downregulated after development is complete. In 
+breast cancer, aberrant expression of SIX1 has been demonstrated to stimulate 
+metastasis through activation of TGFβ signaling and subsequent induction of 
+epithelial-mesenchymal transition (EMT). In addition, SIX1 can induce metastasis 
+via non-cell autonomous means, including activation of GLI-signaling in 
+neighboring tumor cells and activation of VEGFC-induced lymphangiogenesis. Thus, 
+targeting SIX1 would be expected to inhibit metastasis while conferring limited 
+side effects. However, transcription factors are notoriously difficult to 
+target, and thus novel approaches to inhibit their action must be taken. Here we 
+identified a novel small molecule compound, NCGC00378430 (abbreviated as 8430), 
+that reduces the SIX1/EYA2 interaction. 8430 partially reversed transcriptional 
+and metabolic profiles mediated by SIX1 overexpression and reversed SIX1-induced 
+TGFβ signaling and EMT. 8430 was well tolerated when delivered to mice and 
+significantly suppressed breast cancer-associated metastasis in vivo without 
+significantly altering primary tumor growth. Thus, we have demonstrated for the 
+first time that pharmacologic inhibition of the SIX1/EYA2 complex and associated 
+phenotypes is sufficient to suppress breast cancer metastasis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1326~1345" text="SIX1 overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="1439~1443" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1510~1517" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="1474~1487" text="breast cancer" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="1392~1395" text="EMT" phenotype="epithelial-mesenchymal transition" />
+<PHENOTYPE id="PH1" spans="1499~1509" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="1558~1570" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="1350~1358" text="reversed" effect="negative" />
+<EFFECT id="E1" spans="1463~1473" text="suppressed" effect="negative" />
+<EFFECT id="E2" spans="1518~1549" text="without  significantly altering" effect="no effect" />
+</TAGS>
+</Genomics_ConceptTask>

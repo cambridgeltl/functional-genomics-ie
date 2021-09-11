@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[NF-κB contributes to Smac mimetic-conferred protection from tunicamycin-induced 
+apoptosis.
+
+Smac mimetics that deplete cellular inhibitor of apoptosis (cIAP) proteins have 
+been shown to activate Nuclear Factor-kappa B (NF-κB). Here, we report that Smac 
+mimetic-mediated activation of NF-κB contributes to the rescue of cancer cells 
+from tunicamycin (TM)-triggered apoptosis. The prototypic Smac mimetic BV6 
+activates non-canonical and canonical NF-κB pathways, while TM has little effect 
+on NF-κB signaling. Importantly, ectopic expression of dominant-negative IκBα 
+superrepressor (IκBα-SR), which inhibits canonical and non-canonical NF-κB 
+activation, significantly reversed this BV6-imposed protection against TM. 
+Similarly, transient or stable knockdown of NF-κB-inducing kinase, which 
+accumulated upon exposure to BV6 alone and in combination with TM, significantly 
+counteracted BV6-mediated inhibition of TM-induced apoptosis. Interestingly, 
+while cIAP2 was initially degraded upon BV6 treatment, it was subsequently 
+upregulated in an NF-κB-dependent manner, as this restoration of cIAP2 
+expression was abolished in IκBα-SR-overexpressing cells. Interestingly, upon 
+exposure to TM/BV6 apoptosis was significantly increased in cIAP2 knockdown 
+cells. Furthermore, NF-κB inhibition partially prevented BV6-stimulated 
+expression of Mcl-1 upon TM treatment. Consistently, Mcl-1 silencing 
+significantly inhibited BV6-mediated protection from TM-induced apoptosis. Thus, 
+NF-κB activation by Smac mimetic contributes to Smac mimetic-mediated protection 
+against TM-induced apoptosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="527~597" text="ectopic expression of dominant-negative IκBα  superrepressor (IκBα-SR)" description="other" />
+<PERTURBING_ACTION id="P1" spans="736~745,756~790" text="transient ... knockdown of NF-κB-inducing kinase" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="749~790" text="stable knockdown of NF-κB-inducing kinase" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1135~1157" text="IκBα-SR-overexpressing" description="increased expression level" />
+<PERTURBING_ACTION id="P4" spans="1246~1261" text="cIAP2 knockdown" description="knock down" />
+<PERTURBING_ACTION id="P5" spans="1389~1404" text="Mcl-1 silencing" description="knock down" />
+<CONTEXT id="C0" spans="1158~1163" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1263~1268" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="881~893,907~920,924~941" text="counteracted ... inhibition of ... induced apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E1" spans="1205~1218,1233~1242" text="apoptosis was ... increased" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E2" spans="1420~1429,1443~1458,1462~1479" text="inhibited ... protection from ... induced apoptosis" phenotype="apoptosis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P4" perturbing_actionText="cIAP2 knockdown" contextID="C1" contextText="cells" effectID="E1" effectText="apoptosis was ... increased" />
+</TAGS>
+</Genomics_ConceptTask>

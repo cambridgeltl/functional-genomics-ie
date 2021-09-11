@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ALS-FTLD-linked mutations of SQSTM1/p62 disrupt selective autophagy and 
+NFE2L2/NRF2 anti-oxidative stress pathway.
+
+Macroautophagy (autophagy) is a key catabolic pathway for the maintenance of 
+proteostasis through constant digestion of selective cargoes. The selectivity of 
+autophagy is mediated by autophagy receptors that recognize and recruit cargoes 
+to autophagosomes. SQSTM1/p62 is a prototype autophagy receptor, which is 
+commonly found in protein aggregates associated with major neurodegenerative 
+diseases. While accumulation of SQSTM1 implicates a disturbance of selective 
+autophagy pathway, the pathogenic mechanism that contributes to impaired 
+autophagy degradation remains poorly characterized. Herein we show that 
+amyotrophic lateral sclerosis (ALS) and frontotemporal lobar degeneration 
+(FTLD)-linked mutations of TBK1 and SQSTM1 disrupt selective autophagy and cause 
+neurotoxicity. Our data demonstrates that proteotoxic stress activates 
+serine/threonine kinase TBK1, which coordinates with autophagy kinase ULK1 to 
+promote concerted phosphorylation of autophagy receptor SQSTM1 at the UBA domain 
+and activation of selective autophagy. In contrast, ALS-FTLD-linked mutations of 
+TBK1 or SQSTM1 reduce SQSTM1 phosphorylation and compromise ubiquitinated cargo 
+binding and clearance. Moreover, disease mutation SQSTM1G427R abolishes 
+phosphorylation of Ser351 and impairs KEAP1-SQSTM1 interaction, thus diminishing 
+NFE2L2/Nrf2-targeted gene expression and increasing TARDBP/TDP-43 associated 
+stress granule formation under oxidative stress. Furthermore, expression of 
+SQSTM1G427R in neurons impairs dendrite morphology and KEAP1-NFE2L2 signaling. 
+Therefore, our results reveal a mechanism whereby pathogenic SQSTM1 mutants 
+inhibit selective autophagy and disrupt NFE2L2 anti-oxidative stress response 
+underlying the neurotoxicity in ALS-FTLD.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="825~853" text="mutations of TBK1 and SQSTM1" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="1194~1222" text="mutations of  TBK1 or SQSTM1" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="1330~1350" text="mutation SQSTM1G427R" perturbingaction="other" />
+<PERTURBING_ACTION id="P3" spans="1584~1610" text="expression of  SQSTM1G427R" perturbingaction="other" />
+<CONTEXT id="C0" spans="1614~1621" text="neurons" context="cells" />
+<PHENOTYPE id="PH0" spans="872~881" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1154~1163" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="854~861" text="disrupt" effect="negative" />
+<EFFECT id="E1" spans="1130~1140" text="activation" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

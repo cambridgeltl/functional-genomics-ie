@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cellular Senescence Promotes Skin Carcinogenesis through p38MAPK and p44/42MAPK 
+Signaling.
+
+Cellular senescence entails an irreversible growth arrest that evolved in part 
+to prevent cancer. Paradoxically, senescent cells secrete proinflammatory and 
+growth-stimulatory molecules, termed the senescence-associated secretory 
+phenotype (SASP), which is correlated with cancer cell proliferation in culture 
+and xenograft models. However, at what tumor stage and how senescence and the 
+SASP act on endogenous tumor growth in vivo is unknown. To understand the role 
+of senescence in cancer etiology, we subjected p16-3MR transgenic mice, which 
+permit the identification and selective elimination of senescent cells in vivo, 
+to the well-established two-step protocol of squamous cell skin carcinoma, in 
+which tumorigenesis is initiated by a carcinogen 7,12-dimethylbenz[α]anthracene, 
+and then promoted by 12-O-tetradecanoyl-phorbol-13-acetate (TPA). We show that 
+TPA promotes skin carcinogenesis by inducing senescence and a SASP. Systemic 
+induction of senescence in nontumor-bearing p16-3MR mice using a chemotherapy 
+followed by the two-step carcinogenesis protocol potentiated the conversion of 
+benign papillomas to carcinomas by elevating p38MAPK and MAPK/ERK signaling. 
+Ablation of senescent cells reduced p38MAPK and MAPK/ERK signaling, thereby 
+preventing the progression of benign papillomas to carcinomas. Thus, we show for 
+the first time that senescent cells are tumor promoters, not tumor initiators, 
+and that they stimulate skin carcinogenesis by elevating p38MAPK and MAPK/ERK 
+signaling. These findings pave the way for developing novel therapeutics against 
+senescence-fueled cancers.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="613~636" text="p16-3MR transgenic mice" context="organism" />
+<CONTEXT id="C1" spans="980~984" text="skin" context="tissue/organ" />
+<CONTEXT id="C2" spans="1072~1101" text="nontumor-bearing p16-3MR mice" context="organism" />
+<CONTEXT id="C3" spans="1294~1309" text="senescent cells" context="cells" />
+<CONTEXT id="C4" spans="1204~1221" text="benign papillomas" context="neoplasm" />
+<CONTEXT id="C5" spans="1389~1406" text="benign papillomas" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="811~824" text="tumorigenesis" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH1" spans="985~999" text="carcinogenesis" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH2" spans="1012~1022" text="senescence" phenotype="senescence" />
+<PHENOTYPE id="PH3" spans="1058~1068" text="senescence" phenotype="senescence" />
+<EFFECT id="E0" spans="828~837" text="initiated" effect="positive" />
+<EFFECT id="E1" spans="896~904" text="promoted" effect="positive" />
+<EFFECT id="E2" spans="971~979" text="promotes" effect="positive" />
+<EFFECT id="E3" spans="1003~1011" text="inducing" effect="positive" />
+<EFFECT id="E4" spans="1045~1054" text="induction" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

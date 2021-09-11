@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Trehalose induces autophagy via lysosomal-mediated TFEB activation in models of 
+motoneuron degeneration.
+
+Macroautophagy/autophagy, a defense mechanism against aberrant stresses, in 
+neurons counteracts aggregate-prone misfolded protein toxicity. Autophagy 
+induction might be beneficial in neurodegenerative diseases (NDs). The natural 
+compound trehalose promotes autophagy via TFEB (transcription factor EB), 
+ameliorating disease phenotype in multiple ND models, but its mechanism is still 
+obscure. We demonstrated that trehalose regulates autophagy by inducing rapid 
+and transient lysosomal enlargement and membrane permeabilization (LMP). This 
+effect correlated with the calcium-dependent phosphatase PPP3/calcineurin 
+activation, TFEB dephosphorylation and nuclear translocation. Trehalose 
+upregulated genes for the TFEB target and regulator Ppargc1a, lysosomal 
+hydrolases and membrane proteins (Ctsb, Gla, Lamp2a, Mcoln1, Tpp1) and several 
+autophagy-related components (Becn1, Atg10, Atg12, Sqstm1/p62, Map1lc3b, Hspb8 
+and Bag3) mostly in a PPP3- and TFEB-dependent manner. TFEB silencing 
+counteracted the trehalose pro-degradative activity on misfolded protein 
+causative of motoneuron diseases. Similar effects were exerted by 
+trehalase-resistant trehalose analogs, melibiose and lactulose. Thus, limited 
+lysosomal damage might induce autophagy, perhaps as a compensatory mechanism, a 
+process that is beneficial to counteract neurodegeneration. 
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1090~1104" text="TFEB silencing" perturbingaction="rnai/knockdown" />
+<PHENOTYPE id="PH0" spans="546~555" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="536~545" text="regulates" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Genomic Features of Response to Combination Immunotherapy in Patients with 
+Advanced Non-Small-Cell Lung Cancer.
+
+Combination immune checkpoint blockade has demonstrated promising benefit in 
+lung cancer, but predictors of response to combination therapy are unknown. 
+Using whole-exome sequencing to examine non-small-cell lung cancer (NSCLC) 
+treated with PD-1 plus CTLA-4 blockade, we found that high tumor mutation burden 
+(TMB) predicted improved objective response, durable benefit, and 
+progression-free survival. TMB was independent of PD-L1 expression and the 
+strongest feature associated with efficacy in multivariable analysis. The low 
+response rate in TMB low NSCLCs demonstrates that combination immunotherapy does 
+not overcome the negative predictive impact of low TMB. This study demonstrates 
+the association between TMB and benefit to combination immunotherapy in NSCLC. 
+TMB should be incorporated in future trials examining PD-(L)1 with CTLA-4 
+blockade in NSCLC.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="309~343" text="non-small-cell lung cancer (NSCLC)" experiment_type="tumour" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

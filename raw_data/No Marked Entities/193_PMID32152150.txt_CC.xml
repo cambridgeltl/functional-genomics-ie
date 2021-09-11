@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Systematic Establishment of Robustness and Standards in Patient-Derived 
+Xenograft Experiments and Analysis.
+
+Patient-derived xenografts (PDX) are tumor-in-mouse models for cancer. PDX 
+collections, such as the NCI PDXNet, are powerful resources for preclinical 
+therapeutic testing. However, variations in experimental and analysis procedures 
+have limited interpretability. To determine the robustness of PDX studies, the 
+PDXNet tested temozolomide drug response for three prevalidated PDX models 
+(sensitive, resistant, and intermediate) across four blinded PDX Development and 
+Trial Centers using independently selected standard operating procedures. Each 
+PDTC was able to correctly identify the sensitive, resistant, and intermediate 
+models, and statistical evaluations were concordant across all groups. We also 
+developed and benchmarked optimized PDX informatics pipelines, and these yielded 
+robust assessments across xenograft biological replicates. These studies show 
+that PDX drug responses and sequence results are reproducible across diverse 
+experimental protocols. In addition, we share the range of experimental 
+procedures that maintained robustness, as well as standardized cloud-based 
+workflows for PDX exome-sequencing and RNA-sequencing analyses and for 
+evaluating growth.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

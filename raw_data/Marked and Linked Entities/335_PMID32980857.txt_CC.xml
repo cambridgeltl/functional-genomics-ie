@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Endothelin 1-induced retinal ganglion cell death is largely mediated by JUN 
+activation.
+
+Glaucoma is a neurodegenerative disease characterized by loss of retinal 
+ganglion cells (RGCs), the output neurons of the retina. Multiple lines of 
+evidence show the endothelin (EDN, also known as ET) system is important in 
+glaucomatous neurodegeneration. To date, the molecular mechanisms within RGCs 
+driving EDN-induced RGC death have not been clarified. The pro-apoptotic 
+transcription factor JUN (the canonical target of JNK signaling) and the 
+endoplasmic reticulum stress effector and transcription factor DNA damage 
+inducible transcript 3 (DDIT3, also known as CHOP) have been shown to act 
+downstream of EDN receptors. Previous studies demonstrated that JUN and DDIT3 
+were important regulators of RGC death after glaucoma-relevant injures. Here, we 
+characterized EDN insult in vivo and investigated the role of JUN and DDIT3 in 
+EDN-induced RGC death. To accomplish this, EDN1 ligand was intravitreally 
+injected into the eyes of wildtype, Six3-cre+Junfl/fl (Jun-/-), Ddit3 null 
+(Ddit3-/-), and Ddit3-/-Jun-/- mice. Intravitreal EDN1 was sufficient to drive 
+RGC death in vivo. EDN1 insult caused JUN activation in RGCs, and deletion of 
+Jun from the neural retina attenuated RGC death after EDN insult. However, 
+deletion of Ddit3 did not confer significant protection to RGCs after EDN1 
+insult. These results indicate that EDN caused RGC death via a JUN-dependent 
+mechanism. In addition, EDN signaling is known to elicit potent 
+vasoconstriction. JUN signaling was shown to drive neuronal death after ischemic 
+insult. Therefore, the effects of intravitreal EDN1 on retinal vessel diameter 
+and hypoxia were explored. Intravitreal EDN1 caused transient retinal 
+vasoconstriction and regions of RGC and Müller glia hypoxia. Thus, it remains a 
+possibility that EDN elicits a hypoxic insult to RGCs, causing apoptosis via 
+JNK-JUN signaling. The importance of EDN-induced vasoconstriction and hypoxia in 
+causing RGC death after EDN insult and in models of glaucoma requires further 
+investigation.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1046~1072" text="Six3-cre+Junfl/fl (Jun-/-)" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1074~1096" text="Ddit3 null  (Ddit3-/-)" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1102~1116" text="Ddit3-/-Jun-/-" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1232~1271" text="deletion of  Jun from the neural retina" description="conditional knock out" />
+<PERTURBING_ACTION id="P4" spans="1321~1338" text="deletion of Ddit3" description="knock out" />
+<CONTEXT id="C0" spans="1117~1121" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1176~1183" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="1166~1169" text="RGC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1222~1226" text="RGCs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1283~1286" text="RGC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1380~1384" text="RGCs" experiment_type="cells" species="not stated" />
+<EFFECT id="E1" spans="1272~1282,1287~1292" text="attenuated ... death" phenotype="cell death" activity="decreases" />
+<EFFECT id="E3" spans="1159~1164,1170~1175" text="drive ... death" phenotype="cell death" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="deletion of  Jun from the neural retina" contextID="C4" contextText="RGC" effectID="E1" effectText="attenuated ... death" />
+</TAGS>
+</Genomics_ConceptTask>

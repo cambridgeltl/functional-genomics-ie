@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ZNNT1 long noncoding RNA induces autophagy to inhibit tumorigenesis of uveal 
+melanoma by regulating key autophagy gene expression.
+
+Long noncoding RNAs (lncRNAs) are proved to be critical regulators in numerous 
+cellular processes. However, the potential involvement of lncRNAs in 
+macroautophagy/autophagy is largely unknown. Autophagy is a highly regulated 
+cellular degradation system, and its dysregulation is involved in many human 
+diseases, including cancers. Here, we show that the lncRNA ZNNT1 is induced by 
+PP242 and MTORC1 selective inhibitor rapamycin in uveal melanoma (UM) cells. 
+Overexpression of ZNNT1 promotes autophagy by upregulating ATG12 expression, 
+whereas knockdown of ZNNT1 attenuates PP242-induced autophagy. Overexpression of 
+ZNNT1 inhibits tumorigenesis and the migration of UM cells, and knockdown of 
+ATG12 can partially rescue the ZNNT1-induced inhibition of UM tumorigenesis. In 
+summary, our study reveals that ZNNT1 acts as a potential tumor suppressor in UM 
+by inducing autophagy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="529~565" text="MTORC1 selective inhibitor rapamycin" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="597~620" text="Overexpression of ZNNT1" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="683~701" text="knockdown of ZNNT1" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P3" spans="738~762" text="Overexpression of  ZNNT1" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P4" spans="821~840" text="knockdown of  ATG12" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="569~594" text="uveal melanoma (UM) cells" context="transformed cells" />
+<CONTEXT id="C1" spans="807~815" text="UM cells" context="transformed cells" />
+<CONTEXT id="C2" spans="894~896" text="UM" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="630~639" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="727~736" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="772~785" text="tumorigenesis" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH3" spans="794~803" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH5" spans="897~910" text="tumorigenesis" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="621~629" text="promotes" effect="positive" />
+<EFFECT id="E1" spans="702~712" text="attenuates" effect="negative" />
+<EFFECT id="E2" spans="719~726" text="induced" effect="positive" />
+<EFFECT id="E3" spans="763~771" text="inhibits" effect="negative" />
+<EFFECT id="E4" spans="855~861" text="rescue" effect="rescues" />
+<EFFECT id="E5" spans="872~879" text="induced" effect="positive" />
+<EFFECT id="E6" spans="880~890" text="inhibition" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="Overexpression of  ZNNT1" contextID="C1" contextText="UM cells" effectID="E3" effectText="inhibits" phenotypeID="PH2" phenotypeText="tumorigenesis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="Overexpression of  ZNNT1" effectID="E3" effectText="inhibits" contextID="C1" contextText="UM cells" phenotypeID="PH3" phenotypeText="migration" />
+</TAGS>
+</Genomics_ConceptTask>

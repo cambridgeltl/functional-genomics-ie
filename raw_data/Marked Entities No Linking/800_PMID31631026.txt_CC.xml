@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Re-programing Chromatin with a Bifunctional LSD1/HDAC Inhibitor Induces 
+Therapeutic Differentiation in DIPG.
+
+H3K27M mutations resulting in epigenetic dysfunction are frequently observed in 
+diffuse intrinsic pontine glioma (DIPGs), an incurable pediatric cancer. We 
+conduct a CRISPR screen revealing that knockout of KDM1A encoding 
+lysine-specific demethylase 1 (LSD1) sensitizes DIPG cells to histone 
+deacetylase (HDAC) inhibitors. Consistently, Corin, a bifunctional inhibitor of 
+HDACs and LSD1, potently inhibits DIPG growth in vitro and in xenografts. 
+Mechanistically, Corin increases H3K27me3 levels suppressed by H3K27M histones, 
+and simultaneously increases HDAC-targeted H3K27ac and LSD1-targeted H3K4me1 at 
+differentiation-associated genes. Corin treatment induces cell death, cell-cycle 
+arrest, and a cellular differentiation phenotype and drives transcriptional 
+changes correlating with increased survival time in DIPG patients. These data 
+suggest a strategy for treating DIPG by simultaneously inhibiting LSD1 and 
+HDACs.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="308~372" text="knockout of KDM1A encoding  lysine-specific demethylase 1 (LSD1)" description="knock out" />
+<CONTEXT id="C0" spans="384~394" text="DIPG cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="522~526,534~542" text="DIPG ... in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="522~526,547~560" text="DIPG ... in xenografts" experiment_type="xenotransplantation" species="not stated" />
+<EFFECT id="E0" spans="513~521,527~533" text="inhibits ... growth" phenotype="tumour growth" activity="inhibits" />
+<EFFECT id="E1" spans="775~793" text="induces cell death" phenotype="cell death" activity="causes" />
+<EFFECT id="E2" spans="775~782,795~813" text="induces ... cell-cycle  arrest" activity="causes" phenotype="cell cycle arrest" />
+<EFFECT id="E3" spans="775~782,819~855" text="induces ... a cellular differentiation phenotype" activity="causes" phenotype="differentiation" />
+</TAGS>
+</Genomics_ConceptTask>

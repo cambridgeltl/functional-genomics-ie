@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Beta1 integrin inhibits apoptosis induced by cyclic stretch in annulus fibrosus 
+cells via ERK1/2 MAPK pathway.
+
+Low back pain is associated with intervertebral disc degeneration (IVDD) due to 
+cellular loss through apoptosis. Mechanical factors play an important role in 
+maintaining the survival of the annulus fibrosus (AF) cells and the deposition 
+of extracellular matrix. However, the mechanisms that excessive mechanical 
+forces lead to AF cell apoptosis are not clear. The present study was to look 
+for how AF cells sense mechanical changes. In vivo experiments, the involvement 
+of mechanoreceptors in apoptosis was examined by RT-PCR and/or immunoblotting in 
+the lumbar spine of rats subjected to unbalanced dynamic and static forces. In 
+vitro experiments, we investigated apoptotic signaling pathways in untransfected 
+and transfected AF cells with the lentivirus vector for rat β1 integrin 
+overexpression after cyclic stretch. Apoptosis in AF cells was assessed using 
+flow cytometry, Hoechst 33258 nuclear staining. Western blotting was used to 
+analyze expression of β1 integrin and caspase-3 and ERK1/2 MAPK signaling 
+molecules. In the rat IVDD model, unbalanced dynamic and static forces induced 
+apoptosis of disc cells, which corresponded to decreased expression of β1 
+integrin. Cyclic stretch-induced apoptosis in rat AF cells correlated with the 
+activation of caspase-3 and with decreased levels of β1 integrin and the 
+phosphorylation levels of ERK1/2 activation level. However, the overexpression 
+of β1 integrin in AF cells ameliorated cyclic stretch-induced apoptosis and 
+decreased caspase-3 activation. Furthermore, ERK1/2-specific inhibitor promotes 
+apoptosis in vector β1-infected AF cells. These results suggest that the 
+disruption of β1 integrin signaling may underlie disc cell apoptosis induced by 
+mechanical stress. Further work is necessary to fully elucidate the 
+pathophysiological mechanisms that underlie IVDD caused by unbalanced dynamic 
+and static forces.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="867~920" text="lentivirus vector for rat β1 integrin  overexpression" description="viral vector" />
+<PERTURBING_ACTION id="P1" spans="1511~1541" text="overexpression  of β1 integrin" description="increased expression level" />
+<CONTEXT id="C0" spans="675~695" text="lumbar spine of rats" experiment_type="organism" species="rat" />
+<CONTEXT id="C1" spans="849~857" text="AF cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="551~558" text="In vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C3" spans="1156~1159" text="rat" experiment_type="organism" species="rat" />
+<CONTEXT id="C4" spans="1231~1241" text="disc cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1339~1351" text="rat AF cells" experiment_type="cells" species="rat" />
+<CONTEXT id="C6" spans="1545~1553" text="AF cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C7" spans="1717~1725" text="AF cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1209~1227" text="induced  apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="1318~1335" text="induced apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E2" spans="1554~1565,1581~1598" text="ameliorated ... induced apoptosis" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E3" spans="1675~1694" text="promotes  apoptosis" phenotype="apoptosis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="overexpression  of β1 integrin" contextID="C6" contextText="AF cells" effectID="E2" effectText="ameliorated ... induced apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

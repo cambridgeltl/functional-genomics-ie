@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targetome analysis of chaperone-mediated autophagy in cancer cells.
+
+Chaperone-mediated autophagy (CMA) is a lysosomal degradation pathway of select 
+soluble proteins. Nearly one-third of the soluble proteins are predicted to be 
+recognized by this pathway, yet only a minor fraction of this proteome has been 
+identified as CMA substrates in cancer cells. Here, we undertook a quantitative 
+multiplex mass spectrometry approach to study the proteome of isolated lysosomes 
+in cancer cells during CMA-activated conditions. By integrating bioinformatics 
+analyses, we identified and categorized proteins of multiple cellular pathways 
+that were specifically targeted by CMA. Beyond verifying metabolic pathways, we 
+show that multiple components involved in select biological processes, including 
+cellular translation, was specifically targeted for degradation by CMA. In 
+particular, several proteins of the translation initiation complex were 
+identified as bona fide CMA substrates in multiple cancer cell lines of distinct 
+origin and we show that CMA suppresses cellular translation. We further show 
+that the identified CMA substrates display high expression in multiple primary 
+cancers compared to their normal counterparts. Combined, these findings uncover 
+cellular processes affected by CMA and reveal a new role for CMA in the control 
+of translation in cancer cells.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

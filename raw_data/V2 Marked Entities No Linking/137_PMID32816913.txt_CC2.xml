@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Slow-Cycling Cancer Stem Cells Regulate Progression and Chemoresistance in Colon 
+Cancer.
+
+Cancer chemoresistance is often attributed to the presence of cancer stem cell 
+(CSC)-like cells, but whether they are homogeneously chemoresistant remains 
+unclear. We previously showed that in colon tumors, a subpopulation of LGR5+ 
+CSC-like cells driven by TCF1 (TCF7), a Wnt-responsive transcription factor, 
+were responsible for tumorigenicity. Here we demonstrate that the tumorigenic 
+subpopulation of mouse LGR5+ cells exists in a slow-cycling state and identify a 
+unique 22-gene signature that characterizes these slow-cycling CSC. Seven of the 
+signature genes are specifically expressed in slow-cycling LGR5+ cells from 
+xenografted human colon tumors and are upregulated in colon cancer clinical 
+specimens. Among these seven, four genes (APCDD1, NOTUM, PROX1, and SP5) are 
+known to be direct Wnt target genes, and PROX1 was expressed in the invasive 
+fronts of colon tumors. PROX1 was activated by TCF1 to induce CDKN1C and 
+maintain a slow-cycling state in colon cancer organoids. Strikingly, PROX1 was 
+required for recurrent growth after chemotherapeutic treatment, suggesting that 
+inhibition of slow-cycling CSC by targeting the TCF1-PROX1-CDKN1C pathway is an 
+effective strategy to combat refractory colon cancer in combination with 
+conventional chemotherapy. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1064~1086" text="colon cancer organoids" context="organoid" />
+<CONTEXT id="C1" spans="724~754" text="xenografted human colon tumors" context="xenograft" />
+</TAGS>
+</Genomics_ConceptTask>

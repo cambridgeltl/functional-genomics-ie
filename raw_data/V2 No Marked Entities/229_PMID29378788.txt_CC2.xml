@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The degree of enhancer or promoter activity is reflected by the levels and 
+directionality of eRNA transcription.
+
+Gene expression is regulated by promoters, which initiate transcription, and 
+enhancers, which control their temporal and spatial activity. However, the 
+discovery that mammalian enhancers also initiate transcription questions the 
+inherent differences between enhancers and promoters. Here, we investigate the 
+transcriptional properties of enhancers during Drosophila embryogenesis using 
+characterized developmental enhancers. We show that while the timing of enhancer 
+transcription is generally correlated with enhancer activity, the levels and 
+directionality of transcription are highly varied among active enhancers. To 
+assess how this impacts function, we developed a dual transgenic assay to 
+simultaneously measure enhancer and promoter activities from a single element in 
+the same embryo. Extensive transgenic analysis revealed a relationship between 
+the direction of endogenous transcription and the ability to function as an 
+enhancer or promoter in vivo, although enhancer RNA (eRNA) production and 
+activity are not always strictly coupled. Some enhancers (mainly bidirectional) 
+can act as weak promoters, producing overlapping spatio-temporal expression. 
+Conversely, bidirectional promoters often act as strong enhancers, while 
+unidirectional promoters generally cannot. The balance between enhancer and 
+promoter activity is generally reflected in the levels and directionality of 
+eRNA transcription and is likely an inherent sequence property of the elements 
+themselves.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Genome-wide CRISPR Screens Reveal Host Factors Critical for SARS-CoV-2 
+Infection.
+
+Identification of host genes essential for severe acute respiratory syndrome 
+coronavirus 2 (SARS-CoV-2) infection may reveal novel therapeutic targets and 
+inform our understanding of coronavirus disease 2019 (COVID-19) pathogenesis. 
+Here we performed genome-wide CRISPR screens in Vero-E6 cells with SARS-CoV-2, 
+Middle East respiratory syndrome CoV (MERS-CoV), bat CoV HKU5 expressing the 
+SARS-CoV-1 spike, and vesicular stomatitis virus (VSV) expressing the SARS-CoV-2 
+spike. We identified known SARS-CoV-2 host factors, including the receptor ACE2 
+and protease Cathepsin L. We additionally discovered pro-viral genes and 
+pathways, including HMGB1 and the SWI/SNF chromatin remodeling complex, that are 
+SARS lineage and pan-coronavirus specific, respectively. We show that HMGB1 
+regulates ACE2 expression and is critical for entry of SARS-CoV-2, SARS-CoV-1, 
+and NL63. We also show that small-molecule antagonists of identified gene 
+products inhibited SARS-CoV-2 infection in monkey and human cells, demonstrating 
+the conserved role of these genetic hits across species. This identifies 
+potential therapeutic targets for SARS-CoV-2 and reveals SARS lineage-specific 
+and pan-CoV host factors that regulate susceptibility to highly pathogenic CoVs.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1072~1078,1089~1094" text="monkey ... cells" experiment_type="cells" species="other" />
+<CONTEXT id="C1" spans="1083~1094" text="human cells" experiment_type="cells" species="human" />
+</TAGS>
+</Genomics_ConceptTask>

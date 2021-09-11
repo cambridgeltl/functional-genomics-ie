@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[GABARAPs and LC3s have opposite roles in regulating ULK1 for autophagy 
+induction.
+
+ULK1 (unc-51 like autophagy activating kinase 1) is the key mediator of MTORC1 
+signaling to macroautophagy/autophagy. ULK1 functions as a protein complex by 
+interacting with ATG13, RB1CC1/FIP200, and ATG101. How the ULK1 complex is 
+regulated to trigger autophagy induction remains unclear. In this study, we have 
+determined roles of Atg8-family proteins (ATG8s) in regulating ULK1 activity and 
+autophagy. Using human cells depleted of each subfamily of ATG8, we found that 
+the GABARAP subfamily positively regulates ULK1 activity and phagophore and 
+autophagosome formation in response to starvation. In contrast, the LC3 
+subfamily negatively regulates ULK1 activity and phagophore formation. By 
+reconstituting ATG8-depleted cells with individual ATG8 members, we identified 
+GABARAP and GABARAPL1 as positive and LC3B and LC3C as negative regulators of 
+ULK1 activity. To address the role of ATG8 binding to ULK1, we mutated the LIR 
+of endogenous ULK1 to disrupt the ATG8-ULK1 interaction by genome editing. The 
+mutation drastically reduced the activity of ULK1, autophagic degradation of 
+SQSTM1, and phagophore formation in response to starvation. The mutation also 
+suppressed the formation and turnover of autophagosomes in response to 
+starvation. Similar to the mutation of the ULK1 LIR, disruption of the 
+ATG13-ATG8 interaction suppressed ULK1 activity and autophagosome formation. In 
+contrast, RB1CC1 did not show any specific binding to ATG8s, and mutation of its 
+LIR did not affect ULK1 activity. Together, this study demonstrates differential 
+binding and opposite regulation of the ULK1 complex by GABARAPs and LC3s, and an 
+important role of the ULK1- and ATG13-ATG8 interactions in autophagy 
+induction.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="512~546" text="depleted of each subfamily of ATG8" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="803~816" text="ATG8-depleted" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="788~802,823~827,868~875" text="reconstituting ... with ... GABARAP" description="increased expression level" />
+<PERTURBING_ACTION id="P3" spans="788~802,822~827,880~889" text="reconstituting ...  with ... GABARAPL1" description="increased expression level" />
+<PERTURBING_ACTION id="P5" spans="788~802,823~827,915~919" text="reconstituting ... with ... LC3C" description="increased expression level" />
+<PERTURBING_ACTION id="P6" spans="1010~1045,1083~1100" text="mutated the LIR  of endogenous ULK1 ... by genome editing" description="other" />
+<PERTURBING_ACTION id="P7" spans="1363~1387" text="mutation of the ULK1 LIR" description="other" />
+<PERTURBING_ACTION id="P9" spans="1499~1505,1554~1574" text="RB1CC1 ... mutation of its  LIR" description="other" />
+<PERTURBING_ACTION id="P10" spans="788~802,823~827,906~910" text="reconstituting ... with ... LC3B" description="increased expression level" />
+<CONTEXT id="C0" spans="500~511" text="human cells" experiment_type="cells" species="human" />
+<CONTEXT id="C1" spans="817~822" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1264~1319" text="suppressed the formation and turnover of autophagosomes" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E1" spans="1431~1441,1460~1483" text="suppressed ... autophagosome formation" phenotype="autophagy" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

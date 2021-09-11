@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[β2 Adrenergic-Neurotrophin Feedforward Loop Promotes Pancreatic Cancer.
+
+Catecholamines stimulate epithelial proliferation, but the role of sympathetic 
+nerve signaling in pancreatic ductal adenocarcinoma (PDAC) is poorly understood. 
+Catecholamines promoted ADRB2-dependent PDAC development, nerve growth factor 
+(NGF) secretion, and pancreatic nerve density. Pancreatic Ngf overexpression 
+accelerated tumor development in LSL-Kras+/G12D;Pdx1-Cre (KC) mice. ADRB2 
+blockade together with gemcitabine reduced NGF expression and nerve density, and 
+increased survival of LSL-Kras+/G12D;LSL-Trp53+/R172H;Pdx1-Cre (KPC) mice. 
+Therapy with a Trk inhibitor together with gemcitabine also increased survival 
+of KPC mice. Analysis of PDAC patient cohorts revealed a correlation between 
+brain-derived neurotrophic factor (BDNF) expression, nerve density, and 
+increased survival of patients on nonselective β-blockers. These findings 
+suggest that catecholamines drive a feedforward loop, whereby upregulation of 
+neurotrophins increases sympathetic innervation and local norepinephrine 
+accumulation.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="361~390" text="Pancreatic Ngf overexpression" description="conditional knock in" />
+<PERTURBING_ACTION id="P1" spans="425~453" text="LSL-Kras+/G12D;Pdx1-Cre (KC)" description="other" />
+<PERTURBING_ACTION id="P2" spans="571~617" text="LSL-Kras+/G12D;LSL-Trp53+/R172H;Pdx1-Cre (KPC)" description="other" />
+<PERTURBING_ACTION id="P3" spans="460~475" text="ADRB2  blockade" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="640~653" text="Trk inhibitor" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="275~279" text="PDAC" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="454~458" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="618~622" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="712~716" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="392~421" text="accelerated tumor development" phenotype="tumourigenesis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Pancreatic Ngf overexpression" contextID="C1" contextText="mice" effectID="E0" effectText="accelerated tumor development" />
+</TAGS>
+</Genomics_ConceptTask>

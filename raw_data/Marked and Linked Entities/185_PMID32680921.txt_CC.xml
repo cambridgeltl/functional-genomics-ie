@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[FTO Inhibition Enhances the Antitumor Effect of Temozolomide by Targeting 
+MYC-miR-155/23a Cluster-MXI1 Feedback Circuit in Glioma.
+
+Malignant glioma constitutes one of the fatal primary brain tumors in adults. 
+Such poor prognosis calls for a better understanding of cancer-related signaling 
+pathways of this disease. Here we elucidate a MYC-miRNA-MXI1 feedback loop that 
+regulates proliferation and tumorigenesis in glioma. MYC suppressed MXI1 
+expression via microRNA-155 (miR-155) and the microRNA-23a∼27a∼24-2 cluster 
+(miR-23a cluster), whereas MXI1, in turn, inhibited MYC expression by binding to 
+its promoter. Overexpression of miR-155 and the miR-23a cluster promoted 
+tumorigenesis in U87 glioma cells. Furthermore, fat mass and obesity-associated 
+protein (FTO), an N6-methyladenosine (m6A) RNA demethylase, regulated the loop 
+by targeting MYC. The ethyl ester form of meclofenamic acid (MA2) inhibited FTO 
+and enhanced the effect of the chemotherapy drug temozolomide on suppressing 
+proliferation of glioma cells and negatively regulated the loop. These data 
+collectively highlight a key regulatory circuit in glioma and provide potential 
+targets for clinical treatment. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="622~671" text="Overexpression of miR-155 and the miR-23a cluster" description="increased expression level" />
+<PERTURBING_ACTION id="P3" spans="861~922" text="The ethyl ester form of meclofenamic acid (MA2) inhibited FTO" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="699~715" text="U87 glioma cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1019~1031" text="glioma cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="672~695" text="promoted  tumorigenesis" phenotype="tumourigenesis" activity="increases" />
+<EFFECT id="E2" spans="928~936,989~1015" text="enhanced ... suppressing  proliferation" phenotype="proliferation" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Overexpression of miR-155 and the miR-23a cluster" contextID="C0" contextText="U87 glioma cells" effectID="E0" effectText="promoted  tumorigenesis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="The ethyl ester form of meclofenamic acid (MA2) inhibited FTO" contextID="C1" contextText="glioma cells" effectID="E2" effectText="enhanced ... suppressing  proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

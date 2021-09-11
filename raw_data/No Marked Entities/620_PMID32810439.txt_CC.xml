@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Elevated Calprotectin and Abnormal Myeloid Cell Subsets Discriminate Severe from 
+Mild COVID-19.
+
+Blood myeloid cells are known to be dysregulated in coronavirus disease 2019 
+(COVID-19), caused by SARS-CoV-2. It is unknown whether the innate myeloid 
+response differs with disease severity and whether markers of innate immunity 
+discriminate high-risk patients. Thus, we performed high-dimensional flow 
+cytometry and single-cell RNA sequencing of COVID-19 patient peripheral blood 
+cells and detected disappearance of non-classical CD14LowCD16High monocytes, 
+accumulation of HLA-DRLow classical monocytes (Human Leukocyte Antigen 
+- DR isotype), and release of massive amounts of calprotectin (S100A8/S100A9) in 
+severe cases. Immature CD10LowCD101-CXCR4+/- neutrophils with an 
+immunosuppressive profile accumulated in the blood and lungs, suggesting 
+emergency myelopoiesis. Finally, we show that calprotectin plasma level and a 
+routine flow cytometry assay detecting decreased frequencies of non-classical 
+monocytes could discriminate patients who develop a severe form of COVID-19, 
+suggesting a predictive value that deserves prospective evaluation.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

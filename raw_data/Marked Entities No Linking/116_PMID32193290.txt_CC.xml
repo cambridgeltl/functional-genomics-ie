@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Drug Sensitivity and Allele Specificity of First-Line Osimertinib Resistance 
+EGFR Mutations.
+
+Osimertinib, a mutant-specific third-generation EGFR tyrosine kinase inhibitor, 
+is emerging as the preferred first-line therapy for EGFR-mutant lung cancer, yet 
+resistance inevitably develops in patients. We modeled acquired resistance to 
+osimertinib in transgenic mouse models of EGFRL858R -induced lung adenocarcinoma 
+and found that it is mediated largely through secondary mutations in EGFR-either 
+C797S or L718V/Q. Analysis of circulating free DNA data from patients revealed 
+that L718Q/V mutations almost always occur in the context of an L858R driver 
+mutation. Therapeutic testing in mice revealed that both erlotinib and afatinib 
+caused regression of osimertinib-resistant C797S-containing tumors, whereas only 
+afatinib was effective on L718Q mutant tumors. Combination first-line 
+osimertinib plus erlotinib treatment prevented the emergence of secondary 
+mutations in EGFR. These findings highlight how knowledge of the specific 
+characteristics of resistance mutations is important for determining potential 
+subsequent treatment approaches and suggest strategies to overcome or prevent 
+osimertinib resistance in vivo. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="692~696" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="848~867" text="L718Q mutant tumors" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="747~760,800~806" text="regression of ... tumors" phenotype="tumour growth" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

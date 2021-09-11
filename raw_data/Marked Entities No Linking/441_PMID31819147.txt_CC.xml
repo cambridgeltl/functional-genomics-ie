@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Protein phosphatase 6 is a key factor regulating spermatogenesis.
+
+Protein phosphatase 6 (PP6) is a member of the PP2A-like subfamily, which plays 
+a critical role in many fundamental cellular processes. We recently reported 
+that PP6 is essential for female fertility. Here, we report that PP6 is involved 
+in meiotic recombination and that germ cell-specific deletion of PP6 by 
+Stra8-Cre causes defective spermatogenesis. The PP6-deficient spermatocytes were 
+arrested at the pachytene stage and defects in DSB repair and crossover 
+formation were observed, indicating that PP6 facilitated meiotic double-stranded 
+breaks (DSB) repair. Further investigations revealed that depletion of PP6 in 
+the germ cells affected chromatin relaxation, which was dependent on MAPK 
+pathway activity, consequently preventing programmed DSB repair factors from 
+being recruited to proper positions on the chromatin. Taken together, our 
+results demonstrate that PP6 has an important role in meiotic recombination and 
+male fertility.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="342~390" text="germ cell-specific deletion of PP6 by  Stra8-Cre" description="conditional knock out" />
+<PERTURBING_ACTION id="P1" spans="429~442" text="PP6-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="676~692" text="depletion of PP6" description="decreased expression level" />
+<CONTEXT id="C0" spans="443~456" text="spermatocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="701~711" text="germ cells" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

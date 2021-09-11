@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BDNF-mediated mitophagy alleviates high-glucose-induced brain microvascular 
+endothelial cell injury.
+
+Endothelial cell dysfunction and diabetic vascular complications are 
+intrinsically linked. Although BDNF plays a protective role in cerebral 
+microvascular complications caused by diabetes, the mechanisms of this activity 
+are not fully clear. In this study, we investigated the role of BDNF in the 
+hyperglycemic injury of BMECs and its associated intracellular signal 
+transduction pathways. BMECs were treated with 33 mM glucose to imitate the 
+endothelium under hyperglycemic conditions. The high-glucose treatment caused 
+cell dysfunction, as evaluated by oxidative stress and cell apoptosis, which 
+could be alleviated by BDNF. In addition, BDNF preserved mitochondrial function 
+as assessed by mPTP opening, mitochondrial membrane potential, calcium content, 
+and mitochondrial biogenesis markers. Western blot analysis of LC3-II, p62, and 
+TOMM20 and the detection of mRFP-GFP-LC3 adenovirus for autophagy flux revealed 
+that BDNF enhanced autophagy flux. Furthermore, BDNF activated mitophagy, which 
+was confirmed by the observed colocalization of LC3-II with BNIP3 and from 
+transmission electron microscopy observations. The HIF-1α/BNIP3 signaling 
+pathway was associated with BDNF/TrkB-induced mitophagy. In addition, 
+BDNF-induced mitophagy played a protective role against BMEC damage under 
+hyperglycemia. Thus, the results of this study suggest that 
+BDNF/TrkB/HIF-1α/BNIP3-mediated mitophagy protects BMECs from hyperglycemia.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="686~690" text="cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="691~700" text="apoptosis" phenotype="apoptosis" activity="not stated" />
+<EFFECT id="E1" spans="1043~1066" text="enhanced autophagy flux" phenotype="autophagy" activity="increases" />
+<EFFECT id="E2" spans="1086~1105" text="activated mitophagy" phenotype="mitophagy" activity="causes" />
+<EFFECT id="E3" spans="1303~1320" text="induced mitophagy" phenotype="mitophagy" activity="causes" />
+<EFFECT id="E4" spans="1341~1358" text="induced mitophagy" phenotype="mitophagy" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Innate Immune Training of Granulopoiesis Promotes Anti-tumor Activity.
+
+Trained innate immunity, induced via modulation of mature myeloid cells or their 
+bone marrow progenitors, mediates sustained increased responsiveness to 
+secondary challenges. Here, we investigated whether anti-tumor immunity can be 
+enhanced through induction of trained immunity. Pre-treatment of mice with 
+β-glucan, a fungal-derived prototypical agonist of trained immunity, resulted in 
+diminished tumor growth. The anti-tumor effect of β-glucan-induced trained 
+immunity was associated with transcriptomic and epigenetic rewiring of 
+granulopoiesis and neutrophil reprogramming toward an anti-tumor phenotype; this 
+process required type I interferon signaling irrespective of adaptive immunity 
+in the host. Adoptive transfer of neutrophils from β-glucan-trained mice to 
+naive recipients suppressed tumor growth in the latter in a ROS-dependent 
+manner. Moreover, the anti-tumor effect of β-glucan-induced trained 
+granulopoiesis was transmissible by bone marrow transplantation to recipient 
+naive mice. Our findings identify a novel and therapeutically relevant 
+anti-tumor facet of trained immunity involving appropriate rewiring of 
+granulopoiesis.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="372~376" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1063~1084" text="recipient  naive mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="465~488" text="diminished tumor growth" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E1" spans="869~892" text="suppressed tumor growth" phenotype="tumour growth" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A potent protective effect of baicalein on liver injury by regulating 
+mitochondria-related apoptosis.
+
+Liver injury is the early stage of liver disease, which is caused by multiple 
+factors. Baicalein has shown extensive bioactivity. But whether baicalein has a 
+protective effect on liver injury has not been reported thus far. In this study, 
+we aim to investigate the protective effects of baicalein on liver injury 
+induced by oxidative stress. H2O2 and CCl4 were employed to establish liver 
+injury models in vivo and in vitro, respectively. The protective effect of 
+baicalein on oxidative stress-induced liver injury was evaluated by detecting 
+the mitochondrial dynamics, the level of autophagy and apoptosis, the 
+histopathology of liver, the indicators of liver function, and the level of 
+oxidative stress in vitro and in vivo. March5 is the key regulator during liver 
+injury induced by oxidative stress. March5 can ubiquitinate Drp1 and promote 
+Drp1 degradation, then maintain the homeostasis of mitochondrial dynamics, keep 
+the balance of autophagy, and reduce apoptosis. Baicalein is able to effectively 
+reduce liver injury; it can contribute to the expression of March5 by regulating 
+KLF4 during liver injury. These results indicate that baicalein plays a key role 
+in salvaging liver from injury induced by oxidative stress via regulating the 
+KLF4-March5-Drp1 signal pathway.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C2" spans="818~826" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="831~838" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="491~496,512~519" text="liver ... in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C5" spans="491~496,524~532" text="liver ... in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="612~617" text="liver" experiment_type="organism" species="not stated" />
+<CONTEXT id="C7" spans="742~747" text="liver" experiment_type="organism" species="not stated" />
+<CONTEXT id="C8" spans="767~772" text="liver" experiment_type="organism" species="not stated" />
+<CONTEXT id="C9" spans="1217~1222" text="liver" experiment_type="organism" species="not stated" />
+<CONTEXT id="C10" spans="1130~1135" text="liver" experiment_type="organism" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Suppression of autophagy during mitosis via CUL4-RING ubiquitin ligases-mediated 
+WIPI2 polyubiquitination and proteasomal degradation.
+
+Macroautophagy/autophagy is a cellular process in which cytosolic contents are 
+degraded by lysosome in response to various stress conditions. Apart from its 
+role in the maintenance of cellular homeostasis, autophagy also involves in 
+regulation of cell cycle progression under nutrient-deprivation conditions. 
+However, whether and how autophagy is regulated by the cell cycle especially 
+during mitosis remains largely undefined. Here we show that WIPI2/ATG18B (WD 
+repeat domain, phosphoinositide interacting 2), an autophagy-related (ATG) 
+protein that plays a critical role in autophagosome biogenesis, is a direct 
+substrate of CUL4-RING ubiquitin ligases (CRL4s). Upon mitosis induction, CRL4s 
+are activated via neddylation, and recruit WIPI2 via DDB1 (damage specific DNA 
+binding protein 1), leading to polyubiquitination and proteasomal degradation of 
+WIPI2 and suppression of autophagy. The WIPI2 protein level and autophagy during 
+mitosis could be rescued by knockdown of CRL4s or treatment with 
+MLN4924/Pevonedistat, a selective inhibitor of CRLs, via suppression of NAE1 
+(NEDD8 activating enzyme E1 subunit 1). Moreover, restoration of WIPI2 rescues 
+autophagy during mitosis and leads to mitotic slippage and cell senescence. Our 
+study thus discovers a novel function of CRL4s in autophagy by targeting WIPI2 
+for polyubiquitination and proteasomal degradation during mitosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1112~1130" text="knockdown of CRL4s" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1134~1201" text="treatment with  MLN4924/Pevonedistat, a selective inhibitor of CRLs" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1367~1371" text="cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1012~1036" text="suppression of autophagy" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E1" spans="1066~1075,1092~1108" text="autophagy ... could be rescued" phenotype="autophagy" activity="increases" />
+<EFFECT id="E2" spans="1299~1317" text="rescues  autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E3" spans="1337~1345,1372~1382" text="leads to ... senescence" phenotype="senescence" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

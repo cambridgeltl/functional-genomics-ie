@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Small-Molecule Targeting of Oncogenic FTO Demethylase in Acute Myeloid Leukemia.
+
+FTO, an mRNA N6-methyladenosine (m6A) demethylase, was reported to promote 
+leukemogenesis. Using structure-based rational design, we have developed two 
+promising FTO inhibitors, namely FB23 and FB23-2, which directly bind to FTO and 
+selectively inhibit FTO's m6A demethylase activity. Mimicking FTO depletion, 
+FB23-2 dramatically suppresses proliferation and promotes the 
+differentiation/apoptosis of human acute myeloid leukemia (AML) cell line cells 
+and primary blast AML cells in vitro. Moreover, FB23-2 significantly inhibits 
+the progression of human AML cell lines and primary cells in xeno-transplanted 
+mice. Collectively, our data suggest that FTO is a druggable target and that 
+targeting FTO by small-molecule inhibitors holds potential to treat AML.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="246~260,269~284" text="FTO inhibitors ... FB23 and FB23-2" description="pharmacological inhibition" />
+<CONTEXT id="C1" spans="544~576" text="primary blast AML cells in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="488~538,568~576" text="human acute myeloid leukemia (AML) cell line cells ... in vitro" experiment_type="transformed cell line" species="human" />
+<CONTEXT id="C4" spans="638~658,677~703" text="human AML cell lines ... in xeno-transplanted  mice" experiment_type="xenotransplantation" species="human" />
+<CONTEXT id="C5" spans="663~703" text="primary cells in xeno-transplanted  mice" experiment_type="xenotransplantation" species="not stated" />
+<EFFECT id="E0" spans="416~440" text="suppresses proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E1" spans="445~474" text="promotes the  differentiation" phenotype="differentiation" activity="increases" />
+<EFFECT id="E2" spans="445~457,475~484" text="promotes the ... apoptosis" phenotype="apoptosis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

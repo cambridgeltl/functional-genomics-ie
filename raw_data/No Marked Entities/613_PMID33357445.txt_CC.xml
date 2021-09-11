@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Single-cell landscape of the ecosystem in early-relapse hepatocellular 
+carcinoma.
+
+
+Hepatocellular carcinoma (HCC) has high relapse and low 5-year survival rates. 
+Single-cell profiling in relapsed HCC may aid in the design of effective 
+anticancer therapies, including immunotherapies. We profiled the transcriptomes 
+of ∼17,000 cells from 18 primary or early-relapse HCC cases. Early-relapse 
+tumors have reduced levels of regulatory T cells, increased dendritic cells 
+(DCs), and increased infiltrated CD8+ T cells, compared with primary tumors, in 
+two independent cohorts. Remarkably, CD8+ T cells in recurrent tumors 
+overexpressed KLRB1 (CD161) and displayed an innate-like low cytotoxic state, 
+with low clonal expansion, unlike the classical exhausted state observed in 
+primary HCC. The enrichment of these cells was associated with a worse 
+prognosis. Differential gene expression and interaction analyses revealed 
+potential immune evasion mechanisms in recurrent tumor cells that dampen DC 
+antigen presentation and recruit innate-like CD8+ T cells. Our comprehensive 
+picture of the HCC ecosystem provides deeper insights into immune evasion 
+mechanisms associated with tumor relapse.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

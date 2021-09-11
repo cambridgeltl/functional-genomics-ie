@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RNA m(6) A modification enzymes shape innate responses to DNA by regulating 
+interferon β.
+
+Modification of mRNA by N 6-adenosine methylation (m6A) on internal bases 
+influences gene expression in eukaryotes. How the dynamic genome-wide landscape 
+of m6A-modified mRNAs impacts virus infection and host immune responses remains 
+poorly understood. Here, we show that type I interferon (IFN) production 
+triggered by dsDNA or human cytomegalovirus (HCMV) is controlled by the cellular 
+m6A methyltrasferase subunit METTL14 and ALKBH5 demethylase. While METTL14 
+depletion reduced virus reproduction and stimulated dsDNA- or HCMV-induced IFNB1 
+mRNA accumulation, ALKBH5 depletion had the opposite effect. Depleting METTL14 
+increased both nascent IFNB1 mRNA production and stability in response to dsDNA. 
+In contrast, ALKBH5 depletion reduced nascent IFNB1 mRNA production without 
+detectably influencing IFN1B mRNA decay. Genome-wide transcriptome profiling 
+following ALKBH5 depletion identified differentially expressed genes regulating 
+antiviral immune responses, while METTL14 depletion altered pathways impacting 
+metabolic reprogramming, stress responses, and aging. Finally, we determined 
+that IFNB1 mRNA was m6A-modified within both the coding sequence and the 3' 
+untranslated region (UTR). This establishes that the host m6A modification 
+machinery controls IFNβ production triggered by HCMV or dsDNA. Moreover, it 
+demonstrates that responses to nonmicrobial dsDNA in uninfected cells, which 
+shape host immunity and contribute to autoimmune disease, are regulated by 
+enzymes controlling m6A epitranscriptomic changes.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="552~570" text="METTL14  depletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="662~678" text="ALKBH5 depletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="704~721" text="Depleting METTL14" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="818~834" text="ALKBH5 depletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="970~986" text="ALKBH5 depletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P5" spans="1075~1092" text="METTL14 depletion" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SUMOylation of E2F1 Regulates Expression of EZH2.
+
+Elevated expression of EZH2, the enzymatic subunit of polycomb repressive 
+complex 2 (PRC2), often occurs in cancer. EZH2 expression results in the 
+silencing of genes that suppress tumor formation and metastasis through 
+trimethylation of histone H3 at lysine 27 (H3K27me3) at their promoters. 
+However, inhibitors of EZH2 enzymatic activity have not shown the expected 
+efficacy against cancer in clinical trials, suggesting a need for other 
+strategies to address EZH2 overexpression. Here, we show that SUMOylation, a 
+posttranslational modification characterized by covalent attachment of small 
+ubiquitin-like modifier (SUMO) proteins to a lysine (Lys) residue on target 
+proteins, enhances EZH2 transcription. Either knockdown of the SUMO-activating 
+enzyme SAE2 or pharmacologic inhibition of SUMOylation resulted in decreased 
+levels of EZH2 mRNA and protein as well as reduced H3K27me3 levels. SUMOylation 
+regulated EZH2 expression by enhancing binding of the E2F1 transcriptional 
+activator to the EZH2 promoter. Inhibition of SUMOylation not only resulted in 
+reduced EZH2 mRNA and protein levels but also increased expression of genes 
+silenced by EZH2, such as E-cadherin, which suppresses epithelial-mesenchymal 
+transition and metastasis. In more than 6,500 patient tumor samples across 
+different cancer types, expression of UBA2 and EZH2 was positively correlated. 
+Taken together, our findings suggest that inhibition of SUMOylation may serve as 
+a potential strategy to address EZH2 overexpression and improve current cancer 
+therapeutic approaches. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="775~820" text="knockdown of the SUMO-activating  enzyme SAE2" perturbingaction="rnai/knockdown" />
+</TAGS>
+</Genomics_ConceptTask>

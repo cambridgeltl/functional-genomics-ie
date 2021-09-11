@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The Interplay between Slow-Cycling, Chemoresistant Cancer Cells and Fibroblasts 
+Creates a Proinflammatory Niche for Tumor Progression.
+
+Quiescent cancer cells are believed to cause cancer progression after 
+chemotherapy through unknown mechanisms. We show here that human non-small cell 
+lung cancer (NSCLC) cell line-derived, quiescent-like, slow-cycling cancer cells 
+(SCC) and residual patient-derived xenograft (PDX) tumors after chemotherapy 
+experience activating transcription factor 6 (ATF6)-mediated upregulation of 
+various cytokines, which acts in a paracrine manner to recruit fibroblasts. 
+Cancer-associated fibroblasts (CAF) underwent transcriptional upregulation of 
+COX2 and type I collagen (Col-I), which subsequently triggered a slow-to-active 
+cycling switch in SCC through prostaglandin E2 (PGE2)- and integrin/Src-mediated 
+signaling pathways, leading to cancer progression. Both antagonism of ATF6 and 
+cotargeting of Src/COX2 effectively suppressed cytokine production and 
+slow-to-active cell cycling transition in SCC, withholding cancer progression. 
+Expression of COX2 and Col-I and activation of Src were observed in patients 
+with NSCLC who progressed while receiving chemotherapy. Public data analysis 
+revealed significant association between COL1A1 and SRC expression and NSCLC 
+relapse. Overall, these findings indicate that a proinflammatory niche created 
+by the interplay between SCC and CAF triggers tumor progression. SIGNIFICANCE: 
+Cotargeting COX2 and Src may be an effective strategy to prevent cancer 
+progression after chemotherapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="902~920" text="antagonism of ATF6" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="926~949" text="cotargeting of Src/COX2" description="other" />
+<CONTEXT id="C0" spans="267~326" text="human non-small cell  lung cancer (NSCLC) cell line-derived" experiment_type="transformed cell line" species="human" />
+<CONTEXT id="C1" spans="328~376" text="quiescent-like, slow-cycling cancer cells  (SCC)" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="390~428" text="patient-derived xenograft (PDX) tumors" experiment_type="xenotransplantation" species="human" />
+<CONTEXT id="C3" spans="604~639" text="Cancer-associated fibroblasts (CAF)" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="782~785" text="SCC" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C5" spans="1040~1043" text="SCC" experiment_type="tumour" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

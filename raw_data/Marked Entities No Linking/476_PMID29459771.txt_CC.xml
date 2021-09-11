@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Lactobacillus accelerates ISCs regeneration to protect the integrity of 
+intestinal mucosa through activation of STAT3 signaling pathway induced by LPLs 
+secretion of IL-22.
+
+The regeneration of intestinal epithelial are maintained by continuous 
+differentiation and proliferation of intestinal stem cells (ISCs) under 
+physiological and pathological conditions. However, little is known about the 
+regulatory effect of intestinal microbiota on its recovery ability to repair 
+damaged mucosal barrier. In this study, we established intestinal organoids and 
+lamina propria lymphocytes (LPLs) co-cultured system, plus mice experiments, to 
+explore the protective effect of Lactobacillus reuteri D8 on integrity of 
+intestinal mucosa. We found that only live L. reuteri D8 was effective in 
+protecting the morphology of intestinal organoids and normal proliferation of 
+epithelial stained with EdU under TNF-α treatment, which was also further 
+verified in mice experiments. L. reuteri D8 colonized in the intestinal mucosa 
+and ameliorated intestinal mucosa damage caused by DSS treatment, including 
+improvement of body weight, colon length, pathological change, and proliferation 
+level. The repair process stimulated by L. reuteri D8 was also accompanied with 
+increased numbers of Lgr5+ and lysozyme+ cells both in intestinal organoids and 
+mice intestine. Furthermore, we demonstrated that D8 metabolite 
+indole-3-aldehyde stimulated LPLs to secret IL-22 through aryl hydrocarbon 
+receptor (AhR) and then induced phosphorylation of STAT3 to accelerate 
+proliferation of intestinal epithelial, thus recovering damaged intestinal 
+mucosa. Our findings indicate L. reuteri protects intestinal barrier and 
+activates intestinal epithelial proliferation, which sheds light on treatment 
+approaches for intestinal inflammation based on ISCs with probiotics 
+Lactobacillus and daily probiotic consumption in heath foods.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="818~838" text="intestinal organoids" experiment_type="organoid culture" species="not stated" />
+<CONTEXT id="C1" spans="868~878" text="epithelial" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="955~959" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="1039~1056" text="intestinal mucosa" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="1318~1338" text="intestinal organoids" experiment_type="organoid culture" species="not stated" />
+<CONTEXT id="C5" spans="1344~1358" text="mice intestine" experiment_type="organism" species="mouse" />
+<CONTEXT id="C6" spans="1284~1309" text="Lgr5+ and lysozyme+ cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C7" spans="1438~1442" text="LPLs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C8" spans="1574~1595" text="intestinal epithelial" experiment_type="cells" species="not stated" />
+<CONTEXT id="C9" spans="1621~1639" text="intestinal  mucosa" experiment_type="organism" species="not stated" />
+<CONTEXT id="C10" spans="1717~1738" text="intestinal epithelial" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="789~799,850~863" text="protecting ... proliferation" phenotype="proliferation" activity="not stated" />
+<EFFECT id="E1" spans="1100~1114,1167~1180" text="improvement of ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E2" spans="1545~1570" text="accelerate  proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E3" spans="1707~1716,1739~1752" text="activates ... proliferation" phenotype="proliferation" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

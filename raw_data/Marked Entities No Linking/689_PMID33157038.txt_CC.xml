@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[β-Coronaviruses Use Lysosomes for Egress Instead of the Biosynthetic Secretory 
+Pathway.
+
+β-Coronaviruses are a family of positive-strand enveloped RNA viruses that 
+includes the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Much 
+is known regarding their cellular entry and replication pathways, but their mode 
+of egress remains uncertain. Using imaging methodologies and virus-specific 
+reporters, we demonstrate that β-coronaviruses utilize lysosomal trafficking for 
+egress rather than the biosynthetic secretory pathway more commonly used by 
+other enveloped viruses. This unconventional egress is regulated by the Arf-like 
+small GTPase Arl8b and can be blocked by the Rab7 GTPase competitive inhibitor 
+CID1067700. Such non-lytic release of β-coronaviruses results in lysosome 
+deacidification, inactivation of lysosomal degradation enzymes, and disruption 
+of antigen presentation pathways. β-Coronavirus-induced exploitation of 
+lysosomal organelles for egress provides insights into the cellular and 
+immunological abnormalities observed in patients and suggests new therapeutic 
+modalities.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="692~737" text="Rab7 GTPase competitive inhibitor  CID1067700" description="pharmacological inhibition" />
+</TAGS>
+</Genomics_ConceptTask>

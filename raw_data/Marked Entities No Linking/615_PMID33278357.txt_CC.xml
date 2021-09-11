@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Synergism of TNF-α and IFN-γ Triggers Inflammatory Cell Death, Tissue Damage, 
+and Mortality in SARS-CoV-2 Infection and Cytokine Shock Syndromes.
+
+COVID-19 is characterized by excessive production of pro-inflammatory cytokines 
+and acute lung damage associated with patient mortality. While multiple 
+inflammatory cytokines are produced by innate immune cells during SARS-CoV-2 
+infection, we found that only the combination of TNF-α and IFN-γ induced 
+inflammatory cell death characterized by inflammatory cell death, PANoptosis. 
+Mechanistically, TNF-α and IFN-γ co-treatment activated the JAK/STAT1/IRF1 axis, 
+inducing nitric oxide production and driving caspase-8/FADD-mediated PANoptosis. 
+TNF-α and IFN-γ caused a lethal cytokine shock in mice that mirrors the tissue 
+damage and inflammation of COVID-19, and inhibiting PANoptosis protected mice 
+from this pathology and death. Furthermore, treating with neutralizing 
+antibodies against TNF-α and IFN-γ protected mice from mortality during 
+SARS-CoV-2 infection, sepsis, hemophagocytic lymphohistiocytosis, and cytokine 
+shock. Collectively, our findings suggest that blocking the cytokine-mediated 
+inflammatory cell death signaling pathway identified here may benefit patients 
+with COVID-19 or other infectious and autoinflammatory diseases by limiting 
+tissue damage/inflammation.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="747~751" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="850~854" text="mice" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

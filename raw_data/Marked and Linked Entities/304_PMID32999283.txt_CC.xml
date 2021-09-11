@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Oxygen glucose deprivation/re-oxygenation-induced neuronal cell death is 
+associated with Lnc-D63785 m6A methylation and miR-422a accumulation.
+
+Oxygen glucose deprivation/re-oxygenation (OGD/R) induces neuronal injury via 
+mechanisms that are believed to mimic the pathways associated with brain 
+ischemia. In SH-SY5Y cells and primary murine neurons, we report that OGD/R 
+induces the accumulation of the microRNA miR-422a, leading to downregulation of 
+miR-422a targets myocyte enhancer factor-2D (MEF2D) and mitogen-activated 
+protein kinase kinase 6 (MAPKK6). Ectopic miR-422a inhibition attenuated 
+OGD/R-induced cell death and apoptosis, whereas overexpression of miR-422a 
+induced significant neuronal cell apoptosis. In addition, OGD/R decreased the 
+expression of the long non-coding RNA D63785 (Lnc-D63785) to regulate miR-422a 
+accumulation. Lnc-D63785 directly associated with miR-422a and overexpression of 
+Lnc-D63785 reversed OGD/R-induced miR-422a accumulation and neuronal cell death. 
+OGD/R downregulated Lnc-D63785 expression through increased 
+methyltransferase-like protein 3 (METTL3)-dependent Lnc-D63785 m6A methylation. 
+Conversely METTL3 shRNA reversed OGD/R-induced Lnc-D63785 m6A methylation to 
+decrease miR-422a accumulation. Together, Lnc-D63785 m6A methylation by OGD/R 
+causes miR-422a accumulation and neuronal cell apoptosis.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="565~592" text="Ectopic miR-422a inhibition" description="other" />
+<PERTURBING_ACTION id="P1" spans="653~679" text="overexpression of miR-422a" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="903~932" text="overexpression of  Lnc-D63785" description="increased expression level" />
+<PERTURBING_ACTION id="P3" spans="1157~1169" text="METTL3 shRNA" description="knock down" />
+<CONTEXT id="C0" spans="311~324" text="SH-SY5Y cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="329~351" text="primary murine neurons" experiment_type="primary culture" species="mouse" />
+<CONTEXT id="C2" spans="701~714" text="neuronal cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="982~995" text="neuronal cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1336~1349" text="neuronal cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="593~603,619~629" text="attenuated ... cell death" phenotype="cell death" activity="decreases" />
+<EFFECT id="E1" spans="593~603,634~643" text="attenuated ... apoptosis" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E2" spans="681~688,715~724" text="induced ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E4" spans="1303~1309,1350~1359" text="causes ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E5" spans="933~941,996~1001" text="reversed ... death" phenotype="cell death" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="overexpression of miR-422a" contextID="C2" contextText="neuronal cell" effectID="E2" effectText="induced ... apoptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="overexpression of  Lnc-D63785" contextID="C3" contextText="neuronal cell" effectID="E5" effectText="reversed ... death" />
+</TAGS>
+</Genomics_ConceptTask>

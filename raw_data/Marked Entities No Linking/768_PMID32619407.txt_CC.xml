@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Telomere Stress Potentiates STING-Dependent Anti-tumor Immunity.
+
+Telomerase is an attractive target for anti-tumor therapy as it is almost 
+universally expressed in cancer cells. Here, we show that treatment with a 
+telomere-targeting drug, 6-thio-2'-deoxyguanosine (6-thio-dG), leads to tumor 
+regression through innate and adaptive immune-dependent responses in syngeneic 
+and humanized mouse models of telomerase-expressing cancers. 6-thio-dG treatment 
+causes telomere-associated DNA damages that are sensed by dendritic cells (DCs) 
+and activates the host cytosolic DNA sensing STING/interferon I pathway, 
+resulting in enhanced cross-priming capacity of DCs and tumor-specific CD8+ 
+T cell activation. Moreover, 6-thio-dG overcomes resistance to checkpoint 
+blockade in advanced cancer models. Our results unveil how telomere stress 
+increases innate sensing and adaptive anti-tumor immunity and provide strong 
+rationales for combining telomere-targeting therapy with immunotherapy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="365~435" text="syngeneic  and humanized mouse models of telomerase-expressing cancers" experiment_type="tumour" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

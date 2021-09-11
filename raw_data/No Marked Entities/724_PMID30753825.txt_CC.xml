@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Distinct Immune Cell Populations Define Response to Anti-PD-1 Monotherapy and 
+Anti-PD-1/Anti-CTLA-4 Combined Therapy.
+
+Cancer immunotherapies provide survival benefits in responding patients, but 
+many patients fail to respond. Identifying the biology of treatment response and 
+resistance are a priority to optimize drug selection and improve patient 
+outcomes. We performed transcriptomic and immune profiling on 158 tumor biopsies 
+from melanoma patients treated with anti-PD-1 monotherapy (n = 63) or combined 
+anti-PD-1 and anti-CTLA-4 (n = 57). These data identified activated T cell 
+signatures and T cell populations in responders to both treatments. Further mass 
+cytometry analysis identified an EOMES+CD69+CD45RO+ effector memory T cell 
+phenotype that was significantly more abundant in responders to combined 
+immunotherapy compared with non-responders (n = 18). The gene expression profile 
+of this population was associated with longer progression-free survival in 
+patients treated with single agent and greater tumor shrinkage in both 
+treatments.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

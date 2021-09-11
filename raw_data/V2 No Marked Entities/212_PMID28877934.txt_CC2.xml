@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Identification of senescent cell surface targetable protein DPP4.
+
+Senescent cell accumulation in aging tissues is linked to age-associated 
+diseases and declining function, prompting efforts to eliminate them. Mass 
+spectrometry analysis revealed that DPP4 (dipeptidyl peptidase 4) was 
+selectively expressed on the surface of senescent, but not proliferating, human 
+diploid fibroblasts. Importantly, the differential presence of DPP4 allowed flow 
+cytometry-mediated isolation of senescent cells using anti-DPP4 antibodies. 
+Moreover, antibody-dependent cell-mediated cytotoxicity (ADCC) assays revealed 
+that the cell surface DPP4 preferentially sensitized senescent, but not 
+dividing, fibroblasts to cytotoxicity by natural killer cells. In sum, the 
+selective expression of DPP4 on the surface of senescent cells enables their 
+preferential elimination.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

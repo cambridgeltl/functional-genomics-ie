@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[GDF11 inhibits cardiomyocyte pyroptosis and exerts cardioprotection in acute 
+myocardial infarction mice by upregulation of transcription factor HOXA3.
+
+NLRP3 (Nucleotide-binding oligomerization domain-like receptor pyrin 
+domain-containing 3) inflammasome-mediated cardiomyocytes pyroptosis plays a 
+crucial part in progression of acute myocardial infarction (MI). GDF11 (Growth 
+Differentiation Factor 11) has been reported to generate cytoprotective effects 
+in phylogenesis and multiple diseases, but the mechanism that GDF11 contributes 
+to cardioprotection of MI and cardiomyocytes pyroptosis remains poorly 
+understood. In our study, we first determined that GDF11 was abnormally 
+downregulated in the heart tissue of MI mice and hypoxic cardiomyocytes. 
+Moreover, AAV9-GDF11 markedly alleviated heart function in MI mice. Meanwhile, 
+GDF11 overexpression also decreased the pyroptosis of hypoxic cardiomyocytes. 
+PROMO and JASPAR prediction software found that transcription factor HOXA3 was 
+predicted as an important regulator of NLRP3, and was confirmed by ChIP assay. 
+Further analysis identifying GDF11 promoted the Smad2/3 pathway resulted in 
+HOXA3 overexpression. Taken together, our study implies that GDF11 prevents 
+cardiomyocytes pyroptosis via HOXA3/NLRP3 signaling pathway in MI mice.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="772~782" text="AAV9-GDF11" description="viral vector" />
+<PERTURBING_ACTION id="P1" spans="842~862" text="GDF11 overexpression" description="increased expression level" />
+<CONTEXT id="C0" spans="821~828" text="MI mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="896~918" text="hypoxic cardiomyocytes" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="868~892" text="decreased the pyroptosis" phenotype="pyroptosis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="GDF11 overexpression" effectID="E0" effectText="decreased the pyroptosis" contextID="C1" contextText="hypoxic cardiomyocytes" />
+</TAGS>
+</Genomics_ConceptTask>

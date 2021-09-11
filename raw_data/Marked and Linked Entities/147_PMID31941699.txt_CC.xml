@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Activation of Canonical BMP4-SMAD7 Signaling Suppresses Breast Cancer 
+Metastasis.
+
+Metastasis is the major cause of death in patients with cancer; with no 
+therapeutic cure, treatments remain largely palliative. As such, new targets and 
+therapeutic strategies are urgently required. Here, we show that bone 
+morphogenetic protein-4 (BMP4) blocks metastasis in animal models of breast 
+cancer and predicts improved survival in patients. In preclinical models of 
+spontaneous metastasis, BMP4 acted as an autocrine mediator to modulate a range 
+of known metastasis-regulating genes, including Smad7, via activation of 
+canonical BMP-SMAD signaling. Restored BMP4 expression or therapeutically 
+administered BMP4 protein, blocked metastasis and increased survival by 
+sensitizing cancer cells to anoikis, thereby reducing the number of circulating 
+tumor cells. Gene silencing of Bmp4 or its downstream mediator Smad7, reversed 
+this phenotype. Administration of recombinant BMP4 markedly reduced spontaneous 
+metastasis to lung and bone. Elevated levels of BMP4 and SMAD7 were prognostic 
+for improved recurrence-free survival and overall survival in patients with 
+breast cancer, indicating the importance of canonical BMP4 signaling in the 
+suppression of metastasis and highlighting new avenues for therapy against 
+metastatic disease.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="649~673" text="Restored BMP4 expression" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="861~883" text="Gene silencing of Bmp4" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="861~878,911~916" text="Gene silencing of ... Smad7" description="knock down" />
+<CONTEXT id="C1" spans="779~791" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="848~859" text="tumor cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="721~739" text="blocked metastasis" phenotype="metastasis" activity="inhibits" />
+<EFFECT id="E1" spans="767~778,792~802" text="sensitizing ... to anoikis" phenotype="anoikis" activity="increases" />
+<EFFECT id="E2" spans="988~995,1009~1036" text="reduced ... metastasis to lung and bone" phenotype="metastasis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Restored BMP4 expression" contextID="C1" contextText="cancer cells" effectID="E0" effectText="blocked metastasis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Restored BMP4 expression" contextID="C1" contextText="cancer cells" effectID="E1" effectText="sensitizing ... to anoikis" />
+</TAGS>
+</Genomics_ConceptTask>

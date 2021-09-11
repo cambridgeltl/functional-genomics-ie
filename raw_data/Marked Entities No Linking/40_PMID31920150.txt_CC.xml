@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy-dependent ferroptosis drives tumor-associated macrophage polarization 
+via release and uptake of oncogenic KRAS protein.
+
+KRAS is the most frequently mutated oncogene in human neoplasia. Despite a large 
+investment to understand the effects of KRAS mutation in cancer cells, the 
+direct effects of the oncogenetic KRAS activation on immune cells remain 
+elusive. Here, we report that extracellular KRASG12D is essential for pancreatic 
+tumor-associated macrophage polarization. Oxidative stress induces KRASG12D 
+protein release from cancer cells succumbing to autophagy-dependent ferroptosis. 
+Extracellular KRASG12D packaged into exosomes then is taken up by macrophages 
+through an AGER-dependent mechanism. KRASG12D causes macrophages to switch to an 
+M2-like pro-tumor phenotype via STAT3-dependent fatty acid oxidation. 
+Consequently, the disruption of KRASG12D release and uptake can abolish the 
+macrophage-mediated stimulation of pancreatic adenocarcinomas in mouse models. 
+Importantly, the level of KRASG12D expression in macrophages correlates with 
+poor survival in pancreatic cancer patients. These findings not only identify 
+extracellular KRASG12D as a key mediator of cancer cell-macrophage 
+communication, but also provide a novel KRAS-targeted anticancer strategy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="544~556" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="979~991" text="mouse models" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

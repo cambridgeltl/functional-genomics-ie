@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Wild-Type p53 Promotes Cancer Metabolic Switch by Inducing PUMA-Dependent 
+Suppression of Oxidative Phosphorylation.
+
+The tumor suppressor p53 is somatically mutated in half of all human cancers. 
+Paradoxically, the wild-type p53 (WTp53) is often retained in certain human 
+cancers, such as hepatocarcinoma (HCC). We discovered a physiological and 
+oncogenic role of WTp53 in suppressing pyruvate-driven oxidative phosphorylation 
+by inducing PUMA. PUMA inhibits mitochondrial pyruvate uptake by disrupting the 
+oligomerization and function of mitochondrial pyruvate carrier (MPC) through 
+PUMA-MPC interaction, which depends on IκB kinase-mediated phosphorylation of 
+PUMA at Ser96/106. High expression levels of PUMA are correlated with decreased 
+mitochondrial pyruvate uptake and increased glycolysis in HCCs and poor 
+prognosis of HCC patients. These findings are instrumental for cancer drug 
+discovery aiming at activating WTp53 or restoring WTp53 activity to p53 mutants.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

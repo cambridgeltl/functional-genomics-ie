@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Single-cell analysis of pyroptosis dynamics reveals conserved GSDMD-mediated 
+subcellular events that precede plasma membrane rupture.
+
+Pyroptosis is rapidly emerging as a mechanism of anti-microbial host defense, 
+and of extracellular release of the inflammasome-dependent cytokines interleukin 
+(IL)-1β and IL-18, which contributes to autoinflammatory pathology. Caspases 1, 
+4, 5 and 11 trigger this regulated form of necrosis by cleaving the pyroptosis 
+effector gasdermin D (GSDMD), causing its pore-forming amino-terminal domain to 
+oligomerize and perforate the plasma membrane. However, the subcellular events 
+that precede pyroptotic cell lysis are ill defined. In this study, we triggered 
+primary macrophages to undergo pyroptosis from three inflammasome types and 
+recorded their dynamics and morphology using high-resolution live-cell spinning 
+disk confocal laser microscopy. Based on quantitative analysis of single-cell 
+subcellular events, we propose a model of pyroptotic cell disintegration that is 
+initiated by opening of GSDMD-dependent ion channels or pores that are more 
+restrictive than recently proposed GSDMD pores, followed by osmotic cell 
+swelling, commitment of mitochondria and other membrane-bound organelles prior 
+to sudden rupture of the plasma membrane and full permeability to intracellular 
+proteins. This study provides a dynamic framework for understanding cellular 
+changes that occur during pyroptosis, and charts a chronological sequence of 
+GSDMD-mediated subcellular events that define pyroptotic cell death at the 
+single-cell level.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="700~719" text="primary macrophages" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="723~741" text="undergo pyroptosis" phenotype="pyroptosis" activity="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TAK1 regulates endothelial cell necroptosis and tumor metastasis.
+
+Formation of metastases is the major cause of death in patients diagnosed with 
+cancer. It is a complex multistep process, including tumor cell migration, 
+intravasation, survival in the circulation, and extravasation. Previously it was 
+shown that tumor cell-induced endothelial necroptosis promotes tumor cell 
+extravasation and metastasis. Here, we identified endothelial TGF-β-activated 
+kinase 1 (TAK1) as a critical regulator of endothelial necroptosis and 
+metastasis. Human and murine endothelial cells lacking TAK1 exhibit higher 
+levels of necroptosis both in vitro and in vivo, and mice with endothelial 
+cell-specific loss of TAK1 are more prone to form metastases. Endothelial RIPK3, 
+a key component of the necroptotic machinery, was upregulated in mice with 
+endothelial TAK1-deficiency, and endothelial knockout of RIPK3 reverted the 
+effects of TAK1-deficiency. Moreover, altered expression levels of TAK1 and 
+RIPK3 in pulmonary endothelial cells of mice bearing primary tumors correlated 
+with increased endothelial necroptosis and metastasis. Together, our data 
+suggest an important protective role for endothelial TAK1 in tumor progression 
+by keeping endothelial necroptosis in check.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="578~590" text="lacking TAK1" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="670~709" text="endothelial  cell-specific loss of TAK1" description="conditional knock out" />
+<PERTURBING_ACTION id="P2" spans="841~868" text="endothelial TAK1-deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P3" spans="874~903" text="endothelial knockout of RIPK3" description="conditional knock out" />
+<PERTURBING_ACTION id="P4" spans="929~944" text="TAK1-deficiency" description="decreased expression level" />
+<CONTEXT id="C0" spans="543~548,560~577" text="Human ... endothelial cells" experiment_type="cells" species="human" />
+<CONTEXT id="C1" spans="553~577" text="murine endothelial cells" experiment_type="cells" species="mouse" />
+<CONTEXT id="C2" spans="634~642" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="647~654" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="660~664" text="mice" experiment_type="tumour" species="mouse" />
+<CONTEXT id="C5" spans="830~834" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="599~628" text="higher  levels of necroptosis" phenotype="necroptosis" activity="increases" />
+<EFFECT id="E1" spans="714~743" text="more prone to form metastases" phenotype="metastasis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="lacking TAK1" contextID="C0" contextText="Human ... endothelial cells" effectID="E0" effectText="higher  levels of necroptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="lacking TAK1" contextID="C1" contextText="murine endothelial cells" effectID="E0" effectText="higher  levels of necroptosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="endothelial  cell-specific loss of TAK1" contextID="C4" contextText="mice" effectID="E1" effectText="more prone to form metastases" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,32 @@
+{
+    "MODE": "train",
+    "VERBOSE": 3,
+    "MODEL": {
+        "TYPE": "pretrained",
+        "TRANSFORMER_MODEL": "dmis-lab/biobert-base-cased-v1.2",
+        "HEADS": {
+            "link": {"htype": "link", "num_labels": 1}
+        },
+        "TAG_CATEGORY_DEFINITIONS": "tag_categories.json",
+        "MAX_TOKEN_LENGTH": 512
+    },
+    "DATA": {
+        "PATH": "json_data/all_marked_test.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 1,
+        "BALANCE_CLASSES": 0.5
+    },
+    "TRAINING": {
+        "TRAINED_NAME": "DistilBERT_linking_test",
+        "OPTIMIZER_CLASS": "AdamW",
+        "OPTIMIZER_KWARGS": {
+            "lr": 3e-5,
+            "eps": 1e-8
+        },
+        "FULL_FINETUNING": true,
+        "EPOCHS": 1,
+        "MAX_GRAD_NORM": 1,
+        "RECOMBINATION_METHOD": "maximum",
+        "K_FOLDS": 2
+    }
+}

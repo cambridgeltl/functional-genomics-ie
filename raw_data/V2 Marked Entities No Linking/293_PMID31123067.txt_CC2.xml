@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Loss of TLE3 promotes the mitochondrial program in beige adipocytes and improves 
+glucose metabolism.
+
+Prolonged cold exposure stimulates the recruitment of beige adipocytes within 
+white adipose tissue. Beige adipocytes depend on mitochondrial oxidative 
+phosphorylation to drive thermogenesis. The transcriptional mechanisms that 
+promote remodeling in adipose tissue during the cold are not well understood. 
+Here we demonstrate that the transcriptional coregulator transducin-like 
+enhancer of split 3 (TLE3) inhibits mitochondrial gene expression in beige 
+adipocytes. Conditional deletion of TLE3 in adipocytes promotes mitochondrial 
+oxidative metabolism and increases energy expenditure, thereby improving glucose 
+control. Using chromatin immunoprecipitation and deep sequencing, we found that 
+TLE3 occupies distal enhancers in proximity to nuclear-encoded mitochondrial 
+genes and that many of these binding sites are also enriched for early B-cell 
+factor (EBF) transcription factors. TLE3 interacts with EBF2 and blocks its 
+ability to promote the thermogenic transcriptional program. Collectively, these 
+studies demonstrate that TLE3 regulates thermogenic gene expression in beige 
+adipocytes through inhibition of EBF2 transcriptional activity. Inhibition of 
+TLE3 may provide a novel therapeutic approach for obesity and diabetes.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="574~602" text="Conditional deletion of TLE3" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="606~616" text="adipocytes" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

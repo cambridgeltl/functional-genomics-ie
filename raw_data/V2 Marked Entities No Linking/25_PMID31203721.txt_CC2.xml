@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Inactivation of MTOR promotes autophagy-mediated epithelial injury in 
+particulate matter-induced airway inflammation.
+
+Particulate matter (PM) is able to induce airway epithelial injury, while the 
+detailed mechanisms remain unclear. Here we demonstrated that PM exposure 
+inactivated MTOR (mechanistic target of rapamycin kinase), enhanced 
+macroautophagy/autophagy, and impaired lysosomal activity in HBE (human 
+bronchial epithelial) cells and in mouse airway epithelium. Genetic or 
+pharmaceutical inhibition of MTOR significantly enhanced, while inhibition of 
+autophagy attenuated, PM-induced IL6 expression in HBE cells. Consistently, 
+club-cell-specific deletion of Mtor aggravated, whereas loss of Atg5 in 
+bronchial epithelium reduced, PM-induced airway inflammation. Interestingly, the 
+augmented inflammatory responses caused by MTOR deficiency were markedly 
+attenuated by blockage of downstream autophagy both in vitro and in vivo. 
+Mechanistically, the dysregulation of MTOR-autophagy signaling was partially 
+dependent on activation of upstream TSC2, and interacted with the TLR4-MYD88 to 
+orchestrate the downstream NFKB activity and to regulate the production of 
+inflammatory cytokines in airway epithelium. Moreover, inhibition of autophagy 
+reduced the expression of EPS15 and the subsequent endocytosis of PM. Taken 
+together, the present study provides a mechanistic explanation for how airway 
+epithelium localized MTOR-autophagy axis regulates PM-induced airway injury, 
+suggesting that activation of MTOR and/or suppression of autophagy in local 
+airway might be effective therapeutic strategies for PM-related airway 
+disorders.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="488~521" text="pharmaceutical inhibition of MTOR" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="644~679" text="club-cell-specific deletion of Mtor" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="700~737" text="loss of Atg5 in  bronchial epithelium" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="842~857" text="MTOR deficiency" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="404~443" text="HBE (human  bronchial epithelial) cells" context="cells" />
+<CONTEXT id="C1" spans="451~474" text="mouse airway epithelium" context="tissue/organ" />
+<CONTEXT id="C2" spans="618~627" text="HBE cells" context="cells" />
+<CONTEXT id="C3" spans="925~933" text="in vitro" context="in vitro" />
+<CONTEXT id="C4" spans="938~945" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="358~367" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="333~341" text="enhanced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

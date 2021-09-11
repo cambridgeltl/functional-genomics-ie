@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hypoxia-induced acetylation of PAK1 enhances autophagy and promotes brain 
+tumorigenesis via phosphorylating ATG5.
+
+Although the treatment of brain tumors by targeting kinase-regulated 
+macroautophagy/autophagy, is under investigation, the precise mechanism 
+underlying autophagy initiation and its significance in glioblastoma (GBM) 
+remains to be defined. Here, we report that PAK1 (p21 [RAC1] activated kinase 1) 
+is significantly upregulated and promotes GBM development. The Cancer Genome 
+Atlas analysis suggests that the oncogenic role of PAK1 in GBM is mainly 
+associated with autophagy. Subsequent experiments demonstrate that PAK1 indeed 
+serves as a positive modulator for hypoxia-induced autophagy in GBM. 
+Mechanistically, hypoxia induces ELP3-mediated PAK1 acetylation at K420, which 
+suppresses the dimerization of PAK1 and enhances its activity, thereby leading 
+to subsequent PAK1-mediated ATG5 (autophagy related 5) phosphorylation at the 
+T101 residue. This event not only protects ATG5 from ubiquitination-dependent 
+degradation but also increases the affinity between the ATG12-ATG5 complex and 
+ATG16L1 (autophagy related 16 like 1). Consequently, ELP3-dependent PAK1 (K420) 
+acetylation and PAK1-mediated ATG5 (T101) phosphorylation are required for 
+hypoxia-induced autophagy and brain tumorigenesis by promoting autophagosome 
+formation. Silencing PAK1 with shRNA or small molecule inhibitor FRAX597 
+potentially blocks autophagy and GBM growth. Furthermore, SIRT1-mediated 
+PAK1-deacetylation at K420 hinders autophagy and GBM growth. Clinically, the 
+levels of PAK1 (K420) acetylation significantly correlate with the expression of 
+ATG5 (T101) phosphorylation in GBM patients. Together, this report uncovers that 
+the acetylation modification and kinase activity of PAK1 plays an instrumental 
+role in hypoxia-induced autophagy initiation and maintaining GBM growth. 
+Therefore, PAK1 and its regulator in the autophagy pathway might represent 
+potential therapeutic targets for GBM treatment.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="1363~1388" text="Silencing PAK1 with shRNA" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1363~1382,1392~1424" text="Silencing PAK1 with ... small molecule inhibitor FRAX597" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="713~716" text="GBM" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="1304~1309" text="brain" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="1459~1462" text="GBM" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C3" spans="1549~1552" text="GBM" species="not stated" experiment_type="tumour" />
+<CONTEXT id="C4" spans="1883~1886" text="GBM" experiment_type="tumour" species="not stated" />
+<EFFECT id="E1" spans="1282~1299" text="induced autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E2" spans="661~683,700~709" text="positive modulator for ... autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E3" spans="1310~1323" text="tumorigenesis" phenotype="tumourigenesis" activity="not stated" />
+<EFFECT id="E4" spans="1327~1361" text="promoting autophagosome  formation" phenotype="autophagy" activity="increases" />
+<EFFECT id="E5" spans="1438~1454" text="blocks autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E7" spans="1527~1544" text="hinders autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E9" spans="1846~1866" text="autophagy initiation" activity="causes" phenotype="autophagy" />
+<EFFECT id="E10" spans="1871~1882,1887~1893" text="maintaining ... growth" activity="not stated" phenotype="tumour growth" />
+<EFFECT id="E11" spans="1527~1534,1553~1559" text="hinders ... growth" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E12" spans="1438~1444,1463~1469" text="blocks ... growth" phenotype="tumour growth" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Silencing PAK1 with shRNA" contextID="C2" contextText="GBM" effectID="E5" effectText="blocks autophagy" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="Silencing PAK1 with shRNA" contextID="C2" contextText="GBM" effectID="E12" effectText="blocks ... growth" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P3" perturbing_actionText="Silencing PAK1 with ... small molecule inhibitor FRAX597" contextID="C2" contextText="GBM" effectID="E5" effectText="blocks autophagy" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P3" perturbing_actionText="Silencing PAK1 with ... small molecule inhibitor FRAX597" contextID="C2" contextText="GBM" effectID="E12" effectText="blocks ... growth" />
+</TAGS>
+</Genomics_ConceptTask>

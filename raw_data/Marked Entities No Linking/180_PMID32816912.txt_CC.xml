@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Extracellular Vesicle-Derived miR-124 Resolves Radiation-Induced Brain Injury.
+
+Radiation-induced cognitive dysfunction (RICD) is a progressive and debilitating 
+health issue facing patients following cranial radiotherapy to control central 
+nervous system cancers. There has been some success treating RICD in rodents 
+using human neural stem cell (hNSC) transplantation, but the procedure is 
+invasive, requires immunosuppression, and could cause other complications such 
+as teratoma formation. Extracellular vesicles (EV) are nanoscale membrane-bound 
+structures that contain biological contents including mRNA, miRNA, proteins, and 
+lipids that can be readily isolated from conditioned culture media. It has been 
+previously shown that hNSC-derived EV resolves RICD following cranial 
+irradiation using an immunocompromised rodent model. Here, we use 
+immunocompetent wild-type mice to show that hNSC-derived EV treatment 
+administered either intravenously via retro-orbital vein injection or via 
+intracranial transplantation can ameliorate cognitive deficits following 9 Gy 
+head-only irradiation. Cognitive function assessed on the novel place 
+recognition, novel object recognition, and temporal order tasks was not only 
+improved at early (5 weeks) but also at delayed (6 months) postirradiation times 
+with just a single EV treatment. Improved behavioral outcomes were also 
+associated with reduced neuroinflammation as measured by a reduction in 
+activated microglia. To identify the mechanism of action, analysis of EV cargo 
+implicated miRNA (miR-124) as a potential candidate in the mitigation of RICD. 
+Furthermore, viral vector-mediated overexpression of miR-124 in the irradiated 
+brain ameliorated RICD and reduced microglial activation. Our findings 
+demonstrate for the first time that systemic administration of hNSC-derived EV 
+abrogates RICD and neuroinflammation in cranially irradiated wild-type rodents 
+through a mechanism involving miR-124.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1632~1679" text="viral vector-mediated overexpression of miR-124" description="viral vector" />
+<CONTEXT id="C0" spans="857~887" text="immunocompetent wild-type mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1699~1704" text="brain" experiment_type="organism" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

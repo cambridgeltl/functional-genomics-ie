@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Arsenic trioxide induces macrophage autophagy and atheroprotection by regulating 
+ROS-dependent TFEB nuclear translocation and AKT/mTOR pathway.
+
+Inducing autophagy and inhibiting apoptosis may provide a therapeutic treatment 
+for atherosclerosis (AS). For the treatment of progressive AS, arsenic trioxide 
+(ATO) has been used to coat vascular stents. However, the effect of ATO on 
+autophagy of macrophages is still unknown. Therefore, the aims of this study 
+were to characterize the effects and the mechanism of actions of ATO on 
+autophagy in macrophages. Our results showed that ATO-induced activation of 
+autophagy was an earlier event than ATO-induced inhibition of the expression of 
+apoptosis markers in macrophages and foam cells. Nuclear transcription factor EB 
+(TFEB) prevents atherosclerosis by activating macrophage autophagy and promoting 
+lysosomal biogenesis. Here, we report that ATO triggered the nuclear 
+translocation of TFEB, which in turn promoted autophagy and 
+autophagosome-lysosome fusion. Both the latter events were prevented by TFEB 
+knockdown. Moreover, ATO decreased the p-AKT and p-mTOR in the PI3K/AKT/mTOR 
+signaling pathway, thus inducing autophagy. Correspondingly, treatment with the 
+autophagy inhibitor 3-methyladenine (3-MA) abolished the autophagy-inducing 
+effects of ATO. Meanwhile, PI3K inhibitor (LY294002) and mTOR inhibitor 
+(rapamycin) cooperated with ATO to induce autophagy. Furthermore, reactive 
+oxygen species (ROS) were generated in macrophages after treatment with ATO. The 
+ROS scavenger N-acetyl-1-cysteine (NAC) abolished ATO-induced nuclear 
+translocation of TFEB, as well as changes in key molecules of the AKT/mTOR 
+signaling pathway and downstream autophagy. More importantly, ATO promoted 
+autophagy in the aorta of ApoE-/- mice and reduced atherosclerotic lesions in 
+early AS, which were reversed by 3-MA treatment. In summary, our data indicated 
+that ATO promoted ROS induction, which resulted in nuclear translocation of TFEB 
+and inhibition of the PI3K/AKT/mTOR pathway. These actions ultimately promoted 
+macrophage autophagy and reduced atherosclerotic lesions at early stages. These 
+findings may provide a new perspective for the clinical treatment of early-stage 
+atherosclerosis and should be further studied.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1060~1075" text="TFEB  knockdown" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1359~1386" text="mTOR inhibitor  (rapamycin)" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1782~1789" text="ApoE-/-" description="knock out" />
+<CONTEXT id="C0" spans="714~725" text="macrophages" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="730~740" text="foam cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1490~1501" text="macrophages" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1773~1781,1790~1794" text="aorta of ... mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C4" spans="2078~2088" text="macrophage" experiment_type="cells" species="not stated" />
+<EFFECT id="E2" spans="964~982" text="promoted autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E3" spans="597~621" text="activation of  autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E4" spans="1168~1186" text="inducing autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E5" spans="1410~1426" text="induce autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E6" spans="1746~1765" text="promoted  autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E7" spans="2068~2076,2089~2098" text="promoted ... autophagy" phenotype="autophagy" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

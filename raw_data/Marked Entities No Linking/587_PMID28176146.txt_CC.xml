@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Centchroman induces redox-dependent apoptosis and cell-cycle arrest in human 
+endometrial cancer cells.
+
+Centchroman (CC) or Ormeloxifene has been shown to induce apoptosis and cell 
+cycle arrest in various types of cancer cells. This has, however, not been 
+addressed for endometrial cancer cells where its (CC) mechanism of action 
+remains unclear. This study focuses on the basis of antineoplasticity of CC by 
+blocking the targets involved in the cell cycle, survival and apoptosis in 
+endometrial cancer cells. Ishikawa Human Endometrial Cancer Cells were cultured 
+under estrogen deprived medium, exposed to CC and analyzed for proliferation and 
+apoptosis. Additionally, we also analyzed oxidative stress induced by CC. Cell 
+viability studies confirmed the IC50 of CC in Ishikawa cells to be 20 µM after 
+48 h treatment. CC arrests the cells in G0/G1 phase through cyclin D1 and cyclin 
+E mediated pathways. Phosphatidylserine externalization, nuclear morphology 
+changes, DNA fragmentation, PARP cleavage, and alteration of Bcl-2 family 
+protein expression clearly suggest ongoing apoptosis in the CC treated cells. 
+Activation of caspase 3 & 9, up-regulation of AIF and inhibition of apoptosis by 
+z-VAD-fmk clearly explains the participation of the intrinsic pathway of 
+programmed cell death. Further, the increase of ROS, loss of MMP, inhibition of 
+antioxidant (MnSOD, Cu/Zn-SOD and GST) and inhibition of apoptosis with L-NAC 
+suggests CC induced oxidative stress leading to apoptosis via mitochondria 
+mediated pathway. Therefore, CC could be a potential therapeutic agent for the 
+treatment of Endometrial Cancer adjunct to its utility as a contraceptive and an 
+anti-breast cancer agent.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="844~849" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1118~1123" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E1" spans="1082~1099" text="ongoing apoptosis" phenotype="apoptosis" activity="not stated" />
+<EFFECT id="E2" spans="832~839,850~864" text="arrests ... in G0/G1 phase" phenotype="cell cycle arrest" activity="causes" />
+<EFFECT id="E3" spans="1180~1203" text="inhibition of apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E4" spans="1406~1429" text="inhibition of apoptosis" phenotype="apoptosis" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

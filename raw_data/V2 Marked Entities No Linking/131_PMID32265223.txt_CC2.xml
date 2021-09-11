@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Tumor-Derived Prostaglandin E2 Promotes p50 NF-κB-Dependent Differentiation of 
+Monocytic MDSCs.
+
+Myeloid-derived suppressor cells (MDSC) include immature monocytic (M-MDSC) and 
+granulocytic (PMN-MDSC) cells that share the ability to suppress adaptive 
+immunity and to hinder the effectiveness of anticancer treatments. Of note, in 
+response to IFNγ, M-MDSCs release the tumor-promoting and immunosuppressive 
+molecule nitric oxide (NO), whereas macrophages largely express antitumor 
+properties. Investigating these opposing activities, we found that tumor-derived 
+prostaglandin E2 (PGE2) induces nuclear accumulation of p50 NF-κB in M-MDSCs, 
+diverting their response to IFNγ toward NO-mediated immunosuppression and 
+reducing TNFα expression. At the genome level, p50 NF-κB promoted binding of 
+STAT1 to regulatory regions of selected IFNγ-dependent genes, including 
+inducible nitric oxide synthase (Nos2). In agreement, ablation of p50 as well as 
+pharmacologic inhibition of either the PGE2 receptor EP2 or NO production 
+reprogrammed M-MDSCs toward a NOS2low/TNFαhigh phenotype, restoring the in vivo 
+antitumor activity of IFNγ. Our results indicate that inhibition of the 
+PGE2/p50/NO axis prevents MDSC-suppressive functions and restores the efficacy 
+of anticancer immunotherapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="927~942" text="ablation of p50" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="955~1011" text="pharmacologic inhibition of either the PGE2 receptor EP2" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1043~1050" text="M-MDSCs" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

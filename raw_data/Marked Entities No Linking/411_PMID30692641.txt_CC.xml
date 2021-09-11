@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Inhibition of EZH2 induces NK cell-mediated differentiation and death 
+in muscle-invasive bladder cancer.
+
+Lysine-specific demethylase 6A (KDM6A) and members of the Switch/Sucrose 
+Non-Fermentable (SWI/SNF) family are known to counteract the activity of 
+Enhancer of Zeste Homolog 2 (EZH2), which is often overexpressed and is 
+associated with poor prognosis in muscle-invasive bladder cancer. Here we 
+provide evidence that alterations in chromatin modifying enzymes, including 
+KDM6A and members of the SWI/SNF complex, are frequent in muscle-invasive 
+bladder cancer. We exploit the loss of function mutations in KDM6A and SWI/SNF 
+complex to make bladder cancer cells susceptible to EZH2-based epigenetic 
+therapy that activates an immune response to drive tumor cell differentiation 
+and death. We reveal a novel mechanism of action of EZH2 inhibition, alone and 
+in combination with cisplatin, which induces immune signaling with the largest 
+changes observed in interferon gamma (IFN-γ). This upregulation is a result of 
+activated natural killer (NK) signaling as demonstrated by the increase in NK 
+cell-associated genes MIP-1α, ICAM1, ICAM2, and CD86 in xenografts treated with 
+EZH2 inhibitors. Conversely, EZH2 inhibition results in decreased expression of 
+pluripotency markers, ALDH2 and CK5, and increased cell death. Our results 
+reveal a novel sensitivity of muscle-invasive bladder cancer cells with KMD6A 
+and SWI/SNF mutations to EZH2 inhibition alone and in combination with 
+cisplatin. This sensitivity is mediated through increased NK cell-related 
+signaling resulting in tumor cell differentiation and cell death.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1189~1204" text="EZH2 inhibitors" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1218~1233" text="EZH2 inhibition" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1450~1465" text="EZH2 inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1164~1174" text="xenografts" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C1" spans="1376~1412" text="muscle-invasive bladder cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="651~671" text="bladder cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="761~771" text="tumor cell" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="1311~1331" text="increased cell death" phenotype="cell death" activity="increases" />
+<EFFECT id="E1" spans="755~760,772~787" text="drive ... differentiation" phenotype="differentiation" activity="increases" />
+<EFFECT id="E2" spans="755~760,793~798" text="drive ... death" phenotype="cell death" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

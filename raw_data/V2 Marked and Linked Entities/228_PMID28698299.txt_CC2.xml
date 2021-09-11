@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Neat1 is a p53-inducible lincRNA essential for transformation suppression.
+
+The p53 gene is mutated in over half of all cancers, reflecting its critical 
+role as a tumor suppressor. Although p53 is a transcriptional activator that 
+induces myriad target genes, those p53-inducible genes most critical for tumor 
+suppression remain elusive. Here, we leveraged p53 ChIP-seq (chromatin 
+immunoprecipitation [ChIP] combined with high-throughput sequencing) and RNA-seq 
+(RNA sequencing) data sets to identify new p53 target genes, focusing on the 
+noncoding genome. We identify Neat1, a noncoding RNA (ncRNA) constituent of 
+paraspeckles, as a p53 target gene broadly induced by mouse and human p53 in 
+different cell types and by diverse stress signals. Using fibroblasts derived 
+from Neat1-/- mice, we examined the functional role of Neat1 in the p53 pathway. 
+We found that Neat1 is dispensable for cell cycle arrest and apoptosis in 
+response to genotoxic stress. In sharp contrast, Neat1 plays a crucial role in 
+suppressing transformation in response to oncogenic signals. Neat1 deficiency 
+enhances transformation in oncogene-expressing fibroblasts and promotes the 
+development of premalignant pancreatic intraepithelial neoplasias (PanINs) and 
+cystic lesions in KrasG12D-expressing mice. Neat1 loss provokes global changes 
+in gene expression, suggesting a mechanism by which its deficiency promotes 
+neoplasia. Collectively, these findings identify Neat1 as a p53-regulated large 
+intergenic ncRNA (lincRNA) with a key role in suppressing transformation and 
+cancer initiation, providing fundamental new insight into p53-mediated tumor 
+suppression.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="783~791" text="Neat1-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1076~1092" text="Neat1 deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1269~1288" text="KrasG12D-expressing" perturbingaction="other" />
+<PERTURBING_ACTION id="P3" spans="1295~1305" text="Neat1 loss" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="757~768" text="fibroblasts" context="cells" />
+<CONTEXT id="C1" spans="792~796" text="mice" context="organism" />
+<CONTEXT id="C2" spans="1121~1152" text="oncogene-expressing fibroblasts" context="cells" />
+<CONTEXT id="C3" spans="1289~1293" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="899~916" text="cell cycle arrest" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH1" spans="921~930" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1027~1041" text="transformation" phenotype="transformation" />
+<PHENOTYPE id="PH3" spans="1103~1117" text="transformation" phenotype="transformation" />
+<PHENOTYPE id="PH4" spans="1408~1417" text="neoplasia" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="1015~1026" text="suppressing" effect="negative" />
+<EFFECT id="E1" spans="1094~1102" text="enhances" effect="positive" />
+<EFFECT id="E2" spans="1398~1406" text="promotes" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Neat1 deficiency" contextID="C2" contextText="oncogene-expressing fibroblasts" effectID="E1" effectText="enhances" phenotypeID="PH3" phenotypeText="transformation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Surfactant protein D delays Fas- and TRAIL-mediated extrinsic pathway of 
+apoptosis in T cells.
+
+Only a few extracellular soluble proteins are known to modulate apoptosis. We 
+considered that surfactant-associated protein D (SP-D), an innate immune 
+collectin present on many mucosal surfaces, could regulate apoptosis. Although 
+SP-D is known to be important for immune cell homeostasis, whether SP-D affects 
+apoptosis is unknown. In this study we aimed to determine the effects of SP-D on 
+Jurkat T cells and human T cells dying by apoptosis. Here we show that SP-D 
+binds to Jurkat T cells and delays the progression of Fas (CD95)-Fas ligand and 
+TRAIL-TRAIL receptor induced, but not TNF-TNF receptor-mediated apoptosis. SP-D 
+exerts its effects by reducing the activation of initiator caspase-8 and 
+executioner caspase-3. SP-D also delays the surface exposure of 
+phosphatidylserine. The effect of SP-D was ablated by the presence of caspase-8 
+inhibitor, but not by intrinsic pathway inhibitors. The binding ability of SP-D 
+to dying cells decreases during the early stages of apoptosis, suggesting the 
+release of apoptotic cell surface targets during apoptosis. SP-D also delays 
+FasL-induced death of primary human T cells. SP-D delaying the progression of 
+the extrinsic pathway of apoptosis could have important implications in 
+regulating immune cell homeostasis at mucosal surfaces.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="941~961" text="caspase-8  inhibitor" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="579~593" text="Jurkat T cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1036~1047" text="dying cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1212~1233" text="primary human T cells" experiment_type="primary culture" species="not stated" />
+<EFFECT id="E0" spans="1182~1188,1195~1208" text="delays ... induced death" phenotype="cell death" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

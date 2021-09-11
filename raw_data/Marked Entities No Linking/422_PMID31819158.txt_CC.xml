@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Prohibitin levels regulate OMA1 activity and turnover in neurons.
+
+The GTPase OPA1 and the AAA-protease OMA1 serve well-established roles in 
+mitochondrial stress responses and mitochondria-initiated cell death. In 
+addition to its role in mitochondrial membrane fusion, cristae structure, and 
+bioenergetic function, OPA1 controls apoptosis by sequestering cytochrome c (cyt 
+c) in mitochondrial cristae. Cleavage of functional long OPA1 (L-OPA1) isoforms 
+by OMA1 inactivates mitochondrial fusion and primes apoptosis. OPA1 cleavage is 
+regulated by the prohibitin (PHB) complex, a heteromeric, ring-shaped 
+mitochondrial inner membrane scaffolding complex composed of PHB1 and PHB2. In 
+neurons, PHB plays a protective role against various stresses, and PHB deletion 
+destabilizes OPA1 causing neurodegeneration. While deletion of OMA1 prevents 
+OPA1 destabilization and attenuates neurodegeneration in PHB2 KO mice, how PHB 
+levels regulate OMA1 is still unknown. Here, we investigate the effects of 
+modulating neuronal PHB levels on OMA1 stability and OPA1 cleavage. We 
+demonstrate that PHB promotes OMA1 turnover, effectively decreasing the pool of 
+OMA1. Further, we show that OMA1 binds to cardiolipin (CL), a major 
+mitochondrial phospholipid. CL binding promotes OMA1 turnover, as we show that 
+deleting the CL-binding domain of OMA1 decreases its turnover rate. Since PHB is 
+known to stabilize CL, these data suggest that PHB modulates OMA1 through CL. 
+Furthermore, we show that PHB decreases cyt c release induced by tBID and 
+attenuates caspase 9 activation in response to hypoxic stress in neurons. Taken 
+together, our results suggest that PHB-mediated CL stabilization regulates 
+stress responses and cell death through OMA1 turnover and cyt c release.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1307~1345" text="deleting the CL-binding domain of OMA1" description="other" />
+</TAGS>
+</Genomics_ConceptTask>

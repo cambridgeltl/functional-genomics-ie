@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[DEPTOR is a direct p53 target that suppresses cell growth and chemosensitivity.
+
+DEP-domain containing mTOR-interacting protein (DEPTOR), a natural mTOR 
+inhibitor, has essential roles in several processes, including cell growth, 
+metabolism, apoptosis, and immunity. DEPTOR expression has been shown to be 
+diversely controlled at transcriptional levels in cell- and context-specific 
+manners. However, whether there is a general mechanism for the regulation of 
+DEPTOR expression remains largely unknown. Here, we report that DEPTOR is a 
+downstream target of the tumor suppressor, p53, whose activity is positively 
+correlated with DEPTOR expression both in vitro in cell cultures and in vivo in 
+mouse tissues. Mechanistically, p53 directly binds to the DEPTOR promoter and 
+transactivates its expression. Depletion of the p53-binding site on the DEPTOR 
+promoter by CRISPR-Cas9 technology decreases DEPTOR expression and promotes cell 
+proliferation and survival by activating AKT signaling. Importantly, inhibition 
+of AKT by small molecular inhibitors or genetic knockdown abrogates the 
+induction of cell growth and survival induced by deletion of the p53-binding 
+region on the DEPTOR promoter. Furthermore, p53, upon activation by the 
+genotoxic agent doxorubicin, induces DEPTOR expression, leading to cancer cell 
+resistance to doxorubicin. Together, DEPTOR is a direct p53 downstream target 
+and contributes to p53-mediated inhibition of cell proliferation, survival, and 
+chemosensitivity.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="810~893" text="Depletion of the p53-binding site on the DEPTOR  promoter by CRISPR-Cas9 technology" description="other" />
+<PERTURBING_ACTION id="P1" spans="1010~1058" text="inhibition  of AKT by small molecular inhibitors" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1010~1031,1062~1079" text="inhibition  of AKT by ... genetic knockdown" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1144~1202" text="deletion of the p53-binding  region on the DEPTOR promoter" description="other" />
+<CONTEXT id="C0" spans="935~939" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1313~1324" text="cancer cell" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E1" spans="926~934,941~954" text="promotes ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E2" spans="926~934,959~967" text="promotes ... survival" phenotype="cell survival" activity="increases" />
+<EFFECT id="E3" spans="1080~1119" text="abrogates the  induction of cell growth" phenotype="cell growth" activity="decreases" />
+<EFFECT id="E5" spans="1080~1089,1124~1132" text="abrogates ... survival" phenotype="cell survival" activity="decreases" />
+<EFFECT id="E6" spans="1124~1140" text="survival induced" phenotype="cell survival" activity="causes" />
+<EFFECT id="E7" spans="1095~1119" text="induction of cell growth" phenotype="cell growth" activity="causes" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Depletion of the p53-binding site on the DEPTOR  promoter by CRISPR-Cas9 technology" contextID="C0" contextText="cell" effectID="E1" effectText="promotes ... proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Depletion of the p53-binding site on the DEPTOR  promoter by CRISPR-Cas9 technology" contextID="C0" contextText="cell" effectID="E2" effectText="promotes ... survival" />
+</TAGS>
+</Genomics_ConceptTask>

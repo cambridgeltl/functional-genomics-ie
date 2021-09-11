@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The circular RNA ACR attenuates myocardial ischemia/reperfusion injury by 
+suppressing autophagy via modulation of the Pink1/ FAM65B pathway.
+
+Dysregulated autophagy is associated with many pathological disorders such as 
+cardiovascular diseases. Emerging evidence has suggested that circular RNAs 
+(circRNAs) have important roles in some biological processes. However, it 
+remains unclear whether circRNAs participate in the regulation of autophagy. 
+Here we report that a circRNA, termed autophagy-related circular RNA (ACR), 
+represses autophagy and myocardial infarction by targeting Pink1-mediated 
+phosphorylation of FAM65B. ACR attenuates autophagy and cell death in 
+cardiomyocytes. Moreover, ACR protects the heart from ischemia/reperfusion (I/R) 
+injury and reduces myocardial infarct sizes. We identify Pink1 as an ACR target 
+to mediate the function of ACR in cardiomyocyte autophagy. ACR activates Pink1 
+expression through directly binding to Dnmt3B and blocking Dnmt3B-mediated DNA 
+methylation of Pink1 promoter. Pink1 suppresses autophagy and Pink1 transgenic 
+mice show reduced myocardial infarction sizes. Further, we find that FAM65B is a 
+downstream target of Pink1 and Pink1 phosphorylates FAM65B at serine 46. 
+Phosphorylated FAM65B inhibits autophagy and cell death in the heart. Our 
+findings reveal a novel role for the circRNA in regulating autophagy and 
+ACR-Pink1-FAM65B axis as a regulator of autophagy in the heart will be potential 
+therapeutic targets in treatment of cardiovascular diseases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1060~1076" text="Pink1 transgenic" description="increased expression level" />
+<CONTEXT id="C0" spans="1078~1082" text="mice" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

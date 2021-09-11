@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Thermostable mRNA Vaccine against COVID-19.
+
+There is an urgent need for vaccines against coronavirus disease 2019 (COVID-19) 
+because of the ongoing SARS-CoV-2 pandemic. Among all approaches, a messenger 
+RNA (mRNA)-based vaccine has emerged as a rapid and versatile platform to 
+quickly respond to this challenge. Here, we developed a lipid 
+nanoparticle-encapsulated mRNA (mRNA-LNP) encoding the receptor binding domain 
+(RBD) of SARS-CoV-2 as a vaccine candidate (called ARCoV). Intramuscular 
+immunization of ARCoV mRNA-LNP elicited robust neutralizing antibodies against 
+SARS-CoV-2 as well as a Th1-biased cellular response in mice and non-human 
+primates. Two doses of ARCoV immunization in mice conferred complete protection 
+against the challenge of a SARS-CoV-2 mouse-adapted strain. Additionally, ARCoV 
+is manufactured as a liquid formulation and can be stored at room temperature 
+for at least 1 week. ARCoV is currently being evaluated in phase 1 clinical 
+trials.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="636~640" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="645~664" text="non-human  primates" experiment_type="organism" species="other" />
+<CONTEXT id="C2" spans="701~705" text="mice" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

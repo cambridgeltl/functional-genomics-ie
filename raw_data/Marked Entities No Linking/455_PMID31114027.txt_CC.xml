@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[UBAP2L arginine methylation by PRMT1 modulates stress granule assembly.
+
+Stress granules (SGs) are discrete assemblies of stalled messenger 
+ribonucleoprotein complexes (mRNPs) that form when eukaryotic cells encounter 
+environmental stress. RNA-binding proteins (RBPs) mediate their condensation by 
+recruiting populations of mRNPs. However, the cellular and molecular mechanisms 
+underlying the role of ubiquitin-associated protein 2-like (UBAP2L) in the 
+regulation of SG dynamics remain elusive. Here, we show that UBAP2L is required 
+for both SG assembly and disassembly. UBAP2L overexpression nucleated SGs under 
+stress-null conditions. The UBAP2L Arg-Gly-Gly (RGG) motif was required for SG 
+competence, and mediated the recruitment of SG components, including mRNPs, 
+RBPs, and ribosomal subunits. The domain of unknown function (DUF) of 
+UBAP2L-mediated interaction with ras GTPase-activating protein-binding protein 
+(G3BP)1/2, and its deletion caused the cytoplasmic-nuclear transport of UBAP2L 
+and G3BP1/2, thereby compromising SG formation. The protein arginine 
+methyltransferase PRMT1 asymmetrically dimethylated UBAP2L by targeting the RGG 
+motif. Increased arginine methylation blocked, whereas its decrease enhanced 
+UBAP2L interactions with SG components, ablating and promoting SG assembly, 
+respectively. These results provide new insights into the mechanisms by which 
+UBAP2L regulates SG dynamics and RNA metabolism.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="577~598" text="UBAP2L overexpression" description="increased expression level" />
+</TAGS>
+</Genomics_ConceptTask>

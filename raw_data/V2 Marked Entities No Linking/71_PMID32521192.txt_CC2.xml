@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MERIT, a cellular system coordinating lysosomal repair, removal and replacement.
+
+Membrane integrity is essential for cellular survival and function. The spectrum 
+of mechanisms protecting cellular and intracellular membranes is not fully 
+known. Our recent work has uncovered a cellular system termed MERIT for 
+lysosomal membrane repair, removal and replacement. Specifically, lysosomal 
+membrane damage induces, in succession, ESCRT-dependent membrane repair, 
+macroautophagy/autophagy-dominant removal of damaged lysosomes, and initiation 
+of lysosomal biogenesis via transcriptional programs. The MERIT system is 
+governed by galectins, a family of cytosolically synthesized lectins recognizing 
+β-galactoside glycans. We found in this study that LGALS3 (galectin 3) detects 
+membrane damage by detecting exposed lumenal glycosyl groups, recruits and 
+organizes ESCRT components PDCD6IP/ALIX, CHMP4A, and CHMPB at damaged sites on 
+the lysosomes, and facilitates ESCRT-driven repair of lysosomal membrane. At 
+later stages, LGALS3 cooperates with TRIM16, an autophagy receptor-regulator, to 
+engage autophagy machinery in removal of excessively damaged lysosomes. In the 
+absence of LGALS3, repair and autophagy are less efficient, whereas TFEB nuclear 
+translocation increases to compensate lysosomal deficiency via de novo lysosomal 
+biogenesis. The MERIT system protects endomembrane integrity against a broad 
+spectrum of agents damaging the endolysosomal network including lysosomotropic 
+drugs, Mycobacterium tuberculosis, or neurotoxic MAPT/tau.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1177~1194" text="absence of LGALS3" perturbingaction="gene loss-of-function" />
+<PHENOTYPE id="PH0" spans="1207~1216" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="1221~1235" text="less efficient" effect="no effect" />
+</TAGS>
+</Genomics_ConceptTask>

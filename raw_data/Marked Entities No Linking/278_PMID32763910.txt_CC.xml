@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[miR760 regulates ATXN1 levels via interaction with its 5' untranslated region.
+
+Identifying modifiers of dosage-sensitive genes involved in neurodegenerative 
+disorders is imperative to discover novel genetic risk factors and potential 
+therapeutic entry points. In this study, we focus on Ataxin-1 (ATXN1), a 
+dosage-sensitive gene involved in the neurodegenerative disease spinocerebellar 
+ataxia type 1 (SCA1). While the precise maintenance of ATXN1 levels is essential 
+to prevent disease, the mechanisms that regulate ATXN1 expression remain largely 
+unknown. We demonstrate that ATXN1's unusually long 5' untranslated region (5' 
+UTR) negatively regulates its expression via posttranscriptional mechanisms. 
+Based on recent reports that microRNAs (miRNAs) can interact with both 3' and 5' 
+UTRs to regulate their target genes, we identify miR760 as a negative regulator 
+that binds to a conserved site in ATXN1's 5' UTR to induce RNA degradation and 
+translational inhibition. We found that delivery of Adeno-associated virus 
+(AAV)-expressing miR760 in the cerebellum reduces ATXN1 levels in vivo and 
+mitigates motor coordination deficits in a mouse model of SCA1. These findings 
+provide new insights into the regulation of ATXN1 levels, present additional 
+evidence for miRNA-mediated gene regulation via 5' UTR binding, and raise the 
+possibility that noncoding mutations in the ATXN1 locus may act as risk factors 
+for yet to be discovered progressive ataxias.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="997~1056" text="delivery of Adeno-associated virus  (AAV)-expressing miR760" description="viral vector" />
+<CONTEXT id="C0" spans="1064~1074,1096~1103" text="cerebellum ... in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C1" spans="1152~1171" text="mouse model of SCA1" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

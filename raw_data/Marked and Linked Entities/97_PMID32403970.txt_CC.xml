@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MLKL contributes to Western diet-induced liver injury through inhibiting 
+autophagy.
+
+Macroautophagy/autophagy is critical in maintaining cellular functions and 
+homeostasis. Dynamic regulation of autophagy is associated with development of 
+nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis 
+(NASH); however, the mechanisms involved in the regulation of autophagy in 
+NAFLD/NASH are not well understood. Here we discuss our recent work identifying 
+MLKL as an important nexus between autophagy and necroptosis in models of 
+NAFLD/NASH. Mlkl, but not Ripk3, deficiency protects mice from Western 
+diet-induced liver injury. Mlkl deficiency also prevents the accumulation of 
+SQSTM1/p62 and LC3-II in liver in response to Western diet feeding or challenge 
+with the protease inhibitor leupeptin. Western diet increases expression, 
+phosphorylation and oligomerization of MLKL. In hepatocytes, palmitic acid (PA) 
+induces the expression and translocation of MLKL to autophagosomes prior to the 
+plasma membrane. Importantly, Mlkl, but not Ripk3, deficiency prevents the 
+inhibition of autophagy by PA or chloroquine in hepatocytes. In contrast, 
+overexpression of Mlkl blocks autophagic flux. Importantly, inhibition of 
+autophagy by leupeptin or chloroquine triggers MLKL translocation to the plasma 
+membrane, suggesting that MLKL is intimately involved in the regulation of 
+autophagy under multiple conditions. These data indicate that MLKL contributes 
+to Western diet-induced liver injury through inhibition of autophagy and 
+induction of necroptosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="561~565,582~592" text="Mlkl ... deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="575~580,581~592" text="Ripk3 ...  deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="648~663" text="Mlkl deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P3" spans="1047~1051,1068~1078" text="Mlkl ... deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="1061~1066,1068~1078" text="Ripk3 ... deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P5" spans="1168~1190" text="overexpression of Mlkl" description="increased expression level" />
+<CONTEXT id="C0" spans="602~606" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="903~914" text="hepatocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1141~1152" text="hepatocytes" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1079~1116" text="prevents the  inhibition of autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E1" spans="1191~1213" text="blocks autophagic flux" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E2" spans="1228~1252" text="inhibition of  autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E3" spans="1385~1409" text="regulation of  autophagy" phenotype="autophagy" activity="regulates" />
+<EFFECT id="E4" spans="1525~1548" text="inhibition of autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E5" spans="1554~1578" text="induction of necroptosis" phenotype="necroptosis" activity="causes" />
+<EFFECT id="E6" spans="1057~1060,1079~1116" text="not ... prevents the  inhibition of autophagy" phenotype="autophagy" activity="no effect" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="Mlkl ... deficiency" contextID="C2" contextText="hepatocytes" effectID="E0" effectText="prevents the  inhibition of autophagy" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P4" perturbing_actionText="Ripk3 ... deficiency" contextID="C2" contextText="hepatocytes" effectID="E6" effectText="not ... prevents the  inhibition of autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

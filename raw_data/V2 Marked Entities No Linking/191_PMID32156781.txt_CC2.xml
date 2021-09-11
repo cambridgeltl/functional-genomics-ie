@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BRD4 Levels Determine the Response of Human Lung Cancer Cells to BET Degraders 
+That Potently Induce Apoptosis through Suppression of Mcl-1.
+
+Lung cancer consists of approximately 80% non-small cell lung cancer (NSCLC) and 
+20% small cell lung cancer (SCLC) and remains the leading cause of 
+cancer-related deaths worldwide despite advances in early diagnosis, targeted 
+therapy, and immunotherapy. Thus, novel therapies are still urgently needed. 
+Bromodomain and extraterminal (BET) proteins, primarily comprised of BRD2, BRD3, 
+and BRD4 proteins, function as epigenetic readers and master transcription 
+coactivators and are now recognized cancer therapeutic targets. BET degraders 
+such as ZBC260 and dBET represent a novel class of BET inhibitors that act by 
+inducing BET degradation. The current study demonstrates the therapeutic 
+efficacies of BET degraders, particularly ZBC260, against lung cancer, as well 
+as understanding the underlying mechanisms and identifying molecular markers 
+that determine cell sensitivity to BET degraders. A panel of NSCLC cell lines 
+possessed similar response patterns to ZBC260 and dBET but different responses 
+to BET inhibitor JQ-1. BRD levels, particularly BRD4, correlated positively with 
+high sensitivity to BET degraders but not to JQ-1. BET degraders potently 
+induced apoptosis in sensitive NSCLC cells and were accompanied by reduction of 
+Mcl-1 and c-FLIP levels, which are critical for mediating induction of apoptosis 
+and enhancement of TRAIL-induced apoptosis. Accordingly, ZBC260 exerted more 
+potent activity than JQ-1 in vivo against the growth of NSCLC xenografts and 
+patient-derived xenografts. These findings warrant future clinical validation of 
+the efficacy of BET degraders in NSCLC, particularly those with high levels of 
+BRD proteins, especially BRD4. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1058~1074" text="NSCLC cell lines" context="transformed cells" />
+<CONTEXT id="C1" spans="1344~1355" text="NSCLC cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1580~1587" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="1610~1626" text="NSCLC xenografts" context="xenograft" />
+<CONTEXT id="C4" spans="1632~1658" text="patient-derived xenografts" context="xenograft" />
+<PHENOTYPE id="PH0" spans="1321~1330" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1313~1320" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

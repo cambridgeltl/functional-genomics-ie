@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Excessive phospholipid peroxidation distinguishes ferroptosis from other cell 
+death modes including pyroptosis.
+
+Lipid peroxidation (LPO) drives ferroptosis execution. However, LPO has been 
+shown to contribute also to other modes of regulated cell death (RCD). To 
+clarify the role of LPO in different modes of RCD, we studied in a comprehensive 
+approach the differential involvement of reactive oxygen species (ROS), 
+phospholipid peroxidation products, and lipid ROS flux in the major prototype 
+modes of RCD viz. apoptosis, necroptosis, ferroptosis, and pyroptosis. LC-MS 
+oxidative lipidomics revealed robust peroxidation of three classes of 
+phospholipids during ferroptosis with quantitative predominance of 
+phosphatidylethanolamine species. Incomparably lower amounts of phospholipid 
+peroxidation products were found in any of the other modes of RCD. Nonetheless, 
+a strong increase in lipid ROS levels was detected in non-canonical pyroptosis, 
+but only during cell membrane rupture. In contrast to ferroptosis, lipid ROS 
+apparently was not involved in non-canonical pyroptosis execution nor in the 
+release of IL-1β and IL-18, while clear dependency on CASP11 and GSDMD was 
+observed. Our data demonstrate that ferroptosis is the only mode of RCD that 
+depends on excessive phospholipid peroxidation for its cytotoxicity. In 
+addition, our results also highlight the importance of performing kinetics and 
+using different methods to monitor the occurrence of LPO. This should open the 
+discussion on the implication of particular LPO events in relation to different 
+modes of RCD.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

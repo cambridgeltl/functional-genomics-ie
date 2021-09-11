@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Neuropathy-causing mutations in HSPB1 impair autophagy by disturbing the 
+formation of SQSTM1/p62 bodies.
+
+HSPB1 (heat shock protein family B [small] member 1) is a ubiquitously expressed 
+molecular chaperone. Most mutations in HSPB1 cause axonal Charcot-Marie-Tooth 
+neuropathy and/or distal hereditary motor neuropathy. In this study we show that 
+mutations in HSPB1 lead to impairment of macroautophagic/autophagic flux. In 
+HSPB1 knockout cells, we demonstrate that HSPB1 is necessary for autophagosome 
+formation, which was rescued upon re-expression of HSPB1. Employing a label-free 
+LC-MS/MS analysis on the various HSPB1 variants (wild type and mutants), we 
+identified autophagy-specific interactors. We reveal that the wild-type HSPB1 
+protein binds to the autophagy receptor SQSTM1/p62 and that the PB1 domain of 
+SQSTM1 is essential for this interaction. Mutations in HSPB1 lead to a decrease 
+in the formation of SQSTM1/p62 bodies, and subsequent impairment of phagophore 
+formation, suggesting a regulatory role for HSPB1 in autophagy via interaction 
+with SQSTM1. Remarkably, autophagy deficits could also be confirmed in 
+patient-derived motor neurons thereby indicating that the impairment of 
+autophagy might be one of the pathomechanisms by which mutations in HSPB1 lead 
+to peripheral neuropathy. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="350~368" text="mutations in HSPB1" description="other" />
+<PERTURBING_ACTION id="P1" spans="428~442" text="HSPB1 knockout" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="542~564" text="re-expression of HSPB1" description="increased expression level" />
+<PERTURBING_ACTION id="P3" spans="867~885" text="Mutations in HSPB1" description="other" />
+<CONTEXT id="C0" spans="443~448" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1138~1167" text="patient-derived motor neurons" experiment_type="primary culture" species="human" />
+<EFFECT id="E0" spans="369~390,407~422" text="lead to impairment of ... autophagic flux" phenotype="autophagy" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

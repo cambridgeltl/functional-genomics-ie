@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeting Glycosylated PD-1 Induces Potent Antitumor Immunity.
+
+Immunotherapies targeting programmed cell death protein 1 (PD-1) and programmed 
+cell death 1 ligand 1 (PD-L1) immune checkpoints represent a major breakthrough 
+in cancer treatment. PD-1 is an inhibitory receptor expressed on the surface of 
+activated T cells that dampens T-cell receptor (TCR)/CD28 signaling by engaging 
+with its ligand PD-L1 expressed on cancer cells. Despite the clinical success of 
+PD-1 blockade using mAbs, most patients do not respond to the treatment, and the 
+underlying regulatory mechanisms of PD-1 remain incompletely defined. Here we 
+show that PD-1 is extensively N-glycosylated in T cells and the intensities of 
+its specific glycoforms are altered upon TCR activation. Glycosylation was 
+critical for maintaining PD-1 protein stability and cell surface localization. 
+Glycosylation of PD-1, especially at the N58 site, was essential for mediating 
+its interaction with PD-L1. The mAb STM418 specifically targeted glycosylated 
+PD-1, exhibiting higher binding affinity to PD-1 than FDA-approved PD-1 
+antibodies, potently inhibiting PD-L1/PD-1 binding, and enhancing antitumor 
+immunity. Together, these findings provide novel insights into the functional 
+significance of PD-1 glycosylation and offer a rationale for targeting 
+glycosylated PD-1 as a potential strategy for immunotherapy. SIGNIFICANCE: These 
+findings demonstrate that glycosylation of PD-1 is functionally significant and 
+targeting glycosylated PD-1 may serve as a means to improve immunotherapy 
+response.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

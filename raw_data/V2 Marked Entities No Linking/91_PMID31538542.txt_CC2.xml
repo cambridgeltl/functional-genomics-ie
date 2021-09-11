@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[DRD3 (dopamine receptor D3) but not DRD2 activates autophagy through MTORC1 
+inhibition preserving protein synthesis.
+
+Growing evidence shows that autophagy is deficient in neurodegenerative and 
+psychiatric diseases, and that its induction may have beneficial effects in 
+these conditions. However, as autophagy shares signaling pathways with cell 
+death and interferes with protein synthesis, prolonged use of autophagy inducers 
+available nowadays is considered unwise. The search for novel autophagy inducers 
+indicates that DRD2 (dopamine receptor 2)-DRD3 ligands may also activate 
+autophagy, though critical aspects of the action mechanisms and effects of 
+dopamine ligands on autophagy are still unknown. In order to shed light on this 
+issue, DRD2- and DRD3-overexpressing cells and drd2 KO, drd3 KO and wild-type 
+mice were treated with the DRD2-DRD3 agonist pramipexole. The results revealed 
+that pramipexole induces autophagy through MTOR inhibition and a DRD3-dependent 
+but DRD2-independent mechanism. DRD3 activated AMPK followed by inhibitory 
+phosphorylation of RPTOR, MTORC1 and RPS6KB1 inhibition and ULK1 activation. 
+Interestingly, despite RPS6KB1 inhibition, the activity of RPS6 was maintained 
+through activation of the MAPK1/3-RPS6KA pathway, and the activity of MTORC1 
+kinase target EIF4EBP1 along with protein synthesis and cell viability, were 
+also preserved. This pattern of autophagy through MTORC1 inhibition without 
+suppression of protein synthesis, contrasts with that of direct allosteric and 
+catalytic MTOR inhibitors and opens up new opportunities for G protein-coupled 
+receptor ligands as autophagy inducers in the treatment of neurodegenerative and 
+psychiatric diseases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="752~781" text="DRD2- and DRD3-overexpressing" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="792~799" text="drd2 KO" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="801~808" text="drd3 KO" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="851~880" text="DRD2-DRD3 agonist pramipexole" perturbingaction="pharmacological augmentation" />
+<CONTEXT id="C0" spans="782~787" text="cells" context="cells" />
+<CONTEXT id="C1" spans="824~828" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="929~938" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1353~1367" text="cell viability" phenotype="cell survival" />
+<EFFECT id="E0" spans="921~928" text="induces" effect="positive" />
+<EFFECT id="E1" spans="1380~1389" text="preserved" effect="no effect" />
+</TAGS>
+</Genomics_ConceptTask>

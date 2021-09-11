@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy inhibition prevents glucocorticoid-increased adiposity via suppressing 
+BAT whitening.
+
+The mechanisms underlying glucocorticoid (GC)-increased adiposity are poorly 
+understood. Brown adipose tissue (BAT) acquires white adipose tissue (WAT) cell 
+features defined as BAT whitening under certain circumstances. The aim of our 
+current study was to investigate the possibility and mechanisms of GC-induced 
+BAT whitening. Here, we showed that one-week dexamethasone (Dex) treatment 
+induced BAT whitening, characterized by lipid droplet accumulation, in vitro and 
+in vivo. Furthermore, autophagy and ATG7 (autophagy related 7) expression was 
+induced in BAT by Dex, and treatment with the autophagy inhibitor chloroquine or 
+adenovirus-mediated ATG7 knockdown prevented Dex-induced BAT whitening and fat 
+mass gain. Moreover, Dex-increased ATG7 expression and autophagy was mediated by 
+enhanced expression of BTG1 (B cell translocation gene 1, anti-proliferative) 
+that stimulated activity of CREB1 (cAMP response element binding protein 1). The 
+importance of BTG1 in this regulation was further demonstrated by the observed 
+BAT whitening in adipocyte-specific BTG1-overexpressing mice and the attenuated 
+Dex-induced BAT whitening and fat mass gain in mice with BTG1 knockdown in BAT. 
+Taken together, we showed that Dex induces a significant whitening of BAT via 
+BTG1- and ATG7-dependent autophagy, which might contribute to Dex-increased 
+adiposity. These results provide new insights into the mechanisms underlying 
+GC-increased adiposity and possible strategy for preventing GC-induced side 
+effects via the combined use of an autophagy inhibitor.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="734~768" text="adenovirus-mediated ATG7 knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1154~1192" text="adipocyte-specific BTG1-overexpressing" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="1275~1296" text="BTG1 knockdown in BAT" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="559~567" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="573~580" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="1193~1197" text="mice" context="organism" />
+<CONTEXT id="C3" spans="1265~1269" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

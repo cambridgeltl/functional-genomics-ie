@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Urolithin A suppresses high glucose-induced neuronal amyloidogenesis by 
+modulating TGM2-dependent ER-mitochondria contacts and calcium homeostasis.
+
+Hyperglycemia in diabetes mellitus (DM) patients is a causative factor for 
+amyloidogenesis and induces neuropathological changes, such as impaired neuronal 
+integrity, neurodegeneration, and cognitive impairment. Regulation of 
+mitochondrial calcium influx from the endoplasmic reticulum (ER) is considered a 
+promising strategy for the prevention of mitochondrial ROS (mtROS) accumulation 
+that occurs in the Alzheimer's disease (AD)-associated pathogenesis in DM 
+patients. Among the metabolites of ellagitannins that are produced in the gut 
+microbiome, urolithin A has received an increasing amount of attention as a 
+novel candidate with anti-oxidative and neuroprotective effects in AD. Here, we 
+investigated the effect of urolithin A on high glucose-induced amyloidogenesis 
+caused by mitochondrial calcium dysregulation and mtROS accumulation resulting 
+in neuronal degeneration. We also identified the mechanism related to 
+mitochondria-associated ER membrane (MAM) formation. We found that urolithin 
+A-lowered mitochondrial calcium influx significantly alleviated high 
+glucose-induced mtROS accumulation and expression of amyloid beta (Aβ)-producing 
+enzymes, such as amyloid precursor protein (APP) and β-secretase-1 (BACE1), as 
+well as Aβ production. Urolithin A injections in a streptozotocin (STZ)-induced 
+diabetic mouse model alleviated APP and BACE1 expressions, Tau phosphorylation, 
+Aβ deposition, and cognitive impairment. In addition, high glucose stimulated 
+MAM formation and transglutaminase type 2 (TGM2) expression. We first discovered 
+that urolithin A significantly reduced high glucose-induced TGM2 expression. In 
+addition, disruption of the AIP-AhR complex was involved in urolithin A-mediated 
+suppression of high glucose-induced TGM2 expression. Markedly, TGM2 silencing 
+inhibited inositol 1, 4, 5-trisphosphate receptor type 
+1 (IP3R1)-voltage-dependent anion-selective channel protein 1 (VDAC1) 
+interactions and prevented high glucose-induced mitochondrial calcium influx and 
+mtROS accumulation. We also found that urolithin A or TGM2 silencing prevented 
+Aβ-induced mitochondrial calcium influx, mtROS accumulation, Tau 
+phosphorylation, and cell death in neuronal cells. In conclusion, we suggest 
+that urolithin A is a promising candidate for the development of therapies to 
+prevent DM-associated AD pathogenesis by reducing TGM2-dependent MAM formation 
+and maintaining mitochondrial calcium and ROS homeostasis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1944~1958" text="TGM2 silencing" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="2223~2237" text="TGM2 silencing" description="knock down" />
+<CONTEXT id="C0" spans="1476~1496" text="diabetic mouse model" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="2350~2364" text="neuronal cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="2238~2247,2336~2346" text="prevented ... cell death" phenotype="cell death" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="TGM2 silencing" effectID="E0" effectText="prevented ... cell death" contextID="C1" contextText="neuronal cells" />
+</TAGS>
+</Genomics_ConceptTask>

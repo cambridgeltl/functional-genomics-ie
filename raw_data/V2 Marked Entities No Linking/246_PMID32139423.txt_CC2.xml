@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The adrenergic-induced ERK3 pathway drives lipolysis and suppresses energy 
+dissipation.
+
+Obesity-induced diabetes affects >400 million people worldwide. Uncontrolled 
+lipolysis (free fatty acid release from adipocytes) can contribute to diabetes 
+and obesity. To identify future therapeutic avenues targeting this pathway, we 
+performed a high-throughput screen and identified the extracellular-regulated 
+kinase 3 (ERK3) as a hit. We demonstrated that β-adrenergic stimulation 
+stabilizes ERK3, leading to the formation of a complex with the cofactor MAP 
+kinase-activated protein kinase 5 (MK5), thereby driving lipolysis. 
+Mechanistically, we identified a downstream target of the ERK3/MK5 pathway, the 
+transcription factor FOXO1, which promotes the expression of the major lipolytic 
+enzyme ATGL. Finally, we provide evidence that targeted deletion of ERK3 in 
+mouse adipocytes inhibits lipolysis, but elevates energy dissipation, promoting 
+lean phenotype and ameliorating diabetes. Thus, ERK3/MK5 represents a previously 
+unrecognized signaling axis in adipose tissue and an attractive target for 
+future therapies aiming to combat obesity-induced diabetes.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="846~862" text="deletion of ERK3" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="867~883" text="mouse adipocytes" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

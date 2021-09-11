@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Tumor-Repopulating Cells Induce PD-1 Expression in CD8(+) T Cells by 
+Transferring Kynurenine and AhR Activation.
+
+Despite the clinical successes fostered by immune checkpoint inhibitors, 
+mechanisms underlying PD-1 upregulation in tumor-infiltrating T cells remain an 
+enigma. Here, we show that tumor-repopulating cells (TRCs) drive PD-1 
+upregulation in CD8+ T cells through a transcellular kynurenine (Kyn)-aryl 
+hydrocarbon receptor (AhR) pathway. Interferon-γ produced by CD8+ T cells 
+stimulates release of high levels of Kyn produced by TRCs, which is transferred 
+into adjacent CD8+ T cells via the transporters SLC7A8 and PAT4. Kyn induces and 
+activates AhR and thereby upregulates PD-1 expression. This Kyn-AhR pathway is 
+confirmed in both tumor-bearing mice and cancer patients and its blockade 
+enhances antitumor adoptive T cell therapy efficacy. Thus, we uncovered a 
+mechanism of PD-1 upregulation with potential tumor immunotherapeutic 
+applications.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

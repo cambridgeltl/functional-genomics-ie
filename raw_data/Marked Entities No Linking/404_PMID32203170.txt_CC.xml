@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Inhibitor of apoptosis-stimulating protein of p53 inhibits ferroptosis and 
+alleviates intestinal ischemia/reperfusion-induced acute lung injury.
+
+Acute lung injury (ALI) is a life-threatening disorder with high rates of 
+morbidity and mortality. Reactive oxygen species and epithelial apoptosis are 
+involved in the pathogenesis of acute lung injury. Ferroptosis, an 
+iron-dependent non-apoptotic form of cell death, mediates its effects in part by 
+promoting the accumulation of reactive oxygen species. The inhibition of 
+ferroptosis decreases clinical symptoms in experimental models of 
+ischemia/reperfusion-induced renal failure and heart injury. This study 
+investigated the roles of inhibitor of apoptosis-stimulating protein of p53 
+(iASPP) and Nrf2 in ferroptosis and their potential therapeutic effects in 
+intestinal ischemia/reperfusion-induced acute lung injury. Intestinal 
+ischemia/reperfusion-induced ALI was induced in wild-type and Nrf2-/- mice. The 
+mice were treated with erastin followed by liproxstatin-1. Ferroptosis-related 
+factors in mice with ischemia/reperfusion-induced acute lung injury or in mouse 
+lung epithelial-2 cells with hypoxia/regeneration (HR)-induced ALI were measured 
+by western blotting, real-time PCR, and immunofluorescence. Ferroptosis 
+contributed to intestinal ischemia/reperfusion-induced ALI in vivo. iASPP 
+inhibited ferroptosis and alleviated intestinal ischemia/reperfusion-induced 
+acute lung injury, and iASPP-mediated protection against 
+ischemia/reperfusion-induced ALI was dependent on Nrf2 signaling. HR-induced 
+acute lung injury enhanced ferroptosis in vitro in mouse lung epithelial-2 
+cells, and ferroptosis was modulated after the enhancement of intestinal 
+ischemia/reperfusion in Nrf2-/- mice. iASPP mediated its protective effects 
+against acute lung injury through the Nrf2/HIF-1/TF signaling pathway. 
+Ferroptosis contributes to intestinal ischemia/reperfusion-induced ALI, and 
+iASPP treatment inhibits ferroptosis in part via Nrf2. These findings indicate 
+the therapeutic potential of iASPP for treating ischemia/reperfusion-induced 
+ALI.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="951~958" text="Nrf2-/-" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1749~1756" text="Nrf2-/-" description="knock out" />
+<CONTEXT id="C0" spans="959~963" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1061~1065" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="1345~1352" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="1614~1656" text="in vitro in mouse lung epithelial-2  cells" experiment_type="cells" species="mouse" />
+<CONTEXT id="C5" spans="1757~1761" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C6" spans="1124~1154" text="mouse  lung epithelial-2 cells" species="mouse" experiment_type="cells" />
+<EFFECT id="E0" spans="1273~1284" text="Ferroptosis" phenotype="ferroptosis" activity="not stated" />
+<EFFECT id="E1" spans="1593~1613" text="enhanced ferroptosis" phenotype="ferroptosis" activity="increases" />
+<EFFECT id="E2" spans="1662~1687" text="ferroptosis was modulated" phenotype="ferroptosis" activity="regulates" />
+<EFFECT id="E3" spans="1967~1987" text="inhibits ferroptosis" phenotype="ferroptosis" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Ferroptosis Inducers Are a Novel Therapeutic Approach for Advanced Prostate 
+Cancer.
+
+Ferroptosis is a type of programmed cell death induced by the accumulation of 
+lipid peroxidation and lipid reactive oxygen species in cells. It has been 
+recently demonstrated that cancer cells are vulnerable to ferroptosis inducers 
+(FIN). However, the therapeutic potential of FINs in prostate cancer in 
+preclinical settings has not been explored. In this study, we demonstrate that 
+mediators of ferroptosis, solute carrier family 7 member 11, SLC3A2, and 
+glutathione peroxidase, are expressed in treatment-resistant prostate cancer. We 
+further demonstrate that treatment-resistant prostate cancer cells are sensitive 
+to two FINs, erastin and RSL3. Treatment with erastin and RSL3 led to a 
+significant decrease in prostate cancer cell growth and migration in vitro and 
+significantly delayed the tumor growth of treatment-resistant prostate cancer in 
+vivo, with no measurable side effects. Combination of erastin or RSL3 with 
+standard-of-care second-generation antiandrogens for advanced prostate cancer 
+halted prostate cancer cell growth and migration in vitro and tumor growth in 
+vivo. These results demonstrate the potential of erastin or RSL3 independently 
+and in combination with standard-of-care second-generation antiandrogens as 
+novel therapeutic strategies for advanced prostate cancer. SIGNIFICANCE: These 
+findings reveal that induction of ferroptosis is a new therapeutic strategy for 
+advanced prostate cancer as a monotherapy and in combination with 
+second-generation antiandrogens.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="809~824" text="prostate cancer" context="neoplasm" />
+<CONTEXT id="C1" spans="851~859" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="907~942" text="treatment-resistant prostate cancer" context="transformed cells" />
+<CONTEXT id="C3" spans="943~951" text="in  vivo" context="in vivo" />
+<CONTEXT id="C4" spans="1109~1124" text="prostate cancer" context="neoplasm" />
+<CONTEXT id="C5" spans="1151~1159" text="in vitro" context="in vitro" />
+<CONTEXT id="C6" spans="1177~1185" text="in  vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="825~836" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH1" spans="841~850" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH2" spans="891~903" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH3" spans="1125~1136" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH4" spans="1141~1150" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH5" spans="1164~1176" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="797~805" text="decrease" effect="negative" />
+<EFFECT id="E1" spans="879~886" text="delayed" effect="negative" />
+<EFFECT id="E2" spans="1102~1108" text="halted" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

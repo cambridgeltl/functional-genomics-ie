@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Upregulation of microRNA-532 enhances cardiomyocyte apoptosis in the diabetic 
+heart.
+
+Type 2 diabetes has a strong association with the development of cardiovascular 
+disease, which is grouped as diabetic heart disease (DHD). DHD is associated 
+with the progressive loss of cardiovascular cells through the alteration of 
+molecular signalling pathways associated with cell death. In this study, we 
+sought to determine whether diabetes induces dysregulation of miR-532 and if 
+this is associated with accentuated apoptosis. RT-PCR analysis showed a 
+significant increase in miR-532 expression in the right atrial appendage tissue 
+of type 2 diabetic patients undergoing coronary artery bypass graft surgery. 
+This was associated with marked downregulation of its anti-apoptotic target 
+protein apoptosis repressor with caspase recruitment domain (ARC) and increased 
+TUNEL positive cardiomyocytes. Further analysis showed a positive correlation 
+between apoptosis and miR-532 levels. Time-course experiments in a mouse model 
+of type 2 diabetes showed that diabetes-induced activation of miR-532 occurs in 
+the later stage of the disease. Importantly, the upregulation of miR-532 
+preceded the activation of pro-apoptotic caspase-3/7 activity. Finally, 
+inhibition of miR-532 activity in high glucose cultured human cardiomyocytes 
+prevented the downregulation of ARC and attenuated apoptotic cell death. 
+Diabetes induced activation of miR-532 plays a critical role in accelerating 
+cardiomyocytes apoptosis. Therefore, miR-532 may serve as a promising 
+therapeutic agent to overcome the diabetes-induced loss of cardiomyocytes.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1014~1025" text="mouse model" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1311~1331" text="human cardiomyocytes" experiment_type="cells" species="human" />
+<EFFECT id="E0" spans="1373~1404" text="attenuated apoptotic cell death" phenotype="apoptosis" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeting SKA3 suppresses the proliferation and chemoresistance of laryngeal 
+squamous cell carcinoma via impairing PLK1-AKT axis-mediated glycolysis.
+
+Spindle and kinetochore-associated complex subunit 3 (SKA3) is a well-known 
+regulator of chromosome separation and cell division, which plays an important 
+role in cell proliferation. However, the mechanism of SKA3 regulating tumor 
+proliferation via reprogramming metabolism is unknown. Here, SKA3 is identified 
+as an oncogene in laryngeal squamous cell carcinoma (LSCC), and high levels of 
+SKA3 are closely associated with malignant progression and poor prognosis. In 
+vitro and in vivo experiments demonstrate that SKA3 promotes LSCC cell 
+proliferation and chemoresistance through a novel role of reprogramming 
+glycolytic metabolism. Further studies reveal the downstream mechanisms of SKA3, 
+which can bind and stabilize polo-like kinase 1 (PLK1) protein via suppressing 
+ubiquitin-mediated degradation. The accumulation of PLK1 activates AKT and thus 
+upregulates glycolytic enzymes HK2, PFKFB3, and PDK1, resulting in enhancement 
+of glycolysis. Furthermore, our data reveal that phosphorylation at Thr360 of 
+SKA3 is critical for its binding to PLK1 and the increase in glycolysis. 
+Collectively, the novel oncogenic signal axis "SKA3-PLK1-AKT" plays a critical 
+role in the glycolysis of LSCC. SKA3 may serve as a prognostic biomarker and 
+therapeutic target, providing a potential strategy for proliferation inhibition 
+and chemosensitization in tumors, especially for LSCC patients with PLK1 
+inhibitor resistance.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="622~631" text="In  vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="636~643" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="687~696" text="LSCC cell" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="678~686,698~711" text="promotes ... proliferation" phenotype="proliferation" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

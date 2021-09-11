@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hispanic/Latino Patients with Gastric Adenocarcinoma Have Distinct Molecular 
+Profiles Including a High Rate of Germline CDH1 Variants.
+
+Hispanic/Latino patients have a higher incidence of gastric cancer and worse 
+cancer-related outcomes compared with patients of other backgrounds. Whether 
+there is a molecular basis for these disparities is unknown, as very few 
+Hispanic/Latino patients have been included in previous studies. To determine 
+the genomic landscape of gastric cancer in Hispanic/Latino patients, we 
+performed whole-exome sequencing (WES) and RNA sequencing on tumor samples from 
+57 patients; germline analysis was conducted on 83 patients. The results were 
+compared with data from Asian and White patients published by The Cancer Genome 
+Atlas. Hispanic/Latino patients had a significantly larger proportion of 
+genomically stable subtype tumors compared with Asian and White patients (65% 
+vs. 21% vs. 20%, P < 0.001). Transcriptomic analysis identified molecular 
+signatures that were prognostic. Of the 43 Hispanic/Latino patients with 
+diffuse-type cancer, 7 (16%) had germline variants in CDH1. Variant carriers 
+were significantly younger than noncarriers (41 vs. 50 years, P < 0.05). In 
+silico algorithms predicted five variants to be deleterious. For two variants 
+that were predicted to be benign, in vitro modeling demonstrated that these 
+mutations conferred increased migratory capability, suggesting pathogenicity. 
+Hispanic/Latino patients with gastric cancer possess unique genomic landscapes, 
+including a high rate of CDH1 germline variants that may partially explain their 
+aggressive clinical phenotypes. Individualized screening, genetic counseling, 
+and treatment protocols based on patient ethnicity and race may be necessary.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1330~1347" text="in vitro modeling" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1393~1423" text="increased migratory capability" phenotype="migration" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

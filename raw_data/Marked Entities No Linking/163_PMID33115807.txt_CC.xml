@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hypoxia Induces Transcriptional and Translational Downregulation of the Type I 
+IFN Pathway in Multiple Cancer Cell Types.
+
+Hypoxia is a common phenomenon in solid tumors and is strongly linked to 
+hallmarks of cancer. Recent evidence has shown that hypoxia promotes local 
+immune suppression. Type I IFN supports cytotoxic T lymphocytes by stimulating 
+the maturation of dendritic cells and enhancing their capacity to process and 
+present antigens. However, little is known about the relationship between 
+hypoxia and the type I IFN pathway, which comprises the sensing of 
+double-stranded RNA and DNA (dsRNA/dsDNA) followed by IFNα/β secretion and 
+transcriptional activation of IFN-stimulated genes (ISG). In this study, we 
+determined the effects of hypoxia on the type I IFN pathway in breast cancer and 
+the mechanisms involved. In cancer cell lines and xenograft models, mRNA and 
+protein expressions of the type I IFN pathway were downregulated under hypoxic 
+conditions. This pathway was suppressed at each level of signaling, from the 
+dsRNA sensors RIG-I and MDA5, the adaptor MAVS, transcription factors IRF3, 
+IRF7, and STAT1, and several ISG including RIG-I, IRF7, STAT1, and ADAR-p150. 
+Importantly, IFN secretion was reduced under hypoxic conditions. HIF1α- and 
+HIF2α-mediated regulation of gene expression did not explain most of the 
+effects. However, ATAC-seq data revealed in hypoxia that peaks with STAT1 and 
+IRF3 motifs had decreased accessibility. Collectively, these results indicate 
+that hypoxia leads to an overall downregulation of the type I IFN pathway due to 
+repressed transcription and lower chromatin accessibility in an 
+HIF1/2α-independent manner, which could contribute to immunosuppression in 
+hypoxic tumors. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="839~856" text="cancer cell lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="861~877" text="xenograft models" experiment_type="xenotransplantation" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

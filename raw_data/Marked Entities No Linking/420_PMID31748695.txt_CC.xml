@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The deubiquitinase USP10 regulates KLF4 stability and suppresses lung 
+tumorigenesis.
+
+Krüppel-like factor 4 (KLF4), a key transcription factor, acts as a 
+multifunctional player involved in the progression of numerous aggressive 
+cancers. The proteasome-dependent pathway is one of the main modalities in 
+controlling KLF4 abundance at a posttranslational level. Although some of the 
+ubiquitin ligases have been identified, the deubiquitinases of KLF4 and the 
+regulatory function remain unexplored. Here, by screening ubiquitin-specific 
+proteases that may interact with KLF4, we found ubiquitin-specific peptidase 10 
+(USP10) as a deubiquitinating enzyme for KLF4. Forced expression of USP10 
+remarkably increases KLF4 protein level by blocking the latter degradation, 
+whereas the depletion of USP10 promotes KLF4 degradation and thus enhances 
+tumorigenesis. Loss of USP10 in mice downregulates KLF4 expression and 
+accelerates KrasG12D-driven lung adenocarcinoma initiation and progression. In 
+addition, our data revealed that KLF4 can facilitate the transcription of tumor 
+suppressor TIMP3 by directly binding to the TIMP3 promoter. Clinically, 
+reduction of USP10 expression, concomitant with decreased KLF4 and TIMP3 
+abundance in carcinoma tissue, predicts poor prognosis of lung cancer patient. 
+Taken together, our results demonstrate that USP10 is a critical regulator of 
+KLF4, pinpointing USP10-KLF4-TIMP3 axis as a promising therapeutic target in 
+lung cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="669~695" text="Forced expression of USP10" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="786~804" text="depletion of USP10" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="865~878" text="Loss of USP10" description="decreased expression level" />
+<CONTEXT id="C1" spans="882~886" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="950~954" text="lung" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="840~863" text="enhances  tumorigenesis" phenotype="tumourigenesis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

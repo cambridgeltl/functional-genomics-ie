@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Evaluating the Effects of SARS-CoV-2 Spike Mutation D614G on Transmissibility 
+and Pathogenicity.
+
+Global dispersal and increasing frequency of the SARS-CoV-2 spike protein 
+variant D614G are suggestive of a selective advantage but may also be due to a 
+random founder effect. We investigate the hypothesis for positive selection of 
+spike D614G in the United Kingdom using more than 25,000 whole genome SARS-CoV-2 
+sequences. Despite the availability of a large dataset, well represented by both 
+spike 614 variants, not all approaches showed a conclusive signal of positive 
+selection. Population genetic analysis indicates that 614G increases in 
+frequency relative to 614D in a manner consistent with a selective advantage. We 
+do not find any indication that patients infected with the spike 614G variant 
+have higher COVID-19 mortality or clinical severity, but 614G is associated with 
+higher viral load and younger age of patients. Significant differences in growth 
+and size of 614G phylogenetic clusters indicate a need for continued study of 
+this variant.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

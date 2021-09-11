@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[DMDRMR-Mediated Regulation of m(6)A-Modified CDK4 by m(6)A Reader IGF2BP3 Drives 
+ccRCC Progression.
+
+Aberrant N 6-methyladenosine (m6A) modification has emerged as a driver of tumor 
+initiation and progression, yet how long noncoding RNAs (lncRNA) are involved in 
+the regulation of m6A remains unknown. Here we utilize data from 12 cancer types 
+from The Cancer Genome Atlas to comprehensively map lncRNAs that are potentially 
+deregulated by DNA methylation. A novel DNA methylation-deregulated and RNA m6A 
+reader-cooperating lncRNA (DMDRMR) facilitated tumor growth and metastasis in 
+clear cell renal cell carcinoma (ccRCC). Mechanistically, DMDRMR bound 
+insulin-like growth factor 2 mRNA-binding protein 3 (IGF2BP3) to stabilize 
+target genes, including the cell-cycle kinase CDK4 and three extracellular 
+matrix components (COL6A1, LAMA5, and FN1), by specifically enhancing IGF2BP3 
+activity on them in an m6A-dependent manner. Consequently, DMDRMR and IGF2BP3 
+enhanced the G1-S transition, thus promoting cell proliferation in ccRCC. In 
+patients with ccRCC, high coexpression of DMDRMR and IGF2BP3 was associated with 
+poor outcomes. Our findings reveal that DMDRMR cooperates with IGF2BP3 to 
+regulate target genes in an m6A-dependent manner and may represent a potential 
+diagnostic, prognostic, and therapeutic target in ccRCC. SIGNIFICANCE: This 
+study demonstrates that the lncRNA DMDRMR acts as a cofactor for IGF2BP3 to 
+stabilize target genes in an m6A-dependent manner, thus exerting essential 
+oncogenic roles in ccRCC.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="590~629" text="clear cell renal cell carcinoma (ccRCC)" context="neoplasm" />
+<CONTEXT id="C1" spans="1017~1021" text="cell" context="cells" />
+<CONTEXT id="C2" spans="1039~1044" text="ccRCC" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="558~570" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH1" spans="575~585" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="1022~1035" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="546~557" text="facilitated" effect="positive" />
+<EFFECT id="E1" spans="1007~1016" text="promoting" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

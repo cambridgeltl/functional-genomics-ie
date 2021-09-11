@@ -1,0 +1,39 @@
+{
+    "MODE": "train",
+    "MODEL": {
+        "TYPE": "pretrained",
+        "TRANSFORMER_CLASS": "DistilBert",
+        "TRANSFORMER_MODEL": "distilbert-base-cased",
+        "MODEL_CLASS": "Single_Output",
+        "NUM_LABELS": 11,
+        "LABELS_NAME": "species",
+        "HEAD": "multi_label",
+        "TAG_LIST_DEFINITIONS": "tag_list_defs/species.json",
+        "MAX_TOKEN_LENGTH": 512
+    },
+    "DATA": {
+        "PATH": "json_data/all_marked_train.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 4,
+        "BALANCE_CLASSES": 0.5
+    },
+    "TRAINING": {
+        "TRAINED_NAME": "DistilBERT_species_bl05_bs4_k4",
+        "OPTIMIZER": {
+            "CLASS_NAME": "AdamW",
+            "LR": 3e-5,
+            "EPS": 1e-8
+        },
+        "FULL_FINETUNING": true,
+        "EPOCHS": 6,
+        "MAX_GRAD_NORM": 1,
+        "K_FOLDS": 4
+    },
+    "TEST_DATA": {
+        "PATH": "json_data/all_marked_test.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 8,
+        "BALANCE_CLASSES": 0
+    },
+    "TESTING": {}
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Automethylation of PRC2 promotes H3K27 methylation and is impaired in H3K27M 
+pediatric glioma.
+
+The histone methyltransferase activity of PRC2 is central to the formation of 
+H3K27me3-decorated facultative heterochromatin and gene silencing. In addition, 
+PRC2 has been shown to automethylate its core subunits, EZH1/EZH2 and SUZ12. 
+Here, we identify the lysine residues at which EZH1/EZH2 are automethylated with 
+EZH2-K510 and EZH2-K514 being the major such sites in vivo. Automethylated 
+EZH2/PRC2 exhibits a higher level of histone methyltransferase activity and is 
+required for attaining proper cellular levels of H3K27me3. While occurring 
+independently of PRC2 recruitment to chromatin, automethylation promotes PRC2 
+accessibility to the histone H3 tail. Intriguingly, EZH2 automethylation is 
+significantly reduced in diffuse intrinsic pontine glioma (DIPG) cells that 
+carry a lysine-to-methionine substitution in histone H3 (H3K27M), but not in 
+cells that carry either EZH2 or EED mutants that abrogate PRC2 allosteric 
+activation, indicating that H3K27M impairs the intrinsic activity of PRC2. Our 
+study demonstrates a PRC2 self-regulatory mechanism through its EZH1/2-mediated 
+automethylation activity.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

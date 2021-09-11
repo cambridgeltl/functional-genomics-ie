@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MDM2 and MDMX promote ferroptosis by PPARα-mediated lipid remodeling.
+
+MDM2 and MDMX, negative regulators of the tumor suppressor p53, can work 
+separately and as a heteromeric complex to restrain p53's functions. MDM2 also 
+has pro-oncogenic roles in cells, tissues, and animals that are independent of 
+p53. There is less information available about p53-independent roles of MDMX or 
+the MDM2-MDMX complex. We found that MDM2 and MDMX facilitate ferroptosis in 
+cells with or without p53. Using small molecules, RNA interference reagents, and 
+mutant forms of MDMX, we found that MDM2 and MDMX, likely working in part as a 
+complex, normally facilitate ferroptotic death. We observed that MDM2 and MDMX 
+alter the lipid profile of cells to favor ferroptosis. Inhibition of MDM2 or 
+MDMX leads to increased levels of FSP1 protein and a consequent increase in the 
+levels of coenzyme Q10, an endogenous lipophilic antioxidant. This suggests that 
+MDM2 and MDMX normally prevent cells from mounting an adequate defense against 
+lipid peroxidation and thereby promote ferroptosis. Moreover, we found that 
+PPARα activity is essential for MDM2 and MDMX to promote ferroptosis, suggesting 
+that the MDM2-MDMX complex regulates lipids through altering PPARα activity. 
+These findings reveal the complexity of cellular responses to MDM2 and MDMX and 
+suggest that MDM2-MDMX inhibition might be useful for preventing degenerative 
+diseases involving ferroptosis. Furthermore, they suggest that MDM2/MDMX 
+amplification may predict sensitivity of some cancers to ferroptosis inducers.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="546~566" text="mutant forms of MDMX" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="761~788" text="Inhibition of MDM2 or  MDMX" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="733~738" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="655~672" text="ferroptotic death" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="748~759" text="ferroptosis" phenotype="ferroptosis" />
+<EFFECT id="E0" spans="644~654" text="facilitate" effect="positive" />
+<EFFECT id="E1" spans="742~747" text="favor" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

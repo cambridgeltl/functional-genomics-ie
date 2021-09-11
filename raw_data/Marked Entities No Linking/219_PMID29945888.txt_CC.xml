@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[POU2F3 is a master regulator of a tuft cell-like variant of small cell lung 
+cancer.
+
+Small cell lung cancer (SCLC) is widely considered to be a tumor of pulmonary 
+neuroendocrine cells; however, a variant form of this disease has been described 
+that lacks neuroendocrine features. Here, we applied domain-focused CRISPR 
+screening to human cancer cell lines to identify the transcription factor (TF) 
+POU2F3 (POU class 2 homeobox 3; also known as SKN-1a/OCT-11) as a powerful 
+dependency in a subset of SCLC lines. An analysis of human SCLC specimens 
+revealed that POU2F3 is expressed exclusively in variant SCLC tumors that lack 
+expression of neuroendocrine markers and instead express markers of a 
+chemosensory lineage known as tuft cells. Using chromatin- and RNA-profiling 
+experiments, we provide evidence that POU2F3 is a master regulator of tuft cell 
+identity in a variant form of SCLC. Moreover, we show that most SCLC tumors can 
+be classified into one of three lineages based on the expression of POU2F3, 
+ASCL1, or NEUROD1. Our CRISPR screens exposed other unique dependencies in 
+POU2F3-expressing SCLC lines, including the lineage TFs SOX9 and ASCL2 and the 
+receptor tyrosine kinase IGF1R (insulin-like growth factor 1 receptor). These 
+data reveal POU2F3 as a cell identity determinant and a dependency in a tuft 
+cell-like variant of SCLC, which may reflect a previously unrecognized cell of 
+origin or a trans-differentiation event in this disease.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="336~359" text="human cancer cell lines" experiment_type="transformed cell line" species="human" />
+<CONTEXT id="C1" spans="495~515" text="subset of SCLC lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1098~1126" text="POU2F3-expressing SCLC lines" experiment_type="transformed cell line" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Recurrent SRSF2 mutations in MDS affect both splicing and NMD.
+
+Oncogenic mutations in the RNA splicing factors SRSF2, SF3B1, and U2AF1 are the 
+most frequent class of mutations in myelodysplastic syndromes and are also 
+common in clonal hematopoiesis, acute myeloid leukemia, chronic lymphocytic 
+leukemia, and a variety of solid tumors. They cause genome-wide splicing 
+alterations that affect important regulators of hematopoiesis. Several mRNA 
+isoforms promoted by the various splicing factor mutants comprise a premature 
+termination codon (PTC) and are therefore potential targets of nonsense-mediated 
+mRNA decay (NMD). In light of the mechanistic relationship between splicing and 
+NMD, we sought evidence for a specific role of mutant SRSF2 in NMD. We show that 
+SRSF2 Pro95 hot spot mutations elicit enhanced mRNA decay, which is dependent on 
+sequence-specific RNA binding and splicing. SRSF2 mutants enhance the deposition 
+of exon junction complexes (EJCs) downstream from the PTC through RNA-mediated 
+molecular interactions. This architecture then favors the association of key NMD 
+factors to elicit mRNA decay. Gene-specific blocking of EJC deposition by 
+antisense oligonucleotides circumvents aberrant NMD promoted by mutant SRSF2, 
+restoring the expression of PTC-containing transcript. Our study uncovered 
+critical effects of SRSF2 mutants in hematologic malignancies, reflecting the 
+regulation at multiple levels of RNA metabolism, from splicing to decay.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="773~803" text="SRSF2 Pro95 hot spot mutations" description="other" />
+<PERTURBING_ACTION id="P1" spans="899~912" text="SRSF2 mutants" description="other" />
+<PERTURBING_ACTION id="P2" spans="1238~1250" text="mutant SRSF2" description="other" />
+</TAGS>
+</Genomics_ConceptTask>

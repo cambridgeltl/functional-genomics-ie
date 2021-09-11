@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hematopoietic Progenitor Kinase1 (HPK1) Mediates T Cell Dysfunction and Is a 
+Druggable Target for T Cell-Based Immunotherapies.
+
+Ameliorating T cell exhaustion and enhancing effector function are promising 
+strategies for the improvement of immunotherapies. Here, we show that the 
+HPK1-NFκB-Blimp1 axis mediates T cell dysfunction. High expression of MAP4K1 
+(which encodes HPK1) correlates with increased T cell exhaustion and with worse 
+patient survival in several cancer types. In MAP4K1KO mice, tumors grow slower 
+than in wild-type mice and infiltrating T cells are less exhausted and more 
+active and proliferative. We further show that genetic depletion, 
+pharmacological inhibition, or proteolysis targeting chimera (PROTAC)-mediated 
+degradation of HPK1 improves the efficacy of CAR-T cell-based immunotherapies in 
+diverse preclinical mouse models of hematological and solid tumors. These 
+strategies are more effective than genetically depleting PD-1 in CAR-T cells. 
+Thus, we demonstrate that HPK1 is a mediator of T cell dysfunction and an 
+attractive druggable target to improve immune therapy responses.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="487~495" text="MAP4K1KO" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="646~663,758~765" text="genetic depletion ... of HPK1" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="666~692,758~765" text="pharmacological inhibition ... of HPK1" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="496~500" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="562~569" text="T cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="836~894" text="preclinical mouse models of hematological and solid tumors" experiment_type="tumour" species="mouse" />
+<EFFECT id="E0" spans="502~520" text="tumors grow slower" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E1" spans="593~597,610~623" text="more ... proliferative" phenotype="proliferation" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="MAP4K1KO" contextID="C0" contextText="mice" effectID="E0" effectText="tumors grow slower" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="MAP4K1KO" contextID="C1" contextText="T cells" effectID="E1" effectText="more ... proliferative" />
+</TAGS>
+</Genomics_ConceptTask>

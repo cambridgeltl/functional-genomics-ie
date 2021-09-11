@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The ubiquitin-specific protease USP8 directly deubiquitinates SQSTM1/p62 to 
+suppress its autophagic activity.
+
+SQSTM1/p62 (sequestosome 1) is a critical macroautophagy/autophagy receptor that 
+promotes the formation and degradation of ubiquitinated aggregates. SQSTM1 can 
+be modified by ubiquitination, and this modification modulates its autophagic 
+activity. However, the molecular mechanisms underpinning its reversible 
+deubiquitination have never been described. Here we report that USP8 (ubiquitin 
+specific peptidase 8) directly interacted with and deubiquitinated SQSTM1. USP8 
+preferentially removed the lysine 11 (K11)-linked ubiquitin chains from SQSTM1. 
+Moreover, USP8 deubiquitinated SQSTM1 principally at K420 within its 
+ubiquitin-association (UBA) domain. Finally, USP8 inhibited SQSTM1 degradation 
+and autophagic influx in cells with wild-type SQSTM1, but not its mutant with 
+substitution of K420 with an arginine. Taken together, USP8 acts as a negative 
+regulator of autophagy by deubiquitinating SQSTM1 at K420.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="844~849" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="823~840" text="autophagic influx" phenotype="autophagy" />
+<EFFECT id="E0" spans="789~798" text="inhibited" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

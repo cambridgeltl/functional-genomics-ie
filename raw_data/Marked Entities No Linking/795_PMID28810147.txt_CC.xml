@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Macrophage Polarization Contributes to Glioblastoma Eradication by Combination 
+Immunovirotherapy and Immune Checkpoint Blockade.
+
+Glioblastoma is an immunosuppressive, fatal brain cancer that contains 
+glioblastoma stem-like cells (GSCs). Oncolytic herpes simplex virus (oHSV) 
+selectively replicates in cancer cells while inducing anti-tumor immunity. oHSV 
+G47Δ expressing murine IL-12 (G47Δ-mIL12), antibodies to immune checkpoints 
+(CTLA-4, PD-1, PD-L1), or dual combinations modestly extended survival of a 
+mouse glioma model. However, the triple combination of anti-CTLA-4, anti-PD-1, 
+and G47Δ-mIL12 cured most mice in two glioma models. This treatment was 
+associated with macrophage influx and M1-like polarization, along with increased 
+T effector to T regulatory cell ratios. Immune cell depletion studies 
+demonstrated that CD4+ and CD8+ T cells as well as macrophages are required for 
+synergistic curative activity. This combination should be translatable to the 
+clinic and other immunosuppressive cancers.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="514~532" text="mouse glioma model" experiment_type="tumour" species="mouse" />
+<CONTEXT id="C1" spans="620~645" text="mice in two glioma models" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

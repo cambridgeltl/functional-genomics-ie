@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[IL33 Is a Key Driver of Treatment Resistance of Cancer.
+
+Recurrence and treatment resistance are major causes of cancer-associated death. 
+There has been a growing interest in better understanding epithelial-mesenchymal 
+transition, stemness of cancer cells, and exhaustion and dysfunction of the 
+immune system for which numerous genomic, proteomic, microenvironmental, and 
+immunologic mechanisms have been demonstrated. However, practical treatments for 
+such patients have not yet been established. Here we identified IL33 as a key 
+driver of polyploidy, followed by rapid proliferation after treatment. IL33 
+induction transformed tumor cells into polyploid giant cells, showing abnormal 
+cell cycle without cell division accompanied by Snail deregulation and p53 
+inactivation; small progeny cells were generated in response to treatment 
+stress. Simultaneously, soluble IL33 was released from tumor cells, leading to 
+expansion of receptor ST2-expressing cells including IL17RB+GATA3+ cells, which 
+promoted tumor progression and metastasis directly and indirectly via induction 
+of immune exhaustion and dysfunction. Blocking IL33 with a specific mAb in 
+murine IL33+ metastatic tumor models abrogated negative consequences and 
+successfully elicited antitumor efficacy induced by other combined treatments. 
+Ex vivo assays using tumor tissues and peripheral blood mononuclear cells of 
+patients with cancer validated the clinical relevancy of these findings. 
+Together, these data suggest that targeting the IL33-ST2 axis is a promising 
+strategy for diagnosis and treatment of patients likely to be resistant to 
+treatments in the clinical settings.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="636~647" text="tumor cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="938~997" text="receptor ST2-expressing cells including IL17RB+GATA3+ cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="624~635,648~674" text="transformed ... into polyploid giant cells" phenotype="transformation" activity="causes" />
+<EFFECT id="E1" spans="705~726" text="without cell division" phenotype="cell cycle arrest" activity="causes" />
+<EFFECT id="E2" spans="1006~1032" text="promoted tumor progression" phenotype="tumourigenesis" activity="increases" />
+<EFFECT id="E3" spans="1006~1014,1037~1047" text="promoted ... metastasis" phenotype="metastasis" activity="increases" />
+<EFFECT id="E4" spans="913~934" text="leading to  expansion" phenotype="proliferation" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Allosteric SHP2 Inhibitor, IACS-13909, Overcomes EGFR-Dependent and 
+EGFR-Independent Resistance Mechanisms toward Osimertinib.
+
+Src homology 2 domain-containing phosphatase (SHP2) is a phosphatase that 
+mediates signaling downstream of multiple receptor tyrosine kinases (RTK) and is 
+required for full activation of the MAPK pathway. SHP2 inhibition has 
+demonstrated tumor growth inhibition in RTK-activated cancers in preclinical 
+studies. The long-term effectiveness of tyrosine kinase inhibitors such as the 
+EGFR inhibitor (EGFRi), osimertinib, in non-small cell lung cancer (NSCLC) is 
+limited by acquired resistance. Multiple clinically identified mechanisms 
+underlie resistance to osimertinib, including mutations in EGFR that preclude 
+drug binding as well as EGFR-independent activation of the MAPK pathway through 
+alternate RTK (RTK-bypass). It has also been noted that frequently a tumor from 
+a single patient harbors more than one resistance mechanism, and the plasticity 
+between multiple resistance mechanisms could restrict the effectiveness of 
+therapies targeting a single node of the oncogenic signaling network. Here, we 
+report the discovery of IACS-13909, a specific and potent allosteric inhibitor 
+of SHP2, that suppresses signaling through the MAPK pathway. IACS-13909 potently 
+impeded proliferation of tumors harboring a broad spectrum of activated RTKs as 
+the oncogenic driver. In EGFR-mutant osimertinib-resistant NSCLC models with 
+EGFR-dependent and EGFR-independent resistance mechanisms, IACS-13909, 
+administered as a single agent or in combination with osimertinib, potently 
+suppressed tumor cell proliferation in vitro and caused tumor regression in 
+vivo. Together, our findings provide preclinical evidence for using a SHP2 
+inhibitor as a therapeutic strategy in acquired EGFRi-resistant NSCLC. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1334~1410" text="tumors harboring a broad spectrum of activated RTKs as  the oncogenic driver" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="1628~1638,1653~1661" text="tumor cell ... in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1673~1678,1690~1698" text="tumor ... in  vivo" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="1309~1330" text="impeded proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E1" spans="1617~1627,1639~1652" text="suppressed ... proliferation" phenotype="proliferation" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

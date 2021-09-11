@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy promotes mammalian survival by suppressing oxidative stress and p53.
+
+Autophagy captures intracellular components and delivers them to lysosomes for 
+degradation and recycling. Conditional autophagy deficiency in adult mice causes 
+liver damage, shortens life span to 3 mo due to neurodegeneration, and is lethal 
+upon fasting. As autophagy deficiency causes p53 induction and cell death in 
+neurons, we sought to test whether p53 mediates the lethal consequences of 
+autophagy deficiency. Here, we conditionally deleted Trp53 (p53 hereafter) 
+and/or the essential autophagy gene Atg7 throughout adult mice. Compared with 
+Atg7 Δ/Δ mice, the life span of Atg7 Δ/Δ p53 Δ/Δ mice was extended due to 
+delayed neurodegeneration and resistance to death upon fasting. Atg7 also 
+suppressed apoptosis induced by p53 activator Nutlin-3, suggesting that 
+autophagy inhibited p53 activation. To test whether increased oxidative stress 
+in Atg7 Δ/Δ mice was responsible for p53 activation, Atg7 was deleted in the 
+presence or absence of the master regulator of antioxidant defense nuclear 
+factor erythroid 2-related factor 2 (Nrf2). Nrf2-/-Atg7 Δ/Δ mice died rapidly 
+due to small intestine damage, which was not rescued by p53 codeletion. Thus, 
+Atg7 limits p53 activation and p53-mediated neurodegeneration. In turn, NRF2 
+mitigates lethal intestine degeneration upon autophagy loss. These findings 
+illustrate the tissue-specific roles for autophagy and functional dependencies 
+on the p53 and NRF2 stress response mechanisms.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="509~536" text="conditionally deleted Trp53" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="633~641" text="Atg7 Δ/Δ" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="665~681" text="Atg7 Δ/Δ p53 Δ/Δ" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="939~947" text="Atg7 Δ/Δ" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="989~1005" text="Atg7 was deleted" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P5" spans="1134~1149" text="Nrf2-/-Atg7 Δ/Δ" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P6" spans="1225~1239" text="p53 codeletion" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="606~616" text="adult mice" context="organism" />
+<CONTEXT id="C1" spans="642~646" text="mice" context="organism" />
+<CONTEXT id="C2" spans="682~686" text="mice" context="organism" />
+<CONTEXT id="C3" spans="948~952" text="mice" context="organism" />
+<CONTEXT id="C4" spans="1150~1154" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="794~803" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="783~793" text="suppressed" effect="negative" />
+<EFFECT id="E1" spans="804~811" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

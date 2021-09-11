@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PPARγ is a nexus controlling alternative activation of macrophages via glutamine 
+metabolism.
+
+
+The nuclear receptor peroxisome proliferator-activated receptor γ (PPARγ) is 
+known to regulate lipid metabolism in many tissues, including macrophages. Here 
+we report that peritoneal macrophage respiration is enhanced by rosiglitazone, 
+an activating PPARγ ligand, in a PPARγ-dependent manner. Moreover, PPARγ is 
+required for macrophage respiration even in the absence of exogenous ligand. 
+Unexpectedly, the absence of PPARγ dramatically affects the oxidation of 
+glutamine. Both glutamine and PPARγ have been implicated in alternative 
+activation (AA) of macrophages, and PPARγ was required for interleukin 4 
+(IL4)-dependent gene expression and stimulation of macrophage respiration. 
+Indeed, unstimulated macrophages lacking PPARγ contained elevated levels of the 
+inflammation-associated metabolite itaconate and express a proinflammatory 
+transcriptome that, remarkably, phenocopied that of macrophages depleted of 
+glutamine. Thus, PPARγ functions as a checkpoint, guarding against inflammation, 
+and is permissive for AA by facilitating glutamine metabolism. However, PPARγ 
+expression is itself markedly increased by IL4. This suggests that PPARγ 
+functions at the center of a feed-forward loop that is central to AA of 
+macrophages.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="508~524" text="absence of PPARγ" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="820~833" text="lacking PPARγ" description="knock out" />
+<CONTEXT id="C0" spans="795~819" text="unstimulated macrophages" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="996~1007" text="macrophages" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

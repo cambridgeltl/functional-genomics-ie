@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mutant NPM1 Maintains the Leukemic State through HOX Expression.
+
+NPM1 is the most frequently mutated gene in cytogenetically normal acute myeloid 
+leukemia (AML). In AML cells, NPM1 mutations result in abnormal cytoplasmic 
+localization of the mutant protein (NPM1c); however, it is unknown whether NPM1c 
+is required to maintain the leukemic state. Here, we show that loss of NPM1c 
+from the cytoplasm, either through nuclear relocalization or targeted 
+degradation, results in immediate downregulation of homeobox (HOX) genes 
+followed by differentiation. Finally, we show that XPO1 inhibition relocalizes 
+NPM1c to the nucleus, promotes differentiation of AML cells, and prolongs 
+survival of Npm1-mutated leukemic mice. We describe an exquisite dependency of 
+NPM1-mutant AML cells on NPM1c, providing the rationale for the use of nuclear 
+export inhibitors in AML with mutated NPM1.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="370~383" text="loss of NPM1c" description="other" />
+<PERTURBING_ACTION id="P1" spans="581~596" text="XPO1 inhibition" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="697~709" text="Npm1-mutated" description="other" />
+<CONTEXT id="C0" spans="660~669" text="AML cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="710~723" text="leukemic mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="469~479,542~557" text="results in ... differentiation" phenotype="differentiation" activity="causes" />
+<EFFECT id="E1" spans="632~656" text="promotes differentiation" phenotype="differentiation" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="XPO1 inhibition" contextID="C0" contextText="AML cells" effectID="E1" effectText="promotes differentiation" />
+</TAGS>
+</Genomics_ConceptTask>

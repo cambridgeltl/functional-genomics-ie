@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[DNA-dependent protein kinase regulates lysosomal AMP-dependent protein kinase 
+activation and autophagy.
+
+Macroautophagy/autophagy is a central component of the cytoprotective cellular 
+stress response. To enlighten stress-induced autophagy signaling, we screened a 
+human kinome siRNA library for regulators of autophagic flux in MCF7 human 
+breast carcinoma cells and identified the catalytic subunit of DNA-dependent 
+protein kinase PRKDC/DNA-PKcs as a positive regulator of basal and DNA 
+damage-induced autophagy. Analysis of autophagy-regulating signaling cascades 
+placed PRKDC upstream of the AMP-dependent protein kinase (AMPK) complex and 
+ULK1 kinase. In normal culture conditions, PRKDC interacted with the AMPK 
+complex and phosphorylated its nucleotide-sensing γ1 subunit PRKAG1/AMPKγ1 at 
+Ser192 and Thr284, both events being significantly reduced upon the activation 
+of the AMPK complex. Alanine substitutions of PRKDC phosphorylation sites in 
+PRKAG1 reduced AMPK complex activation without affecting its nucleotide sensing 
+capacity. Instead, the disturbance of PRKDC-mediated phosphorylation of PRKAG1 
+inhibited the lysosomal localization of the AMPK complex and its 
+starvation-induced association with STK11 (serine/threonine kinase 11). Taken 
+together, our data suggest that PRKDC-mediated phosphorylation of PRKAG1 primes 
+AMPK complex to the lysosomal activation by STK11 in cancer cells thereby 
+linking DNA damage response to autophagy and cellular metabolism.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="331~365" text="MCF7 human  breast carcinoma cells" experiment_type="transformed cell line" species="human" />
+<CONTEXT id="C1" spans="1402~1414" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="1455~1464" text="autophagy" phenotype="autophagy" activity="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

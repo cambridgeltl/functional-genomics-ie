@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Deubiquitinase USP20 promotes breast cancer metastasis by stabilizing SNAI2.
+
+SNAI2/SLUG, a metastasis-promoting transcription factor, is a labile protein 
+that is degraded through the ubiquitin proteasome degradation system. Here, we 
+conducted comprehensive gain- and loss-of-function screens using a human DUB 
+cDNA library of 65 genes and an siRNA library of 98 genes, and identified USP20 
+as a deubiquitinase (DUB) that regulates SNAI2 ubiquitination and stability. 
+Further investigation of USP20 demonstrated its function in promoting migration, 
+invasion, and metastasis of breast cancer. USP20 positively correlates with 
+SNAI2 protein level in breast tumor samples, and higher USP20 expression is 
+associated with poor prognosis in ER- breast cancer patients.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="583~596" text="breast cancer" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="543~552" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH1" spans="555~563" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH2" spans="569~579" text="metastasis" phenotype="metastasis" />
+<EFFECT id="E0" spans="533~542" text="promoting" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

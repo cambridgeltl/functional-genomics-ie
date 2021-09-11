@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The neuroprotective action of 3,3'-diindolylmethane against ischemia involves an 
+inhibition of apoptosis and autophagy that depends on HDAC and AhR/CYP1A1 but 
+not ERα/CYP19A1 signaling.
+
+There are no studies examining the effects of 3,3'-diindolylmethane (DIM) in 
+neuronal cells subjected to ischemia. Little is also known about the roles of 
+apoptosis and autophagy as well as AhR and ERα signaling and HDACs in DIM 
+action. We demonstrated for the first time the strong neuroprotective capacity 
+of DIM in mouse primary hippocampal cell cultures exposed to ischemia at early 
+and later stages of neuronal development. The protective effects of DIM were 
+mediated via inhibition of ischemia-induced apoptosis and autophagy that was 
+accompanied by a decrease in AhR/CYP1A1 signaling and an increase in HDAC 
+activity. DIM decreased the levels of pro-apoptotic factors, i.e., Fas, 
+Caspase-3, and p38 mitogen-activated protein kinase (MAPK). DIM also reduced the 
+protein levels of autophagy-related Beclin-1 (BECN1) and microtubule-associated 
+proteins 1A/1B light chain (LC3), partially reversed the ischemia-induced 
+decrease in Nucleoporin 62 (NUP62) and inhibited autophagosome formation. In 
+addition, DIM completely reversed the ischemia-induced decrease in histone 
+deacetylase (HDAC) activity in hippocampal neurons. Although DIM inhibited 
+AhR/CYP1A1 signaling, it did not influence the protein expression levels of ERα 
+and ERα-regulated CYP19A1 which are known to be controlled by AhR. This study 
+demonstrated for the first time, that the neuroprotective action of 
+3,3'-diindolylmethane against ischemia involves an inhibition of apoptosis and 
+autophagy and depends on AhR/CYP1A1 signaling and HDAC activity, thus creating 
+the possibility of developing new therapeutic strategies that target neuronal 
+degeneration at specific molecular levels.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="511~550" text="mouse primary hippocampal cell cultures" experiment_type="cells" species="mouse" />
+<CONTEXT id="C2" spans="1308~1327" text="hippocampal neurons" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="672~685,695~712" text="inhibition of ... induced apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E1" spans="672~685,695~702,717~726" text="inhibition of ... induced ... autophagy" phenotype="autophagy" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

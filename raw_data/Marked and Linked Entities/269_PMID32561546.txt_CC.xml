@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Collapse of the hepatic gene regulatory network in the absence of FoxA factors.
+
+The FoxA transcription factors are critical for liver development through their 
+pioneering activity, which initiates a highly complex regulatory network thought 
+to become progressively resistant to the loss of any individual hepatic 
+transcription factor via mutual redundancy. To investigate the dispensability of 
+FoxA factors for maintaining this regulatory network, we ablated all FoxA genes 
+in the adult mouse liver. Remarkably, loss of FoxA caused rapid and massive 
+reduction in the expression of critical liver genes. Activity of these genes was 
+reduced back to the low levels of the fetal prehepatic endoderm stage, leading 
+to necrosis and lethality within days. Mechanistically, we found FoxA proteins 
+to be required for maintaining enhancer activity, chromatin accessibility, 
+nucleosome positioning, and binding of HNF4α. Thus, the FoxA factors act 
+continuously, guarding hepatic enhancer activity throughout adult life.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="456~478" text="ablated all FoxA genes" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="518~530" text="loss of FoxA" description="knock out" />
+<CONTEXT id="C0" spans="487~504" text="adult mouse liver" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="710~730" text="leading  to necrosis" phenotype="necrosis" activity="causes" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="ablated all FoxA genes" contextID="C0" contextText="adult mouse liver" effectID="E0" effectText="leading  to necrosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="loss of FoxA" contextID="C0" contextText="adult mouse liver" effectID="E0" effectText="leading  to necrosis" />
+</TAGS>
+</Genomics_ConceptTask>

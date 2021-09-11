@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Podocytes and autophagy: a potential therapeutic target in lupus nephritis.
+
+Recent studies suggest that defects in macroautophagy/autophagy contribute to 
+the pathogenesis of systemic lupus erythamatosus (SLE), especially in adaptive 
+immunity. The occurrence and progression of lupus nephritis (LN) is the end 
+result of complex interactions between regulation of immune responses and 
+pathological process by renal resident cells, but there is still a lot of 
+missing information for establishing the role of autophagy in the pathogenesis 
+of LN, and as a therapy target. In our recent study, we observed that autophagy 
+is activated in LN, especially in podocytes. Based on in vitro assays, many of 
+the most important mediators of the disease - patients' sera, patients' IgG and 
+IFNA/IFN-α - can induce autophagy in both murine and human podocytes, by 
+reactive oxygen species production or MTORC1 inhibition; autophagy activation 
+negatively associates with podocyte injury. With regard to intervention, 
+autophagy activators can protect against podocyte injury, whereas autophagy 
+inhibitors aggravate injury. Taken together, our findings suggest that podocyte 
+autophagy is involved in lupus renal protection and may be a therapeutic target. 
+These data shed new light on the role of rapamycin and autophagy inducers in the 
+treatment of SLE. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="658~667" text="podocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="827~833,844~853" text="murine ... podocytes" experiment_type="cells" species="mouse" />
+<CONTEXT id="C2" spans="838~853" text="human podocytes" experiment_type="cells" species="human" />
+<EFFECT id="E1" spans="802~818" text="induce autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E2" spans="613~636" text="autophagy  is activated" phenotype="autophagy" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

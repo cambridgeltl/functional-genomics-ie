@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RAD52 and SLX4 act nonepistatically to ensure telomere stability during 
+alternative telomere lengthening.
+
+Approximately 15% of cancers use homologous recombination for alternative 
+lengthening of telomeres (ALT). How the initiating genomic lesions invoke 
+homology-directed telomere synthesis remains enigmatic. Here, we show that 
+distinct dependencies exist for telomere synthesis in response to replication 
+stress or DNA double-strand breaks (DSBs). RAD52 deficiency reduced spontaneous 
+telomeric DNA synthesis and replication stress-associated recombination in G2, 
+concomitant with telomere shortening and damage. However, viability and 
+proliferation remained unaffected, suggesting that alternative telomere 
+recombination mechanisms compensate in the absence of RAD52. In agreement, RAD52 
+was dispensable for DSB-induced telomere synthesis. Moreover, a targeted CRISPR 
+screen revealed that loss of the structure-specific endonuclease scaffold SLX4 
+reduced the proliferation of RAD52-null ALT cells. While SLX4 was dispensable 
+for RAD52-mediated ALT telomere synthesis in G2, combined SLX4 and RAD52 loss 
+resulted in elevated telomere loss, unresolved telomere recombination 
+intermediates, and mitotic infidelity. These findings establish that RAD52 and 
+SLX4 mediate distinct postreplicative DNA repair processes that maintain ALT 
+telomere stability and cancer cell viability.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="456~472" text="RAD52 deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="904~911,957~961" text="loss of ... SLX4" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="992~1002" text="RAD52-null" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1091~1119" text="combined SLX4 and RAD52 loss" description="decreased expression level" />
+<CONTEXT id="C0" spans="1003~1012" text="ALT cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="632~641,661~680" text="viability ... remained unaffected" phenotype="cell survival" activity="no effect" />
+<EFFECT id="E2" spans="647~680" text="proliferation remained unaffected" phenotype="proliferation" activity="no effect" />
+<EFFECT id="E3" spans="963~988" text="reduced the proliferation" phenotype="proliferation" activity="decreases" />
+<ENTITY_LINKING id="EN0" contextID="C0" contextText="ALT cells" effectID="E3" effectText="reduced the proliferation" perturbing_actionID="P1" perturbing_actionText="loss of ... SLX4" />
+</TAGS>
+</Genomics_ConceptTask>

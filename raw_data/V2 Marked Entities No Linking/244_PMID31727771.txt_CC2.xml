@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The KDM5A/RBP2 histone demethylase represses NOTCH signaling to sustain 
+neuroendocrine differentiation and promote small cell lung cancer tumorigenesis.
+
+More than 90% of small cell lung cancers (SCLCs) harbor loss-of-function 
+mutations in the tumor suppressor gene RB1 The canonical function of the RB1 
+gene product, pRB, is to repress the E2F transcription factor family, but pRB 
+also functions to regulate cellular differentiation in part through its binding 
+to the histone demethylase KDM5A (also known as RBP2 or JARID1A). We show that 
+KDM5A promotes SCLC proliferation and SCLC's neuroendocrine differentiation 
+phenotype in part by sustaining expression of the neuroendocrine transcription 
+factor ASCL1. Mechanistically, we found that KDM5A sustains ASCL1 levels and 
+neuroendocrine differentiation by repressing NOTCH2 and NOTCH target genes. To 
+test the role of KDM5A in SCLC tumorigenesis in vivo, we developed a 
+CRISPR/Cas9-based mouse model of SCLC by delivering an adenovirus (or an 
+adeno-associated virus [AAV]) that expresses Cre recombinase and sgRNAs 
+targeting Rb1, Tp53, and Rbl2 into the lungs of Lox-Stop-Lox Cas9 mice. 
+Coinclusion of a KDM5A sgRNA decreased SCLC tumorigenesis and metastasis, and 
+the SCLCs that formed despite the absence of KDM5A had higher NOTCH activity 
+compared to KDM5A +/+ SCLCs. This work establishes a role for KDM5A in SCLC 
+tumorigenesis and suggests that KDM5 inhibitors should be explored as treatments 
+for SCLC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P2" spans="987~1108" text="adenovirus (or an  adeno-associated virus [AAV]) that expresses Cre recombinase and sgRNAs  targeting Rb1, Tp53, and Rbl2" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="1191~1195" text="SCLC" context="neoplasm" />
+<CONTEXT id="C3" spans="1118~1123" text="lungs" context="tissue/organ" />
+<CONTEXT id="C4" spans="1145~1149" text="mice" context="organism" />
+<CONTEXT id="C5" spans="950~969" text="mouse model of SCLC" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="1196~1209" text="tumorigenesis" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH1" spans="1214~1224" text="metastasis" phenotype="metastasis" />
+<EFFECT id="E0" spans="1181~1190" text="decreased" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

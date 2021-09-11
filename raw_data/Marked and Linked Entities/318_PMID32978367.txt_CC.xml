@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Bone marrow mesenchymal stem cells-derived exosomal microRNA-193a reduces 
+cisplatin resistance of non-small cell lung cancer cells via targeting LRRC1.
+
+Exosomes are small endogenous membrane vesicles that can mediate cell 
+communication by transferring genetic materials. Based on that, exosomes have 
+always been discussed as a cargo carrier for microRNA (miRNA) transportation. 
+Accumulating data have reported the inhibitory effects of microRNA-193a 
+(miR-193a) on non-small cell lung cancer (NSCLC) cell progression. However, the 
+mechanisms of miR-193a delivery to cancer cells and miR-193a in exosomes have 
+not been explored clearly in NSCLC. Given that, this work aims to decode 
+exosomal miR-193a in cisplatin (DDP) resistance of NSCLC cells. A549 and H1299 
+cell lines were screened out and their parent cells and drug-resistant cells 
+were co-cultured with human bone marrow mesenchymal stem cells (BMSCs)-derived 
+exosomes (BMSC-Exo) that had been transfected with miR-193a mimic or si-LRRC1 to 
+detect the colony formation, migration, apoptosis, invasion and proliferation of 
+NSCLC cells. In vivo experiment was conducted to verify the in vitro results. 
+BMSC-Exo with upregulated miR-193a and downregulated LRRC1 suppressed colony 
+formation, invasion, proliferation and migration as well as advanced apoptosis 
+of NSCLC parent cells and drug-resistant cells. BMSC-Exo combined with 
+upregulated miR-193a reduced tumor volume and weight in mice with NSCLC. 
+Functional studies report that BMSC-Exo shuffle miR-193a to suppress the colony 
+formation, invasion, migration, and proliferation as well as advance apoptosis 
+of NSCLC DDP-resistant cells via downregulating LRRC1.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1171~1229" text="BMSC-Exo with upregulated miR-193a and downregulated LRRC1" description="other" />
+<PERTURBING_ACTION id="P1" spans="1401~1421" text="upregulated miR-193a" description="increased expression level" />
+<CONTEXT id="C0" spans="1332~1350" text="NSCLC parent cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1355~1375" text="drug-resistant cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1457~1472" text="mice with NSCLC" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="1230~1258" text="suppressed colony  formation" phenotype="colony formation" activity="decreases" />
+<EFFECT id="E1" spans="1230~1240,1260~1268" text="suppressed ... invasion" phenotype="invasion" activity="decreases" />
+<EFFECT id="E2" spans="1230~1240,1270~1283" text="suppressed ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E3" spans="1230~1240,1288~1297" text="suppressed ... migration" phenotype="migration" activity="decreases" />
+<EFFECT id="E4" spans="1309~1327" text="advanced apoptosis" phenotype="apoptosis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="BMSC-Exo with upregulated miR-193a and downregulated LRRC1" effectID="E0" effectText="suppressed colony  formation" contextID="C0" contextText="NSCLC parent cells" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="BMSC-Exo with upregulated miR-193a and downregulated LRRC1" contextID="C0" contextText="NSCLC parent cells" effectID="E1" effectText="suppressed ... invasion" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="BMSC-Exo with upregulated miR-193a and downregulated LRRC1" contextID="C0" contextText="NSCLC parent cells" effectID="E2" effectText="suppressed ... proliferation" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="BMSC-Exo with upregulated miR-193a and downregulated LRRC1" contextID="C0" contextText="NSCLC parent cells" effectID="E4" effectText="advanced apoptosis" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P0" perturbing_actionText="BMSC-Exo with upregulated miR-193a and downregulated LRRC1" contextID="C1" contextText="drug-resistant cells" effectID="E0" effectText="suppressed colony  formation" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P0" perturbing_actionText="BMSC-Exo with upregulated miR-193a and downregulated LRRC1" contextID="C1" contextText="drug-resistant cells" effectID="E1" effectText="suppressed ... invasion" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P0" perturbing_actionText="BMSC-Exo with upregulated miR-193a and downregulated LRRC1" contextID="C1" contextText="drug-resistant cells" effectID="E2" effectText="suppressed ... proliferation" />
+<ENTITY_LINKING id="EN7" perturbing_actionID="P0" perturbing_actionText="BMSC-Exo with upregulated miR-193a and downregulated LRRC1" contextID="C1" contextText="drug-resistant cells" effectID="E4" effectText="advanced apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

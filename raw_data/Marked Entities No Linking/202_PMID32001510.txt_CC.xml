@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mitochondria-to-nucleus retrograde signaling drives formation of cytoplasmic 
+chromatin and inflammation in senescence.
+
+Cellular senescence is a potent tumor suppressor mechanism but also contributes 
+to aging and aging-related diseases. Senescence is characterized by a stable 
+cell cycle arrest and a complex proinflammatory secretome, termed the 
+senescence-associated secretory phenotype (SASP). We recently discovered that 
+cytoplasmic chromatin fragments (CCFs), extruded from the nucleus of senescent 
+cells, trigger the SASP through activation of the innate immunity cytosolic DNA 
+sensing cGAS-STING pathway. However, the upstream signaling events that 
+instigate CCF formation remain unknown. Here, we show that dysfunctional 
+mitochondria, linked to down-regulation of nuclear-encoded mitochondrial 
+oxidative phosphorylation genes, trigger a ROS-JNK retrograde signaling pathway 
+that drives CCF formation and hence the SASP. JNK links to 53BP1, a nuclear 
+protein that negatively regulates DNA double-strand break (DSB) end resection 
+and CCF formation. Importantly, we show that low-dose HDAC inhibitors restore 
+expression of most nuclear-encoded mitochondrial oxidative phosphorylation 
+genes, improve mitochondrial function, and suppress CCFs and the SASP in 
+senescent cells. In mouse models, HDAC inhibitors also suppress oxidative 
+stress, CCF, inflammation, and tissue damage caused by senescence-inducing 
+irradiation and/or acetaminophen-induced mitochondria dysfunction. Overall, our 
+findings outline an extended mitochondria-to-nucleus retrograde signaling 
+pathway that initiates formation of CCF during senescence and is a potential 
+target for drug-based interventions to inhibit the proaging SASP.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="1298~1310" text="mouse models" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="1288~1293" text="cells" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CircFOXK2 Promotes Growth and Metastasis of Pancreatic Ductal Adenocarcinoma by 
+Complexing with RNA-Binding Proteins and Sponging MiR-942.
+
+The detailed biological functions of circular RNA (circRNA) are largely 
+unexplored. Using circRNA sequencing, we identified 169 differentially expressed 
+circRNA in pancreatic ductal adenocarcinoma (PDAC) cells compared with nontumor 
+human pancreatic ductal epithelial cells. Among them, circFOXK2 was validated 
+with significant upregulation in PDAC cells and 63% of primary tumors (53 of 
+84). circFOXK2 promoted cell growth, migration, and invasion and was involved in 
+cell-cycle progression and apoptosis. circFOXK2 contained multiple miRNA binding 
+sites, functioning as a sponge for miR-942, which in turn promoted expression of 
+ANK1, GDNF, and PAX6. A novel and highly specific circRNA-pulldown followed by 
+mass spectrometry analysis identified 94 circFOXK2-interacting proteins, which 
+were involved in cell adhesion, mRNA splicing, and structural molecule activity. 
+Of these, circFOKX2 interactions with YBX1 and hnRNPK enhanced expression of 
+oncogenes NUF2 and PDXK. Knockdown of circFOXK2 reduced binding of YBX1 and 
+hnRNPK to NUF2 and PDXK, in turn decreasing their expression. Collectively, our 
+findings demonstrate that circFOXK2 in complex with YBX1 and hnRNPK promotes 
+expression of oncogenic proteins that contribute to PDAC progression. 
+SIGNIFICANCE: This study reveals a prominent role for the circRNA circFOXK2 in 
+PDAC progression, suggesting that circFOXK2 might be a novel diagnostic marker 
+for PDAC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1125~1147" text="Knockdown of circFOXK2" perturbingaction="rnai/knockdown" />
+<PHENOTYPE id="PH0" spans="558~569" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH1" spans="571~580" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH2" spans="586~594" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH3" spans="643~652" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="549~557" text="promoted" effect="positive" />
+<EFFECT id="E2" spans="603~614" text="involved in" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

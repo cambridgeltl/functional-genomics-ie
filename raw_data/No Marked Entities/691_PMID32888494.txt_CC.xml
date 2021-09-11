@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The Polygenic and Monogenic Basis of Blood Traits and Diseases.
+
+Blood cells play essential roles in human health, underpinning physiological 
+processes such as immunity, oxygen transport, and clotting, which when perturbed 
+cause a significant global health burden. Here we integrate data from UK Biobank 
+and a large-scale international collaborative effort, including data for 563,085 
+European ancestry participants, and discover 5,106 new genetic variants 
+independently associated with 29 blood cell phenotypes covering a range of 
+variation impacting hematopoiesis. We holistically characterize the genetic 
+architecture of hematopoiesis, assess the relevance of the omnigenic model to 
+blood cell phenotypes, delineate relevant hematopoietic cell states influenced 
+by regulatory genetic variants and gene networks, identify novel splice-altering 
+variants mediating the associations, and assess the polygenic prediction 
+potential for blood traits and clinical disorders at the interface of complex 
+and Mendelian genetics. These results show the power of large-scale blood cell 
+trait GWAS to interrogate clinically meaningful variants across a wide allelic 
+spectrum of human variation.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

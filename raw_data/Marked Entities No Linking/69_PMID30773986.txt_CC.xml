@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Radiation induces EIF2AK3/PERK and ERN1/IRE1 mediated pro-survival autophagy.
+
+Cellular effects of ionizing radiation include oxidative damage to 
+macromolecules, unfolded protein response (UPR) and metabolic imbalances. 
+Oxidative stress and UPR have been shown to induce macroautophagy/autophagy in a 
+context-dependent manner and are crucial factors in determining the fate of 
+irradiated cells. However, an in-depth analysis of the relationship between 
+radiation-induced damage and autophagy has not been explored. In the present 
+study, we investigated the relationship between radiation-induced oxidative 
+stress, UPR and autophagy in murine macrophage cells. A close association was 
+observed between radiation-induced oxidative burst, UPR and induction of 
+autophagy, with the possible involvement of EIF2AK3/PERK (eukaryotic translation 
+initiation factor 2 alpha kinase 3) and ERN1/IRE1 (endoplasmic reticulum [ER] to 
+nucleus signaling 1). Inhibitors of either UPR or autophagy reduced the cell 
+survival indicating the importance of these processes after radiation exposure. 
+Moreover, modulation of autophagy affected lethality in the whole body 
+irradiated C57BL/6 mouse. These findings indicate that radiation-induced 
+autophagy is a pro-survival response initiated by oxidative stress and mediated 
+by EIF2AK3 and ERN1.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="642~665" text="murine macrophage cells" experiment_type="cells" species="mouse" />
+<CONTEXT id="C1" spans="1172~1185" text="C57BL/6 mouse" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="752~775" text="induction of  autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="990~1016" text="reduced the cell  survival" phenotype="cell survival" activity="decreases" />
+<EFFECT id="E2" spans="1226~1244" text="induced  autophagy" phenotype="autophagy" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ATF3 promotes erastin-induced ferroptosis by suppressing system Xc().
+
+The amino acid antiporter system Xc- is important for the synthesis of 
+glutathione (GSH) that functions to prevent lipid peroxidation and protect cells 
+from nonapoptotic, iron-dependent death (i.e., ferroptosis). While the activity 
+of system Xc- often positively correlates with the expression level of its light 
+chain encoded by SLC7A11, inhibition of system Xc- activity by small molecules 
+(e.g., erastin) causes a decrease in the intracellular GSH level, leading to 
+ferroptotic cell death. How system Xc- is regulated during ferroptosis remains 
+largely unknown. Here we report that activating transcription factor 3 (ATF3), a 
+common stress sensor, can promote ferroptosis induced by erastin. ATF3 
+suppressed system Xc-, depleted intracellular GSH, and thereby promoted lipid 
+peroxidation induced by erastin. ATF3 achieved this activity through binding to 
+the SLC7A11 promoter and repressing SLC7A11 expression in a p53-independent 
+manner. These findings thus add ATF3 to a short list of proteins that can 
+regulate system Xc- and promote ferroptosis repressed by this antiporter.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

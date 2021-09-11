@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[STYK1 promotes autophagy through enhancing the assembly of autophagy-specific 
+class III phosphatidylinositol 3-kinase complex I.
+
+Macroautophagy/autophagy plays key roles in development, oncogenesis, and 
+cardiovascular and metabolic diseases. Autophagy-specific class III 
+phosphatidylinositol 3-kinase complex I (PtdIns3K-C1) is essential for 
+autophagosome formation. However, the regulation of this complex formation 
+requires further investigation. Here, we discovered that STYK1 
+(serine/threonine/tyrosine kinase 1), a member of the receptor tyrosine kinases 
+(RTKs) family, is a new upstream regulator of autophagy. We discovered that 
+STYK1 facilitated autophagosome formation in human cells and zebrafish, which 
+was characterized by elevated LC3-II and lowered SQSTM1/p62 levels and increased 
+puncta formation by several marker proteins, such as ATG14, WIPI1, and ZFYVE1. 
+Moreover, we observed that STYK1 directly binds to the PtdIns3K-C1 complex as a 
+homodimer. The binding with this complex was promoted by Tyr191 phosphorylation, 
+by means of which the kinase activity of STYK1 was elevated. We also 
+demonstrated that STYK1 elevated the serine phosphorylation of BECN1, thereby 
+decreasing the interaction between BECN1 and BCL2. Furthermore, we found that 
+STYK1 preferentially facilitated the assembly of the PtdIns3K-C1 complex and was 
+required for PtdIns3K-C1 complex kinase activity. Taken together, our findings 
+provide new insights into autophagy induction and reveal evidence of novel 
+crosstalk between the components of RTK signaling and autophagy.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

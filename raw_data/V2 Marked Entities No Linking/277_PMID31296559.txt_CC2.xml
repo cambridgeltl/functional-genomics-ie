@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The orphan nuclear receptor SHP regulates ER stress response by inhibiting XBP1s 
+degradation.
+
+The orphan nuclear receptor SHP (small heterodimer partner) is a well-known 
+transcriptional corepressor of bile acid and lipid metabolism in the liver; 
+however, its function in other tissues is poorly understood. Here, we report an 
+unexpected role for SHP in the exocrine pancreas as a modulator of the 
+endoplasmic reticulum (ER) stress response. SHP expression is induced in acinar 
+cells in response to ER stress and regulates the protein stability of the 
+spliced form of X-box-binding protein 1 (XBP1s), a key mediator of ER stress 
+response. Loss of SHP reduces XBP1s protein level and transcriptional activity, 
+which in turn attenuates the ER stress response during the fasting-feeding 
+cycle. Consequently, SHP-deficient mice also are more susceptible to 
+cerulein-induced pancreatitis. Mechanistically, we show that SHP physically 
+interacts with the transactivation domain of XBP1s, thereby inhibiting the 
+polyubiquitination and degradation of XBP1s by the Cullin3-SPOP (speckle-type 
+POZ protein) E3 ligase complex. Together, our data implicate SHP in governing ER 
+homeostasis and identify a novel posttranslational regulatory mechanism for the 
+key ER stress response effector XBP1.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="647~658" text="Loss of SHP" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="815~828" text="SHP-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="829~833" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The extracellular lactate-to-pyruvate ratio modulates the sensitivity to 
+oxidative stress-induced apoptosis via the cytosolic NADH/NAD(+) redox state.
+
+The advantages of the Warburg effect on tumor growth and progression are well 
+recognized. However, the relevance of the Warburg effect for the inherent 
+resistance to apoptosis of cancer cells has received much less attention. Here, 
+we show here that the Warburg effect modulates the extracellular 
+lactate-to-pyruvate ratio, which profoundly regulates the sensitivity towards 
+apoptosis induced by oxidative stress in several cell lines. To induce oxidative 
+stress, we used the rapid apoptosis inducer Raptinal. We observed that medium 
+conditioned by HepG2 cells has a high lactate-to-pyruvate ratio and confers 
+resistance to Raptinal-induced apoptosis. In addition, imposing a high 
+extracellular lactate-to-pyruvate ratio in media reduces the cytosolic NADH/NAD+ 
+redox state and protects against Raptinal-induced apoptosis. Conversely, a low 
+extracellular lactate-to-pyruvate ratio oxidizes the cytosolic NADH/NAD+ redox 
+state and sensitizes HepG2 cells to oxidative stress-induced apoptosis. 
+Mechanistically, a high extracellular lactate-to-pyruvate ratio decreases the 
+activation of JNK and Bax under oxidative stress, thereby inhibiting the 
+intrinsic apoptotic pathway. Our observations demonstrate that the Warburg 
+effect of cancer cells generates an anti-apoptotic extracellular environment by 
+elevating the extracellular lactate-to-pyruvate ratio which desensitizes cancer 
+cells towards apoptotic insults. Consequently, our study suggests that the 
+Warburg effect can be targeted to reverse the lactate-to-pyruvate ratios in the 
+tumor microenvironment and thereby re-sensitize cancer cells to oxidative 
+stress-inducing therapies.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1106~1117" text="HepG2 cells" experiment_type="cell line" species="not stated" />
+<EFFECT id="E0" spans="794~811" text="induced apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="941~957,967~984" text="protects against ... induced apoptosis" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E2" spans="1138~1155" text="induced apoptosis" phenotype="apoptosis" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

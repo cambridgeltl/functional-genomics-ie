@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SLC3A2/CD98hc, autophagy and tumor radioresistance: a link confirmed.
+
+SLC3A2/CD98hc (solute carrier family 3 member 2) and its light chain subunits 
+constitute the heterodimeric transmembrane complexes that mediate amino acid 
+transport and regulate MTOR and macroautophagy/autophagy. Despite the proven 
+tumorigenic role of SLC3A2 in a number of cancers including head and neck 
+squamous cell carcinomas (HNSCC), the link between SLC3A2, autophagy regulation 
+and tumor radioresistance remained elusive. In a recently published study we 
+demonstrated that low levels of SLC3A2 and SLC7A5/LAT1 protein expression 
+significantly correlate with good clinical prognosis in locally advanced HNSCC 
+treated with primary radiochemotherapy. The SLC3A2-deficient HNSCC cells show a 
+higher radiosensitivity and increased autophagy levels. We found that autophagy 
+activation is a tumor survival strategy to overcome nutrient stress by lack of 
+SLC3A2 and to withstand radiation-mediated cell damage. Inhibition of the 
+autophagy activation in SLC3A2 knockout HNSCC cells by knockdown of ATG5 
+expression or treatment with bafilomycin A1 results in radiosensitivity. 
+Consequently, the expression levels of ATG5 correlates with overall survival in 
+HNSCC patients, and autophagy inhibition in combination with SLC3A2-targeted 
+therapy can be a promising strategy for HNSCC radiosensitization. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="739~755" text="SLC3A2-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1036~1051" text="SLC3A2 knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1067~1084" text="knockdown of ATG5" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C1" spans="1052~1063" text="HNSCC cells" context="transformed cells" />
+<CONTEXT id="C2" spans="756~767" text="HNSCC cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="814~823" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="804~813" text="increased" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="SLC3A2-deficient" contextID="C2" contextText="HNSCC cells" effectID="E0" effectText="increased" phenotypeID="PH0" phenotypeText="autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SPHK1 deficiency protects mice from acetaminophen-induced ER stress and 
+mitochondrial permeability transition.
+
+Acetaminophen (APAP) is the leading cause of drug-induced acute liver failure. 
+Sphingosine-1-phosphate (S1P), whose formation is catalyzed by sphingosine 
+kinase (SPHK)-1 or -2, is a bioactive lipid implicated in human health and 
+disease. Here, we show that APAP-treated sphK1-deficient (sphK1-/-) mice 
+exhibited markedly less liver damage and reduced inflammation compared with the 
+wild-type mice. SPHK1 deficiency alleviated APAP-induced endoplasmic reticulum 
+(ER) stress by affecting the phosphorylation of inositol-requiring enzyme 1α 
+(IRE1α) and protein kinase R (PKR)-like endoplasmic reticulum kinase 
+(PERK)-eukaryotic translation initiation factor 2α (eIF2α), levels of activating 
+transcription factor 4 (ATF4), and activation of activating transcription factor 
+6 (ATF6). SPHK1 deficiency also inhibited mitochondrial permeability transition 
+(MPT), as evidenced by the impaired phosphorylation of JNK, apoptosis 
+signal-regulated kinase 1 (ASK1), and glycogen synthase kinase 3β (GSK3β). In 
+addition, SPHK1 deficiency reduced the levels of histone deacetylase and 
+promoted the acetylation of p65 and STAT1, thereby impairing the transcription 
+of inflammatory genes. Supplementation with exogenous S1P significantly reversed 
+the activation of the PERK-eIF2α-ATF4 pathway and ATF6 during ER stress as well 
+as the activation of GSK3β, ASK1, and JNK during MPT. Both FTY720, a functional 
+S1P receptor antagonist, and PF543, an SPHK1 inhibitor, significantly 
+ameliorated APAP-induced liver injury and improved animal survival. Our study 
+reveals a critical role for SPHK1 in mediating APAP-induced hepatotoxicity by 
+promoting ER stress and MPT.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="386~412" text="sphK1-deficient (sphK1-/-)" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="516~532" text="SPHK1 deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="902~918" text="SPHK1 deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P3" spans="1133~1149" text="SPHK1 deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="1550~1575" text="PF543, an SPHK1 inhibitor" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="413~417" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1617~1622" text="liver" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="1643~1649" text="animal" experiment_type="organism" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

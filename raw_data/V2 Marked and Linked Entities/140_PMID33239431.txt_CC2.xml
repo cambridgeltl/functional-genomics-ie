@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Nucleoporin 210 serves a key scaffold for SMARCB1 in liver cancer.
+
+The roles of chromatin remodelers and their underlying mechanisms of action in 
+cancer remain unclear. In this study, SMARCB1, known initially as a bona fide 
+tumor suppressor gene, was investigated in liver cancer. SMARCB1 was highly 
+upregulated in liver cancer patients and was associated with poor prognosis. 
+Loss- and gain-of-function studies in liver cells revealed that SMARCB1 loss led 
+to reduced cell proliferation, wound healing capacity, and tumor growth in vivo. 
+And although upregulated SMARCB1 appeared to contribute to SWItch/Sucrose 
+Non-Fermentable (SWI/SNF) complex stability and integrity, it did not act using 
+its known pathways antagonism with EZH2 or association between TP53 or AMPK. 
+SMARCB1 knockdown induced a mild reduction in global H3K27 acetylation, and 
+chromatin immunoprecipitation sequencing of SMARCB1 and acetylated histone H3K27 
+antibodies before and after SMARCB1 loss identified Nucleoporin210 (NUP210) as a 
+critical target of SMARCB1, which bound its enhancer and changed H3K27Ac 
+enrichment and downstream gene expression, particularly cholesterol homeostasis 
+and xenobiotic metabolism. Notably, NUP210 was not only a putative tumor 
+supporter involved in liver cancer but also acted as a key scaffold for SMARCB1 
+and P300 to chromatin. Furthermore, SMARCB1 deficiency conferred sensitivity to 
+doxorubicin and P300 inhibitor in liver cancer cells. These findings provide 
+insights into mechanisms underlying dysregulation of chromatin remodelers and 
+show novel associations between nucleoporins and chromatin remodelers in cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="446~458" text="SMARCB1 loss" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="780~797" text="SMARCB1 knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1367~1385" text="SMARCB1 deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="967~979" text="SMARCB1 loss" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="420~431" text="liver cells" context="cells" />
+<CONTEXT id="C1" spans="475~479" text="cell" context="cells" />
+<CONTEXT id="C2" spans="536~543" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="1446~1464" text="liver cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="480~493" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="523~535" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="467~474" text="reduced" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="SMARCB1 loss" contextID="C1" contextText="cell" phenotypeID="PH0" phenotypeText="proliferation" effectID="E0" effectText="reduced" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="SMARCB1 loss" effectID="E0" effectText="reduced" phenotypeID="PH1" phenotypeText="tumor growth" contextID="C2" contextText="in vivo" />
+</TAGS>
+</Genomics_ConceptTask>

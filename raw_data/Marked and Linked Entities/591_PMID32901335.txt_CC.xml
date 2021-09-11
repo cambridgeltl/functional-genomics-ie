@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RAB25 confers resistance to chemotherapy by altering mitochondrial apoptosis 
+signaling in ovarian cancer cells.
+
+Ovarian cancer remains one of the most frequent causes of cancer-related death 
+in women. Many patients with ovarian cancer suffer from de novo or acquired 
+resistance to chemotherapy. Here, we report that RAB25 suppresses 
+chemotherapy-induced mitochondrial apoptosis signaling in ovarian cancer cell 
+lines and primary ovarian cancer cells. RAB25 blocks chemotherapy-induced 
+apoptosis upstream of mitochondrial outer membrane permeabilization by either 
+increasing antiapoptotic BCL-2 proteins or decreasing proapoptotic BCL-2 
+proteins. In particular, BAX expression negatively correlates with RAB25 
+expression in ovarian cancer cells. BH3 profiling assays corroborated that RAB25 
+decreases mitochondrial cell death priming. Suppressing RAB25 by means of RNAi 
+or RFP14 inhibitory hydrocarbon-stapled peptide sensitizes ovarian cancer cells 
+to chemotherapy as well as RAB25-mediated proliferation, invasion and migration. 
+Our data suggest that RAB25 is a potential therapeutic target for ovarian 
+cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="845~879" text="Suppressing RAB25 by means of RNAi" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="845~874,884~928" text="Suppressing RAB25 by means of ... RFP14 inhibitory hydrocarbon-stapled peptide" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="396~422" text="ovarian cancer cell  lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="427~455" text="primary ovarian cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="940~960" text="ovarian cancer cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="463~469,492~501" text="blocks ... apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E1" spans="1004~1017" text="proliferation" phenotype="proliferation" activity="not stated" />
+<EFFECT id="E2" spans="1019~1027" text="invasion" phenotype="invasion" activity="not stated" />
+<EFFECT id="E3" spans="1032~1041" text="migration" phenotype="migration" activity="not stated" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Suppressing RAB25 by means of RNAi" contextID="C2" contextText="ovarian cancer cells" effectID="E1" effectText="proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Suppressing RAB25 by means of RNAi" contextID="C2" contextText="ovarian cancer cells" effectID="E2" effectText="invasion" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="Suppressing RAB25 by means of RNAi" contextID="C2" contextText="ovarian cancer cells" effectID="E3" effectText="migration" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P1" perturbing_actionText="Suppressing RAB25 by means of ... RFP14 inhibitory hydrocarbon-stapled peptide" contextID="C2" contextText="ovarian cancer cells" effectID="E1" effectText="proliferation" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P1" perturbing_actionText="Suppressing RAB25 by means of ... RFP14 inhibitory hydrocarbon-stapled peptide" contextID="C2" contextText="ovarian cancer cells" effectID="E2" effectText="invasion" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P1" perturbing_actionText="Suppressing RAB25 by means of ... RFP14 inhibitory hydrocarbon-stapled peptide" contextID="C2" contextText="ovarian cancer cells" effectID="E3" effectText="migration" />
+</TAGS>
+</Genomics_ConceptTask>

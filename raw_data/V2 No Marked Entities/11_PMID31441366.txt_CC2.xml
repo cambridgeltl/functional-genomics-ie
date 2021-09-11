@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagic degradation of the circadian clock regulator promotes ferroptosis.
+
+Macroautophagy (hereafter referred to as autophagy) involves a lysosomal 
+degradation pathway and plays a context-dependent role in promoting either cell 
+survival or cell death during stress; excessive or impaired autophagy is 
+implicated in various types of cell death. In particular, lipid 
+peroxidation-associated ferroptosis has recently been recognized as a type of 
+autophagy-dependent cell death, but the mechanisms involved remain largely 
+obscure. Our recent findings demonstrate that clockophagy, namely the selective 
+autophagic degradation of the circadian clock regulator ARNTL/BMAL1, promotes 
+ferroptotic cancer cell death in vitro and in vivo. Mechanically, the cargo 
+receptor SQSTM1/p62 is responsible for the autophagic degradation of ARNTL in 
+response to type 2 ferroptosis inducers (e.g., RSL3 and FIN56), but not type 1 
+ferroptosis inducers (e.g., erastin, sulfasalazine, and sorafenib). 
+Consequently, clockophagy-mediated ARNTL degradation promotes lipid peroxidation 
+and subsequent ferroptosis through blocking HIF1A-dependent fatty acid uptake 
+and lipid storage. These findings highlight a novel type of selective autophagy 
+in regulated cell death.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

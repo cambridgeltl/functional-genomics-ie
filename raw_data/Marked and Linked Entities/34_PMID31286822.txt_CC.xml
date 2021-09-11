@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Disrupting the TRIB3-SQSTM1 interaction reduces liver fibrosis by restoring 
+autophagy and suppressing exosome-mediated HSC activation.
+
+Impaired macroautophagy/autophagy is involved in the pathogenesis of hepatic 
+fibrosis. However, how aberrant autophagy promotes fibrosis is far from 
+understood. Here, we aimed to define a previously unrevealed pro-fibrotic 
+mechanism for the stress protein TRIB3 (tribbles pseudokinase 3)-mediated 
+autophagy dysfunction. Human fibrotic liver tissues were obtained from patients 
+with cirrhosis who underwent an open surgical repair process. The functional 
+implications of TRIB3 were evaluated in mouse models of hepatic fibrosis induced 
+by bile duct ligation (BDL) or thioacetamide (TAA) injection. Human fibrotic 
+liver tissues expressed higher levels of TRIB3 and selective autophagic receptor 
+SQSTM1/p62 (sequestosome 1) than nonfibrotic tissues and the elevated expression 
+of TRIB3 and SQSTM1 was positively correlated in the fibrotic tissues. Silencing 
+Trib3 protected against experimentally induced hepatic fibrosis, accompanied by 
+restored autophagy activity in fibrotic liver tissues. Furthermore, TRIB3 
+interacted with SQSTM1 and hindered its binding to MAP1LC3/LC3, which caused the 
+accumulation of SQSTM1 aggregates and obstructed autophagic flux. The 
+TRIB3-mediated autophagy impairment not only suppressed autophagic degradation 
+of late endosomes but also promoted hepatocellular secretion of INHBA/Activin 
+A-enriched exosomes which caused migration, proliferation and activation of 
+hepatic stellate cells (HSCs), the effector cells of liver fibrosis. Disrupting 
+the TRIB3-SQSTM1 interaction with a specific helical peptide exerted potent 
+protective effects against hepatic fibrosis by restoring autophagic flux in 
+hepatocytes and HSCs. Together, stress-elevated TRIB3 expression promotes 
+hepatic fibrosis by interacting with SQSTM1 and interfering with its functions 
+in liver-parenchymal cells and activating HSCs. Targeting this interaction is a 
+promising strategy for treating fibroproliferative liver diseases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="992~1008" text="Silencing  Trib3" description="knock down" />
+<CONTEXT id="C0" spans="637~669" text="mouse models of hepatic fibrosis" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="461~489" text="Human fibrotic liver tissues" experiment_type="organism" species="human" />
+<CONTEXT id="C2" spans="741~770" text="Human fibrotic  liver tissues" experiment_type="organism" species="human" />
+<CONTEXT id="C3" spans="1115~1137" text="fibrotic liver tissues" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="1548~1577" text="hepatic stellate cells (HSCs)" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1783~1794" text="hepatocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1799~1803" text="HSCs" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1084~1111" text="restored autophagy activity" phenotype="autophagy" activity="increases" />
+<EFFECT id="E1" spans="1497~1513" text="caused migration" phenotype="migration" activity="causes" />
+<EFFECT id="E2" spans="1497~1503,1515~1528" text="caused ... proliferation" phenotype="proliferation" activity="causes" />
+<EFFECT id="E3" spans="1753~1778" text="restoring autophagic flux" phenotype="autophagy" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Silencing  Trib3" contextID="C3" contextText="fibrotic liver tissues" effectID="E0" effectText="restored autophagy activity" />
+</TAGS>
+</Genomics_ConceptTask>

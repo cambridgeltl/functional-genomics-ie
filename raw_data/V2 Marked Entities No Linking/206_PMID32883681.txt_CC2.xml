@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Break-induced replication promotes fragile telomere formation.
+
+TRF1 facilitates the replication of telomeric DNA in part by recruiting the BLM 
+helicase, which can resolve G-quadruplexes on the lagging-strand template. 
+Lagging-strand telomeres lacking TRF1 or BLM form fragile telomeres-structures 
+that resemble common fragile sites (CFSs)-but how they are formed is not known. 
+We report that analogous to CFSs, fragile telomeres in BLM-deficient cells 
+involved double-strand break (DSB) formation, in this case by the SLX4/SLX1 
+nuclease. The DSBs were repaired by POLD3/POLD4-dependent break-induced 
+replication (BIR), resulting in fragile telomeres containing conservatively 
+replicated DNA. BIR also promoted fragile telomere formation in cells with 
+FokI-induced telomeric DSBs and in alternative lengthening of telomeres (ALT) 
+cells, which have spontaneous telomeric damage. BIR of telomeric DSBs competed 
+with PARP1-, LIG3-, and XPF-dependent alternative nonhomologous end joining 
+(alt-NHEJ), which did not generate fragile telomeres. Collectively, these 
+findings indicate that fragile telomeres can arise from BIR-mediated repair of 
+telomeric DSBs.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="437~450" text="BLM-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="451~456" text="cells" context="cells" />
+<CONTEXT id="C1" spans="749~754" text="cells" context="cells" />
+<CONTEXT id="C2" spans="840~845" text="cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

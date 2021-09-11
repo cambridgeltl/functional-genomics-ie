@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy drives fibroblast senescence through MTORC2 regulation.
+
+Sustained macroautophagy/autophagy favors the differentiation of fibroblasts 
+into myofibroblasts. Cellular senescence, another means of responding to 
+long-term cellular stress, has also been linked to myofibroblast differentiation 
+and fibrosis. Here, we evaluate the relationship between senescence and 
+myofibroblast differentiation in the context of sustained autophagy. We analyzed 
+markers of cell cycle arrest/senescence in fibroblasts in vitro, where autophagy 
+was triggered by serum starvation (SS). Autophagic fibroblasts expressed the 
+senescence biomarkers CDKN1A/p21 and CDKN2A/p16 and exhibited increased 
+senescence-associated GLB1/beta-galactosidase activity. Inhibition of autophagy 
+in serum-starved fibroblasts with 3-methyladenine, LY294002, or ATG7 (autophagy 
+related 7) silencing prevented the expression of senescence-associated markers. 
+Similarly, suppressing MTORC2 activation using rapamycin or by silencing RICTOR 
+also prevented senescence hallmarks. Immunofluorescence microscopy showed that 
+senescence and myofibroblast differentiation were induced in different cells, 
+suggesting mutually exclusive activation of senescence and myofibroblast 
+differentiation. Reactive oxygen species (ROS) are known inducers of senescence 
+and exposing fibroblasts to ROS scavengers decreased ROS production during SS, 
+inhibited autophagy, and significantly reduced the expression of senescence and 
+myofibroblast differentiation markers. ROS scavengers also curbed the AKT1 
+phosphorylation at Ser473, an MTORC2 target, establishing the importance of ROS 
+in fueling MTORC2 activation. Inhibition of senescence by shRNA to TP53/p53 and 
+shRNA CDKN2A/p16 increased myofibroblast differentiation, suggesting a negative 
+feedback loop of senescence on autophagy-induced myofibroblast differentiation. 
+Collectively, our results identify ROS as central inducers of MTORC2 activation 
+during chronic autophagy, which in turn fuels senescence activation and 
+myofibroblast differentiation in distinct cellular subpopulations. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="834~871" text="ATG7 (autophagy  related 7) silencing" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="995~1011" text="silencing RICTOR" description="knock down" />
+<PERTURBING_ACTION id="P4" spans="1703~1742" text="shRNA to TP53/p53 and  shRNA CDKN2A/p16" description="knock down" />
+<CONTEXT id="C0" spans="499~519" text="fibroblasts in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1164~1169" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1340~1351" text="fibroblasts" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1753~1766" text="myofibroblast" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="2084~2107" text="cellular subpopulations" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="589~600" text="fibroblasts" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="773~798" text="serum-starved fibroblasts" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="527~551" text="autophagy  was triggered" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="1018~1048" text="prevented senescence hallmarks" phenotype="senescence" activity="inhibits" />
+<EFFECT id="E2" spans="1093~1103,1138~1150" text="senescence ... were induced" phenotype="senescence" activity="causes" />
+<EFFECT id="E3" spans="1108~1150" text="myofibroblast differentiation were induced" phenotype="differentiation" activity="causes" />
+<EFFECT id="E4" spans="1407~1426" text="inhibited autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E5" spans="1675~1699" text="Inhibition of senescence" phenotype="senescence" activity="inhibits" />
+<EFFECT id="E6" spans="1743~1752,1767~1782" text="increased ... differentiation" phenotype="differentiation" activity="increases" />
+<EFFECT id="E7" spans="2015~2036" text="senescence activation" phenotype="senescence" activity="causes" />
+<EFFECT id="E9" spans="745~768" text="Inhibition of autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E10" spans="2009~2014,2042~2071" text="fuels ... myofibroblast differentiation" phenotype="differentiation" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="ATG7 (autophagy  related 7) silencing" contextID="C6" contextText="serum-starved fibroblasts" effectID="E9" effectText="Inhibition of autophagy" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P4" perturbing_actionText="shRNA to TP53/p53 and  shRNA CDKN2A/p16" contextID="C3" contextText="myofibroblast" effectID="E5" effectText="Inhibition of senescence" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P4" perturbing_actionText="shRNA to TP53/p53 and  shRNA CDKN2A/p16" contextID="C3" contextText="myofibroblast" effectID="E6" effectText="increased ... differentiation" />
+</TAGS>
+</Genomics_ConceptTask>

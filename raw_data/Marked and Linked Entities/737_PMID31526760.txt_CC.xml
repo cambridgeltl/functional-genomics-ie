@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Epithelial NOTCH Signaling Rewires the Tumor Microenvironment of Colorectal 
+Cancer to Drive Poor-Prognosis Subtypes and Metastasis.
+
+The metastatic process of colorectal cancer (CRC) is not fully understood and 
+effective therapies are lacking. We show that activation of NOTCH1 signaling in 
+the murine intestinal epithelium leads to highly penetrant metastasis (100% 
+metastasis; with >80% liver metastases) in KrasG12D-driven serrated cancer. 
+Transcriptional profiling reveals that epithelial NOTCH1 signaling creates a 
+tumor microenvironment (TME) reminiscent of poorly prognostic human CRC subtypes 
+(CMS4 and CRIS-B), and drives metastasis through transforming growth factor 
+(TGF) β-dependent neutrophil recruitment. Importantly, inhibition of this 
+recruitment with clinically relevant therapeutic agents blocks metastasis. We 
+propose that NOTCH1 signaling is key to CRC progression and should be exploited 
+clinically.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="259~289" text="activation of NOTCH1 signaling" description="other" />
+<CONTEXT id="C0" spans="298~326" text="murine intestinal epithelium" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="430~445" text="serrated cancer" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="816~833" text="blocks metastasis" activity="inhibits" phenotype="metastasis" />
+<EFFECT id="E3" spans="327~335,353~363" text="leads to ... metastasis" phenotype="metastasis" activity="causes" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="activation of NOTCH1 signaling" contextID="C0" contextText="murine intestinal epithelium" effectID="E3" effectText="leads to ... metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

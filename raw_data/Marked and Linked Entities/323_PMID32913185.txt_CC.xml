@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Upregulation of CPT1A is essential for the tumor-promoting effect of adipocytes 
+in colon cancer.
+
+Colon tumors grow in an adipose tissue-enriched microenvironment. Locally 
+advanced colon cancers often invade into surrounding adipose tissue with a 
+direct contact with adipocytes. We have previously shown that adipocytes promote 
+tumor growth by modulating cellular metabolism. Here we demonstrate that 
+carnitine palmitoyltransferase I (CPT1A), a key enzyme controlling fatty acid 
+oxidation (FAO), was upregulated in colon cancer cells upon exposure to 
+adipocytes or fatty acids. In addition, CPT1A expression was increased in 
+invasive tumor cells within the adipose tissue compared to tumors without direct 
+contact with adipocytes. Silencing CPT1A abolished the protective effect 
+provided by fatty acids against nutrient deprivation and reduced tumor organoid 
+formation in 3D culture and the expression of genes associated with cancer stem 
+cells downstream of Wnt/β-catenin. Mechanistically, CPT1A-dependent FAO promoted 
+the acetylation and nuclear translocation of β-catenin. Furthermore, knockdown 
+of CPT1A blocked the tumor-promoting effect of adipocytes in vivo and inhibited 
+xenograft tumor initiation. Taken together, our findings identify CPT1A-depedent 
+FAO as an essential metabolic pathway that enables the interaction between 
+adipocytes and colon cancer cells.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="740~755" text="Silencing CPT1A" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1102~1121" text="knockdown  of CPT1A" description="knock down" />
+<CONTEXT id="C0" spans="521~539" text="colon cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="860~868,880~893" text="organoid ... in 3D culture" experiment_type="organoid culture" species="not stated" />
+<CONTEXT id="C2" spans="1160~1178" text="adipocytes in vivo" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1194~1203" text="xenograft" experiment_type="xenotransplantation" species="not stated" />
+<EFFECT id="E0" spans="846~859,870~879" text="reduced tumor ... formation" phenotype="tumourigenesis" activity="decreases" />
+<EFFECT id="E1" spans="1183~1192,1204~1220" text="inhibited ... tumor initiation" phenotype="tumourigenesis" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Silencing CPT1A" contextID="C1" contextText="organoid ... in 3D culture" effectID="E0" effectText="reduced tumor ... formation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="knockdown  of CPT1A" contextID="C3" contextText="xenograft" effectID="E1" effectText="inhibited ... tumor initiation" />
+</TAGS>
+</Genomics_ConceptTask>

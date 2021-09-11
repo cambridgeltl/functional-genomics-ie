@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Removal of N-Linked Glycosylation Enhances PD-L1 Detection and Predicts 
+Anti-PD-1/PD-L1 Therapeutic Efficacy.
+
+Reactivation of T cell immunity by PD-1/PD-L1 immune checkpoint blockade has 
+been shown to be a promising cancer therapeutic strategy. However, PD-L1 
+immunohistochemical readout is inconsistent with patient response, which 
+presents a clinical challenge to stratify patients. Because PD-L1 is heavily 
+glycosylated, we developed a method to resolve this by removing the glycan 
+moieties from cell surface antigens via enzymatic digestion, a process termed 
+sample deglycosylation. Notably, deglycosylation significantly improves 
+anti-PD-L1 antibody binding affinity and signal intensity, resulting in more 
+accurate PD-L1 quantification and prediction of clinical outcome. This proposed 
+method of PD-L1 antigen retrieval may provide a practical and timely approach to 
+reduce false-negative patient stratification for guiding anti-PD-1/PD-L1 
+therapy.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

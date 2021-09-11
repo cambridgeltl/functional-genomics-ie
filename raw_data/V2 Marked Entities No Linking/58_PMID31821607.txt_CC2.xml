@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Down-regulated TMED10 in Alzheimer disease induces autophagy via ATG4B 
+activation.
+
+Several studies have shown that dysfunction of macroautophagy/autophagy is 
+associated with many human diseases, including neurodegenerative disease and 
+cancer. To explore the molecular mechanisms of autophagy, we performed a 
+cell-based functional screening with SH-SY5Y cells stably expressing GFP-LC3, 
+using an siRNA library and identified TMED10 (transmembrane p24 trafficking 
+protein 10), previously known as the γ-secretase-modulating protein, as a novel 
+regulator of autophagy. Further investigations revealed that depletion of TMED10 
+induced the activation of autophagy. Interestingly, protein-protein interaction 
+assays showed that TMED10 directly binds to ATG4B (autophagy related gene 4B 
+cysteine peptidase), and the interaction is diminished under autophagy 
+activation conditions such as rapamycin treatment and serum deprivation. In 
+addition, inhibition of TMED10 significantly enhanced the proteolytic activity 
+of ATG4B for LC3 cleavage. Importantly, the expression of TMED10 in AD 
+(Alzheimer disease) patients was considerably decreased, and downregulation of 
+TMED10 increased amyloid-β (Aβ) production. Treatment with Aβ increased ATG4B 
+proteolytic activity as well as dissociation of TMED10 and ATG4B. Taken 
+together, our results suggest that the AD-associated protein TMED10 negatively 
+regulates autophagy by inhibiting ATG4B activity.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="611~630" text="depletion of TMED10" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="950~970" text="inhibition of TMED10" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1153~1178" text="downregulation of  TMED10" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="350~363" text="SH-SY5Y cells" context="cells" />
+<PHENOTYPE id="PH0" spans="658~667" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="563~572" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="632~639" text="induced" effect="positive" />
+<EFFECT id="E1" spans="644~654" text="activation" effect="positive" />
+<EFFECT id="E2" spans="550~559" text="regulator" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

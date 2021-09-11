@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Long noncoding RNA CA7-4 promotes autophagy and apoptosis via sponging MIR877-3P 
+and MIR5680 in high glucose-induced vascular endothelial cells.
+
+Vascular endothelial cells (VECs) that form the inner wall of blood vessels can 
+be injured by high glucose-induced autophagy and apoptosis. Although the role of 
+long noncoding RNA in regulating cell fate has received widespread attention, 
+long noncoding RNAs (lncRNAs) that can both regulate autophagy and apoptosis 
+need to be discovered. In this study, we identified that a small chemical 
+molecule, 3-benzyl-5-([2-nitrophenoxy] methyl)-dihydrofuran-2(3H)-one (3BDO), 
+synthesized by us, could inhibit VEC autophagy and apoptosis induced by a high 
+concentration of glucose. To find new lncRNAs that regulate autophagy and 
+apoptosis in VECs, we performed lncRNA microarray analysis. We found and 
+verified an upregulated lncRNA named CA7-4 that was induced by a high 
+concentration of glucose could be downregulated by 3BDO most obviously among all 
+of the detected lncRNAs. Meanwhile, we investigated the mechanism of CA7-4 in 
+regulating VEC autophagy and apoptosis. The results showed that CA7-4 
+facilitated endothelial autophagy and apoptosis as a competing endogenous RNA 
+(ceRNA) by decoying MIR877-3P and MIR5680. Further study elucidated that 
+MIR877-3P could trigger the decrease of CTNNBIP1 (catenin beta interacting 
+protein 1) by combining with its 3' UTR and then upregulating CTNNB1 (catenin 
+beta 1); MIR5680 inhibited the phosphorylation of AMP-activated protein kinase 
+(AMPK) by targeting and decreasing DPP4 (dipeptidyl peptidase 4). Therefore, 
+CA7-4, MIR877-3P and MIR5680 represent new signal pathways that regulate VEC 
+autophagy and apoptosis under the high-glucose condition.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="654~657" text="VEC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1093~1096" text="VEC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1692~1695" text="VEC" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="646~653,658~667" text="inhibit ... autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E1" spans="646~653,672~681" text="inhibit ... apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E2" spans="1082~1092,1097~1106" text="regulating ... autophagy" phenotype="autophagy" activity="regulates" />
+<EFFECT id="E3" spans="1082~1092,1111~1120" text="regulating ... apoptosis" phenotype="apoptosis" activity="regulates" />
+<EFFECT id="E4" spans="1153~1164,1177~1186" text="facilitated ... autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E5" spans="1153~1164,1191~1200" text="facilitated ... apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E6" spans="1683~1691,1697~1706" text="regulate ... autophagy" phenotype="autophagy" activity="regulates" />
+<EFFECT id="E7" spans="1683~1691,1711~1720" text="regulate ... apoptosis" phenotype="apoptosis" activity="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

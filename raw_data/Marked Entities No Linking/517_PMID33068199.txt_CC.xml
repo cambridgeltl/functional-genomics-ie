@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Sphingosylphosphorylcholine alleviates hypoxia-caused apoptosis in cardiac 
+myofibroblasts via CaM/p38/STAT3 pathway.
+
+Blockade of hypoxia-caused nonmyocytes apoptosis helps improve survival and 
+mitigate ventricular remodeling and dysfunction during the chronic stage of 
+myocardial infarction. But tools affecting nonmyocyte apoptosis are very rare. 
+Sphingosylphosphorylcholine (SPC), a naturally occurring bioactive sphingolipid 
+in plasma, was proved to protect cardiomyocyte against apoptosis in an ischemic 
+model in our previous study. Here, we showed that SPC also inhibited 
+hypoxia-induced apoptosis in myofibroblasts, an important type of nonmyocytes in 
+the heart. Calmodulin (CaM) is an identified receptor of SPC. We clarified that 
+SPC inhibited myofibroblast apoptosis through CaM as evidenced by decreased 
+cleaved caspase 3, PARP1 and condensed nucleus. Furthermore, the employment of 
+inhibitor and agonist of p38 and STAT3 suggests that SPC inhibits myofibroblast 
+apoptosis by regulating the phosphorylation of p38 and STAT3, and they act as 
+downstream of CaM. The present work may provide new evidence on the regulation 
+of myofibroblasts apoptosis by SPC and a novel target for heart remodeling after 
+hypoxia.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="614~628" text="myofibroblasts" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="762~775" text="myofibroblast" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="971~984" text="myofibroblast" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="574~583,593~610" text="inhibited ... induced apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E1" spans="752~761,776~785" text="inhibited ... apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E2" spans="962~970,986~995" text="inhibits ... apoptosis" phenotype="apoptosis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

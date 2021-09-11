@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The AMPK-MFN2 axis regulates MAM dynamics and autophagy induced by energy 
+stresses.
+
+Energy deprivation activates the cellular energy sensor AMP-activated protein 
+kinase (AMPK), which in turn induces macroautophagy/autophagy. The 
+mitochondrial-associated ER membrane (MAM) plays a key role in mitochondrial 
+division and autophagy, and the mitochondrial fusion protein MFN2 (mitofusin 2) 
+tethers the MAM, but the mechanism by which AMPK and MFN2 regulate autophagy in 
+response to energy stress remains unclear. Here, we found that energy stress not 
+only triggers mitochondrial fission and autophagy, but more importantly 
+increases the number of MAMs, a process that requires AMPK. Interestingly, under 
+energy stress, considerable amounts of AMPK translocate from cytosol to the MAM 
+and the mitochondrion as mitochondrial fission occurs. Unexpectedly, AMPK 
+interacts directly with MFN2. The autophagic ability of mouse embryonic 
+fibroblasts (MEFs) lacking MFN2 (mfn2-/-) is significantly attenuated in 
+response to energy stress as compared to wild-type MEFs (WT MEFs), while 
+re-expression of MFN2 in mfn2-/- cells rescues the autophagy defects of these 
+cells. The abundance of MAMs is also greatly reduced in MFN2-deficient cells. 
+Functional experiments show that the oxygen consumption rate and the glycolytic 
+function of cells lacking MFN2 but not MFN1 are obviously attenuated, and MFN2 
+is important for cell survival under energy stress. In conclusion, our study 
+establishes the molecular link between the energy sensor AMPK and the MAM tether 
+MFN2, and reveals the important role of AMPK and MFN2 in energy stress-induced 
+autophagy and MAM dynamics.
+
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="958~980" text="lacking MFN2 (mfn2-/-)" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1087~1108" text="re-expression of MFN2" description="knock in" />
+<PERTURBING_ACTION id="P2" spans="1112~1119" text="mfn2-/-" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1222~1236" text="MFN2-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="1344~1356" text="lacking MFN2" description="decreased expression level" />
+<CONTEXT id="C0" spans="922~957" text="mouse embryonic  fibroblasts (MEFs)" species="mouse" experiment_type="cells" />
+<CONTEXT id="C1" spans="1120~1125" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1166~1171" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1237~1242" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1338~1343" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="560~568,595~604" text="triggers ... autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="900~918,981~1008" text="autophagic ability ... is significantly attenuated" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E2" spans="1126~1155" text="rescues the autophagy defects" phenotype="autophagy" activity="causes" />
+<EFFECT id="E3" spans="1138~1155" text="autophagy defects" phenotype="autophagy" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="lacking MFN2 (mfn2-/-)" contextID="C0" contextText="mouse embryonic  fibroblasts (MEFs)" effectID="E1" effectText="autophagic ability ... is significantly attenuated" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="mfn2-/-" contextID="C1" contextText="cells" effectID="E3" effectText="autophagy defects" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="re-expression of MFN2" contextID="C1" contextText="cells" effectID="E2" effectText="rescues the autophagy defects" />
+</TAGS>
+</Genomics_ConceptTask>

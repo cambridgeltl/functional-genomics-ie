@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Lipophagy-derived fatty acids undergo extracellular efflux via lysosomal 
+exocytosis.
+
+The autophagic degradation of lipid droplets (LDs), termed lipophagy, is a major 
+mechanism that contributes to lipid turnover in numerous cell types. While 
+numerous factors, including nutrient deprivation or overexpression of 
+PNPLA2/ATGL (patatin-like phospholipase domain containing 2) drive lipophagy, 
+the trafficking of fatty acids (FAs) produced from this pathway is largely 
+unknown. Herein, we show that PNPLA2 and nutrient deprivation promoted the 
+extracellular efflux of FAs. Inhibition of autophagy or lysosomal lipid 
+degradation attenuated FA efflux highlighting a critical role for lipophagy in 
+this process. Rather than direct transport of FAs across the lysosomal membrane, 
+lipophagy-derived FA efflux requires lysosomal fusion to the plasma membrane. 
+The lysosomal Ca2+ channel protein MCOLN1/TRPML1 (mucolipin 1) regulates 
+lysosomal-plasma membrane fusion and its overexpression increased, while 
+inhibition blocked FA efflux. In addition, inhibition of autophagy/lipophagy or 
+MCOLN1, or sequestration of extracellular FAs with BSA attenuated the oxidation 
+and re-esterification of lipophagy-derived FAs. Overall, these studies show that 
+the well-established pathway of lysosomal fusion to the plasma membrane is the 
+primary route for the disposal of FAs derived from lipophagy. Moreover, the 
+efflux of FAs and their reuptake or subsequent extracellular trafficking to 
+adjacent cells may play an important role in cell-to-cell lipid exchange and 
+signaling.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="896~923,976~990" text="MCOLN1/TRPML1 (mucolipin 1) ... overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="896~923,1009~1019" text="MCOLN1/TRPML1 (mucolipin 1) ... inhibition" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1052~1065,1090~1096" text="inhibition of ... MCOLN1" description="pharmacological inhibition" />
+</TAGS>
+</Genomics_ConceptTask>

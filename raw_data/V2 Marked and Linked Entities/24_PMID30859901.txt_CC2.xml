@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mitophagy regulates mitochondrial network signaling, oxidative stress, and 
+apoptosis during myoblast differentiation.
+
+Macroautophagy/autophagy is a degradative process essential for various cellular 
+processes. We previously demonstrated that autophagy-deficiency causes myoblast 
+apoptosis and impairs myotube formation. In this study, we continued this work 
+with particular emphasis on mitochondrial remodelling and stress/apoptotic 
+signaling. We found increased (p < 0.05) autophagic (e.g., altered LC3B levels, 
+increased ATG7, decreased SQSTM1) and mitophagic (e.g., BNIP3 upregulation, 
+mitochondrial localized GFP-LC3 puncta, and elevated mitochondrial LC3B-II) 
+signaling during myoblast differentiation. shRNA-mediated knockdown of ATG7 
+(shAtg7) decreased these autophagic and mitophagic responses, while increasing 
+CASP3 activity and ANXA5/annexin V staining in differentiating myoblasts; 
+ultimately resulting in dramatically impaired myogenesis. Further confirming the 
+importance of mitophagy in these responses, CRISPR-Cas9-mediated knockout of 
+Bnip3 (bnip3-/-) resulted in increased CASP3 activity and DNA fragmentation as 
+well as impaired myoblast differentiation. In addition, shAtg7 myoblasts 
+displayed greater endoplasmic reticulum (e.g., increased CAPN activity and HSPA) 
+and mitochondrial (e.g., mPTP formation, reduced mitochondrial membrane 
+potential, elevated mitochondrial 4-HNE) stress. shAtg7 and bnip3-/- myoblasts 
+also displayed altered mitochondria-associated signaling (e.g., PPARGC1A, DNM1L, 
+OPA1) and protein content (e.g., SLC25A4, VDAC1, CYCS). Moreover, shAtg7 
+myoblasts displayed CYCS and AIFM1 release from mitochondria, and CASP9 
+activation. Similarly, bnip3-/- myoblasts had significantly higher CASP9 
+activation during differentiation. Importantly, administration of a chemical 
+inhibitor of CASP9 (Ac-LEHD-CHO) or dominant-negative CASP9 (ad-DNCASP9) 
+partially recovered differentiation and myogenesis in shAtg7 myoblasts. 
+Together, these data demonstrate an essential role for autophagy in protecting 
+myoblasts from mitochondrial oxidative stress and apoptotic signaling during 
+differentiation, as well as in the regulation of mitochondrial network 
+remodelling and myogenesis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="717~759" text="shRNA-mediated knockdown of ATG7  (shAtg7)" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1032~1082" text="CRISPR-Cas9-mediated knockout of  Bnip3 (bnip3-/-)" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="1202~1208" text="shAtg7" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P4" spans="1424~1430" text="shAtg7" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P5" spans="1435~1443" text="bnip3-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P6" spans="1603~1609" text="shAtg7" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P7" spans="1707~1715" text="bnip3-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P9" spans="1872~1908" text="dominant-negative CASP9 (ad-DNCASP9)" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P10" spans="1964~1970" text="shAtg7" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P11" spans="1826~1868" text="chemical  inhibitor of CASP9 (Ac-LEHD-CHO)" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="878~903" text="differentiating myoblasts" context="cells" />
+<CONTEXT id="C1" spans="1163~1171" text="myoblast" context="cells" />
+<CONTEXT id="C2" spans="1209~1218" text="myoblasts" context="cells" />
+<CONTEXT id="C3" spans="1444~1453" text="myoblasts" context="cells" />
+<CONTEXT id="C4" spans="1611~1620" text="myoblasts" context="cells" />
+<CONTEXT id="C5" spans="1716~1725" text="myoblasts" context="cells" />
+<CONTEXT id="C6" spans="1971~1980" text="myoblasts" context="cells" />
+<PHENOTYPE id="PH0" spans="1172~1187" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH1" spans="1930~1945" text="differentiation" phenotype="differentiation" />
+<EFFECT id="E0" spans="1154~1162" text="impaired" effect="negative" />
+<EFFECT id="E1" spans="1920~1929" text="recovered" effect="rescues" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="CRISPR-Cas9-mediated knockout of  Bnip3 (bnip3-/-)" contextID="C1" contextText="myoblast" phenotypeID="PH0" phenotypeText="differentiation" effectID="E0" effectText="impaired" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P11" perturbing_actionText="chemical  inhibitor of CASP9 (Ac-LEHD-CHO)" contextID="C6" contextText="myoblasts" phenotypeID="PH1" phenotypeText="differentiation" effectID="E1" effectText="recovered" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P9" perturbing_actionText="dominant-negative CASP9 (ad-DNCASP9)" contextID="C6" contextText="myoblasts" phenotypeID="PH1" phenotypeText="differentiation" effectID="E1" effectText="recovered" />
+</TAGS>
+</Genomics_ConceptTask>

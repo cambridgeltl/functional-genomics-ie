@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Single-nucleus transcriptomic survey of cell diversity and functional maturation 
+in postnatal mammalian hearts.
+
+A fundamental challenge in understanding cardiac biology and disease is that the 
+remarkable heterogeneity in cell type composition and functional states have not 
+been well characterized at single-cell resolution in maturing and diseased 
+mammalian hearts. Massively parallel single-nucleus RNA sequencing (snRNA-seq) 
+has emerged as a powerful tool to address these questions by interrogating the 
+transcriptome of tens of thousands of nuclei isolated from fresh or frozen 
+tissues. snRNA-seq overcomes the technical challenge of isolating intact single 
+cells from complex tissues, including the maturing mammalian hearts; reduces 
+biased recovery of easily dissociated cell types; and minimizes aberrant gene 
+expression during the whole-cell dissociation. Here we applied sNucDrop-seq, a 
+droplet microfluidics-based massively parallel snRNA-seq method, to investigate 
+the transcriptional landscape of postnatal maturing mouse hearts in both healthy 
+and disease states. By profiling the transcriptome of nearly 20,000 nuclei, we 
+identified major and rare cardiac cell types and revealed significant 
+heterogeneity of cardiomyocytes, fibroblasts, and endothelial cells in postnatal 
+developing hearts. When applied to a mouse model of pediatric mitochondrial 
+cardiomyopathy, we uncovered profound cell type-specific modifications of the 
+cardiac transcriptional landscape at single-nucleus resolution, including 
+changes of subtype composition, maturation states, and functional remodeling of 
+each cell type. Furthermore, we employed sNucDrop-seq to decipher the cardiac 
+cell type-specific gene regulatory network (GRN) of GDF15, a heart-derived 
+hormone and clinically important diagnostic biomarker of heart disease. 
+Together, our results present a rich resource for studying cardiac biology and 
+provide new insights into heart disease using an approach broadly applicable to 
+many fields of biomedicine.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

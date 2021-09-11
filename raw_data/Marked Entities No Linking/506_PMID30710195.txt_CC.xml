@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Chemotherapeutic paclitaxel and cisplatin differentially induce pyroptosis in 
+A549 lung cancer cells via caspase-3/GSDME activation.
+
+Gasdermin E (GSDME) has an important role in inducing secondary 
+necrosis/pyroptosis. Upon apoptotic stimulation, it can be cleaved by activated 
+caspase-3 to generate its N-terminal fragment (GSDME-NT), which executes 
+pyroptosis by perforating the plasma membrane. GSDME is expressed in many human 
+lung cancers including A549 cells. Paclitaxel and cisplatin are two 
+representative chemotherapeutic agents for lung cancers, which induce apoptosis 
+via different action mechanisms. However, it remains unclear whether they can 
+induce GSDME-mediated secondary necrosis/pyroptosis in lung A549 cancer cells. 
+Here we showed that both paclitaxel and cisplatin evidently induced apoptosis in 
+A549 cells as revealed by the activation of multiple apoptotic markers. Notably, 
+some of the dying cells displayed characteristic morphology of secondary 
+necrosis/pyroptosis, by blowing large bubbles from the cellular membrane 
+accompanied by caspase-3 activation and GSDME-NT generation. But the ability of 
+cisplatin to induce this phenomenon was much stronger than that of paclitaxel. 
+Consistent with this, cisplatin triggered much higher activation of caspase-3 
+and generation of GSDME-NT than paclitaxel, suggesting that the levels of 
+secondary necrosis/pyroptosis correlated with the levels of active caspase-3 and 
+GSDME-NT. Supporting this, caspase-3 specific inhibitor (Ac-DEVD-CHO) suppressed 
+cisplatin-induced GSDME-NT generation and concurrently reduced the secondary 
+necrosis/pyroptosis. Besides, GSDME knockdown significantly inhibited cisplatin- 
+but not paclitaxel-induced secondary necrosis/pyroptosis. These results 
+indicated that cisplatin induced higher levels of secondary necrosis/pyroptosis 
+in A549 cells than paclitaxel, suggesting that cisplatin may provide additional 
+advantages in the treatment of lung cancers with high levels of GSDME 
+expression.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1644~1659" text="GSDME knockdown" description="knock down" />
+<CONTEXT id="C0" spans="827~837" text="A549 cells" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C1" spans="1853~1863" text="A549 cells" experiment_type="cell line" species="not stated" />
+<EFFECT id="E0" spans="805~822" text="induced apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="1591~1598,1614~1622" text="reduced ... necrosis" phenotype="necrosis" activity="decreases" />
+<EFFECT id="E2" spans="1591~1598,1623~1633" text="reduced ... pyroptosis" phenotype="pyroptosis" activity="decreases" />
+<EFFECT id="E3" spans="1674~1683,1715~1722,1733~1741" text="inhibited ... induced ... necrosis" phenotype="necrosis" activity="inhibits" />
+<EFFECT id="E4" spans="1674~1683,1715~1722,1742~1752" text="inhibited ... induced ... pyroptosis" phenotype="pyroptosis" activity="inhibits" />
+<EFFECT id="E5" spans="1794~1801,1829~1837" text="induced ... necrosis" phenotype="necrosis" activity="causes" />
+<EFFECT id="E6" spans="1794~1801,1838~1848" text="induced ... pyroptosis" phenotype="pyroptosis" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

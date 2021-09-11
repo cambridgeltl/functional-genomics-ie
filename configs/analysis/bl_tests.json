@@ -1,0 +1,106 @@
+{
+    "MODE": "analyse",
+    "HISTORY_DATA": {
+        "PATH": "outputs/outputs_db.json",
+        "MODELS": [
+            "BioBERTv11_multi_output_bl03_bs4_k4_e12_2021-08-25_14-33",
+            "BioBERTv11_multi_output_bl04_bs4_k4_e12_2021-08-25_16-02",
+            "BioBERTv11_multi_output_bl05_bs4_k4_e12_2021-08-25_13-05",
+            "BioBERTv11_multi_output_bl06_bs4_k4_e12_2021-08-25_15-17",
+            "BioBERTv11_multi_output_bl07_bs4_k4_e12_2021-08-25_13-49"
+        ]
+    },
+    "ANALYSIS": {
+        "GRAPHING": {
+            "OUTPUT": "save",
+            "FOLDER": "plots/bl_tests",
+            "GRAPHS": [
+                {
+                    "TITLE": "F1 Geometric Mean",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_COMBINE": "g_mean"
+                },
+                {
+                    "TITLE": "F1 Arithmetic Mean",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_COMBINE": "mean"
+                },
+                {
+                    "TITLE": "Cateogry F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "category"
+                    ]
+                },
+                {
+                    "TITLE": "Description F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "description"
+                    ]
+                },
+                {
+                    "TITLE": "Experiment Type F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "experiment_type"
+                    ]
+                },
+                {
+                    "TITLE": "Species F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "species"
+                    ]
+                },
+                {
+                    "TITLE": "Phenotype F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "phenotype"
+                    ]
+                },
+                {
+                    "TITLE": "Activty F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "activity"
+                    ]
+                }
+            ]
+        }
+    }
+}
+

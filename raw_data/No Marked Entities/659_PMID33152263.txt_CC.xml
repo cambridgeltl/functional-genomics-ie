@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Defining the Teratoma as a Model for Multi-lineage Human Development.
+
+We propose that the teratoma, a recognized standard for validating pluripotency 
+in stem cells, could be a promising platform for studying human developmental 
+processes. Performing single-cell RNA sequencing (RNA-seq) of 179,632 cells 
+across 23 teratomas from 4 cell lines, we found that teratomas reproducibly 
+contain approximately 20 cell types across all 3 germ layers, that 
+inter-teratoma cell type heterogeneity is comparable with organoid systems, and 
+teratoma gut and brain cell types correspond well to similar fetal cell types. 
+Furthermore, cellular barcoding confirmed that injected stem cells robustly 
+engraft and contribute to all lineages. Using pooled CRISPR-Cas9 knockout 
+screens, we showed that teratomas can enable simultaneous assaying of the 
+effects of genetic perturbations across all germ layers. Additionally, we 
+demonstrated that teratomas can be sculpted molecularly via microRNA 
+(miRNA)-regulated suicide gene expression to enrich for specific tissues. Taken 
+together, teratomas are a promising platform for modeling multi-lineage 
+development, pan-tissue functional genetic screening, and tissue engineering.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

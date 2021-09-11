@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Activation of PPARA-mediated autophagy reduces Alzheimer disease-like pathology 
+and cognitive decline in a murine model.
+
+Alzheimer disease (AD) is the most common neurodegenerative disease. An 
+imbalance between the production and clearance of Aβ (amyloid beta) is 
+considered to be actively involved in AD pathogenesis. Macroautophagy/autophagy 
+is a major cellular pathway leading to the removal of aggregated proteins, and 
+upregulation of autophagy represents a plausible therapeutic strategy to combat 
+overproduction of neurotoxic Aβ. PPARA/PPARα (peroxisome proliferator activated 
+receptor alpha) is a transcription factor that regulates genes involved in fatty 
+acid metabolism and activates hepatic autophagy. We hypothesized that PPARA 
+regulates autophagy in the nervous system and PPARA-mediated autophagy affects 
+AD. We found that pharmacological activation of PPARA by the PPARA agonists 
+gemfibrozil and Wy14643 induces autophagy in human microglia (HM) cells and U251 
+human glioma cells stably expressing the human APP (amyloid beta precursor 
+protein) mutant (APP-p.M671L) and this effect is PPARA-dependent. Administration 
+of PPARA agonists decreases amyloid pathology and reverses memory deficits and 
+anxiety symptoms in APP-PSEN1ΔE9 mice. There is a reduced level of soluble Aβ 
+and insoluble Aβ in hippocampus and cortex tissues from APP-PSEN1ΔE9 mice after 
+treatment with either gemfibrozil or Wy14643, which promoted the recruitment of 
+microglia and astrocytes to the vicinity of Aβ plaques and enhanced 
+autophagosome biogenesis. These results indicated that PPARA is an important 
+factor regulating autophagy in the clearance of Aβ and suggested gemfibrozil be 
+assessed as a possible treatment for AD.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="848~930" text="pharmacological activation of PPARA by the PPARA agonists  gemfibrozil and Wy14643" perturbingaction="pharmacological augmentation" />
+<PERTURBING_ACTION id="P1" spans="1008~1094" text="stably expressing the human APP (amyloid beta precursor  protein) mutant (APP-p.M671L)" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="1150~1164" text="PPARA agonists" perturbingaction="pharmacological augmentation" />
+<PERTURBING_ACTION id="P3" spans="1247~1259" text="APP-PSEN1ΔE9" perturbingaction="other" />
+<PERTURBING_ACTION id="P4" spans="1362~1374" text="APP-PSEN1ΔE9" perturbingaction="other" />
+<CONTEXT id="C0" spans="952~978" text="human microglia (HM) cells" context="cells" />
+<CONTEXT id="C1" spans="983~1007" text="U251  human glioma cells" context="cells" />
+<CONTEXT id="C2" spans="1260~1264" text="mice" context="organism" />
+<CONTEXT id="C3" spans="1375~1379" text="mice" context="organism" />
+<CONTEXT id="C4" spans="1326~1337" text="hippocampus" context="tissue/organ" />
+<CONTEXT id="C5" spans="1342~1356" text="cortex tissues" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="939~948" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="931~938" text="induces" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="pharmacological activation of PPARA by the PPARA agonists  gemfibrozil and Wy14643" contextID="C0" contextText="human microglia (HM) cells" effectID="E0" effectText="induces" phenotypeID="PH0" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="pharmacological activation of PPARA by the PPARA agonists  gemfibrozil and Wy14643" effectID="E0" effectText="induces" phenotypeID="PH0" phenotypeText="autophagy" contextID="C1" contextText="U251  human glioma cells" />
+</TAGS>
+</Genomics_ConceptTask>

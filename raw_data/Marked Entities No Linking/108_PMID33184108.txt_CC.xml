@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Replication Gaps Underlie BRCA Deficiency and Therapy Response.
+
+Defects in DNA repair and the protection of stalled DNA replication forks are 
+thought to underlie the chemosensitivity of tumors deficient in the hereditary 
+breast cancer genes BRCA1 and BRCA2 (BRCA). Challenging this assumption are 
+recent findings that indicate chemotherapies, such as cisplatin used to treat 
+BRCA-deficient tumors, do not initially cause DNA double-strand breaks (DSB). 
+Here, we show that ssDNA replication gaps underlie the hypersensitivity of 
+BRCA-deficient cancer and that defects in homologous recombination (HR) or fork 
+protection (FP) do not. In BRCA-deficient cells, ssDNA gaps developed because 
+replication was not effectively restrained in response to stress. Gap 
+suppression by either restoration of fork restraint or gap filling conferred 
+therapy resistance in tissue culture and BRCA patient tumors. In contrast, 
+restored FP and HR could be uncoupled from therapy resistance when gaps were 
+present. Moreover, DSBs were not detected after therapy when apoptosis was 
+inhibited, supporting a framework in which DSBs are not directly induced by 
+genotoxic agents, but rather are induced from cell death nucleases and are not 
+fundamental to the mechanism of action of genotoxic agents. Together, these data 
+indicate that ssDNA replication gaps underlie the BRCA cancer phenotype, 
+"BRCAness," and we propose they are fundamental to the mechanism of action of 
+genotoxic chemotherapies.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="643~657" text="BRCA-deficient" description="decreased expression level" />
+<CONTEXT id="C0" spans="658~663" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="866~880" text="tissue culture" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="885~904" text="BRCA patient tumors" experiment_type="tumour" species="human" />
+</TAGS>
+</Genomics_ConceptTask>

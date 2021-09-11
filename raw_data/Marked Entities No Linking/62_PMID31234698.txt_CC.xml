@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagic death of neural stem cells mediates chronic stress-induced decline of 
+adult hippocampal neurogenesis and cognitive deficits.
+
+Macroautophagy/autophagy is generally regarded as a cytoprotective mechanism, 
+and it remains a matter of controversy whether autophagy can cause cell death in 
+mammals. Here, we show that chronic restraint stress suppresses adult 
+hippocampal neurogenesis in mice by inducing autophagic cell death (ACD) of 
+hippocampal neural stem cells (NSCs). We generated NSC-specific, inducible Atg7 
+conditional knockout mice and found that they had an intact number of NSCs and 
+neurogenesis level under chronic restraint stress and were resilient to stress- 
+or corticosterone-induced cognitive and mood deficits. Corticosterone treatment 
+of adult hippocampal NSC cultures induced ACD via SGK3 (serum/glucocorticoid 
+regulated kinase 3) without signs of apoptosis. Our results demonstrate that ACD 
+is biologically important in a mammalian system in vivo and would be an 
+attractive target for therapeutic intervention for psychological stress-induced 
+disorders.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="502~553" text="specific, inducible Atg7  conditional knockout mice" description="conditional knock out" />
+<CONTEXT id="C0" spans="398~402" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="447~483" text="hippocampal neural stem cells (NSCs)" experiment_type="cells" species="mouse" />
+<CONTEXT id="C2" spans="773~803" text="adult hippocampal NSC cultures" experiment_type="primary culture" species="not stated" />
+<CONTEXT id="C3" spans="498~501" text="NSC" experiment_type="cells" species="not stated" />
+<EFFECT id="E2" spans="868~894" text="without signs of apoptosis" phenotype="apoptosis" activity="no effect" />
+<EFFECT id="E3" spans="804~815" text="induced ACD" phenotype="autophagy" activity="causes" />
+<EFFECT id="E4" spans="406~442" text="inducing autophagic cell death (ACD)" phenotype="autophagy" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

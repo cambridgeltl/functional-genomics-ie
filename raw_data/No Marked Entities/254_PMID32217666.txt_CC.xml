@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Developmental regulation of cell type-specific transcription by novel 
+promoter-proximal sequence elements.
+
+Cell type-specific transcriptional programs that drive differentiation of 
+specialized cell types are key players in development and tissue regeneration. 
+One of the most dramatic changes in the transcription program in Drosophila 
+occurs with the transition from proliferating spermatogonia to differentiating 
+spermatocytes, with >3000 genes either newly expressed or expressed from new 
+alternative promoters in spermatocytes. Here we show that opening of these 
+promoters from their closed state in precursor cells requires function of the 
+spermatocyte-specific tMAC complex, localized at the promoters. The 
+spermatocyte-specific promoters lack the previously identified canonical core 
+promoter elements except for the Inr. Instead, these promoters are enriched for 
+the binding site for the TALE-class homeodomain transcription factors Achi/Vis 
+and for a motif originally identified under tMAC ChIP-seq peaks. The tMAC motif 
+resembles part of the previously identified 14-bp β2UE1 element critical for 
+spermatocyte-specific expression. Analysis of downstream sequences relative to 
+transcription start site usage suggested that ACA and CNAAATT motifs at specific 
+positions can help promote efficient transcription initiation. Our results 
+reveal how promoter-proximal sequence elements that recruit and are acted upon 
+by cell type-specific chromatin binding complexes help establish a robust, cell 
+type-specific transcription program for terminal differentiation.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

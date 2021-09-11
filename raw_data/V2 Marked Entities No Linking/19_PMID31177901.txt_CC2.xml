@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PHB2 (prohibitin 2) promotes PINK1-PRKN/Parkin-dependent mitophagy by the 
+PARL-PGAM5-PINK1 axis.
+
+Mitophagy, which is a conserved cellular process for selectively removing 
+damaged or unwanted mitochondria, is critical for mitochondrial quality control 
+and the maintenance of normal cellular physiology. However, the precise 
+mechanisms underlying mitophagy remain largely unknown. Prior studies on 
+mitophagy focused on the events in the mitochondrial outer membrane. PHB2 
+(prohibitin 2), which is a highly conserved membrane scaffold protein, was 
+recently identified as a novel inner membrane mitophagy receptor that mediates 
+mitophagy. Here, we report a new signaling pathway for PHB2-mediated mitophagy. 
+Upon mitochondrial membrane depolarization or misfolded protein aggregation, 
+PHB2 depletion destabilizes PINK1 in the mitochondria, which blocks the 
+mitochondrial recruitment of PRKN/Parkin, ubiquitin and OPTN (optineurin), 
+leading to an inhibition of mitophagy. In addition, PHB2 overexpression directly 
+induces PRKN recruitment to the mitochondria. Moreover, PHB2-mediated mitophagy 
+is dependent on the mitochondrial inner membrane protease PARL, which interacts 
+with PHB2 and is activated upon PHB2 depletion. Furthermore, PGAM5, which is 
+processed by PARL, participates in PHB2-mediated PINK1 stabilization. Finally, a 
+ligand of PHB proteins that we synthesized, called FL3, was found to strongly 
+inhibit PHB2-mediated mitophagy and to effectively block cancer cell growth and 
+energy production at nanomolar concentrations. Thus, our findings reveal that 
+the PHB2-PARL-PGAM5-PINK1 axis is a novel pathway of PHB2-mediated mitophagy and 
+that targeting PHB2 with the chemical compound FL3 is a promising strategy for 
+cancer therapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="792~806" text="PHB2 depletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="993~1012" text="PHB2 overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="1217~1231" text="PHB2 depletion" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="1481~1487" text="cancer" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="969~978" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH1" spans="1446~1455" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH2" spans="1488~1499" text="cell growth" phenotype="cell growth" />
+<EFFECT id="E0" spans="955~965" text="inhibition" effect="negative" />
+<EFFECT id="E1" spans="1424~1431" text="inhibit" effect="negative" />
+<EFFECT id="E2" spans="1475~1480" text="block" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

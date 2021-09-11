@@ -1,0 +1,56 @@
+{
+    "MODE": "analyse",
+    "HISTORY_DATA": {
+        "PATH": "outputs/outputs_db.json",
+        "MODELS": [
+            "DistilBERT_multi_output_bl05_k4_2021-07-30_14-06",
+            "BERT_multi_output_bl05_bs4_k4_2021-07-30_15-00",
+            "DistilBERT_category_bl05_bs4_k4_2021-07-30_15-06",
+            "DistilBERT_multi_output_bs4_k4_2021-07-30_15-32",
+            "DistilBERT_multi_output_bl1_bs4_k4_2021-07-30_15-58",
+            "DistilBERT_multi_output_bl03_bs4_k4_2021-07-30_16-24",
+            "DistilBERT_multi_output_bl07_bs4_k4_2021-07-30_16-50",
+            "DistilBERT_multi_output_bl05_bs4_k4_2021-07-30_17-31",
+            "BioBERTv11_multi_output_bl05_k4_2021-07-31_17-49",
+            "BioBERTv11_multi_output_bl05_bs4_k4_2021-07-31_11-58"
+        ]
+    },
+    "ANALYSIS": {
+        "GRAPHING": {
+            "OUTPUT": "save",
+            "FOLDER": "plots",
+            "GRAPHS": [
+                {
+                    "TITLE": "Category Train Losses",
+                    "VALUES": {
+                        "train_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "category"
+                    ]
+                },
+                {
+                    "TITLE": "Category Val Losses",
+                    "VALUES": {
+                        "validation_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "category"
+                    ]
+                },
+                {
+                    "TITLE": "Category F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "category"
+                    ]
+                }
+            ]
+        }
+    }
+}
+

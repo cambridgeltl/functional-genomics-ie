@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Branched-chain amino acid aminotransferase 2 regulates ferroptotic cell death in 
+cancer cells.
+
+Ferroptosis, a form of iron-dependent cell death driven by cellular metabolism 
+and iron-dependent lipid peroxidation, has been implicated as a tumor-suppressor 
+function for cancer therapy. Recent advance revealed that the sensitivity to 
+ferroptosis is tightly linked to numerous biological processes, including 
+metabolism of amino acid and the biosynthesis of glutathione. Here, by using a 
+high-throughput CRISPR/Cas9-based genetic screen in HepG2 hepatocellular 
+carcinoma cells to search for metabolic proteins inhibiting ferroptosis, we 
+identified a branched-chain amino acid aminotransferase 2 (BCAT2) as a novel 
+suppressor of ferroptosis. Mechanistically, ferroptosis inducers (erastin, 
+sorafenib, and sulfasalazine) activated AMPK/SREBP1 signaling pathway through 
+iron-dependent ferritinophagy, which in turn inhibited BCAT2 transcription. We 
+further confirmed that BCAT2 as the key enzyme mediating the metabolism of 
+sulfur amino acid, regulated intracellular glutamate level, whose activation by 
+ectopic expression specifically antagonize system Xc- inhibition and protected 
+liver and pancreatic cancer cells from ferroptosis in vitro and in vivo. On the 
+contrary, direct inhibition of BCAT2 by RNA interference, or indirect inhibition 
+by blocking system Xc- activity, triggers ferroptosis. Finally, our results 
+demonstrate the synergistic effect of sorafenib and sulfasalazine in 
+downregulating BCAT2 expression and dictating ferroptotic death, where BCAT2 can 
+also be used to predict the responsiveness of cancer cells to 
+ferroptosis-inducing therapies. Collectively, these findings identify a novel 
+role of BCAT2 in ferroptosis, suggesting a potential therapeutic strategy for 
+overcoming sorafenib resistance.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="979~984,1098~1131" text="BCAT2 ... activation by  ectopic expression" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="1291~1330" text="inhibition of BCAT2 by RNA interference" description="knock down" />
+<CONTEXT id="C0" spans="1193~1198,1214~1226" text="liver ... cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1203~1226" text="pancreatic cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1244~1252" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1257~1264" text="in vivo" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="1182~1191,1227~1243" text="protected ... from ferroptosis" phenotype="ferroptosis" activity="inhibits" />
+<EFFECT id="E1" spans="1389~1409" text="triggers ferroptosis" phenotype="ferroptosis" activity="causes" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="BCAT2 ... activation by  ectopic expression" contextID="C0" contextText="liver ... cancer cells" effectID="E0" effectText="protected ... from ferroptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="BCAT2 ... activation by  ectopic expression" contextID="C1" contextText="pancreatic cancer cells" effectID="E0" effectText="protected ... from ferroptosis" />
+</TAGS>
+</Genomics_ConceptTask>

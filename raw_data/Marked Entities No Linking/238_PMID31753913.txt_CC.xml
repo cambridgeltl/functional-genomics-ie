@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Systematic bromodomain protein screens identify homologous recombination and 
+R-loop suppression pathways involved in genome integrity.
+
+Bromodomain proteins (BRD) are key chromatin regulators of genome function and 
+stability as well as therapeutic targets in cancer. Here, we systematically 
+delineate the contribution of human BRD proteins for genome stability and DNA 
+double-strand break (DSB) repair using several cell-based assays and proteomic 
+interaction network analysis. Applying these approaches, we identify 24 of the 
+42 BRD proteins as promoters of DNA repair and/or genome integrity. We 
+identified a BRD-reader function of PCAF that bound TIP60-mediated histone 
+acetylations at DSBs to recruit a DUB complex to deubiquitylate histone H2BK120, 
+to allowing direct acetylation by PCAF, and repair of DSBs by homologous 
+recombination. We also discovered the bromo-and-extra-terminal (BET) BRD 
+proteins, BRD2 and BRD4, as negative regulators of transcription-associated 
+RNA-DNA hybrids (R-loops) as inhibition of BRD2 or BRD4 increased R-loop 
+formation, which generated DSBs. These breaks were reliant on topoisomerase II, 
+and BRD2 directly bound and activated topoisomerase I, a known restrainer of 
+R-loops. Thus, comprehensive interactome and functional profiling of BRD 
+proteins revealed new homologous recombination and genome stability pathways, 
+providing a framework to understand genome maintenance by BRD proteins and the 
+effects of their pharmacological inhibition.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1017~1035" text="inhibition of BRD2" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1017~1030,1039~1043" text="inhibition of ... BRD4" description="pharmacological inhibition" />
+</TAGS>
+</Genomics_ConceptTask>

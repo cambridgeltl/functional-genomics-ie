@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TAK1 suppresses RIPK1-dependent cell death and is associated with disease 
+progression in melanoma.
+
+Melanoma cells are highly resistant to conventional genotoxic agents, and 
+BRAFV600/MEK-targeted therapies as well as immunotherapies frequently remain 
+inefficient. Alternative means to treat melanoma, in particular through the 
+induction of programmed cell death modalities such as apoptosis or necroptosis, 
+therefore still need to be explored. Here, we report that melanoma cell lines 
+expressing notable amounts of RIPK1, RIPK3 and MLKL, the key players of 
+necroptosis signal transduction, fail to execute necroptotic cell death. 
+Interestingly, the activity of transforming growth factor β-activated kinase 1 
+(TAK1) appears to prevent RIPK1 from contributing to cell death induction, since 
+TAK1 inhibition by (5Z)-7-Oxozeaenol, deletion of MAP3K7 or the expression of 
+inactive TAK1 were sufficient to sensitize melanoma cells to RIPK1-dependent 
+cell death in response to TNFα or TRAIL based combination treatments. However, 
+cell death was executed exclusively by apoptosis, even when RIPK3 expression was 
+high. In addition, TAK1 inhibitor (5Z)-7-Oxozeaenol suppressed intrinsic or 
+treatment-induced pro-survival signaling as well as the secretion of cytokines 
+and soluble factors associated with melanoma disease progression. 
+Correspondingly, elevated expression of TAK1 correlates with reduced disease 
+free survival in patients diagnosed with primary melanoma. Overall, our results 
+therefore demonstrate that TAK1 suppresses the susceptibility to RIPK1-dependent 
+cell death and that high expression of TAK1 indicates an increased risk for 
+disease progression in melanoma.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="800~836" text="TAK1 inhibition by (5Z)-7-Oxozeaenol" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="838~856" text="deletion of MAP3K7" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="864~892" text="expression of  inactive TAK1" description="other" />
+<PERTURBING_ACTION id="P3" spans="1138~1170" text="TAK1 inhibitor (5Z)-7-Oxozeaenol" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="922~936" text="melanoma cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="912~921,937~939,957~967" text="sensitize ... to ... cell death" phenotype="cell death" activity="increases" />
+<EFFECT id="E1" spans="1076~1085" text="apoptosis" phenotype="apoptosis" activity="not stated" />
+<EFFECT id="E2" spans="1037~1047" text="cell death" phenotype="cell death" activity="not stated" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="TAK1 inhibition by (5Z)-7-Oxozeaenol" contextID="C0" contextText="melanoma cells" effectID="E0" effectText="sensitize ... to ... cell death" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="deletion of MAP3K7" contextID="C0" contextText="melanoma cells" effectID="E0" effectText="sensitize ... to ... cell death" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="expression of  inactive TAK1" contextID="C0" contextText="melanoma cells" effectID="E0" effectText="sensitize ... to ... cell death" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TDP-43 Triggers Mitochondrial DNA Release via mPTP to Activate cGAS/STING in 
+ALS.
+
+Cytoplasmic accumulation of TDP-43 is a disease hallmark for many cases of 
+amyotrophic lateral sclerosis (ALS), associated with a neuroinflammatory 
+cytokine profile related to upregulation of nuclear factor κB (NF-κB) and type I 
+interferon (IFN) pathways. Here we show that this inflammation is driven by the 
+cytoplasmic DNA sensor cyclic guanosine monophosphate (GMP)-AMP synthase (cGAS) 
+when TDP-43 invades mitochondria and releases DNA via the permeability 
+transition pore. Pharmacologic inhibition or genetic deletion of cGAS and its 
+downstream signaling partner STING prevents upregulation of NF-κB and type I IFN 
+induced by TDP-43 in induced pluripotent stem cell (iPSC)-derived motor neurons 
+and in TDP-43 mutant mice. Finally, we document elevated levels of the specific 
+cGAS signaling metabolite cGAMP in spinal cord samples from patients, which may 
+be a biomarker of mtDNA release and cGAS/STING activation in ALS. Our results 
+identify mtDNA release and cGAS/STING activation as critical determinants of 
+TDP-43-associated pathology and demonstrate the potential for targeting this 
+pathway in ALS.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P3" spans="567~591,612~623,658~663" text="Pharmacologic inhibition ... of cGAS and ... STING" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="595~623,658~663" text="genetic deletion of cGAS and ... STING" description="knock out" />
+<PERTURBING_ACTION id="P5" spans="799~812" text="TDP-43 mutant" description="other" />
+<CONTEXT id="C0" spans="732~790" text="induced pluripotent stem cell (iPSC)-derived motor neurons" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="813~817" text="mice" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

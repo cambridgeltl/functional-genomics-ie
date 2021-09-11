@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SYK inhibition targets acute myeloid leukemia stem cells by blocking their 
+oxidative metabolism.
+
+Spleen tyrosine kinase (SYK) is an important oncogene and signaling mediator 
+activated by cell surface receptors crucial for acute myeloid leukemia (AML) 
+maintenance and progression. Genetic or pharmacologic inhibition of SYK in AML 
+cells leads to increased differentiation, reduced proliferation, and cellular 
+apoptosis. Herein, we addressed the consequences of SYK inhibition to leukemia 
+stem-cell (LSC) function and assessed SYK-associated pathways in AML cell 
+biology. Using gain-of-function MEK kinase mutant and constitutively active 
+STAT5A, we demonstrate that R406, the active metabolite of a small-molecule SYK 
+inhibitor fostamatinib, induces differentiation and blocks clonogenic potential 
+of AML cells through the MEK/ERK1/2 pathway and STAT5A transcription factor, 
+respectively. Pharmacological inhibition of SYK with R406 reduced LSC 
+compartment defined as CD34+CD38-CD123+ and CD34+CD38-CD25+ in vitro, and 
+decreased viability of LSCs identified by a low abundance of reactive oxygen 
+species. Primary leukemic blasts treated ex vivo with R406 exhibited lower 
+engraftment potential when xenotransplanted to immunodeficient NSG/J mice. 
+Mechanistically, these effects are mediated by disturbed mitochondrial 
+biogenesis and suppression of oxidative metabolism (OXPHOS) in LSCs. These 
+mechanisms appear to be partially dependent on inhibition of STAT5 and its 
+target gene MYC, a well-defined inducer of mitochondrial biogenesis. In 
+addition, inhibition of SYK increases the sensitivity of LSCs to cytarabine 
+(AraC), a standard of AML induction therapy. Taken together, our findings 
+indicate that SYK fosters OXPHOS and participates in metabolic reprogramming of 
+AML LSCs in a mechanism that at least partially involves STAT5, and that SYK 
+inhibition targets LSCs in AML. Since active SYK is expressed in a majority of 
+AML patients and confers inferior prognosis, the combination of SYK inhibitors 
+with standard chemotherapeutics such as AraC constitutes a new therapeutic 
+modality that should be evaluated in future clinical trials.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="584~618" text="gain-of-function MEK kinase mutant" description="other" />
+<PERTURBING_ACTION id="P1" spans="623~652" text="constitutively active  STAT5A" description="other" />
+<PERTURBING_ACTION id="P2" spans="900~943" text="Pharmacological inhibition of SYK with R406" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="674~749" text="R406, the active metabolite of a small-molecule SYK  inhibitor fostamatinib" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="1569~1586" text="inhibition of SYK" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="811~820" text="AML cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1055~1059" text="LSCs" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1119~1142,1151~1158" text="Primary leukemic blasts ... ex vivo" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C4" spans="1213~1259" text="xenotransplanted to immunodeficient NSG/J mice" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C6" spans="952~955,1017~1025" text="LSC ... in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C7" spans="1616~1620" text="LSCs" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="751~774" text="induces differentiation" phenotype="differentiation" activity="causes" />
+<EFFECT id="E1" spans="779~806" text="blocks clonogenic potential" phenotype="colony formation" activity="inhibits" />
+<EFFECT id="E2" spans="1032~1051" text="decreased viability" activity="decreases" phenotype="cell survival" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="R406, the active metabolite of a small-molecule SYK  inhibitor fostamatinib" contextID="C0" contextText="AML cells" effectID="E0" effectText="induces differentiation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="R406, the active metabolite of a small-molecule SYK  inhibitor fostamatinib" contextID="C0" contextText="AML cells" effectID="E1" effectText="blocks clonogenic potential" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="Pharmacological inhibition of SYK with R406" contextID="C2" contextText="LSCs" effectID="E2" effectText="decreased viability" />
+</TAGS>
+</Genomics_ConceptTask>

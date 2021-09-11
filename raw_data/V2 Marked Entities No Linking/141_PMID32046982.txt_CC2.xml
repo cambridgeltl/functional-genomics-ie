@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ETV4 Is Necessary for Estrogen Signaling and Growth in Endometrial Cancer Cells.
+
+Estrogen signaling through estrogen receptor alpha (ER) plays a major role in 
+endometrial cancer risk and progression, however, the molecular mechanisms 
+underlying ER's regulatory role in endometrial cancer are poorly understood. In 
+breast cancer cells, ER genomic binding is enabled by FOXA1 and GATA3, but the 
+transcription factors that control ER genomic binding in endometrial cancer 
+cells remain unknown. We previously identified ETV4 as a candidate factor 
+controlling ER genomic binding in endometrial cancer cells, and here we explore 
+the functional importance of ETV4. Homozygous deletion of ETV4, using 
+CRISPR/Cas9, led to greatly reduced ER binding at the majority of loci normally 
+bound by ER. Consistent with the dramatic loss of ER binding, the gene 
+expression response to estradiol was dampened for most genes. ETV4 contributes 
+to estrogen signaling in two distinct ways. ETV4 loss affects chromatin 
+accessibility at some ER bound loci and impairs ER nuclear translocation. The 
+diminished estrogen signaling upon ETV4 deletion led to decreased growth, 
+particularly in 3D culture, where hollow organoids were formed and in vivo in 
+the context of estrogen-dependent growth. These results show that ETV4 plays an 
+important role in estrogen signaling in endometrial cancer cells. SIGNIFICANCE: 
+Estrogen receptor alpha (ER) is a key oncogene in endometrial cancer. This study 
+uncovers ETV4 as an important factor in controlling the activity of ER and the 
+growth of endometrial cancer cells.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="666~713" text="Homozygous deletion of ETV4, using  CRISPR/Cas9" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1122~1135" text="ETV4 deletion" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="1178~1188" text="3D culture" context="cells" />
+<CONTEXT id="C1" spans="1229~1236" text="in vivo" context="in vivo" />
+</TAGS>
+</Genomics_ConceptTask>

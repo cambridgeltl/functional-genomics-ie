@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Accumulation of Molecular Aberrations Distinctive to Hepatocellular Carcinoma 
+Progression.
+
+Cancer develops through the accumulation of genetic and epigenetic aberrations. 
+To identify sequential molecular alterations that occur during the development 
+of hepatocellular carcinoma (HCC), we compared 52 early and 108 overt HCC 
+samples by genome sequencing. Gene mutations in the p53/RB1 pathway, WNT 
+pathway, MLL protein family, SWI/SNF complexes, and AKT/PI3K pathway were common 
+in HCC. In the early phase of all entities, TERT was the most frequently 
+upregulated gene owing to diverse mechanisms. Despite frequent somatic mutations 
+in driver genes, including CTNNB1 and TP53, early HCC was a separate molecular 
+entity from overt HCC, as each had a distinct expression profile. Notably, WNT 
+target genes were not activated in early HCC regardless of CTNNB1 mutation 
+status because β-catenin did not translocate into the nucleus due to the 
+E-cadherin/β-catenin complex at the membrane. Conversely, WNT targets were 
+definitively upregulated in overt HCC, with CTNNB1 mutation associated with 
+downregulation of CDH1 and hypomethylation of CpG islands in target genes. 
+Similarly, cell-cycle genes downstream of the p53/RB pathway were upregulated 
+only in overt HCC, with TP53 or RB1 gene mutations associated with chromosomal 
+deletion of 4q or 16q. HCC was epigenetically distinguished into four 
+subclasses: normal-like methylation, global-hypomethylation (favorable 
+prognosis), stem-like methylation (poor prognosis), and CpG island methylation. 
+These methylation statuses were globally maintained through HCC progression. 
+Collectively, these data show that as HCC progresses, additional molecular 
+events exclusive of driver gene mutations cooperatively contribute to 
+transcriptional activation of downstream targets according to methylation 
+status.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

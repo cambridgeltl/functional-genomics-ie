@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy modulates lipid metabolism to maintain metabolic flexibility for 
+Lkb1-deficient Kras-driven lung tumorigenesis.
+
+Loss of tumor suppressor liver kinase B1 (LKB1) promotes cancer cell 
+proliferation but also leads to decreased metabolic plasticity in dealing with 
+energy crises. Autophagy is a protective process involving self-cannibalization 
+to maintain cellular energy homeostasis during nutrient deprivation. We 
+developed a mouse model for Lkb1-deficient lung cancer with conditional deletion 
+of essential autophagy gene Atg7 to test whether autophagy compensates for LKB1 
+loss for tumor cells to survive energy crises. We found that autophagy ablation 
+was synthetically lethal during Lkb1-deficient lung tumorigenesis in both tumor 
+initiation and tumor growth. We further found that autophagy deficiency causes 
+defective intracellular recycling, which limits amino acids to support 
+mitochondrial energy production in starved cancer cells and causes 
+autophagy-deficient cells to be more dependent on fatty acid oxidation (FAO) for 
+energy production, leading to reduced lipid reserve and energy crisis. Our 
+findings strongly suggest that autophagy inhibition could be a strategy for 
+treating LKB1-deficient lung tumors.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="488~512,538~542" text="conditional deletion  of ... Atg7" description="conditional knock out" />
+<PERTURBING_ACTION id="P1" spans="456~470" text="Lkb1-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="585~595" text="LKB1  loss" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="704~718" text="Lkb1-deficient" description="decreased expression level" />
+<CONTEXT id="C0" spans="440~455,471~482" text="mouse model for ... lung cancer" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="600~611" text="tumor cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="719~723" text="lung" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="940~960" text="starved cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C5" spans="973~998" text="autophagy-deficient cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="724~737" text="tumorigenesis" phenotype="tumourigenesis" activity="not stated" />
+<EFFECT id="E1" spans="767~780" text=" tumor growth" phenotype="tumour growth" activity="not stated" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="Lkb1-deficient" contextID="C2" contextText="lung" effectID="E0" effectText="tumorigenesis" />
+</TAGS>
+</Genomics_ConceptTask>

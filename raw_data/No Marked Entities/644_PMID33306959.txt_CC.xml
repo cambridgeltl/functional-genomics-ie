@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Amplification-free detection of SARS-CoV-2 with CRISPR-Cas13a and mobile phone 
+microscopy.
+
+The December 2019 outbreak of a novel respiratory virus, SARS-CoV-2, has become 
+an ongoing global pandemic due in part to the challenge of identifying 
+symptomatic, asymptomatic, and pre-symptomatic carriers of the virus. CRISPR 
+diagnostics can augment gold-standard PCR-based testing if they can be made 
+rapid, portable, and accurate. Here, we report the development of an 
+amplification-free CRISPR-Cas13a assay for direct detection of SARS-CoV-2 from 
+nasal swab RNA that can be read with a mobile phone microscope. The assay 
+achieved ∼100 copies/μL sensitivity in under 30 min of measurement time and 
+accurately detected pre-extracted RNA from a set of positive clinical samples in 
+under 5 min. We combined crRNAs targeting SARS-CoV-2 RNA to improve sensitivity 
+and specificity and directly quantified viral load using enzyme kinetics. 
+Integrated with a reader device based on a mobile phone, this assay has the 
+potential to enable rapid, low-cost, point-of-care screening for SARS-CoV-2.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

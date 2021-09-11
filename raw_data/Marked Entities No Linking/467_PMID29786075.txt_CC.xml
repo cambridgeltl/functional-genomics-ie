@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TP53 gain-of-function mutation promotes inflammation in glioblastoma.
+
+Glioblastoma (GBM), the most severe and common brain tumor in adults, is 
+characterized by multiple somatic mutations and aberrant activation of 
+inflammatory responses. Immune cell infiltration and subsequent inflammation 
+cause tumor growth and resistance to therapy. Somatic loss-of-function mutations 
+in the gene encoding tumor suppressor protein p53 (TP53) are frequently observed 
+in various cancers. However, numerous studies suggest that TP53 regulates 
+malignant phenotypes by gain-of-function (GOF) mutations. Here we demonstrate 
+that a TP53 GOF mutation promotes inflammation in GBM. Ectopic expression of a 
+TP53 GOF mutant induced transcriptomic changes, which resulted in enrichment of 
+gene signatures related to inflammation and chemotaxis. Bioinformatics analyses 
+revealed that a gene signature, upregulated by the TP53 GOF mutation, is 
+associated with progression and shorter overall survival in GBM. We also 
+observed significant correlations between the TP53 GOF mutation signature and 
+inflammation in the clinical database of GBM and other cancers. The TP53 GOF 
+mutant showed upregulated C-C motif chemokine ligand 2 (CCL2) and tumor necrosis 
+factor alpha (TNFA) expression via nuclear factor kappa B (NFκB) signaling, 
+consequently increasing microglia and monocyte-derived immune cell infiltration. 
+Additionally, TP53 GOF mutation and CCL2 and TNFA expression correlated 
+positively with tumor-associated immunity in patients with GBM. Taken together, 
+our findings suggest that the TP53 GOF mutation plays a crucial role in 
+inflammatory responses, thereby deteriorating prognostic outcomes in patients 
+with GBM.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="620~637" text="TP53 GOF mutation" description="other" />
+<PERTURBING_ACTION id="P1" spans="668~708" text="Ectopic expression of a  TP53 GOF mutant" description="other" />
+<PERTURBING_ACTION id="P2" spans="1150~1166" text="TP53 GOF  mutant" description="other" />
+<CONTEXT id="C0" spans="663~666" text="GBM" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="1343~1352" text="microglia" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1357~1385" text="monocyte-derived immune cell" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

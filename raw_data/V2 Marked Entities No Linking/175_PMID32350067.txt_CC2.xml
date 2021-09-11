@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Allosteric Inhibition of SHP2 Stimulates Antitumor Immunity by Transforming the 
+Immunosuppressive Environment.
+
+The protein tyrosine phosphatase SHP2 binds to phosphorylated signaling motifs 
+on regulatory immunoreceptors including PD-1, but its functional role in tumor 
+immunity is unclear. Using preclinical models, we show that RMC-4550, an 
+allosteric inhibitor of SHP2, induces antitumor immunity, with effects 
+equivalent to or greater than those resulting from checkpoint blockade. In the 
+tumor microenvironment, inhibition of SHP2 modulated T-cell infiltrates similar 
+to checkpoint blockade. In addition, RMC-4550 drove direct, selective depletion 
+of protumorigenic M2 macrophages via attenuation of CSF1 receptor signaling and 
+increased M1 macrophages via a mechanism independent of CD8+ T cells or IFNγ. 
+These dramatic shifts in polarized macrophage populations in favor of antitumor 
+immunity were not seen with checkpoint blockade. Consistent with a pleiotropic 
+mechanism of action, RMC-4550 in combination with either checkpoint or CSF1R 
+blockade caused additive antitumor activity with complete tumor regressions in 
+some mice; tumors intrinsically sensitive to SHP2 inhibition or checkpoint 
+blockade were particularly susceptible. Our preclinical findings demonstrate 
+that SHP2 thus plays a multifaceted role in inducing immune suppression in the 
+tumor microenvironment, through both targeted inhibition of RAS 
+pathway-dependent tumor growth and liberation of antitumor immune responses. 
+Furthermore, these data suggest that inhibition of SHP2 is a promising 
+investigational therapeutic approach.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="333~375" text="RMC-4550, an  allosteric inhibitor of SHP2" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="523~541" text="inhibition of SHP2" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1185~1200" text="SHP2 inhibition" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="499~521" text="tumor microenvironment" context="tissue/organ" />
+<CONTEXT id="C1" spans="664~693" text="protumorigenic M2 macrophages" context="cells" />
+<CONTEXT id="C2" spans="752~766" text="M1 macrophages" context="cells" />
+<CONTEXT id="C3" spans="1145~1149" text="mice" context="organism" />
+<CONTEXT id="C4" spans="1151~1157" text="tumors" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="1118~1135" text="tumor regressions" phenotype="tumour regression" />
+<EFFECT id="E0" spans="1069~1075" text="caused" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

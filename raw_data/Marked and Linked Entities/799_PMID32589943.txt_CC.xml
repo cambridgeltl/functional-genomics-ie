@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PKCλ/ι Loss Induces Autophagy, Oxidative Phosphorylation, and NRF2 to Promote 
+Liver Cancer Progression.
+
+Oxidative stress plays a critical role in liver tissue damage and in 
+hepatocellular carcinoma (HCC) initiation and progression. However, the 
+mechanisms that regulate autophagy and metabolic reprogramming during reactive 
+oxygen species (ROS) generation, and how ROS promote tumorigenesis, still need 
+to be fully understood. We show that protein kinase C (PKC) λ/ι loss in 
+hepatocytes promotes autophagy and oxidative phosphorylation. This results in 
+ROS generation, which through NRF2 drives HCC through cell-autonomous and 
+non-autonomous mechanisms. Although PKCλ/ι promotes tumorigenesis in 
+oncogene-driven cancer models, emerging evidence demonstrate that it is a tumor 
+suppressor in more complex carcinogenic processes. Consistently, PKCλ/ι levels 
+negatively correlate with HCC histological tumor grade, establishing this kinase 
+as a tumor suppressor in liver cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="446~477" text="protein kinase C (PKC) λ/ι loss" description="decreased expression level" />
+<CONTEXT id="C0" spans="482~493" text="hepatocytes" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="494~512" text="promotes autophagy" phenotype="autophagy" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="protein kinase C (PKC) λ/ι loss" contextID="C0" contextText="hepatocytes" effectID="E0" effectText="promotes autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

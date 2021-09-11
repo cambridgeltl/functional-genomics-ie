@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A single-cell atlas of the developing Drosophila ovary identifies follicle stem 
+cell progenitors.
+
+Addressing the complexity of organogenesis at a system-wide level requires a 
+complete understanding of adult cell types, their origin, and precursor 
+relationships. The Drosophila ovary has been a model to study how coordinated 
+stem cell units, germline, and somatic follicle stem cells maintain and renew an 
+organ. However, lack of cell type-specific tools have limited our ability to 
+study the origin of individual cell types and stem cell units. Here, we used a 
+single-cell RNA sequencing approach to uncover all known cell types of the 
+developing ovary, reveal transcriptional signatures, and identify cell 
+type-specific markers for lineage tracing. Our study identifies a novel cell 
+type corresponding to the elusive follicle stem cell precursors and predicts 
+subtypes of known cell types. Altogether, we reveal a previously unanticipated 
+complexity of the developing ovary and provide a comprehensive resource for the 
+systematic analysis of ovary morphogenesis.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

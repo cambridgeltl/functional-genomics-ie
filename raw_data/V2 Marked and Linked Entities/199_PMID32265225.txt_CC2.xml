@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[IRE1α Disruption in Triple-Negative Breast Cancer Cooperates with Antiangiogenic 
+Therapy by Reversing ER Stress Adaptation and Remodeling the Tumor 
+Microenvironment.
+
+Cancer cells exploit the unfolded protein response (UPR) to mitigate endoplasmic 
+reticulum (ER) stress caused by cellular oncogene activation and a hostile tumor 
+microenvironment (TME). The key UPR sensor IRE1α resides in the ER and deploys a 
+cytoplasmic kinase-endoribonuclease module to activate the transcription factor 
+XBP1s, which facilitates ER-mediated protein folding. Studies of triple-negative 
+breast cancer (TNBC)-a highly aggressive malignancy with a dismal posttreatment 
+prognosis-implicate XBP1s in promoting tumor vascularization and progression. 
+However, it remains unknown whether IRE1α adapts the ER in TNBC cells and 
+modulates their TME, and whether IRE1α inhibition can enhance antiangiogenic 
+therapy-previously found to be ineffective in patients with TNBC. To gauge IRE1α 
+function, we defined an XBP1s-dependent gene signature, which revealed 
+significant IRE1α pathway activation in multiple solid cancers, including TNBC. 
+IRE1α knockout in TNBC cells markedly reversed substantial ultrastructural 
+expansion of their ER upon growth in vivo. IRE1α disruption also led to 
+significant remodeling of the cellular TME, increasing pericyte numbers while 
+decreasing cancer-associated fibroblasts and myeloid-derived suppressor cells. 
+Pharmacologic IRE1α kinase inhibition strongly attenuated growth of cell 
+line-based and patient-derived TNBC xenografts in mice and synergized with 
+anti-VEGFA treatment to cause tumor stasis or regression. Thus, TNBC cells 
+critically rely on IRE1α to adapt their ER to in vivo stress and to adjust the 
+TME to facilitate malignant growth. TNBC reliance on IRE1α is an important 
+vulnerability that can be uniquely exploited in combination with antiangiogenic 
+therapy as a promising new biologic approach to combat this lethal disease. 
+SIGNIFICANCE: Pharmacologic IRE1α kinase inhibition reverses ultrastructural 
+distension of the ER, normalizes the tumor vasculature, and remodels the 
+cellular TME, attenuating TNBC growth in mice.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1126~1140" text="IRE1α knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1434~1471" text="Pharmacologic IRE1α kinase inhibition" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1144~1154" text="TNBC cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1236~1243" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="1330~1338" text="pericyte" context="cells" />
+<CONTEXT id="C3" spans="1365~1394" text="cancer-associated fibroblasts" context="cells" />
+<CONTEXT id="C4" spans="1399~1431" text="myeloid-derived suppressor cells" context="cells" />
+<CONTEXT id="C5" spans="1502~1554" text="cell  line-based and patient-derived TNBC xenografts" context="xenograft" />
+<CONTEXT id="C6" spans="1558~1562" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="1614~1640" text="tumor stasis or regression" phenotype="tumour regression" />
+<EFFECT id="E0" spans="1608~1613" text="cause" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Pharmacologic IRE1α kinase inhibition" contextID="C5" contextText="cell  line-based and patient-derived TNBC xenografts" effectID="E0" effectText="cause" phenotypeID="PH0" phenotypeText="tumor stasis or regression" />
+</TAGS>
+</Genomics_ConceptTask>

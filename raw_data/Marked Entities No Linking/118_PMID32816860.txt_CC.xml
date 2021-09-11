@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Intratumoral Copper Modulates PD-L1 Expression and Influences Tumor Immune 
+Evasion.
+
+
+Therapeutic checkpoint antibodies blocking programmed death receptor 
+1/programmed death ligand 1 (PD-L1) signaling have radically improved clinical 
+outcomes in cancer. However, the regulation of PD-L1 expression on tumor cells 
+is still poorly understood. Here we show that intratumoral copper levels 
+influence PD-L1 expression in cancer cells. Deep analysis of the The Cancer 
+Genome Atlas database and tissue microarrays showed strong correlation between 
+the major copper influx transporter copper transporter 1 (CTR-1) and PD-L1 
+expression across many cancers but not in corresponding normal tissues. Copper 
+supplementation enhanced PD-L1 expression at mRNA and protein levels in cancer 
+cells and RNA sequencing revealed that copper regulates key signaling pathways 
+mediating PD-L1-driven cancer immune evasion. Conversely, copper chelators 
+inhibited phosphorylation of STAT3 and EGFR and promoted ubiquitin-mediated 
+degradation of PD-L1. Copper-chelating drugs also significantly increased the 
+number of tumor-infiltrating CD8+ T and natural killer cells, slowed tumor 
+growth, and improved mouse survival. Overall, this study reveals an important 
+role for copper in regulating PD-L1 and suggests that anticancer immunotherapy 
+might be enhanced by pharmacologically reducing intratumor copper levels. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="776~789" text="cancer  cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1165~1170" text="tumor" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="1158~1164,1172~1178" text="slowed ... growth" phenotype="tumour growth" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

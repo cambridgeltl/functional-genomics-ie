@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Distinct photo-oxidation-induced cell death pathways lead to selective killing 
+of human breast cancer cells.
+
+Lack of effective treatments for aggressive breast cancer is still a major 
+global health problem. We have previously reported that photodynamic therapy 
+using methylene blue as photosensitizer (MB-PDT) massively kills metastatic 
+human breast cancer, marginally affecting healthy cells. In this study, we aimed 
+to unveil the molecular mechanisms behind MB-PDT effectiveness and specificity 
+towards tumor cells. Through lipidomics and biochemical approaches, we 
+demonstrated that MB-PDT efficiency and specificity rely on polyunsaturated 
+fatty acid-enriched membranes and on the better capacity to deal with 
+photo-oxidative damage displayed by non-tumorigenic cells. We found out that, in 
+tumorigenic cells, lysosome membrane permeabilization is accompanied by 
+ferroptosis and/or necroptosis. Our results also pointed at a cross-talk between 
+lysosome-dependent cell death (LDCD) and necroptosis induction after 
+photo-oxidation, and contributed to broaden the understanding of MB-PDT-induced 
+mechanisms and specificity in breast cancer cells. Therefore, we demonstrated 
+that efficient approaches could be designed on the basis of lipid composition 
+and metabolic features for hard-to-treat cancers. The results further reinforce 
+MB-PDT as a therapeutic strategy for highly aggressive human breast cancer 
+cells.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="806~823" text="tumorigenic cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="879~890" text="ferroptosis" phenotype="ferroptosis" activity="not stated" />
+<EFFECT id="E1" spans="898~909" text="necroptosis" phenotype="necroptosis" activity="not stated" />
+<EFFECT id="E4" spans="1002~1023" text="necroptosis induction" activity="causes" phenotype="necroptosis" />
+<EFFECT id="E5" spans="961~997" text="lysosome-dependent cell death (LDCD)" phenotype="cell death" activity="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hypertonicity primes malignant melanoma cells for apoptosis.
+
+The tumor environment critically influences responsiveness of cancer cells to 
+chemotherapies, most of which activate the mitochondria-regulated (intrinsic) 
+apoptotic cascade to kill malignant cells. Especially skin tumors encounter an 
+environment with remarkable biophysical properties. Cutaneous accumulation of 
+Na+ locally establishes osmotic pressure gradients in vivo (hypertonicity or 
+hyperosmotic stress), but whether cutaneous hypertonicity is a factor that 
+modulates the responsiveness of skin cancers to therapeutic apoptosis-induction 
+has thus far not been investigated. Here, we show that hyperosmotic stress 
+lowers the threshold for apoptosis induction in malignant melanoma, the 
+deadliest form of skin cancer. Hypertonic conditions enforce addiction to 
+BCL-2-like proteins to prevent initiation of the mitochondria-regulated 
+(intrinsic) apoptotic pathway. Essentially, hyperosmotic stress primes 
+mitochondria for death. Our work identifies osmotic pressure in the tumor 
+microenvironment as a cell extrinsic factor that modulates responsiveness of 
+malignant melanoma cells to therapy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="738~756" text="malignant melanoma" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="690~734" text="lowers the threshold for apoptosis induction" phenotype="apoptosis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

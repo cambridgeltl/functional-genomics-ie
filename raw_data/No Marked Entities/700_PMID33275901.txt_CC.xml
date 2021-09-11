@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mapping the Degradable Kinome Provides a Resource for Expedited Degrader 
+Development.
+
+Targeted protein degradation (TPD) refers to the use of small molecules to 
+induce ubiquitin-dependent degradation of proteins. TPD is of interest in drug 
+development, as it can address previously inaccessible targets. However, 
+degrader discovery and optimization remains an inefficient process due to a lack 
+of understanding of the relative importance of the key molecular events required 
+to induce target degradation. Here, we use chemo-proteomics to annotate the 
+degradable kinome. Our expansive dataset provides chemical leads for ∼200 
+kinases and demonstrates that the current practice of starting from the highest 
+potency binder is an ineffective method for discovering active compounds. We 
+develop multitargeted degraders to answer fundamental questions about the 
+ubiquitin proteasome system, uncovering that kinase degradation is p97 
+dependent. This work will not only fuel kinase degrader discovery, but also 
+provides a blueprint for evaluating targeted degradation across entire gene 
+families to accelerate understanding of TPD beyond the kinome.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

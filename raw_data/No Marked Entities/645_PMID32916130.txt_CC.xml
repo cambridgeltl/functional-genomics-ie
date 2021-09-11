@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Quantitative Proteome Map of the Human Body.
+
+Determining protein levels in each tissue and how they compare with RNA levels 
+is important for understanding human biology and disease as well as regulatory 
+processes that control protein levels. We quantified the relative protein levels 
+from over 12,000 genes across 32 normal human tissues. Tissue-specific or 
+tissue-enriched proteins were identified and compared to transcriptome data. 
+Many ubiquitous transcripts are found to encode tissue-specific proteins. 
+Discordance of RNA and protein enrichment revealed potential sites of synthesis 
+and action of secreted proteins. The tissue-specific distribution of proteins 
+also provides an in-depth view of complex biological events that require the 
+interplay of multiple tissues. Most importantly, our study demonstrated that 
+protein tissue-enrichment information can explain phenotypes of genetic 
+diseases, which cannot be obtained by transcript information alone. Overall, our 
+results demonstrate how understanding protein levels can provide insights into 
+regulation, secretome, metabolism, and human diseases.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

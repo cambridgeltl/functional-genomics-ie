@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[M2 macrophage-induced lncRNA PCAT6 facilitates tumorigenesis and angiogenesis of 
+triple-negative breast cancer through modulation of VEGFR2.
+
+As a common female malignancy, triple-negative breast cancer (TNBC) is the most 
+malignant subtype of breast cancers (BC). This study further studied the role of 
+long noncoding RNA (lncRNA) prostate cancer-associated transcript 6 (PCAT6) in 
+TNBC. Functional assays, including EdU, wound healing, transwell, and 
+immunofluorescence staining, revealed the effect of PCAT6 on cell proliferation, 
+migration, and EMT process. The tube-formation assay disclosed the function of 
+PCAT6 on angiogenesis. In vivo assays were also established to explore the 
+impact of PCAT6 on tumor growth and microangiogenesis. The results revealed that 
+PCAT6 boosted TNBC cell proliferation, migration, and angiogenesis both in vitro 
+and in vivo. Then, this study unveiled that M2 macrophage secreted VEGF to 
+stimulate the upregulation of PCAT6, thus promoting angiogenesis in TNBC. Next, 
+through bioinformatics analysis and mechanism assays, we identified that PCAT6 
+positively regulated VEGFR2 expression via ceRNA pattern and then participated 
+in VEGFR/AKT/mTOR signaling pathway to accelerate angiogenesis. Moreover, PCAT6 
+bound USP14, a deubiquitinase, to induce the deubiquitination of VEGFR2. On the 
+whole, M2 macrophage-induced upregulation of PCAT6 facilitates TNBC 
+tumorigenesis through modulation of VEGFR2 expression via ceRNA and 
+deubiquitination patterns.]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="791~800,849~857" text="TNBC cell ... in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="791~800,863~870" text="TNBC cell ... in vivo" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="783~790,801~814" text="boosted ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E1" spans="783~790,816~825" text="boosted ... migration" phenotype="migration" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

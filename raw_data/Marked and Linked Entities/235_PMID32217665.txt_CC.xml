@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The rRNA m(6)A methyltransferase METTL5 is involved in pluripotency and 
+developmental programs.
+
+Covalent chemical modifications of cellular RNAs directly impact all biological 
+processes. However, our mechanistic understanding of the enzymes catalyzing 
+these modifications, their substrates and biological functions, remains vague. 
+Amongst RNA modifications N6-methyladenosine (m6A) is widespread and found in 
+messenger (mRNA), ribosomal (rRNA), and noncoding RNAs. Here, we undertook a 
+systematic screen to uncover new RNA methyltransferases. We demonstrate that the 
+methyltransferase-like 5 (METTL5) protein catalyzes m6A in 18S rRNA at position 
+A1832 We report that absence of Mettl5 in mouse embryonic stem cells (mESCs) 
+results in a decrease in global translation rate, spontaneous loss of 
+pluripotency, and compromised differentiation potential. METTL5-deficient mice 
+are born at non-Mendelian rates and develop morphological and behavioral 
+abnormalities. Importantly, mice lacking METTL5 recapitulate symptoms of 
+patients with DNA variants in METTL5, thereby providing a new mouse disease 
+model. Overall, our biochemical, molecular, and in vivo characterization 
+highlights the importance of m6A in rRNA in stemness, differentiation, 
+development, and diseases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="677~694" text="absence of Mettl5" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="862~878" text="METTL5-deficient" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="992~1006" text="lacking METTL5" description="knock out" />
+<CONTEXT id="C0" spans="698~732" text="mouse embryonic stem cells (mESCs)" experiment_type="cells" species="mouse" />
+<CONTEXT id="C1" spans="879~883" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="987~991" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="823~860" text="compromised differentiation potential" phenotype="differentiation" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="absence of Mettl5" contextID="C0" contextText="mouse embryonic stem cells (mESCs)" effectID="E0" effectText="compromised differentiation potential" />
+</TAGS>
+</Genomics_ConceptTask>

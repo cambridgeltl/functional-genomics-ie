@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TRIM22 activates NF-κB signaling in glioblastoma by accelerating the degradation 
+of IκBα.
+
+NF-κB signaling plays a critical role in tumor growth and treatment resistance 
+in GBM as in many other cancers. However, the molecular mechanisms underlying 
+high, constitutive NF-κB activity in GBM remains to be elucidated. Here, we 
+screened a panel of tripartite motif (TRIM) family proteins and identified 
+TRIM22 as a potential activator of NF-κB using an NF-κB driven luciferase 
+reporter construct in GBM cell lines. Knockout of TRIM22 using Cas9-sgRNAs led 
+to reduced GBM cell proliferation, while TRIM22 overexpression enhanced 
+proliferation of cell populations, in vitro and in an orthotopic xenograft 
+model. However, two TRIM22 mutants, one with a critical RING-finger domain 
+deletion and the other with amino acid changes at two active sites of RING E3 
+ligase (C15/18A), were both unable to promote GBM cell proliferation over 
+controls, thus implicating E3 ligase activity in the growth-promoting properties 
+of TRIM22. Co-immunoprecipitations demonstrated that TRIM22 bound a negative 
+regulator of NF-κB, NF-κB inhibitor alpha (IκBα), and accelerated its 
+degradation by inducing K48-linked ubiquitination. TRIM22 also formed a complex 
+with the NF-κB upstream regulator IKKγ and promoted K63-linked ubiquitination, 
+which led to the phosphorylation of both IKKα/β and IκBα. Expression of a 
+non-phosphorylation mutant, srIκBα, inhibited the growth-promoting properties of 
+TRIM22 in GBM cell lines. Finally, TRIM22 was increased in a cohort of primary 
+GBM samples on a tissue microarray, and high expression of TRIM22 correlated 
+with other clinical parameters associated with progressive gliomas, such as 
+wild-type IDH1 status. In summary, our study revealed that TRIM22 activated 
+NF-κB signaling through posttranslational modification of two critical 
+regulators of NF-κB signaling in GBM cells.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="517~553" text="Knockout of TRIM22 using Cas9-sgRNAs" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="600~621" text="TRIM22 overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="724~879" text="two TRIM22 mutants, one with a critical RING-finger domain  deletion and the other with amino acid changes at two active sites of RING E3  ligase (C15/18A)" description="other" />
+<CONTEXT id="C0" spans="570~578" text="GBM cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="649~675" text="cell populations, in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="686~713" text="orthotopic xenograft  model" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C3" spans="909~917" text="GBM cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C4" spans="1497~1511" text="GBM cell lines" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="562~569,579~592" text="reduced ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E1" spans="622~645" text="enhanced  proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E2" spans="891~908,918~931" text="unable to promote ... proliferation" phenotype="proliferation" activity="no effect" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Knockout of TRIM22 using Cas9-sgRNAs" contextID="C0" contextText="GBM cell" effectID="E0" effectText="reduced ... proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="TRIM22 overexpression" contextID="C1" contextText="cell populations, in vitro" effectID="E1" effectText="enhanced  proliferation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="TRIM22 overexpression" contextID="C2" contextText="orthotopic xenograft  model" effectID="E1" effectText="enhanced  proliferation" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P2" perturbing_actionText="two TRIM22 mutants, one with a critical RING-finger domain  deletion and the other with amino acid changes at two active sites of RING E3  ligase (C15/18A)" contextID="C3" contextText="GBM cell" effectID="E2" effectText="unable to promote ... proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

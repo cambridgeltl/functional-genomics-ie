@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Impaired RIPK1 ubiquitination sensitizes mice to TNF toxicity and inflammatory 
+cell death.
+
+Receptor-interacting protein 1 (RIP1; RIPK1) is a key regulator of multiple 
+signaling pathways that mediate inflammatory responses and cell death. TNF-TNFR1 
+triggered signaling complex formation, subsequent NF-κB and MAPK activation and 
+induction of cell death involve RIPK1 ubiquitination at several lysine residues 
+including Lys376 and Lys115. Here we show that mutating the ubiquitination site 
+K376 of RIPK1 (K376R) in mice activates cell death resulting in embryonic 
+lethality. In contrast to Ripk1K376R/K376R mice, Ripk1K115R/K115R mice reached 
+adulthood and showed slightly higher responsiveness to TNF-induced death. Cell 
+death observed in Ripk1K376R/K376R embryos relied on RIPK1 kinase activity as 
+administration of RIPK1 inhibitor GNE684 to pregnant heterozygous mice 
+effectively blocked cell death and prolonged survival. Embryonic lethality of 
+Ripk1K376R/K376R mice was prevented by the loss of TNFR1, or by simultaneous 
+deletion of caspase-8 and RIPK3. Interestingly, elimination of the wild-type 
+allele from adult Ripk1K376R/cko mice was tolerated. However, adult 
+Ripk1K376R/cko mice were exquisitely sensitive to TNF-induced hypothermia and 
+associated lethality. Absence of the K376 ubiquitination site diminished 
+K11-linked, K63-linked, and linear ubiquitination of RIPK1, and promoted the 
+assembly of death-inducing cellular complexes, suggesting that multiple 
+ubiquitin linkages contribute to the stability of the RIPK1 signaling complex 
+that stimulates NF-κB and MAPK activation. In contrast, mutating K115 did not 
+affect RIPK1 ubiquitination or TNF stimulated NF-κB and MAPK signaling. Overall, 
+our data indicate that selective impairment of RIPK1 ubiquitination can lower 
+the threshold for RIPK1 activation by TNF resulting in cell death and embryonic 
+lethality.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="461~516" text="mutating the ubiquitination site  K376 of RIPK1 (K376R)" description="other" />
+<PERTURBING_ACTION id="P1" spans="596~612" text="Ripk1K376R/K376R" description="other" />
+<PERTURBING_ACTION id="P2" spans="619~635" text="Ripk1K115R/K115R" description="other" />
+<PERTURBING_ACTION id="P3" spans="748~764" text="Ripk1K376R/K376R" description="other" />
+<PERTURBING_ACTION id="P4" spans="827~849" text="RIPK1 inhibitor GNE684" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P5" spans="960~976" text="Ripk1K376R/K376R" description="other" />
+<PERTURBING_ACTION id="P6" spans="1003~1016" text="loss of TNFR1" description="decreased expression level" />
+<PERTURBING_ACTION id="P7" spans="1024~1069" text="simultaneous  deletion of caspase-8 and RIPK3" description="knock out" />
+<PERTURBING_ACTION id="P8" spans="1086~1114,1116~1127,1134~1148" text="elimination of the wild-type ... allele from ... Ripk1K376R/cko" description="other" />
+<PERTURBING_ACTION id="P9" spans="1185~1199" text="Ripk1K376R/cko" description="other" />
+<CONTEXT id="C0" spans="520~524" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="613~617" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="636~640" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="765~772" text="embryos" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="853~861,875~879" text="pregnant ... mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C5" spans="1128~1133,1149~1153" text="adult ... mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C6" spans="1178~1183,1200~1204" text="adult ... mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="525~545" text="activates cell death" phenotype="cell death" activity="causes" />
+<EFFECT id="E1" spans="724~744" text="Cell  death observed" phenotype="cell death" activity="not stated" />
+<EFFECT id="E2" spans="893~911" text="blocked cell death" phenotype="cell death" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="mutating the ubiquitination site  K376 of RIPK1 (K376R)" contextID="C0" contextText="mice" effectID="E0" effectText="activates cell death" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="Ripk1K376R/K376R" contextID="C3" contextText="embryos" effectID="E1" effectText="Cell  death observed" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P4" perturbing_actionText="RIPK1 inhibitor GNE684" effectID="E2" effectText="blocked cell death" contextID="C4" contextText="pregnant ... mice" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RING-finger protein 166 plays a novel pro-apoptotic role in neurotoxin-induced 
+neurodegeneration via ubiquitination of XIAP.
+
+The dopaminergic neurotoxin, 6-hydroxydopamine (6-OHDA), has been widely 
+utilized to establish experimental models of Parkinson disease and to reveal the 
+critical molecules and pathway underlying neuronal death. The profile of gene 
+expression changes following 6-OHDA treatment of MN9D dopaminergic neuronal 
+cells was investigated using a TwinChip Mouse-7.4K microarray. Functional 
+clustering of altered sets of genes identified RING-finger protein 166 (RNF166). 
+RNF166 is composed of an N-terminal RING domain and C-terminal ubiquitin 
+interaction motif. RNF166 localized in the cytosol and nucleus. At the tissue 
+level, RNF166 was widely expressed in the central nervous system and peripheral 
+organs. In the cerebral cortex, its expression decreased over time. In certain 
+conditions, overexpression of RNF166 accelerates the naturally occurring 
+neuronal death and 6-OHDA-induced MN9D cell death as determined by TUNEL and 
+annexin-V staining, and caspase activation. Consequently, 6-OHDA-induced 
+apoptotic cell death was attenuated in RNF166-knockdown cells. In an attempt to 
+elucidate the mechanism underlying this pro-apoptotic activity, binding protein 
+profiles were assessed using the yeast two-hybrid system. Among several 
+potential binding candidates, RNF166 was shown to interact with the cytoplasmic 
+X-linked inhibitor of apoptosis (XIAP), inducing ubiquitin-dependent degradation 
+of XIAP and eventually accelerating caspase activation following 6-OHDA 
+treatment. RNF166's interaction with and resulting inhibition of the XIAP 
+anti-caspase activity was further enhanced by XIAP-associated factor-1 (XAF-1). 
+Consequently, depletion of RNF166 suppressed 6-OHDA-induced caspase activation 
+and apoptotic cell death, which was reversed by XIAP knockdown. In summary, our 
+data suggest that RNF166, a novel E3 ligase, plays a pro-apoptotic role via 
+caspase activation in neuronal cells.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1175~1191" text="RNF166-knockdown" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1777~1796" text="depletion of RNF166" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="1891~1905" text="XIAP knockdown" description="knock down" />
+<CONTEXT id="C0" spans="1192~1197" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1136~1171" text="apoptotic cell death was attenuated" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E1" spans="1797~1807,1847~1867" text="suppressed ... apoptotic cell death" phenotype="apoptosis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="RNF166-knockdown" contextID="C0" contextText="cells" effectID="E0" effectText="apoptotic cell death was attenuated" />
+</TAGS>
+</Genomics_ConceptTask>

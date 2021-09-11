@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The mitochondrial retrograde signaling regulates Wnt signaling to promote 
+tumorigenesis in colon cancer.
+
+Cancer cells are known to upregulate aerobic glycolysis to promote growth, 
+proliferation, and survival. However, the role of mitochondrial respiration in 
+tumorigenesis remains elusive. Here we report that inhibition of mitochondrial 
+function by silencing TFAM, a key transcription factor essential for 
+mitochondrial DNA (mtDNA) replication and the transcription of mtDNA-encoded 
+genes, markedly reduced tumor-initiating potential of colon cancer cells. 
+Knockdown of TFAM significantly decreased mitochondrial respiration in colon 
+cancer cells; however, the cellular levels of ATP remained largely unchanged as 
+a result of increased glycolysis. This metabolic alteration rendered cancer 
+cells highly susceptible to glucose deprivation. Interestingly, upregulation of 
+glycolysis was independent of hypoxia-inducible factor-1 (HIF1) as TFAM 
+knockdown cells fail to stabilize HIF1α under hypoxic conditions. Moreover, 
+knockdown of TFAM results in decreased expression of genes-associated cancer 
+stem cells downstream of Wnt/β-catenin signaling. Metabolic analysis reveals 
+that the level of α-ketoglutarate (α-KG) was significantly upregulated in TFAM 
+knockout cells. Silencing of prolyl hydroxylase domain-containing protein 2 
+(PHD2), a α-KG-dependent dioxyenase, rescued the expression of target genes of 
+both HIF1α and Wnt/β-catenin. Furthermore, intestinal-specific knockout of TFAM 
+prevents tumor formation in Apc-mutant mouse models of colon cancer. Taken 
+together, our findings identify a novel role of mitochondria-mediated retrograde 
+signaling in regulating Wnt signaling and tumor initiation in colon cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="355~369" text="silencing TFAM" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="566~583" text="Knockdown of TFAM" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="950~965" text="TFAM  knockdown" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1033~1050" text="knockdown of TFAM" description="knock down" />
+<PERTURBING_ACTION id="P4" spans="1263~1277" text="TFAM  knockout" description="knock out" />
+<PERTURBING_ACTION id="P5" spans="1285~1352" text="Silencing of prolyl hydroxylase domain-containing protein 2  (PHD2)" description="knock down" />
+<PERTURBING_ACTION id="P6" spans="1469~1505" text="intestinal-specific knockout of TFAM" description="conditional knock out" />
+<PERTURBING_ACTION id="P7" spans="1535~1545" text="Apc-mutant" description="other" />
+<CONTEXT id="C0" spans="545~563" text="colon cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="637~656" text="colon  cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="966~971" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1278~1283" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1546~1574" text="mouse models of colon cancer" experiment_type="tumour" species="mouse" />
+<EFFECT id="E0" spans="1507~1531" text="prevents tumor formation" phenotype="tumourigenesis" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P6" perturbing_actionText="intestinal-specific knockout of TFAM" effectID="E0" effectText="prevents tumor formation" contextID="C4" contextText="mouse models of colon cancer" />
+</TAGS>
+</Genomics_ConceptTask>

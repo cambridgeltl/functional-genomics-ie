@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Epigenetic Inactivation of α-Internexin Accelerates Microtubule Polymerization 
+in Colorectal Cancer.
+
+DNA methylation contributes to malignant transformation, but little is known 
+about how the methylation drives colorectal cancer evolution at the early 
+stages. Here we identify aberrant INA (α-internexin) gene methylation in colon 
+adenoma and adenocarcinoma by filtering data obtained from a genome-wide screen 
+of methylated genes. The gene encoding INA, a type IV intermediate filament, was 
+frequently hypermethylated in CpG islands located in the promoter region. This 
+hypermethylation preferentially occurred in large tumors and was a prognostic 
+marker for poor overall survival in patients with colorectal cancer. This type 
+of epigenetic alteration silenced INA expression in both adenoma and 
+adenocarcinoma tissues. Gene silencing of INA in colorectal cancer cells 
+increased cell proliferation, migration, and invasion. Restored INA expression 
+blocked migration and invasion in vitro and reduced lung metastasis in vivo. 
+Mechanistically, INA directly inhibited microtubule polymerization in vitro and 
+decreased intracellular microtubule plus-end assembly rates. A peptide array 
+screen surveying the tubulin-binding sites in INA identified a tubulin-binding 
+motif located in the N-terminal head domain that plays a tumor-suppressive role 
+by binding to unpolymerized tubulins and impeding microtubule polymerization. 
+Thus, epigenetic inactivation of INA is an intermediate filament reorganization 
+event that is essential to accelerate microtubule polymerization in the early 
+stages of colorectal cancer. SIGNIFICANCE: This work provides insight into the 
+epigenetic inactivation of INA, a novel identified tumor suppressor, which 
+increases microtubule polymerization during colorectal cancer progression.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="832~853" text="Gene silencing of INA" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="937~960" text="Restored INA expression" description="increased expression level" />
+<CONTEXT id="C0" spans="857~880" text="colorectal cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="892~896" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="993~1001" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1030~1037" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="1107~1115" text="in vitro" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="882~891,897~910" text="increased ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E1" spans="882~891,912~921" text="increased ... migration" phenotype="migration" activity="increases" />
+<EFFECT id="E2" spans="882~891,927~935" text="increased ... invasion" phenotype="invasion" activity="increases" />
+<EFFECT id="E3" spans="962~979" text="blocked migration" phenotype="migration" activity="inhibits" />
+<EFFECT id="E4" spans="962~969,984~992" text="blocked ... invasion" phenotype="invasion" activity="inhibits" />
+<EFFECT id="E5" spans="1006~1029" text="reduced lung metastasis" phenotype="metastasis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Gene silencing of INA" contextID="C0" contextText="colorectal cancer cells" effectID="E0" effectText="increased ... proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Gene silencing of INA" contextID="C0" contextText="colorectal cancer cells" effectID="E1" effectText="increased ... migration" />
+<ENTITY_LINKING id="EN2" contextID="C0" contextText="colorectal cancer cells" perturbing_actionID="P0" perturbing_actionText="Gene silencing of INA" effectID="E4" effectText="blocked ... invasion" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="Gene silencing of INA" contextID="C1" contextText="cell" effectID="E0" effectText="increased ... proliferation" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P0" perturbing_actionText="Gene silencing of INA" contextID="C1" contextText="cell" effectID="E1" effectText="increased ... migration" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P0" perturbing_actionText="Gene silencing of INA" contextID="C1" contextText="cell" effectID="E2" effectText="increased ... invasion" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P1" perturbing_actionText="Restored INA expression" contextID="C2" contextText="in vitro" effectID="E4" effectText="blocked ... invasion" />
+<ENTITY_LINKING id="EN7" perturbing_actionID="P1" perturbing_actionText="Restored INA expression" contextID="C2" contextText="in vitro" effectID="E4" effectText="blocked ... invasion" />
+<ENTITY_LINKING id="EN8" perturbing_actionID="P1" perturbing_actionText="Restored INA expression" contextID="C3" contextText="in vivo" effectID="E5" effectText="reduced lung metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

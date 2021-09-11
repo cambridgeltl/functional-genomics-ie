@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Identification of Required Host Factors for SARS-CoV-2 Infection in Human Cells.
+
+To better understand host-virus genetic dependencies and find potential 
+therapeutic targets for COVID-19, we performed a genome-scale CRISPR 
+loss-of-function screen to identify host factors required for SARS-CoV-2 viral 
+infection of human alveolar epithelial cells. Top-ranked genes cluster into 
+distinct pathways, including the vacuolar ATPase proton pump, Retromer, and 
+Commander complexes. We validate these gene targets using several orthogonal 
+methods such as CRISPR knockout, RNA interference knockdown, and small-molecule 
+inhibitors. Using single-cell RNA-sequencing, we identify shared transcriptional 
+changes in cholesterol biosynthesis upon loss of top-ranked genes. In addition, 
+given the key role of the ACE2 receptor in the early stages of viral entry, we 
+show that loss of RAB7A reduces viral entry by sequestering the ACE2 receptor 
+inside cells. Overall, this work provides a genome-scale, quantitative resource 
+of the impact of the loss of each host gene on fitness/response to viral 
+infection.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="871~884" text="loss of RAB7A" description="decreased expression level" />
+<CONTEXT id="C1" spans="318~349" text="human alveolar epithelial cells" experiment_type="cells" species="human" />
+</TAGS>
+</Genomics_ConceptTask>

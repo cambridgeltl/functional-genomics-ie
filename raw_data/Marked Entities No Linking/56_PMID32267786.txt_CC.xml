@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy suppresses breast cancer metastasis by degrading NBR1.
+
+Macroautophagy/autophagy plays complex, context-dependent roles in cancer. How 
+autophagy governs the emergence of metastatic disease has been incompletely 
+understood. We recently uncovered that genetic autophagy inhibition strongly 
+attenuates primary tumor growth in mammary cancer models, yet paradoxically 
+promotes spontaneous metastasis to the lung and enables the outgrowth of 
+disseminated tumor cells (DTCs) into overt macro-metastases. Furthermore, at 
+both primary and metastatic sites, genetic autophagy inhibition leads to the 
+marked expansion of tumor cells exhibiting aggressive and pro-metastatic basal 
+epithelial differentiation. These pro-metastatic effects of autophagy inhibition 
+are due to the cytosolic accumulation of the autophagy cargo receptor NBR1 in 
+autophagy-deficient tumor cells.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="336~357" text="mammary cancer models" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="628~714" text="tumor cells exhibiting aggressive and pro-metastatic basal  epithelial differentiation" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="301~332" text="attenuates primary tumor growth" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E1" spans="378~421" text="promotes spontaneous metastasis to the lung" phenotype="metastasis" activity="increases" />
+<EFFECT id="E2" spans="426~511" text="enables the outgrowth of  disseminated tumor cells (DTCs) into overt macro-metastases" phenotype="metastasis" activity="increases" />
+<EFFECT id="E4" spans="594~624" text="leads to the  marked expansion" phenotype="proliferation" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

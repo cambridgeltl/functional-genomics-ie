@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Enhancement of LIN28B-induced hematopoietic reprogramming by IGF2BP3.
+
+Fetal hematopoietic stem and progenitor cells (HSPCs) hold promise to cure a 
+wide array of hematological diseases, and we previously found a role for the 
+RNA-binding protein (RBP) Lin28b in respecifying adult HSPCs to resemble their 
+fetal counterparts. Here we show by single-cell RNA sequencing that Lin28b alone 
+was insufficient for complete reprogramming of gene expression from the adult 
+toward the fetal pattern. Using proteomics and in situ analyses, we found that 
+Lin28b (and its closely related paralog, Lin28a) directly interacted with 
+Igf2bp3, another RBP, and their enforced co-expression in adult HSPCs 
+reactivated fetal-like B-cell development in vivo more efficiently than either 
+factor alone. In B-cell progenitors, Lin28b and Igf2bp3 jointly stabilized 
+thousands of mRNAs by binding at the same sites, including those of the B-cell 
+regulators Pax5 and Arid3a as well as Igf2bp3 mRNA itself, forming an 
+autoregulatory loop. Our results suggest that Lin28b and Igf2bp3 are at the 
+center of a gene regulatory network that mediates the fetal-adult hematopoietic 
+switch. A method to efficiently generate induced fetal-like hematopoietic stem 
+cells (ifHSCs) will facilitate basic studies of their biology and possibly pave 
+a path toward their clinical application.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="548~554,623~630,655~677" text="Lin28b ... Igf2bp3 ... enforced co-expression" description="increased expression level" />
+<CONTEXT id="C0" spans="681~692,736~743" text="adult HSPCs ... in vivo" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

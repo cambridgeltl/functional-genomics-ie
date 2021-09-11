@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mesenchymal stem cells reverse EMT process through blocking the activation of 
+NF-κB and Hedgehog pathways in LPS-induced acute lung injury.
+
+Acute lung injury (ALI) is a pulmonary disorder, which can result in fibrosis of 
+the lung tissues. Recently, mesenchymal stem cell (MSC) has become a novel 
+therapeutic method for ALI. However, the potential mechanism by which MSC 
+regulates the progression of ALI remains blurry. The present study focused on 
+investigating the mechanism underneath MSC-reversed lung injury and fibrosis. At 
+first, we determined that coculture with MSC led to the inactivation of NF-κB 
+signaling and therefore suppressed hedgehog pathway in LPS-treated MLE-12 cells. 
+Besides, we confirmed that MSC-exosomes were responsible for the inhibition of 
+EMT process in LPS-treated MLE-12 cells through transmitting miRNAs. Mechanism 
+investigation revealed that MSC-exosome transmitted miR-182-5p and miR-23a-3p 
+into LPS-treated MLE-12 cells to, respectively, target Ikbkb and Usp5. Of note, 
+Usp5 interacted with IKKβ to hamper IKKβ ubiquitination. Moreover, co-inhibition 
+of miR-182-5p and miR-23a-3p offset the suppression of MSC on EMT process in 
+LPS-treated MLE-12 cells as well as in LPS-injured lungs of mice. Besides, the 
+retarding effect of MSC on p65 nuclear translocation was also counteracted after 
+co-inhibiting miR-182-5p and miR-23a-3p, both in vitro and in vivo. In summary, 
+MSC-exosome transmitted miR-23a-3p and miR-182-5p reversed the progression of 
+LPS-induced lung injury and fibrosis through inhibiting NF-κB and hedgehog 
+pathways via silencing Ikbkb and destabilizing IKKβ.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1084~1127" text="co-inhibition  of miR-182-5p and miR-23a-3p" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1339~1378" text="co-inhibiting miR-182-5p and miR-23a-3p" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="682~694" text="MLE-12 cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="804~816" text="MLE-12 cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="953~965" text="MLE-12 cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1189~1201" text="MLE-12 cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1228~1241" text="lungs of mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C5" spans="1385~1393" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1398~1405" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C7" spans="1511~1515" text="lung" experiment_type="organism" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

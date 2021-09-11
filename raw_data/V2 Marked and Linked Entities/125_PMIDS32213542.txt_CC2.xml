@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PSF Promotes ER-Positive Breast Cancer Progression via Posttranscriptional 
+Regulation of ESR1 and SCFD2.
+
+
+Endocrine therapy is standard treatment for estrogen receptor (ER)-positive 
+breast cancer, yet long-term treatment often causes acquired resistance, which 
+results in recurrence and metastasis. Recent studies have revealed that 
+RNA-binding proteins (RBP) are involved in tumorigenesis. Here, we demonstrate 
+that PSF/SFPQ is an RBP that potentially predicts poor prognosis of patients 
+with ER-positive breast cancer by posttranscriptionally regulating ERα (ESR1) 
+mRNA expression. Strong PSF immunoreactivity correlated with shorter overall 
+survival in patients with ER-positive breast cancer. PSF was predominantly 
+expressed in a model of tamoxifen-resistant breast cancer cells, and depletion 
+of PSF attenuated proliferation of cultured cells and xenografted tumors. PSF 
+expression was significantly associated with estrogen signaling. PSF siRNA 
+downregulated ESR1 mRNA by inhibiting nuclear export of the RNA. Integrative 
+analyses of microarray and RNA immunoprecipitation sequencing also identified 
+SCFD2, TRA2B, and ASPM as targets of PSF. Among the PSF targets, SCFD2 was a 
+poor prognostic indicator of breast cancer and SCFD2 knockdown significantly 
+suppressed breast cancer cell proliferation. Collectively, this study shows that 
+PSF plays a pathophysiologic role in ER-positive breast cancer by 
+posttranscriptionally regulating expression of its target genes such as ESR1 and 
+SCFD2. Overall, PSF and SCFD2 could be potential diagnostic and therapeutic 
+targets for primary and hormone-refractory breast cancers. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="798~815" text="depletion  of PSF" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="953~962" text="PSF siRNA" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1246~1261" text="SCFD2 knockdown" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="844~858" text="cultured cells" context="cells" />
+<CONTEXT id="C1" spans="863~881" text="xenografted tumors" context="xenograft" />
+<CONTEXT id="C2" spans="1288~1306" text="breast cancer cell" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="827~840" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="1307~1320" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="816~826" text="attenuated" effect="negative" />
+<EFFECT id="E1" spans="1277~1287" text="suppressed" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="depletion  of PSF" phenotypeID="PH0" phenotypeText="proliferation" effectID="E0" effectText="attenuated" contextID="C0" contextText="cultured cells" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="depletion  of PSF" effectID="E0" effectText="attenuated" phenotypeID="PH0" phenotypeText="proliferation" contextID="C1" contextText="xenografted tumors" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="SCFD2 knockdown" effectID="E1" effectText="suppressed" contextID="C2" contextText="breast cancer cell" phenotypeID="PH1" phenotypeText="proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

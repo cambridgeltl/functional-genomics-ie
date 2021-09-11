@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Critical contribution of RIPK1 mediated mitochondrial dysfunction and oxidative 
+stress to compression-induced rat nucleus pulposus cells necroptosis and 
+apoptosis.
+
+The aim of this study was to investigate whether RIPK1 mediated mitochondrial 
+dysfunction and oxidative stress contributed to compression-induced nucleus 
+pulposus (NP) cells necroptosis and apoptosis, together with the interplay 
+relationship between necroptosis and apoptosis in vitro. Rat NP cells underwent 
+various periods of 1.0 MPa compression. To determine whether compression 
+affected mitochondrial function, we evaluated the mitochondrial membrane 
+potential, mitochondrial permeability transition pore (mPTP), mitochondrial 
+ultrastructure and ATP content. Oxidative stress-related indicators reactive 
+oxygen species, superoxide dismutase and malondialdehyde were also assessed. To 
+verify the relevance between oxidative stress and necroptosis together with 
+apoptosis, RIPK1 inhibitor necrostatin-1(Nec-1), mPTP inhibitor cyclosporine A 
+(CsA), antioxidants and small interfering RNA technology were utilized. The 
+results established that compression elicited a time-dependent mitochondrial 
+dysfunction and elevated oxidative stress. Nec-1 and CsA restored mitochondrial 
+function and reduced oxidative stress, which corresponded to decreased 
+necroptosis and apoptosis. CsA down-regulated mitochondrial cyclophilin D 
+expression, but had little effects on RIPK1 expression and pRIPK1 activation. 
+Additionally, we found that Nec-1 largely blocked apoptosis; whereas, the 
+apoptosis inhibitor Z-VAD-FMK increased RIPK1 expression and pRIPK1 activation, 
+and coordinated regulation of necroptosis and apoptosis enabled NP cells 
+survival more efficiently. In contrast to Nec-1, SiRIPK1 exacerbated 
+mitochondrial dysfunction and oxidative stress. In summary, RIPK1-mediated 
+mitochondrial dysfunction and oxidative stress play a crucial role in NP cells 
+necroptosis and apoptosis during compression injury. The synergistic regulation 
+of necroptosis and apoptosis may exert more beneficial effects on NP cells 
+survival, and ultimately delaying or even retarding intervertebral disc 
+degeneration.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="952~988" text="RIPK1 inhibitor necrostatin-1(Nec-1)" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1762~1769" text="SiRIPK1" description="knock down" />
+<CONTEXT id="C0" spans="456~468" text="Rat NP cells" experiment_type="cells" species="rat" />
+<CONTEXT id="C1" spans="1703~1711" text="NP cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1318~1340" text="decreased  necroptosis" phenotype="necroptosis" activity="decreases" />
+<EFFECT id="E1" spans="1318~1327,1345~1354" text="decreased ... apoptosis" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E2" spans="1695~1702,1713~1721" text="enabled ... survival" phenotype="cell survival" activity="not stated" />
+<EFFECT id="E3" spans="1655~1680" text="regulation of necroptosis" phenotype="necroptosis" activity="regulates" />
+<EFFECT id="E4" spans="1655~1668,1685~1694" text="regulation of ... apoptosis" phenotype="apoptosis" activity="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Symbiotic Macrophage-Glioma Cell Interactions Reveal Synthetic Lethality in 
+PTEN-Null Glioma.
+
+Heterotypic interactions across diverse cell types can enable tumor progression 
+and hold the potential to expand therapeutic interventions. Here, combined 
+profiling and functional studies of glioma cells in glioblastoma multiforme 
+(GBM) models establish that PTEN deficiency activates YAP1, which directly 
+upregulates lysyl oxidase (LOX) expression. Mechanistically, secreted LOX 
+functions as a potent macrophage chemoattractant via activation of the β1 
+integrin-PYK2 pathway in macrophages. These infiltrating macrophages secrete 
+SPP1, which sustains glioma cell survival and stimulates angiogenesis. In 
+PTEN-null GBM models, LOX inhibition markedly suppresses macrophage infiltration 
+and tumor progression. Correspondingly, YAP1-LOX and β1 integrin-SPP1 signaling 
+correlates positively with higher macrophage density and lower overall survival 
+in GBM patients. This symbiotic glioma-macrophage interplay provides therapeutic 
+targets specifically for PTEN-deficient GBM.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="709~718" text="PTEN-null" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="731~745" text="LOX inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="719~729" text="GBM models" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="766~776" text="macrophage" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[HACE1 Prevents Lung Carcinogenesis via Inhibition of RAC-Family GTPases.
+
+HACE1 is an E3 ubiquitin ligase with important roles in tumor biology and tissue 
+homeostasis. Loss or mutation of HACE1 has been associated with the occurrence 
+of a variety of neoplasms, but the underlying mechanisms have not been defined 
+yet. Here, we report that HACE1 is frequently mutated in human lung cancer. In 
+mice, loss of Hace1 led to enhanced progression of KRasG12D -driven lung tumors. 
+Additional ablation of the oncogenic GTPase Rac1 partially reduced progression 
+of Hace1-/- lung tumors. RAC2, a novel ubiquitylation target of HACE1, could 
+compensate for the absence of its homolog RAC1 in Hace1-deficient, but not in 
+HACE1-sufficient tumors. Accordingly, ablation of both Rac1 and Rac2 fully 
+averted the increased progression of KRasG12D -driven lung tumors in Hace1-/- 
+mice. In patients with lung cancer, increased expression of HACE1 correlated 
+with reduced levels of RAC1 and RAC2 and prolonged survival, whereas elevated 
+expression of RAC1 and RAC2 was associated with poor prognosis. This work 
+defines HACE1 as a crucial regulator of the oncogenic activity of RAC-family 
+GTPases in lung cancer development. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="402~415" text="loss of Hace1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="447~463" text="KRasG12D -driven" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="489~526" text="ablation of the oncogenic GTPase Rac1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="561~569" text="Hace1-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="686~701" text="Hace1-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P5" spans="753~783" text="ablation of both Rac1 and Rac2" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P6" spans="828~844" text="KRasG12D -driven" perturbingaction="other" />
+<PERTURBING_ACTION id="P7" spans="860~868" text="Hace1-/-" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="396~400" text="mice" context="organism" />
+<CONTEXT id="C1" spans="464~475" text="lung tumors" context="neoplasm" />
+<CONTEXT id="C2" spans="570~581" text="lung tumors" context="neoplasm" />
+<CONTEXT id="C3" spans="732~738" text="tumors" context="neoplasm" />
+<CONTEXT id="C4" spans="845~856" text="lung tumors" context="neoplasm" />
+<CONTEXT id="C5" spans="870~874" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

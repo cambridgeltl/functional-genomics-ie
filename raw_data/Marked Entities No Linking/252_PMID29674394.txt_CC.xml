@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Acetyl-CoA promotes glioblastoma cell adhesion and migration through Ca(2+)-NFAT 
+signaling.
+
+The metabolite acetyl-coenzyme A (acetyl-CoA) is the required acetyl donor for 
+lysine acetylation and thereby links metabolism, signaling, and epigenetics. 
+Nutrient availability alters acetyl-CoA levels in cancer cells, correlating with 
+changes in global histone acetylation and gene expression. However, the specific 
+molecular mechanisms through which acetyl-CoA production impacts gene expression 
+and its functional roles in promoting malignant phenotypes are poorly 
+understood. Here, using histone H3 Lys27 acetylation (H3K27ac) ChIP-seq 
+(chromatin immunoprecipitation [ChIP] coupled with next-generation sequencing) 
+with normalization to an exogenous reference genome (ChIP-Rx), we found that 
+changes in acetyl-CoA abundance trigger site-specific regulation of H3K27ac, 
+correlating with gene expression as opposed to uniformly modulating this mark at 
+all genes. Genes involved in integrin signaling and cell adhesion were 
+identified as acetyl-CoA-responsive in glioblastoma cells, and we demonstrate 
+that ATP citrate lyase (ACLY)-dependent acetyl-CoA production promotes cell 
+migration and adhesion to the extracellular matrix. Mechanistically, the 
+transcription factor NFAT1 (nuclear factor of activated T cells 1) was found to 
+mediate acetyl-CoA-dependent gene regulation and cell adhesion. This occurs 
+through modulation of Ca2+ signals, triggering NFAT1 nuclear translocation when 
+acetyl-CoA is abundant. The findings of this study thus establish that 
+acetyl-CoA impacts H3K27ac at specific loci, correlating with gene expression, 
+and that expression of cell adhesion genes are driven by acetyl-CoA in part 
+through activation of Ca2+-NFAT signaling.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1072~1090" text="glioblastoma cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1183~1187" text="cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E1" spans="1174~1182,1189~1198" text="promotes ... migration" phenotype="migration" activity="increases" />
+<EFFECT id="E2" spans="1174~1182,1203~1239" text="promotes ... adhesion to the extracellular matrix" phenotype="adhesion" activity="increases" />
+<EFFECT id="E3" spans="1344~1351,1393~1406" text="mediate ... cell adhesion" phenotype="adhesion" activity="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

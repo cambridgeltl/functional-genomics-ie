@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Molecular Calcium Integrator Reveals a Striatal Cell Type Driving Aversion.
+
+The ability to record transient cellular events in the DNA or RNA of cells would 
+enable precise, large-scale analysis, selection, and reprogramming of 
+heterogeneous cell populations. Here, we report a molecular technology for 
+stable genetic tagging of cells that exhibit activity-related increases in 
+intracellular calcium concentration (FLiCRE). We used FLiCRE to 
+transcriptionally label activated neural ensembles in the nucleus accumbens of 
+the mouse brain during brief stimulation of aversive inputs. Using single-cell 
+RNA sequencing, we detected FLiCRE transcripts among the endogenous 
+transcriptome, providing simultaneous readout of both cell-type and calcium 
+activation history. We identified a cell type in the nucleus accumbens activated 
+downstream of long-range excitatory projections. Taking advantage of FLiCRE's 
+modular design, we expressed an optogenetic channel selectively in this cell 
+type and showed that direct recruitment of this otherwise genetically 
+inaccessible population elicits behavioral aversion. The specificity and minute 
+resolution of FLiCRE enables molecularly informed characterization, 
+manipulation, and reprogramming of activated cellular ensembles.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Infection trains the host for microbiota-enhanced resistance to pathogens.
+
+The microbiota shields the host against infections in a process known as 
+colonization resistance. How infections themselves shape this fundamental 
+process remains largely unknown. Here, we show that gut microbiota from 
+previously infected hosts display enhanced resistance to infection. This 
+long-term functional remodeling is associated with altered bile acid metabolism 
+leading to the expansion of taxa that utilize the sulfonic acid taurine. 
+Notably, supplying exogenous taurine alone is sufficient to induce this 
+alteration in microbiota function and enhance resistance. Mechanistically, 
+taurine potentiates the microbiota's production of sulfide, an inhibitor of 
+cellular respiration, which is key to host invasion by numerous pathogens. As 
+such, pharmaceutical sequestration of sulfide perturbs the microbiota's 
+composition and promotes pathogen invasion. Together, this work reveals a 
+process by which the host, triggered by infection, can deploy taurine as a 
+nutrient to nourish and train the microbiota, promoting its resistance to 
+subsequent infection.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

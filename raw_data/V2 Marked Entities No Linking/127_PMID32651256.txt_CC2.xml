@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Circadian Rhythm Is Disrupted by ZNF704 in Breast Carcinogenesis.
+
+Copy number gain in chromosome 8q21 is frequently detected in breast cancer, yet 
+the oncogenic potential underlying this amplicon in breast carcinogenesis 
+remains to be delineated. We report here that ZNF704, a gene mapped to 8q21, is 
+recurrently amplified in various malignancies including breast cancer. ZNF704 
+acted as a transcriptional repressor and interacted with the transcriptional 
+corepressor SIN3A complex. Genome-wide interrogation of transcriptional targets 
+revealed that the ZNF704/SIN3A complex represses a panel of genes including PER2 
+that are critically involved in the function of the circadian clock. 
+Overexpression of ZNF704 prolonged the period and dampened the amplitude of the 
+circadian clock. ZNF704 promoted the proliferation and invasion of breast cancer 
+cells in vitro and accelerated the growth and metastasis of breast cancer in 
+vivo. Consistently, the level of ZNF704 expression inversely correlated with 
+that of PER2 in breast carcinomas, and high level of ZNF704 correlated with 
+advanced histologic grades, lymph node positivity, and poor prognosis of 
+patients with breast cancer, especially those with HER2+ and basal-like 
+subtypes. These results indicate that ZNF704 is an important regulator of the 
+circadian clock and a potential driver for breast carcinogenesis. SIGNIFICANCE: 
+This study indicates that ZNF704 could be a potential oncogenic factor, 
+disrupting circadian rhythm of breast cancer cells and contributing to breast 
+carcinogenesis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="695~719" text="Overexpression of ZNF704" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="843~863" text="breast cancer  cells" context="transformed cells" />
+<CONTEXT id="C1" spans="864~872" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="918~931" text="breast cancer" context="neoplasm" />
+<CONTEXT id="C3" spans="932~940" text="in  vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="813~826" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="831~839" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH2" spans="904~914" text="metastasis" phenotype="metastasis" />
+<EFFECT id="E0" spans="800~808" text="promoted" effect="positive" />
+<EFFECT id="E1" spans="877~888" text="accelerated" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

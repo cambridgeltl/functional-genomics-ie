@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cellular senescence contributes to radiation-induced hyposalivation by affecting 
+the stem/progenitor cell niche.
+
+Radiotherapy for head and neck cancer is associated with impairment of salivary 
+gland function and consequent xerostomia, which has a devastating effect on the 
+quality of life of the patients. The mechanism of radiation-induced salivary 
+gland damage is not completely understood. Cellular senescence is a permanent 
+state of cell cycle arrest accompanied by a secretory phenotype which 
+contributes to inflammation and tissue deterioration. Genotoxic stresses, 
+including radiation-induced DNA damage, are known to induce a senescence 
+response. Here, we show that radiation induces cellular senescence 
+preferentially in the salivary gland stem/progenitor cell niche of mouse models 
+and patients. Similarly, salivary gland-derived organoids show increased 
+expression of senescence markers and pro-inflammatory senescence-associated 
+secretory phenotype (SASP) factors after radiation exposure. Clearance of 
+senescent cells by selective removal of p16Ink4a-positive cells by the drug 
+ganciclovir or the senolytic drug ABT263 lead to increased stem cell 
+self-renewal capacity as measured by organoid formation efficiency. 
+Additionally, pharmacological treatment with ABT263 in mice irradiated to the 
+salivary glands mitigates tissue degeneration, thus preserving salivation. Our 
+data suggest that senescence in the salivary gland stem/progenitor cell niche 
+contributes to radiation-induced hyposalivation. Pharmacological targeting of 
+senescent cells may represent a therapeutic strategy to prevent 
+radiotherapy-induced xerostomia.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="744~801" text="salivary gland stem/progenitor cell niche of mouse models" experiment_type="cells" species="mouse" />
+<CONTEXT id="C1" spans="744~788,807~815" text="salivary gland stem/progenitor cell niche of ... patients" experiment_type="cells" species="human" />
+<CONTEXT id="C2" spans="828~860" text="salivary gland-derived organoids" experiment_type="organoid culture" species="not stated" />
+<CONTEXT id="C3" spans="1165~1174" text="stem cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1213~1221" text="organoid" experiment_type="organoid culture" species="not stated" />
+<CONTEXT id="C5" spans="1300~1304" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C6" spans="1029~1044" text="senescent cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="693~720" text="induces cellular senescence" phenotype="senescence" activity="causes" />
+<EFFECT id="E1" spans="1155~1164,1176~1197" text="increased ... self-renewal capacity" phenotype="self-renewal" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[WDR45 contributes to neurodegeneration through regulation of ER homeostasis and 
+neuronal death.
+
+Mutations in the macroautophagy/autophagy gene WDR45 cause β-propeller 
+protein-associated neurodegeneration (BPAN); however the molecular and cellular 
+mechanism of the disease process is largely unknown. Here we generated 
+constitutive wdr45 knockout (KO) mice that displayed cognitive impairments, 
+abnormal synaptic transmission and lesions in several brain regions. 
+Immunohistochemistry analysis showed loss of neurons in prefrontal cortex and 
+basal ganglion in aged mice, and increased apoptosis in prefrontal cortex, 
+recapitulating a hallmark of neurodegeneration. Quantitative proteomic analysis 
+showed accumulation of endoplasmic reticulum (ER) proteins in KO mouse. At the 
+cellular level, accumulation of ER proteins due to WDR45 deficiency resulted in 
+increased ER stress and impaired ER quality control. The unfolded protein 
+response (UPR) was elevated through ERN1/IRE1 or EIF2AK3/PERK pathway, and 
+eventually led to neuronal apoptosis. Suppression of ER stress or activation of 
+autophagy through MTOR inhibition alleviated cell death. Thus, the loss of WDR45 
+cripples macroautophagy machinery in neurons and leads to impairment in 
+organelle autophagy, which provides a mechanistic understanding of cause of BPAN 
+and a potential therapeutic strategy to treat this genetic 
+disorder.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="323~355" text="constitutive wdr45 knockout (KO)" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="837~853" text="WDR45 deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="1166~1179" text="loss of WDR45" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1117~1132" text="MTOR inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="356~360" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="605~622" text="prefrontal cortex" experiment_type="organism" species="not stated" />
+<CONTEXT id="C3" spans="1036~1044" text="neuronal" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1218~1225" text="neurons" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="567~576" text="aged mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="582~601" text="increased apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E3" spans="1239~1273" text="impairment in  organelle autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E4" spans="1029~1035,1045~1054" text="led to ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E5" spans="1084~1108" text="activation of  autophagy" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E6" spans="1133~1154" text="alleviated cell death" phenotype="cell death" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="constitutive wdr45 knockout (KO)" contextID="C2" contextText="prefrontal cortex" effectID="E0" effectText="increased apoptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="WDR45 deficiency" contextID="C3" contextText="neuronal" effectID="E4" effectText="led to ... apoptosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="loss of WDR45" contextID="C4" contextText="neurons" effectID="E3" effectText="impairment in  organelle autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

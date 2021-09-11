@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Scutellarin ameliorates pulmonary fibrosis through inhibiting 
+NF-κB/NLRP3-mediated epithelial-mesenchymal transition and inflammation.
+
+Idiopathic pulmonary fibrosis (IPF) is featured with inflammation and extensive 
+lung remodeling caused by overloaded deposition of extracellular matrix. 
+Scutellarin is the major effective ingredient of breviscapine and its 
+anti-inflammation efficacy has been reported before. Nevertheless, the impact of 
+scutellarin on IPF and the downstream molecular mechanism remain unclear. In 
+this study, scutellarin suppressed BLM-induced inflammation via NF-κB/NLRP3 
+pathway both in vivo and in vitro. BLM significantly elevated p-p65/p65 ratio, 
+IκBα degradation, and levels of NLRP3, caspase-1, caspase-11, ASC, GSDMDNterm, 
+IL-1β, and IL-18, while scutellarin reversed the above alterations except for 
+that of caspase-11. Scutellarin inhibited BLM-induced epithelial-mesenchymal 
+transition (EMT) process in vivo and in vitro. The expression levels of 
+EMT-related markers, including fibronectin, vimentin, N-cadherin, matrix 
+metalloproteinase 2 (MMP-2) and MMP-9, were increased in BLM group, and 
+suppressed by scutellarin. The expression level of E-cadherin showed the 
+opposite changes. However, overexpression of NLRP3 eliminated the 
+anti-inflammation and anti-EMT functions of scutellarin in vitro. In conclusion, 
+scutellarin suppressed inflammation and EMT in BLM-induced pulmonary fibrosis 
+through NF-κB/NLRP3 signaling.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1238~1261" text="overexpression of NLRP3" description="increased expression level" />
+<CONTEXT id="C0" spans="613~620" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C1" spans="625~633" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="942~949" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C3" spans="954~962" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1334~1342" text="in vitro" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="885~941" text="induced epithelial-mesenchymal  transition (EMT) process" phenotype="epithelial-mesenchymal transition" activity="causes" />
+<EFFECT id="E1" spans="1262~1272,1300~1318" text="eliminated ... anti-EMT functions" phenotype="epithelial-mesenchymal transition" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="overexpression of NLRP3" effectID="E1" effectText="eliminated ... anti-EMT functions" contextID="C4" contextText="in vitro" />
+</TAGS>
+</Genomics_ConceptTask>

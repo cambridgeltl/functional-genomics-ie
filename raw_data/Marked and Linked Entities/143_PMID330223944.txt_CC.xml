@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Fibroblast-Derived IL33 Facilitates Breast Cancer Metastasis by Modifying the 
+Immune Microenvironment and Driving Type 2 Immunity.
+
+Lungs are one of the main sites of breast cancer metastasis. The metastatic 
+microenvironment is essential to facilitate growth of disseminated tumor cells. 
+Cancer-associated fibroblasts (CAF) are prominent players in the 
+microenvironment of breast cancer. However, their role in the formation of a 
+permissive metastatic niche is unresolved. Here we show that IL33 is upregulated 
+in metastases-associated fibroblasts in mouse models of spontaneous breast 
+cancer metastasis and in patients with breast cancer with lung metastasis. 
+Upregulation of IL33 instigated type 2 inflammation in the metastatic 
+microenvironment and mediated recruitment of eosinophils, neutrophils, and 
+inflammatory monocytes to lung metastases. Importantly, targeting of IL33 in 
+vivo resulted in inhibition of lung metastasis and significant attenuation of 
+immune cell recruitment and type 2 immunity. These findings demonstrate a key 
+function of IL33 in facilitating lung metastatic relapse by modulating the 
+immune microenvironment. Our study shows a novel interaction axis between CAF 
+and immune cells and reveals the central role of CAF in establishing a 
+hospitable inflammatory niche in lung metastasis. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="872~889" text="targeting of IL33" description="other" />
+<CONTEXT id="C0" spans="890~898" text="in  vivo" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="911~940" text="inhibition of lung metastasis" phenotype="metastasis" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="targeting of IL33" contextID="C0" contextText="in  vivo" effectID="E0" effectText="inhibition of lung metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The miR-30a-5p/CLCF1 axis regulates sorafenib resistance and aerobic glycolysis 
+in hepatocellular carcinoma.
+
+HCC (hepatocellular carcinoma) is a major health threat for the Chinese 
+population and has poor prognosis because of strong resistance to chemotherapy 
+in patients. For instance, a considerable challenge for the treatment of HCC is 
+sorafenib resistance. The aberrant glucose metabolism in cancer cells aerobic 
+glycolysis is associated with resistance to chemotherapeutic agents. 
+Drug-resistance cells and tumors were exposed to sorafenib to establish 
+sorafenib-resistance cell lines and tumors. Western blotting and real-time PCR 
+or IHC staining were used to analyze the level of CLCF1 in the sorafenib 
+resistance cell lines or tumors. The aerobic glycolysis was analyzed by ECAR 
+assay. The mechanism mediating the high expression of CLCF1 in 
+sorafenib-resistant cells and its relationships with miR-130-5p was determined 
+by bioinformatic analysis, dual luciferase reporter assays, real-time PCR, and 
+western blotting. The in vivo effect was evaluated by xenografted with nude 
+mice. The relation of CLCF1 and miR-30a-5p was determined in patients' samples. 
+In this study, we report the relationship between sorafenib resistance and 
+increased glycolysis in HCC cells. We also show the vital role of CLCF1 in 
+promoting glycolysis by activating PI3K/AKT signaling and its downstream genes, 
+thus participating in glycolysis in sorafenib-resistant HCC cells. Furthermore, 
+we also show that miR-30a-5p directly targets CLCF1 and that sorafenib-mediated 
+suppression of miR-30a-5p results in the upregulation of CLCF1 in HCC cells 
+resistant to sorafenib. We also found that when a cholesterol modified 
+agomiR-30a-5p was delivered systemically to mice harboring sorafenib-resistant 
+HCC tumors, tumor growth decreased significantly. There is an uncharacterized 
+mechanism of biochemical resistance to hormone therapies orchestrated by the 
+miR-30a-5p/CLCF1 axis to mediate sorafenib resistance and aerobic glycolysis in 
+HCC. Therefore, this study indicates that targeting the miR-30a-5p/CLCF1 axis 
+may hold promise for therapeutic intervention in HCC sorafenib resistance 
+patients.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1769~1815" text="mice harboring sorafenib-resistant  HCC tumors" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="1642~1675" text="HCC cells  resistant to sorafenib" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="1817~1839" text="tumor growth decreased" phenotype="tumour growth" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

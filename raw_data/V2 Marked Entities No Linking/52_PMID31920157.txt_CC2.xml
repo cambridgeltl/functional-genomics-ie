@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Age-dependent autophagy induction after injury promotes axon regeneration by 
+limiting NOTCH.
+
+Macroautophagy/autophagy is essential for maintaining cellular homeostasis 
+through the degradation of organelles and proteins. It also has a prominent role 
+in modulating aging. However, the role of autophagy in the neuronal response to 
+axon injury and axon regeneration, particularly in the context of aging, remains 
+largely unknown. Our candidate genetic screen for axon regeneration regulators 
+has identified genes in the autophagy pathway. Using a reporter that monitors 
+autophagosomes and autolysosomes, we were able to monitor the dynamics of 
+autophagy during axon regeneration. In response to axon injury, there was a 
+significant increase in the number of autophagic vesicles. Injury-triggered 
+autophagy activation and axon regeneration capacity undergo an age-dependent 
+decline, and autophagy-activating agents partially rescued these declines. We 
+found that DLK-1 was both required and sufficient for injury-induced autophagy 
+activation. Autophagic vesicles co-localized with the NOTCH4 ortholog, LIN-12 
+receptor, a previously identified inhibitor of axon regeneration. Epistasis 
+analyses indicate that LIN-12 might be a target of autophagy in axon 
+regeneration. Together, our data suggest that DLK-mediated injury signaling can 
+activate autophagy, which might limit the level of LIN-12 and NOTCH proteins to 
+promote axon regeneration. Our findings reveal that autophagy activation can 
+promote axon regeneration in neurons that lack maximal regrowth capacity, 
+providing a promising therapeutic strategy for axon injury.]]></TEXT>
+<TAGS>
+<PHENOTYPE id="PH0" spans="804~813" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1030~1039" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="793~802" text="triggered" effect="positive" />
+<EFFECT id="E1" spans="814~824" text="activation" effect="positive" />
+<EFFECT id="E2" spans="1022~1029" text="induced" effect="positive" />
+<EFFECT id="E3" spans="1041~1051" text="activation" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

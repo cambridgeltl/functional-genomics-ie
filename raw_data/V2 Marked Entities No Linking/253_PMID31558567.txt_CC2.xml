@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hippo pathway deletion in adult resting cardiac fibroblasts initiates a cell 
+state transition with spontaneous and self-sustaining fibrosis.
+
+Cardiac fibroblasts (CFs) respond to injury by transitioning through multiple 
+cell states, including resting CFs, activated CFs, and myofibroblasts. We report 
+here that Hippo signaling cell-autonomously regulates CF fate transitions and 
+proliferation, and non-cell-autonomously regulates both myeloid and CF 
+activation in the heart. Conditional deletion of Hippo pathway kinases, Lats1 
+and Lats2, in uninjured CFs initiated a self-perpetuating fibrotic response in 
+the adult heart that was exacerbated by myocardial infarction (MI). Single cell 
+transcriptomics showed that uninjured Lats1/2 mutant CFs spontaneously 
+transitioned to a myofibroblast cell state. Through gene regulatory network 
+reconstruction, we found that Hippo-deficient myofibroblasts deployed a network 
+of transcriptional regulators of endoplasmic reticulum (ER) stress, and the 
+unfolded protein response (UPR) consistent with elevated secretory activity. We 
+observed an expansion of myeloid cell heterogeneity in uninjured Lats1/2 CKO 
+hearts with similarity to cells recovered from control hearts post-MI. 
+Integrated genome-wide analysis of Yap chromatin occupancy revealed that Yap 
+directly activates myofibroblast cell identity genes, the proto-oncogene Myc, 
+and an array of genes encoding pro-inflammatory factors through 
+enhancer-promoter looping. Our data indicate that Lats1/2 maintain the resting 
+CF cell state through restricting the Yap-induced injury response.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="480~543" text="Conditional deletion of Hippo pathway kinases, Lats1  and Lats2" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="733~747" text="Lats1/2 mutant" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="874~889" text="Hippo-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="1148~1159" text="Lats1/2 CKO" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="548~561" text="uninjured CFs" context="cells" />
+<CONTEXT id="C1" spans="618~629" text="adult heart" context="tissue/organ" />
+<CONTEXT id="C2" spans="748~751" text="CFs" context="cells" />
+<CONTEXT id="C3" spans="890~904" text="myofibroblasts" context="cells" />
+<CONTEXT id="C4" spans="1161~1167" text="hearts" context="tissue/organ" />
+<CONTEXT id="C5" spans="1108~1120" text="myeloid cell" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

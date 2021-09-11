@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Therapeutic Targeting of Metadherin Suppresses Colorectal and Lung Cancer 
+Progression and Metastasis.
+
+Colorectal and lung cancers account for one-third of all cancer-related deaths 
+worldwide. Previous studies suggested that metadherin (MTDH) is involved in the 
+development of colorectal and lung cancers. However, how MTDH regulates the 
+pathogenesis of these cancers remains largely unknown. Using genetically 
+modified mouse models of spontaneous colorectal and lung cancers, we found that 
+MTDH promotes cancer progression by facilitating Wnt activation and by inducing 
+cytotoxic T-cell exhaustion, respectively. Moreover, we developed locked nucleic 
+acid-modified (LNA) MTDH antisense oligonucleotides (ASO) that effectively and 
+specifically suppress MTDH expression in vitro and in vivo. Treatments with MTDH 
+ASOs in mouse models significantly attenuated progression and metastasis of 
+colorectal, lung, and breast cancers. Our study opens a new avenue for 
+developing therap]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="816~826" text="MTDH  ASOs" description="knock down" />
+<CONTEXT id="C0" spans="403~480" text="genetically  modified mouse models of spontaneous colorectal and lung cancers" species="mouse" experiment_type="tumour" />
+<CONTEXT id="C2" spans="830~842,899~935" text="mouse models ... colorectal, lung, and breast cancers" experiment_type="tumour" species="mouse" />
+<EFFECT id="E1" spans="502~529" text="promotes cancer progression" phenotype="tumourigenesis" activity="increases" />
+<EFFECT id="E2" spans="857~867,884~894" text="attenuated ... metastasis" phenotype="metastasis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="MTDH  ASOs" contextID="C2" contextText="mouse models ... colorectal, lung, and breast cancers" effectID="E2" effectText="attenuated ... metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

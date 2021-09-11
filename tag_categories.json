@@ -1,0 +1,23 @@
+{
+    "PERTURBING_ACTION": {
+        "entity_linking_field": "@perturbing_actionID",
+        "fields": {
+            "description": {"mae_field": "@description"}
+        }
+    },
+    "CONTEXT": {
+        "entity_linking_field": "@contextID",
+        "fields": {
+            "experiment_type": {"mae_field": "@experiment_type"},
+            "species": {"mae_field": "@species"}
+        }
+    },
+    "EFFECT": {
+        "entity_linking_field": "@effectID",
+        "fields": {
+            "phenotype": {"mae_field": "@phenotype"},
+            "activity": {"mae_field": "@activity"}
+        }
+    }
+}
+

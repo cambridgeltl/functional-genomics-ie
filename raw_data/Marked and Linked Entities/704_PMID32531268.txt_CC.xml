@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeting FTO Suppresses Cancer Stem Cell Maintenance and Immune Evasion.
+
+Fat mass and obesity-associated protein (FTO), an RNA N6-methyladenosine (m6A) 
+demethylase, plays oncogenic roles in various cancers, presenting an opportunity 
+for the development of effective targeted therapeutics. Here, we report two 
+potent small-molecule FTO inhibitors that exhibit strong anti-tumor effects in 
+multiple types of cancers. We show that genetic depletion and pharmacological 
+inhibition of FTO dramatically attenuate leukemia stem/initiating cell 
+self-renewal and reprogram immune response by suppressing expression of immune 
+checkpoint genes, especially LILRB4. FTO inhibition sensitizes leukemia cells to 
+T cell cytotoxicity and overcomes hypomethylating agent-induced immune evasion. 
+Our study demonstrates that FTO plays critical roles in cancer stem cell 
+self-renewal and immune evasion and highlights the broad potential of targeting 
+FTO for cancer therapy.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="434~451,484~490" text="genetic depletion ... of FTO" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="456~490" text="pharmacological  inhibition of FTO" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="662~676" text="FTO inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="514~543" text="leukemia stem/initiating cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="688~702" text="leukemia cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="504~513,545~557" text="attenuate ... self-renewal" phenotype="self-renewal" activity="decreases" />
+<ENTITY_LINKING id="EN0" contextID="C0" contextText="leukemia stem/initiating cell" effectID="E0" effectText="attenuate ... self-renewal" perturbing_actionID="P0" perturbing_actionText="genetic depletion ... of FTO" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="pharmacological  inhibition of FTO" contextID="C0" contextText="leukemia stem/initiating cell" effectID="E0" effectText="attenuate ... self-renewal" />
+</TAGS>
+</Genomics_ConceptTask>

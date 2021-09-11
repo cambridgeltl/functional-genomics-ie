@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[IL6 Fuels Durable Memory for Th17 Cell-Mediated Responses to Tumors.
+
+The accessibility of adoptive T-cell transfer therapies (ACT) is hindered by the 
+cost and time required for product development. Here we describe a streamlined 
+ACT protocol using Th17 cells expanded only 4 days ex vivo. While shortening 
+expansion compromised cell yield, this method licensed Th17 cells to eradicate 
+large tumors to a greater extent than cells expanded longer term. Day 4 Th17 
+cells engrafted, induced release of multiple cytokines including IL6, IL17, 
+MCP-1, and GM-CSF in the tumor-bearing host, and persisted as memory cells. IL6 
+was a critical component for efficacy of these therapies via its promotion of 
+long-term immunity and resistance to tumor relapse. Mechanistically, IL6 
+diminished engraftment of FoxP3+ donor T cells, corresponding with robust tumor 
+infiltration by donor effector over regulatory cells for the Day 4 Th17 cell 
+product relative to cell products expanded longer durations ex vivo. 
+Collectively, this work describes a method to rapidly generate therapeutic 
+T-cell products for ACT and implicates IL6 in promoting durable immunity of Th17 
+cells against large, established solid tumors.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="570~588" text="tumor-bearing host" context="organism" />
+<CONTEXT id="C1" spans="365~375" text="Th17 cells" context="cells" />
+<CONTEXT id="C2" spans="428~433" text="cells" context="cells" />
+<CONTEXT id="C3" spans="805~825" text="FoxP3+ donor T cells" context="cells" />
+<CONTEXT id="C4" spans="462~473" text="Th17  cells" context="cells" />
+<CONTEXT id="C5" spans="927~945" text="Th17 cell  product" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

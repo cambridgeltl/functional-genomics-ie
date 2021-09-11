@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[HACE1 Prevents Lung Carcinogenesis via Inhibition of RAC-Family GTPases.
+
+HACE1 is an E3 ubiquitin ligase with important roles in tumor biology and tissue 
+homeostasis. Loss or mutation of HACE1 has been associated with the occurrence 
+of a variety of neoplasms, but the underlying mechanisms have not been defined 
+yet. Here, we report that HACE1 is frequently mutated in human lung cancer. In 
+mice, loss of Hace1 led to enhanced progression of KRasG12D -driven lung tumors. 
+Additional ablation of the oncogenic GTPase Rac1 partially reduced progression 
+of Hace1-/- lung tumors. RAC2, a novel ubiquitylation target of HACE1, could 
+compensate for the absence of its homolog RAC1 in Hace1-deficient, but not in 
+HACE1-sufficient tumors. Accordingly, ablation of both Rac1 and Rac2 fully 
+averted the increased progression of KRasG12D -driven lung tumors in Hace1-/- 
+mice. In patients with lung cancer, increased expression of HACE1 correlated 
+with reduced levels of RAC1 and RAC2 and prolonged survival, whereas elevated 
+expression of RAC1 and RAC2 was associated with poor prognosis. This work 
+defines HACE1 as a crucial regulator of the oncogenic activity of RAC-family 
+GTPases in lung cancer development. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="402~415" text="loss of Hace1" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="489~526" text="ablation of the oncogenic GTPase Rac1" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="561~569" text="Hace1-/-" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="753~783" text="ablation of both Rac1 and Rac2" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="860~868" text="Hace1-/-" description="knock out" />
+<CONTEXT id="C0" spans="396~400" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="870~874" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E1" spans="423~446,464~475" text="enhanced progression of ... lung tumors" phenotype="tumourigenesis" activity="increases" />
+<EFFECT id="E2" spans="537~560,570~581" text="reduced progression  of ... lung tumors" phenotype="tumourigenesis" activity="decreases" />
+<EFFECT id="E3" spans="791~827,845~856" text="averted the increased progression of ... lung tumors" phenotype="tumourigenesis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="loss of Hace1" contextID="C0" contextText="mice" effectID="E1" effectText="enhanced progression of ... lung tumors" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="ablation of both Rac1 and Rac2" contextID="C2" contextText="mice" effectID="E3" effectText="averted the increased progression of ... lung tumors" />
+</TAGS>
+</Genomics_ConceptTask>

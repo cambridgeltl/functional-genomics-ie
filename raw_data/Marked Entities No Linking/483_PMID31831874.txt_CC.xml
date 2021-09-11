@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ARID1A prevents squamous cell carcinoma initiation and chemoresistance by 
+antagonizing pRb/E2F1/c-Myc-mediated cancer stemness.
+
+Squamous cell carcinoma (SCC) is defined as a category of aggressive 
+malignancies arising from the squamous epithelium of various organs. Resistance 
+to chemotherapies is a common feature of SCCs, which leads to a poor prognosis 
+among SCC patients. Recently, studies have illustrated the essential tumor 
+suppressive role of ARID1A in several cancer types, but its role in SCCs remains 
+unclear. Cancer stemness has been recognized as a main reason for tumorigenesis 
+and is commonly correlated with chemoresistance, yet the relationship between 
+ARID1A and cancer stemness remains unknown. In this study, we showed that Arid1a 
+conditional knockout mice had a high incidence of SCCs occurring in the tongue 
+and esophagus. ARID1A depletion promoted tumor initiation and cancer stemness in 
+human SCC cells. Mechanistic studies revealed that ARID1A blocked the 
+interaction between cyclin-dependent kinases (CDKs) and retinoblastoma protein 
+(Rb), reducing the phosphorylation of Rb. Dephosphorylated Rb suppressed E2F1 
+activity and then suppressed cancer stemness by inactivating c-Myc. Furthermore, 
+we showed that ARID1A depletion significantly increased the chemoresistance of 
+SCC and that a CDK inhibitor exhibited a favorable effect on rescuing the 
+chemoresistance caused by ARID1A loss. Collectively, our study showed that 
+ARID1A inhibits the cancer stemness of SCCs by competing with CDKs to bind with 
+Rb to inhibit the E2F1/c-Myc pathway.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="753~781" text="Arid1a  conditional knockout" description="conditional knock out" />
+<PERTURBING_ACTION id="P1" spans="856~872" text="ARID1A depletion" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="1250~1266" text="ARID1A depletion" description="decreased expression level" />
+<PERTURBING_ACTION id="P3" spans="1416~1427" text="ARID1A loss" description="decreased expression level" />
+<CONTEXT id="C0" spans="782~786" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="923~938" text="human SCC cells" experiment_type="transformed cell line" species="human" />
+<CONTEXT id="C2" spans="1315~1318" text="SCC" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C4" spans="833~854" text="tongue  and esophagus" experiment_type="organism" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

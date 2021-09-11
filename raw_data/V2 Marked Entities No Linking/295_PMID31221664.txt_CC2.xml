@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[KLF4 protein stability regulated by interaction with pluripotency transcription 
+factors overrides transcriptional control.
+
+Embryonic stem (ES) cells are regulated by a network of transcription factors 
+that maintain the pluripotent state. Differentiation relies on down-regulation 
+of pluripotency transcription factors disrupting this network. While 
+investigating transcriptional regulation of the pluripotency transcription 
+factor Kruppel-like factor 4 (Klf4), we observed that homozygous deletion of 
+distal enhancers caused a 17-fold decrease in Klf4 transcript but surprisingly 
+decreased protein levels by less than twofold, indicating that 
+posttranscriptional control of KLF4 protein overrides transcriptional control. 
+The lack of sensitivity of KLF4 to transcription is due to high protein 
+stability (half-life >24 h). This stability is context-dependent and is 
+disrupted during differentiation, as evidenced by a shift to a half-life of <2 
+h. KLF4 protein stability is maintained through interaction with other 
+pluripotency transcription factors (NANOG, SOX2, and STAT3) that together 
+facilitate association of KLF4 with RNA polymerase II. In addition, the KLF4 
+DNA-binding and transactivation domains are required for optimal KLF4 protein 
+stability. Posttranslational modification of KLF4 destabilizes the protein as 
+cells exit the pluripotent state, and mutations that prevent this 
+destabilization also prevent differentiation. These data indicate that the core 
+pluripotency transcription factors are integrated by posttranslational 
+mechanisms to maintain the pluripotent state and identify mutations that 
+increase KLF4 protein stability while maintaining transcription factor function.
+]]></TEXT>
+<TAGS>
+<PHENOTYPE id="PH0" spans="1437~1452" text="differentiation" phenotype="differentiation" />
+<EFFECT id="E0" spans="1429~1436" text="prevent" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

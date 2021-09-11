@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Phase separation of Polycomb-repressive complex 1 is governed by a charged 
+disordered region of CBX2.
+
+Mammalian development requires effective mechanisms to repress genes whose 
+expression would generate inappropriately specified cells. The 
+Polycomb-repressive complex 1 (PRC1) family complexes are central to maintaining 
+this repression. These include a set of canonical PRC1 complexes, each of which 
+contains four core proteins, including one from the CBX family. These complexes 
+have been shown previously to reside in membraneless organelles called Polycomb 
+bodies, leading to speculation that canonical PRC1 might be found in a separate 
+phase from the rest of the nucleus. We show here that reconstituted PRC1 readily 
+phase-separates into droplets in vitro at low concentrations and physiological 
+salt conditions. This behavior is driven by the CBX2 subunit. Point mutations in 
+an internal domain of Cbx2 eliminate phase separation. These same point 
+mutations eliminate the formation of puncta in cells and have been shown 
+previously to eliminate nucleosome compaction in vitro and generate axial 
+patterning defects in mice. Thus, the domain of CBX2 that is important for phase 
+separation is the same domain shown previously to be important for chromatin 
+compaction and proper development, raising the possibility of a mechanistic or 
+evolutionary link between these activities.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="874~920" text="Point mutations in  an internal domain of Cbx2" perturbingaction="other" />
+<CONTEXT id="C0" spans="1014~1019" text="cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

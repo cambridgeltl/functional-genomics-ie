@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cytokine regulation of apoptosis-induced apoptosis and apoptosis-induced cell 
+proliferation in vascular smooth muscle cells.
+
+Vascular smooth muscle cells (VSMCs) are the main structural cell of blood 
+vessels, and VSMC apoptosis occurs in vascular disease, after injury, and in 
+vessel remodeling during development. Although VSMC apoptosis is viewed as 
+silent, recent studies show that apoptotic cells can promote apoptosis-induced 
+compensatory proliferation (AICP), apoptosis-induced apoptosis (AIA), and 
+migration of both local somatic and infiltrating inflammatory cells. However, 
+the effects of VSMC apoptosis on adjacent VSMCs, and their underlying signaling 
+and mechanisms are unknown. We examined the consequences of VSMC apoptosis after 
+activating extrinsic and intrinsic death pathways. VSMCs undergoing apoptosis 
+through Fas/CD95 or the protein kinase inhibitor staurosporine transcriptionally 
+activated interleukin 6 (IL-6) and granulocyte-macrophage colony stimulating 
+factor (GM-CSF), leading to their secretion. Apoptosis induced activation of 
+p38MAPK, JNK, and Akt, but neither p38 and JNK activation nor IL-6 or GM-CSF 
+induction required caspase cleavage. IL-6 induction depended upon p38 activity, 
+while Fas-induced GM-CSF expression required p38 and JNK. Conditioned media from 
+apoptotic VSMCs induced VSMC apoptosis in vitro, and IL-6 and GM-CSF acted as 
+pro-survival factors for AIA. VSMC apoptosis was studied in vivo using SM22α-DTR 
+mice that express the diphtheria toxin receptor in VSMCs only. DT administration 
+induced VSMC apoptosis and VSMC proliferation, and also signficantly induced 
+IL-6 and GM-CSF. We conclude that VSMC apoptosis activates multiple 
+caspase-independent intracellular signaling cascades, leading to release of 
+soluble cytokines involved in regulation of both cell proliferation and 
+apoptosis. VSMC AICP may ameliorate while AIA may amplify the effects of 
+pro-apoptotic stimuli in vessel remodeling and disease.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1336~1340,1351~1359" text="VSMC ... in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1563~1567" text="VSMC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1582~1586" text="VSMC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="805~810" text="VSMCs" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1328~1335,1341~1350" text="induced ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="1555~1562,1568~1577" text="induced ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E2" spans="1555~1562,1587~1600" text="induced ... proliferation" phenotype="proliferation" activity="causes" />
+<EFFECT id="E3" spans="811~831" text="undergoing apoptosis" phenotype="apoptosis" activity="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

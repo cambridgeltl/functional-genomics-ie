@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The deubiquitinase JOSD2 is a positive regulator of glucose metabolism.
+
+Cancer cells undergo complex metabolic alterations. The mechanisms underlying 
+the tuning of cancer metabolism are under active investigation. Here, we 
+identify the uncharacterized deubiquitinase JOSD2 as a positive regulator of 
+cancer cell proliferation by displaying comprehensive effects on glucose 
+catabolism. We found that JOSD2 directly controls a metabolic enzyme complex 
+that includes Aldolase A, Phosphofructokinase-1 and Phosphoglycerate 
+dehydrogenase, in vitro and in vivo. Further, JOSD2 expression, but not a 
+catalytically inactive mutant, deubiquitinates and stabilizes the enzyme 
+complex, thereby enhancing their activities and the glycolytic rate. This 
+represents a selective JOSD2 feature that is not shared among other 
+Machado-Joseph disease DUBs or observed in nontransformed cells. JOSD2 
+deficiency displays cytostatic effects and reduces glycolysis in a broad 
+spectrum of tumor cells of distinct origin and its expression correlates with 
+poor prognosis in non-small cell lung cancer. Overall, our study provides 
+evidence for a previously unknown biological mechanism in which JOSD2 integrates 
+glucose and serine metabolism with potential therapeutic implications.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="884~901" text="JOSD2  deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="572~588" text="JOSD2 expression" description="decreased expression level" />
+<CONTEXT id="C0" spans="977~988" text="tumor cells" experiment_type="transformed cell line" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

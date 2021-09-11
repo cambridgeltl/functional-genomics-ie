@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SIGMAR1/Sigma-1 receptor ablation impairs autophagosome clearance.
+
+Autophagosome-lysosome fusion is a common critical step in various forms of 
+macroautophagy/autophagy including mitophagy, the selective degradation of 
+mitochondria. Regulations of this fusion process remain poorly defined. Here we 
+have determined the role of SIGMAR1, a unique endoplasmic reticulum membrane 
+protein. Knockout of Sigmar1 impaired mitochondrial clearance without altering 
+the PINK1-PRKN/Parkin signaling, in mouse retinal explants and cultured cells 
+treated with carbonyl cyanide m-chlorophenyl hydrazone (CCCP) for induction of 
+mitophagy. SIGMAR1 depletion also caused accumulation of autophagosome markers 
+LC3-II and SQSTM1, but did not change the levels of BECN1 and ATG7, proteins 
+associated with autophagosome biogenesis. Lysosomal pH and protease activities 
+were not negatively affected. However, sigmar1 knockout partially compromised 
+autophagosome-lysosome fusion in CCCP-treated NSC34 cells, as revealed by 
+reduced GFP fluorescence quenching of GFP-RFP-LC3-II puncta and co-localization 
+of lysosomes with mitochondria. Furthermore, SIGMAR1 co-immunoprecipitated with 
+ATG14, STX17, and VAMP8 (but not SNAP29), proteins key to autophagosome-lysosome 
+membrane fusion. Re-expressing SIGMAR1 in the null background rescued clearance 
+of mitochondria and autophagosomes. In summary, we started out finding that 
+sigmar1 knockout impaired the clearance of mitochondria and autophagosomes, and 
+then narrowed down the SIGMAR1 modulation to the autophagosome-lysosome fusion 
+step. This study may shed new light on understanding autophagy-associated 
+cyto-protection and disease mechanisms.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="389~408" text="Knockout of Sigmar1" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="630~647" text="SIGMAR1 depletion" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="896~912" text="sigmar1 knockout" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1272~1293" text="Re-expressing SIGMAR1" description="increased expression level" />
+<PERTURBING_ACTION id="P4" spans="1413~1429" text="sigmar1 knockout" description="knock out" />
+<PERTURBING_ACTION id="P5" spans="1517~1535" text="SIGMAR1 modulation" description="other" />
+<CONTEXT id="C0" spans="496~518" text="mouse retinal explants" experiment_type="other" species="mouse" />
+<CONTEXT id="C1" spans="523~537" text="cultured cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="982~993" text="NSC34 cells" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

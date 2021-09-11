@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RNA-binding protein ZFP36/TTP protects against ferroptosis by regulating 
+autophagy signaling pathway in hepatic stellate cells.
+
+Ferroptosis is a recently discovered form of programmed cell death, but its 
+regulatory mechanisms remain poorly understood. Here, we show that the 
+RNA-binding protein ZFP36/TTP (ZFP36 ring finger protein) plays a crucial role 
+in regulating ferroptosis in hepatic stellate cells (HSCs). Upon exposure to 
+ferroptosis-inducing compounds, the ubiquitin ligase FBXW7/CDC4 (F-box and WD 
+repeat domain containing 7) decreased ZFP36 protein expression by recognizing 
+SFSGLPS motif. FBXW7 plasmid contributed to classical ferroptotic events, 
+whereas ZFP36 plasmid impaired FBXW7 plasmid-induced HSC ferroptosis. 
+Interestingly, ZFP36 plasmid inhibited macroautophagy/autophagy activation by 
+destabilizing ATG16L1 (autophagy related 16 like 1) mRNA. ATG16L1 plasmid 
+eliminated the inhibitory action of ZFP36 plasmid on ferroptosis, and FBXW7 
+plasmid enhanced the effect of ATG16L1 plasmid on autophagy. Importantly, ZFP36 
+plasmid promoted ATG16L1 mRNA decay via binding to the AU-rich elements (AREs) 
+within the 3'-untranslated region. The internal mutation of the ARE region 
+abrogated the ZFP36-mediated ATG16L1 mRNA instability, and prevented ZFP36 
+plasmid-mediated ferroptosis resistance. In mice, treatment with erastin and 
+sorafenib alleviated murine liver fibrosis by inducing HSC ferroptosis. 
+HSC-specific overexpression of Zfp36 impaired erastin- or sorafenib-induced HSC 
+ferroptosis. Noteworthy, we analyzed the effect of sorafenib on HSC ferroptosis 
+in fibrotic patients with hepatocellular carcinoma receiving sorafenib 
+monotherapy. Attractively, sorafenib monotherapy led to ZFP36 downregulation, 
+ferritinophagy activation, and ferroptosis induction in human HSCs. Overall, 
+these results revealed novel molecular mechanisms and signaling pathways of 
+ferroptosis, and also identified ZFP36-autophagy-dependent ferroptosis as a 
+potential target for the treatment of liver fibrosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="610~623" text="FBXW7 plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P1" spans="678~691" text="ZFP36 plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P2" spans="701~714" text="FBXW7 plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P3" spans="756~769" text="ZFP36 plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P4" spans="878~893" text="ATG16L1 plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P5" spans="931~944" text="ZFP36 plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P6" spans="965~979" text="FBXW7  plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P7" spans="1003~1018" text="ATG16L1 plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P8" spans="1046~1060" text="ZFP36  plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P9" spans="1278~1292" text="ZFP36  plasmid" description="plasmid vector" />
+<PERTURBING_ACTION id="P10" spans="1436~1472" text="HSC-specific overexpression of Zfp36" description="conditional knock in" />
+<CONTEXT id="C0" spans="388~417" text="hepatic stellate cells (HSCs)" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="723~726" text="HSC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1329~1333" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="1418~1421" text="HSC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1512~1515" text="HSC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1581~1584" text="HSC" experiment_type="cells" species="not stated" />
+<CONTEXT id="C7" spans="1601~1648" text="fibrotic patients with hepatocellular carcinoma" experiment_type="organism" species="human" />
+<CONTEXT id="C8" spans="1805~1815" text="human HSCs" experiment_type="cells" species="human" />
+<EFFECT id="E0" spans="362~384" text="regulating ferroptosis" phenotype="ferroptosis" activity="regulates" />
+<EFFECT id="E1" spans="639~667" text="classical ferroptotic events" phenotype="ferroptosis" activity="not stated" />
+<EFFECT id="E2" spans="692~700,727~738" text="impaired ... ferroptosis" phenotype="ferroptosis" activity="inhibits" />
+<EFFECT id="E3" spans="715~722,727~738" text="induced ... ferroptosis" phenotype="ferroptosis" activity="causes" />
+<EFFECT id="E4" spans="770~779,795~815" text="inhibited ... autophagy activation" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E5" spans="910~927,945~959" text="inhibitory action ... on ferroptosis" phenotype="ferroptosis" activity="inhibits" />
+<EFFECT id="E6" spans="993~999,1019~1031" text="effect ... on autophagy" phenotype="autophagy" activity="regulates" />
+<EFFECT id="E7" spans="1293~1324" text="mediated ferroptosis resistance" phenotype="ferroptosis" activity="inhibits" />
+<EFFECT id="E8" spans="1409~1417,1422~1433" text="inducing ... ferroptosis" phenotype="ferroptosis" activity="causes" />
+<EFFECT id="E10" spans="1585~1596" text="ferroptosis" phenotype="ferroptosis" activity="not stated" />
+<EFFECT id="E11" spans="1780~1801" text="ferroptosis induction" phenotype="ferroptosis" activity="causes" />
+<EFFECT id="E12" spans="1473~1481,1517~1528" text="impaired ... ferroptosis" phenotype="ferroptosis" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P10" perturbing_actionText="HSC-specific overexpression of Zfp36" effectID="E12" effectText="impaired ... ferroptosis" contextID="C5" contextText="HSC" />
+</TAGS>
+</Genomics_ConceptTask>

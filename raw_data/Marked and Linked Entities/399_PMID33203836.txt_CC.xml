@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[DEPDC1B is a tumor promotor in development of bladder cancer through targeting 
+SHC1.
+
+Bladder cancer is one of the most commonly diagnosed malignant tumors in the 
+urinary system and causes a massive cancer-related death. DEPDC1B is a DEP 
+domain-containing protein that has been found to be associated with a variety of 
+human cancers. This study aimed to explore the role and mechanism of DEPDC1B in 
+the development of bladder cancer. The analysis of clinical specimens revealed 
+the upregulated expression of DEPDC1B in bladder cancer, which was positively 
+related to tumor grade. In vitro and in vivo studies showed that DEPDC1B 
+knockdown could inhibit the growth of bladder cancer cells or xenografts in 
+mice. The suppression of bladder cancer by DEPDC1B was executed through 
+inhibiting cell proliferation, cell migration, and promoting cell apoptosis. 
+Moreover, a mechanistic study found that SHC1 may be an important route through 
+which DEPDC1B regulates the development of bladder cancer. Knockdown of SHC1 in 
+DEPDC1B-overexpressed cancer cells could abolish the promotion effects induced 
+by DEPDC1B. In conclusion, DEPDC1B was identified as a key regulator in the 
+development of bladder cancer, which may be used as a potential therapeutic 
+target in the treatment of bladder cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="628~646" text="DEPDC1B  knockdown" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1005~1022" text="Knockdown of SHC1" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1027~1048" text="DEPDC1B-overexpressed" description="increased expression level" />
+<CONTEXT id="C0" spans="675~695" text="bladder cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="699~718" text="xenografts in  mice" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C2" spans="587~595" text="In vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="600~607" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="798~802" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="818~822" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="848~852" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C7" spans="1049~1061" text="cancer cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="653~671" text="inhibit the growth" phenotype="cell growth" activity="inhibits" />
+<EFFECT id="E2" spans="787~797,803~816" text="inhibiting ... proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E3" spans="787~797,823~832" text="inhibiting ... migration" phenotype="migration" activity="inhibits" />
+<EFFECT id="E4" spans="838~847,853~862" text="promoting ... apoptosis" phenotype="apoptosis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="DEPDC1B  knockdown" contextID="C0" contextText="bladder cancer cells" effectID="E0" effectText="inhibit the growth" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="DEPDC1B  knockdown" contextID="C1" contextText="xenografts in  mice" effectID="E0" effectText="inhibit the growth" />
+</TAGS>
+</Genomics_ConceptTask>

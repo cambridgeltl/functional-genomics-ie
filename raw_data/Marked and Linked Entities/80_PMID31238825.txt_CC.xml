@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Role of Wdr45b in maintaining neural autophagy and cognitive function.
+
+Macroautophagy/autophagy functions as a quality control mechanism by degrading 
+misfolded proteins and damaged organelles and plays an essential role in 
+maintaining neural homeostasis. The phosphoinositide 
+phosphatidylinositol-3-phosphate (PtdIns3P) effector Atg18 is essential for 
+autophagosome formation in yeast. Mammalian cells contain four Atg18 homologs, 
+belonging to two subclasses, WIPI1 (WD repeat domain, phosphoinositide 
+interacting 1), WIPI2 and WDR45B/WIPI3 (WD repeat domain 45B), WDR45/WIPI4. The 
+role of Wdr45b in autophagy and in neural homeostasis, however, remains unknown. 
+Recent human genetic studies have revealed a potential causative role of WDR45B 
+in intellectual disability. Here we demonstrated that mice deficient in Wdr45b 
+exhibit motor deficits and learning and memory defects. Histological analysis 
+reveals that wdr45b knockout (KO) mice exhibit a large number of swollen axons 
+and show cerebellar atrophy. SQSTM1- and ubiquitin-positive aggregates, which 
+are autophagy substrates, accumulate in various brain regions in wdr45b KO mice. 
+Double KO mice, wdr45b and wdr45, die within one day after birth and exhibit 
+more severe autophagy defects than either of the single KO mice, suggesting that 
+these two genes act cooperatively in autophagy. Our studies demonstrated that 
+WDR45B is critical for neural homeostasis in mice. The wdr45b KO mice provide a 
+model to study the pathogenesis of intellectual disability.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="812~831" text="deficient in Wdr45b" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="925~945" text="wdr45b knockout (KO)" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1136~1145" text="wdr45b KO" description="knock out" />
+<PERTURBING_ACTION id="P4" spans="1153~1162,1168~1185" text="Double KO ...  wdr45b and wdr45" description="knock out" />
+<CONTEXT id="C0" spans="807~811" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="946~950" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="1146~1150" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="1163~1167" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C4" spans="1290~1294" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="1236~1260" text="severe autophagy defects" phenotype="autophagy" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P4" perturbing_actionText="Double KO ...  wdr45b and wdr45" contextID="C3" contextText="mice" effectID="E0" effectText="severe autophagy defects" />
+</TAGS>
+</Genomics_ConceptTask>

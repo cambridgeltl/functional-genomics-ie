@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[VCP maintains lysosomal homeostasis and TFEB activity in differentiated skeletal 
+muscle.
+
+Differentiated tissue is particularly vulnerable to alterations in protein and 
+organelle homeostasis. The essential protein VCP, mutated in hereditary 
+inclusion body myopathy, amyotrophic lateral sclerosis and frontotemporal 
+dementia, is critical for efficient clearance of misfolded proteins and damaged 
+organelles in dividing cells, but its role in terminally differentiated tissue 
+affected by disease mutations is less clear. To understand the relevance of VCP 
+in differentiated tissue, we inactivated it in skeletal muscle of adult mice. 
+Surprisingly, knockout muscle demonstrated a necrotic myopathy with increased 
+macroautophagic/autophagic proteins and damaged lysosomes. This was not solely 
+due to a defect in autophagic degradation because age-matched mice with muscle 
+inactivation of the autophagy essential protein, ATG5, did not demonstrate a 
+myopathy. Notably, myofiber necrosis was preceded by upregulation of 
+LGALS3/Galectin-3, a marker of damaged lysosomes, and TFEB activation, 
+suggesting early defects in the lysosomal system. Consistent with that, myofiber 
+necrosis was recapitulated by chemical induction of lysosomal membrane 
+permeabilization (LMP) in skeletal muscle. Moreover, TFEB was activated after 
+LMP in cells, but activation and nuclear localization of TFEB persisted upon VCP 
+inactivation or disease mutant expression. Our data identifies VCP as central 
+mediator of both lysosomal clearance and biogenesis in skeletal muscle. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="871~894,928~932" text="muscle  inactivation of ... ATG5" description="conditional knock out" />
+<PERTURBING_ACTION id="P2" spans="1409~1426" text="VCP  inactivation" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="556~559,590~601" text="VCP ... inactivated" description="knock out" />
+<CONTEXT id="C1" spans="861~865" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="1339~1344" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="976~984" text="myofiber" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1171~1179" text="myofiber" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="663~669" text="muscle" experiment_type="organism" species="not stated" />
+<CONTEXT id="C6" spans="608~637" text="skeletal muscle of adult mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C7" spans="1279~1294" text="skeletal muscle" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="708~717,735~754" text="increased ... autophagic proteins" phenotype="autophagy" activity="increases" />
+<EFFECT id="E1" spans="808~840" text="defect in autophagic degradation" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E2" spans="685~702" text="necrotic myopathy" phenotype="necrosis" activity="not stated" />
+<EFFECT id="E3" spans="985~993" text="necrosis" phenotype="necrosis" activity="not stated" />
+<EFFECT id="E4" spans="1181~1189" text="necrosis" phenotype="necrosis" activity="not stated" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="VCP ... inactivated" contextID="C6" contextText="skeletal muscle of adult mice" effectID="E2" effectText="necrotic myopathy" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="VCP ... inactivated" contextID="C6" contextText="skeletal muscle of adult mice" effectID="E0" effectText="increased ... autophagic proteins" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P3" perturbing_actionText="VCP ... inactivated" contextID="C6" contextText="skeletal muscle of adult mice" effectID="E1" effectText="defect in autophagic degradation" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P3" perturbing_actionText="VCP ... inactivated" contextID="C5" contextText="muscle" effectID="E2" effectText="necrotic myopathy" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P3" perturbing_actionText="VCP ... inactivated" contextID="C5" contextText="muscle" effectID="E0" effectText="increased ... autophagic proteins" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P3" perturbing_actionText="VCP ... inactivated" contextID="C5" contextText="muscle" effectID="E1" effectText="defect in autophagic degradation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[m(6)A mRNA methylation controls autophagy and adipogenesis by targeting Atg5 and 
+Atg7.
+
+N: 6-methyladenosine (m6A), the most abundant internal modification on mRNAs in 
+eukaryotes, play roles in adipogenesis. However, the underlying mechanism 
+remains largely unclear. Here, we show that m6A plays a critical role in 
+regulating macroautophagy/autophagy and adipogenesis through targeting Atg5 and 
+Atg7. Mechanistically, knockdown of FTO, a well-known m6A demethylase, decreased 
+the expression of ATG5 and ATG7, leading to attenuation of autophagosome 
+formation, thereby inhibiting autophagy and adipogenesis. We proved that FTO 
+directly targeted Atg5 and Atg7 transcripts and mediated their expression in an 
+m6A-dependent manner. Further study identified that Atg5 and Atg7 were the 
+targets of YTHDF2 (YTH N6-methyladenosine RNA binding protein 2). Upon FTO 
+silencing, Atg5 and Atg7 transcripts with higher m6A levels were captured by 
+YTHDF2, which resulted in mRNA degradation and reduction of protein expression, 
+thus alleviating autophagy and adipogenesis. Furthermore, we generated an 
+adipose-selective fto knockout mouse and find that FTO deficiency decreased 
+white fat mass and impairs ATG5- and ATG7-dependent autophagy in vivo. Together, 
+these findings unveil the functional importance of the m6A methylation machinery 
+in autophagy and adipogenesis regulation, which expands our understanding of 
+such interplay that is essential for development of therapeutic strategies in 
+the prevention and treatment of obesity.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="423~439" text="knockdown of FTO" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="862~876" text="FTO  silencing" description="knock down" />
+<PERTURBING_ACTION id="P4" spans="1101~1131" text="adipose-selective fto knockout" description="conditional knock out" />
+<PERTURBING_ACTION id="P5" spans="1152~1166" text="FTO deficiency" description="decreased expression level" />
+<CONTEXT id="C0" spans="1132~1137" text="mouse" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1240~1247" text="in vivo" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="319~329,345~354" text="regulating ... autophagy" phenotype="autophagy" activity="regulates" />
+<EFFECT id="E1" spans="319~329,359~371" text="regulating ... adipogenesis" phenotype="differentiation" activity="regulates" />
+<EFFECT id="E2" spans="575~595" text="inhibiting autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E3" spans="575~585,600~612" text="inhibiting ... adipogenesis" phenotype="differentiation" activity="inhibits" />
+<EFFECT id="E4" spans="1031~1052" text="alleviating autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E5" spans="1031~1042,1057~1069" text="alleviating ... adipogenesis" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E6" spans="1197~1204,1230~1239" text="impairs ... autophagy" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E7" spans="1345~1354,1372~1382" text="autophagy ... regulation" phenotype="autophagy" activity="regulates" />
+<EFFECT id="E8" spans="1359~1382" text="adipogenesis regulation" phenotype="differentiation" activity="regulates" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P4" perturbing_actionText="adipose-selective fto knockout" contextID="C0" contextText="mouse" effectID="E6" effectText="impairs ... autophagy" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P5" perturbing_actionText="FTO deficiency" contextID="C1" contextText="in vivo" effectID="E6" effectText="impairs ... autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

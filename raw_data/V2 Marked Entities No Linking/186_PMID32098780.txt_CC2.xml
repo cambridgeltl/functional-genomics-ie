@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Perineural Invasion Reprograms the Immune Microenvironment through Cholinergic 
+Signaling in Pancreatic Ductal Adenocarcinoma.
+
+Perineural invasion is a common feature of pancreatic ductal adenocarcinoma 
+(PDAC). Here, we investigated the effect of perineural invasion on the 
+microenvironment and how this affects PDAC progression. Transcriptome expression 
+profiles of PDAC tissues with different perineural invasion status were 
+compared, and the intratumoral T-cell density and levels of neurotransmitters in 
+these tissues were assessed. Perineural invasion was associated with impaired 
+immune responses characterized by decreased CD8+ T and Th1 cells, and increased 
+Th2 cells. Acetylcholine levels were elevated in severe perineural invasion. 
+Acetylcholine impaired the ability of PDAC cells to recruit CD8+ T cells via 
+HDAC1-mediated suppression of CCL5. Moreover, acetylcholine directly inhibited 
+IFNγ production by CD8+ T cells in a dose-dependent manner and favored Th2 over 
+Th1 differentiation. Furthermore, hyperactivation of cholinergic signaling 
+enhanced tumor growth by suppressing the intratumoral T-cell response in an 
+orthotopic PDAC model. Conversely, blocking perineural invasion with bilateral 
+subdiaphragmatic vagotomy in tumor-bearing mice was associated with an increase 
+in CD8+ T cells, an elevated Th1/Th2 ratio, and improved survival. In 
+conclusion, perineural invasion-triggered cholinergic signaling favors tumor 
+growth by promoting an immune-suppressive microenvironment characterized by 
+impaired CD8+ T-cell infiltration and a reduced Th1/Th2 ratio.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="790~800" text="PDAC cells" context="transformed cells" />
+<CONTEXT id="C1" spans="929~941" text="CD8+ T cells" context="cells" />
+<CONTEXT id="C2" spans="1253~1271" text="tumor-bearing mice" context="organism" />
+<PHENOTYPE id="PH0" spans="1076~1088" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="1067~1075" text="enhanced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

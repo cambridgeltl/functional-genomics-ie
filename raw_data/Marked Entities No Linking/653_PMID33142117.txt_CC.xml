@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Neurons Release Serine to Support mRNA Translation in Pancreatic Cancer.
+
+Pancreatic ductal adenocarcinoma (PDAC) tumors have a nutrient-poor, 
+desmoplastic, and highly innervated tumor microenvironment. Although neurons can 
+release stimulatory factors to accelerate PDAC tumorigenesis, the metabolic 
+contribution of peripheral axons has not been explored. We found that peripheral 
+axons release serine (Ser) to support the growth of exogenous Ser 
+(exSer)-dependent PDAC cells during Ser/Gly (glycine) deprivation. Ser 
+deprivation resulted in ribosomal stalling on two of the six Ser codons, TCC and 
+TCT, and allowed the selective translation and secretion of nerve growth factor 
+(NGF) by PDAC cells to promote tumor innervation. Consistent with this, 
+exSer-dependent PDAC tumors grew slower and displayed enhanced innervation in 
+mice on a Ser/Gly-free diet. Blockade of compensatory neuronal innervation using 
+LOXO-101, a Trk-NGF inhibitor, further decreased PDAC tumor growth. Our data 
+indicate that axonal-cancer metabolic crosstalk is a critical adaptation to 
+support PDAC growth in nutrient poor environments.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="776~780" text="PDAC" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="839~843" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="970~974" text="PDAC" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="781~799" text="tumors grew slower" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E1" spans="960~969,975~987" text="decreased ... tumor growth" phenotype="tumour growth" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

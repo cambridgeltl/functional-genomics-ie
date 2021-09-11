@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A fine-tuning mechanism underlying self-control for autophagy: deSUMOylation of 
+BECN1 by SENP3.
+
+The roles of SUMOylation and the related enzymes in autophagic regulation are 
+unclear. Based on our previous studies that identified the SUMO2/3-specific 
+peptidase SENP3 as an oxidative stress-responsive molecule, we investigated the 
+correlation between SUMOylation and macroautophagy/autophagy. We found that 
+Senp3± mice showed increased autophagy in the liver under basal and fasting 
+conditions, compared to Senp3+/+ mice. We constructed a liver-specific senp3 
+knockout mouse; these Senp3-deficient liver tissues showed increased autophagy 
+as well. Autophagic flux was accelerated in hepatic and other cell lines 
+following knockdown of SENP3, both before and after the cells underwent 
+starvation in the form of the serum and amino acid deprivation. We demonstrated 
+that BECN1/beclin 1, the core molecule of the BECN1-PIK3C3 complex, could be 
+SUMO3-conjugated by PIAS3 predominantly at K380 and deSUMOylated by SENP3. The 
+basal SUMOylation of BECN1 was increased upon cellular starvation, which 
+enhanced autophagosome formation by facilitating BECN1 interaction with other 
+complex components UVRAG, PIK3C3 and ATG14, thus promoting PIK3C3 activity. In 
+contrast, SENP3 deSUMOylated BECN1, which impaired BECN1-PIK3C3 complex 
+formation or stability to suppress the PIK3C3 activity. DeSUMOylation of BECN1 
+restrained autophagy induction under basal conditions and especially upon 
+starvation when SENP3 had accumulated in response to the increased generation of 
+reactive oxygen species. Thus, while reversible SUMOylation regulated the degree 
+of autophagy, SENP3 provided an intrinsic overflow valve for fine-tuning 
+autophagy induction.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="412~418" text="Senp3±" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="545~581" text="liver-specific senp3  knockout mouse" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="589~604" text="Senp3-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="731~749" text="knockdown of SENP3" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="419~423" text="mice" context="organism" />
+<CONTEXT id="C1" spans="458~463" text="liver" context="tissue/organ" />
+<CONTEXT id="C2" spans="605~618" text="liver tissues" context="tissue/organ" />
+<CONTEXT id="C3" spans="691~719" text="hepatic and other cell lines" context="cells" />
+<CONTEXT id="C4" spans="777~782" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="441~450" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="636~645" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="1430~1439" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH4" spans="656~671" text="Autophagic flux" phenotype="autophagy" />
+<EFFECT id="E0" spans="431~440" text="increased" effect="positive" />
+<EFFECT id="E1" spans="626~635" text="increased" effect="positive" />
+<EFFECT id="E2" spans="1419~1429" text="restrained" effect="negative" />
+<EFFECT id="E3" spans="1440~1449" text="induction" effect="positive" />
+<EFFECT id="E4" spans="676~687" text="accelerated" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Senp3±" effectID="E0" effectText="increased" phenotypeID="PH0" phenotypeText="autophagy" contextID="C0" contextText="mice" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Senp3±" contextID="C1" contextText="liver" phenotypeID="PH0" phenotypeText="autophagy" effectID="E0" effectText="increased" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="Senp3-deficient" contextID="C2" contextText="liver tissues" effectID="E1" effectText="increased" phenotypeID="PH2" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P3" perturbing_actionText="knockdown of SENP3" contextID="C3" contextText="hepatic and other cell lines" effectID="E4" effectText="accelerated" phenotypeID="PH4" phenotypeText="Autophagic flux" />
+</TAGS>
+</Genomics_ConceptTask>

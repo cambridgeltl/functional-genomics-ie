@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Telomere length heterogeneity in ALT cells is maintained by PML-dependent 
+localization of the BTR complex to telomeres.
+
+Telomeres consist of TTAGGG repeats bound by protein complexes that serve to 
+protect the natural end of linear chromosomes. Most cells maintain telomere 
+repeat lengths by using the enzyme telomerase, although there are some cancer 
+cells that use a telomerase-independent mechanism of telomere extension, termed 
+alternative lengthening of telomeres (ALT). Cells that use ALT are 
+characterized, in part, by the presence of specialized PML nuclear bodies called 
+ALT-associated PML bodies (APBs). APBs localize to and cluster telomeric ends 
+together with telomeric and DNA damage factors, which led to the proposal that 
+these bodies act as a platform on which ALT can occur. However, the necessity of 
+APBs and their function in the ALT pathway has remained unclear. Here, we used 
+CRISPR/Cas9 to delete PML and APB components from ALT-positive cells to cleanly 
+define the function of APBs in ALT. We found that PML is required for the ALT 
+mechanism, and that this necessity stems from APBs' role in localizing the 
+BLM-TOP3A-RMI (BTR) complex to ALT telomere ends. Strikingly, recruitment of the 
+BTR complex to telomeres in a PML-independent manner bypasses the need for PML 
+in the ALT pathway, suggesting that BTR localization to telomeres is sufficient 
+to sustain ALT activity.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="958~976" text="ALT-positive cells" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

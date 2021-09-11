@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Fibroblasts from Distinct Pancreatic Pathologies Exhibit Disease-Specific 
+Properties.
+
+Although fibrotic stroma forms an integral component of pancreatic diseases, 
+whether fibroblasts programmed by different types of pancreatic diseases are 
+phenotypically distinct remains unknown. Here, we show that fibroblasts isolated 
+from patients with pancreatic ductal adenocarcinoma (PDAC), chronic pancreatitis 
+(CP), periampullary tumors, and adjacent normal (NA) tissue (N = 34) have 
+distinct mRNA and miRNA profiles. Compared with NA fibroblasts, PDAC-associated 
+fibroblasts were generally less sensitive to an antifibrotic stimulus (NPPB) and 
+more responsive to positive regulators of activation such as TGFβ1 and WNT. Of 
+the disease-associated fibroblasts examined, PDAC- and CP-derived fibroblasts 
+shared greatest similarity, yet PDAC-associated fibroblasts expressed higher 
+levels of tenascin C (TNC), a finding attributable to miR-137, a novel regulator 
+of TNC. TNC protein and transcript levels were higher in PDAC tissue versus CP 
+tissue and were associated with greater levels of stromal activation, and 
+conditioned media from TNC-depleted PDAC-associated fibroblasts modestly 
+increased both PDAC cell proliferation and PDAC cell migration, indicating that 
+stromal TNC may have inhibitory effects on PDAC cells. Finally, circulating TNC 
+levels were higher in patients with PDAC compared with CP. Our characterization 
+of pancreatic fibroblast programming as disease-specific has consequences for 
+therapeutic targeting and for the manner in which fibroblasts are used in 
+research.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="547~575" text="PDAC-associated  fibroblasts" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1209~1218" text="PDAC cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1237~1246" text="PDAC cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1318~1328" text="PDAC cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="1194~1203,1219~1232" text="increased ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E1" spans="1194~1203,1247~1256" text="increased ... migration" phenotype="migration" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

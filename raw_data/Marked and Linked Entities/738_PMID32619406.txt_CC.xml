@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SETD2 Restricts Prostate Cancer Metastasis by Integrating EZH2 and AMPK 
+Signaling Pathways.
+
+The level of SETD2-mediated H3K36me3 is inversely correlated with that of 
+EZH2-catalyzed H3K27me3. Nevertheless, it remains unclear whether these two 
+enzymatic activities are molecularly intertwined. Here, we report that SETD2 
+delays prostate cancer (PCa) metastasis via its substrate EZH2. We show that 
+SETD2 methylates EZH2 which promotes EZH2 degradation. SETD2 deficiency induces 
+a Polycomb-repressive chromatin state that enables cells to acquire metastatic 
+traits. Conversely, mice harboring nonmethylated EZH2 mutant or SETD2 mutant 
+defective in binding to EZH2 develop metastatic PCa. Furthermore, we identify 
+that metformin-stimulated AMPK signaling converges at FOXO3 to stimulate SETD2 
+expression. Together, our results demonstrate that the SETD2-EZH2 axis 
+integrates metabolic and epigenetic signaling to restrict PCa metastasis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="457~473" text="SETD2 deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="598~623" text="nonmethylated EZH2 mutant" description="other" />
+<PERTURBING_ACTION id="P2" spans="627~669" text="SETD2 mutant  defective in binding to EZH2" description="other" />
+<CONTEXT id="C0" spans="534~539" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="583~587" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="543~569" text="acquire metastatic  traits" phenotype="metastasis" activity="causes" />
+<EFFECT id="E1" spans="670~692" text="develop metastatic PCa" phenotype="metastasis" activity="causes" />
+<ENTITY_LINKING id="EN0" contextID="C0" contextText="cells" effectID="E0" effectText="acquire metastatic  traits" perturbing_actionID="E1" perturbing_actionText="develop metastatic PCa" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="nonmethylated EZH2 mutant" contextID="C1" contextText="mice" effectID="E1" effectText="develop metastatic PCa" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="SETD2 mutant  defective in binding to EZH2" contextID="C1" contextText="mice" effectID="E1" effectText="develop metastatic PCa" />
+</TAGS>
+</Genomics_ConceptTask>

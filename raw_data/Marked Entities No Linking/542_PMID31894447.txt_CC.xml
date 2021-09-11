@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Artemisinin and dihydroartemisinin promote β-cell apoptosis induced by palmitate 
+via enhancing ER stress.
+
+Artemisinin (ART) and dihydroartemisinin (DHA) are first-line antimalarial drugs 
+and have been reported to have anti-obesity effects. Hyperlipidemia is 
+associated with β-cell damage in obese subjects, which could contribute to the 
+pathogenesis of type 2 diabetes. In addition to their anti-obesity effects, ART 
+and DHA also have protective roles in some diseases. Thus, we investigated the 
+effects of ART and DHA in palmitate-induced β-cell apoptosis and the underlying 
+mechanism. In this study, the rat pancreatic β-cell line INS-1 and mouse 
+pancreatic β-cell line MIN6 were cultured with palmitate (PA) (0.1 mM) to induce 
+cell apoptosis in the presence or absence of ART or DHA. Cell apoptosis was 
+investigated by using flow cytometry, and the expression of ER stress markers, 
+including CHOP, GRP78 and PDI, was detected by Western blotting and/or qRT-PCR. 
+The results showed that ART and DHA significantly increased the apoptosis of 
+β-cells induced by PA and exacerbated the ER stress caused by PA. An inhibitor 
+of ER stress, 4-phenylbutyric acid (4-PBA), significantly ameliorated cell 
+apoptosis caused by ART and DHA in PA-treated β-cells, consistent with the 
+inhibition of ER stress. Together, the findings from the current study suggested 
+that ART and DHA may promote lipid disorder-associated β-cell injury via 
+enhancing ER stress when they were used to treat obesity.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="614~646" text="rat pancreatic β-cell line INS-1" experiment_type="cell line" species="rat" />
+<CONTEXT id="C1" spans="651~685" text="mouse  pancreatic β-cell line MIN6" experiment_type="cell line" species="mouse" />
+<CONTEXT id="C2" spans="740~744" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1056~1063" text="β-cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1206~1210" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1258~1265" text="β-cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="732~738,745~754" text="induce ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="1028~1037,1042~1051" text="increased ... apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E2" spans="1194~1205,1212~1221" text="ameliorated ... apoptosis" phenotype="apoptosis" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

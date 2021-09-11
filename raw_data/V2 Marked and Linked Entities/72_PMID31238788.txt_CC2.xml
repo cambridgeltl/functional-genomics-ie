@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PLA2G4A/cPLA2-mediated lysosomal membrane damage leads to inhibition of 
+autophagy and neurodegeneration after brain trauma.
+
+Lysosomal membrane permeabilization (LMP) is observed under many pathological 
+conditions, leading to cellular dysfunction and death. However, the mechanisms 
+by which lysosomal membranes become leaky in vivo are not clear. Our data 
+demonstrate that LMP occurs in neurons following controlled cortical impact 
+induced (CCI) traumatic brain injury (TBI) in mice, leading to impaired 
+macroautophagy (autophagy) and neuronal cell death. Comparison of LC-MS/MS 
+lysosomal membrane lipid profiles from TBI and sham animals suggested a role for 
+PLA2G4A/cPLA2 (phospholipase A2, group IVA [cytosolic, calcium-dependent]) in 
+TBI-induced LMP. Activation of PLA2G4A caused LMP and inhibition of autophagy 
+flux in cell lines and primary neurons. In vivo pharmacological inhibition of 
+PLA2G4A attenuated TBI-induced LMP, as well as subsequent impairment of 
+autophagy and neuronal loss, and was associated with improved neurological 
+outcomes. Inhibition of PLA2G4A in vitro limited amyloid-β-induced LMP and 
+inhibition of autophagy. Together, our data indicate that PLA2G4A -mediated 
+lysosomal membrane damage is involved in neuronal cell death following 
+CCI-induced TBI and potentially in other neurodegenerative 
+disorders.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="874~912" text="pharmacological inhibition of  PLA2G4A" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1064~1085" text="Inhibition of PLA2G4A" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="391~398" text="neurons" context="cells" />
+<CONTEXT id="C1" spans="483~487" text="mice" context="organism" />
+<CONTEXT id="C2" spans="638~645" text="animals" context="organism" />
+<CONTEXT id="C3" spans="834~844" text="cell lines" context="cells" />
+<CONTEXT id="C4" spans="849~864" text="primary neurons" context="cells" />
+<CONTEXT id="C5" spans="866~873" text="In vivo" context="in vivo" />
+<CONTEXT id="C6" spans="1086~1094" text="in vitro" context="in vitro" />
+<PHENOTYPE id="PH0" spans="526~535" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="550~560" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH2" spans="815~830" text="autophagy  flux" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="978~987" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH4" spans="1144~1153" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="500~508" text="impaired" effect="negative" />
+<EFFECT id="E1" spans="801~811" text="inhibition" effect="negative" />
+<EFFECT id="E2" spans="963~973" text="impairment" effect="negative" />
+<EFFECT id="E3" spans="1130~1140" text="inhibition" effect="negative" />
+<ENTITY_LINKING id="EN0" effectID="E2" effectText="impairment" contextID="C5" contextText="In vivo" perturbing_actionID="P1" perturbing_actionText="pharmacological inhibition of  PLA2G4A" phenotypeID="PH4" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="Inhibition of PLA2G4A" contextID="C6" contextText="in vitro" effectID="E3" effectText="inhibition" phenotypeID="PH4" phenotypeText="autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

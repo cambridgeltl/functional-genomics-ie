@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Accumulation of tissue factor in endothelial cells promotes cellular apoptosis 
+through over-activation of Src1 and involves β1-integrin signalling.
+
+Accumulation of tissue factor (TF) within cells leads to cellular apoptosis 
+mediated through p38 and p53 pathways. In this study, the involvement of Src1 in 
+the induction of TF-mediated cell apoptosis, and the mechanisms of Src1 
+activation were investigated. Human coronary artery endothelial cell (HCAEC) 
+were transfected with plasmids to express the wild-type TF (TFWt-tGFP), or a 
+mutant (Ser253 → Ala) which is incapable of being released from cells 
+(TFAla253-tGFP). The cells were then activated with PAR2-agonist peptide 
+(SLIGKV-NH) and the phosphorylation of Src and Rac, and also the kinase activity 
+of Src were assessed. Transfected cells were also pre-incubated with pp60c Src 
+inhibitor, FAK inhibitor-14, or a blocking anti-β1-integrin antibody prior to 
+activation and the phosphorylation of p38 as well as cellular apoptosis was 
+examined. Finally, cells were co-transfected with the plasmids, together with a 
+Src1-specific siRNA, activated as above and the cellular apoptosis measured. 
+Activation of PAR2 lead to the phosphorylation of Src1 and Rac1 proteins at 
+60 min regardless of TF expression. Moreover, Src phosphorylation and kinase 
+activity was prolonged up to 100 min in the presence of TF, with a significantly 
+higher magnitude when the non-releasable TFAla253-tGFP was expressed in HCAEC. 
+Inhibition of Src with pp60c, or suppression of Src1 expression in cells, 
+reduced p38 phosphorylation and prevented cellular apoptosis. In contrast, 
+inhibition of FAK had no significant influence on Src kinase activity or 
+cellular apoptosis. Finally, pre-incubation of cells with an inhibitory 
+anti-β1-integrin antibody reduced both Src1 activation and cellular apoptosis. 
+Our data show for the first time that the over-activation of Src1 is a mediator 
+of TF-induced cellular apoptosis in endothelial cells through a mechanism that 
+is dependent on its interaction with β1-integrin.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="465~530" text="transfected with plasmids to express the wild-type TF (TFWt-tGFP)" description="plasmid vector" />
+<PERTURBING_ACTION id="P1" spans="465~501,538~544,609~624" text="transfected with plasmids to express ... mutant ... (TFAla253-tGFP)" description="plasmid vector" />
+<PERTURBING_ACTION id="P2" spans="834~854" text="pp60c Src  inhibitor" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="856~872" text="FAK inhibitor-14" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="1082~1101" text="Src1-specific siRNA" description="knock down" />
+<PERTURBING_ACTION id="P5" spans="1477~1505" text="Inhibition of Src with pp60c" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P6" spans="1510~1540" text="suppression of Src1 expression" description="decreased expression level" />
+<PERTURBING_ACTION id="P7" spans="1628~1645" text="inhibition of FAK" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="412~458" text="Human coronary artery endothelial cell (HCAEC)" experiment_type="cells" species="human" />
+<CONTEXT id="C1" spans="799~804" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="630~635" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1020~1025" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1469~1474" text="HCAEC" experiment_type="cells" species="human" />
+<CONTEXT id="C5" spans="1544~1549" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C7" spans="1749~1754" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1584~1593,1603~1612" text="prevented ... apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E1" spans="1650~1652,1665~1677,1711~1720" text="no ... influence on ... apoptosis" phenotype="apoptosis" activity="no effect" />
+<EFFECT id="E2" spans="1801~1809,1843~1852" text="reduced  ... apoptosis" phenotype="apoptosis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P5" perturbing_actionText="Inhibition of Src with pp60c" contextID="C5" contextText="cells" effectID="E0" effectText="prevented ... apoptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P6" perturbing_actionText="suppression of Src1 expression" contextID="C5" contextText="cells" effectID="C5" effectText="cells" />
+</TAGS>
+</Genomics_ConceptTask>

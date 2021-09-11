@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MTORC1 coordinates the autophagy and apoptosis signaling in articular 
+chondrocytes in osteoarthritic temporomandibular joint.
+
+A switch from autophagy to apoptosis is implicated in chondrocytes during the 
+osteoarthritis (OA) progression with currently unknown mechanism(s). In this 
+study we utilized a flow fluid shear stress (FFSS) model in cultured 
+chondrocytes and a unilateral anterior crossbite (UAC) animal model. We found 
+that both FFSS and UAC actively induced endoplasmic reticulum stress (ERS) in 
+the temporomandibular joints (TMJ) chondrocytes, as demonstrated by dramatic 
+increases in expression of HSPA5, p-EIF2AK3, p-ERN1 and ATF6. Interestingly, 
+both FFSS and UAC activated not only pro-death p-EIF2AK3-mediated ERS-apoptosis 
+programs but also pro-survival p-ERN1-mediated autophagic flux in chondrocytes. 
+Data from FFSS demonstrated that MTORC1, a downstream of p-ERN1, suppressed 
+autophagy but promoted p-EIF2AK3 mediated ERS-apoptosis. Data from UAC model 
+demonstrated that at early stage both the p-ERN1 and p-EIF2AK3 were activated 
+and MTORC1 was inhibited in TMJ chondrocytes. At late stage, 
+MTORC1-p-EIF2AK3-mediated ERS apoptosis were predominant, while p-ERN1 and 
+autophagic flux were inhibited. Inhibition of MTORC1 by TMJ local injection of 
+rapamycin in rats or inducible ablation of MTORC1 expression selectively in 
+chondrocytes in mice promoted chondrocyte autophagy and suppressed apoptosis, 
+and reduced TMJ cartilage loss induced by UAC. In contrast, MTORC1 activation by 
+TMJ local administration of MHY1485 or genetic deletion of Tsc1, an upstream 
+MTORC1 suppressor, resulted in opposite effects. Collectively, our results 
+establish that aberrant mechanical loading causes cartilage degeneration by 
+activating, at least in part, the MTORC1 signaling which modulates the autophagy 
+and apoptosis programs in TMJ chondrocytes. Thus, inhibition of MTORC1 provides 
+a novel therapeutic strategy for prevention and treatment of OA.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1235~1292" text="Inhibition of MTORC1 by TMJ local injection of  rapamycin" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1304~1372" text="inducible ablation of MTORC1 expression selectively in  chondrocytes" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1499~1556" text="MTORC1 activation by  TMJ local administration of MHY1485" perturbingaction="pharmacological augmentation" />
+<PERTURBING_ACTION id="P3" spans="1560~1584" text="genetic deletion of Tsc1" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="517~560" text="temporomandibular joints (TMJ) chondrocytes" context="cells" />
+<CONTEXT id="C1" spans="816~828" text="chondrocytes" context="cells" />
+<CONTEXT id="C2" spans="1093~1109" text="TMJ chondrocytes" context="cells" />
+<CONTEXT id="C3" spans="1296~1300" text="rats" context="organism" />
+<CONTEXT id="C4" spans="1390~1401" text="chondrocyte" context="cells" />
+<CONTEXT id="C5" spans="1376~1380" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="908~917" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="954~963" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1157~1166" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH4" spans="1402~1411" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH5" spans="1427~1436" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="896~906" text="suppressed" effect="negative" />
+<EFFECT id="E1" spans="922~930" text="promoted" effect="positive" />
+<EFFECT id="E2" spans="1381~1389" text="promoted" effect="positive" />
+<EFFECT id="E3" spans="1416~1426" text="suppressed" effect="negative" />
+<ENTITY_LINKING id="EN0" contextID="C3" contextText="rats" effectID="E2" effectText="promoted" phenotypeID="PH4" phenotypeText="autophagy" perturbing_actionID="P0" perturbing_actionText="Inhibition of MTORC1 by TMJ local injection of  rapamycin" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Inhibition of MTORC1 by TMJ local injection of  rapamycin" contextID="C3" contextText="rats" effectID="E3" effectText="suppressed" phenotypeID="PH5" phenotypeText="apoptosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="inducible ablation of MTORC1 expression selectively in  chondrocytes" contextID="C5" contextText="mice" effectID="E2" effectText="promoted" phenotypeID="PH4" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P1" perturbing_actionText="inducible ablation of MTORC1 expression selectively in  chondrocytes" contextID="C5" contextText="mice" effectID="E3" effectText="suppressed" phenotypeID="PH5" phenotypeText="apoptosis" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P0" perturbing_actionText="Inhibition of MTORC1 by TMJ local injection of  rapamycin" contextID="C4" contextText="chondrocyte" effectID="E2" effectText="promoted" phenotypeID="PH4" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P1" perturbing_actionText="inducible ablation of MTORC1 expression selectively in  chondrocytes" contextID="C4" contextText="chondrocyte" effectID="E2" effectText="promoted" phenotypeID="PH4" phenotypeText="autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

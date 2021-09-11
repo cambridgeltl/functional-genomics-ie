@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mutant CFTR Drives TWIST1 mediated epithelial-mesenchymal transition.
+
+Cystic fibrosis (CF) is a monogenetic disease resulting from mutations in the 
+Cystic Fibrosis Transmembrane conductance Regulator (CFTR) gene encoding an 
+anion channel. Recent evidence indicates that CFTR plays a role in other 
+cellular processes, namely in development, cellular differentiation and wound 
+healing. Accordingly, CFTR has been proposed to function as a tumour suppressor 
+in a wide range of cancers. Along these lines, CF was recently suggested to be 
+associated with epithelial-mesenchymal transition (EMT), a latent developmental 
+process, which can be re-activated in fibrosis and cancer. However, it is 
+unknown whether EMT is indeed active in CF and if EMT is triggered by 
+dysfunctional CFTR itself or a consequence of secondary complications of CF. In 
+this study, we investigated the occurrence of EMT in airways native tissue, 
+primary cells and cell lines expressing mutant CFTR through the expression of 
+epithelial and mesenchymal markers as well as EMT-associated transcription 
+factors. Transepithelial electrical resistance, proliferation and regeneration 
+rates, and cell resistance to TGF-β1induced EMT were also measured. CF 
+tissues/cells expressing mutant CFTR displayed several signs of active EMT, 
+namely: destructured epithelial proteins, defective cell junctions, increased 
+levels of mesenchymal markers and EMT-associated transcription factors, 
+hyper-proliferation and impaired wound healing. Importantly, we found evidence 
+that the mutant CFTR triggered EMT was mediated by EMT-associated transcription 
+factor TWIST1. Further, our data show that CF cells are over-sensitive to EMT 
+but the CF EMT phenotype can be reversed by CFTR modulator drugs. Altogether, 
+these results identify for the first time that EMT is intrinsically triggered by 
+the absence of functional CFTR through a TWIST1 dependent mechanism and indicate 
+that CFTR plays a direct role in EMT protection. This mechanistic link is a 
+plausible explanation for the high incidence of fibrosis and cancer in CF, as 
+well as for the role of CFTR as tumour suppressor protein.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="955~977" text="expressing mutant CFTR" description="other" />
+<PERTURBING_ACTION id="P1" spans="1247~1269" text="expressing mutant CFTR" description="other" />
+<PERTURBING_ACTION id="P2" spans="1551~1562" text="mutant CFTR" description="other" />
+<CONTEXT id="C0" spans="944~954" text="cell lines" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C1" spans="1241~1246" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1462~1481" text="hyper-proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E1" spans="1563~1576" text="triggered EMT" phenotype="epithelial-mesenchymal transition" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

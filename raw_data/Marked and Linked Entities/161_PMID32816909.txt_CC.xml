@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[EZH2-Mediated Downregulation of the Tumor Suppressor DAB2IP Maintains Ovarian 
+Cancer Stem Cells.
+
+The majority of women diagnosed with epithelial ovarian cancer eventually 
+develop recurrence, which rapidly evolves into chemoresistant disease. 
+Persistence of ovarian cancer stem cells (OCSC) at the end of therapy may be 
+responsible for emergence of resistant tumors. In this study, we demonstrate 
+that in OCSC, the tumor suppressor disabled homolog 2-interacting protein 
+(DAB2IP) is silenced by EZH2-mediated H3K27 trimethylation of the DAB2IP 
+promoter. CRISPR/Cas9-mediated deletion of DAB2IP in epithelial ovarian cancer 
+cell lines upregulated expression of stemness-related genes and induced 
+conversion of non-CSC to CSC, while enforced expression of DAB2IP suppressed CSC 
+properties. Transcriptomic analysis showed that overexpression of DAB2IP in 
+ovarian cancer significantly altered stemness-associated genes and bioinformatic 
+analysis revealed WNT signaling as a dominant pathway mediating the CSC 
+inhibitory effect of DAB2IP. Specifically, DAB2IP inhibited WNT signaling via 
+downregulation of WNT5B, an important stemness inducer. Reverse phase protein 
+array further demonstrated activation of noncanonical WNT signaling via C-JUN as 
+a downstream target of WNT5B, which was blocked by inhibiting RAC1, a prominent 
+regulator of C-JUN activation. Coadministration of EZH2 inhibitor GSK126 and 
+RAC1 inhibitor NSC23766 suppressed OCSC survival in vitro and inhibited tumor 
+growth and increased platinum sensitivity in vivo. Overall, these data establish 
+that DAB2IP suppresses the cancer stem cell phenotype via inhibition of 
+WNT5B-induced activation of C-JUN and can be epigenetically silenced by EZH2 in 
+OCSC. Targeting the EZH2/DAB2IP/C-JUN axis therefore presents a promising 
+strategy to prevent ovarian cancer recurrence and has potential for clinical 
+translation.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="561~600" text="CRISPR/Cas9-mediated deletion of DAB2IP" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="740~769" text="enforced expression of DAB2IP" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="834~858" text="overexpression of DAB2IP" description="increased expression level" />
+<PERTURBING_ACTION id="P3" spans="1309~1324" text="inhibiting RAC1" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="1370~1440" text="Coadministration of EZH2 inhibitor GSK126 and  RAC1 inhibitor NSC23766" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="604~641" text="epithelial ovarian cancer  cell lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="863~877" text="ovarian cancer" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C2" spans="1452~1456,1466~1474" text="OCSC ... in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1489~1494,1538~1545" text="tumor ... in vivo" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="695~732" text="induced  conversion of non-CSC to CSC" phenotype="transformation" activity="causes" />
+<EFFECT id="E1" spans="1441~1451,1457~1465" text="suppressed ... survival" phenotype="cell survival" activity="decreases" />
+<EFFECT id="E2" spans="1479~1488,1496~1502" text="inhibited ... growth" phenotype="cell growth" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="CRISPR/Cas9-mediated deletion of DAB2IP" contextID="C0" contextText="epithelial ovarian cancer  cell lines" effectID="E0" effectText="induced  conversion of non-CSC to CSC" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P4" perturbing_actionText="Coadministration of EZH2 inhibitor GSK126 and  RAC1 inhibitor NSC23766" contextID="C2" contextText="OCSC ... in vitro" effectID="E1" effectText="suppressed ... survival" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P4" perturbing_actionText="Coadministration of EZH2 inhibitor GSK126 and  RAC1 inhibitor NSC23766" contextID="C3" contextText="tumor ... in vivo" effectID="E2" effectText="inhibited ... growth" />
+</TAGS>
+</Genomics_ConceptTask>

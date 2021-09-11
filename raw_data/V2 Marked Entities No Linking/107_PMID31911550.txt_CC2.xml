@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Undermining Glutaminolysis Bolsters Chemotherapy While NRF2 Promotes 
+Chemoresistance in KRAS-Driven Pancreatic Cancers.
+
+Pancreatic cancer is a disease with limited therapeutic options. Resistance to 
+chemotherapies poses a significant clinical challenge for patients with 
+pancreatic cancer and contributes to a high rate of recurrence. Oncogenic KRAS, 
+a critical driver of pancreatic cancer, promotes metabolic reprogramming and 
+upregulates NRF2, a master regulator of the antioxidant network. Here, we show 
+that NRF2 contributed to chemoresistance and was associated with a poor 
+prognosis in patients with pancreatic cancer. NRF2 activation metabolically 
+rewired and elevated pathways involved in glutamine metabolism. This curbed 
+chemoresistance in KRAS-mutant pancreatic cancers. In addition, manipulating 
+glutamine metabolism restrained the assembly of stress granules, an indicator of 
+chemoresistance. Glutaminase inhibitors sensitized chemoresistant pancreatic 
+cancer cells to gemcitabine, thereby improving the effectiveness of 
+chemotherapy. This therapeutic approach holds promise as a novel therapy for 
+patients with pancreatic cancer harboring KRAS mutation. SIGNIFICANCE: These 
+findings illuminate the mechanistic features of KRAS-mediated chemoresistance 
+and provide a rationale for exploiting metabolic reprogramming in pancreatic 
+cancer cells to confer therapeutic opportunities that could be translated into 
+clinical trials. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="952~991" text="chemoresistant pancreatic  cancer cells" context="transformed cells" />
+</TAGS>
+</Genomics_ConceptTask>

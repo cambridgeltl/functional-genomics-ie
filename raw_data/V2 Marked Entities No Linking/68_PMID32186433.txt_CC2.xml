@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hypoxia-induced acetylation of PAK1 enhances autophagy and promotes brain 
+tumorigenesis via phosphorylating ATG5.
+
+Although the treatment of brain tumors by targeting kinase-regulated 
+macroautophagy/autophagy, is under investigation, the precise mechanism 
+underlying autophagy initiation and its significance in glioblastoma (GBM) 
+remains to be defined. Here, we report that PAK1 (p21 [RAC1] activated kinase 1) 
+is significantly upregulated and promotes GBM development. The Cancer Genome 
+Atlas analysis suggests that the oncogenic role of PAK1 in GBM is mainly 
+associated with autophagy. Subsequent experiments demonstrate that PAK1 indeed 
+serves as a positive modulator for hypoxia-induced autophagy in GBM. 
+Mechanistically, hypoxia induces ELP3-mediated PAK1 acetylation at K420, which 
+suppresses the dimerization of PAK1 and enhances its activity, thereby leading 
+to subsequent PAK1-mediated ATG5 (autophagy related 5) phosphorylation at the 
+T101 residue. This event not only protects ATG5 from ubiquitination-dependent 
+degradation but also increases the affinity between the ATG12-ATG5 complex and 
+ATG16L1 (autophagy related 16 like 1). Consequently, ELP3-dependent PAK1 (K420) 
+acetylation and PAK1-mediated ATG5 (T101) phosphorylation are required for 
+hypoxia-induced autophagy and brain tumorigenesis by promoting autophagosome 
+formation. Silencing PAK1 with shRNA or small molecule inhibitor FRAX597 
+potentially blocks autophagy and GBM growth. Furthermore, SIRT1-mediated 
+PAK1-deacetylation at K420 hinders autophagy and GBM growth. Clinically, the 
+levels of PAK1 (K420) acetylation significantly correlate with the expression of 
+ATG5 (T101) phosphorylation in GBM patients. Together, this report uncovers that 
+the acetylation modification and kinase activity of PAK1 plays an instrumental 
+role in hypoxia-induced autophagy initiation and maintaining GBM growth. 
+Therefore, PAK1 and its regulator in the autophagy pathway might represent 
+potential therapeutic targets for GBM treatment.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1363~1388" text="Silencing PAK1 with shRNA" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="1304~1309" text="brain" context="tissue/organ" />
+<CONTEXT id="C1" spans="1459~1462" text="GBM" context="neoplasm" />
+<CONTEXT id="C2" spans="1549~1552" text="GBM" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="1290~1299" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1310~1323" text="tumorigenesis" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH2" spans="1445~1454" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="1535~1544" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="1282~1289" text="induced" effect="positive" />
+<EFFECT id="E1" spans="1438~1444" text="blocks" effect="negative" />
+<EFFECT id="E2" spans="1527~1534" text="hinders" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

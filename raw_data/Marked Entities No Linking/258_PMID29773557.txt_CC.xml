@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A length-dependent evolutionarily conserved pathway controls nuclear export of 
+circular RNAs.
+
+Circular RNAs (circRNAs) are generated from many protein-coding genes. Most 
+accumulate in the cytoplasm, but how circRNA localization or nuclear export is 
+controlled remains unclear. Using RNAi screening, we found that depletion of the 
+Drosophila DExH/D-box helicase Hel25E results in nuclear accumulation of long 
+(>800-nucleotide), but not short, circRNAs. The human homologs of Hel25E 
+similarly regulate circRNA localization, as depletion of UAP56 (DDX39B) or URH49 
+(DDX39A) causes long and short circRNAs, respectively, to become enriched in the 
+nucleus. These data suggest that the lengths of mature circRNAs are measured to 
+dictate the mode of nuclear export.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="317~333,346~372" text="depletion of the ... DExH/D-box helicase Hel25E" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="532~559" text="depletion of UAP56 (DDX39B)" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="532~544,563~578" text="depletion of ... URH49  (DDX39A)" description="decreased expression level" />
+<CONTEXT id="C0" spans="335~345" text="Drosophila" experiment_type="organism" species="fly" />
+</TAGS>
+</Genomics_ConceptTask>

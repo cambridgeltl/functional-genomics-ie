@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RAD51AP1 Deficiency Reduces Tumor Growth by Targeting Stem Cell Self-Renewal.
+
+RAD51-associated protein 1 (RAD51AP1) plays an integral role in homologous 
+recombination by activating RAD51 recombinase. Homologous recombination is 
+essential for preserving genome integrity and RAD51AP1 is critical for D-loop 
+formation, a key step in homologous recombination. Although RAD51AP1 is involved 
+in maintaining genomic stability, recent studies have shown that RAD51AP1 
+expression is significantly upregulated in human cancers. However, the 
+functional role of RAD51AP1 in tumor growth and the underlying molecular 
+mechanism(s) by which RAD51AP1 regulates tumorigenesis have not been fully 
+understood. Here, we use Rad51ap1-knockout mice in genetically engineered mouse 
+models of breast cancer to unravel the role of RAD51AP1 in tumor growth and 
+metastasis. RAD51AP1 gene transcript was increased in both luminal estrogen 
+receptor-positive breast cancer and basal triple-negative breast cancer, which 
+is associated with poor prognosis. Conversely, knockdown of RAD51AP1 (RADP51AP1 
+KD) in breast cancer cell lines reduced tumor growth. Rad51ap1-deficient mice 
+were protected from oncogene-driven spontaneous mouse mammary tumor growth and 
+associated lung metastasis. In vivo, limiting dilution studies provided evidence 
+that Rad51ap1 plays a critical role in breast cancer stem cell (BCSC) 
+self-renewal. RAD51AP1 KD improved chemotherapy and radiotherapy response by 
+inhibiting BCSC self-renewal and associated pluripotency. Overall, our study 
+provides genetic and biochemical evidences that RAD51AP1 is critical for tumor 
+growth and metastasis by increasing BCSC self-renewal and may serve as a novel 
+target for chemotherapy- and radiotherapy-resistant breast cancer. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="1051~1088" text="knockdown of RAD51AP1 (RADP51AP1  KD)" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1139~1157" text="Rad51ap1-deficient" description="decreased expression level" />
+<PERTURBING_ACTION id="P3" spans="1411~1422" text="RAD51AP1 KD" description="knock down" />
+<CONTEXT id="C2" spans="1092~1116" text="breast cancer cell lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1158~1162" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C4" spans="1272~1279" text="In vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C5" spans="1365~1395" text="breast cancer stem cell (BCSC)" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C6" spans="1486~1490" text="BCSC" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C7" spans="1669~1673" text="BCSC" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C8" spans="1212~1217" text="mouse" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="1117~1137" text="reduced tumor growth" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E4" spans="1475~1485,1491~1503" text="inhibiting ... self-renewal" phenotype="self-renewal" activity="inhibits" />
+<EFFECT id="E5" spans="1658~1668,1674~1686" text="increasing ... self-renewal" phenotype="self-renewal" activity="increases" />
+<EFFECT id="E7" spans="1164~1183,1218~1238" text="were protected from ... mammary tumor growth" phenotype="tumour growth" activity="inhibits" />
+<EFFECT id="E8" spans="1164~1183,1255~1270" text="were protected from ... lung metastasis" phenotype="metastasis" activity="inhibits" />
+<EFFECT id="E9" spans="1340~1364,1397~1409" text="plays a critical role in ... self-renewal" phenotype="self-renewal" activity="regulates" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="knockdown of RAD51AP1 (RADP51AP1  KD)" contextID="C2" contextText="breast cancer cell lines" effectID="E0" effectText="reduced tumor growth" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="Rad51ap1-deficient" contextID="C3" contextText="mice" effectID="E7" effectText="were protected from ... mammary tumor growth" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="Rad51ap1-deficient" contextID="C3" contextText="mice" effectID="E8" effectText="were protected from ... lung metastasis" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P3" perturbing_actionText="RAD51AP1 KD" contextID="C6" contextText="BCSC" effectID="E4" effectText="inhibiting ... self-renewal" />
+</TAGS>
+</Genomics_ConceptTask>

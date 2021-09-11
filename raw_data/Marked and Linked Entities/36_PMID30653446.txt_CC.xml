@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Metformin alleviates hyperglycemia-induced endothelial impairment by 
+downregulating autophagy via the Hedgehog pathway.
+
+Studies regarding macroautophagic/autophagic regulation in endothelial cells 
+(ECs) under diabetic conditions are very limited. Clinical evidence establishes 
+an endothelial protective effect of metformin, but the underlying mechanisms 
+remain unclear. We aimed to investigate whether metformin exerts its protective 
+role against hyperglycemia-induced endothelial impairment through the autophagy 
+machinery. db/db mice were treated with intravitreal metformin injections. Human 
+umbilical vein endothelial cells (HUVECs) were cultured either in normal glucose 
+(NG, 5.5 mM) or high glucose (HG, 33 mM) medium in the presence or absence of 
+metformin for 72 h. We observed an obvious inhibition of hyperglycemia-triggered 
+autophagosome synthesis in both the diabetic retinal vasculature and cultured 
+HUVECs by metformin, along with restoration of hyperglycemia-impaired Hedgehog 
+(Hh) pathway activity. Specifically, deletion of ATG7 in retinal vascular ECs of 
+db/db mice and cultured HUVECs indicated a detrimental role of autophagy in 
+hyperglycemia-induced endothelial dysfunction. Pretreatment with GANT61, a Hh 
+pathway inhibitor, abolished the metformin-mediated downregulation of autophagy 
+and endothelial protective action. Furthermore, GLI-family (transcription 
+factors of the Hh pathway) knockdown in HUVECs and retinal vasculature revealed 
+that downregulation of hyperglycemia-activated autophagy by the 
+metformin-mediated Hh pathway activation was GLI1 dependent. Mechanistically, 
+GLI1 knockdown-triggered autophagy was related to upregulation of BNIP3, which 
+subsequently disrupted the association of BECN1/Beclin 1 and BCL2. The role of 
+BNIP3 in BECN1 dissociation from BCL2 was further confirmed by BNIP3 
+overexpression or BNIP3 RNAi. Taken together, the endothelial protective effect 
+of metformin under hyperglycemia conditions could be partly attributed to its 
+role in downregulating autophagy via Hh pathway activation. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="1042~1082" text="deletion of ATG7 in retinal vascular ECs" description="conditional knock out" />
+<PERTURBING_ACTION id="P2" spans="1372~1435" text="GLI-family (transcription  factors of the Hh pathway) knockdown" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1624~1638" text="GLI1 knockdown" description="knock down" />
+<PERTURBING_ACTION id="P4" spans="1847~1868" text="BNIP3  overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P5" spans="1872~1882" text="BNIP3 RNAi" description="knock down" />
+<CONTEXT id="C0" spans="532~542" text="db/db mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="596~644" text="Human  umbilical vein endothelial cells (HUVECs)" experiment_type="cells" species="human" />
+<CONTEXT id="C3" spans="915~931" text="cultured  HUVECs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1087~1097" text="db/db mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C5" spans="1102~1117" text="cultured HUVECs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1439~1445" text="HUVECs" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="807~820,846~869" text="inhibition of ... autophagosome synthesis" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E1" spans="1639~1658" text="triggered autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E2" spans="2022~2046" text="downregulating autophagy" phenotype="autophagy" activity="decreases" />
+<ENTITY_LINKING id="EN0" contextID="C6" contextText="HUVECs" perturbing_actionID="P3" perturbing_actionText="GLI1 knockdown" effectID="E1" effectText="triggered autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

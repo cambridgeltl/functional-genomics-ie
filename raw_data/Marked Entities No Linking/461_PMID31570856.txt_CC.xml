@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Splicing factor derived circular RNA circUHRF1 accelerates oral squamous cell 
+carcinoma tumorigenesis via feedback loop.
+
+Emerging evidences have suggested the vital roles of circular RNA (circRNA) in 
+the human cancers. However, the underlying biological functions and biogenesis 
+of circRNA in the oral squamous cell carcinoma (OSCC) is still ambiguous. Here, 
+we investigate the oncogenic roles and biogenesis of the novel identified 
+circRNA, circUHRF1 (hsa_circ_0002185), in the OSCC tumorigenesis. Results showed 
+that circUHRF1 was markedly upregulated in the OSCC cells and tissue, besides, 
+the overexpression was closely correlated with the poor prognosis of OSCC 
+patients. Functionally, circUHRF1 promoted the proliferation, migration, 
+invasion, and epithelial mesenchymal transformation (EMT) in vitro and the tumor 
+growth in vivo. Mechanically, circUHRF1 acted as the sponge of miR-526b-5p, 
+thereby positively regulating c-Myc. Transcription factor c-Myc could accelerate 
+the transcription of TGF-β1 and ESRP1. Moreover, splicing factor ESRP1 promoted 
+the circularization and biogenesis of circUHRF1 by targeting the flanking 
+introns, forming the circUHRF1/miR-526b-5p/c-Myc/TGF-β1/ESRP1 feedback loop. In 
+conclusion, our research identified the oncogenic roles of circUHRF1 in the OSCC 
+tumorigenesis and EMT via circUHRF1/miR-526b-5p/c-Myc/TGF-β1/ESRP1 feedback 
+loop, shedding light on the pathogenic mechanism of circUHRF1 for OSCC and 
+providing the potential therapeutic target.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="808~816" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="839~846" text="in vivo" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="710~718,723~736" text="promoted ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E1" spans="710~718,738~747" text="promoted ... migration" phenotype="migration" activity="increases" />
+<EFFECT id="E2" spans="710~718,750~758" text="promoted ... invasion" phenotype="invasion" activity="increases" />
+<EFFECT id="E3" spans="710~718,764~807" text="promoted ... epithelial mesenchymal transformation (EMT)" phenotype="epithelial-mesenchymal transition" activity="increases" />
+<EFFECT id="E5" spans="710~718,825~838" text="promoted ... tumor  growth" phenotype="tumour growth" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

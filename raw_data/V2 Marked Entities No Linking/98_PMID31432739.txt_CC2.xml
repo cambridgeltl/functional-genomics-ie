@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[USP33 deubiquitinates PRKN/parkin and antagonizes its role in mitophagy.
+
+PRKN/parkin activation through phosphorylation of its ubiquitin and 
+ubiquitin-like domain by PINK1 is critical in mitophagy induction for 
+eliminating the damaged mitochondria. Deubiquitinating enzymes (DUBs) 
+functionally reversing PRKN ubiquitination are critical in controlling the 
+magnitude of PRKN-mediated mitophagy process. However, potential DUBs that 
+directly target PRKN and antagonize its pro-mitophagy effect remains to be 
+identified and characterized. Here, we demonstrated that USP33/VDU1 is localized 
+at the outer membrane of mitochondria and serves as a PRKN DUB through their 
+interaction. Cellular and in vitro assays illustrated that USP33 deubiquitinates 
+PRKN in a DUB activity-dependent manner. USP33 prefers to remove K6, K11, K48 
+and K63-linked ubiquitin conjugates from PRKN, and deubiquitinates PRKN mainly 
+at Lys435. Mutation of this site leads to a significantly decreased level of 
+K63-, but not K48-linked PRKN ubiquitination. USP33 deficiency enhanced both 
+K48- and K63-linked PRKN ubiquitination, but only K63-linked PRKN ubiquitination 
+was significantly increased under mitochondrial depolarization. Further, USP33 
+knockdown increased both PRKN protein stabilization and its translocation to 
+depolarized mitochondria leading to the enhancement of mitophagy. Moreover, 
+USP33 silencing protects SH-SY5Y human neuroblastoma cells from the neurotoxin 
+MPTP-induced apoptotic cell death. Our findings convincingly demonstrate that 
+USP33 is a novel PRKN deubiquitinase antagonizing its regulatory roles in 
+mitophagy and SH-SY5Y neuron-like cell survival. Thus, USP33 inhibition may 
+represents an attractive new therapeutic strategy for PD patients.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1038~1054" text="USP33 deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1225~1241" text="USP33  knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1387~1402" text="USP33 silencing" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="1412~1445" text="SH-SY5Y human neuroblastoma cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="1365~1374" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH1" spans="1480~1500" text="apoptotic cell death" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1350~1361" text="enhancement" effect="positive" />
+<EFFECT id="E2" spans="1472~1479" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

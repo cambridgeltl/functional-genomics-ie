@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TMEM41B Is a Pan-flavivirus Host Factor.
+
+Flaviviruses pose a constant threat to human health. These RNA viruses are 
+transmitted by the bite of infected mosquitoes and ticks and regularly cause 
+outbreaks. To identify host factors required for flavivirus infection, we 
+performed full-genome loss of function CRISPR-Cas9 screens. Based on these 
+results, we focused our efforts on characterizing the roles that TMEM41B and 
+VMP1 play in the virus replication cycle. Our mechanistic studies on TMEM41B 
+revealed that all members of the Flaviviridae family that we tested require 
+TMEM41B. We tested 12 additional virus families and found that SARS-CoV-2 of the 
+Coronaviridae also required TMEM41B for infection. Remarkably, single nucleotide 
+polymorphisms present at nearly 20% in East Asian populations reduce flavivirus 
+infection. Based on our mechanistic studies, we propose that TMEM41B is 
+recruited to flavivirus RNA replication complexes to facilitate membrane 
+curvature, which creates a protected environment for viral genome replication.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

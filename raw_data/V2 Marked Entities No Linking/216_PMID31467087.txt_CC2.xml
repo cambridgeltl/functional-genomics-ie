@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Control of homologous recombination by the HROB-MCM8-MCM9 pathway.
+
+DNA repair by homologous recombination (HR) is essential for genomic integrity, 
+tumor suppression, and the formation of gametes. HR uses DNA synthesis to repair 
+lesions such as DNA double-strand breaks and stalled DNA replication forks, but 
+despite having a good understanding of the steps leading to homology search and 
+strand invasion, we know much less of the mechanisms that establish 
+recombination-associated DNA polymerization. Here, we report that C17orf53/HROB 
+is an OB-fold-containing factor involved in HR that acts by recruiting the 
+MCM8-MCM9 helicase to sites of DNA damage to promote DNA synthesis. Mice with 
+targeted mutations in Hrob are infertile due to depletion of germ cells and 
+display phenotypes consistent with a prophase I meiotic arrest. The 
+HROB-MCM8-MCM9 pathway acts redundantly with the HELQ helicase, and cells 
+lacking both HROB and HELQ have severely impaired HR, suggesting that they 
+underpin two major routes for the completion of HR downstream from RAD51. The 
+function of HROB in HR is reminiscent of that of gp59, which acts as the 
+replicative helicase loader during bacteriophage T4 recombination-dependent DNA 
+replication. We therefore propose that the loading of MCM8-MCM9 by HROB may 
+similarly be a key step in the establishment of mammalian 
+recombination-associated DNA synthesis.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="698~724" text="targeted mutations in Hrob" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="919~945" text="lacking both HROB and HELQ" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="687~691" text="Mice" context="organism" />
+<CONTEXT id="C1" spans="912~917" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="812~837" text="prophase I meiotic arrest" phenotype="cell cycle arrest" />
+</TAGS>
+</Genomics_ConceptTask>

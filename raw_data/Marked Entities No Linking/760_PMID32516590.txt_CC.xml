@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Reduction of Liver Metastasis Stiffness Improves Response to Bevacizumab in 
+Metastatic Colorectal Cancer.
+
+Tumors are influenced by the mechanical properties of their microenvironment. 
+Using patient samples and atomic force microscopy, we found that tissue 
+stiffness is higher in liver metastases than in primary colorectal tumors. 
+Highly activated metastasis-associated fibroblasts increase tissue stiffness, 
+which enhances angiogenesis and anti-angiogenic therapy resistance. Drugs 
+targeting the renin-angiotensin system, normally prescribed to treat 
+hypertension, inhibit fibroblast contraction and extracellular matrix 
+deposition, thereby reducing liver metastases stiffening and increasing the 
+anti-angiogenic effects of bevacizumab. Patients treated with bevacizumab showed 
+prolonged survival when concomitantly treated with renin-angiotensin inhibitors, 
+highlighting the importance of modulating the mechanical microenvironment for 
+therapeutic regimens.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="582~592" text="fibroblast" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="651~676" text="reducing liver metastases" phenotype="metastasis" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

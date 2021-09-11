@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy links MTOR and GABA signaling in the brain.
+
+The disruption of MTOR-regulated macroautophagy/autophagy was previously shown 
+to cause autistic-like abnormalities; however, the underlying molecular defects 
+remained largely unresolved. In a recent study, we demonstrated that autophagy 
+deficiency induced by conditional Atg7 deletion in either forebrain GABAergic 
+inhibitory or excitatory neurons leads to a similar set of autistic-like 
+behavioral abnormalities even when induced following the peak period of synaptic 
+pruning during postnatal neurodevelopment. Our proteomic analysis and molecular 
+dissection further revealed a mechanism in which the GABAA receptor trafficking 
+function of GABARAP (gamma-aminobutyric acid receptor associated protein) family 
+proteins was compromised as they became sequestered by SQSTM1/p62-positive 
+aggregates formed due to autophagy deficiency. Our discovery of autophagy as a 
+link between MTOR and GABA signaling may have implications not limited to 
+neurodevelopmental and neuropsychiatric disorders, but could potentially be 
+involved in other human pathologies such as cancer and diabetes in which both 
+pathways are implicated.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

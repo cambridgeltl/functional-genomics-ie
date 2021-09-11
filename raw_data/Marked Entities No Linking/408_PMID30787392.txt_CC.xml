@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Long noncoding RNA LINC00336 inhibits ferroptosis in lung cancer by functioning 
+as a competing endogenous RNA.
+
+The regulatory loop between long noncoding RNAs (lncRNAs) and microRNAs has a 
+dynamic role in transcriptional and translational regulation, and is involved in 
+cancer. However, the regulatory circuitry between lncRNAs and microRNAs in 
+tumorigenesis remains elusive. Here we demonstrate that a nuclear lncRNA 
+LINC00336 is upregulated in lung cancer and functions as an oncogene by acting 
+as a competing endogenous RNA (ceRNAs). LINC00336 bound RNA-binding protein 
+ELAVL1 (ELAV-like RNA-binding protein 1) using nucleotides 1901-2107 of 
+LINC00336 and the RRM interaction domain and key amino acids (aa) of ELAVL1 (aa 
+101-213), inhibiting ferroptosis. Moreover, ELAVL1 increased LINC00336 
+expression by stabilizing its posttranscriptional level, whereas LSH 
+(lymphoid-specific helicase) increased ELAVL1 expression through the p53 
+signaling pathway, further supporting the hypothesis that LSH promotes LINC00336 
+expression. Interestingly, LINC00336 served as an endogenous sponge of microRNA 
+6852 (MIR6852) to regulate the expression of cystathionine-β-synthase (CBS), a 
+surrogate marker of ferroptosis. Finally, we found that MIR6852 inhibited cell 
+growth by promoting ferroptosis. These data show that the network of lncRNA and 
+ceRNA has an important role in tumorigenesis and ferroptosis.]]></TEXT>
+<TAGS>
+<EFFECT id="E0" spans="746~768" text="inhibiting ferroptosis" phenotype="ferroptosis" activity="inhibits" />
+<EFFECT id="E1" spans="1259~1281" text="inhibited cell  growth" phenotype="cell growth" activity="inhibits" />
+<EFFECT id="E2" spans="1285~1306" text="promoting ferroptosis" phenotype="ferroptosis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

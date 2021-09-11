@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TREM2 Modulation Remodels the Tumor Myeloid Landscape Enhancing Anti-PD-1 
+Immunotherapy.
+
+Checkpoint immunotherapy unleashes T cell control of tumors, but is undermined 
+by immunosuppressive myeloid cells. TREM2 is a myeloid receptor that transmits 
+intracellular signals that sustain microglial responses during Alzheimer's 
+disease. TREM2 is also expressed by tumor-infiltrating macrophages. Here, we 
+found that Trem2-/- mice are more resistant to growth of various cancers than 
+wild-type mice and are more responsive to anti-PD-1 immunotherapy. Furthermore, 
+treatment with anti-TREM2 mAb curbed tumor growth and fostered regression when 
+combined with anti-PD-1. scRNA-seq revealed that both TREM2 deletion and 
+anti-TREM2 are associated with scant MRC1+ and CX3CR1+ macrophages in the tumor 
+infiltrate, paralleled by expansion of myeloid subsets expressing 
+immunostimulatory molecules that promote improved T cell responses. TREM2 was 
+expressed in tumor macrophages in over 200 human cancer cases and inversely 
+correlated with prolonged survival for two types of cancer. Thus, TREM2 might be 
+targeted to modify tumor myeloid infiltrates and augment checkpoint 
+immunotherapy.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="416~424" text="Trem2-/-" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="699~713" text="TREM2 deletion" description="knock out" />
+<CONTEXT id="C0" spans="425~429" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="439~477" text="resistant to growth of various cancers" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E1" spans="595~614" text="curbed tumor growth" phenotype="tumour growth" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Trem2-/-" contextID="C0" contextText="mice" effectID="E0" effectText="resistant to growth of various cancers" />
+</TAGS>
+</Genomics_ConceptTask>

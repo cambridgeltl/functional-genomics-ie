@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[UAP56/DDX39B is a major cotranscriptional RNA-DNA helicase that unwinds harmful 
+R loops genome-wide.
+
+Nonscheduled R loops represent a major source of DNA damage and replication 
+stress. Cells have different ways to prevent R-loop accumulation. One mechanism 
+relies on the conserved THO complex in association with cotranscriptional RNA 
+processing factors including the RNA-dependent ATPase UAP56/DDX39B and histone 
+modifiers such as the SIN3 deacetylase in humans. We investigated the function 
+of UAP56/DDX39B in R-loop removal. We show that UAP56 depletion causes R-loop 
+accumulation, R-loop-mediated genome instability, and replication fork stalling. 
+We demonstrate an RNA-DNA helicase activity in UAP56 and show that its 
+overexpression suppresses R loops and genome instability induced by depleting 
+five different unrelated factors. UAP56/DDX39B localizes to active chromatin and 
+prevents the accumulation of RNA-DNA hybrids over the entire genome. We propose 
+that, in addition to its RNA processing role, UAP56/DDX39B is a key helicase 
+required to eliminate harmful cotranscriptional RNA structures that otherwise 
+would block transcription and replication.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="548~563" text="UAP56 depletion" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

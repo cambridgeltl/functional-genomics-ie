@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ASH2L drives proliferation and sensitivity to bleomycin and other genotoxins in 
+Hodgkin's lymphoma and testicular cancer cells.
+
+It is of clinical importance to identify biomarkers predicting the efficacy of 
+DNA damaging drugs (genotoxins) so that nonresponders are not unduly exposed to 
+the deleterious effects of otherwise inefficient drugs. Here, we initially 
+focused on the bleomycin genotoxin because of the limited information about the 
+genes implicated in the sensitivity or resistance to this compound. Using a 
+whole-genome CRISPR/Cas9 gene knockout approach, we identified ASH2L, a core 
+component of the H3K4 methyl transferase complex, as a protein required for 
+bleomycin sensitivity in L1236 Hodgkin lymphoma. Knocking down ASH2L in these 
+cells and in the NT2D1 testicular cancer cell line rendered them resistant to 
+bleomycin, etoposide, and cisplatin but did not affect their sensitivity toward 
+ATM or ATR inhibitors. ASH2L knockdown decreased cell proliferation and 
+facilitated DNA repair via homologous recombination and nonhomologous 
+end-joining mechanisms. Data from the Tumor Cancer Genome Atlas indicate that 
+patients with testicular cancer carrying alterations in the ASH2L gene are more 
+likely to relapse than patients with unaltered ASH2L genes. The cell models we 
+have used are derived from cancers currently treated either partially (Hodgkin's 
+lymphoma), or entirely (testicular cancer) with genotoxins. For such cancers, 
+ASH2L levels could be used as a biomarker to predict the response to genotoxins. 
+In situations where tumors are expressing low levels of ASH2L, which may allow 
+them to resist genotoxic treatment, the use of ATR or ATM inhibitors may be more 
+efficacious as our data indicate that ASH2L knockdown does not affect 
+sensitivity to these inhibitors.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="729~748" text="Knocking down ASH2L" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="942~957" text="ASH2L knockdown" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1746~1761" text="ASH2L knockdown" description="knock down" />
+<CONTEXT id="C0" spans="759~764" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="776~809" text="NT2D1 testicular cancer cell line" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="968~972" text="cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="958~967,973~986" text="decreased ... proliferation" phenotype="proliferation" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="ASH2L knockdown" contextID="C2" contextText="cell" effectID="E0" effectText="decreased ... proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

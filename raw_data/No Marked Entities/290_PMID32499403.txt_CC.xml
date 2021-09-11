@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Dynamic regulation of histone modifications and long-range chromosomal 
+interactions during postmitotic transcriptional reactivation.
+
+During mitosis, transcription of genomic DNA is dramatically reduced, before it 
+is reactivated during nuclear reformation in anaphase/telophase. Many aspects of 
+the underlying principles that mediate transcriptional memory and reactivation 
+in the daughter cells remain unclear. Here, we used ChIP-seq on synchronized 
+cells at different stages after mitosis to generate genome-wide maps of histone 
+modifications. Combined with EU-RNA-seq and Hi-C analyses, we found that during 
+prometaphase, promoters, enhancers, and insulators retain H3K4me3 and H3K4me1, 
+while losing H3K27ac. Enhancers globally retaining mitotic H3K4me1 or locally 
+retaining mitotic H3K27ac are associated with cell type-specific genes and their 
+transcription factors for rapid transcriptional activation. As cells exit 
+mitosis, promoters regain H3K27ac, which correlates with transcriptional 
+reactivation. Insulators also gain H3K27ac and CCCTC-binding factor (CTCF) in 
+anaphase/telophase. This increase of H3K27ac in anaphase/telophase is required 
+for posttranscriptional activation and may play a role in the establishment of 
+topologically associating domains (TADs). Together, our results suggest that the 
+genome is reorganized in a sequential order, in which histone methylations occur 
+first in prometaphase, histone acetylation, and CTCF in anaphase/telophase, 
+transcription in cytokinesis, and long-range chromatin interactions in early G1. 
+We thus provide insights into the histone modification landscape that allows 
+faithful reestablishment of the transcriptional program and TADs during cell 
+division.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

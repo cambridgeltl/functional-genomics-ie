@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PRMT5/Wnt4 axis promotes lymph-node metastasis and proliferation of laryngeal 
+carcinoma.
+
+Metastasis is the main cause of laryngeal cancer-related death; its molecular 
+mechanism remains unknown. Here we identify protein arginine methyltransferase 5 
+(PRMT5) as a new metastasis-promoting factor in laryngeal carcinoma, and explore 
+its underlying mechanism of action in regulating laryngeal cancer progression. 
+We illustrated that PRMT5 expression was positively correlated with tumor 
+stages, lymphatic metastasis, and unfavorable outcome. Functional assays 
+revealed that PRMT5 promoted laryngeal carcinoma cell proliferation, migration, 
+and invasive capacity in vitro, as well as lymph-node metastasis in vivo. The 
+ectopic expression of PRMT5 induced EMT with downregulation of E-cadherin and 
+upregulation of N-cadherin, snail, and MMP9. Mechanistic results revealed that 
+the metastatic effects could be attributed to PRMT5-mediated activation of Wnt 
+signaling, and Wnt4 is an important driver of Wnt/β-catenin signaling pathway. 
+Wnt4 silencing could reverse PRMT5-induced cell proliferation, migration, and 
+invasion capacities. Furthermore, inhibition of the Wnt/β-catenin signaling 
+pathway abolished the effect of PRMT5-induced proliferation, whereas activation 
+of the pathway enhanced the effect of PRMT5 overexpression on cell 
+proliferation. These results demonstrated that the oncogenic role of PRMT5 could 
+be attributed to PRMT5/Wnt4 axis-mediated activation of the Wnt/β-catenin 
+signaling pathway. PRMT5 may serve as a novel prognostic marker and a 
+therapeutic target for lymphatic metastasis of laryngeal carcinoma.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="723~750" text="ectopic expression of PRMT5" description="other" />
+<PERTURBING_ACTION id="P1" spans="1042~1056" text="Wnt4 silencing" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1317~1337" text="PRMT5 overexpression" description="increased expression level" />
+<CONTEXT id="C1" spans="592~616,666~674" text="laryngeal carcinoma cell ... in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="592~616,709~716" text="laryngeal carcinoma cell ... in vivo" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1085~1089" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1341~1345" text="cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="583~591,617~630" text="promoted ... proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E1" spans="583~591,632~641" text="promoted ... migration" phenotype="migration" activity="increases" />
+<EFFECT id="E2" spans="583~591,648~665" text="promoted ... invasive capacity" phenotype="invasion" activity="increases" />
+<EFFECT id="E3" spans="583~591,687~708" text="promoted ... lymph-node metastasis" phenotype="metastasis" activity="increases" />
+<EFFECT id="E4" spans="751~762" text="induced EMT" phenotype="epithelial-mesenchymal transition" activity="causes" />
+<EFFECT id="E5" spans="1077~1084,1090~1103" text="induced ... proliferation" phenotype="proliferation" activity="causes" />
+<EFFECT id="E6" spans="1077~1084,1105~1114" text="induced ... migration" phenotype="migration" activity="causes" />
+<EFFECT id="E7" spans="1077~1084,1121~1140" text="induced ... invasion capacities" phenotype="invasion" activity="causes" />
+<EFFECT id="E8" spans="1057~1070,1077~1084,1090~1103" text="could reverse ... induced ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E9" spans="1057~1070,1077~1084,1104~1114" text="could reverse ... induced ...  migration" phenotype="migration" activity="decreases" />
+<EFFECT id="E10" spans="1057~1070,1077~1084,1121~1129" text="could reverse ... induced ... invasion" phenotype="invasion" activity="decreases" />
+<EFFECT id="E11" spans="1236~1257" text="induced proliferation" phenotype="proliferation" activity="causes" />
+<EFFECT id="E12" spans="1347~1360" text="proliferation" phenotype="proliferation" activity="not stated" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Wnt4 silencing" contextID="C3" contextText="cell" effectID="E8" effectText="could reverse ... induced ... proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="Wnt4 silencing" contextID="C3" contextText="cell" effectID="E9" effectText="could reverse ... induced ...  migration" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="Wnt4 silencing" contextID="C3" contextText="cell" effectID="E10" effectText="could reverse ... induced ... invasion" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P2" perturbing_actionText="PRMT5 overexpression" contextID="C4" contextText="cell" effectID="E12" effectText="proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

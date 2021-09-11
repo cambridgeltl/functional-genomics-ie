@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Structural basis for distinct roles of SMAD2 and SMAD3 in FOXH1 pioneer-directed 
+TGF-β signaling.
+
+TGF-β receptors phosphorylate SMAD2 and SMAD3 transcription factors, which then 
+form heterotrimeric complexes with SMAD4 and cooperate with context-specific 
+transcription factors to activate target genes. Here we provide biochemical and 
+structural evidence showing that binding of SMAD2 to DNA depends on the 
+conformation of the E3 insert, a structural element unique to SMAD2 and 
+previously thought to render SMAD2 unable to bind DNA. Based on this finding, we 
+further delineate TGF-β signal transduction by defining distinct roles for SMAD2 
+and SMAD3 with the forkhead pioneer factor FOXH1 as a partner in the regulation 
+of differentiation genes in mouse mesendoderm precursors. FOXH1 is prebound to 
+target sites in these loci and recruits SMAD3 independently of TGF-β signals, 
+whereas SMAD2 remains predominantly cytoplasmic in the basal state and set to 
+bind SMAD4 and join SMAD3:FOXH1 at target promoters in response to Nodal TGF-β 
+signals. The results support a model in which signal-independent binding of 
+SMAD3 and FOXH1 prime mesendoderm differentiation gene promoters for activation, 
+and signal-driven SMAD2:SMAD4 binds to promoters that are preloaded with 
+SMAD3:FOXH1 to activate transcription.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

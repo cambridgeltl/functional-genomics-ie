@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The pro-apoptotic ARTS protein induces neutrophil apoptosis, efferocytosis, and 
+macrophage reprogramming to promote resolution of inflammation.
+
+ARTS (Sept4_i2) is a pro-apoptotic protein and a product of the Sept4 gene. ARTS 
+acts upstream of mitochondria to initiate caspase activation. ARTS induces 
+apoptosis by specifically binding XIAP and allowing de-repression of active 
+caspases required for Mitochondrial Outer Membrane Permeabilzation (MOMP). 
+Moreover, ARTS promotes apoptosis by inducing ubiquitin-mediated degradation of 
+both major anti-apoptotic proteins XIAP and Bcl-2. In the resolution phase of 
+inflammation, the infiltrating leukocytes, which execute the acute innate 
+response, undergo apoptosis and are subsequently cleared by phagocytic 
+macrophages (i.e. efferocytosis). In this course, macrophages undergo 
+reprogramming from inflammatory, to anti-inflammatory, and eventually to 
+resolving macrophages that leave the injury sites. Since engulfment of apoptotic 
+leukocytes is a key signaling step in macrophage reprogramming and resolution of 
+inflammation, we hypothesized that a failed apoptosis in leukocytes in vivo 
+would result in an impaired resolution process. To test this hypothesis, we 
+utilized the Sept4/ARTS-/- mice, which exhibit resistance to apoptosis in many 
+cell types. During zymosan A-induced peritonitis, Sept4/ARTS-/- mice exhibited 
+impaired resolution of inflammation, characterized by reduced neutrophil 
+apoptosis, macrophage efferocytosis and expression of pro-resolving mediators. 
+This was associated with increased pro-inflammatory cytokines and reduced 
+anti-inflammatory cytokines, secreted by resolution-phase macrophages. Moreover, 
+ARTS overexpression in leukocytes in vitro promoted an anti-inflammatory 
+behavior. Overall, our results suggest that ARTS is a key master-regulator 
+necessary for neutrophil apoptosis, macrophage efferocytosis and reprogramming 
+to the pro-resolving phenotype during the resolution of inflammation.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1240~1253" text="Sept4/ARTS-/-" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1357~1370" text="Sept4/ARTS-/-" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1698~1717" text="ARTS overexpression" description="increased expression level" />
+<CONTEXT id="C0" spans="1254~1258" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="1301~1317" text="many  cell types" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1371~1375" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="1449~1459" text="neutrophil" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1472~1482" text="macrophage" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1721~1740" text="leukocytes in vitro" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1274~1297" text="resistance to apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E1" spans="1441~1448,1461~1470" text="reduced ... apoptosis" phenotype="apoptosis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Sept4/ARTS-/-" contextID="C0" contextText="mice" effectID="E0" effectText="resistance to apoptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Sept4/ARTS-/-" contextID="C1" contextText="many  cell types" effectID="E0" effectText="resistance to apoptosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="Sept4/ARTS-/-" contextID="C2" contextText="mice" effectID="E1" effectText="reduced ... apoptosis" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P1" perturbing_actionText="Sept4/ARTS-/-" contextID="C3" contextText="neutrophil" effectID="E1" effectText="reduced ... apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

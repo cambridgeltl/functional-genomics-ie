@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[YTHDF1 promotes gastric carcinogenesis by controlling translation of FZD7.
+
+N6-methyladenosine (m6A) is the most prevalent internal RNA modification in 
+mammals that regulates homeostasis and function of modified RNA transcripts. 
+Here we aimed to investigate the role of YTH N6-methyladenosine RNA binding 
+protein 1 (YTHDF1), a key regulator of m6A methylation in gastric cancer (GC) 
+tumorigenesis. Multiple bioinformatic analyses of different human cancer 
+databases identified key m6A-associated genetic mutations that regulated gastric 
+tumorigenesis. YTHDF1 was mutated in about 7% of gastric cancer patients and 
+high expression of YTHDF1 was associated with more aggressive tumor progression 
+and poor overall survival. Inhibition of YTHDF1 attenuated GC cell proliferation 
+and tumorigenesis in vitro and in vivo. Mechanistically, YTHDF1 promoted the 
+translation of a key Wnt receptor frizzled7 (FZD7) in an m6A-dependent manner, 
+and mutated YTHDF1 enhanced expression of FZD7, leading to hyper-activation of 
+the Wnt/β-catenin pathway and promotion of gastric carcinogenesis. Our results 
+demonstrate the oncogenic role of YTHDF1 and its m6A-mediated regulation of 
+Wnt/β-catenin signaling in gastric cancer, providing a novel approach of 
+targeting such epigenetic regulators in this disease.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="729~749" text="Inhibition of YTHDF1" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="946~960" text="mutated YTHDF1" description="other" />
+<CONTEXT id="C1" spans="761~768,802~810" text="GC cell ... in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="761~768,815~822" text="GC cell ... in vivo" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="750~760,769~782" text="attenuated ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E1" spans="750~760,788~801" text="attenuated ... tumorigenesis" phenotype="tumourigenesis" activity="decreases" />
+<EFFECT id="E2" spans="1052~1087" text="promotion of gastric carcinogenesis" phenotype="tumourigenesis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Inhibition of YTHDF1" effectID="E0" effectText="attenuated ... proliferation" contextID="C1" contextText="GC cell ... in vitro" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Inhibition of YTHDF1" contextID="C2" contextText="GC cell ... in vivo" effectID="E0" effectText="attenuated ... proliferation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="Inhibition of YTHDF1" contextID="C1" contextText="GC cell ... in vitro" effectID="E1" effectText="attenuated ... tumorigenesis" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="Inhibition of YTHDF1" contextID="C2" contextText="GC cell ... in vivo" effectID="E1" effectText="attenuated ... tumorigenesis" />
+</TAGS>
+</Genomics_ConceptTask>

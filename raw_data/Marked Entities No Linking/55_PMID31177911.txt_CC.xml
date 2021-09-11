@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TGFB1-induced autophagy affects the pattern of pancreatic cancer progression in 
+distinct ways depending on SMAD4 status.
+
+Pancreatic ductal adenocarcinoma (PDAC) is one of the most aggressive and lethal 
+malignancies. Given that macroautophagy/autophagy activation is prevalent in 
+PDAC, the dual roles of autophagy could be involved in PDAC heterogeneity. In 
+this work, we demonstrated that TGFB1 induced autophagic flux through 
+SMAD4-dependent or SMAD4-independent pathways based on a distinct genetic 
+context. In SMAD4-positive PDAC cells, TGFB1-induced autophagy promoted 
+proliferation and inhibited migration by decreasing the nuclear translocation of 
+SMAD4. Conversely, TGFB1-induced autophagy inhibited proliferation and promoted 
+migration in SMAD4-negative cells through the regulation of MAPK/ERK activation. 
+TGFB1 expression also positively correlated with LC3B expression in PDAC 
+specimens. A high level of LC3B was associated with unfavorable overall survival 
+(OS) and disease-free survival (DFS) in SMAD4-negative PDAC patients, although 
+LC3B could not predict OS and DFS for the 110 PDAC patients. Thus, TGFB1-induced 
+autophagy contributed to the different patterns of PDAC progression. This 
+knowledge can aid in improving our understanding of the molecular classification 
+of PDAC and might guide the development of therapeutic strategies for PDAC, 
+especially for SMAD4-negative PDAC.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="757~777" text="SMAD4-negative cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1022~1050" text="SMAD4-negative PDAC patients" experiment_type="organism" species="human" />
+<CONTEXT id="C2" spans="1108~1121" text="PDAC patients" experiment_type="organism" species="human" />
+<EFFECT id="E0" spans="400~423" text="induced autophagic flux" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="571~594" text="promoted  proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E2" spans="599~618" text="inhibited migration" phenotype="migration" activity="inhibits" />
+<EFFECT id="E3" spans="688~705" text="induced autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E4" spans="706~729" text="inhibited proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E5" spans="734~753" text="promoted  migration" phenotype="migration" activity="increases" />
+<EFFECT id="E6" spans="1135~1153" text="induced  autophagy" phenotype="autophagy" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

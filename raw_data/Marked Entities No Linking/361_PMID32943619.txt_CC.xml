@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The antitumour drug ABTL0812 impairs neuroblastoma growth through endoplasmic 
+reticulum stress-mediated autophagy and apoptosis.
+
+Neuroblastoma is the leading cause of cancer death in children aged 1 to 4 
+years. Particularly, five-year overall survival for high-risk neuroblastoma is 
+below 50% with no curative options when refractory or relapsed. Most of current 
+therapies target cell division and proliferation, thereby inducing DNA damage 
+and programmed cell death. However, aggressive tumours often present alterations 
+of these processes and are resistant to therapy. Therefore, exploring 
+alternative pathways to induce tumour cell death will provide new therapeutic 
+opportunities for these patients. In this study we aimed at testing the 
+therapeutic potential of ABTL0812, a novel anticancer drug that induces 
+cytotoxic autophagy to eliminate cancer cells, which is currently in phase II 
+clinical trials of adult tumours. Here, we show that ABTL0812 impaired the 
+viability of clinical representative neuroblastoma cell lines regardless of 
+genetic alterations associated to bad prognosis and resistance to therapy. Oral 
+administration of ABTL0812 to mice bearing neuroblastoma xenografts impaired 
+tumour growth. Furthermore, our findings revealed that, in neuroblastoma, 
+ABTL0812 induced cancer cell death via induction of endoplasmic reticulum 
+stress, activation of the unfolded protein response, autophagy and apoptosis. 
+Remarkably, ABTL0812 potentiated the antitumour activity of chemotherapies and 
+differentiating agents such as irinotecan and 13-cis-retinoic acid. In 
+conclusion, ABTL0812 distinctive mechanism of action makes it standout to be 
+used alone or in combination in high-risk neuroblastoma patients.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1017~1041" text="neuroblastoma cell lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1168~1205" text="mice bearing neuroblastoma xenografts" experiment_type="xenotransplantation" species="mouse" />
+<CONTEXT id="C2" spans="1308~1319" text="cancer cell" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="966~989" text="impaired the  viability" phenotype="cell survival" activity="inhibits" />
+<EFFECT id="E1" spans="1206~1229" text="impaired  tumour growth" phenotype="tumour growth" activity="inhibits" />
+<EFFECT id="E2" spans="1300~1307,1320~1325" text="induced ... death" phenotype="cell death" activity="causes" />
+<EFFECT id="E3" spans="1374~1387,1419~1428" text="activation of ... autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E4" spans="1374~1387,1433~1442" text="activation of ... apoptosis" phenotype="apoptosis" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,39 @@
+{
+    "MODE": "train",
+    "MODEL": {
+        "TYPE": "pretrained",
+        "TRANSFORMER_MODEL": "dmis-lab/biobert-base-cased-v1.2",
+        "HEADS": {
+            "category": {"htype": "single_label", "num_labels": 4},
+            "description": {"htype": "multi_label", "num_labels": 11},
+            "experiment_type": {"htype": "multi_label", "num_labels": 11},
+            "species": {"htype": "multi_label", "num_labels": 9},
+            "phenotype": {"htype": "multi_label", "num_labels": 29},
+            "activity": {"htype": "multi_label", "num_labels": 7}
+        },
+        "TAG_LIST_DEFINITIONS": "tag_list_definitions.json",
+        "TAG_CATEGORY_DEFINITIONS": "tag_categories.json",
+        "MAX_TOKEN_LENGTH": 512,
+        "VERBOSE": 1
+    },
+    "DATA": {
+        "PATH": "json_data/all_marked_test.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 1,
+        "BALANCE_CLASSES": 0.5,
+        "VERBOSE": 2
+    },
+    "TRAINING": {
+        "TRAINED_NAME": "DistilBERT_multi_output_test",
+        "OPTIMIZER_CLASS": "AdamW",
+        "OPTIMIZER_KWARGS": {
+            "lr": 3e-5,
+            "eps": 1e-8
+        },
+        "FULL_FINETUNING": true,
+        "EPOCHS": 1,
+        "MAX_GRAD_NORM": 1,
+        "VERBOSE": 3,
+        "K_FOLDS": 2
+    }
+}

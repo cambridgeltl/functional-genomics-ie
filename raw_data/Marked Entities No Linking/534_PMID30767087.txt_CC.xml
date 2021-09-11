@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy inhibition with chloroquine reverts paclitaxel resistance and 
+attenuates metastatic potential in human nonsmall lung adenocarcinoma A549 cells 
+via ROS mediated modulation of β-catenin pathway.
+
+Paclitaxel is one of the most commonly used drugs for the treatment of nonsmall 
+cell lung cancer (NSCLC). However acquired resistance to paclitaxel, epithelial 
+to mesenchymal transition and cancer stem cell formation are the major obstacles 
+for successful chemotherapy with this drug. Some of the major reasons behind 
+chemoresistance development include increased ability of the cancer cells to 
+survive under stress conditions by autophagy, increased expression of drug 
+efflux pumps, tubulin mutations etc. In this study we found that inhibition of 
+autophagy with chloroquine prevented development of paclitaxel resistance in 
+A549 cells with time and potentiated the effect of paclitaxel by increased 
+accumulation of superoxide-producing damaged mitochondria, with elevated ROS 
+generation, it also increased the apoptotic rate and sub G0/ G1 phase arrest 
+with time in A549 cells treated with paclitaxel and attenuated the metastatic 
+potential and cancer stem cell population of the paclitaxel-resistant cells by 
+ROS mediated modulation of the Wnt/β-catenin signaling pathway, thereby 
+increasing paclitaxel sensitivity. ROS here played a crucial role in modulating 
+Akt activity when autophagy process was hindered by chloroquine, excessive ROS 
+accumulation in the cell inhibited Akt activity. In addition, chloroquine 
+pre-treatment followed by taxol (10 nM) treatment did not show significant 
+toxicity towards non-carcinomas WI38 cells (lung fibroblast cells). Thus 
+autophagy inhibition by CQ pre-treatment can be used as a fruitful strategy to 
+combat the phenomenon of paclitaxel resistance development as well as metastasis 
+in lung cancer.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="840~850" text="A549 cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1085~1095" text="A549 cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1200~1226" text="paclitaxel-resistant cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1633~1682" text="non-carcinomas WI38 cells (lung fibroblast cells)" experiment_type="cell line" species="not stated" />
+<EFFECT id="E0" spans="747~771" text="inhibition of  autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E1" spans="1014~1042" text="increased the apoptotic rate" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E2" spans="1014~1023,1047~1070" text="increased ... sub G0/ G1 phase arrest" phenotype="cell cycle arrest" activity="increases" />
+<EFFECT id="E3" spans="1124~1160" text="attenuated the metastatic  potential" phenotype="metastasis" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

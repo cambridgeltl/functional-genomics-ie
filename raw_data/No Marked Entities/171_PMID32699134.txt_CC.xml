@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Spatial Density and Distribution of Tumor-Associated Macrophages Predict 
+Survival in Non-Small Cell Lung Carcinoma.
+
+The respective antitumoral and protumoral roles of M1 and M2 tumor-associated 
+macrophages (TAM) typify the complexity of macrophage function in cancer. In 
+lung cancer, density and topology of distinct TAM phenotypes at the tumor center 
+(TC) versus the invasive margin (IM) are largely unknown. Here, we investigated 
+TAM subtype density and distribution between TC and IM in human lung cancer and 
+TAM associations with overall survival. Macrophages isolated from adjacent 
+nontumor tissue (NM), the TC (TC-TAM), and the IM (IM-TAM) were analyzed with 
+RNA-sequencing (RNA-seq). Lung tumor tissue microarrays from 104 patient samples 
+were constructed. M1 and M2 TAMs were identified using multiplex 
+immunofluorescence staining and a tumor cell-TAM proximity analysis was 
+performed. RNA-seq identified marked differences among NM, TC-TAM, and IM-TAM. 
+On the basis of a panel of five selected markers (CD68, IL12, CCR7, CD163, and 
+ALOX15), M2 predominance over M1 and M2 proximity to tumor cells was observed, 
+especially at IM. Tumor cell proximity to TAM was linked with tumor cell 
+survival and hypoxia was associated with accumulation of M2 TAM. Notably, lower 
+density of M1 TC-TAM and higher proximity of tumor cells to M2 IM-TAM or lower 
+proximity to M1 IM-TAM were linked with poor survival. In addition, three novel 
+molecules (UBXN4, MFSD12, and ACTR6) from RNA-seq served as potential prognostic 
+markers for lung cancer, and M2 predominance and juxtaposition of M2 TAM near 
+tumor cells were associated with poor survival. Together, our results reveal the 
+marked heterogeneity of TAM populations in different tumor regions, with M2 TAM 
+predominance, particularly at IM. ]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

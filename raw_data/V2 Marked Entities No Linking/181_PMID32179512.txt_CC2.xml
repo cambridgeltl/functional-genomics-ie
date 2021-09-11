@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Infiltrating Mast Cell-Mediated Stimulation of Estrogen Receptor Activity in 
+Breast Cancer Cells Promotes the Luminal Phenotype.
+
+Tumor growth and development is determined by both cancer cell-autonomous and 
+microenvironmental mechanisms, including the contribution of infiltrating immune 
+cells. Because the role of mast cells (MC) in this process is poorly 
+characterized and even controversial, we investigated their part in breast 
+cancer. Crossing C57BL/6 MMTV-PyMT mice, which spontaneously develop mammary 
+carcinomas, with MC-deficient C57BL/6-KitW-sh/W-sh (Wsh) mice, showed that MCs 
+promote tumor growth and prevent the development of basal CK5-positive areas in 
+favor of a luminal gene program. When cocultured with breast cancer cells in 
+vitro, MCs hindered activation of cMET, a master regulator of the basal program, 
+and simultaneously promoted expression and activation of estrogen receptor 
+(ESR1/ER) and its target genes (PGR, KRT8/CK8, BCL2), which are all luminal 
+markers. Moreover, MCs reduced ERBB2/HER2 levels, whose inhibition further 
+increased ESR1 expression. In vivo and in silico analysis of patients with 
+breast cancer revealed a direct correlation between MC density and ESR1 
+expression. In mice engrafted with HER2-positive breast cancer tumors, 
+coinjection of MCs increased tumor engraftment and outgrowth, supporting the 
+link between MCs and increased risk of relapse in patients with breast cancer. 
+Together, our findings support the notion that MCs influence the phenotype of 
+breast cancer cells by stimulating a luminal phenotype and ultimately modifying 
+the outcome of the disease.]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="473~477" text="mice" context="organism" />
+<CONTEXT id="C2" spans="573~577" text="mice" context="organism" />
+<CONTEXT id="C3" spans="731~750" text="breast cancer cells" context="transformed cells" />
+<CONTEXT id="C4" spans="751~760" text="in  vitro" context="in vitro" />
+<CONTEXT id="C5" spans="1230~1284" text="mice engrafted with HER2-positive breast cancer tumors" context="xenograft" />
+<PHENOTYPE id="PH0" spans="604~616" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="596~603" text="promote" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

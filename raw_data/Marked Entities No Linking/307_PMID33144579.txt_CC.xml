@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LncRNA LINC00472 regulates cell stiffness and inhibits the migration and 
+invasion of lung adenocarcinoma by binding to YBX1.
+
+There is increasing evidence that long non-coding RNAs (lncRNAs) play important 
+roles in human tumorigenesis. By using publicly available expression profiling 
+data from lung adenocarcinoma and integrating bioinformatics analysis, we 
+screened a lncRNA, LINC00472. LINC00472 expression in lung adenocarcinoma 
+tissues was significantly lower and tightly associated with patient prognosis 
+and TNM clinical stages in lung adenocarcinoma. LINC00472 also inhibited lung 
+adenocarcinoma cell migration and invasion and increased cell stiffness and 
+adhesion. RNA pull down and RIP assays identified that LINC00472 interacted with 
+the transcription factor Y-box binding protein 1 (YBX1), which partially 
+reversed the inhibition of cell migration and invasion and increased 
+LINC00472-induced cell stiffness and adhesion. LINC00472 also regulated the 
+density and integrity of F-actin in A549 and PC-9 cells possibly via YBX1. 
+LINC00472 inhibited the cell epithelial-mesenchymal transition (EMT) processes 
+via the modulation of YBX1. These results indicated that LINC00472 inhibited the 
+cell EMT process by binding to YBX1, and affected the mechanical properties of 
+the cell, ultimately inhibited its ability to invade and metastasize. 
+Collectively, the present study provides the first evidence that LINC00472 
+changes the mechanical properties and inhibits the invasion and metastasis of 
+lung adenocarcinoma cells.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="590~615" text="lung  adenocarcinoma cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="653~657" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="917~921" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="856~860" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1012~1016,1026~1031" text="A549 ... cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1021~1031" text="PC-9 cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1076~1080" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C7" spans="1214~1218" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C8" spans="1520~1545" text="lung adenocarcinoma cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C9" spans="1298~1302" text="cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="580~589,616~625" text="inhibited ... migration" phenotype="migration" activity="inhibits" />
+<EFFECT id="E1" spans="580~589,630~638" text="inhibited ... invasion" phenotype="invasion" activity="inhibits" />
+<EFFECT id="E2" spans="643~652,673~681" text="increased ... adhesion" phenotype="adhesion" activity="increases" />
+<EFFECT id="E4" spans="829~855,860~870" text="reversed the inhibition of ...  migration" phenotype="migration" activity="increases" />
+<EFFECT id="E5" spans="829~855,875~883" text="reversed the inhibition of ... invasion" phenotype="invasion" activity="increases" />
+<EFFECT id="E6" spans="888~897,936~944" text="increased ... adhesion" phenotype="adhesion" activity="increases" />
+<EFFECT id="E8" spans="1199~1208,1219~1230" text="inhibited ... EMT process" phenotype="epithelial-mesenchymal transition" activity="inhibits" />
+<EFFECT id="E9" spans="1062~1071,1081~1130" text="inhibited ... epithelial-mesenchymal transition (EMT) processes" phenotype="epithelial-mesenchymal transition" activity="inhibits" />
+<EFFECT id="E10" spans="1315~1324,1329~1346" text="inhibited ... ability to invade" phenotype="invasion" activity="inhibits" />
+<EFFECT id="E11" spans="1315~1324,1329~1339,1351~1362" text="inhibited ... ability to ... metastasize" phenotype="metastasis" activity="inhibits" />
+<EFFECT id="E12" spans="1479~1487,1492~1500" text="inhibits ... invasion" phenotype="invasion" activity="inhibits" />
+<EFFECT id="E13" spans="1479~1487,1505~1515" text="inhibits ... metastasis" phenotype="metastasis" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

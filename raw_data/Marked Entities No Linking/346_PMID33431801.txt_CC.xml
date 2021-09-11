@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Legumain promotes tubular ferroptosis by facilitating chaperone-mediated 
+autophagy of GPX4 in AKI.
+
+Legumain is required for maintenance of normal kidney homeostasis. However, its 
+role in acute kidney injury (AKI) is still unclear. Here, we induced AKI by 
+bilateral ischemia-reperfusion injury (IRI) of renal arteries or folic acid in 
+lgmnWT and lgmnKO mice. We assessed serum creatinine, blood urea nitrogen, 
+histological indexes of tubular injury, and expression of KIM-1 and NGAL. 
+Inflammatory infiltration was evaluated by immunohistological staining of CD3 
+and F4/80, and expression of TNF-α, CCL-2, IL-33, and IL-1α. Ferroptosis was 
+evaluated by Acsl4, Cox-2, reactive oxygen species (ROS) indexes H2DCFDA and 
+DHE, MDA and glutathione peroxidase 4 (GPX4). We induced ferroptosis by hypoxia 
+or erastin in primary mouse renal tubular epithelial cells (mRTECs). Cellular 
+survival, Acsl4, Cox-2, LDH release, ROS, and MDA levels were measured. We 
+analyzed the degradation of GPX4 through inhibition of proteasomes or autophagy. 
+Lysosomal GPX4 was assessed to determine GPX4 degradation pathway. 
+Immunoprecipitation (IP) was used to determine the interactions between 
+legumain, GPX4, HSC70, and HSP90. For tentative treatment, RR-11a was 
+administrated intraperitoneally to a mouse model of IRI-induced AKI. Our results 
+showed that legumain deficiency attenuated acute tubular injury, inflammation, 
+and ferroptosis in either IRI or folic acid-induced AKI model. Ferroptosis 
+induced by hypoxia or erastin was dampened in lgmnKO mRTECs compared with lgmnWT 
+control. Deficiency of legumain prevented chaperone-mediated autophagy of GPX4. 
+Results of IP suggested interactions between legumain, HSC70, HSP90, and GPX4. 
+Administration of RR-11a ameliorated ferroptosis and renal injury in the AKI 
+model. Together, our data indicate that legumain promotes chaperone-mediated 
+autophagy of GPX4 therefore facilitates tubular ferroptosis in AKI.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="350~356" text="lgmnKO" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1539~1545" text="lgmnKO" description="knock out" />
+<CONTEXT id="C2" spans="357~361" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="820~873" text="primary mouse renal tubular epithelial cells (mRTECs)" experiment_type="primary culture" species="mouse" />
+<CONTEXT id="C4" spans="1292~1303" text="mouse model" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="774~793" text="induced ferroptosis" phenotype="ferroptosis" activity="causes" />
+<EFFECT id="E1" spans="1369~1379,1421~1432" text="attenuated ... ferroptosis" phenotype="ferroptosis" activity="decreases" />
+<EFFECT id="E2" spans="1480~1500" text="Ferroptosis  induced" phenotype="ferroptosis" activity="causes" />
+<EFFECT id="E3" spans="1761~1784" text="ameliorated ferroptosis" phenotype="ferroptosis" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

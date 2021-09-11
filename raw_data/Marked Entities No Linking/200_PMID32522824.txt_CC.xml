@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[p300-Mediated Acetylation of Histone Demethylase JMJD1A Prevents Its Degradation 
+by Ubiquitin Ligase STUB1 and Enhances Its Activity in Prostate Cancer.
+
+The androgen receptor (AR) pathway plays a central role in the development of 
+castration-resistant prostate cancer (CRPC). The histone demethylase JMJD1A has 
+been shown to regulate activities of AR and c-Myc transcription factors and 
+promote prostate cancer progression. Here, we report that JMJD1A protein 
+stability is controlled by the ubiquitin ligase STUB1. High levels of JMJD1A 
+were strongly correlated with low STUB1 levels in human CRPC specimens. STUB1 
+inhibited AR activity, AR-V7 levels, and prostate cancer cell growth partly 
+through degradation of JMJD1A. Furthermore, the acetyltransferase p300 
+acetylated JMJD1A at lysine (K) 421, a modification that recruits the BET family 
+member BRD4 to block JMJD1A degradation and promote JMJD1A recruitment to AR 
+targets. Increased levels of both total and K421-acetylated JMJD1A were observed 
+in prostate cancer cells as they developed resistance to the AR antagonist 
+enzalutamide. Treatment of prostate cancer cells with either p300 or BET 
+inhibitors destabilized JMJD1A, and enzalutamide-resistant prostate cancer cells 
+were more sensitive than parental cells to these inhibitors. Together, our 
+findings identify a critical role for acetylation of JMJD1A in regulating JMJD1A 
+stability and AR activity in CRPC. These newly identified mechanisms controlling 
+JMJD1A protein stability provide potential druggable targets to encourage the 
+development of additional therapies for advanced prostate cancer. SIGNIFICANCE: 
+Identification of mechanisms regulating JMJD1A protein stability reveals new 
+strategies to destabilize JMJD1A and concomitantly inhibit AR activities as 
+potential prostate cancer therapy.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="664~679" text="prostate cancer" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="1117~1138" text="prostate cancer cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="623~632,680~691" text="inhibited ... cell growth" phenotype="cell growth" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

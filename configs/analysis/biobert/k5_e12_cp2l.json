@@ -1,0 +1,62 @@
+{
+    "MODE": "analyse",
+    "HISTORY_DATA": {
+        "PATH": "outputs/outputs_db.json",
+        "MODELS": [
+            "BioBERTv11_multi_output_bl05_k5_e12_cp2l_2021-08-06_02-07"
+        ]
+    },
+    "ANALYSIS": {
+        "GRAPHING": {
+            "OUTPUT": "save",
+            "FOLDER": "plots/biobert/k5_e12_cp2l",
+            "GRAPHS": [
+                {
+                    "TITLE": "Train losses",
+                    "VALUES": {
+                        "train_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "category",
+                        "description",
+                        "experiment_type",
+                        "species",
+                        "phenotype",
+                        "activity"
+                    ]
+                },
+                {
+                    "TITLE": "Val Losses",
+                    "VALUES": {
+                        "validation_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "category",
+                        "description",
+                        "experiment_type",
+                        "species",
+                        "phenotype",
+                        "activity"
+                    ]
+                },
+                {
+                    "TITLE": "F1's",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "category",
+                        "description",
+                        "experiment_type",
+                        "species",
+                        "phenotype",
+                        "activity"
+                    ]
+                }
+            ]
+        }
+    }
+}
+

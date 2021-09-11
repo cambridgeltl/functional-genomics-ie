@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ANXA1 Binds and Stabilizes EphA2 to Promote Nasopharyngeal Carcinoma Growth and 
+Metastasis.
+
+Overexpression of ANXA1 and EphA2 has been linked to various cancers and both 
+proteins have attracted considerable attention for the development of new 
+anticancer drugs. Here we report that ANXA1 competes with Cbl for binding EphA2 
+and increases its stability by inhibiting Cbl-mediated EphA2 ubiquitination and 
+degradation in nasopharyngeal carcinoma (NPC). Binding of ANXA1 to EphA2 
+promoted NPC cell growth and metastasis in vitro and in vivo by elevating EphA2 
+levels and increasing activity of EphA2 oncogenic signaling (pS897-EphA2). 
+Expression of ANXA1 and EphA2 was positively correlated and both were 
+significantly higher in NPC tissues than in the normal nasopharyngeal epithelial 
+tissues. Patients with high expression of both proteins presented poorer 
+disease-free survival and overall survival relative to patients with high 
+expression of one protein alone. Furthermore, amino acid residues 20-30aa and 
+28-30aa of the ANXA1 N-terminus bound EphA2. An 11 amino acid-long ANXA1-derived 
+peptide (EYVQTVKSSKG) was developed on the basis of this N-terminal region, 
+which disrupted the connection of ANXA1 with EphA2, successfully downregulating 
+EphA2 expression and dramatically suppressing NPC cell oncogenicity in vitro and 
+in mice. These findings suggest that ANXA1 promotes NPC growth and metastasis 
+via binding and stabilization of EphA2 and present a strategy for targeting 
+EphA2 degradation and treating NPC with a peptide. This therapeutic strategy may 
+also be extended to other cancers with high expression of both proteins. 
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1067~1125,1246~1278" text="An 11 amino acid-long ANXA1-derived  peptide (EYVQTVKSSKG) ... downregulating  EphA2 expression" description="pharmacological inhibition" />
+<CONTEXT id="C4" spans="1308~1316,1330~1338" text="NPC cell ... in vitro" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C5" spans="1308~1316,1344~1351" text="NPC cell ... in mice" experiment_type="transformed cell line" species="mouse" />
+<CONTEXT id="C6" spans="493~496,524~532" text="NPC ... in vitro" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C7" spans="493~496,537~544" text="NPC ... in vivo" experiment_type="tumour" species="not stated" />
+<EFFECT id="E4" spans="1296~1307,1317~1329" text="suppressing ... oncogenicity" phenotype="tumourigenesis" activity="decreases" />
+<EFFECT id="E5" spans="484~492,497~508" text="promoted ... cell growth" phenotype="cell growth" activity="increases" />
+<EFFECT id="E6" spans="484~492,513~523" text="promoted ... metastasis" phenotype="metastasis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="An 11 amino acid-long ANXA1-derived  peptide (EYVQTVKSSKG) ... downregulating  EphA2 expression" contextID="C4" contextText="NPC cell ... in vitro" effectID="E4" effectText="suppressing ... oncogenicity" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="An 11 amino acid-long ANXA1-derived  peptide (EYVQTVKSSKG) ... downregulating  EphA2 expression" contextID="C5" contextText="NPC cell ... in mice" effectID="E4" effectText="suppressing ... oncogenicity" />
+</TAGS>
+</Genomics_ConceptTask>

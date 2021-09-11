@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Dysregulated Glutamate Transporter SLC1A1 Propels Cystine Uptake via Xc(-) for 
+Glutathione Synthesis in Lung Cancer.
+
+Cancer cells need to generate large amounts of glutathione (GSH) to buffer 
+oxidative stress during tumor development. A rate-limiting step for GSH 
+biosynthesis is cystine uptake via a cystine/glutamate antiporter Xc-. Xc- is a 
+sodium-independent antiporter passively driven by concentration gradients from 
+extracellular cystine and intracellular glutamate across the cell membrane. 
+Increased uptake of cystine via Xc- in cancer cells increases the level of 
+extracellular glutamate, which would subsequently restrain cystine uptake via 
+Xc-. Cancer cells must therefore evolve a mechanism to overcome this negative 
+feedback regulation. In this study, we report that glutamate transporters, in 
+particular SLC1A1, are tightly intertwined with cystine uptake and GSH 
+biosynthesis in lung cancer cells. Dysregulated SLC1A1, a sodium-dependent 
+glutamate carrier, actively recycled extracellular glutamate into cells, which 
+enhanced the efficiency of cystine uptake via Xc- and GSH biosynthesis as 
+measured by stable isotope-assisted metabolomics. Conversely, depletion of 
+glutamate transporter SLC1A1 increased extracellular glutamate, which inhibited 
+cystine uptake, blocked GSH synthesis, and induced oxidative stress-mediated 
+cell death or growth inhibition. Moreover, glutamate transporters were 
+frequently upregulated in tissue samples of patients with non-small cell lung 
+cancer. Taken together, active uptake of glutamate via SLC1A1 propels cystine 
+uptake via Xc- for GSH biosynthesis in lung tumorigenesis. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1184~1226" text="depletion of  glutamate transporter SLC1A1" perturbingaction="gene loss-of-function" />
+<PHENOTYPE id="PH0" spans="1357~1367" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="1322~1329" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

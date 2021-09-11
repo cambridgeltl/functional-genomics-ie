@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RIP1 Kinase Drives Macrophage-Mediated Adaptive Immune Tolerance in Pancreatic 
+Cancer.
+
+Pancreatic ductal adenocarcinoma (PDA) is characterized by immune tolerance and 
+immunotherapeutic resistance. We discovered upregulation of receptor-interacting 
+serine/threonine protein kinase 1 (RIP1) in tumor-associated macrophages (TAMs) 
+in PDA. To study its role in oncogenic progression, we developed a selective 
+small-molecule RIP1 inhibitor with high in vivo exposure. Targeting RIP1 
+reprogrammed TAMs toward an MHCIIhiTNFα+IFNγ+ immunogenic phenotype in a 
+STAT1-dependent manner. RIP1 inhibition in TAMs resulted in cytotoxic T cell 
+activation and T helper cell differentiation toward a mixed Th1/Th17 phenotype, 
+leading to tumor immunity in mice and in organotypic models of human PDA. 
+Targeting RIP1 synergized with PD1-and inducible co-stimulator-based 
+immunotherapies. Tumor-promoting effects of RIP1 were independent of its 
+co-association with RIP3. Collectively, our work describes RIP1 as a checkpoint 
+kinase governing tumor immunity.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="411~440" text="small-molecule RIP1 inhibitor" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="583~598" text="RIP1 inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="498~502" text="TAMs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="602~606" text="TAMs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="652~665" text="T helper cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="747~751" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C4" spans="759~790" text="organotypic models of human PDA" experiment_type="tumour" species="human" />
+<EFFECT id="E0" spans="607~618,666~681" text="resulted in ... differentiation" phenotype="differentiation" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

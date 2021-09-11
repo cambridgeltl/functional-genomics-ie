@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Integrated Proteogenomic Characterization across Major Histological Types of 
+Pediatric Brain Cancer.
+
+We report a comprehensive proteogenomics analysis, including whole-genome 
+sequencing, RNA sequencing, and proteomics and phosphoproteomics profiling, of 
+218 tumors across 7 histological types of childhood brain cancer: low-grade 
+glioma (n = 93), ependymoma (32), high-grade glioma (25), medulloblastoma (22), 
+ganglioglioma (18), craniopharyngioma (16), and atypical teratoid rhabdoid tumor 
+(12). Proteomics data identify common biological themes that span histological 
+boundaries, suggesting that treatments used for one histological type may be 
+applied effectively to other tumors sharing similar proteomics features. Immune 
+landscape characterization reveals diverse tumor microenvironments across and 
+within diagnoses. Proteomics data further reveal functional effects of somatic 
+mutations and copy number variations (CNVs) not evident in transcriptomics data. 
+Kinase-substrate association and co-expression network analysis identify 
+important biological mechanisms of tumorigenesis. This is the first large-scale 
+proteogenomics analysis across traditional histological boundaries to uncover 
+foundational pediatric brain tumor biology and inform rational treatment 
+selection.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CD44 splice isoform switching determines breast cancer stem cell state.
+
+lthough changes in alternative splicing have been observed in cancer, their 
+functional contributions still remain largely unclear. Here we report that 
+splice isoforms of the cancer stem cell (CSC) marker CD44 exhibit strikingly 
+opposite functions in breast cancer. Bioinformatic annotation in patient breast 
+cancer in The Cancer Genome Atlas (TCGA) database reveals that the CD44 standard 
+splice isoform (CD44s) positively associates with the CSC gene signatures, 
+whereas the CD44 variant splice isoforms (CD44v) exhibit an inverse association. 
+We show that CD44s is the predominant isoform expressed in breast CSCs. 
+Elimination of the CD44s isoform impairs CSC traits. Conversely, manipulating 
+the splicing regulator ESRP1 to shift alternative splicing from CD44v to CD44s 
+leads to an induction of CSC properties. We further demonstrate that CD44s 
+activates the PDGFRβ/Stat3 cascade to promote CSC traits. These results reveal 
+CD44 isoform specificity in CSC and non-CSC states and suggest that alternative 
+splicing provides functional gene versatility that is essential for distinct 
+cancer cell states and thus cancer phenotypes.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="698~730" text="Elimination of the CD44s isoform" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

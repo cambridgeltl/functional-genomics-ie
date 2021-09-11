@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[USP21 deubiquitinase promotes pancreas cancer cell stemness via Wnt pathway 
+activation.
+
+The ubiquitin-specific protease (USP) family is the largest group of cysteine 
+proteases. Cancer genomic analysis identified frequent amplification of USP21 
+(22%) in human pancreatic ductal adenocarcinoma (PDAC). USP21 overexpression 
+correlates with human PDAC progression, and enforced expression of USP21 
+accelerates murine PDAC tumor growth and drives PanIN to PDAC progression in 
+immortalized human pancreatic ductal cells. Conversely, depletion of USP21 
+impairs PDAC tumor growth. Mechanistically, USP21 deubiquitinates and stabilizes 
+the TCF/LEF transcription factor TCF7, which promotes cancer cell stemness. Our 
+work identifies and validates USP21 as a PDAC oncogene, providing a potential 
+druggable target for this intractable disease.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="370~398" text="enforced expression of USP21" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="534~552" text="depletion of USP21" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="412~423" text="murine PDAC" context="neoplasm" />
+<CONTEXT id="C1" spans="478~520" text="immortalized human pancreatic ductal cells" context="cells" />
+<CONTEXT id="C2" spans="562~566" text="PDAC" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="424~436" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH1" spans="567~579" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="400~411" text="accelerates" effect="positive" />
+<EFFECT id="E1" spans="554~561" text="impairs" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="enforced expression of USP21" contextID="C0" contextText="murine PDAC" phenotypeID="PH0" phenotypeText="tumor growth" effectID="E0" effectText="accelerates" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="depletion of USP21" contextID="C2" contextText="PDAC" effectID="E1" effectText="impairs" phenotypeID="PH1" phenotypeText="tumor growth" />
+</TAGS>
+</Genomics_ConceptTask>

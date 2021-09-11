@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Roles of mTORC1 and mTORC2 in controlling γδ T1 and γδ T17 differentiation and 
+function.
+
+The metabolism-controlled differentiation of αβ T cells has been well 
+documented; however, the role of a metabolism program in γδ T cell 
+differentiation and function has not been clarified. Here, using CD2-cre; mTORC1 
+Raptor-f/f, and mTORC2 Rictor-f/f mice (KO mice), we found that mTORC1, but not 
+mTORC2, was required for the proliferation and survival of peripheral γδ T 
+cells, especially Vγ4 γδ T cells. Moreover, mTORC1 was essential for both γδ T1 
+and γδ Τ17 differentiation, whereas mTORC2 was required for γδ T17, but not for 
+γδ Τ1, differentiation. We further studied the underlying molecular mechanisms 
+and found that depletion of mTORC1 resulted in the increased expression of 
+SOCS1, which in turn suppressed the key transcription factor Eomes, 
+consequentially reducing IFN-γ production. Whereas the reduced glycolysis 
+resulted in impaired γδ Τ17 differentiation in Raptor KO γδ T cells. In 
+contrast, mTORC2 potentiated γδ Τ17 induction by suppressing mitochondrial ROS 
+(mitoROS) production. Consistent with their cytokine production profiles, the 
+Raptor KO γδ T cells lost their anti-tumor function both in vitro and in vivo, 
+whereas both Raptor and Rictor KO mice were resistant to imiquimod (IMQ)-induced 
+psoriasis-like skin pathogenesis. In summary, we identified previously unknown 
+functions of mTORC1 and mTORC2 in γδ T cell differentiation and clarified their 
+divergent roles in mediating the activity of γδ T cells in tumors and 
+autoimmunity.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="295~322" text="CD2-cre; mTORC1  Raptor-f/f" description="conditional knock out" />
+<PERTURBING_ACTION id="P2" spans="328~345" text="mTORC2 Rictor-f/f" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="726~745" text="depletion of mTORC1" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="978~987" text="Raptor KO" description="knock out" />
+<PERTURBING_ACTION id="P5" spans="1163~1172" text="Raptor KO" description="knock out" />
+<PERTURBING_ACTION id="P6" spans="1256~1262,1274~1276" text="Raptor ... KO" description="knock out" />
+<PERTURBING_ACTION id="P7" spans="1267~1276" text="Rictor KO" description="knock out" />
+<CONTEXT id="C0" spans="346~350" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="355~359" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="988~998" text="γδ T cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="452~474" text="peripheral γδ T  cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="487~501" text="Vγ4 γδ T cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1173~1183,1220~1228" text="γδ T cells ... in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C7" spans="1173~1183,1233~1240" text="γδ T cells ... in vivo" experiment_type="cells" species="not stated" />
+<CONTEXT id="C8" spans="1277~1281" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="943~974" text="impaired γδ Τ17 differentiation" phenotype="differentiation" activity="decreases" />
+<EFFECT id="E2" spans="422~435" text="proliferation" phenotype="proliferation" activity="not stated" />
+<EFFECT id="E3" spans="440~448" text="survival" phenotype="cell survival" activity="not stated" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P4" perturbing_actionText="Raptor KO" contextID="C2" contextText="γδ T cells" effectID="E0" effectText="impaired γδ Τ17 differentiation" />
+</TAGS>
+</Genomics_ConceptTask>

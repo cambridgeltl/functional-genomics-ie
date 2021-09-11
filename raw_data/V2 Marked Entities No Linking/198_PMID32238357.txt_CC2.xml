@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Long-Term Gemcitabine Treatment Reshapes the Pancreatic Tumor Microenvironment 
+and Sensitizes Murine Carcinoma to Combination Immunotherapy.
+
+Pancreatic ductal adenocarcinoma (PDAC) is a leading cause of cancer-related 
+death with a median survival time of 6-12 months. Most patients present with 
+disseminated disease and the majority are offered palliative chemotherapy. With 
+no approved treatment modalities for patients who progress on chemotherapy, we 
+explored the effects of long-term gemcitabine administration on the tumor 
+microenvironment to identify potential therapeutic options for chemorefractory 
+PDAC. Using a combination of mouse models, primary cell line-derived xenografts, 
+and established tumor cell lines, we first evaluated chemotherapy-induced 
+alterations in the tumor secretome and immune surface proteins by high 
+throughput proteomic arrays. In addition to enhancing antigen presentation and 
+immune checkpoint expression, gemcitabine consistently increased the synthesis 
+of CCL/CXCL chemokines and TGFβ-associated signals. These secreted factors 
+altered the composition of the tumor stroma, conferring gemcitabine resistance 
+to cancer-associated fibroblasts in vitro and further enhancing TGFβ1 
+biosynthesis. Combined gemcitabine and anti-PD-1 treatment in transgenic models 
+of murine PDAC failed to alter disease course unless mice also underwent genetic 
+or pharmacologic ablation of TGFβ signaling. In the setting of TGFβ signaling 
+deficiency, gemcitabine and anti-PD-1 led to a robust CD8+ T-cell response and 
+decrease in tumor burden, markedly enhancing overall survival. These results 
+suggest that gemcitabine successfully primes PDAC tumors for immune checkpoint 
+inhibition by enhancing antigen presentation only following disruption of the 
+immunosuppressive cytokine barrier. Given the current lack of third-line 
+treatment options, this approach warrants consideration in the clinical 
+management of gemcitabine-refractory PDAC.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1111~1123" text="tumor stroma" context="neoplasm" />
+<CONTEXT id="C1" spans="1163~1192" text="cancer-associated fibroblasts" context="cells" />
+<CONTEXT id="C2" spans="1193~1201" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="1293~1326" text="transgenic models  of murine PDAC" context="neoplasm" />
+<CONTEXT id="C4" spans="1365~1369" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

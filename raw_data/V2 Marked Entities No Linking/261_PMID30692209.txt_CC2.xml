@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Autophagy modulates lipid metabolism to maintain metabolic flexibility for 
+Lkb1-deficient Kras-driven lung tumorigenesis.
+
+Loss of tumor suppressor liver kinase B1 (LKB1) promotes cancer cell 
+proliferation but also leads to decreased metabolic plasticity in dealing with 
+energy crises. Autophagy is a protective process involving self-cannibalization 
+to maintain cellular energy homeostasis during nutrient deprivation. We 
+developed a mouse model for Lkb1-deficient lung cancer with conditional deletion 
+of essential autophagy gene Atg7 to test whether autophagy compensates for LKB1 
+loss for tumor cells to survive energy crises. We found that autophagy ablation 
+was synthetically lethal during Lkb1-deficient lung tumorigenesis in both tumor 
+initiation and tumor growth. We further found that autophagy deficiency causes 
+defective intracellular recycling, which limits amino acids to support 
+mitochondrial energy production in starved cancer cells and causes 
+autophagy-deficient cells to be more dependent on fatty acid oxidation (FAO) for 
+energy production, leading to reduced lipid reserve and energy crisis. Our 
+findings strongly suggest that autophagy inhibition could be a strategy for 
+treating LKB1-deficient lung tumors.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="488~542" text="conditional deletion  of essential autophagy gene Atg7" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="456~470" text="Lkb1-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="704~718" text="Lkb1-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="440~451" text="mouse model" context="organism" />
+<CONTEXT id="C1" spans="471~482" text="lung cancer" context="neoplasm" />
+<CONTEXT id="C2" spans="719~723" text="lung" context="tissue/organ" />
+<CONTEXT id="C3" spans="948~960" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C4" spans="993~998" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="724~737" text="tumorigenesis" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH1" spans="746~763" text="tumor  initiation" phenotype="tumour initiation" />
+<PHENOTYPE id="PH2" spans="768~780" text="tumor growth" phenotype="tumour growth" />
+</TAGS>
+</Genomics_ConceptTask>

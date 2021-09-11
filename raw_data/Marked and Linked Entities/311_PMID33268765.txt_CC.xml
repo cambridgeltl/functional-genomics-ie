@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SKIL facilitates tumorigenesis and immune escape of NSCLC via upregulating 
+TAZ/autophagy axis.
+
+Immune escape is an important mechanism in tumorigenesis. The aim of this study 
+was to investigate roles of SKIL in tumorigenesis and immune escape of 
+non-small-cell lung cancer (NSCLC). SKIL expression levels in NSCLC cell line, 
+clinical sample, and adjacent normal tissue were measured by quantitative PCR, 
+western blot, or immunohistochemistry. Lentivirus was used to 
+overexpress/silence SKIL or TAZ expression. Malignant phenotypes of NSCLC cells 
+were evaluated by colony formation, transwell, and MTT assays, and in xenograft 
+mice model. Syngeneic mice model and flow cytometry were used to evaluate T cell 
+infiltration. Quantitative PCR and western blot were applied to evaluate 
+relevant mRNA and protein levels, respectively. Co-immunoprecipitation was 
+applied to unveil the interaction between SKIL and TAZ. SKIL expression was 
+higher in NSCLC tissue compared to adjacent normal tissue. Silencing of SKIL 
+inhibited malignant phenotypes of NSCLC cells and promoted T cell infiltration. 
+SKIL-knockdown inhibited autophagy and activated the STING pathway in NSCLC 
+cells through down-regulation of TAZ. Silencing of TAZ cancelled the effects of 
+SKIL overexpression on malignant phenotypes and autophagy of NSCLC cells. 
+Inhibition of autophagy reversed the effects of SKIL/TAZ overexpression on the 
+STING pathway. In conclusion, SKIL promoted tumorigenesis and immune escape of 
+NSCLC cells through upregulation of TAZ/autophagy axis and inhibition on 
+downstream STING pathway.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1003~1020" text="Silencing of SKIL" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1103~1117" text="SKIL-knockdown" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1218~1234" text="Silencing of TAZ" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1261~1280" text="SKIL overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P4" spans="1384~1407" text="SKIL/TAZ overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P5" spans="449~484,493~497" text="Lentivirus was used to  overexpress ... SKIL" description="increased expression level" />
+<PERTURBING_ACTION id="P6" spans="449~471,473~484,501~504" text="Lentivirus was used to ... overexpress ... TAZ" description="increased expression level" />
+<PERTURBING_ACTION id="P7" spans="449~471,485~497" text="Lentivirus was used to ... silence SKIL" description="knock down" />
+<PERTURBING_ACTION id="P8" spans="449~471,485~492,501~504" text="Lentivirus was used to ... silence ... TAZ" description="knock down" />
+<CONTEXT id="C0" spans="1056~1067" text="NSCLC cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1173~1185" text="NSCLC  cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1322~1333" text="NSCLC cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C3" spans="1496~1507" text="NSCLC cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C4" spans="624~645" text="xenograft  mice model" experiment_type="xenotransplantation" species="mouse" />
+<CONTEXT id="C5" spans="541~552" text="NSCLC cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C6" spans="647~667" text="Syngeneic mice model" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="1118~1137" text="inhibited autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E1" spans="1451~1473" text="promoted tumorigenesis" phenotype="tumourigenesis" activity="increases" />
+<EFFECT id="E2" spans="1235~1256,1281~1283,1309~1318" text="cancelled the effects ... on ... autophagy" phenotype="autophagy" activity="not stated" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="SKIL-knockdown" contextID="C1" contextText="NSCLC  cells" effectID="E0" effectText="inhibited autophagy" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="Silencing of TAZ" contextID="C2" contextText="NSCLC cells" effectID="E2" effectText="cancelled the effects ... on ... autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

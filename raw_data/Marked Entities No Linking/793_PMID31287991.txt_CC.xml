@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Genomic and Transcriptomic Determinants of Therapy Resistance and Immune 
+Landscape Evolution during Anti-EGFR Treatment in Colorectal Cancer.
+
+Despite biomarker stratification, the anti-EGFR antibody cetuximab is only 
+effective against a subgroup of colorectal cancers (CRCs). This genomic and 
+transcriptomic analysis of the cetuximab resistance landscape in 35 RAS 
+wild-type CRCs identified associations of NF1 and non-canonical RAS/RAF 
+aberrations with primary resistance and validated transcriptomic CRC subtypes as 
+non-genetic predictors of benefit. Sixty-four percent of biopsies with acquired 
+resistance harbored no genetic resistance drivers. Most of these had switched 
+from a cetuximab-sensitive transcriptomic subtype at baseline to a fibroblast- 
+and growth factor-rich subtype at progression. Fibroblast-supernatant conferred 
+cetuximab resistance in vitro, confirming a major role for non-genetic 
+resistance through stromal remodeling. Cetuximab treatment increased cytotoxic 
+immune infiltrates and PD-L1 and LAG3 immune checkpoint expression, potentially 
+providing opportunities to treat cetuximab-resistant CRCs with immunotherapy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="867~875" text="in vitro" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

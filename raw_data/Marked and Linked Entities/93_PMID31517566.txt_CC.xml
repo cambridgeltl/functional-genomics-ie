@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[De novo phosphatidylcholine synthesis is required for autophagosome membrane 
+formation and maintenance during autophagy.
+
+Macroautophagy/autophagy can enable cancer cells to withstand cellular stress 
+and maintain bioenergetic homeostasis by sequestering cellular components into 
+newly formed double-membrane vesicles destined for lysosomal degradation, 
+potentially affecting the efficacy of anti-cancer treatments. Using 13C-labeled 
+choline and 13C-magnetic resonance spectroscopy and western blotting, we show 
+increased de novo choline phospholipid (ChoPL) production and activation of 
+PCYT1A (phosphate cytidylyltransferase 1, choline, alpha), the rate-limiting 
+enzyme of phosphatidylcholine (PtdCho) synthesis, during autophagy. We also 
+discovered that the loss of PCYT1A activity results in compromised autophagosome 
+formation and maintenance in autophagic cells. Direct tracing of ChoPLs with 
+fluorescence and immunogold labeling imaging revealed the incorporation of newly 
+synthesized ChoPLs into autophagosomal membranes, endoplasmic reticulum (ER) and 
+mitochondria during anticancer drug-induced autophagy. Significant increase in 
+the colocalization of fluorescence signals from the newly synthesized ChoPLs and 
+mCherry-MAP1LC3/LC3 (microtubule-associated protein 1 light chain 3) was also 
+found on autophagosomes accumulating in cells treated with autophagy-modulating 
+compounds. Interestingly, cells undergoing active autophagy had an altered ChoPL 
+profile, with longer and more unsaturated fatty acid/alcohol chains detected. 
+Our data suggest that de novo synthesis may be required to increase 
+autophagosomal ChoPL content and alter its composition, together with replacing 
+phospholipids consumed from other organelles during autophagosome formation and 
+turnover. This addiction to de novo ChoPL synthesis and the critical role of 
+PCYT1A may lead to development of agents targeting autophagy-induced drug 
+resistance. In addition, fluorescence imaging of choline phospholipids could 
+provide a useful way to visualize autophagosomes in cells and tissues.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="769~792" text="loss of PCYT1A activity" description="other" />
+<CONTEXT id="C0" spans="871~876" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1354~1359" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="804~840" text="compromised autophagosome  formation" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E1" spans="1109~1126" text="induced autophagy" phenotype="autophagy" activity="causes" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="loss of PCYT1A activity" contextID="C0" contextText="cells" effectID="E0" effectText="compromised autophagosome  formation" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LZTR1 facilitates polyubiquitination and degradation of RAS-GTPases.
+
+Leucine zipper-like transcriptional regulator 1 (LZTR1) encodes a member of the 
+BTB-Kelch superfamily, which interacts with the Cullin3 (CUL3)-based E3 
+ubiquitin ligase complex. Mutations in LZTR1 have been identified in 
+glioblastoma, schwannomatosis, and Noonan syndrome. However, the functional role 
+of LZTR1 in carcinogenesis or human development is not fully understood. Here, 
+we demonstrate that LZTR1 facilitates the polyubiquitination and degradation of 
+RAS via the ubiquitin-proteasome pathway, leading to the inhibition of the 
+RAS/MAPK signaling. The polyubiquitination and degradation of RAS was also 
+observed in cells expressing MRAS, HRAS, NRAS, and KRAS as well as oncogenic RAS 
+mutants and inhibited the activation of ERK1/2 and cell growth. In vivo 
+ubiquitination assays showed that MRAS-K127 and HRAS-K170 were ubiquitinated by 
+LZTR1 and that the polyubiquitinated-chains contained mainly Ub-K48, K63, and 
+K33-linked chains, suggesting its possible involvement in autophagy. 
+Immunoprecipitation analyses showed the interaction of LZTR1 and RAS-GTPases 
+with autophagy-related proteins, including LC3B and SQSTM1/p62. Co-expression of 
+LZTR1 and RAS increased the expression of lipidated form of LC3B. However, 
+long-term treatment with chloroquine had little effect on RAS protein levels, 
+suggesting that the contribution of autophagy to LZTR1-mediated RAS degradation 
+is minimal. Taken together, these results show that LZTR1 functions as a "RAS 
+killer protein" mainly via the ubiquitin-proteasome pathway regardless of the 
+type of RAS GTPase, controlling downstream signal transduction. Our results also 
+suggest a possible association of LZTR1 and RAS-GTPases with the autophagy. 
+These findings provide clues for the elucidation of the mechanisms of RAS 
+degradation and regulation of the RAS/MAPK signaling cascade.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="1216~1247" text="Co-expression of  LZTR1 and RAS" description="increased expression level" />
+<CONTEXT id="C0" spans="701~706" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="783~792,822~833" text="inhibited ... cell growth" phenotype="cell growth" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

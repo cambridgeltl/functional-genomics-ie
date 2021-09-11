@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Defective endoplasmic reticulum-mitochondria contacts and bioenergetics in 
+SEPN1-related myopathy.
+
+SEPN1-related myopathy (SEPN1-RM) is a muscle disorder due to mutations of the 
+SEPN1 gene, which is characterized by muscle weakness and fatigue leading to 
+scoliosis and life-threatening respiratory failure. Core lesions, focal areas of 
+mitochondria depletion in skeletal muscle fibers, are the most common 
+histopathological lesion. SEPN1-RM underlying mechanisms and the precise role of 
+SEPN1 in muscle remained incompletely understood, hindering the development of 
+biomarkers and therapies for this untreatable disease. To investigate the 
+pathophysiological pathways in SEPN1-RM, we performed metabolic studies, calcium 
+and ATP measurements, super-resolution and electron microscopy on in vivo and in 
+vitro models of SEPN1 deficiency as well as muscle biopsies from SEPN1-RM 
+patients. Mouse models of SEPN1 deficiency showed marked alterations in 
+mitochondrial physiology and energy metabolism, suggesting that SEPN1 controls 
+mitochondrial bioenergetics. Moreover, we found that SEPN1 was enriched at the 
+mitochondria-associated membranes (MAM), and was needed for calcium transients 
+between ER and mitochondria, as well as for the integrity of ER-mitochondria 
+contacts. Consistently, loss of SEPN1 in patients was associated with 
+alterations in body composition which correlated with the severity of muscle 
+weakness, and with impaired ER-mitochondria contacts and low ATP levels. Our 
+results indicate a role of SEPN1 as a novel MAM protein involved in 
+mitochondrial bioenergetics. They also identify a systemic bioenergetic 
+component in SEPN1-RM and establish mitochondria as a novel therapeutic target. 
+This role of SEPN1 contributes to explain the fatigue and core lesions in 
+skeletal muscle as well as the body composition abnormalities identified as part 
+of the SEPN1-RM phenotype. Finally, these results point out to an unrecognized 
+interplay between mitochondrial bioenergetics and ER homeostasis in skeletal 
+muscle. They could therefore pave the way to the identification of biomarkers 
+and therapeutic drugs for SEPN1-RM and for other disorders in which muscle 
+ER-mitochondria cross-talk are impaired.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="914~930" text="SEPN1 deficiency" description="decreased expression level" />
+<CONTEXT id="C0" spans="898~910" text="Mouse models" experiment_type="organism" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

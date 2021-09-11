@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Influenza M2 protein regulates MAVS-mediated signaling pathway through 
+interacting with MAVS and increasing ROS production.
+
+Influenza A virus can evade host innate immune response that is involved in 
+several viral proteins with complicated mechanisms. To date, how influenza A M2 
+protein modulates the host innate immunity remains unclear. Herein, we showed 
+that M2 protein colocalized and interacted with MAVS (mitochondrial antiviral 
+signaling protein) on mitochondria, and positively regulated MAVS-mediated 
+innate immunity. Further studies revealed that M2 induced reactive oxygen 
+species (ROS) production that was required for activation of 
+macroautophagy/autophagy and enhancement of MAVS signaling pathway. Importantly, 
+the proton channel activity of M2 protein was demonstrated to be essential for 
+ROS production and antagonizing the autophagy pathway to control MAVS 
+aggregation, thereby enhancing MAVS signal activity. In conclusion, our studies 
+provided novel insights into mechanisms of M2 protein in modulating host 
+antiviral immunity and uncovered a new mechanism into biology and pathogenicity 
+of influenza A virus.]]></TEXT>
+<TAGS>
+<EFFECT id="E0" spans="640~653,670~679" text="activation of ... autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="836~870" text="antagonizing the autophagy pathway" phenotype="autophagy" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Microglial autophagy defect causes parkinson disease-like symptoms by 
+accelerating inflammasome activation in mice.
+
+Microglial activation-induced neuroinflammation is closely associated with the 
+development of Parkinson disease (PD). Macroautophagy/autophagy regulates many 
+biological processes, but the role of autophagy in microglial activation during 
+PD development remains largely unclear. In this study, we showed that deletion 
+of microglial Atg5 caused PD-like symptoms in mice, characterized by impairment 
+in motor coordination and cognitive learning, loss of tyrosine hydroxylase (TH) 
+neurons, enhancement of neuroinflammation and reduction in dopamine levels in 
+the striatum. Mechanistically, we found that inhibition of autophagy led to 
+NLRP3 (NLR family pyrin domain containing 3) inflammasome activation via PDE10A 
+(phosphodiesterase 10A)-cyclic adenosine monophosphate (cAMP) signaling in 
+microglia, and the sequential upregulation of downstream IL1B/IL-1β in turn 
+increased the expression of MIF (macrophage migration inhibitory factor 
+[glycosylation-inhibiting factor]), a pro-inflammatory cytokine. Inhibition of 
+NLRP3 inflammasome activation by administration of MCC950, a specific inhibitor 
+for NLRP3, decreased MIF expression and neuroinflammatory levels, and rescued 
+the loss of TH neurons in the substantial nigra (SN). Interestingly, we found 
+that serum MIF levels in PD patients were significantly elevated. Taken 
+together, our results reveal an important role of autophagy in microglial 
+activation-driven PD-like symptoms, thus providing potential targets for the 
+clinical treatment of PD. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="429~457" text="deletion  of microglial Atg5" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1195~1234" text="MCC950, a specific inhibitor  for NLRP3" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="485~489" text="mice" context="organism" />
+<CONTEXT id="C1" spans="914~923" text="microglia" context="cells" />
+<CONTEXT id="C3" spans="1316~1356" text="TH neurons in the substantial nigra (SN)" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Abdominal paracentesis drainage attenuates severe acute pancreatitis by 
+enhancing cell apoptosis via PI3K/AKT signaling pathway.
+
+Our previous studies have shown that abdominal paracentesis drainage (APD) is a 
+safe and effective strategy for patients with severe acute pancreatitis (SAP). 
+However, the underlying mechanisms behind APD treatment remain poorly 
+understood. Given that apoptosis is a critical pathological response of SAP, we 
+here aim to investigate the effect of APD on cell apoptosis in pancreatic 
+tissues during SAP and to explore its potential molecular mechanism. SAP was 
+induced by 5% sodium-taurocholate retrograde while APD group was inserted a 
+drainage tube into the right lower abdomen of rats immediately after SAP 
+induction. Histopathological staining, serum amylase, endotoxin and inflammatory 
+mediators were measured. Cell apoptosis, apoptosis-related proteins and 
+signaling pathway were also evaluated. Our results demonstrated that APD 
+treatment significantly attenuated pancreatic damage and decreased the serum 
+levels of amylase, endotoxin, TNF-α, IL-1 and IL-6 in rats with SAP. Notably, 
+APD treatment enhanced cell apoptosis and reduced necrosis in pancreatic 
+tissues, as evidenced by Tunnel staining, the increased pro-apoptosis proteins 
+(Cleaved-caspase-3 and bax) and decreased anti-apoptosis protein (Bcl-2). 
+Moreover, the effect of APD on cell apoptosis was further confirmed by the 
+regulatory pathway of PI3K/AKT and NF-kB signaling pathway. These results 
+suggest that APD attenuates the severity of SAP by enhancing cell apoptosis via 
+suppressing PI3K/AKT signaling pathway. Our findings provide new insights for 
+understanding the effectiveness of APD in patients with SAP.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="720~724" text="rats" experiment_type="organism" species="rat" />
+<CONTEXT id="C1" spans="1109~1113" text="rats" experiment_type="organism" species="rat" />
+<CONTEXT id="C2" spans="1157~1161" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1196~1215" text="pancreatic  tissues" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="1394~1398" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1575~1579" text="cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1148~1156,1162~1171" text="enhanced ... apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E1" spans="1176~1192" text="reduced necrosis" phenotype="necrosis" activity="decreases" />
+<EFFECT id="E2" spans="1399~1408" text="apoptosis" phenotype="apoptosis" activity="not stated" />
+<EFFECT id="E3" spans="1565~1574,1580~1589" text="enhancing ... apoptosis" phenotype="apoptosis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

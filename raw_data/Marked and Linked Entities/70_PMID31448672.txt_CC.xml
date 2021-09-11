@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+PAQR3 suppresses the growth of non-small cell lung cancer cells via modulation 
+of EGFR-mediated autophagy.
+
+Macroautophagy/autophagy is an evolutionarily conserved intracellular process 
+that recycles and degrades intracellular components to sustain homeostasis in 
+response to deficiency of nutrients or growth factors. PAQR3 is a newly 
+discovered tumor suppressor that also regulates autophagy induced by nutrient 
+starvation via AMPK and MTORC1 signaling pathways. In this study, we 
+investigated whether PAQR3 modulates EGFR-mediated autophagy and whether such 
+regulation is associated with the tumor suppressive activity of PAQR3. PAQR3 is 
+able to inhibit the in vitro and in vivo growth of non-small cell lung cancer 
+(NSCLC) cells. PAQR3 potentiates autophagy induced by EGFR inhibitor erlotinib. 
+Knockdown of PAQR3 abrogates erlotinib-mediated reduction of BECN1 interaction 
+with autophagy inhibitory proteins RUBCN/Rubicon and BCL2. PAQR3 blocks the 
+interaction of BECN1 with the activated form of EGFR and inhibits tyrosine 
+phosphorylation of BECN1. Furthermore, inhibition of autophagy by knocking down 
+ATG7 abrogates the tumor suppressive activity of PAQR3 in NSCLC cells. 
+Collectively, these data indicate that PAQR3 suppresses tumor progression of 
+NSCLC cells through modulating EGFR-regulated autophagy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="810~828" text="Knockdown of PAQR3" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1109~1128" text="knocking down  ATG7" description="knock down" />
+<CONTEXT id="C0" spans="670~678,701~742" text="in vitro ... non-small cell lung cancer  (NSCLC) cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="683~690,701~742" text="in vivo ... non-small cell lung cancer  (NSCLC) cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1182~1193" text="NSCLC cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1274~1285" text="NSCLC cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="658~665,691~697" text="inhibit ... growth" phenotype="cell growth" activity="inhibits" />
+<EFFECT id="E1" spans="1082~1105" text="inhibition of autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E3" spans="1241~1269" text="suppresses tumor progression" phenotype="tumourigenesis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="knocking down  ATG7" contextID="C2" contextText="NSCLC cells" effectID="E1" effectText="inhibition of autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

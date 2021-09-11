@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CDK12 phosphorylates 4E-BP1 to enable mTORC1-dependent translation and mitotic 
+genome stability.
+
+The RNA polymerase II (RNAPII) C-terminal domain kinase, CDK12, regulates genome 
+stability, expression of DNA repair genes, and cancer cell resistance to 
+chemotherapy and immunotherapy. In addition to its role in mRNA biosynthesis of 
+DNA repair genes, we show here that CDK12 phosphorylates the mRNA 5' cap-binding 
+repressor, 4E-BP1, to promote translation of mTORC1-dependent mRNAs. In 
+particular, we found that phosphorylation of 4E-BP1 by mTORC1 (T37 and T46) 
+facilitates subsequent CDK12 phosphorylation at two Ser-Pro sites (S65 and T70) 
+that control the exchange of 4E-BP1 with eIF4G at the 5' cap of CHK1 and other 
+target mRNAs. RNA immunoprecipitation coupled with deep sequencing (RIP-seq) 
+revealed that CDK12 regulates release of 4E-BP1, and binding of eIF4G, to many 
+mTORC1 target mRNAs, including those needed for MYC transformation. Genome-wide 
+ribosome profiling (Ribo-seq) further identified specific CDK12 
+"translation-only" target mRNAs, including many mTORC1 target mRNAs as well as 
+many subunits of mitotic and centromere/centrosome complexes. Accordingly, 
+confocal imaging analyses revealed severe chromosome misalignment, bridging, and 
+segregation defects in cells deprived of CDK12 or CCNK. We conclude that the 
+nuclear RNAPII-CTD kinase CDK12 cooperates with mTORC1, and controls a 
+specialized translation network that is essential for mitotic chromosome 
+stability.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1300~1325" text="deprived of CDK12 or CCNK" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="1294~1299" text="cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

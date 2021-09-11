@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Risk SNP-Mediated Enhancer-Promoter Interaction Drives Colorectal Cancer through 
+Both FADS2 and AP002754.2.
+
+Although genome-wide association studies (GWAS) have identified more than 100 
+colorectal cancer risk loci, most of the biological mechanisms associated with 
+these loci remain unclear. Here we first performed a comprehensive expression 
+quantitative trait loci analysis in colorectal cancer tissues adjusted for 
+multiple confounders to test the determinants of germline variants in 
+established GWAS susceptibility loci on mRNA and long noncoding RNA (lncRNA) 
+expression. Combining integrative functional genomic/epigenomic analyses and a 
+large-scale population study consisting of 6,024 cases and 10,022 controls, we 
+then prioritized rs174575 with a C>G change as a potential causal candidate for 
+colorectal cancer at 11q12.2, as its G allele was associated with an increased 
+risk of colorectal cancer (OR = 1.26; 95% confidence interval = 1.17-1.36; P = 
+2.57 × 10-9). rs174575 acted as an allele-specific enhancer to distally 
+facilitate expression of both FADS2 and lncRNA AP002754.2 via long-range 
+enhancer-promoter interaction loops, which were mediated by E2F1. AP002754.2 
+further activated a transcriptional activator that upregulated FADS2 expression. 
+FADS2, in turn, was overexpressed in colorectal cancer tumor tissues and 
+functioned as a potential oncogene that facilitated colorectal cancer cell 
+proliferation and xenograft growth in vitro and in vivo by increasing the 
+metabolism of PGE2, an oncogenic molecule involved in colorectal cancer 
+tumorigenesis. Our findings represent a novel mechanism by which a noncoding 
+variant can facilitate long-range genome interactions to modulate the expression 
+of multiple genes including not only mRNA, but also lncRNA, which provides new 
+insights into the understanding of colorectal cancer etiology. SIGNIFICANCE: 
+This study provides an oncogenic regulatory circuit among several oncogenes 
+including E2F1, FADS2, and AP002754.2 underlying the association of rs174575 
+with colorectal cancer risk, which is driven by long-range enhancer-promoter 
+interaction loops.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1407~1429" text="colorectal cancer cell" context="transformed cells" />
+<CONTEXT id="C1" spans="1449~1458" text="xenograft" context="xenograft" />
+<CONTEXT id="C2" spans="1466~1474" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="1479~1486" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="1431~1444" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="1395~1406" text="facilitated" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

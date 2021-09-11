@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Transcriptional regulatory network controlling the ontogeny of hematopoietic 
+stem cells.
+
+Hematopoietic stem cell (HSC) ontogeny is accompanied by dynamic changes in gene 
+regulatory networks. We performed RNA-seq and histone mark ChIP-seq to define 
+the transcriptomes and epigenomes of cells representing key developmental stages 
+of HSC ontogeny in mice. The five populations analyzed were embryonic day 10.5 
+(E10.5) endothelium and hemogenic endothelium from the major arteries, an 
+enriched population of prehematopoietic stem cells (pre-HSCs), fetal liver HSCs, 
+and adult bone marrow HSCs. Using epigenetic signatures, we identified enhancers 
+for each developmental stage. Only 12% of enhancers are primed, and 78% are 
+active, suggesting the vast majority of enhancers are established de novo 
+without prior priming in earlier stages. We constructed developmental 
+stage-specific transcriptional regulatory networks by linking enhancers and 
+predicted bound transcription factors to their target promoters using a novel 
+computational algorithm, target inference via physical connection (TIPC). TIPC 
+predicted known transcriptional regulators for the endothelial-to-hematopoietic 
+transition, validating our overall approach, and identified putative novel 
+transcription factors, including the broadly expressed transcription factors SP3 
+and MAZ. Finally, we validated a role for SP3 and MAZ in the formation of 
+hemogenic endothelium. Our data and computational analyses provide a useful 
+resource for uncovering regulators of HSC formation.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

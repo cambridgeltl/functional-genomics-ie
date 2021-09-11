@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Pharmacogenomic Landscape in Human Liver Cancers.
+
+Liver cancers are highly heterogeneous with poor prognosis and drug response. A 
+better understanding between genetic alterations and drug responses would 
+facilitate precision treatment for liver cancers. To characterize the landscape 
+of pharmacogenomic interactions in liver cancers, we developed a protocol to 
+establish human liver cancer cell models at a success rate of around 50% and 
+generated the Liver Cancer Model Repository (LIMORE) with 81 cell models. LIMORE 
+represented genomic and transcriptomic heterogeneity of primary cancers. 
+Interrogation of the pharmacogenomic landscape of LIMORE discovered unexplored 
+gene-drug associations, including synthetic lethalities to prevalent alterations 
+in liver cancers. Moreover, predictive biomarker candidates were suggested for 
+the selection of sorafenib-responding patients. LIMORE provides a rich resource 
+facilitating drug discovery in liver cancers.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

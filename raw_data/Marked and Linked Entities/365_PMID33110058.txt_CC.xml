@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ATRIP protects progenitor cells against DNA damage in vivo.
+
+The maintenance of genomic stability during the cell cycle of progenitor cells 
+is essential for the faithful transmission of genetic information. Mutations in 
+genes that ensure genome stability lead to human developmental syndromes. 
+Mutations in Ataxia Telangiectasia and Rad3-related (ATR) or in ATR-interacting 
+protein (ATRIP) lead to Seckel syndrome, which is characterized by developmental 
+malformations and short life expectancy. While the roles of ATR in replicative 
+stress response and chromosomal segregation are well established, it is unknown 
+how ATRIP contributes to maintaining genomic stability in progenitor cells in 
+vivo. Here, we generated the first mouse model to investigate ATRIP function. 
+Conditional inactivation of Atrip in progenitor cells of the CNS and eye led to 
+microcephaly, microphthalmia and postnatal lethality. To understand the 
+mechanisms underlying these malformations, we used lens progenitor cells as a 
+model and found that ATRIP loss promotes replicative stress and TP53-dependent 
+cell death. Trp53 inactivation in Atrip-deficient progenitor cells rescued 
+apoptosis, but increased mitotic DNA damage and mitotic defects. Our findings 
+demonstrate an essential role of ATRIP in preventing DNA damage accumulation 
+during unchallenged replication.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="779~812" text="Conditional inactivation of Atrip" description="conditional knock out" />
+<PERTURBING_ACTION id="P1" spans="1033~1043" text="ATRIP loss" description="decreased expression level" />
+<PERTURBING_ACTION id="P2" spans="1104~1122" text="Trp53 inactivation" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1126~1141" text="Atrip-deficient" description="decreased expression level" />
+<CONTEXT id="C0" spans="816~851" text="progenitor cells of the CNS and eye" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="984~1005" text="lens progenitor cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="1142~1158" text="progenitor cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E2" spans="1159~1177" text="rescued  apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E3" spans="1044~1052,1092~1102" text="promotes ... cell death" phenotype="cell death" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="ATRIP loss" contextID="C1" contextText="lens progenitor cells" effectID="E3" effectText="promotes ... cell death" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="Trp53 inactivation" contextID="C2" contextText="progenitor cells" effectID="E2" effectText="rescued  apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

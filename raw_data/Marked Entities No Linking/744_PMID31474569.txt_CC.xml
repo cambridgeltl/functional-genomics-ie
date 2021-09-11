@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Single-Cell Transcriptomics in Medulloblastoma Reveals Tumor-Initiating 
+Progenitors and Oncogenic Cascades during Tumorigenesis and Relapse.
+
+Progenitor heterogeneity and identities underlying tumor initiation and relapse 
+in medulloblastomas remain elusive. Utilizing single-cell transcriptomic 
+analysis, we demonstrated a developmental hierarchy of progenitor pools in Sonic 
+Hedgehog (SHH) medulloblastomas, and identified OLIG2-expressing glial 
+progenitors as transit-amplifying cells at the tumorigenic onset. Although 
+OLIG2+ progenitors become quiescent stem-like cells in full-blown tumors, they 
+are highly enriched in therapy-resistant and recurrent medulloblastomas. 
+Depletion of mitotic Olig2+ progenitors or Olig2 ablation impeded tumor 
+initiation. Genomic profiling revealed that OLIG2 modulates chromatin landscapes 
+and activates oncogenic networks including HIPPO-YAP/TAZ and AURORA-A/MYCN 
+pathways. Co-targeting these oncogenic pathways induced tumor growth arrest. 
+Together, our results indicate that glial lineage-associated OLIG2+ progenitors 
+are tumor-initiating cells during medulloblastoma tumorigenesis and relapse, 
+suggesting OLIG2-driven oncogenic networks as potential therapeutic targets.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="725~739" text="Olig2 ablation" description="decreased expression level" />
+<EFFECT id="E0" spans="740~765" text="impeded tumor  initiation" phenotype="tumourigenesis" activity="inhibits" />
+<EFFECT id="E1" spans="961~988" text="induced tumor growth arrest" phenotype="tumour growth" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

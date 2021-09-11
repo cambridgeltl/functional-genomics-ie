@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Small GTPase RAB6 deficiency promotes alveolar progenitor cell renewal and 
+attenuates PM2.5-induced lung injury and fibrosis.
+
+Idiopathic pulmonary fibrosis (IPF) is a progressive interstitial lung disease 
+characterized by chronic non-specific inflammation of the interstitial lung and 
+extensive deposition of collagen fibers leading to destruction of lung function. 
+Studies have demonstrated that exposure to fine particulate matter (PM2.5) 
+increases the risk of IPF. In order to recover from PM2.5-induced lung injury, 
+alveolar epithelial cells need to be repaired and regenerated to maintain lung 
+function. Type 2 alveolar epithelial cells (AEC2) are stem cells in the adult 
+lung that contribute to the lung repair process through complex signaling. Our 
+previous studies demonstrated that RAB6, a RAS family member lowly expressed in 
+lung cancer, inhibited lung cancer stem cell self-renewal, but it is unclear 
+whether or not and how RAB6 may regulate AEC2 cell proliferation and 
+self-renewal in PM2.5-induced pulmonary fibrosis. Here, we demonstrated that 
+knockout of RAB6 inhibited pulmonary fibrosis, oxidative stress, and AEC2 cell 
+death in PM2.5-injured mice. In addition, knockout of RAB6 decreased Dickkopf 
+1(DKK1) autocrine and activated proliferation, self-renewal, and wnt/β-catenin 
+signaling of PM2.5-injured AEC2 cells. RAB6 overexpression increased DKK1 
+autocrine and inhibited proliferation, self-renewal and wnt/β-catenin signaling 
+in AEC2 cells in vitro. Furthermore, DKK1 inhibitors promoted proliferation, 
+self-renewal and wnt/β-catenin signaling of RAB6 overexpressing AEC2 cells, and 
+attenuated PM2.5-induced pulmonary fibrosis in mice. These data establish RAB6 
+as a regulator of DKK1 autocrine and wnt/β-catenin signal that serves to 
+regulate AEC2 cell proliferation and self-renewal, and suggest a mechanism that 
+RAB6 disruption may promote AEC2 cell proliferation and self-renewal to enhance 
+lung repair following PM2.5 injury.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1073~1089" text="knockout of RAB6" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1195~1211" text="knockout of RAB6" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1351~1370" text="RAB6 overexpression" description="increased expression level" />
+<PERTURBING_ACTION id="P3" spans="1505~1520" text="DKK1 inhibitors" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="1590~1609" text="RAB6 overexpressing" description="increased expression level" />
+<CONTEXT id="C0" spans="1142~1146" text="AEC2" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1176~1180" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="1339~1349" text="AEC2 cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1471~1490" text="AEC2 cells in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1610~1620" text="AEC2 cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1674~1678" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="1090~1099,1147~1158" text="inhibited ... cell  death" phenotype="cell death" activity="inhibits" />
+<EFFECT id="E1" spans="1254~1277" text="activated proliferation" phenotype="proliferation" activity="causes" />
+<EFFECT id="E2" spans="1254~1263,1279~1291" text="activated ... self-renewal" phenotype="self-renewal" activity="causes" />
+<EFFECT id="E3" spans="1401~1424" text="inhibited proliferation" phenotype="proliferation" activity="inhibits" />
+<EFFECT id="E4" spans="1401~1410,1426~1438" text="inhibited ... self-renewal" phenotype="self-renewal" activity="inhibits" />
+<EFFECT id="E5" spans="1521~1543" text="promoted proliferation" phenotype="proliferation" activity="increases" />
+<EFFECT id="E6" spans="1521~1529,1546~1558" text="promoted ... self-renewal" phenotype="self-renewal" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="knockout of RAB6" contextID="C0" contextText="AEC2" effectID="E0" effectText="inhibited ... cell  death" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="knockout of RAB6" contextID="C2" contextText="AEC2 cells" effectID="E1" effectText="activated proliferation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="knockout of RAB6" contextID="C2" contextText="AEC2 cells" effectID="E2" effectText="activated ... self-renewal" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P2" perturbing_actionText="RAB6 overexpression" contextID="C3" contextText="AEC2 cells in vitro" effectID="E3" effectText="inhibited proliferation" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P2" perturbing_actionText="RAB6 overexpression" contextID="C3" contextText="AEC2 cells in vitro" effectID="E4" effectText="inhibited ... self-renewal" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P3" perturbing_actionText="DKK1 inhibitors" contextID="C4" contextText="AEC2 cells" effectID="E5" effectText="promoted proliferation" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P3" perturbing_actionText="DKK1 inhibitors" contextID="C4" contextText="AEC2 cells" effectID="E6" effectText="promoted ... self-renewal" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Co-option of Neutrophil Fates by Tissue Environments.
+
+Classically considered short-lived and purely defensive leukocytes, neutrophils 
+are unique in their fast and moldable response to stimulation. This plastic 
+behavior may underlie variable and even antagonistic functions during 
+inflammation or cancer, yet the full spectrum of neutrophil properties as they 
+enter healthy tissues remains unexplored. Using a new model to track neutrophil 
+fates, we found short but variable lifetimes across multiple tissues. Through 
+analysis of the receptor, transcriptional, and chromatin accessibility 
+landscapes, we identify varying neutrophil states and assign non-canonical 
+functions, including vascular repair and hematopoietic homeostasis. Accordingly, 
+depletion of neutrophils compromised angiogenesis during early age, genotoxic 
+injury, and viral infection, and impaired hematopoietic recovery after 
+irradiation. Neutrophils acquired these properties in target tissues, a process 
+that, in the lungs, occurred in CXCL12-rich areas and relied on CXCR4. Our 
+results reveal that tissues co-opt neutrophils en route for elimination to 
+induce programs that support their physiological demands.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

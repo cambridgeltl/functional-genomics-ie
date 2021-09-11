@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Rationale for targeting BCL6 in MLL-rearranged acute lymphoblastic leukemia.
+
+Chromosomal rearrangements of the mixed lineage leukemia (MLL) gene occur in 
+∼10% of B-cell acute lymphoblastic leukemia (B-ALL) and define a group of 
+patients with dismal outcomes. Immunohistochemical staining of bone marrow 
+biopsies from most of these patients revealed aberrant expression of BCL6, a 
+transcription factor that promotes oncogenic B-cell transformation and drug 
+resistance in B-ALL. Our genetic and ChIP-seq (chromatin immunoprecipitation 
+[ChIP] combined with high-throughput sequencing) analyses showed that MLL-AF4 
+and MLL-ENL fusions directly bound to the BCL6 promoter and up-regulated BCL6 
+expression. While oncogenic MLL fusions strongly induced aberrant BCL6 
+expression in B-ALL cells, germline MLL was required to up-regulate Bcl6 in 
+response to physiological stimuli during normal B-cell development. Inducible 
+expression of Bcl6 increased MLL mRNA levels, which was reversed by genetic 
+deletion and pharmacological inhibition of Bcl6, suggesting a positive feedback 
+loop between MLL and BCL6. Highlighting the central role of BCL6 in 
+MLL-rearranged B-ALL, conditional deletion and pharmacological inhibition of 
+BCL6 compromised leukemogenesis in transplant recipient mice and restored 
+sensitivity to vincristine chemotherapy in MLL-rearranged B-ALL patient samples. 
+Oncogenic MLL fusions strongly induced transcriptional activation of the 
+proapoptotic BH3-only molecule BIM, while BCL6 was required to curb MLL-induced 
+expression of BIM. Notably, peptide (RI-BPI) and small molecule (FX1) BCL6 
+inhibitors derepressed BIM and synergized with the BH3-mimetic ABT-199 in 
+eradicating MLL-rearranged B-ALL cells. These findings uncover MLL-dependent 
+transcriptional activation of BCL6 as a previously unrecognized requirement of 
+malignant transformation by oncogenic MLL fusions and identified BCL6 as a novel 
+target for the treatment of MLL-rearranged B-ALL.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="915~944" text="Inducible  expression of Bcl6" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="1016~1050" text="pharmacological inhibition of Bcl6" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1200~1235" text="pharmacological inhibition of  BCL6" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1571~1629" text="peptide (RI-BPI) and small molecule (FX1) BCL6  inhibitors" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="784~795" text="B-ALL cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1287~1291" text="mice" context="organism" />
+<CONTEXT id="C2" spans="1364~1385" text="B-ALL patient samples" context="transformed cells" />
+<CONTEXT id="C3" spans="1721~1732" text="B-ALL cells" context="transformed cells" />
+</TAGS>
+</Genomics_ConceptTask>

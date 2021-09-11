@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[WWP2 ubiquitylates RNA polymerase II for DNA-PK-dependent transcription arrest 
+and repair at DNA breaks.
+
+DNA double-strand breaks (DSBs) at RNA polymerase II (RNAPII) transcribed genes 
+lead to inhibition of transcription. The DNA-dependent protein kinase (DNA-PK) 
+complex plays a pivotal role in transcription inhibition at DSBs by stimulating 
+proteasome-dependent eviction of RNAPII at these lesions. How DNA-PK triggers 
+RNAPII eviction to inhibit transcription at DSBs remains unclear. Here we show 
+that the HECT E3 ubiquitin ligase WWP2 associates with components of the DNA-PK 
+and RNAPII complexes and is recruited to DSBs at RNAPII transcribed genes. In 
+response to DSBs, WWP2 targets the RNAPII subunit RPB1 for K48-linked 
+ubiquitylation, thereby driving DNA-PK- and proteasome-dependent eviction of 
+RNAPII. The lack of WWP2 or expression of nonubiquitylatable RPB1 abrogates the 
+binding of nonhomologous end joining (NHEJ) factors, including DNA-PK and 
+XRCC4/DNA ligase IV, and impairs DSB repair. These findings suggest that WWP2 
+operates in a DNA-PK-dependent shutoff circuitry for RNAPII clearance that 
+promotes DSB repair by protecting the NHEJ machinery from collision with the 
+transcription machinery.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="829~841" text="lack of WWP2" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

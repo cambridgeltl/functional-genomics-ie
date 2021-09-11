@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[IL6/STAT3 Signaling Hijacks Estrogen Receptor α Enhancers to Drive Breast Cancer 
+Metastasis.
+
+The cytokine interleukin-6 (IL6) and its downstream effector STAT3 constitute a 
+key oncogenic pathway, which has been thought to be functionally connected to 
+estrogen receptor α (ER) in breast cancer. We demonstrate that IL6/STAT3 
+signaling drives metastasis in ER+ breast cancer independent of ER. STAT3 
+hijacks a subset of ER enhancers to drive a distinct transcriptional program. 
+Although these enhancers are shared by both STAT3 and ER, IL6/STAT3 activity is 
+refractory to standard ER-targeted therapies. Instead, inhibition of STAT3 
+activity using the JAK inhibitor ruxolitinib decreases breast cancer invasion 
+in vivo. Therefore, IL6/STAT3 and ER oncogenic pathways are functionally 
+decoupled, highlighting the potential of IL6/STAT3-targeted therapies in ER+ 
+breast cancer.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="695~708,719~726" text="breast cancer ... in vivo" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="685~694,709~717" text="decreases ... invasion" phenotype="invasion" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

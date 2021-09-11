@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Immunogenomic Landscape of Hematological Malignancies.
+
+Understanding factors that shape the immune landscape across hematological 
+malignancies is essential for immunotherapy development. We integrated over 
+8,000 transcriptomes and 2,000 samples with multilevel genomics of hematological 
+cancers to investigate how immunological features are linked to cancer subtypes, 
+genetic and epigenetic alterations, and patient survival, and validated key 
+findings experimentally. Infiltration of cytotoxic lymphocytes was associated 
+with TP53 and myelodysplasia-related changes in acute myeloid leukemia, and 
+activated B cell-like phenotype and interferon-γ response in lymphoma. CIITA 
+methylation regulating antigen presentation, cancer type-specific immune 
+checkpoints, such as VISTA in myeloid malignancies, and variation in cancer 
+antigen expression further contributed to immune heterogeneity and predicted 
+survival. Our study provides a resource linking immunology with cancer subtypes 
+and genomics in hematological malignancies.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

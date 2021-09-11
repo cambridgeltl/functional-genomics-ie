@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Isobacachalcone induces autophagy and improves the outcome of immunogenic 
+chemotherapy.
+
+A number of natural plant products have a long-standing history in both 
+traditional and modern medical applications. Some secondary metabolites induce 
+autophagy and mediate autophagy-dependent healthspan- and lifespan-extending 
+effects in suitable mouse models. Here, we identified isobacachalcone (ISO) as a 
+non-toxic inducer of autophagic flux that acts on human and mouse cells in 
+vitro, as well as mouse organs in vivo. Mechanistically, ISO inhibits AKT as 
+well as, downstream of AKT, the mechanistic target of rapamycin complex 1 
+(mTORC1), coupled to the activation of the pro-autophagic transcription factors 
+EB (TFEB) and E3 (TFE3). Cells equipped with a constitutively active AKT mutant 
+failed to activate autophagy. ISO also stimulated the AKT-repressible activation 
+of all three arms of the unfolded stress response (UPR), including the 
+PERK-dependent phosphorylation of eukaryotic initiation factor 2α (eIF2α). 
+Knockout of TFEB and/or TFE3 blunted the UPR, while knockout of PERK or 
+replacement of eIF2α by a non-phosphorylable mutant reduced TFEB/TFE3 activation 
+and autophagy induced by ISO. This points to crosstalk between the UPR and 
+autophagy. Of note, the administration of ISO to mice improved the efficacy of 
+immunogenic anticancer chemotherapy. This effect relied on an improved T 
+lymphocyte-dependent anticancer immune response and was lost upon constitutive 
+AKT activation in, or deletion of the essential autophagy gene Atg5 from, the 
+malignant cells. In conclusion, ISO is a bioavailable autophagy inducer that 
+warrants further preclinical characterization.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="760~792" text="constitutively active AKT mutant" description="other" />
+<PERTURBING_ACTION id="P1" spans="1024~1040" text="Knockout of TFEB" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1024~1044,1048~1052" text="Knockout of TFEB and ... TFE3" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="1024~1035,1048~1052" text="Knockout of ... TFE3" description="knock out" />
+<PERTURBING_ACTION id="P4" spans="1076~1092" text="knockout of PERK" description="knock out" />
+<PERTURBING_ACTION id="P5" spans="1097~1148" text="replacement of eIF2α by a non-phosphorylable mutant" description="other" />
+<PERTURBING_ACTION id="P6" spans="1475~1503" text="constitutive  AKT activation" description="other" />
+<PERTURBING_ACTION id="P7" spans="1511~1522,1552~1556" text="deletion of ... Atg5" description="knock out" />
+<CONTEXT id="C0" spans="453~458,469~484" text="human ... cells in  vitro" experiment_type="cells" species="human" />
+<CONTEXT id="C1" spans="463~484" text="mouse cells in  vitro" experiment_type="cells" species="mouse" />
+<CONTEXT id="C2" spans="497~517" text="mouse organs in vivo" experiment_type="organism" species="mouse" />
+<CONTEXT id="C3" spans="738~743" text="Cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1568~1583" text="malignant cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C5" spans="1304~1308" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="413~439" text="inducer of autophagic flux" phenotype="autophagy" activity="causes" />
+<EFFECT id="E1" spans="794~822" text="failed to activate autophagy" phenotype="autophagy" activity="no effect" />
+<EFFECT id="E2" spans="1149~1156,1183~1200" text="reduced ... autophagy induced" phenotype="autophagy" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="constitutively active AKT mutant" contextID="C3" contextText="Cells" effectID="E1" effectText="failed to activate autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

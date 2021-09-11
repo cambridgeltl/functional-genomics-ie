@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The macrophage-specific V-ATPase subunit ATP6V0D2 restricts inflammasome 
+activation and bacterial infection by facilitating autophagosome-lysosome 
+fusion.
+
+Macroautophagy/autophagy is a conserved ubiquitous pathway that performs diverse 
+roles in health and disease. Although many key, widely expressed proteins that 
+regulate autophagosome formation followed by lysosomal fusion have been 
+identified, the possibilities of cell-specific elements that contribute to the 
+autophagy fusion machinery have not been explored. Here we show that a 
+macrophage-specific isoform of the vacuolar ATPase protein ATP6V0D2/subunit d2 
+is dispensable for lysosome acidification, but promotes the completion of 
+autophagy via promotion of autophagosome-lysosome fusion through its interaction 
+with STX17 and VAMP8. Atp6v0d2-deficient macrophages have augmented 
+mitochondrial damage, enhanced inflammasome activation and reduced clearance of 
+Salmonella typhimurium. The susceptibility of atp6v0d2 knockout mice to 
+DSS-induced colitis and Salmonella typhimurium-induced death, highlights the in 
+vivo significance of ATP6V0D2-mediated autophagosome-lysosome fusion. Together, 
+our data identify ATP6V0D2 as a key component of macrophage-specific 
+autophagosome-lysosome fusion machinery maintaining macrophage organelle 
+homeostasis and, in turn, limiting both inflammation and bacterial infection.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="804~822" text="Atp6v0d2-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="978~995" text="atp6v0d2 knockout" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="823~834" text="macrophages" context="cells" />
+<CONTEXT id="C1" spans="996~1001" text="mice " context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

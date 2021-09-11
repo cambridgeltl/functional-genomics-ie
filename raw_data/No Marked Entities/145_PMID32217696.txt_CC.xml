@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hybrid Epithelial-Mesenchymal Phenotypes Are Controlled by Microenvironmental 
+Factors.
+
+Epithelial-to-mesenchymal transition (EMT) has been associated with cancer cell 
+heterogeneity, plasticity, and metastasis. However, the extrinsic signals 
+supervising these phenotypic transitions remain elusive. To assess how selected 
+microenvironmental signals control cancer-associated phenotypes along the EMT 
+continuum, we defined a logical model of the EMT cellular network that yields 
+qualitative degrees of cell adhesions by adherens junctions and focal adhesions, 
+two features affected during EMT. The model attractors recovered epithelial, 
+mesenchymal, and hybrid phenotypes. Simulations showed that hybrid phenotypes 
+may arise through independent molecular paths involving stringent extrinsic 
+signals. Of particular interest, model predictions and their experimental 
+validations indicated that: (i) stiffening of the extracellular matrix was a 
+prerequisite for cells overactivating FAK_SRC to upregulate SNAIL and acquire a 
+mesenchymal phenotype and (ii) FAK_SRC inhibition of cell-cell contacts through 
+the receptor-type tyrosine-protein phosphatases kappa led to acquisition of a 
+full mesenchymal, rather than a hybrid, phenotype. Altogether, these 
+computational and experimental approaches allow assessment of critical 
+microenvironmental signals controlling hybrid EMT phenotypes and indicate that 
+EMT involves multiple molecular programs.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

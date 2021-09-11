@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Doxorubicin sensitizes cancer cells to Smac mimetic via synergistic activation 
+of the CYLD/RIPK1/FADD/caspase-8-dependent apoptosis.
+
+Smac/Diablo is a pro-apoptotic protein via interaction with inhibitors of 
+apoptosis proteins (IAPs) to relieve their inhibition of caspases. Smac mimetic 
+compounds (also known as antagonists of IAPs) mimic the function of Smac/Diablo 
+and sensitize cancer cells to TNF-induced apoptosis. However, the majority of 
+cancer cells are resistant to Smac mimetic alone. Doxorubicin is a widely used 
+chemotherapeutic drug and causes adverse effect of cardiotoxicity in many 
+patients. Therefore, it is important to find strategies of combined chemotherapy 
+to increase chemosensitivity and reduce the adverse effects. Here, we report 
+that doxorubicin synergizes with Smac mimetic to trigger TNF-mediated apoptosis, 
+which is mechanistically distinct from doxorubicin-induced cell death. 
+Doxorubicin sensitizes cancer cells including human pancreatic and colorectal 
+cancer cells to Smac mimetic treatment. The combined treatment leads to 
+synergistic induction of TNFα to initiate apoptosis through activating NF-κB and 
+c-Jun signaling pathways. Knockdown of caspase-8 or knockout of FADD 
+significantly blocked apoptosis synergistically induced by Smac mimetic and 
+doxorubicin, but had no effect on cell death caused by doxorubicin alone. 
+Moreover, Smac mimetic and doxorubicin-induced apoptosis requires 
+receptor-interacting protein kinase 1 (RIPK1) and its deubiquitinating enzyme 
+cylindromatosis (CYLD), not A20. These in vitro findings demonstrate that 
+combination of Smac mimetic and doxorubicin synergistically triggers apoptosis 
+through the TNF/CYLD/RIPK1/FADD/caspase-8 signaling pathway. Importantly, the 
+combined treatment induced in vivo synergistic anti-tumor effects in the 
+xenograft tumor model. Thus, the combined therapy using Smac mimetic and 
+doxorubicin presents a promising apoptosis-inducing strategy]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1180~1202" text="Knockdown of caspase-8" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1206~1222" text="knockout of FADD" description="knock out" />
+<CONTEXT id="C0" spans="943~1011" text="cancer cells including human pancreatic and colorectal  cancer cells" experiment_type="transformed cell line" species="human" />
+<CONTEXT id="C1" spans="1783~1790" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="1830~1851" text="xenograft tumor model" experiment_type="xenotransplantation" species="not stated" />
+<EFFECT id="E0" spans="815~822,836~845" text="trigger ... apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="1105~1123" text="initiate apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E2" spans="1238~1255" text="blocked apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E3" spans="1322~1345" text="no effect on cell death" phenotype="cell death" activity="no effect" />
+<EFFECT id="E4" spans="1657~1675" text="triggers apoptosis" phenotype="apoptosis" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

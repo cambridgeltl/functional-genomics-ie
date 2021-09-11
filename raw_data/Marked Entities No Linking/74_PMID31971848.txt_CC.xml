@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Atg11 is required for initiation of glucose starvation-induced autophagy.
+
+
+How energy deprivation induces macroautophagy/autophagy is not fully understood. 
+Here, we show that Atg11, a receptor protein for cargo recognition in selective 
+autophagy, is required for the initiation of glucose starvation-induced 
+autophagy. Upon glucose starvation, Atg11 facilitates the interaction between 
+Snf1 and Atg1, thus is required for Snf1-dependent Atg1 activation. Phagophore 
+assembly site (PAS) formation requires Atg11 via its control of the association 
+of Atg17 with Atg29-Atg31. The binding of Atg11 with Atg9 is crucial for 
+recruiting Atg9 vesicles to the PAS and, thus, glucose starvation-induced 
+autophagy. We propose Atg11 as a key initiation factor controlling multiple key 
+steps in energy deprivation-induced autophagy.]]></TEXT>
+<TAGS>
+<EFFECT id="E0" spans="692~710" text="induced  autophagy" phenotype="autophagy" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Molecular subtype-specific responses of colon cancer cells to the SMAC mimetic 
+Birinapant.
+
+Colorectal cancer is a molecularly heterogeneous disease. Responses to genotoxic 
+chemotherapy in the adjuvant or palliative setting vary greatly between 
+patients, and colorectal cancer cells often resist chemotherapy by evading 
+apoptosis. Antagonists of an inhibitor of apoptosis proteins (IAPs) can restore 
+defective apoptosis signaling by degrading cIAP1 and cIAP2 proteins and by 
+inhibition of XIAP. Due to the multiple molecular mechanisms-of-action of these 
+targets, responses to IAP antagonist may differ between molecularly distinct 
+colon cancer cells. In this study, responses to the IAP antagonist Birinapant 
+and oxaliplatin/5-fluorouracil (5-FU) were investigated in 14 colon cancer cell 
+lines, representing the consensus molecular subtypes (CMS). Treatment with 
+Birinapant alone did not result in a substantial increase in apoptotic cells in 
+this cell line panel. Annexin-V/PI assays quantified by flow cytometry and 
+high-content screening showed that Birinapant increased responses of CMS1 and 
+partially CMS3 cell lines to oxaliplatin/5-FU, whereas CMS2 cells were not 
+effectively sensitized. FRET-based imaging of caspase-8 and -3 activation 
+validated these differences at the single-cell level, with CMS1 cells displaying 
+sustained activation of caspase-8-like activity during Birinapant and 
+oxaliplatin/5-FU co-treatment, ultimately activating the intrinsic mitochondrial 
+apoptosis pathway. In CMS2 cell lines, Birinapant exhibited synergistic effects 
+in combination with TNFα, suggesting that Birinapant can restore extrinsic 
+apoptosis signaling in the context of inflammatory signals in this subtype. To 
+explore this further, we co-cultured CMS2 and CMS1 colon cancer cells with 
+peripheral blood mononuclear cells. We observed increased cell death during 
+Birinapant single treatment in these co-cultures, which was abrogated by 
+anti-TNFα-neutralizing antibodies. Collectively, our study demonstrates that IAP 
+inhibition is a promising modulator of response to oxaliplatin/5-FU in 
+colorectal cancers of the CMS1 subtype, and may show promise as in the CMS2 
+subtype, suggesting that molecular subtyping may aid as a patient stratification 
+tool for IAP antagonists in this disease.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="778~805" text="14 colon cancer cell  lines" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="962~977" text="cell line panel" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C3" spans="1102~1110,1122~1137" text="CMS1 and ... CMS3 cell lines" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C4" spans="1167~1177" text="CMS2 cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1322~1332" text="CMS1 cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1520~1535" text="CMS2 cell lines" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C7" spans="1760~1845" text="co-cultured CMS2 and CMS1 colon cancer cells with  peripheral blood mononuclear cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="893~910,925~952" text="did not result in ... increase in apoptotic cells" phenotype="apoptosis" activity="no effect" />
+<EFFECT id="E1" spans="1859~1879" text="increased cell death" phenotype="cell death" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

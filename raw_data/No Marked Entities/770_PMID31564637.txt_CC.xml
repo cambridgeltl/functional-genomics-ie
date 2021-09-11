@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[An Evolutionarily Conserved Function of Polycomb Silences the MHC Class I 
+Antigen Presentation Pathway and Enables Immune Evasion in Cancer.
+
+Loss of MHC class I (MHC-I) antigen presentation in cancer cells can elicit 
+immunotherapy resistance. A genome-wide CRISPR/Cas9 screen identified an 
+evolutionarily conserved function of polycomb repressive complex 2 (PRC2) that 
+mediates coordinated transcriptional silencing of the MHC-I antigen processing 
+pathway (MHC-I APP), promoting evasion of T cell-mediated immunity. MHC-I APP 
+gene promoters in MHC-I low cancers harbor bivalent activating H3K4me3 and 
+repressive H3K27me3 histone modifications, silencing basal MHC-I expression and 
+restricting cytokine-induced upregulation. Bivalent chromatin at MHC-I APP genes 
+is a normal developmental process active in embryonic stem cells and maintained 
+during neural progenitor differentiation. This physiological MHC-I silencing 
+highlights a conserved mechanism by which cancers arising from these primitive 
+tissues exploit PRC2 activity to enable immune evasion.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Small molecule-driven NLRP3 inflammation inhibition via interplay between 
+ubiquitination and autophagy: implications for Parkinson disease.
+
+Aging-related, nonresolving inflammation in both the central nervous system 
+(CNS) and periphery predisposes individuals to the development of 
+neurodegenerative disorders (NDDs). Inflammasomes are thought to be especially 
+relevant to immune homeostasis, and their dysregulation contributes to 
+inflammation and NDDs. However, few agents have been clinically shown to reduce 
+NDD incidence by targeting inflammasomes. Our study indicated that NLRP3 (NLR 
+family, pyrin domain containing 3) inflammasome is involved in Parkinson disease 
+(PD) progression in patients and various murine models. In addition, the small 
+molecule kaempferol (Ka) protected mice against LPS- and SNCA-induced 
+neurodegeneration by inhibiting NLRP3 inflammasome activation as evidenced by 
+the fact that Ka reduced cleaved CASP1 expression and disrupted 
+NLRP3-PYCARD-CASP1 complex assembly with concomitant decreased IL1B secretion. 
+Mechanically, Ka promoted macroautophagy/autophagy in microglia, leading to 
+reduced NLRP3 protein expression, which in turn deactivated the NLRP3 
+inflammasome. Intriguingly, ubiquitination was involved in Ka-induced autophagic 
+NLRP3 degradation. These findings were further confirmed in vivo as knockdown of 
+Atg5 expression or autophagy inhibitor treatment significantly inhibited the 
+Ka-mediated NLRP3 inflammasome inhibition and neurodegeneration amelioration. 
+Thus, we demonstrated that Ka promotes neuroinflammatory inhibition via the 
+cooperation of ubiquitination and autophagy, suggesting that Ka is a promising 
+therapeutic strategy for the treatment of NDDs.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1353~1382" text="knockdown of  Atg5 expression" description="knock down" />
+<CONTEXT id="C0" spans="721~734" text="murine models" experiment_type="not stated" species="mouse" />
+<CONTEXT id="C1" spans="1342~1349" text="in vivo" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="1072~1080,1096~1105" text="promoted ... autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E1" spans="1635~1644" text="autophagy" phenotype="autophagy" activity="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

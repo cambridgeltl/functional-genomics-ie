@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Context-dependent functional compensation between Ythdf m(6)A reader proteins.
+
+The N6-methyladenosine (m6A) modification is the most prevalent 
+post-transcriptional mRNA modification, regulating mRNA decay and splicing. It 
+plays a major role during normal development, differentiation, and disease 
+progression. The modification is regulated by a set of writer, eraser, and 
+reader proteins. The YTH domain family of proteins consists of three homologous 
+m6A-binding proteins, Ythdf1, Ythdf2, and Ythdf3, which were suggested to have 
+different cellular functions. However, their sequence similarity and their 
+tendency to bind the same targets suggest that they may have overlapping roles. 
+We systematically knocked out (KO) the Mettl3 writer, each of the Ythdf readers, 
+and the three readers together (triple-KO). We then estimated the effect in vivo 
+in mouse gametogenesis, postnatal viability, and in vitro in mouse embryonic 
+stem cells (mESCs). In gametogenesis, Mettl3-KO severity is increased as the 
+deletion occurs earlier in the process, and Ythdf2 has a dominant role that 
+cannot be compensated by Ythdf1 or Ythdf3, due to differences in readers' 
+expression pattern across different cell types, both in quantity and in spatial 
+location. Knocking out the three readers together and systematically testing 
+viable offspring genotypes revealed a redundancy in the readers' role during 
+early development that is Ythdf1/2/3 gene dosage-dependent. Finally, in mESCs 
+there is compensation between the three Ythdf reader proteins, since the 
+resistance to differentiate and the significant effect on mRNA decay occur only 
+in the triple-KO cells and not in the single KOs. Thus, we suggest a new model 
+for the Ythdf readers function, in which there is profound dosage-dependent 
+redundancy when all three readers are equivalently coexpressed in the same cell 
+types.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="713~747" text="knocked out (KO) the Mettl3 writer" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="975~984" text="Mettl3-KO" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="850~857" text="in vivo" context="in vivo" />
+<CONTEXT id="C1" spans="862~867" text="mouse" context="organism" />
+<CONTEXT id="C2" spans="908~916" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="920~955" text="mouse embryonic  stem cells (mESCs)" context="cells" />
+<CONTEXT id="C4" spans="1476~1481" text="mESCs" context="cells" />
+<PHENOTYPE id="PH0" spans="1571~1584" text="differentiate" phenotype="differentiation" />
+<EFFECT id="E0" spans="1557~1567" text="resistance" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

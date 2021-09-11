@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The P2RY12 receptor promotes VSMC-derived foam cell formation by inhibiting 
+autophagy in advanced atherosclerosis.
+
+Vascular smooth muscle cells (VSMCs) are an important source of foam cells in 
+atherosclerosis. The mechanism for VSMC-derived foam cell formation is, however, 
+poorly understood. Here, we demonstrate that the P2RY12/P2Y12 receptor is 
+important in regulating macroautophagy/autophagy and VSMC-derived foam cell 
+formation in advanced atherosclerosis. Inhibition of the P2RY12 receptor 
+ameliorated lipid accumulation and VSMC-derived foam cell formation in high-fat 
+diet-fed apoe-/- mice (atherosclerosis model) independent of LDL-c levels. 
+Activation of the P2RY12 receptor blocked cholesterol efflux via PI3K-AKT, while 
+genetic knockdown or pharmacological inhibition of the P2RY12 receptor inhibited 
+this effect in VSMCs. Phosphoproteomic analysis showed that the P2RY12 receptor 
+regulated the autophagy pathway in VSMCs. Additionally, activation of the P2RY12 
+receptor inhibited MAP1LC3/LC3 maturation, SQSTM1 degradation, and autophagosome 
+formation in VSMCs. Genetic knockdown of the essential autophagy gene Atg5 
+significantly attenuated P2RY12 receptor inhibitor-induced cholesterol efflux in 
+VSMCs. Furthermore, activation of the P2RY12 receptor led to the activation of 
+MTOR through PI3K-AKT in VSMCs, whereas blocking MTOR activity (rapamycin) or 
+reducing MTOR expression reversed the inhibition of cholesterol efflux mediated 
+by the P2RY12 receptor in VSMCs. In vivo, inhibition of the P2RY12 receptor 
+promoted autophagy of VSMCs through PI3K-AKT-MTOR in advanced atherosclerosis in 
+apoe-/- mice, which could be impeded by an autophagy inhibitor (chloroquine). 
+Therefore, we conclude that activation of the P2RY12 receptor decreases 
+cholesterol efflux and promotes VSMC-derived foam cell formation by blocking 
+autophagy in advanced atherosclerosis. Our study thus suggests that the P2RY12 
+receptor is a therapeutic target for treating atherosclerosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="594~601" text="apoe-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="469~502" text="Inhibition of the P2RY12 receptor" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="661~694" text="Activation of the P2RY12 receptor" perturbingaction="pharmacological augmentation" />
+<PERTURBING_ACTION id="P3" spans="764~813" text="pharmacological inhibition of the P2RY12 receptor" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="962~996" text="activation of the P2RY12  receptor" perturbingaction="pharmacological augmentation" />
+<PERTURBING_ACTION id="P5" spans="1090~1144" text="Genetic knockdown of the essential autophagy gene Atg5" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P6" spans="1248~1281" text="activation of the P2RY12 receptor" perturbingaction="pharmacological augmentation" />
+<PERTURBING_ACTION id="P7" spans="1348~1382" text="blocking MTOR activity (rapamycin)" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P8" spans="1387~1411" text="reducing MTOR expression" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P9" spans="1510~1543" text="inhibition of the P2RY12 receptor" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P10" spans="1627~1634" text="apoe-/-" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="602~606" text="mice" context="organism" />
+<CONTEXT id="C1" spans="539~543" text="VSMC" context="cells" />
+<CONTEXT id="C2" spans="840~845" text="VSMCs" context="cells" />
+<CONTEXT id="C3" spans="1083~1088" text="VSMCs" context="cells" />
+<CONTEXT id="C4" spans="1228~1233" text="VSMCs" context="cells" />
+<CONTEXT id="C5" spans="1333~1338" text="VSMCs" context="cells" />
+<CONTEXT id="C6" spans="1494~1499" text="VSMCs" context="cells" />
+<CONTEXT id="C7" spans="1501~1508" text="In vivo" context="in vivo" />
+<CONTEXT id="C8" spans="1567~1572" text="VSMCs" context="cells" />
+<CONTEXT id="C9" spans="1635~1639" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="1554~1563" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="1545~1553" text="promoted" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P9" perturbing_actionText="inhibition of the P2RY12 receptor" contextID="C8" contextText="VSMCs" effectID="E0" effectText="promoted" phenotypeID="PH0" phenotypeText="autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

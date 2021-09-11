@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+YTHDC1 mitigates ischemic stroke by promoting Akt phosphorylation through 
+destabilizing PTEN mRNA.
+
+YTH Domain Containing 1 (YTHDC1) is one of the m6A readers that is essential for 
+oocyte development and tumor progression. The role of YTHDC1 in neuronal 
+survival and ischemic stroke is unknown. Here, we found that YTHDC1 was 
+unregulated in the early phase of ischemic stroke. Knockdown of YTHDC1 
+exacerbated ischemic brain injury and overexpression of YTHDC1 protected rats 
+against brain injury. Mechanistically, YTHDC1 promoted PTEN mRNA degradation to 
+increase Akt phosphorylation, thus facilitating neuronal survival in particular 
+after ischemia. These data identify YTHDC1 as a novel regulator of neuronal 
+survival and modulating m6A reader YTHDC1 may provide a potential therapeutic 
+target for ischemic stroke.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="382~401" text="Knockdown of YTHDC1" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="441~465" text="overexpression of YTHDC1" description="increased expression level" />
+<CONTEXT id="C0" spans="476~480" text="rats" experiment_type="organism" species="rat" />
+<CONTEXT id="C1" spans="611~619" text="neuronal" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="598~610,620~628" text="facilitating ... survival" phenotype="cell survival" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Chloroquine reverses chemoresistance via upregulation of p21(WAF1/CIP1) and 
+autophagy inhibition in ovarian cancer.
+
+Overcoming drug-resistance is a big challenge to improve the survival of 
+patients with epithelial ovarian cancer (EOC). In this study, we investigated 
+the effect of chloroquine (CQ) and its combination with cisplatin (CDDP) in 
+drug-resistant EOC cells. We used the three EOC cell lines CDDP-resistant 
+A2780-CP20, RMG-1 cells, and CDDP-sensitive A2780 cells. The CQ-CDDP combination 
+significantly decreased cell proliferation and increased apoptosis in all cell 
+lines. The combination induced expression of γH2AX, a DNA damage marker protein, 
+and induced G2/M cell cycle arrest. Although the CQ-CDDP combination decreased 
+protein expression of ATM and ATR, phosphorylation of ATM was increased and 
+expression of p21WAF1/CIP1 was also increased in CQ-CDDP-treated cells. 
+Knockdown of p21WAF1/CIP1 by shRNA reduced the expression of γH2AX and 
+phosphorylated ATM and inhibited caspase-3 activity but induced ATM protein 
+expression. Knockdown of p21WAF1/CIP1 partly inhibited CQ-CDDP-induced G2/M 
+arrest, demonstrating that knockdown of p21WAF1/CIP1 overcame the cytotoxic 
+effect of the CQ-CDDP combination. Ectopic expression of p21WAF1/CIP1 in 
+CDDP-treated ATG5-shRNA/A2780-CP20 cells increased expression of γH2AX and 
+caspase-3 activity, demonstrating increased DNA damage and cell death. The 
+inhibition of autophagy by ATG5-shRNA demonstrated similar results upon CDDP 
+treatment, except p21WAF1/CIP1 expression. In an in vivo efficacy study, the 
+CQ-CDDP combination significantly decreased tumor weight and increased 
+expression of γH2AX and p21WAF1/CIP1 in A2780-CP20 orthotopic xenografts and a 
+drug-resistant patient-derived xenograft model of EOC compared with controls. 
+These results demonstrated that CQ increases cytotoxicity in combination with 
+CDDP by inducing lethal DNA damage by induction of p21WAF1/CIP1 expression and 
+autophagy inhibition in CDDP-resistant EOC.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="897~931" text="Knockdown of p21WAF1/CIP1 by shRNA" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1058~1083" text="Knockdown of p21WAF1/CIP1" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1150~1175" text="knockdown of p21WAF1/CIP1" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1235~1269" text="Ectopic expression of p21WAF1/CIP1" description="other" />
+<PERTURBING_ACTION id="P4" spans="1287~1297" text="ATG5-shRNA" description="knock down" />
+<PERTURBING_ACTION id="P5" spans="1453~1463" text="ATG5-shRNA" description="knock down" />
+<CONTEXT id="C0" spans="386~433" text="three EOC cell lines CDDP-resistant  A2780-CP20" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="435~446" text="RMG-1 cells" species="not stated" experiment_type="transformed cell line" />
+<CONTEXT id="C2" spans="452~478" text="CDDP-sensitive A2780 cells" species="not stated" experiment_type="transformed cell line" />
+<CONTEXT id="C3" spans="579~590" text="cell  lines" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C5" spans="889~894" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1298~1314" text="A2780-CP20 cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C7" spans="1553~1560" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C8" spans="1694~1726" text="A2780-CP20 orthotopic xenografts" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C9" spans="1734~1787" text="drug-resistant patient-derived xenograft model of EOC" experiment_type="xenotransplantation" species="human" />
+<CONTEXT id="C10" spans="1996~2014" text="CDDP-resistant EOC" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C11" spans="529~533" text="cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E1" spans="552~571" text="increased apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E2" spans="671~701" text="induced G2/M cell cycle arrest" phenotype="cell cycle arrest" activity="causes" />
+<EFFECT id="E3" spans="1091~1100,1117~1129" text="inhibited ... G2/M  arrest" phenotype="cell cycle arrest" activity="inhibits" />
+<EFFECT id="E4" spans="1384~1393,1409~1419" text="increased ... cell death" phenotype="cell death" activity="increases" />
+<EFFECT id="E5" spans="1426~1449" text="inhibition of autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E6" spans="1972~1992" text="autophagy inhibition" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E7" spans="519~528,534~547" text="decreased ... proliferation" phenotype="proliferation" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="Ectopic expression of p21WAF1/CIP1" contextID="C6" contextText="A2780-CP20 cells" effectID="E4" effectText="increased ... cell death" />
+</TAGS>
+</Genomics_ConceptTask>

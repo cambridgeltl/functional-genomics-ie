@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Pharmacological restoration of autophagy reduces hypertension-related stroke 
+occurrence.
+
+The identification of the mechanisms predisposing to stroke may improve its 
+preventive and therapeutic strategies in patients with essential hypertension. 
+The role of macroautophagy/autophagy in the development of hypertension-related 
+stroke needs to be clarified. We hypothesized that a defective autophagy may 
+favor hypertension-related spontaneous stroke by promoting mitochondrial 
+dysfunction. We studied autophagy in the stroke-prone spontaneously hypertensive 
+(SHRSP) rat, which represents a clinically relevant model of stroke associated 
+with high blood pressure. We assessed autophagy, mitophagy and NAD+:NADH levels 
+in brains of SHRSP and stroke-resistant SHR fed with high salt diet. Vascular 
+smooth muscle cells silenced for the mitochondrial complex I subunit Ndufc2 gene 
+(NADH:ubiquinone oxidoreductase subunit C2) and cerebral endothelial cells 
+isolated from SHRSP were also used to assess autophagy/mitophagy and 
+mitochondrial function in response to high salt levels. We found a reduction of 
+autophagy in brains of high salt-fed SHRSP. Autophagy impairment was associated 
+with NDUFC2 downregulation, mitochondrial dysfunction and NAD+ depletion. 
+Restoration of NAD+ levels by nicotinamide administration reactivated autophagy 
+and reduced stroke development in SHRSP. A selective reactivation of 
+autophagy/mitophagy by Tat-Beclin 1 also reduced stroke occurrence, restored 
+autophagy/mitophagy and improved mitochondrial function. Endothelial progenitor 
+cells (EPCs) from subjects homozygous for the thymine allele variant at 
+NDUFC2/rs11237379, which is associated with NDUFC2 deficiency and increased 
+stroke risk, displayed an impairment of autophagy and increased senescence in 
+response to high salt levels. EPC senescence was rescued by Tat-Beclin 1. 
+Pharmacological activation of autophagy may represent a novel therapeutic 
+strategy to reduce stroke occurrence in hypertension.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="823~928" text="silenced for the mitochondrial complex I subunit Ndufc2 gene  (NADH:ubiquinone oxidoreductase subunit C2)" description="knock down" />
+<PERTURBING_ACTION id="P5" spans="1604~1712" text=" homozygous for the thymine allele variant at  NDUFC2/rs11237379, which is associated with NDUFC2 deficiency" description="other" />
+<CONTEXT id="C1" spans="522~574" text="stroke-prone spontaneously hypertensive  (SHRSP) rat" experiment_type="organism" species="rat" />
+<CONTEXT id="C2" spans="737~742" text="SHRSP" experiment_type="organism" species="rat" />
+<CONTEXT id="C3" spans="747~767" text="stroke-resistant SHR" experiment_type="organism" species="rat" />
+<CONTEXT id="C4" spans="793~822" text="Vascular  smooth muscle cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="933~980" text="cerebral endothelial cells  isolated from SHRSP" experiment_type="cells" species="rat" />
+<CONTEXT id="C7" spans="1125~1134,1149~1154" text="brains of ... SHRSP" experiment_type="organism" species="rat" />
+<CONTEXT id="C8" spans="1383~1388" text="SHRSP" experiment_type="organism" species="rat" />
+<CONTEXT id="C9" spans="1554~1590" text="Endothelial progenitor  cells (EPCs)" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1098~1121" text="reduction of  autophagy" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E1" spans="1156~1176" text="Autophagy impairment" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E2" spans="1326~1347" text="reactivated autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E3" spans="1487~1506" text="restored  autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E4" spans="1487~1495,1507~1516" text="restored ... mitophagy" phenotype="mitophagy" activity="increases" />
+<EFFECT id="E5" spans="1754~1777" text="impairment of autophagy" phenotype="autophagy" activity="inhibits" />
+<EFFECT id="E6" spans="1782~1802" text="increased senescence" phenotype="senescence" activity="increases" />
+<EFFECT id="E7" spans="1841~1863" text="senescence was rescued" phenotype="senescence" activity="increases" />
+<EFFECT id="E8" spans="1402~1428" text="reactivation of  autophagy" phenotype="autophagy" activity="causes" />
+<EFFECT id="E9" spans="1402~1417,1429~1438" text="reactivation of ... mitophagy" phenotype="mitophagy" activity="causes" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P5" perturbing_actionText=" homozygous for the thymine allele variant at  NDUFC2/rs11237379, which is associated with NDUFC2 deficiency" contextID="C9" contextText="Endothelial progenitor  cells (EPCs)" effectID="E5" effectText="impairment of autophagy" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P5" perturbing_actionText=" homozygous for the thymine allele variant at  NDUFC2/rs11237379, which is associated with NDUFC2 deficiency" contextID="C9" contextText="Endothelial progenitor  cells (EPCs)" effectID="E6" effectText="increased senescence" />
+</TAGS>
+</Genomics_ConceptTask>

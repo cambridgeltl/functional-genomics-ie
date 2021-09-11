@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TXNDC12 promotes EMT and metastasis of hepatocellular carcinoma cells via 
+activation of β-catenin.
+
+Metastasis is one of the main contributors to the poor prognosis of 
+hepatocellular carcinoma (HCC). However, the underlying mechanism of HCC 
+metastasis remains largely unknown. Here, we showed that TXNDC12, a 
+thioredoxin-like protein, was upregulated in highly metastatic HCC cell lines as 
+well as in portal vein tumor thrombus and lung metastasis tissues of HCC 
+patients. We found that the enforced expression of TXNDC12 promoted metastasis 
+both in vitro and in vivo. Subsequent mechanistic investigations revealed that 
+TXNDC12 promoted metastasis through upregulation of the ZEB1-mediated 
+epithelial-mesenchymal transition (EMT) process. We subsequently showed that 
+TXNDC12 overexpression stimulated the nuclear translocation and activation of 
+β-catenin, a positive transcriptional regulator of ZEB1. Accordingly, we found 
+that TXNDC12 interacted with β-catenin and that the thioredoxin-like domain of 
+TXNDC12 was essential for the interaction between TXNDC12 and β-catenin as well 
+as for TXNDC12-mediated β-catenin activation. Moreover, high levels of TXNDC12 
+in clinical HCC tissues correlated with elevated nuclear β-catenin levels and 
+predicted worse overall and disease-free survival. In summary, our study 
+demonstrated that TXNDC12 could activate β-catenin via protein-protein 
+interaction and promote ZEB1-mediated EMT and HCC metastasis.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="497~527" text="enforced expression of TXNDC12" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="778~800" text="TXNDC12 overexpression" description="increased expression level" />
+<CONTEXT id="C0" spans="554~562" text="in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="567~574" text="in vivo" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="528~547" text="promoted metastasis" phenotype="metastasis" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="enforced expression of TXNDC12" contextID="C0" contextText="in vitro" effectID="E0" effectText="promoted metastasis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="enforced expression of TXNDC12" contextID="C1" contextText="in vivo" effectID="E0" effectText="promoted metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Tumor Cell-Derived Angiopoietin-2 Promotes Metastasis in Melanoma.
+
+The angiopoietin (Angpt)-TIE signaling pathway controls vascular maturation and 
+maintains the quiescent phenotype of resting vasculature. The contextual 
+agonistic and antagonistic Tie2 ligand ANGPT2 is believed to be exclusively 
+produced by endothelial cells, disrupting constitutive ANGPT1-TIE2 signaling to 
+destabilize the microvasculature during pathologic disorders like inflammation 
+and cancer. However, scattered reports have also portrayed tumor cells as a 
+source of ANGPT2. Employing ISH-based detection of ANGPT2, we found strong tumor 
+cell expression of ANGPT2 in a subset of patients with melanoma. Comparative 
+analysis of biopsies revealed a higher fraction of ANGPT2-expressing tumor cells 
+in metastatic versus primary sites. Tumor cell-expressed Angpt2 was dispensable 
+for primary tumor growth, yet in-depth analysis of primary tumors revealed 
+enhanced intratumoral necrosis upon silencing of tumor cell Angpt2 expression in 
+the absence of significant immune and vascular alterations. Global 
+transcriptional profiling of Angpt2-deficient tumor cells identified 
+perturbations in redox homeostasis and an increased response to cellular 
+oxidative stress. Ultrastructural analyses illustrated a significant increase of 
+dysfunctional mitochondria in Angpt2-silenced tumor cells, thereby resulting in 
+enhanced reactive oxygen species (ROS) production and downstream MAPK stress 
+signaling. Functionally, enhanced ROS in Angpt2-silenced tumor cells reduced 
+colonization potential in vitro and in vivo. Taken together, these findings 
+uncover the hitherto unappreciated role of tumor cell-expressed ANGPT2 as an 
+autocrine-positive regulator of metastatic colonization and validate ANGPT2 as a 
+therapeutic target for a well-defined subset of patients with melanoma. 
+SIGNIFICANCE: This study reveals that tumor cells can be a source of ANGPT2 in 
+the tumor microenvironment and that tumor cell-derived ANGPT2 augments 
+metastatic colonization by protecting tumor cells from oxidative stress.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="973~1014" text="silencing of tumor cell Angpt2 expression" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1116~1132" text="Angpt2-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1343~1358" text="Angpt2-silenced" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P3" spans="1513~1528" text="Angpt2-silenced" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C1" spans="912~926" text="primary tumors" context="neoplasm" />
+<CONTEXT id="C2" spans="1133~1144" text="tumor cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1359~1370" text="tumor cells" context="transformed cells" />
+<CONTEXT id="C4" spans="1529~1540" text="tumor cells" context="transformed cells" />
+<CONTEXT id="C5" spans="1573~1581" text="in vitro" context="in vitro" />
+<CONTEXT id="C6" spans="1586~1593" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="959~967" text="necrosis" phenotype="necrosis" />
+<PHENOTYPE id="PH2" spans="873~885" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="848~859" text="dispensable" effect="no effect" />
+<EFFECT id="E1" spans="937~945" text="enhanced" effect="positive" />
+<EFFECT id="E2" spans="1541~1548" text="reduced" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="silencing of tumor cell Angpt2 expression" contextID="C1" contextText="primary tumors" phenotypeID="PH0" phenotypeText="necrosis" effectID="E1" effectText="enhanced" />
+</TAGS>
+</Genomics_ConceptTask>

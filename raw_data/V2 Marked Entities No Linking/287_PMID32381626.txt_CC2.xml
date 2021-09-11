@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TEX15 associates with MILI and silences transposable elements in male germ 
+cells.
+
+DNA methylation is a major silencing mechanism of transposable elements (TEs). 
+Here we report that TEX15, a testis-specific protein, is required for TE 
+silencing. TEX15 is expressed in embryonic germ cells and functions during 
+genome-wide epigenetic reprogramming. The Tex15 mutant exhibits DNA 
+hypomethylation in TEs at a level similar to Mili and Dnmt3c but not Miwi2 
+mutants. TEX15 is associated with MILI in testis. As loss of Tex15 causes TE 
+desilencing with intact piRNA production, our results identify TEX15 as a new 
+essential epigenetic regulator that may function as a nuclear effector of MILI 
+to silence TEs by DNA methylation.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="512~525" text="loss of Tex15" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="356~368" text="Tex15 mutant" perturbingaction="other" />
+</TAGS>
+</Genomics_ConceptTask>

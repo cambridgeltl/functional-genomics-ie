@@ -1,0 +1,21 @@
+{
+    "MODE": "deploy",
+    "MODEL": {
+        "TYPE": "existing",
+        "PATH": "outputs/models/BioBERTv11_multi_output_bl05_k4_e36_2021-08-28_00-45.pkl",
+        "EXTRA_PATHS": {
+            "link": "outputs/models/BioBERTv12_linking_bl05_bs4_k4_2021-09-02_08-32.pkl"
+        }
+    },
+    "DATA": {
+        "PATH": "test_deploy_data/test1.txt",
+        "FILETYPE": "txt",
+        "BATCH_SIZE": 8
+    },
+    "DEPLOY": {
+        "LINK": true,
+        "IGNORED_HEADS": ["category"],
+        "OUTPUT": "print"
+    }
+}
+

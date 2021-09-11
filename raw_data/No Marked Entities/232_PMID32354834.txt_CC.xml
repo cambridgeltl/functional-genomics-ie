@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The spatial regulation of condensin activity in chromosome condensation.
+
+Condensin mediates chromosome condensation, which is essential for proper 
+chromosome segregation during mitosis. Prior to anaphase of budding yeast, the 
+ribosomal DNA (RDN) condenses to a thin loop that is distinct from the rest of 
+the chromosomes. We provide evidence that the establishment and maintenance of 
+this RDN condensation requires the regulation of condensin by Cdc5p (polo) 
+kinase. We show that Cdc5p is recruited to the site of condensin binding in the 
+RDN by cohesin, a complex related to condensin. Cdc5p and cohesin prevent 
+condensin from misfolding the RDN into an irreversibly decondensed state. From 
+these and other observations, we propose that the spatial regulation of Cdc5p by 
+cohesin modulates condensin activity to ensure proper RDN folding into a thin 
+loop. This mechanism may be evolutionarily conserved, promoting the thinly 
+condensed constrictions that occur at centromeres and RDN of mitotic chromosomes 
+in plants and animals.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

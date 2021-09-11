@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Senescence Reprogramming by TIMP1 Deficiency Promotes Prostate Cancer 
+Metastasis.
+
+Metastases account for most cancer-related deaths, yet the mechanisms underlying 
+metastatic spread remain poorly understood. Recent evidence demonstrates that 
+senescent cells, while initially restricting tumorigenesis, can induce tumor 
+progression. Here, we identify the metalloproteinase inhibitor TIMP1 as a 
+molecular switch that determines the effects of senescence in prostate cancer. 
+Senescence driven either by PTEN deficiency or chemotherapy limits the 
+progression of prostate cancer in mice. TIMP1 deletion allows senescence to 
+promote metastasis, and elimination of senescent cells with a senolytic BCL-2 
+inhibitor impairs metastasis. Mechanistically, TIMP1 loss reprograms the 
+senescence-associated secretory phenotype (SASP) of senescent tumor cells 
+through activation of matrix metalloproteinases (MMPs). Loss of PTEN and TIMP1 
+in prostate cancer is frequent and correlates with resistance to docetaxel and 
+worst clinical outcomes in patients treated in an adjuvant setting. Altogether, 
+these findings provide insights into the dual roles of tumor-associated 
+senescence and can potentially impact the treatment of prostate cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="506~521" text="PTEN deficiency" description="decreased expression level" />
+<PERTURBING_ACTION id="P1" spans="590~604" text="TIMP1 deletion" description="knock out" />
+<CONTEXT id="C0" spans="565~588" text="prostate cancer in mice" experiment_type="tumour" species="mouse" />
+<EFFECT id="E0" spans="478~495" text="Senescence driven" phenotype="senescence" activity="increases" />
+<EFFECT id="E1" spans="627~645" text="promote metastasis" phenotype="metastasis" activity="increases" />
+<EFFECT id="E2" spans="716~734" text="impairs metastasis" phenotype="metastasis" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

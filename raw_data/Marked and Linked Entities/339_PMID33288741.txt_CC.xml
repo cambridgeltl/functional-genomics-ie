@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+The E3 ligase UBR2 regulates cell death under caspase deficiency via Erk/MAPK 
+pathway.
+
+Escape from cell death is a key event in cancer establishment/progression. While 
+apoptosis is often considered as the main cell death pathway, upon caspase 
+inhibition, cell death is rather delayed than blocked leading to 
+caspase-independent cell death (CICD). Although described for years, CICD's 
+underlying mechanism remains to be identified. Here, we performed a genome-wide 
+siRNA lethality screening and identified the RING-Type E3 Ubiquitin Transferase 
+(UBR2) as a specific regulator of CICD. Strikingly, UBR2 downregulation 
+sensitized cells towards CICD while its overexpression was protective. We 
+established that UBR2-dependent protection from CICD was mediated by the 
+MAPK/Erk pathway. We then observed that UBR2 is overexpressed in several 
+cancers, especially in breast cancers and contributes to CICD resistance. 
+Therefore, our work defines UBR2 as a novel regulator of CICD, found 
+overexpressed in cancer cells, suggesting that its targeting may represent an 
+innovative way to kill tumor cells.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="605~624" text="UBR2 downregulation" description="knock down" />
+<CONTEXT id="C0" spans="637~642" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E1" spans="626~636,643~655" text="sensitized ... towards CICD" phenotype="cell death" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="UBR2 downregulation" contextID="C0" contextText="cells" effectID="E1" effectText="sensitized ... towards CICD" />
+</TAGS>
+</Genomics_ConceptTask>

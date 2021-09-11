@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Downregulation of FOXO3a by DNMT1 promotes breast cancer stem cell properties 
+and tumorigenesis.
+
+Breast cancer stem cells (BCSCs) are tumor initiating cells that can self-renew 
+and are highly tumorigenic and chemoresistant. Therefore, the identification of 
+factors critical for BCSC function is vital for the development of therapies. 
+Here, we report that DNMT1-mediated FOXO3a promoter hypermethylation leads to 
+downregulation of FOXO3a expression in breast cancer. FOXO3a is functionally 
+related to the inhibition of FOXM1/SOX2 signaling and to the consequent 
+suppression of BCSCs properties and tumorigenicity. Moreover, we found that SOX2 
+directly transactivates DNMT1 expression and thereby alters the methylation 
+landscape, which in turn feedback inhibits FOXO3a expression. Inhibition of DNMT 
+activity suppressed tumor growth via regulation of FOXO3a/FOXM1/SOX2 signaling 
+in breast cancer. Clinically, we observed a significant inverse correlation 
+between FOXO3a and FOXM1/SOX2/DNMT1 expression levels, and loss of FOXO3a 
+expression or increased expression of FOXM1, SOX2, and DNMT1 predicted poor 
+prognosis in breast cancer. Collectively, our findings suggest an important role 
+of the DNMT1/FOXO3a/FOXM1/SOX2 pathway in regulating BCSCs properties, 
+suggesting potential therapeutic targets for breast cancer.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="894~907" text="breast cancer" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="820~843" text="suppressed tumor growth" phenotype="tumour growth" activity="decreases" />
+</TAGS>
+</Genomics_ConceptTask>

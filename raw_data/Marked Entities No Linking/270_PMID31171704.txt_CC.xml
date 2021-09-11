@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Ribosome queuing enables non-AUG translation to be resistant to multiple protein 
+synthesis inhibitors.
+
+Aberrant translation initiation at non-AUG start codons is associated with 
+multiple cancers and neurodegenerative diseases. Nevertheless, how non-AUG 
+translation may be regulated differently from canonical translation is poorly 
+understood. Here, we used start codon-specific reporters and ribosome profiling 
+to characterize how translation from non-AUG start codons responds to protein 
+synthesis inhibitors in human cells. These analyses surprisingly revealed that 
+translation of multiple non-AUG-encoded reporters and the endogenous GUG-encoded 
+DAP5 (eIF4G2/p97) mRNA is resistant to cycloheximide (CHX), a translation 
+inhibitor that severely slows but does not completely abrogate elongation. Our 
+data suggest that slowly elongating ribosomes can lead to queuing/stacking of 
+scanning preinitiation complexes (PICs), preferentially enhancing recognition of 
+weak non-AUG start codons. Consistent with this model, limiting PIC formation or 
+scanning sensitizes non-AUG translation to CHX. We further found that non-AUG 
+translation is resistant to other inhibitors that target ribosomes within the 
+coding sequence but not those targeting newly initiated ribosomes. Together, 
+these data indicate that ribosome queuing enables mRNAs with poor initiation 
+context-namely, those with non-AUG start codons-to be resistant to 
+pharmacological translation inhibitors at concentrations that robustly inhibit 
+global translation.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="520~531" text="human cells" experiment_type="cells" species="human" />
+</TAGS>
+</Genomics_ConceptTask>

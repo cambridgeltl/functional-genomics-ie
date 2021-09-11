@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Ubiquitination of UVRAG by SMURF1 promotes autophagosome maturation and inhibits 
+hepatocellular carcinoma growth.
+
+UVRAG (UV radiation resistance associated) is an important regulator of 
+mammalian macroautophagy/autophagy by interacting with BECN1, PIK3C3, and RUBCN. 
+Phosphorylation of UVRAG by MTORC1 negatively regulates autophagosome maturation 
+under nutrient-enriched conditions. However, how UVRAG ubiquitination is 
+regulated is still unknown. Here we report that UVRAG is ubiquitinated by SMURF1 
+at lysine residues 517 and 559, which decreases the association of UVRAG with 
+RUBCN and promotes autophagosome maturation. However, the deubiquitinase ZRANB1 
+specifically cleaves SMURF1-induced K29 and K33-linked polyubiquitin chains from 
+UVRAG, thereby increasing the binding of UVRAG to RUBCN and inhibiting autophagy 
+flux. We also demonstrate that CSNK1A1-mediated UVRAG phosphorylation at Ser522 
+disrupts the binding of SMURF1 to UVRAG through PPxY motif and blocks UVRAG 
+ubiquitination-mediated autophagosome maturation. Interestingly, ZRANB1 is 
+phosphorylated at Thr35, and Ser209 residues by CSNK1A1, and this 
+phosphorylation activates its deubiquitinating activity. Importantly, we provide 
+in vitro and in vivo evidence that UVRAG ubiquitination at lysine residues 517 
+and 559 or prevention of Ser522 phosphorylation by D4476, a CSNK1A1 inhibitor, 
+enhances the lysosomal degradation of EGFR, which significantly inhibits 
+hepatocellular carcinoma (HCC) growth. Furthermore, UVRAG S522 phosphorylation 
+levels correlate with ZRANB1 T35/S209 phosphorylation levels and poor prognosis 
+in HCC patients. These findings identify a novel molecular mechanism by which 
+ubiquitination and phosphorylation of UVRAG regulate its function in 
+autophagosome maturation and HCC growth, encouraging further study of their 
+potential therapeutic implications. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1356~1373" text="CSNK1A1 inhibitor" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1450~1480" text="hepatocellular carcinoma (HCC)" context="neoplasm" />
+<CONTEXT id="C1" spans="1216~1224" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="1229~1236" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="1481~1487" text="growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="1440~1448" text="inhibits" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="CSNK1A1 inhibitor" contextID="C0" contextText="hepatocellular carcinoma (HCC)" effectID="E0" effectText="inhibits" phenotypeID="PH0" phenotypeText="growth" />
+</TAGS>
+</Genomics_ConceptTask>

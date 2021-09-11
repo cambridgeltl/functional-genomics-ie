@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SARS-CoV-2 infection is associated with a pro-thrombotic platelet phenotype.
+
+Novel coronavirus disease 2019 (COVID-19) is associated with a hypercoagulable 
+state, characterized by abnormal coagulation parameters and by increased 
+incidence of cardiovascular complications. With this study, we aimed to 
+investigate the activation state and the expression of transmembrane proteins in 
+platelets of hospitalized COVID-19 patients. We investigated transmembrane 
+proteins expression with a customized mass cytometry panel of 21 antibodies. 
+Platelets of 8 hospitalized COVID-19 patients not requiring intensive care 
+support and without pre-existing conditions were compared to platelets of 
+healthy controls (11 donors) with and without in vitro stimulation with thrombin 
+receptor-activating peptide (TRAP). Mass cytometry of non-stimulated platelets 
+detected an increased surface expression of activation markers P-Selectin (0.67 
+vs. 1.87 median signal intensity for controls vs. patients, p = 0.0015) and 
+LAMP-3 (CD63, 0.37 vs. 0.81, p = 0.0004), the GPIIb/IIIa complex (4.58 vs. 5.03, 
+p < 0.0001) and other adhesion molecules involved in platelet activation and 
+platelet-leukocyte interactions. Upon TRAP stimulation, mass cytometry detected 
+a higher expression of P-selectin in COVID-19 samples compared to controls 
+(p < 0.0001). However, we observed a significantly reduced capacity of COVID-19 
+platelets to increase the expression of activation markers LAMP-3 and P-Selectin 
+upon stimulation with TRAP. We detected a hyperactivated phenotype in platelets 
+during SARS-CoV-2 infection, consisting of highly expressed platelet activation 
+markers, which might contribute to the hypercoagulopathy observed in COVID-19. 
+In addition, several transmembrane proteins were more highly expressed compared 
+to healthy controls. These findings support research projects investigating 
+antithrombotic and antiplatelet treatment regimes in COVID-19 patients, and 
+provide new insights on the phenotypical platelet expression during SARS-CoV-2 
+infection.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

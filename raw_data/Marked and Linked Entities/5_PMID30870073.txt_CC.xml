@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[METTL3 and ALKBH5 oppositely regulate m(6)A modification of TFEB mRNA, which 
+dictates the fate of hypoxia/reoxygenation-treated cardiomyocytes.
+
+N6-methyladenosine (m6A) mRNA modifications play critical roles in various 
+biological processes. However, no study addresses the role of m6A in 
+macroautophagy/autophagy. Here, we show that m6A modifications are increased in 
+H/R-treated cardiomyocytes and ischemia/reperfusion (I/R)-treated mice heart. We 
+found that METTL3 (methyltransferase like 3) is the primary factor involved in 
+aberrant m6A modification. Silencing METTL3 enhances autophagic flux and 
+inhibits apoptosis in H/R-treated cardiomyocytes. However, overexpression of 
+METTL3 or inhibition of the RNA demethylase ALKBH5 has an opposite effect, 
+suggesting that METTL3 is a negative regulator of autophagy. Mechanistically, 
+METTL3 methylates TFEB, a master regulator of lysosomal biogenesis and autophagy 
+genes, at two m6A residues in the 3'-UTR, which promotes the association of the 
+RNA-binding protein HNRNPD with TFEB pre-mRNA and subsequently decreases the 
+expression levels of TFEB. Further experiments show that autophagic flux 
+enhanced by METTL3 deficiency is TFEB dependent. In turn, TFEB regulates the 
+expression levels of METTL3 and ALKBH5 in opposite directions: it induces ALKBH5 
+and inhibits METTL3. TFEB binds to the ALKBH5 promoter and activates its 
+transcription. In contrast, inhibition of METTL3 by TFEB does not involve 
+transcriptional repression but rather downregulation of mRNA stability, thereby 
+establishing a negative feedback loop. Together, our work uncovers a critical 
+link between METTL3-ALKBH5 and autophagy, providing insight into the functional 
+importance of the reversible mRNA m6A methylation and its modulators in ischemic 
+heart disease.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="562~578" text="Silencing METTL3" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="668~693" text="overexpression of  METTL3" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="697~737" text="inhibition of the RNA demethylase ALKBH5" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1169~1186" text="METTL3 deficiency" description="decreased expression level" />
+<CONTEXT id="C0" spans="385~399" text="cardiomyocytes" experiment_type="primary culture" species="not stated" />
+<CONTEXT id="C1" spans="439~449" text="mice heart" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="643~657" text="cardiomyocytes" experiment_type="primary culture" species="not stated" />
+<EFFECT id="E0" spans="609~627" text="inhibits apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E1" spans="791~822" text="negative regulator of autophagy" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E2" spans="579~603" text="enhances autophagic flux" phenotype="autophagy" activity="increases" />
+<EFFECT id="E3" spans="1140~1165" text="autophagic flux  enhanced" phenotype="autophagy" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Silencing METTL3" contextID="C2" contextText="cardiomyocytes" effectID="E2" effectText="enhances autophagic flux" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Silencing METTL3" contextID="C2" contextText="cardiomyocytes" effectID="E0" effectText="inhibits apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hypoxia-induced autophagy drives colorectal cancer initiation and progression by 
+activating the PRKC/PKC-EZR (ezrin) pathway.
+
+In solid tumors, cancer stem cells (CSCs) or tumor-initiating cells (TICs) are 
+often found in hypoxic niches. Nevertheless, the influence of hypoxia on TICs is 
+poorly understood. Using previously established, TIC-enrichedpatient-derived 
+colorectal cancer (CRC) cultures, we show that hypoxia increases the 
+self-renewal capacity of TICs while inducing proliferation arrest in their more 
+differentiated counterpart cultures. Gene expression data revealed 
+macroautophagy/autophagy as one of the major pathways induced by hypoxia in 
+TICs. Interestingly, hypoxia-induced autophagy was found to induce 
+phosphorylation of EZR (ezrin) at Thr567 residue, which could be reversed by 
+knocking down ATG5, BNIP3, BNIP3L, or BECN1. Furthermore, we identified 
+PRKCA/PKCα as a potential kinase involved in hypoxia-induced autophagy-mediated 
+TIC self-renewal. Genetic targeting of autophagy or pharmacological inhibition 
+of PRKC/PKC and EZR resulted in decreased tumor-initiating potential of TICs. In 
+addition, we observed significantly reduced in vivo tumor initiation and growth 
+after a stable knockdown of ATG5. Analysis of human CRC samples showed that 
+p-EZR is often present in TICs located in the hypoxic and autophagic regions of 
+the tumor. Altogether, our results establish the hypoxia-autophagy-PKC-EZR 
+signaling axis as a novel regulatory mechanism of TIC self-renewal and CRC 
+progression. Autophagy inhibition might thus represent a promising therapeutic 
+strategy for cancer patients.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="810~853" text="knocking down ATG5, BNIP3, BNIP3L, or BECN1" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1016~1063" text="pharmacological inhibition  of PRKC/PKC and EZR" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1215~1239" text="stable knockdown of ATG5" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="463~467" text="TICs" context="transformed cells" />
+<CONTEXT id="C1" spans="964~967" text="TIC" context="transformed cells" />
+<CONTEXT id="C2" spans="1116~1120" text="TICs" context="transformed cells" />
+<CONTEXT id="C3" spans="1170~1177" text="in vivo" context="in vivo" />
+<CONTEXT id="C4" spans="339~400" text="TIC-enrichedpatient-derived  colorectal cancer (CRC) cultures" context="transformed cells" />
+<CONTEXT id="C5" spans="519~554" text="differentiated counterpart cultures" context="cells" />
+<CONTEXT id="C6" spans="664~668" text="TICs" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="438~459" text="self-renewal capacity" phenotype="self-renewal" />
+<PHENOTYPE id="PH1" spans="483~496" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH3" spans="701~710" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH4" spans="944~953" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH5" spans="968~980" text="self-renewal" phenotype="self-renewal" />
+<PHENOTYPE id="PH6" spans="1086~1112" text="tumor-initiating potential" phenotype="tumour initiation" />
+<PHENOTYPE id="PH7" spans="1178~1194" text="tumor initiation" phenotype="tumour initiation" />
+<PHENOTYPE id="PH9" spans="602~611" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="423~432" text="increases" effect="positive" />
+<EFFECT id="E1" spans="474~482" text="inducing" effect="positive" />
+<EFFECT id="E2" spans="497~503" text="arrest" effect="negative" />
+<EFFECT id="E3" spans="693~700" text="induced" effect="positive" />
+<EFFECT id="E4" spans="936~943" text="induced" effect="positive" />
+<EFFECT id="E5" spans="954~962" text="mediated" effect="regulates" />
+<EFFECT id="E6" spans="1076~1085" text="decreased" effect="negative" />
+<EFFECT id="E7" spans="1162~1169" text="reduced" effect="negative" />
+<EFFECT id="E8" spans="641~648" text="induced" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="pharmacological inhibition  of PRKC/PKC and EZR" effectID="E6" effectText="decreased" phenotypeID="PH6" phenotypeText="tumor-initiating potential" contextID="C2" contextText="TICs" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="stable knockdown of ATG5" contextID="C3" contextText="in vivo" phenotypeID="PH7" phenotypeText="tumor initiation" effectID="E7" effectText="reduced" />
+</TAGS>
+</Genomics_ConceptTask>

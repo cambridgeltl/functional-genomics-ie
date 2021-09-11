@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[YAP and AP-1 Cooperate to Initiate Pancreatic Cancer Development from Ductal 
+Cells in Mice.
+
+The development of pancreatic cancer is heavily dependent upon the aberrant 
+activation of KRAS signaling. Among the downstream targets of KRAS, the 
+effectors of the Hippo pathway YAP and TAZ (YAP/TAZ) are crucial during cancer 
+initiation and progression. However, little is known about the cell 
+type-specific effects of YAP/TAZ on the development of pancreatic cancer. Here 
+we clarify the unique consequences of YAP/TAZ activation in the ductal cell 
+population of the pancreas by generating mice with pancreatic duct 
+cell-specific, inducible knockouts of Lats1 and Lats2, the main kinases upstream 
+of YAP/TAZ. Oncogenic activation of YAP by deletion of Lats1/2 in ductal cells 
+led to the rapid transformation of the pancreas, which was accompanied by a 
+robust increase in the expression of YAP and AP-1 target genes. Pharmacologic 
+inhibition of AP-1 activity induced death in Lats1/2 knockout organoids and 
+attenuated YAP-dependent transformation of the pancreas in vivo. Both YAP and 
+AP-1 were activated during the development of KRAS-dependent cancer in mice and 
+human patients with pancreatic ductal adenocarcinoma, suggesting that this 
+signaling hub represents an important mediator of pancreatic cancer development 
+and progression. Collectively, these data define a YAP-dependent mechanism of 
+pancreatic cancer cell development and suggest that inhibition of AP-1 can 
+suppress this development.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="601~671" text="pancreatic duct  cell-specific, inducible knockouts of Lats1 and Lats2" description="conditional knock out" />
+<PERTURBING_ACTION id="P2" spans="981~997" text="Lats1/2 knockout" description="knock out" />
+<PERTURBING_ACTION id="P3" spans="921~963" text="Pharmacologic  inhibition of AP-1 activity" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P5" spans="743~778" text="deletion of Lats1/2 in ductal cells" description="conditional knock out" />
+<CONTEXT id="C0" spans="591~595" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="998~1007" text="organoids" experiment_type="organoid culture" species="not stated" />
+<CONTEXT id="C3" spans="1060~1076" text="pancreas in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C4" spans="1163~1167" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C5" spans="1173~1225" text="human patients with pancreatic ductal adenocarcinoma" experiment_type="organism" species="human" />
+<CONTEXT id="C6" spans="819~827" text="pancreas" experiment_type="organism" species="not stated" />
+<EFFECT id="E0" spans="780~786,797~811" text="led to ... transformation" phenotype="transformation" activity="causes" />
+<EFFECT id="E2" spans="964~977" text="induced death" phenotype="cell death" activity="causes" />
+<EFFECT id="E3" spans="1013~1023,1038~1052" text="attenuated ... transformation" phenotype="transformation" activity="decreases" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P5" perturbing_actionText="deletion of Lats1/2 in ductal cells" contextID="C6" contextText="pancreas" effectID="E0" effectText="led to ... transformation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P3" perturbing_actionText="Pharmacologic  inhibition of AP-1 activity" contextID="C2" contextText="organoids" effectID="E2" effectText="induced death" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P3" perturbing_actionText="Pharmacologic  inhibition of AP-1 activity" contextID="C3" contextText="pancreas in vivo" effectID="E3" effectText="attenuated ... transformation" />
+</TAGS>
+</Genomics_ConceptTask>

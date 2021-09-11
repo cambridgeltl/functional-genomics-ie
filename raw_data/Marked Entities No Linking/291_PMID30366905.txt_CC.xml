@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Requirement for NF-κB in maintenance of molecular and behavioral circadian 
+rhythms in mice.
+
+The mammalian circadian clock is encoded by an autoregulatory transcription 
+feedback loop that drives rhythmic behavior and gene expression in the brain and 
+peripheral tissues. Transcriptomic analyses indicate cell type-specific effects 
+of circadian cycles on rhythmic physiology, although how clock cycles respond to 
+environmental stimuli remains incompletely understood. Here, we show that 
+activation of the inducible transcription factor NF-κB in response to 
+inflammatory stimuli leads to marked inhibition of clock repressors, including 
+the Period, Cryptochrome, and Rev-erb genes, within the negative limb. 
+Furthermore, activation of NF-κB relocalizes the clock components CLOCK/BMAL1 
+genome-wide to sites convergent with those bound by NF-κB, marked by acetylated 
+H3K27, and enriched in RNA polymerase II. Abrogation of NF-κB during adulthood 
+alters the expression of clock repressors, disrupts clock-controlled gene 
+cycles, and impairs rhythmic activity behavior, revealing a role for NF-κB in 
+both unstimulated and activated conditions. Together, these data highlight 
+NF-κB-mediated transcriptional repression of the clock feedback limb as a cause 
+of circadian disruption in response to inflammation.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="916~935" text="Abrogation of NF-κB" description="decreased expression level" />
+</TAGS>
+</Genomics_ConceptTask>

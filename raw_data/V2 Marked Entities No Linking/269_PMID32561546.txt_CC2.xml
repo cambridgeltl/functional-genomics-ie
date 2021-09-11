@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Collapse of the hepatic gene regulatory network in the absence of FoxA factors.
+
+The FoxA transcription factors are critical for liver development through their 
+pioneering activity, which initiates a highly complex regulatory network thought 
+to become progressively resistant to the loss of any individual hepatic 
+transcription factor via mutual redundancy. To investigate the dispensability of 
+FoxA factors for maintaining this regulatory network, we ablated all FoxA genes 
+in the adult mouse liver. Remarkably, loss of FoxA caused rapid and massive 
+reduction in the expression of critical liver genes. Activity of these genes was 
+reduced back to the low levels of the fetal prehepatic endoderm stage, leading 
+to necrosis and lethality within days. Mechanistically, we found FoxA proteins 
+to be required for maintaining enhancer activity, chromatin accessibility, 
+nucleosome positioning, and binding of HNF4α. Thus, the FoxA factors act 
+continuously, guarding hepatic enhancer activity throughout adult life.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="487~504" text="adult mouse liver" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="722~730" text="necrosis" phenotype="necrosis" />
+<EFFECT id="E0" spans="710~721" text="leading  to" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

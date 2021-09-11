@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TRIM17 and TRIM28 antagonistically regulate the ubiquitination and 
+anti-apoptotic activity of BCL2A1.
+
+BCL2A1 is an anti-apoptotic member of the BCL-2 family that contributes to 
+chemoresistance in a subset of tumors. BCL2A1 has a short half-life due to its 
+constitutive processing by the ubiquitin-proteasome system. This constitutes a 
+major tumor-suppressor mechanism regulating BCL2A1 function. However, the 
+enzymes involved in the regulation of BCL2A1 protein stability are currently 
+unknown. Here, we provide the first insight into the regulation of BCL2A1 
+ubiquitination. We present evidence that TRIM28 is an E3 ubiquitin-ligase for 
+BCL2A1. Indeed, endogenous TRIM28 and BCL2A1 bind to each other at the 
+mitochondria and TRIM28 knock-down decreases BCL2A1 ubiquitination. We also show 
+that TRIM17 stabilizes BCL2A1 by blocking TRIM28 from binding and ubiquitinating 
+BCL2A1, and that GSK3 is involved in the phosphorylation-mediated inhibition of 
+BCL2A1 degradation. BCL2A1 and its close relative MCL1 are thus regulated by 
+common factors but with opposite outcome. Finally, overexpression of TRIM28 or 
+knock-out of TRIM17 reduced BCLA1 protein levels and restored sensitivity of 
+melanoma cells to BRAF-targeted therapy. Therefore, our data describe a 
+molecular rheostat in which two proteins of the TRIM family antagonistically 
+regulate BCL2A1 stability and modulate cell death.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="736~753" text="TRIM28 knock-down" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1093~1117" text="overexpression of TRIM28" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="1122~1141" text="knock-out of TRIM17" description="knock out" />
+<CONTEXT id="C0" spans="1200~1214" text="melanoma cells" experiment_type="transformed cell line" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

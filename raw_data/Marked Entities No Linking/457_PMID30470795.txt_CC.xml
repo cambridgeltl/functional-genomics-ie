@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Impact of elevated anti-apoptotic MCL-1 and BCL-2 on the development and 
+treatment of MLL-AF9 AML in mice.
+
+Many acute myeloid leukaemias (AMLs) express high levels of BCL-2 and MCL-1, 
+especially after therapy. To test the impact of these anti-apoptotic proteins on 
+AML development and treatment, we used haemopoietic reconstitution to generate 
+MLL-AF9 AMLs expressing BCL-2 or Mcl-1 transgenes. AMLs with elevated BCL-2 or 
+MCL-1 had a higher proportion of mature myeloid cells but, like conventional 
+MLL-AF9 AMLs, were readily transplantable. Short-term cell lines established 
+from multiple primary AMLs of each genotype were tested in vitro for 
+susceptibility to chemotherapeutics currently used for treating AML 
+(daunorubicin, etoposide, cytarabine); the proteasome inhibitor bortezomib; 
+CDK7/9 inhibitors; and BH3 mimetics, which bind and inhibit pro-survival 
+proteins. The BH3 mimetics tested, alone and in combination with the other 
+drugs, were: ABT-737 which, like its clinical counterpart navitoclax, targets 
+BCL-2, BCL-XL and BCL-W; BCL-2-specific ABT-199 (venetoclax); BCL-XL-specific 
+A-1331852; and S63845, a new MCL-1-specific BH3 mimetic. As single agents, 
+daunorubicin and bortezomib had the greatest efficacy. Elevated MCL-1 or BCL-2 
+reduced sensitivity to daunorubicin but, surprisingly, not to bortezomib. MCL-1 
+markedly enhanced resistance to ABT-737 and ABT-199 but not S63845, and BCL-2 
+increased resistance to S63845 but not to ABT-737 or ABT-199. Notable synergies 
+were achieved by combining BH3 mimetics with daunorubicin: S63845 increased the 
+sensitivity of both MCL-1 and BCL-2 overexpressing MLL-AF9 AMLs, and ABT-737 
+aided in killing those overexpressing BCL-2. Synergy between daunorubicin and 
+ABT-199 was also apparent in vivo, although not curative. Impressive synergistic 
+responses were achieved for human MLL-fusion AML cell lines treated with 
+daunorubicin plus either ABT-737, ABT-199 or S63845, and with ABT-199 plus 
+S63845, with or without daunorubicin. Our data suggest that AML patients may 
+benefit from combining conventional cytotoxic drugs with BH3 mimetics targeting 
+BCL-2 or MCL-1 or, if tolerated, both these agents.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1607~1612,1623~1637" text="MCL-1 ... overexpressing" description="increased expression level" />
+<PERTURBING_ACTION id="P1" spans="1617~1637" text="BCL-2 overexpressing" description="increased expression level" />
+<PERTURBING_ACTION id="P2" spans="1688~1708" text="overexpressing BCL-2" description="increased expression level" />
+<CONTEXT id="C0" spans="1638~1650" text="MLL-AF9 AMLs" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1770~1777" text="in vivo" experiment_type="organism" species="not stated" />
+<CONTEXT id="C2" spans="1854~1885" text="human MLL-fusion AML cell lines" experiment_type="transformed cell line" species="human" />
+<CONTEXT id="C3" spans="550~611" text="Short-term cell lines established  from multiple primary AMLs" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C4" spans="641~649" text="in vitro" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

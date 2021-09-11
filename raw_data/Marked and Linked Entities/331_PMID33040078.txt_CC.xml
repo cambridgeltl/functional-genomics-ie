@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Splicing factor SF3B1 promotes endometrial cancer progression via regulating 
+KSR2 RNA maturation.
+
+Although endometrial cancer is the most common cancer of the female reproductive 
+tract, we have little understanding of what controls endometrial cancer beyond 
+the transcriptional effects of steroid hormones such as estrogen. As a result, 
+we have limited therapeutic options for the ~62,000 women diagnosed with 
+endometrial cancer each year in the United States. Here, in an attempt to 
+identify new prognostic and therapeutic targets, we focused on a new area for 
+this cancer-alternative mRNA splicing-and investigated whether splicing factor, 
+SF3B1, plays an important role in endometrial cancer pathogenesis. Using a 
+tissue microarray, we found that human endometrial tumors expressed more SF3B1 
+protein than non-cancerous tissues. Furthermore, SF3B1 knockdown reduced in 
+vitro proliferation, migration, and invasion of the endometrial cancer cell 
+lines Ishikawa and AN3CA. Similarly, the SF3B1 inhibitor, Pladienolide-B 
+(PLAD-B), reduced the Ishikawa and AN3CA cell proliferation and invasion in 
+vitro. Moreover, PLAD-B reduced tumor growth in an orthotopic endometrial cancer 
+mouse model. Using RNA-Seq approach, we identified ~2000 differentially 
+expressed genes (DEGs) with SF3B1 knockdown in endometrial cancer cells. 
+Additionally, alternative splicing (AS) events analysis revealed that SF3B1 
+depletion led to alteration in multiple categories of AS events including 
+alternative exon skipping (ES), transcript start site usage (TSS), and 
+transcript termination site (TTS) usage. Subsequently, bioinformatics analysis 
+showed KSR2 as a potential candidate for SF3B1-mediated functions in endometrial 
+cancer. Specifically, loss of SF3B1 led to decrease in KSR2 expression, owing to 
+reduced maturation of KSR2 pre-mRNA to a mature RNA. Importantly, we found 
+rescuing the KSR2 expression with SF3B1 knockdown partially restored the cell 
+growth of endometrial cancer cells. Taken together, our data suggest that SF3B1 
+plays a crucial oncogenic role in the tumorigenesis of endometrial cancer and 
+hence may support the development of SF3B1 inhibitors to treat this disease.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="856~871" text="SF3B1 knockdown" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1002~1043" text="SF3B1 inhibitor, Pladienolide-B  (PLAD-B)" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1295~1310" text="SF3B1 knockdown" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="1411~1427" text="SF3B1  depletion" description="decreased expression level" />
+<PERTURBING_ACTION id="P4" spans="1749~1762" text="loss of SF3B1" description="decreased expression level" />
+<PERTURBING_ACTION id="P5" spans="1919~1934" text="SF3B1 knockdown" description="knock down" />
+<CONTEXT id="C3" spans="1057~1080" text="Ishikawa and AN3CA cell" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C4" spans="1108~1117" text="in  vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1163~1205" text="orthotopic endometrial cancer  mouse model" experiment_type="organism" species="mouse" />
+<CONTEXT id="C6" spans="1314~1338" text="endometrial cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C7" spans="1974~1998" text="endometrial cancer cells" species="not stated" experiment_type="transformed cell line" />
+<CONTEXT id="C8" spans="880~889" text="in  vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C9" spans="936~985" text="endometrial cancer cell  lines Ishikawa and AN3CA" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="872~879,890~903" text="reduced ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E1" spans="872~879,905~914" text="reduced ... migration" phenotype="migration" activity="decreases" />
+<EFFECT id="E2" spans="872~879,920~928" text="reduced ... invasion" phenotype="invasion" activity="decreases" />
+<EFFECT id="E3" spans="1045~1052,1081~1094" text="reduced ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E4" spans="1045~1052,1099~1107" text="reduced ... invasion" phenotype="invasion" activity="decreases" />
+<EFFECT id="E5" spans="1136~1156" text="reduced tumor growth" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E6" spans="1945~1970" text="restored the cell  growth" phenotype="cell growth" activity="increases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="SF3B1 knockdown" effectID="E0" effectText="reduced ... proliferation" contextID="C8" contextText="in  vitro" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="SF3B1 knockdown" contextID="C8" contextText="in  vitro" effectID="E1" effectText="reduced ... migration" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="SF3B1 knockdown" contextID="C8" contextText="in  vitro" effectID="E2" effectText="reduced ... invasion" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="SF3B1 knockdown" contextID="C9" contextText="endometrial cancer cell  lines Ishikawa and AN3CA" effectID="E0" effectText="reduced ... proliferation" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P0" perturbing_actionText="SF3B1 knockdown" contextID="C9" contextText="endometrial cancer cell  lines Ishikawa and AN3CA" effectID="E1" effectText="reduced ... migration" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P0" perturbing_actionText="SF3B1 knockdown" contextID="C9" contextText="endometrial cancer cell  lines Ishikawa and AN3CA" effectID="E2" effectText="reduced ... invasion" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P1" perturbing_actionText="SF3B1 inhibitor, Pladienolide-B  (PLAD-B)" contextID="C3" contextText="Ishikawa and AN3CA cell" effectID="E3" effectText="reduced ... proliferation" />
+<ENTITY_LINKING id="EN7" perturbing_actionID="P1" perturbing_actionText="SF3B1 inhibitor, Pladienolide-B  (PLAD-B)" contextID="C3" contextText="Ishikawa and AN3CA cell" effectID="E4" effectText="reduced ... invasion" />
+<ENTITY_LINKING id="EN8" perturbing_actionID="P1" perturbing_actionText="SF3B1 inhibitor, Pladienolide-B  (PLAD-B)" contextID="C4" contextText="in  vitro" effectID="E3" effectText="reduced ... proliferation" />
+<ENTITY_LINKING id="EN9" perturbing_actionID="P1" perturbing_actionText="SF3B1 inhibitor, Pladienolide-B  (PLAD-B)" contextID="C4" contextText="in  vitro" effectID="E4" effectText="reduced ... invasion" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Extracellular Vesicles from Cancer-Associated Fibroblasts Containing Annexin A6 
+Induces FAK-YAP Activation by Stabilizing β1 Integrin, Enhancing Drug 
+Resistance.
+
+Extracellular vesicles (EV) from cancer-associated fibroblasts (CAF) are 
+composed of diverse payloads. Although CAFs impact the aggressive 
+characteristics of gastric cancer cells, the contribution of CAF-EV to gastric 
+cancer progression has not been elucidated. Here, we investigated the molecular 
+mechanism of the changes in gastric cancer characteristics induced by CAF-EV. 
+CAF abundance in gastric cancer tissues was associated with poor prognosis of 
+patients with gastric cancer receiving chemotherapy. Moreover, CAF-EV induced 
+tubular network formation and drug resistance of gastric cancer cells in the 
+extracellular matrix (ECM). Comprehensive proteomic analysis of CAF-EV 
+identified that Annexin A6 plays a pivotal role in network formation and drug 
+resistance of gastric cancer cells in the ECM via activation of β1 
+integrin-focal adhesion kinase (FAK)-YAP. A peritoneal metastasis mouse model 
+revealed that CAF-EV induced drug resistance in peritoneal tumors, and 
+inhibition of FAK or YAP efficiently attenuated gastric cancer drug resistance 
+in vitro and in vivo. These findings demonstrate that drug resistance is 
+conferred by Annexin A6 in CAF-EV and provide a potential avenue for overcoming 
+gastric cancer drug resistance through the inhibition of FAK-YAP signaling in 
+combination with conventional chemotherapeutics.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1152~1169" text="inhibition of FAK" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1152~1165,1173~1176" text="inhibition of ... YAP" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="753~773" text="gastric cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1045~1078" text="peritoneal metastasis mouse model" experiment_type="organism" species="mouse" />
+<CONTEXT id="C2" spans="1128~1145" text="peritoneal tumors" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C3" spans="1200~1214,1232~1240" text="gastric cancer ... in vitro" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1200~1214,1245~1252" text="gastric cancer ... in vivo" experiment_type="tumour" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

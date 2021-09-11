@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Apoptosis-inducing factor (Aif1) mediates anacardic acid-induced apoptosis in 
+Saccharomyces cerevisiae.
+
+Anacardic acid is a medicinal phytochemical that inhibits proliferation of 
+fungal as well as several types of cancer cells. It induces apoptotic cell death 
+in various cell types, but very little is known about the mechanism involved in 
+the process. Here, we used budding yeast Saccharomyces cerevisiae as a model to 
+study the involvement of some key elements of apoptosis in the anacardic 
+acid-induced cell death. Plasma membrane constriction, chromatin condensation, 
+DNA degradation, and externalization of phosphatidylserine (PS) indicated that 
+anacardic acid induces apoptotic cell death in S. cerevisiae. However, the 
+exogenous addition of broad-spectrum caspase inhibitor Z-VAD-FMK or deletion of 
+the yeast caspase Yca1 showed that the anacardic acid-induced cell death is 
+caspase independent. Apoptosis-inducing factor (AIF1) deletion mutant was 
+resistant to the anacardic acid-induced cell death, suggesting a key role of 
+Aif1. Overexpression of Aif1 made cells highly susceptible to anacardic acid, 
+further confirming that Aif1 mediates anacardic acid-induced apoptosis. 
+Interestingly, instead of the increase in the intracellular reactive oxygen 
+species (ROS) normally observed during apoptosis, anacardic acid caused a 
+decrease in the intracellular ROS levels. Quantitative real-time PCR analysis 
+showed downregulation of the BIR1 survivin mRNA expression during the anacardic 
+acid-induced apoptosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="804~839" text="deletion of  the yeast caspase Yca1" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="915~963" text="Apoptosis-inducing factor (AIF1) deletion mutant" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="1053~1075" text="Overexpression of Aif1" description="increased expression level" />
+<CONTEXT id="C0" spans="707~720" text="S. cerevisiae" experiment_type="organism" species="yeast" />
+<CONTEXT id="C1" spans="1081~1086" text="cells" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="675~703" text="induces apoptotic cell death" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="871~889" text="induced cell death" phenotype="cell death" activity="causes" />
+<EFFECT id="E2" spans="969~981,1001~1019" text="resistant to ... induced cell death" phenotype="cell death" activity="inhibits" />
+<EFFECT id="E3" spans="1155~1163,1179~1196" text="mediates ... induced apoptosis" phenotype="apoptosis" activity="regulates" />
+<EFFECT id="E4" spans="1516~1533" text="induced apoptosis" phenotype="apoptosis" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

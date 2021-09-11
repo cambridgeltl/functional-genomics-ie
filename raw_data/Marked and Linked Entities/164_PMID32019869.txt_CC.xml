@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Proteomic Profiling of the ECM of Xenograft Breast Cancer Metastases in 
+Different Organs Reveals Distinct Metastatic Niches.
+
+
+Metastasis causes most cancer-related deaths, and one poorly understood aspect 
+of metastatic cancer is the adaptability of cells from a primary tumor to create 
+new niches and survive in multiple, different secondary sites. We used 
+quantitative mass spectrometry to analyze the extracellular matrix (ECM), a 
+critical component of metastatic niches, in metastases to the brain, lungs, 
+liver, and bone marrow, all derived from parental MDA-MB-231 triple-negative 
+breast cancer cells. Tumor and stromal cells cooperated in forming niches; 
+stromal cells produced predominantly core, structural ECM proteins and tumor 
+cells produced a diverse array of ECM-associated proteins, including secreted 
+factors and modulators of the matrix. In addition, tumor and stromal cells 
+together created distinct niches in each tissue. Downregulation of SERPINB1, a 
+protein elevated in brain metastases, led to a reduction in brain metastasis, 
+suggesting that some niche-specific ECM proteins may be involved in metastatic 
+tropism. SIGNIFICANCE: Tumor and stromal cells together create distinct ECM 
+niches in breast cancer metastases to various tissues, providing new insight 
+into how tumor cells adapt to survive in different tissue environments.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="952~978" text="Downregulation of SERPINB1" description="decreased expression level" />
+<CONTEXT id="C0" spans="566~613" text="MDA-MB-231 triple-negative  breast cancer cells" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="1021~1059" text="led to a reduction in brain metastasis" phenotype="metastasis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Downregulation of SERPINB1" contextID="C0" contextText="MDA-MB-231 triple-negative  breast cancer cells" effectID="E0" effectText="led to a reduction in brain metastasis" />
+</TAGS>
+</Genomics_ConceptTask>

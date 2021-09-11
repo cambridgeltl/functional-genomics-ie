@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SARS-CoV-2 Infection Depends on Cellular Heparan Sulfate and ACE2.
+
+We show that SARS-CoV-2 spike protein interacts with both cellular heparan 
+sulfate and angiotensin-converting enzyme 2 (ACE2) through its receptor-binding 
+domain (RBD). Docking studies suggest a heparin/heparan sulfate-binding site 
+adjacent to the ACE2-binding site. Both ACE2 and heparin can bind independently 
+to spike protein in vitro, and a ternary complex can be generated using heparin 
+as a scaffold. Electron micrographs of spike protein suggests that heparin 
+enhances the open conformation of the RBD that binds ACE2. On cells, spike 
+protein binding depends on both heparan sulfate and ACE2. Unfractionated 
+heparin, non-anticoagulant heparin, heparin lyases, and lung heparan sulfate 
+potently block spike protein binding and/or infection by pseudotyped virus and 
+authentic SARS-CoV-2 virus. We suggest a model in which viral attachment and 
+infection involves heparan sulfate-dependent enhancement of binding to ACE2. 
+Manipulation of heparan sulfate or inhibition of viral adhesion by exogenous 
+heparin presents new therapeutic opportunities.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

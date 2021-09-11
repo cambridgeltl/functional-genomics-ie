@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Combination of a p53-activating CP-31398 and an MDM2 or a FAK inhibitor produces 
+growth suppressive effects in mesothelioma with wild-type p53 genotype.
+
+A majority of mesothelioma had the wild-type p53 genotype but was defective of 
+p53 functions primarily due to a genetic defect in INK4A/ARF region. We examined 
+a growth suppressive activity of CP-31398 which was developed to restore the p53 
+functions irrespective of the genotype in mesothelioma with wild-type or mutated 
+p53. CP-31398 up-regulated p53 levels in cells with wild-type p53 genotype but 
+induced cell growth suppression in a p53-independent manner. In contrasts, 
+nutlin-3a, an MDM2 inhibitor, increased p53 and p21 levels in mesothelioma with 
+the wild-type p53 genotype and produced growth suppressive effects. We 
+investigated a combinatory effect of CP-31398 and nutlin-2a and found the 
+combination produced synergistic growth inhibition in mesothelioma with the 
+wild-type p53 but not with mutated p53. Western blot analysis showed that the 
+combination increased p53 and the phosphorylation levels greater than treatments 
+with the single agent, augmented cleavages of PARP and caspase-3, and decreased 
+phosphorylated FAK levels. Combination of CP-31398 and defactinib, a FAK 
+inhibitor, also achieved synergistic inhibitory effects and increased p53 with 
+FAK dephosphorylation levels greater than the single treatment. These data 
+indicated that a p53-activating CP-31398 achieved growth inhibitory effects in 
+combination with a MDM2 or a FAK inhibitor and suggested a possible reciprocal 
+pathway between p53 elevation and FAK inactivation.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="637~665" text="nutlin-3a, an MDM2 inhibitor" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="969~980" text="mutated p53" description="other" />
+<PERTURBING_ACTION id="P2" spans="1239~1267" text="defactinib, a FAK  inhibitor" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1513~1517,1527~1536" text="MDM2 ... inhibitor" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="1523~1536" text="FAK inhibitor" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="522~527" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="699~711" text="mesothelioma" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C2" spans="919~931" text="mesothelioma" experiment_type="tumour" species="not stated" />
+<EFFECT id="E0" spans="561~592" text="induced cell growth suppression" phenotype="cell growth" activity="decreases" />
+<EFFECT id="E1" spans="749~784" text="produced growth suppressive effects" phenotype="tumour growth" activity="decreases" />
+<EFFECT id="E2" spans="898~915" text="growth inhibition" phenotype="tumour growth" activity="inhibits" />
+<EFFECT id="E3" spans="1464~1489" text="growth inhibitory effects" phenotype="tumour growth" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="nutlin-3a, an MDM2 inhibitor" contextID="C1" contextText="mesothelioma" effectID="E1" effectText="produced growth suppressive effects" />
+</TAGS>
+</Genomics_ConceptTask>

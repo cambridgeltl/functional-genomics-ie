@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[4E-T-bound mRNAs are stored in a silenced and deadenylated form.
+
+Human 4E-T is an eIF4E-binding protein (4E-BP) present in processing (P)-bodies 
+that represses translation and regulates decay of mRNAs destabilized by AU-rich 
+elements and microRNAs (miRNAs). However, the underlying regulatory mechanisms 
+are still unclear. Here, we show that upon mRNA binding 4E-T represses 
+translation and promotes deadenylation via the recruitment of the CCR4-NOT 
+deadenylase complex. The interaction with CCR4-NOT is mediated by previously 
+uncharacterized sites in the middle region of 4E-T. Importantly, mRNA decapping 
+and decay are inhibited by 4E-T and the deadenylated target is stored in a 
+repressed form. Inhibition of mRNA decapping requires the interaction of 4E-T 
+with the cap-binding proteins eIF4E/4EHP. We further show that regulation of 
+decapping by 4E-T participates in mRNA repression by the miRNA effector protein 
+TNRC6B and that 4E-T overexpression interferes with tristetraprolin (TTP)- and 
+NOT1-mediated mRNA decay. Thus, we postulate that 4E-T modulates 5'-to-3' decay 
+by swapping the fate of a deadenylated mRNA from complete degradation to 
+storage. Our results provide insight into the mechanism of mRNA storage that 
+controls localized translation and mRNA stability in P-bodies.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="945~964" text="4E-T overexpression" perturbingaction="gene gain-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A RhoA-YAP-c-Myc signaling axis promotes the development of polycystic kidney 
+disease.
+
+Autosomal dominant polycystic kidney disease (ADPKD) is an inherited disorder 
+caused by mutations in PKD1 or PKD2 and affects one in 500-1000 humans. Limited 
+treatment is currently available for ADPKD. Here we identify the Hippo signaling 
+effector YAP and its transcriptional target, c-Myc, as promoters of cystic 
+kidney pathogenesis. While transgenic overexpression of YAP promotes 
+proliferation and tubule dilation in mouse kidneys, loss of YAP/TAZ or c-Myc 
+suppresses cystogenesis in a mouse ADPKD model resulting from Pkd1 deficiency. 
+Through a comprehensive kinase inhibitor screen based on a novel 
+three-dimensional (3D) culture of Pkd1 mutant mouse kidney cells, we identified 
+a signaling pathway involving the RhoGEF (guanine nucleotide exchange factor) 
+LARG, the small GTPase RhoA, and the RhoA effector Rho-associated kinase (ROCK) 
+as a critical signaling module between PKD1 and YAP. Further corroborating its 
+physiological importance, inhibition of RhoA signaling suppresses cystogenesis 
+in 3D culture of Pkd1 mutant kidney cells as well as Pkd1 mutant mouse kidneys 
+in vivo. Taken together, our findings implicate the RhoA-YAP-c-Myc signaling 
+axis as a critical mediator and potential drug target in ADPKD.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="434~466" text="transgenic overexpression of YAP" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="529~553" text="loss of YAP/TAZ or c-Myc" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="617~632" text="Pkd1 deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="735~746" text="Pkd1 mutant" perturbingaction="other" />
+<PERTURBING_ACTION id="P4" spans="1119~1130" text="Pkd1 mutant" perturbingaction="other" />
+<PERTURBING_ACTION id="P5" spans="1155~1166" text="Pkd1 mutant" perturbingaction="other" />
+<CONTEXT id="C0" spans="514~527" text="mouse kidneys" context="tissue/organ" />
+<CONTEXT id="C1" spans="584~601" text="mouse ADPKD model" context="organism" />
+<CONTEXT id="C2" spans="747~765" text="mouse kidney cells" context="cells" />
+<CONTEXT id="C3" spans="1105~1115" text="3D culture" context="in vitro" />
+<CONTEXT id="C4" spans="1131~1143" text="kidney cells" context="cells" />
+<CONTEXT id="C5" spans="1167~1180" text="mouse kidneys" context="tissue/organ" />
+<CONTEXT id="C6" spans="1182~1189" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="477~490" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="467~475" text="promotes" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="transgenic overexpression of YAP" contextID="C0" contextText="mouse kidneys" phenotypeID="PH0" phenotypeText="proliferation" effectID="E0" effectText="promotes" />
+</TAGS>
+</Genomics_ConceptTask>

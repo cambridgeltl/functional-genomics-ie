@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MYC promotes tryptophan uptake and metabolism by the kynurenine pathway in colon 
+cancer.
+
+Tumors display increased uptake and processing of nutrients to fulfill the 
+demands of rapidly proliferating cancer cells. Seminal studies have shown that 
+the proto-oncogene MYC promotes metabolic reprogramming by altering glutamine 
+uptake and metabolism in cancer cells. How MYC regulates the metabolism of other 
+amino acids in cancer is not fully understood. Using high-performance liquid 
+chromatography (HPLC)-tandem mass spectrometry (LC-MS/MS), we found that MYC 
+increased intracellular levels of tryptophan and tryptophan metabolites in the 
+kynurenine pathway. MYC induced the expression of the tryptophan transporters 
+SLC7A5 and SLC1A5 and the enzyme arylformamidase (AFMID), involved in the 
+conversion of tryptophan into kynurenine. SLC7A5, SLC1A5, and AFMID were 
+elevated in colon cancer cells and tissues, and kynurenine was significantly 
+greater in tumor samples than in the respective adjacent normal tissue from 
+patients with colon cancer. Compared with normal human colonic epithelial cells, 
+colon cancer cells were more sensitive to the depletion of tryptophan. Blocking 
+enzymes in the kynurenine pathway caused preferential death of established colon 
+cancer cells and transformed colonic organoids. We found that only kynurenine 
+and no other tryptophan metabolite promotes the nuclear translocation of the 
+transcription factor aryl hydrocarbon receptor (AHR). Blocking the interaction 
+between AHR and kynurenine with CH223191 reduced the proliferation of colon 
+cancer cells. Therefore, we propose that limiting cellular kynurenine or its 
+downstream targets could present a new strategy to reduce the proliferation of 
+MYC-dependent cancer cells.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1109~1127" text="colon cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1069~1106" text="normal human colonic epithelial cells" context="cells" />
+<CONTEXT id="C2" spans="1265~1284" text="colon  cancer cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1301~1318" text="colonic organoids" context="organoid" />
+<CONTEXT id="C4" spans="1578~1598" text=" colon  cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="1289~1300" text="transformed" phenotype="transformation" />
+<PHENOTYPE id="PH1" spans="1562~1575" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="1550~1557" text="reduced" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

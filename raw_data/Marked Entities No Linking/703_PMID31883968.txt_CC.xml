@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CDK7 Inhibition Potentiates Genome Instability Triggering Anti-tumor Immunity in 
+Small Cell Lung Cancer.
+
+Cyclin-dependent kinase 7 (CDK7) is a central regulator of the cell cycle and 
+gene transcription. However, little is known about its impact on genomic 
+instability and cancer immunity. Using a selective CDK7 inhibitor, YKL-5-124, we 
+demonstrated that CDK7 inhibition predominately disrupts cell-cycle progression 
+and induces DNA replication stress and genome instability in small cell lung 
+cancer (SCLC) while simultaneously triggering immune-response signaling. These 
+tumor-intrinsic events provoke a robust immune surveillance program elicited by 
+T cells, which is further enhanced by the addition of immune-checkpoint 
+blockade. Combining YKL-5-124 with anti-PD-1 offers significant survival benefit 
+in multiple highly aggressive murine models of SCLC, providing a rationale for 
+new combination regimens consisting of CDK7 inhibitors and immunotherapies.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="301~336" text="selective CDK7 inhibitor, YKL-5-124" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="360~375" text="CDK7 inhibition" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="484~514" text="small cell lung  cancer (SCLC)" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="847~868" text="murine models of SCLC" experiment_type="tumour" species="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

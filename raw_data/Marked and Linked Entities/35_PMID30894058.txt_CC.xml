@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[KLF2 (kruppel-like factor 2 [lung]) regulates osteoclastogenesis by modulating 
+autophagy.
+
+Macroautophagy/autophagy is involved in myeloid cellular repair, destruction, 
+and osteoclast differentiation; conversely, KLF2 (kruppel-like factor 2 [lung]) 
+regulates myeloid cell activation and differentiation. To investigate the 
+specific role of KLF2 in autophagy, osteoclastic differentiation was induced in 
+monocytes in presence or absence of the autophagy inhibitor 3-methyladenine 
+(3-MA), KLF2 inducer geranylgeranyl transferase inhibitor (GGTI298), and 
+adenoviral overexpression of KLF2. We found that the number of autophagic cells 
+and multinucleated osteoclasts were significantly decreased in presence of 3-MA, 
+GGTI298, and KLF2 overexpressed cells indicating involvement of KLF2 in these 
+processes. In addition, autophagy-related protein molecules were significantly 
+decreased after induction of KLF2 during the course of osteoclastic 
+differentiation. Furthermore, induction of arthritis in mice reduced the level 
+of Klf2 in monocytes, and enhanced autophagy during osteoclastic 
+differentiation. Mechanistically, knocking down of KLF2 increased the level of 
+Beclin1 (BECN1) expression, and conversely, KLF2 over-expression reduced the 
+level of BECN1 in monocytes. Moreover, 3-MA and GGTI298 both reduced myeloid 
+cell proliferation concomitantly upregulating senescence-related molecules 
+(CDKN1A/p21 and CDKN1B/p27kip1). We further confirmed epigenetic regulation of 
+Becn1 by modulating Klf2; knocking down of Klf2 increased the levels of histone 
+activation marks H3K9 and H4K8 acetylation in the promoter region of Becn1; and 
+overexpression of Klf2 decreased the levels of H4K8 and H3K9 acetylation. In 
+addition, osteoclastic differentiation also increased levels of H3K9 and H4K8 
+acetylation in the promoter region of Becn1. Together these findings for the 
+first time revealed that Klf2 critically regulates Becn1-mediated autophagy 
+process during osteoclastogenesis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P2" spans="559~592" text="adenoviral overexpression of KLF2" description="viral vector" />
+<PERTURBING_ACTION id="P3" spans="735~753" text="KLF2 overexpressed" description="increased expression level" />
+<PERTURBING_ACTION id="P4" spans="1130~1151" text="knocking down of KLF2" description="knock down" />
+<PERTURBING_ACTION id="P5" spans="1220~1240" text="KLF2 over-expression" description="increased expression level" />
+<PERTURBING_ACTION id="P6" spans="1514~1535" text="knocking down of Klf2" description="knock down" />
+<PERTURBING_ACTION id="P7" spans="1650~1672" text="overexpression of Klf2" description="increased expression level" />
+<CONTEXT id="C0" spans="408~417" text="monocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="1272~1281" text="monocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1323~1336" text="myeloid  cell" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="612~638,671~699" text="number of autophagic cells ... were significantly decreased" phenotype="autophagy" activity="decreases" />
+<EFFECT id="E1" spans="1056~1074" text="enhanced autophagy" phenotype="autophagy" activity="increases" />
+<EFFECT id="E2" spans="1315~1322,1337~1350" text="reduced ... proliferation" phenotype="proliferation" activity="decreases" />
+<EFFECT id="E3" spans="1365~1439" text="upregulating senescence-related molecules  (CDKN1A/p21 and CDKN1B/p27kip1)" phenotype="senescence" activity="increases" />
+<EFFECT id="E4" spans="1926~1935,1951~1969" text="regulates ... autophagy  process" phenotype="autophagy" activity="regulates" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="adenoviral overexpression of KLF2" contextID="C0" contextText="monocytes" effectID="E0" effectText="number of autophagic cells ... were significantly decreased" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="KLF2 overexpressed" contextID="C0" contextText="monocytes" effectID="E0" effectText="number of autophagic cells ... were significantly decreased" />
+</TAGS>
+</Genomics_ConceptTask>

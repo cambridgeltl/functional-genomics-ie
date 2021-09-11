@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Molecular Subsets in Renal Cancer Determine Outcome to Checkpoint and 
+Angiogenesis Blockade.
+
+Integrated multi-omics evaluation of 823 tumors from advanced renal cell 
+carcinoma (RCC) patients identifies molecular subsets associated with 
+differential clinical outcomes to angiogenesis blockade alone or with a 
+checkpoint inhibitor. Unsupervised transcriptomic analysis reveals seven 
+molecular subsets with distinct angiogenesis, immune, cell-cycle, metabolism, 
+and stromal programs. While sunitinib and atezolizumab + bevacizumab are 
+effective in subsets with high angiogenesis, atezolizumab + bevacizumab improves 
+clinical benefit in tumors with high T-effector and/or cell-cycle transcription. 
+Somatic mutations in PBRM1 and KDM5C associate with high angiogenesis and 
+AMPK/fatty acid oxidation gene expression, while CDKN2A/B and TP53 alterations 
+associate with increased cell-cycle and anabolic metabolism. Sarcomatoid tumors 
+exhibit lower prevalence of PBRM1 mutations and angiogenesis markers, frequent 
+CDKN2A/B alterations, and increased PD-L1 expression. These findings can be 
+applied to molecularly stratify patients, explain improved outcomes of 
+sarcomatoid tumors to checkpoint blockade versus antiangiogenics alone, and 
+develop personalized therapies in RCC and other indications.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

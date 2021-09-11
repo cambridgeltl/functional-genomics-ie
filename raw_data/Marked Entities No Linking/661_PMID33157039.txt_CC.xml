@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Bacterial Retrons Function In Anti-Phage Defense.
+
+Retrons are bacterial genetic elements comprised of a reverse transcriptase (RT) 
+and a non-coding RNA (ncRNA). The RT uses the ncRNA as template, generating a 
+chimeric RNA/DNA molecule in which the RNA and DNA components are covalently 
+linked. Although retrons were discovered three decades ago, their function 
+remained unknown. We report that retrons function as anti-phage defense systems. 
+The defensive unit is composed of three components: the RT, the ncRNA, and an 
+effector protein. We examined multiple retron systems and show that they confer 
+defense against a broad range of phages via abortive infection. Focusing on 
+retron Ec48, we show evidence that it "guards" RecBCD, a complex with central 
+anti-phage functions in bacteria. Inhibition of RecBCD by phage proteins 
+activates the retron, leading to abortive infection and cell death. Thus, the 
+Ec48 retron forms a second line of defense that is triggered if the first lines 
+of defense have collapsed.]]></TEXT>
+<TAGS>
+<EFFECT id="E0" spans="860~870,894~904" text="leading to ... cell death" phenotype="cell death" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

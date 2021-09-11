@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Activator protein-1 and caspase 8 mediate p38α MAPK-dependent cardiomyocyte 
+apoptosis induced by palmitic acid.
+
+Lipoapoptosis of cardiomyocytes may underlie diabetic cardiomyopathy. Numerous 
+forms of cardiomyopathies share a common end-pathway in which apoptotic loss of 
+cardiomyocytes is mediated by p38α mitogen activated protein kinase (MAPK). 
+Although we have previously shown that palmitic acid (PA), a saturated fatty 
+acid (SFA) elevated in plasma of type 2 diabetes mellitus and morbid obesity, 
+induces apoptosis in cardiomyocytes via p38α MAPK-dependent signaling, the 
+downstream cascade events that cause cell death remain unknown. The objective of 
+this study was to investigate mechanisms involved in palmitic acid-induced 
+cardiomyocyte apoptosis. Human adult ventricular cardiomyocyte line (AC16 cells) 
+exposed to high physiological levels of PA for 16 h showed enhanced 
+transcription and phosphorylation of c-fos and c-jun subunits of AP-1 and 
+transcription of caspase 8. When AC16 cells were transfected with small 
+interfering RNA specific against p38α MAPK (si-p38α) for 24 or 48 h, the 
+amplified phosphorylation of c-fos was dose-dependently attenuated, and 
+procaspase 8 was dose-dependently reduced. With translational knockdown of 
+c-fos, PA-induced apoptosis was diminished. Inhibition of caspase 8 for 24 h 
+reduced apoptosis in PA-treated cardiomyocytes. These findings provide evidence 
+for induction of apoptosis in cardiomyocytes exposed to high SFA by a novel 
+pathway requiring activation of c-fos/AP-1 and caspase 8. These results 
+demonstrate how elevated plasma SFA may lead to continual and cumulative loss of 
+cardiomyocytes and potentially contribute to the development of diabetic 
+cardiomyopathy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1018~1094" text="transfected with small  interfering RNA specific against p38α MAPK (si-p38α)" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="1237~1270" text="translational knockdown of  c-fos" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="1309~1332" text="Inhibition of caspase 8" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="768~823" text="Human adult ventricular cardiomyocyte line (AC16 cells)" experiment_type="cell line" species="human" />
+<CONTEXT id="C1" spans="1002~1012" text="AC16 cells" experiment_type="cell line" species="not stated" />
+<CONTEXT id="C2" spans="1375~1389" text="cardiomyocytes" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1275~1292" text="induced apoptosis" phenotype="apoptosis" activity="causes" />
+<EFFECT id="E1" spans="1275~1307" text="induced apoptosis was diminished" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E2" spans="1343~1360" text="reduced apoptosis" phenotype="apoptosis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="Inhibition of caspase 8" contextID="C2" contextText="cardiomyocytes" effectID="E2" effectText="reduced apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

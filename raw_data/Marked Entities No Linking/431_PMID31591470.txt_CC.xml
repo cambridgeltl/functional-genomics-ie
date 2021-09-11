@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The necroptosis machinery mediates axonal degeneration in a model of Parkinson 
+disease.
+
+Parkinson's disease (PD) is the second most common neurodegenerative condition, 
+characterized by motor impairment due to the progressive degeneration of 
+dopaminergic neurons in the substantia nigra and depletion of dopamine release 
+in the striatum. Accumulating evidence suggest that degeneration of axons is an 
+early event in the disease, involving destruction programs that are independent 
+of the survival of the cell soma. Necroptosis, a programmed cell death process, 
+is emerging as a mediator of neuronal loss in models of neurodegenerative 
+diseases. Here, we demonstrate activation of necroptosis in postmortem brain 
+tissue from PD patients and in a toxin-based mouse model of the disease. 
+Inhibition of key components of the necroptotic pathway resulted in a 
+significant delay of 6-hydroxydopamine-dependent axonal degeneration of 
+dopaminergic and cortical neurons in vitro. Genetic ablation of necroptosis 
+mediators MLKL and RIPK3, as well as pharmacological inhibition of RIPK1 in 
+preclinical models of PD, decreased dopaminergic neuron degeneration, improving 
+motor performance. Together, these findings suggest that axonal degeneration in 
+PD is mediated by the necroptosis machinery, a process here referred to as 
+necroaxoptosis, a druggable pathway to target dopaminergic neuronal loss.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="983~1002,1026~1040" text="Genetic ablation of ... MLKL and RIPK3" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="1053~1088" text="pharmacological inhibition of RIPK1" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="939~981" text="dopaminergic and cortical neurons in vitro" experiment_type="cells" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

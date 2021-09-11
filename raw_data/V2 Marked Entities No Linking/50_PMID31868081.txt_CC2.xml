@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BST2 suppresses porcine epidemic diarrhea virus replication by targeting and 
+degrading virus nucleocapsid protein with selective autophagy.
+
+Interferon-induced BST2 (bone marrow stromal cell antigen 2) inhibits viral 
+replication by tethering enveloped virions to the cell surface to restrict viral 
+release and by inducing the NFKB-dependent antiviral immune response. However, 
+the mechanism by which BST2 uses the selective autophagy pathway to inhibit 
+viral replication is poorly understood. In this study, we showed that BST2 
+expression was significantly increased during porcine epidemic diarrhea virus 
+(PEDV) infection of Vero cells by IRF1 targeting its promoter. We also showed 
+that BST2 suppressed PEDV replication by binding and degrading the PEDV-encoded 
+nucleocapsid (N) protein. The downregulation of N protein was blocked by 
+macroautophagy/autophagy inhibitors but not a proteasome inhibitor, implying 
+that the N protein was degraded via the selective autophagy pathway. Both the 
+BST2 and N protein interacted with the E3 ubiquitin ligase MARCHF8/MARCH8 and 
+the cargo receptor CALCOCO2/NDP52, and the ubiquitination of N protein was 
+necessary for the degradation of N mediated by the BST2-MARCHF8 axis. The 
+knockdown of MARCHF8 or ATG5 with small interfering RNAs blocked the selective 
+autophagy pathway, rescued the protein abundance of PEDV N in 293T cells, and 
+prevented the inhibition of PEDV replication by BST2 in Vero cells. Together, 
+our data demonstrate the novel mechanism of BST2-mediated virus restriction, in 
+which BST2 recruits MARCHF8 to catalyze the ubiquitination of the PEDV N 
+protein. The ubiquitinated N protein is then recognized by CALCOCO2/NDP52, which 
+delivers it to autolysosome for degradation through the selective autophagy 
+pathway.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1234~1254" text="knockdown of MARCHF8" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="633~643" text="Vero cells" context="cells" />
+<CONTEXT id="C2" spans="1449~1459" text="Vero cells" context="cells" />
+<CONTEXT id="C3" spans="1376~1386" text="293T cells" context="cells" />
+<PHENOTYPE id="PH0" spans="1314~1323" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="1291~1298" text="blocked" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

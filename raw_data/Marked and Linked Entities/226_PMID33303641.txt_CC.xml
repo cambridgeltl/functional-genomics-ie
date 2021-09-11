@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[mTOR inhibition acts as an unexpected checkpoint in p53-mediated tumor 
+suppression.
+
+Here, we showed that the acetylation-defective p53-4KR mice, lacking the ability 
+of cell cycle arrest, senescence, apoptosis, and ferroptosis, were tumor prone 
+but failed to develop early-onset tumors. By identifying a novel p53 acetylation 
+site at lysine K136, we found that simultaneous mutations at all five 
+acetylation sites (p53-5KR) diminished its remaining tumor suppression function. 
+Moreover, the embryonic lethality caused by the deficiency of mdm2 was fully 
+rescued in the background of p535KR/5KR , but not p534KR/4KR background. p53-4KR 
+retained the ability to suppress mTOR function but this activity was abolished 
+in p53-5KR cells. Notably, the early-onset tumor formation observed in 
+p535KR/5KR and p53-null mice was suppressed upon the treatment of the mTOR 
+inhibitor. These results suggest that p53-mediated mTOR regulation plays an 
+important role in both embryonic development and tumor suppression, independent 
+of cell cycle arrest, senescence, apoptosis, and ferroptosis.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="111~140" text="acetylation-defective p53-4KR" description="other" />
+<PERTURBING_ACTION id="P1" spans="365~428" text="simultaneous mutations at all five  acetylation sites (p53-5KR)" description="other" />
+<PERTURBING_ACTION id="P3" spans="531~549,569~600" text="deficiency of mdm2 ... in the background of p535KR/5KR" description="other" />
+<PERTURBING_ACTION id="P4" spans="531~549,611~632" text="deficiency of mdm2 ... p534KR/4KR background" description="other" />
+<PERTURBING_ACTION id="P5" spans="634~641" text="p53-4KR" description="other" />
+<PERTURBING_ACTION id="P6" spans="726~733" text="p53-5KR" description="other" />
+<PERTURBING_ACTION id="P7" spans="795~805" text="p535KR/5KR" description="other" />
+<PERTURBING_ACTION id="P8" spans="810~818" text="p53-null" description="knock out" />
+<PERTURBING_ACTION id="P9" spans="848~880" text="treatment of the mTOR  inhibitor" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="141~145" text="mice" experiment_type="organism" species="mouse" />
+<CONTEXT id="C1" spans="734~739" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="819~823" text="mice" experiment_type="organism" species="mouse" />
+<EFFECT id="E0" spans="147~188" text="lacking the ability  of cell cycle arrest" phenotype="cell cycle arrest" activity="inhibits" />
+<EFFECT id="E1" spans="147~166,168~170,190~200" text="lacking the ability ... of ... senescence" phenotype="senescence" activity="inhibits" />
+<EFFECT id="E2" spans="147~170,202~211" text="lacking the ability  of ... apoptosis" phenotype="apoptosis" activity="inhibits" />
+<EFFECT id="E3" spans="147~166,168~170,217~228" text="lacking the ability ... of ... ferroptosis" phenotype="ferroptosis" activity="inhibits" />
+<EFFECT id="E4" spans="235~246" text="tumor prone" phenotype="tumourigenesis" activity="increases" />
+<EFFECT id="E5" spans="252~288" text="failed to develop early-onset tumors" phenotype="tumourigenesis" activity="decreases" />
+<EFFECT id="E6" spans="429~439,454~471" text="diminished ... tumor suppression" phenotype="tumourigenesis" activity="increases" />
+<EFFECT id="E7" spans="754~781" text="early-onset tumor formation" phenotype="tumourigenesis" activity="increases" />
+<EFFECT id="E8" spans="754~781,824~838" text="early-onset tumor formation ... was suppressed" phenotype="tumourigenesis" activity="decreases" />
+<ENTITY_LINKING id="EN0" contextID="C0" contextText="mice" effectID="E0" effectText="lacking the ability  of cell cycle arrest" perturbing_actionID="P0" perturbing_actionText="acetylation-defective p53-4KR" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="acetylation-defective p53-4KR" contextID="C0" contextText="mice" effectID="E1" effectText="lacking the ability ... of ... senescence" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="acetylation-defective p53-4KR" contextID="C0" contextText="mice" effectID="E3" effectText="lacking the ability ... of ... ferroptosis" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="acetylation-defective p53-4KR" contextID="C0" contextText="mice" effectID="E4" effectText="tumor prone" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P0" perturbing_actionText="acetylation-defective p53-4KR" contextID="C0" contextText="mice" effectID="E5" effectText="failed to develop early-onset tumors" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P7" perturbing_actionText="p535KR/5KR" contextID="C2" contextText="mice" effectID="E7" effectText="early-onset tumor formation" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P8" perturbing_actionText="p53-null" contextID="C2" contextText="mice" effectID="E7" effectText="early-onset tumor formation" />
+<ENTITY_LINKING id="EN7" perturbing_actionID="P9" perturbing_actionText="treatment of the mTOR  inhibitor" effectID="E8" effectText="early-onset tumor formation ... was suppressed" contextID="C2" contextText="mice" />
+</TAGS>
+</Genomics_ConceptTask>

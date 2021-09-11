@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Membrane-bound TNF mediates microtubule-targeting chemotherapeutics-induced 
+cancer cytolysis via juxtacrine inter-cancer-cell death signaling.
+
+Microtubule-targeting agents (MTAs) are a class of most widely used 
+chemotherapeutics and their mechanism of action has long been assumed to be 
+mitotic arrest of rapidly dividing tumor cells. In contrast to such notion, here 
+we show-in many cancer cell types-MTAs function by triggering membrane TNF 
+(memTNF)-mediated cancer-cell-to-cancer-cell killing, which differs greatly from 
+other non-MTA cell-cycle-arresting agents. The killing is through programmed 
+cell death (PCD), either in way of necroptosis when RIP3 kinase is expressed, or 
+of apoptosis in its absence. Mechanistically, MTAs induce memTNF transcription 
+via the JNK-cJun signaling pathway. With respect to chemotherapy regimens, our 
+results establish that memTNF-mediated killing is significantly augmented by IAP 
+antagonists (Smac mimetics) in a broad spectrum of cancer types, and with their 
+effects most prominently manifested in patient-derived xenograft (PDX) models in 
+which cell-cell contacts are highly reminiscent of human tumors. Therefore, our 
+finding indicates that memTNF can serve as a marker for patient responsiveness, 
+and Smac mimetics will be effective adjuvants for MTA chemotherapeutics. The 
+present study reframes our fundamental biochemical understanding of how MTAs 
+take advantage of the natural tight contact of tumor cells and utilize 
+memTNF-mediated death signaling to induce the entire tumor regression.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="966~996" text="broad spectrum of cancer types" experiment_type="tumour" species="not stated" />
+<CONTEXT id="C1" spans="1053~1091" text="patient-derived xenograft (PDX) models" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C2" spans="389~400" text="cancer cell" species="not stated" experiment_type="transformed cell line" />
+<EFFECT id="E0" spans="609~619" text="cell death" phenotype="cell death" activity="not stated" />
+<EFFECT id="E1" spans="644~655" text="necroptosis" phenotype="necroptosis" activity="not stated" />
+<EFFECT id="E2" spans="694~703" text="apoptosis" phenotype="apoptosis" activity="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

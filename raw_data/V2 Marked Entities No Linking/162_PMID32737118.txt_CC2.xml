@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ANXA1 Binds and Stabilizes EphA2 to Promote Nasopharyngeal Carcinoma Growth and 
+Metastasis.
+
+Overexpression of ANXA1 and EphA2 has been linked to various cancers and both 
+proteins have attracted considerable attention for the development of new 
+anticancer drugs. Here we report that ANXA1 competes with Cbl for binding EphA2 
+and increases its stability by inhibiting Cbl-mediated EphA2 ubiquitination and 
+degradation in nasopharyngeal carcinoma (NPC). Binding of ANXA1 to EphA2 
+promoted NPC cell growth and metastasis in vitro and in vivo by elevating EphA2 
+levels and increasing activity of EphA2 oncogenic signaling (pS897-EphA2). 
+Expression of ANXA1 and EphA2 was positively correlated and both were 
+significantly higher in NPC tissues than in the normal nasopharyngeal epithelial 
+tissues. Patients with high expression of both proteins presented poorer 
+disease-free survival and overall survival relative to patients with high 
+expression of one protein alone. Furthermore, amino acid residues 20-30aa and 
+28-30aa of the ANXA1 N-terminus bound EphA2. An 11 amino acid-long ANXA1-derived 
+peptide (EYVQTVKSSKG) was developed on the basis of this N-terminal region, 
+which disrupted the connection of ANXA1 with EphA2, successfully downregulating 
+EphA2 expression and dramatically suppressing NPC cell oncogenicity in vitro and 
+in mice. These findings suggest that ANXA1 promotes NPC growth and metastasis 
+via binding and stabilization of EphA2 and present a strategy for targeting 
+EphA2 degradation and treating NPC with a peptide. This therapeutic strategy may 
+also be extended to other cancers with high expression of both proteins. 
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="493~496" text="NPC" context="transformed cells" />
+<CONTEXT id="C1" spans="524~532" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="537~544" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="1308~1316" text="NPC cell" context="transformed cells" />
+<CONTEXT id="C4" spans="1330~1338" text="in vitro" context="in vitro" />
+<CONTEXT id="C5" spans="1347~1351" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="497~508" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH1" spans="513~523" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="1317~1329" text="oncogenicity" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="484~492" text="promoted" effect="positive" />
+<EFFECT id="E1" spans="1296~1307" text="suppressing" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

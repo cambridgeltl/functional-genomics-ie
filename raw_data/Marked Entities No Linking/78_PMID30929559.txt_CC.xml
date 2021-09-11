@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[GCA links TRAF6-ULK1-dependent autophagy activation in resistant chronic myeloid 
+leukemia.
+
+Imatinib is the first molecularly targeted compound for chronic myeloid leukemia 
+(CML) capable to inhibit BCR-ABL kinase activity. However, recent clinical 
+evidence indicates that a substantial proportion of CML patients exhibit 
+BCR-ABL-dependent or independent resistance to imatinib. Despite the importance 
+of imatinib resistance in CML, the underlying molecular mechanisms of this 
+resistance are largely unknown. Here, we identified GCA (grancalcin) as a 
+critical regulator of imatinib resistance in chronic phase CML via activation of 
+autophagy. Mechanistically, we demonstrated that GCA activates TRAF6 ubiquitin 
+ligase activity to induce Lys63 ubiquitination of ULK1, a crucial regulator of 
+autophagy, resulting in its stabilization and activation. We also highlighted 
+the role of GCA-TRAF6-ULK1 autophagy regulatory axis in imatinib resistance. Our 
+findings represent the basis for novel therapeutic strategies against 
+CML.]]></TEXT>
+<TAGS>
+<EFFECT id="E0" spans="624~648" text="activation of  autophagy" phenotype="autophagy" activity="causes" />
+</TAGS>
+</Genomics_ConceptTask>

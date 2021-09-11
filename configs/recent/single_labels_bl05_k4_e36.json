@@ -1,0 +1,44 @@
+{
+    "MODE": "train",
+    "VERBOSE": 2,
+    "MODEL": {
+        "TYPE": "pretrained",
+        "TRANSFORMER_MODEL": "dmis-lab/biobert-v1.1",
+        "HEADS": {
+            "category": {"htype": "single_label", "num_labels": 4},
+            "description": {"htype": "single_label", "num_labels": 12},
+            "experiment_type": {"htype": "single_label", "num_labels": 12},
+            "species": {"htype": "single_label", "num_labels": 10},
+            "phenotype": {"htype": "single_label", "num_labels": 30},
+            "activity": {"htype": "single_label", "num_labels": 8}
+        },
+        "TAG_LIST_DEFINITIONS": "tag_list_definitions.json",
+        "TAG_CATEGORY_DEFINITIONS": "tag_categories.json",
+        "MAX_TOKEN_LENGTH": 512
+    },
+    "DATA": {
+        "PATH": "json_data/all_marked_train.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 1,
+        "BALANCE_CLASSES": 0.5
+    },
+    "TRAINING": {
+        "TRAINED_NAME": "BioBERTv11_multi_output_single_labels_k4_e36",
+        "OPTIMIZER_CLASS": "AdamW",
+        "OPTIMIZER_KWARGS": {
+            "lr": 3e-5,
+            "eps": 1e-8
+        },
+        "FULL_FINETUNING": true,
+        "EPOCHS": 36,
+        "MAX_GRAD_NORM": 1,
+        "K_FOLDS": 4
+    },
+    "TEST_DATA": {
+        "PATH": "json_data/all_marked_test.json",
+        "FILETYPE": "json_fgeom",
+        "BATCH_SIZE": 8,
+        "BALANCE_CLASSES": 0
+    },
+    "TESTING": {}
+}

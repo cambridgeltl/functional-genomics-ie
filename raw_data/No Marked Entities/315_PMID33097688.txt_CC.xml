@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Aggresome formation and liquid-liquid phase separation independently induce 
+cytoplasmic aggregation of TAR DNA-binding protein 43.
+
+Cytoplasmic inclusion of TAR DNA-binding protein 43 (TDP-43) is a pathological 
+hallmark of amyotrophic lateral sclerosis (ALS) and a subtype of frontotemporal 
+lobar degeneration (FTLD). Recent studies have suggested that the formation of 
+cytoplasmic TDP-43 aggregates is dependent on a liquid-liquid phase separation 
+(LLPS) mechanism. However, it is unclear whether TDP-43 pathology is induced 
+through a single intracellular mechanism such as LLPS. To identify intracellular 
+mechanisms responsible for TDP-43 aggregation, we established a TDP-43 
+aggregation screening system using a cultured neuronal cell line stably 
+expressing EGFP-fused TDP-43 and a mammalian expression library of the inherited 
+ALS/FTLD causative genes, and performed a screening. We found that 
+microtubule-related proteins (MRPs) and RNA-binding proteins (RBPs) 
+co-aggregated with TDP-43. MRPs and RBPs sequestered TDP-43 into the cytoplasmic 
+aggregates through distinct mechanisms, such as microtubules and LLPS, 
+respectively. The MRPs-induced TDP-43 aggregates were co-localized with 
+aggresomal markers and dependent on histone deacetylase 6 (HDAC6), suggesting 
+that aggresome formation induced the co-aggregation. However, the MRPs-induced 
+aggregates were not affected by 1,6-hexanediol, an LLPS inhibitor. On the other 
+hand, the RBPs-induced TDP-43 aggregates were sensitive to 1,6-hexanediol, but 
+not dependent on microtubules or HDAC6. In sporadic ALS patients, approximately 
+half of skein-like TDP-43 inclusions were co-localized with HDAC6, but round and 
+granular type inclusion were not. Moreover, HDAC6-positive and HDAC6-negative 
+inclusions were found in the same ALS patient, suggesting that the two distinct 
+pathways are both involved in TDP-43 pathology. Our findings suggest that at 
+least two distinct pathways (i.e., aggresome formation and LLPS) are involved in 
+inducing the TDP-43 pathologies.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Identification of a localized nonsense-mediated decay pathway at the endoplasmic 
+reticulum.
+
+Nonsense-mediated decay (NMD) is a translation-dependent RNA quality control 
+mechanism that occurs in the cytoplasm. However, it is unknown how NMD regulates 
+the stability of RNAs translated at the endoplasmic reticulum (ER). Here, we 
+identify a localized NMD pathway dedicated to ER-translated mRNAs. We previously 
+identified NBAS, a component of the Syntaxin 18 complex involved in Golgi-to-ER 
+trafficking, as a novel NMD factor. Furthermore, we show that NBAS fulfills an 
+independent function in NMD. This ER-NMD pathway requires the interaction of 
+NBAS with the core NMD factor UPF1, which is partially localized at the ER in 
+the proximity of the translocon. NBAS and UPF1 coregulate the stability of 
+ER-associated transcripts, in particular those associated with the cellular 
+stress response. We propose a model where NBAS recruits UPF1 to the membrane of 
+the ER and activates an ER-dedicated NMD pathway, thus providing an 
+ER-protective function by ensuring quality control of ER-translated mRNAs.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

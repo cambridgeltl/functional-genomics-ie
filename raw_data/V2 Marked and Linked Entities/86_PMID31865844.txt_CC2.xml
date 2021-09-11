@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Podocytes maintain high basal levels of autophagy independent of mtor signaling.
+
+While constant basal levels of macroautophagy/autophagy are a prerequisite to 
+preserve long-lived podocytes at the filtration barrier, MTOR regulates at the 
+same time podocyte size and compensatory hypertrophy. Since MTOR is known to 
+generally suppress autophagy, the apparently independent regulation of these two 
+key pathways of glomerular maintenance remained puzzling. We now report that 
+long-term genetic manipulation of MTOR activity does in fact not influence high 
+basal levels of autophagy in podocytes either in vitro or in vivo. Instead we 
+present data showing that autophagy in podocytes is mainly controlled by 
+AMP-activated protein kinase (AMPK) and ULK1 (unc-51 like kinase 1). 
+Pharmacological inhibition of MTOR further shows that the uncoupling of MTOR 
+activity and autophagy is time dependent. Together, our data reveal a novel and 
+unexpected cell-specific mechanism, which permits concurrent MTOR activity as 
+well as high basal autophagy rates in podocytes. Thus, these data indicate 
+manipulation of the AMPK-ULK1 axis rather than inhibition of MTOR as a promising 
+therapeutic intervention to enhance autophagy and preserve podocyte homeostasis 
+in glomerular diseases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="479~526" text="long-term genetic manipulation of MTOR activity" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="783~817" text="Pharmacological inhibition of MTOR" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="589~598" text="podocytes" context="cells" />
+<CONTEXT id="C1" spans="606~614" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="618~625" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="576~585" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="527~553" text="does in fact not influence" effect="no effect" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="long-term genetic manipulation of MTOR activity" contextID="C0" contextText="podocytes" phenotypeID="PH0" phenotypeText="autophagy" effectID="E0" effectText="does in fact not influence" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="long-term genetic manipulation of MTOR activity" phenotypeID="PH0" phenotypeText="autophagy" contextID="C1" contextText="in vitro" effectID="E0" effectText="does in fact not influence" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="long-term genetic manipulation of MTOR activity" contextID="C2" contextText="in vivo" phenotypeID="PH0" phenotypeText="autophagy" effectID="E0" effectText="does in fact not influence" />
+</TAGS>
+</Genomics_ConceptTask>

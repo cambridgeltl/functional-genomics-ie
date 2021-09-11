@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The senescence-associated secretory phenotype induces cellular plasticity and 
+tissue regeneration.
+
+Senescence is a form of cell cycle arrest induced by stress such as DNA damage 
+and oncogenes. However, while arrested, senescent cells secrete a variety of 
+proteins collectively known as the senescence-associated secretory phenotype 
+(SASP), which can reinforce the arrest and induce senescence in a paracrine 
+manner. However, the SASP has also been shown to favor embryonic development, 
+wound healing, and even tumor growth, suggesting more complex physiological 
+roles than currently understood. Here we uncover timely new functions of the 
+SASP in promoting a proregenerative response through the induction of cell 
+plasticity and stemness. We show that primary mouse keratinocytes transiently 
+exposed to the SASP exhibit increased expression of stem cell markers and 
+regenerative capacity in vivo. However, prolonged exposure to the SASP causes a 
+subsequent cell-intrinsic senescence arrest to counter the continued 
+regenerative stimuli. Finally, by inducing senescence in single cells in vivo in 
+the liver, we demonstrate that this activates tissue-specific expression of stem 
+cell markers. Together, this work uncovers a primary and beneficial role for the 
+SASP in promoting cell plasticity and tissue regeneration and introduces the 
+concept that transient therapeutic delivery of senescent cells could be 
+harnessed to drive tissue regeneration.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="762~789" text="primary mouse keratinocytes" context="cells" />
+<CONTEXT id="C1" spans="900~907" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="1099~1106" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="1115~1120" text="liver" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="985~1002" text="senescence arrest" phenotype="senescence" />
+<PHENOTYPE id="PH1" spans="1072~1082" text="senescence" phenotype="senescence" />
+<EFFECT id="E0" spans="949~955" text="causes" effect="positive" />
+<EFFECT id="E1" spans="1063~1071" text="inducing" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

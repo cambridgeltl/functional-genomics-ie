@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Bip inhibition in glioma stem cells promotes radiation-induced immunogenic cell 
+death.
+
+Tumor regression in sites distant to the irradiated field are thought to be 
+associated with emission of damage-associated molecular patterns (DAMPs) 
+molecules and generation of immunogenic cell death (ICD). Glioma stem cells 
+(GSCs) are resistant to high doses of radiation, and ultimately select the 
+outgrowth of a more aggressive tumor. This study showed high-dose IR triggered 
+fewer DAMPs molecules exposure and release in GSCs comparing to matched 
+non-GSCs. Downregulation of binding immunoglobulin protein (Bip) promoted 
+IR-mediated endoplasmic reticulum stress to generate DAMPs molecules by PERK and 
+IRE1-α phosphorylation, and increased dendritic cells mature and effector T 
+lymphocytes activation. GSCs treated with Bip knockdown and IR efficiently 
+prevented tumor generation, and reduced post-radiotherapy tumor recurrence. 
+These data suggest that Bip plays a critical role in inhibition of IR-induced 
+ICD in GSCs, and Bip inhibition may be a promising strategy on adjuvant therapy 
+by ameliorating tumor immune microenvironment.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="519~523" text="GSCs" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="741~756" text="dendritic cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="768~791" text="effector T  lymphocytes" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="804~808" text="GSCs" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="856~882" text="prevented tumor generation" phenotype="tumourigenesis" activity="inhibits" />
+</TAGS>
+</Genomics_ConceptTask>

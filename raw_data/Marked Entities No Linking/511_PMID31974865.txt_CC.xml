@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[DDX3 modulates cisplatin resistance in OSCC through ALKBH5-mediated 
+m(6)A-demethylation of FOXM1 and NANOG.
+
+Platinum based drugs alone or in combination with 5FU and docetaxel are common 
+regimen chemotherapeutics for the treatment of advanced OSCC. Chemoresistance is 
+one of the major factors of treatment failure in OSCC. Human RNA helicase DDX3 
+plays an important role in cell proliferation, invasion, and metastasis in 
+several neoplasms. The potential role of DDX3 in chemoresistance is yet to be 
+explored. Enhanced cancer stem cells (CSCs) population significantly contributes 
+to chemoresistance and recurrence. A recent study showed that m6A RNA regulates 
+self-renewal and tumorigenesis property in cancer. In this study we found 
+genetic (shRNA) or pharmacological (ketorolac salt) inhibition of DDX3 reduced 
+CSC population by suppressing the expression of FOXM1 and NANOG. We also found 
+that m6A demethylase ALKBH5 is directly regulated by DDX3 which leads to 
+decreased m6A methylation in FOXM1 and NANOG nascent transcript that contribute 
+to chemoresistance. Here, we found DDX3 expression was upregulated in both 
+cisplatin-resistant OSCC lines and chemoresistant tumors when compared with 
+their respective sensitive counterparts. In a patient-derived cell xenograft 
+model of chemoresistant OSCC, ketorolac salt restores cisplatin-mediated cell 
+death and facilitates a significant reduction of tumor burdens. Our work 
+uncovers a critical function of DDX3 and provides a new role in m6 demethylation 
+of RNA. A combination regimen of ketorolac salt with cisplatin deserves further 
+clinical investigation in advanced OSCC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="745~760,797~815" text="genetic (shRNA) ... inhibition of DDX3" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="764~815" text="pharmacological (ketorolac salt) inhibition of DDX3" description="pharmacological inhibition" />
+<CONTEXT id="C0" spans="825~839" text="CSC population" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C1" spans="1259~1319" text="patient-derived cell xenograft  model of chemoresistant OSCC" experiment_type="xenotransplantation" species="human" />
+<EFFECT id="E0" spans="1336~1344,1364~1375" text="restores ... cell  death" phenotype="cell death" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

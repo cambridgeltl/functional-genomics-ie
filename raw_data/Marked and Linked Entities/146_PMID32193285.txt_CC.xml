@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Inactivation of the Prolyl Isomerase Pin1 Sensitizes BRCA1-Proficient Breast 
+Cancer to PARP Inhibition.
+
+PARP inhibitor monotherapies are effective to treat patients with breast, ovary, 
+prostate, and pancreatic cancer with BRCA1 mutations, but not to the much more 
+frequent BRCA wild-type cancers. Searching for strategies that would extend the 
+use of PARP inhibitors to BRCA1-proficient tumors, we found that the stability 
+of BRCA1 protein following ionizing radiation (IR) is maintained by 
+postphosphorylational prolyl-isomerization adjacent to Ser1191 of BRCA1, 
+catalyzed by prolyl-isomerase Pin1. Extinction of Pin1 decreased homologous 
+recombination (HR) to the level of BRCA1-deficient cells. Pin1 stabilizes BRCA1 
+by preventing ubiquitination of Lys1037 of BRCA1. Loss of Pin1, or introduction 
+of a BRCA1-mutant refractory to Pin1 binding, decreased the ability of BRCA1 to 
+localize to repair foci and augmented IR-induced DNA damage. In vitro growth of 
+HR-proficient breast, prostate, and pancreatic cancer cells were modestly 
+repressed by olaparib or Pin1 inhibition using all-trans retinoic acid (ATRA), 
+while combination treatment resulted in near-complete block of cell 
+proliferation. In MDA-MB-231 xenografts and triple-negative breast cancer 
+patient-derived xenografts, either loss of Pin1 or ATRA treatment reduced BRCA1 
+expression and sensitized breast tumors to olaparib. Together, our study reveals 
+that Pin1 inhibition, with clinical widely used ATRA, acts as an effective HR 
+disrupter that sensitizes BRCA1-proficient tumors to PARP inhibition. ]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="608~626" text="Extinction of Pin1" description="knock out" />
+<PERTURBING_ACTION id="P1" spans="780~792" text="Loss of Pin1" description="knock out" />
+<PERTURBING_ACTION id="P2" spans="816~855" text="BRCA1-mutant refractory to Pin1 binding" description="other" />
+<PERTURBING_ACTION id="P3" spans="1073~1125" text="Pin1 inhibition using all-trans retinoic acid (ATRA)" description="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="1307~1319" text="loss of Pin1" description="knock out" />
+<CONTEXT id="C1" spans="953~961,973~1032" text="In vitro ... HR-proficient breast, prostate, and pancreatic cancer cells" experiment_type="transformed cell line" species="not stated" />
+<CONTEXT id="C2" spans="1191~1195" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="1215~1236" text="MDA-MB-231 xenografts" experiment_type="xenotransplantation" species="not stated" />
+<CONTEXT id="C4" spans="1241~1298" text="triple-negative breast cancer  patient-derived xenografts" experiment_type="xenotransplantation" species="human" />
+<EFFECT id="E0" spans="962~968,1033~1057" text="growth ... were modestly  repressed" phenotype="cell growth" activity="decreases" />
+<EFFECT id="E1" spans="1182~1190,1197~1210" text="block of ... proliferation" phenotype="proliferation" activity="inhibits" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="Pin1 inhibition using all-trans retinoic acid (ATRA)" effectID="E0" effectText="growth ... were modestly  repressed" contextID="C1" contextText="In vitro ... HR-proficient breast, prostate, and pancreatic cancer cells" />
+</TAGS>
+</Genomics_ConceptTask>

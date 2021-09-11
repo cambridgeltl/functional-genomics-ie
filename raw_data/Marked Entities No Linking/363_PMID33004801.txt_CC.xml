@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BAFF-driven NLRP3 inflammasome activation in B cells.
+
+BAFF supports B-cell survival and homeostasis by activating the NF-κB pathway. 
+While NF-κB is also involved in the priming signal of NLRP3 inflammasome, the 
+role of BAFF in NLRP3 inflammasome regulation is unknown. Here we report BAFF 
+engagement to BAFF receptor elicited both priming and activating signals for 
+NLRP3 inflammasomes in primary B cells and B lymphoma cell lines. This induction 
+of NLRP3 inflammasomes by BAFF led to increased NLRP3 and IL-1β expression, 
+caspase-1 activation, IL-1β secretion, and pyroptosis. Mechanistically, BAFF 
+activated NLRP3 inflammasomes by promoting the association of cIAP-TRAF2 with 
+components of NLRP3 inflammasomes, and by inducing Src activity-dependent ROS 
+production and potassium ion efflux. B-cell receptor (BCR) stimulation on the 
+Lyn signaling pathway inhibited BAFF-induced Src activities and attenuated 
+BAFF-induced NLRP3 inflammasome activation. These findings reveal an additional 
+function of BAFF in B-cell homeostasis that is associated with BCR activities.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="394~409" text="primary B cells" experiment_type="primary culture" species="not stated" />
+<CONTEXT id="C1" spans="414~435" text="B lymphoma cell lines" experiment_type="transformed cell line" species="not stated" />
+<EFFECT id="E0" spans="491~500,573~583" text="increased ... pyroptosis" phenotype="pyroptosis" activity="increases" />
+</TAGS>
+</Genomics_ConceptTask>

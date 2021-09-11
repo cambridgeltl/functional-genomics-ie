@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Quantifying the efficacy of checkpoint inhibitors on CD8(+) cytotoxic T cells 
+for immunotherapeutic applications via single-cell interaction.
+
+The inhibition of the PD1/PDL1 pathway has led to remarkable clinical success 
+for cancer treatment in some patients. Many, however, exhibit little to no 
+response to this treatment. To increase the efficacy of PD1 inhibition, 
+additional checkpoint inhibitors are being explored as combination therapy 
+options. TSR-042 and TSR-033 are novel antibodies for the inhibition of the PD1 
+and LAG3 pathways, respectively, and are intended for combination therapy. Here, 
+we explore the effect on cellular interactions of TSR-042 and TSR-033 alone and 
+in combination at the single-cell level. Utilizing our droplet microfluidic 
+platform, we use time-lapse microscopy to observe the effects of these 
+antibodies on calcium flux in CD8+ T cells upon antigen presentation, as well as 
+their effect on the cytotoxic potential of CD8+ T cells on human breast cancer 
+cells. This platform allowed us to investigate the interactions between these 
+treatments and their impacts on T-cell activity in greater detail than 
+previously applied in vitro tests. The novel parameters we were able to observe 
+included effects on the exact time to target cell killing, contact times, and 
+potential for serial-killing by CD8+ T cells. We found that inhibition of LAG3 
+with TSR-033 resulted in a significant increase in calcium fluctuations of CD8+ 
+T cells in contact with dendritic cells. We also found that the combination of 
+TSR-042 and TSR-033 appears to synergistically increase tumor cell killing and 
+the single-cell level. This study provides a novel single-cell-based assessment 
+of the impact these checkpoint inhibitors have on cellular interactions with 
+CD8+ T cells.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1374~1406" text="inhibition of LAG3  with TSR-033" description="pharmacological inhibition" />
+<CONTEXT id="C3" spans="1469~1482" text="CD8+  T cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1611~1621" text="tumor cell" experiment_type="transformed cell line" species="not stated" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Bcl-2 silencing attenuates hypoxia-induced apoptosis resistance in pulmonary 
+microvascular endothelial cells.
+
+Pulmonary arterial hypertension (PAH) is a life-threatening disorder that 
+ultimately causes heart failure. While the underlying causes of this condition 
+are not well understood, previous studies suggest that the anti-apoptotic nature 
+of pulmonary microvascular endothelial cells (PMVECs) in hypoxic environments 
+contributes to PAH pathogenesis. In this study, we focus on the contribution of 
+Bcl-2 and hypoxia response element (HRE) to apoptosis-resistant endothelial 
+cells and investigate the mechanism. PMVECs obtained from either normal rats or 
+apoptosis-resistant PMVECs obtained from PAH rats were transduced with 
+recombinant lentiviral vectors carrying either Bcl-2-shRNA or HRE combined 
+Bcl-2-shRNA, and then cultured these cells for 24 h under hypoxic (5% O2) or 
+normoxic (21% O2) conditions. In normal PMVECs, Bcl-2-shRNA or HRE combined with 
+Bcl-2-shRNA transduction successfully decreased Bcl-2 expression, while 
+increasing apoptosis as well as caspase-3 and P53 expression in a normoxic 
+environment. In a hypoxic environment, the effects of Bcl-2-shRNA treatment on 
+cell apoptosis, and on Bcl-2, caspase-3, P53 expression were significantly 
+suppressed. Conversely, HRE activation combined with Bcl-2-shRNA transduction 
+markedly enhanced cell apoptosis and upregulated caspase-3 and P53 expression, 
+while decreasing Bcl-2 expression. Furthermore, in apoptosis-resistant PMVECs, 
+HRE-mediated Bcl-2 silencing effectively enhanced cell apoptosis and caspase-3 
+activity. The apoptosis rate was significantly depressed when Lv-HRE-Bcl-2-shRNA 
+was combined with Lv-P53-shRNA or Lv-caspase3-shRNA transduction in a hypoxic 
+environment. These results suggest that HRE-mediated Bcl-2 inhibition can 
+effectively attenuate hypoxia-induced apoptosis resistance in PMVECs by 
+downregulating Bcl-2 expression and upregulating caspase-3 and P53 expression. 
+This study therefore reveals critical insight into potential therapeutic targets 
+for treating PAH.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="722~778,786~797" text="transduced with  recombinant lentiviral vectors carrying ... Bcl-2-shRNA" description="knock down" />
+<PERTURBING_ACTION id="P1" spans="722~778,801~826" text="transduced with  recombinant lentiviral vectors carrying ... HRE combined  Bcl-2-shRNA" description="knock down" />
+<PERTURBING_ACTION id="P2" spans="941~952" text="Bcl-2-shRNA" description="knock down" />
+<PERTURBING_ACTION id="P3" spans="956~986" text="HRE combined with  Bcl-2-shRNA" description="knock down" />
+<PERTURBING_ACTION id="P4" spans="1178~1199" text="Bcl-2-shRNA treatment" description="knock down" />
+<PERTURBING_ACTION id="P5" spans="1304~1357" text="HRE activation combined with Bcl-2-shRNA transduction" description="knock down" />
+<PERTURBING_ACTION id="P6" spans="1519~1547" text="HRE-mediated Bcl-2 silencing" description="knock down" />
+<PERTURBING_ACTION id="P7" spans="1661~1711" text="Lv-HRE-Bcl-2-shRNA  was combined with Lv-P53-shRNA" description="knock down" />
+<PERTURBING_ACTION id="P8" spans="1661~1698,1715~1732" text="Lv-HRE-Bcl-2-shRNA  was combined with ... Lv-caspase3-shRNA" description="knock down" />
+<PERTURBING_ACTION id="P9" spans="1800~1829" text="HRE-mediated Bcl-2 inhibition" description="knock down" />
+<CONTEXT id="C0" spans="623~643,651~662" text="PMVECs obtained from ... normal rats" experiment_type="cells" species="not stated" />
+<CONTEXT id="C1" spans="667~716" text="apoptosis-resistant PMVECs obtained from PAH rats" experiment_type="cells" species="not stated" />
+<CONTEXT id="C2" spans="852~857" text="cells" experiment_type="cells" species="not stated" />
+<CONTEXT id="C3" spans="926~939" text="normal PMVECs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C4" spans="1204~1208" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C5" spans="1377~1381" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C6" spans="1490~1516" text="apoptosis-resistant PMVECs" experiment_type="cells" species="not stated" />
+<CONTEXT id="C7" spans="1569~1573" text="cell" experiment_type="cells" species="not stated" />
+<CONTEXT id="C8" spans="1897~1903" text="PMVECs" experiment_type="cells" species="not stated" />
+<EFFECT id="E0" spans="1048~1068" text="increasing apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E1" spans="1209~1218" text="apoptosis" phenotype="apoptosis" activity="not stated" />
+<EFFECT id="E2" spans="1368~1376,1382~1391" text="enhanced ... apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E3" spans="1560~1568,1574~1583" text="enhanced ... apoptosis" phenotype="apoptosis" activity="increases" />
+<EFFECT id="E4" spans="1613~1631,1646~1655" text="apoptosis rate was ... depressed" phenotype="apoptosis" activity="decreases" />
+<EFFECT id="E5" spans="1847~1856,1865~1893" text="attenuate ... induced apoptosis resistance" phenotype="apoptosis" activity="decreases" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="Bcl-2-shRNA" contextID="C3" contextText="normal PMVECs" effectID="E0" effectText="increasing apoptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="HRE combined with  Bcl-2-shRNA" contextID="C3" contextText="normal PMVECs" effectID="E0" effectText="increasing apoptosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P4" perturbing_actionText="Bcl-2-shRNA treatment" contextID="C4" contextText="cell" effectID="E1" effectText="apoptosis" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P5" perturbing_actionText="HRE activation combined with Bcl-2-shRNA transduction" contextID="C5" contextText="cell" effectID="E2" effectText="enhanced ... apoptosis" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P6" perturbing_actionText="HRE-mediated Bcl-2 silencing" contextID="C6" contextText="apoptosis-resistant PMVECs" effectID="E3" effectText="enhanced ... apoptosis" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P6" perturbing_actionText="HRE-mediated Bcl-2 silencing" contextID="C7" contextText="cell" effectID="E3" effectText="enhanced ... apoptosis" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P9" perturbing_actionText="HRE-mediated Bcl-2 inhibition" contextID="C8" contextText="PMVECs" effectID="E5" effectText="attenuate ... induced apoptosis resistance" />
+</TAGS>
+</Genomics_ConceptTask>

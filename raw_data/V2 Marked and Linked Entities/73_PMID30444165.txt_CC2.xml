@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[HDAC6 differentially regulates autophagy in stem-like versus differentiated 
+cancer cells.
+
+Cancer stem-like cells (CSCs), a small population of pluripotent cells residing 
+within heterogeneous tumor mass, remain highly resistant to various 
+chemotherapies as compared to the differentiated cancer cells. It is being 
+postulated that CSCs possess unique molecular mechanisms, such as autophagic 
+homeostasis, that allow CSCs to withstand the therapeutic assaults. Here we 
+demonstrate that HDAC6 inhibition differentially modulates 
+macroautophagy/autophagy in CSCs as compared to that of differentiated cancer 
+cells. Using human and murine CSC models and differentiated cells, we show that 
+the inhibition or knockdown (KD) of HDAC6 decreases CSC pluripotency by 
+downregulating major pluripotency factors POU5F1, NANOG and SOX2. This decreased 
+HDAC6 expression increases ACTB, TUBB3 and CSN2 expression and promotes 
+differentiation in CSCs in an apoptosis-independent manner. Mechanistically, 
+HDAC6 KD in CSCs decreases pluripotency by promoting autophagy, whereas the 
+inhibition of pluripotency via retinoic acid treatment, POU5F1 or 
+autophagy-related gene (ATG7 and ATG12) KD in CSCs decreases HDAC6 expression 
+and promotes differentiation. Interestingly, HDAC6 KD-mediated CSC growth 
+inhibition is further enhanced in the presence of autophagy inducers Tat-Beclin 
+1 peptide and rapamycin. In contrast to the results observed in CSCs, HDAC6 KD 
+in differentiated breast cancer cells downregulates autophagy and increases 
+apoptosis. Furthermore, the autophagy regulator p-MTOR, upstream negative 
+regulators of p-MTOR (TSC1 and TSC2) and downstream effectors of p-MTOR 
+(p-RPS6KB and p-EIF4EBP1) are differentially regulated in CSCs versus 
+differentiated cancer cells following HDAC6 KD. Overall these data identify the 
+differential regulation of autophagy as a molecular link behind the differing 
+chemo-susceptibility of CSCs and differentiated cancer cells.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="711~734" text="knockdown (KD) of HDAC6" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1267~1275" text="HDAC6 KD" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P3" spans="1448~1456" text="HDAC6 KD" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P4" spans="1792~1800" text="HDAC6 KD" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P5" spans="999~1007" text="HDAC6 KD" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P6" spans="1132~1185" text="POU5F1 or  autophagy-related gene (ATG7 and ATG12) KD" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="745~748" text="CSC" context="transformed cells" />
+<CONTEXT id="C1" spans="940~944" text="CSCs" context="transformed cells" />
+<CONTEXT id="C2" spans="1189~1193" text="CSCs" context="transformed cells" />
+<CONTEXT id="C3" spans="1285~1288" text="CSC" context="transformed cells" />
+<CONTEXT id="C4" spans="1461~1495" text="differentiated breast cancer cells" context="transformed cells" />
+<CONTEXT id="C6" spans="1741~1745" text="CSCs" context="transformed cells" />
+<CONTEXT id="C7" spans="1754~1781" text="differentiated cancer cells" context="transformed cells" />
+<CONTEXT id="C8" spans="1011~1015" text="CSCs" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="921~936" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH1" spans="1052~1061" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="1235~1250" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH3" spans="1510~1519" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH4" spans="1535~1544" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="911~919" text="promotes" effect="positive" />
+<EFFECT id="E1" spans="1042~1051" text="promoting" effect="positive" />
+<EFFECT id="E2" spans="1226~1234" text="promotes" effect="positive" />
+<EFFECT id="E4" spans="1496~1509" text="downregulates" effect="negative" />
+<EFFECT id="E5" spans="1524~1533" text="increases" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="knockdown (KD) of HDAC6" contextID="C1" contextText="CSCs" effectID="E0" effectText="promotes" phenotypeID="PH0" phenotypeText="differentiation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P5" perturbing_actionText="HDAC6 KD" contextID="C8" contextText="CSCs" effectID="E1" effectText="promoting" phenotypeID="PH1" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P6" perturbing_actionText="POU5F1 or  autophagy-related gene (ATG7 and ATG12) KD" contextID="C2" contextText="CSCs" effectID="E2" effectText="promotes" phenotypeID="PH2" phenotypeText="differentiation" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P3" perturbing_actionText="HDAC6 KD" contextID="C4" contextText="differentiated breast cancer cells" effectID="E4" effectText="downregulates" phenotypeID="PH3" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P3" perturbing_actionText="HDAC6 KD" contextID="C4" contextText="differentiated breast cancer cells" effectID="E5" effectText="increases" phenotypeID="PH4" phenotypeText="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

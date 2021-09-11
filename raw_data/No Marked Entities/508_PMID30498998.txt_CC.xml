@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A real-time, bioluminescent annexin V assay for the assessment of apoptosis.
+
+Apoptosis is an important and necessary cell death program which promotes 
+homeostasis and organismal survival. When dysregulated, however, it can lead to 
+a myriad of pathologies from neurodegenerative diseases to cancer. Apoptosis is 
+therefore the subject of intense study aimed at dissecting its pathways and 
+molecular mechanisms. Although many assay methods exist for confirming whether 
+an apoptotic response has occurred in vitro, most methods are destructive and 
+involve laborious operator effort or specialized instrumentation. Here we 
+describe a real-time, no-wash, microplate method which utilizes recombinant 
+annexin V fusion proteins containing evolved binary subunits of NanoBiT™ 
+luciferase. The fusion proteins, a time-released enzymatic substrate, a necrosis 
+detection dye and exogenous calcium ions are delivered via an optimized and 
+physiologically inert reagent directly to cells in culture at the time of 
+treatment or dosing. Luminescent signals proportional to phosphatidylserine (PS) 
+exposure and fluorescent signals generated as a result of loss of membrane 
+integrity are then collected using a standard multimode plate reader at 
+scheduled intervals over the exposure. The resulting luminescent and fluorescent 
+data are then used to define the kinetics and magnitude of an apoptotic 
+response. This study details our efforts to develop, characterize, and 
+demonstrate the features of the assay by providing relevant examples from 
+diverse cell models for programmed cell death.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

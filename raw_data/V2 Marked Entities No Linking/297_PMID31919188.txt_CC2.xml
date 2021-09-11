@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The chromatin remodeler Snf2h is essential for oocyte meiotic cell cycle 
+progression.
+
+Oocytes are indispensable for mammalian life. Thus, it is important to 
+understand how mature oocytes are generated. As a critical stage of oocytes 
+development, meiosis has been extensively studied, yet how chromatin remodeling 
+contributes to this process is largely unknown. Here, we demonstrate that the 
+ATP-dependent chromatin remodeling factor Snf2h (also known as Smarca5) plays a 
+critical role in regulating meiotic cell cycle progression. Females with 
+oocyte-specific depletion of Snf2h are infertile and oocytes lacking Snf2h fail 
+to undergo meiotic resumption. Mechanistically, depletion of Snf2h results in 
+dysregulation of meiosis-related genes, which causes failure of 
+maturation-promoting factor (MPF) activation. ATAC-seq analysis in oocytes 
+revealed that Snf2h regulates transcription of key meiotic genes, such as 
+Prkar2b, by increasing its promoter chromatin accessibility. Thus, our studies 
+not only demonstrate the importance of Snf2h in oocyte meiotic resumption, but 
+also reveal the mechanism underlying how a chromatin remodeling factor can 
+regulate oocyte meiosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="552~586" text="oocyte-specific depletion of Snf2h" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="613~626" text="lacking Snf2h" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="681~699" text="depletion of Snf2h" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="605~612" text="oocytes" context="cells" />
+<CONTEXT id="C1" spans="538~545" text="Females" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

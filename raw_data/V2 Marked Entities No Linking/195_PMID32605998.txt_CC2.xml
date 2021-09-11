@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[HDAC6 Plays a Noncanonical Role in the Regulation of Antitumor Immune Responses, 
+Dissemination, and Invasiveness of Breast Cancer.
+
+Despite the outstanding clinical results of immune checkpoint blockade (ICB) in 
+melanoma and other cancers, clinical trials in breast cancer have reported low 
+responses to these therapies. Current efforts are now focused on improving the 
+treatment efficacy of ICB in breast cancer using new combination designs such as 
+molecularly targeted agents, including histone deacetylase inhibitors (HDACi). 
+These epigenetic drugs have been widely described as potent cytotoxic agents for 
+cancer cells. In this work, we report new noncanonical regulatory properties of 
+ultra-selective HDAC6i over the expression and function of 
+epithelial-mesenchymal transition pathways and the invasiveness potential of 
+breast cancer. These unexplored roles position HDAC6i as attractive options to 
+potentiate ongoing immunotherapeutic approaches. These new functional activities 
+of HDAC6i involved regulation of the E-cadherin/STAT3 axis. Pretreatment of 
+tumors with HDAC6i induced critical changes in the tumor microenvironment, 
+resulting in improved effectiveness of ICB and preventing dissemination of 
+cancer cells to secondary niches. Our results demonstrate for the first time 
+that HDAC6i can both improve ICB antitumor immune responses and diminish the 
+invasiveness of breast cancer with minimal cytotoxic effects, thus departing 
+from the cytotoxicity-centric paradigm previously assigned to HDACi. ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1076~1082" text="tumors" context="neoplasm" />
+<CONTEXT id="C1" spans="1228~1240" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1400~1413" text="breast cancer" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="1384~1396" text="invasiveness" phenotype="invasion" />
+<EFFECT id="E0" spans="1370~1378" text="diminish" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>
