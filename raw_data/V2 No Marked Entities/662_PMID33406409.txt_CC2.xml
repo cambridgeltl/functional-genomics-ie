@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Spatiotemporal analysis of human intestinal development at single-cell 
+resolution.
+
+Development of the human intestine is not well understood. Here, we link 
+single-cell RNA sequencing and spatial transcriptomics to characterize 
+intestinal morphogenesis through time. We identify 101 cell states including 
+epithelial and mesenchymal progenitor populations and programs linked to key 
+morphogenetic milestones. We describe principles of crypt-villus axis formation; 
+neural, vascular, mesenchymal morphogenesis, and immune population of the 
+developing gut. We identify the differentiation hierarchies of developing 
+fibroblast and myofibroblast subtypes and describe diverse functions for these 
+including as vascular niche cells. We pinpoint the origins of Peyer's patches 
+and gut-associated lymphoid tissue (GALT) and describe location-specific immune 
+programs. We use our resource to present an unbiased analysis of morphogen 
+gradients that direct sequential waves of cellular differentiation and define 
+cells and locations linked to rare developmental intestinal disorders. We 
+compile a publicly available online resource, spatio-temporal analysis resource 
+of fetal intestinal development (STAR-FINDer), to facilitate further work.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Epigenetic Silencing of CDR1as Drives IGF2BP3-Mediated Melanoma Invasion and 
+Metastasis.
+
+Metastasis is the primary cause of death of cancer patients. Dissecting 
+mechanisms governing metastatic spread may uncover important tumor biology 
+and/or yield promising therapeutic insights. Here, we investigated the role of 
+circular RNAs (circRNA) in metastasis, using melanoma as a model aggressive 
+tumor. We identified silencing of cerebellar degeneration-related 1 antisense 
+(CDR1as), a regulator of miR-7, as a hallmark of melanoma progression. CDR1as 
+depletion results from epigenetic silencing of LINC00632, its originating long 
+non-coding RNA (lncRNA) and promotes invasion in vitro and metastasis in vivo 
+through a miR-7-independent, IGF2BP3-mediated mechanism. Moreover, CDR1as levels 
+reflect cellular states associated with distinct therapeutic responses. Our 
+study reveals functional, prognostic, and predictive roles for CDR1as and expose 
+circRNAs as key players in metastasis.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="681~689" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="705~712" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="672~680" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH1" spans="694~704" text="metastasis" phenotype="metastasis" />
+<EFFECT id="E0" spans="663~671" text="promotes" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PDK4 promotes vascular calcification by interfering with autophagic activity and 
+metabolic reprogramming.
+
+Pyruvate dehydrogenase kinase 4 (PDK4) is an important mitochondrial matrix 
+enzyme in cellular energy regulation. Previous studies suggested that PDK4 is 
+increased in the calcified vessels of patients with atherosclerosis and is 
+closely associated with mitochondrial function, but the precise regulatory 
+mechanisms remain largely unknown. This study aims to investigate the role of 
+PDK4 in vascular calcification and the molecular mechanisms involved. Using a 
+variety of complementary techniques, we found impaired autophagic activity in 
+the process of vascular smooth muscle cells (VSMCs) calcification, whereas 
+knocking down PDK4 had the opposite effect. PDK4 drives the metabolic 
+reprogramming of VSMCs towards a Warburg effect, and the inhibition of PDK4 
+abrogates VSMCs calcification. Mechanistically, PDK4 disturbs the integrity of 
+the mitochondria-associated endoplasmic reticulum membrane, concomitantly 
+impairing mitochondrial respiratory capacity, which contributes to a decrease in 
+lysosomal degradation by inhibiting the V-ATPase and lactate dehydrogenase B 
+interaction. PDK4 also inhibits the nuclear translocation of the transcription 
+factor EB, thus inhibiting lysosomal function. These changes result in the 
+interruption of autophagic flux, which accelerates calcium deposition in VSMCs. 
+In addition, glycolysis serves as a metabolic adaptation to improve VSMCs 
+oxidative stress resistance, whereas inhibition of glycolysis by 
+2-deoxy-D-glucose induces the apoptosis of VSMCs and increases the calcium 
+deposition in VSMCs. Our results suggest that PDK4 plays a key role in vascular 
+calcification through autophagy inhibition and metabolic reprogramming.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="729~747" text="knocking down PDK4" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="1421~1426" text="VSMCs" context="cells" />
+<CONTEXT id="C1" spans="1613~1618" text="VSMCs" context="cells" />
+<CONTEXT id="C2" spans="1660~1665" text="VSMCs" context="cells" />
+<PHENOTYPE id="PH0" spans="1364~1379" text="autophagic flux" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1600~1609" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1588~1595" text="induces" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

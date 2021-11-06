@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[(+)-Clausenamide protects against drug-induced liver injury by inhibiting 
+hepatocyte ferroptosis.
+
+Drug-induced liver injury is the major cause of acute liver failure. However, 
+the underlying mechanisms seem to be multifaceted and remain poorly understood, 
+resulting in few effective therapies. Here, we report a novel mechanism that 
+contributes to acetaminophen-induced hepatotoxicity through the induction of 
+ferroptosis, a distinctive form of programmed cell death. We subsequently 
+identified therapies protective against acetaminophen-induced liver damage and 
+found that (+)-clausenamide ((+)-CLA), an active alkaloid isolated from the 
+leaves of Clausena lansium (Lour.) Skeels, inhibited acetaminophen-induced 
+hepatocyte ferroptosis both in vivo and in vitro. Consistently, (+)-CLA 
+significantly alleviated acetaminophen-induced or erastin-induced hepatic 
+pathological damages, hepatic dysfunctions and excessive production of lipid 
+peroxidation both in cultured hepatic cell lines and mouse liver. Furthermore, 
+treatment with (+)-CLA reduced the mRNA level of prostaglandin endoperoxide 
+synthase 2 while it increased the protein level of glutathione peroxidase 4 in 
+hepatocytes and mouse liver, confirming that the inhibition of ferroptosis 
+contributes to the protective effect of (+)-CLA on drug-induced liver damage. We 
+further revealed that (+)-CLA specifically reacted with the Cys-151 residue of 
+Keap1, which blocked Nrf2 ubiquitylation and resulted in an increased Nrf2 
+stability, thereby leading to the activation of the Keap1-Nrf2 pathway to 
+prevent drug-induced hepatocyte ferroptosis. Our studies illustrate the 
+innovative mechanisms of acetaminophen-induced liver damage and present a novel 
+intervention strategy to treat drug overdose by using (+)-CLA.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="724~734" text="hepatocyte" context="cells" />
+<CONTEXT id="C1" spans="752~759" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="764~772" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="980~998" text="hepatic cell lines" context="cells" />
+<CONTEXT id="C4" spans="1003~1014" text="mouse liver" context="tissue/organ" />
+<CONTEXT id="C5" spans="1187~1198" text="hepatocytes" context="cells" />
+<CONTEXT id="C6" spans="1203~1214" text="mouse liver" context="tissue/organ" />
+<CONTEXT id="C7" spans="1597~1607" text="hepatocyte" context="cells" />
+<PHENOTYPE id="PH0" spans="735~746" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="1608~1619" text="ferroptosis" phenotype="ferroptosis" />
+<EFFECT id="E0" spans="691~700" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="1576~1583" text="prevent" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

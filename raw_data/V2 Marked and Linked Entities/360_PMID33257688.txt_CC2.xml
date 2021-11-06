@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BRDT promotes ovarian cancer cell growth.
+
+Bromodomain testis-specific factor (BRDT) is a member of the bromodomain and 
+extra-terminal (BET) family proteins. Its expression and potential functions in 
+ovarian cancer were examined. We show that BRDT is overexpressed in human 
+ovarian cancer tissues and in established (CaOV3)/primary ovarian cancer cells. 
+However, its expression is low in ovarian epithelial tissues and cells. 
+Significantly, shRNA-induced silencing or CRISPR/Cas9-mediated knockout of BRDT 
+inhibited ovarian cancer cell growth, viability, proliferation and migration, 
+and induced significant apoptosis activation. Conversely, exogenous 
+overexpression of BRDT, by a lentiviral construct, augmented CaOV3 cell 
+proliferation and migration. In CaOV3 cells expression of two key BRDT target 
+genes, polo-like kinase 1 (PLK1) and aurora kinase C (AURKC), was downregulated 
+by BRDT shRNA or knockout, but upregulated with BRDT overexpression. In vivo, 
+xenograft tumors-derived from BRDT-knockout CaOV3 cells grew significantly 
+slower than control tumors in severe combined immunodeficient (SCID) mice. 
+Furthermore, intratumoral injection of BRDT shRNA lentivirus potently inhibited 
+the growth of primary ovarian cancer xenografts in SCID mice. Downregulation of 
+PLK1 and AURKC was detected in BRDT-knockout and BRDT-silenced tumor tissues. 
+Collectively, BRDT overexpression promotes ovarian cancer cell progression. 
+Targeting BRDT could be a novel strategy to treat ovarian cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="473~510" text="CRISPR/Cas9-mediated knockout of BRDT" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="649~709" text="exogenous  overexpression of BRDT, by a lentiviral construct" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P3" spans="941~960" text="BRDT overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P4" spans="896~906" text="BRDT shRNA" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P5" spans="1002~1015" text="BRDT-knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P6" spans="1163~1184" text="BRDT shRNA lentivirus" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P7" spans="1317~1330" text="BRDT-knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P8" spans="1335~1348" text="BRDT-silenced" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P9" spans="1379~1398" text="BRDT overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="522~536" text="ovarian cancer" context="neoplasm" />
+<CONTEXT id="C1" spans="721~731" text="CaOV3 cell" context="transformed cells" />
+<CONTEXT id="C2" spans="962~969" text="In vivo" context="in vivo" />
+<CONTEXT id="C3" spans="972~988" text="xenograft tumors" context="xenograft" />
+<CONTEXT id="C4" spans="1016~1027" text="CaOV3 cells" context="transformed cells" />
+<CONTEXT id="C5" spans="1078~1121" text="severe combined immunodeficient (SCID) mice" context="organism" />
+<CONTEXT id="C6" spans="1068~1074" text="tumors" context="neoplasm" />
+<CONTEXT id="C7" spans="1219~1252" text="primary ovarian cancer xenografts" context="xenograft" />
+<CONTEXT id="C8" spans="1256~1265" text="SCID mice" context="organism" />
+<CONTEXT id="C9" spans="1349~1362" text="tumor tissues" context="neoplasm" />
+<CONTEXT id="C10" spans="1408~1427" text="ovarian cancer cell" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="537~548" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH1" spans="561~574" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH2" spans="579~588" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH3" spans="615~624" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH4" spans="733~746" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH5" spans="751~760" text="migration" phenotype="migration" />
+<EFFECT id="E0" spans="512~521" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="595~602" text="induced" effect="positive" />
+<EFFECT id="E2" spans="625~635" text="activation" effect="positive" />
+<EFFECT id="E3" spans="711~720" text="augmented" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" contextID="C0" contextText="ovarian cancer" phenotypeID="PH0" phenotypeText="cell growth" effectID="E0" effectText="inhibited" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" contextID="C0" contextText="ovarian cancer" effectID="E0" effectText="inhibited" phenotypeID="PH1" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" contextID="C0" contextText="ovarian cancer" phenotypeID="PH2" phenotypeText="migration" effectID="E0" effectText="inhibited" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" contextID="C0" contextText="ovarian cancer" effectID="E1" effectText="induced" phenotypeID="PH3" phenotypeText="apoptosis" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P0" perturbing_actionText="CRISPR/Cas9-mediated knockout of BRDT" contextID="C0" contextText="ovarian cancer" phenotypeID="PH3" phenotypeText="apoptosis" effectID="E2" effectText="activation" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P1" perturbing_actionText="exogenous  overexpression of BRDT, by a lentiviral construct" contextID="C1" contextText="CaOV3 cell" effectID="E3" effectText="augmented" phenotypeID="PH4" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN6" perturbing_actionID="P1" perturbing_actionText="exogenous  overexpression of BRDT, by a lentiviral construct" contextID="C1" contextText="CaOV3 cell" phenotypeID="PH5" phenotypeText="migration" effectID="E3" effectText="augmented" />
+</TAGS>
+</Genomics_ConceptTask>

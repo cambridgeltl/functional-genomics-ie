@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LncRNA MM2P-induced, exosome-mediated transfer of Sox9 from monocyte-derived 
+cells modulates primary chondrocytes.
+
+Monocyte-derived cells were shown to promote cartilage repair in osteoarthritis. 
+The role of the long non-coding RNA (lncRNA) MM2P in this function of 
+monocyte-derived cells remained unexplored. Treatment of RAW264.7 murine 
+macrophages and mouse bone marrow-derived macrophages with IL-4 or IL-13 
+upregulated MM2P expression, upstream of STAT3 and STAT6 phosphorylation. 
+Specifically, MM2P blocked SHP2-mediated dephosphorylation of STAT3 at Try705 
+and interacted with the RNA-binding protein FUS. In turn, p-STAT3 increased the 
+Sox9 gene expression. These cells released Sox9 mRNA and protein-containing 
+exosomes, as demonstrated by a transmission electron microscope, nanoparticle 
+tracking analysis, and detection of typical surface markers. Their culture 
+supernatant promoted the differentiation of mouse primary chondrocytes, i.e., 
+upregulated the expression of Col1a2 and Acan genes and promoted the secretion 
+of extracellular matrix components proteoglycan and type II collagen. These 
+effects were mediated by Sox9 mRNA and protein delivered to chondrocytes by 
+exosomes. Together, ex vivo treatment of monocyte-derived cells with IL-4 or 
+IL-13 promoted chondrocyte differentiation and functions through 
+exosome-mediated delivery of Sox9 mRNA and protein.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="327~355" text="RAW264.7 murine  macrophages" context="cells" />
+<CONTEXT id="C1" spans="360~397" text="mouse bone marrow-derived macrophages" context="cells" />
+<CONTEXT id="C2" spans="681~686" text="cells" context="cells" />
+<CONTEXT id="C3" spans="929~955" text="mouse primary chondrocytes" context="cells" />
+<CONTEXT id="C4" spans="1239~1261" text="monocyte-derived cells" context="cells" />
+<CONTEXT id="C5" spans="1291~1302" text="chondrocyte" context="cells" />
+<PHENOTYPE id="PH0" spans="910~925" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH1" spans="1303~1318" text="differentiation" phenotype="differentiation" />
+<EFFECT id="E0" spans="897~905" text="promoted" effect="positive" />
+<EFFECT id="E1" spans="1282~1290" text="promoted" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

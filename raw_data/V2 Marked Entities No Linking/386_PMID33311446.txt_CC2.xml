@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[FZD5 contributes to TNBC proliferation, DNA damage repair and stemness.
+
+Chemotherapy currently remains the standard treatment for triple-negative breast 
+cancer (TNBC). However, TNBC frequently develop chemoresistance, which is 
+responsible for cancer recurrence and distal metastasis. Both DNA damage repair 
+and stemness are related to chemoresistance. FZD5, a member in Frizzled family, 
+was identified to be preferentially expressed in TNBC, and associated with 
+unfavorable prognosis. Loss and gain of function studies revealed that FZD5 
+contributed to TNBC cell G1/S transition, DNA replication, DNA damage repair, 
+survival, and stemness. Mechanistically, transcription factor FOXM1, which 
+promoted BRCA1 and BIRC5 transcription, acted as a downstream effecter of FZD5 
+signaling. FOXM1 overexpression in FZD5-deficient/low TNBC cells induced 
+FZD5-associated phenotype. Finally, Wnt7B, a specific ligand for FZD5, was shown 
+to be involved in cell proliferation, DNA damage repair, and stemness. Taken 
+together, FZD5 is a novel target for the development of therapeutic strategies 
+to overcome chemoresistance and prevent recurrence in TNBC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="791~811" text="FOXM1 overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="815~833" text="FZD5-deficient/low" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="560~564" text="TNBC" context="transformed cells" />
+<CONTEXT id="C1" spans="834~844" text="TNBC cells" context="transformed cells" />
+</TAGS>
+</Genomics_ConceptTask>

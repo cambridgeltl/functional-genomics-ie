@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeting the NCOA3-SP1-TERT axis for tumor growth in hepatocellular carcinoma.
+
+Hepatocellular carcinoma (HCC) has a high mortality rate and lacks an effective 
+therapeutic target. Elevated expression of human telomerase reverse 
+transcriptase (TERT) is an important hallmark in cancers, but the mechanism by 
+which TERT is activated differentially in cancers is poorly understood. Here, we 
+have identified nuclear receptor coactivator-3 (NCOA3) as a new modulator of 
+TERT expression and tumor growth in HCC. NACO3 specifically binds to the TERT 
+promoter at the -234 to -144 region and transcriptionally activates TERT 
+expression. NCOA3 promotes HCC cell growth and tumor progression in vitro and in 
+vivo through upregulating the TERT signaling. Knockdown of NACO3 suppresses HCC 
+cell viability and colony formation, whereas TERT overexpression rescues this 
+suppression. NCOA3 interacts with and recruits SP1 binding on the TERT promoter. 
+Knockdown of NCOA3 also inhibits the expression of the Wnt signaling-related 
+genes but has no effect on the Notch signaling-targeting genes. Moreover, NCOA3 
+is positively correlated with TERT expression in HCC tumor tissues, and high 
+expression of both NCOA3 and TERT predicts a poor prognosis in HCC patients. Our 
+findings indicate that targeting the NCOA3-SP1-TERT signaling axis may benefit 
+HCC patients.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="752~770" text="Knockdown of NACO3" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="832~851" text="TERT overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="948~966" text="Knockdown of NCOA3" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="651~654" text="HCC" context="neoplasm" />
+<CONTEXT id="C1" spans="690~697" text="n vitro" context="in vitro" />
+<CONTEXT id="C2" spans="702~710" text="in  vivo" context="in vivo" />
+<CONTEXT id="C3" spans="782~785" text="HCC" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="655~666" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH1" spans="671~688" text="tumor progression" phenotype="tumour progression" />
+<PHENOTYPE id="PH2" spans="787~801" text="cell viability" phenotype="cell survival" />
+<PHENOTYPE id="PH3" spans="806~822" text="colony formation" phenotype="colony formation" />
+<EFFECT id="E0" spans="642~650" text="promotes" effect="positive" />
+<EFFECT id="E1" spans="771~781" text="suppresses" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Knockdown of NACO3" contextID="C3" contextText="HCC" effectID="E1" effectText="suppresses" phenotypeID="PH2" phenotypeText="cell viability" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Knockdown of NACO3" contextID="C3" contextText="HCC" effectID="E1" effectText="suppresses" phenotypeID="PH3" phenotypeText="colony formation" />
+</TAGS>
+</Genomics_ConceptTask>

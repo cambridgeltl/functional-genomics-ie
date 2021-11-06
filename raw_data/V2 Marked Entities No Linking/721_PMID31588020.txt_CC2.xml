@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Pan-Cancer Landscape and Analysis of ERBB2 Mutations Identifies Poziotinib as a 
+Clinically Active Inhibitor and Enhancer of T-DM1 Activity.
+
+We characterized the landscape and drug sensitivity of ERBB2 (HER2) mutations in 
+cancers. In 11 datasets (n = 211,726), ERBB2 mutational hotspots varied across 
+25 tumor types. Common HER2 mutants yielded differential sensitivities to eleven 
+EGFR/HER2 tyrosine kinase inhibitors (TKIs) in vitro, and molecular dynamics 
+simulations revealed that mutants with a reduced drug-binding pocket volume were 
+associated with decreased affinity for larger TKIs. Overall, poziotinib was the 
+most potent HER2 mutant-selective TKI tested. Phase II clinical testing in ERBB2 
+exon 20-mutant non-small cell lung cancer resulted in a confirmed objective 
+response rate of 42% in the first 12 evaluable patients. In pre-clinical models, 
+poziotinib upregulated HER2 cell-surface expression and potentiated the activity 
+of T-DM1, resulting in complete tumor regression with combination treatment.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="430~438" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="724~750" text="non-small cell lung cancer" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

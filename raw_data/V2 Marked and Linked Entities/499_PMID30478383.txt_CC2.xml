@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Dclk1 in tuft cells promotes inflammation-driven epithelial restitution and 
+mitigates chronic colitis.
+
+Ulcerative colitis (UC) is a chronic inflammatory bowel disease characterized by 
+defective intestinal barrier integrity toward the microbiota and epithelial 
+damage. Double cortin-like kinase 1 (Dclk1), a marker of intestinal tuft cells, 
+can regulate tissue regenerative responses, but its role in epithelial repair 
+during bacterial-dependent chronic colitis is unclear. We addressed this 
+question using our recently developed mouse model of spontaneous 
+microbiota-dependent colitis induced by mucin-type O-glycan deficiency (DKO), 
+which recapitulates most features of human UC. We generated DKO mice lacking 
+intestinal epithelial Dclk1 (DKO;Dclk1ΔIEC) and analyzed colitis onset and 
+severity using clinical and histologic indices, immune responses by qPCR and 
+immunostaining, and epithelial responses using proliferation markers and 
+organoid culture. We found 3-4-week-old DKO;Dclk1ΔIEC mice developed worsened 
+spontaneous colitis characterized by reduced body weight, loose stool, severe 
+colon thickening, epithelial lesions, and inflammatory cell infiltrates compared 
+with DKO mice. The primary defect was an impaired epithelial proliferative 
+response during inflammation. Dclk1 deficiency also reduced inflammation-induced 
+proliferation and growth of colon organoids ex vivo. Mechanistically, Dclk1 
+expression was important for inflammation-induced Cox2 expression and 
+prostaglandin E2 (PGE2) production in vivo, and PGE2 rescued proliferative 
+defects in Dclk1-deficient colonic organoids. Although tuft cells were expanded 
+in both DKO and DKO;Dclk1ΔIEC relative to WT mice, loss of Dclk1 was associated 
+with reduced tuft cell activation (i.e., proliferation) during inflammation. 
+Similar results were found in DKO vs. DKO;Dclk1ΔIEC mice at 3-6 months of age. 
+Our results support that tuft cells, via Dclk1, are important responders to 
+bacterial-induced colitis by enhancing epithelial repair responses, which in 
+turn limits bacterial infiltration into the mucosa.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="604~640" text="mucin-type O-glycan deficiency (DKO)" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="712~764" text="lacking  intestinal epithelial Dclk1 (DKO;Dclk1ΔIEC)" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="989~1002" text="DKO;Dclk1ΔIEC" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="1295~1311" text="Dclk1 deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="1582~1597" text="Dclk1-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P5" spans="1668~1681" text="DKO;Dclk1ΔIEC" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P6" spans="1703~1716" text="loss of Dclk1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P7" spans="1849~1862" text="DKO;Dclk1ΔIEC" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="707~711" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1003~1007" text="mice" context="organism" />
+<CONTEXT id="C2" spans="1375~1390" text="colon organoids" context="organoid" />
+<CONTEXT id="C3" spans="1530~1537" text="in vivo" context="in vivo" />
+<CONTEXT id="C4" spans="1598~1615" text="colonic organoids" context="organoid" />
+<CONTEXT id="C5" spans="1626~1636" text="tuft cells" context="cells" />
+<CONTEXT id="C6" spans="1746~1755" text="tuft cell" context="cells" />
+<CONTEXT id="C7" spans="1863~1867" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="1250~1273" text="proliferative  response" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="1347~1360" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH2" spans="1774~1787" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="1230~1238" text="impaired" effect="negative" />
+<EFFECT id="E1" spans="1317~1324" text="reduced" effect="negative" />
+<EFFECT id="E2" spans="1338~1345" text="induced" effect="positive" />
+<EFFECT id="E3" spans="1738~1745" text="reduced" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="Dclk1 deficiency" effectID="E1" effectText="reduced" phenotypeID="PH1" phenotypeText="proliferation" contextID="C2" contextText="colon organoids" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P6" perturbing_actionText="loss of Dclk1" effectID="E3" effectText="reduced" contextID="C6" contextText="tuft cell" phenotypeID="PH2" phenotypeText="proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

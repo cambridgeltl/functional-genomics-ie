@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Discovery of a novel ferroptosis inducer-talaroconvolutin A-killing colorectal 
+cancer cells in vitro and in vivo.
+
+Ferropotsis is among the most important mechanisms of cancer suppression, which 
+could be harnessed for cancer therapy. However, no natural small-molecule 
+compounds with cancer inhibitory activity have been identified to date. In the 
+present study, we reported the discovery of a novel ferroptosis inducer, 
+talaroconvolutin A (TalaA), and the underlying molecular mechanism. We 
+discovered that TalaA killed colorectal cancer cells in dose-dependent and 
+time-dependent manners. Interestingly, TalaA did not induce apoptosis, but 
+strongly triggered ferroptosis. Notably, TalaA was significantly more effective 
+than erastin (a well-known ferroptosis inducer) in suppressing colorectal cancer 
+cells via ferroptosis. We revealed a dual mechanism of TalaA' action against 
+cancer. On the one hand, TalaA considerably increased reactive oxygen species 
+levels to a certain threshold, the exceeding of which induced ferroptosis. On 
+the other hand, this compound downregulated the expression of the channel 
+protein solute carrier family 7 member 11 (SLC7A11) but upregulated arachidonate 
+lipoxygenase 3 (ALOXE3), promoting ferroptosis. Furthermore, in vivo experiments 
+in mice evidenced that TalaA effectively suppressed the growth of xenografted 
+colorectal cancer cells without obvious liver and kidney toxicities. The 
+findings of this study indicated that TalaA could be a new potential powerful 
+drug candidate for colorectal cancer therapy due to its outstanding ability to 
+kill colorectal cancer cells via ferroptosis induction.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="527~550" text="colorectal cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="794~818" text="colorectal cancer  cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1267~1274" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="1291~1295" text="mice" context="organism" />
+<CONTEXT id="C4" spans="1354~1390" text="xenografted  colorectal cancer cells" context="xenograft" />
+<PHENOTYPE id="PH0" spans="634~643" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="669~680" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH2" spans="823~834" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH3" spans="1032~1043" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH4" spans="1241~1252" text="ferroptosis" phenotype="ferroptosis" />
+<EFFECT id="E0" spans="619~633" text="did not induce" effect="no effect" />
+<EFFECT id="E1" spans="659~668" text="triggered" effect="positive" />
+<EFFECT id="E2" spans="1024~1031" text="induced" effect="positive" />
+<EFFECT id="E3" spans="1231~1240" text="promoting" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Consequences of Zmat3 loss in c-MYC- and mutant KRAS-driven tumorigenesis.
+
+TP53 is a critical tumor suppressor that is mutated in approximately 50% of 
+human cancers. Unveiling the downstream target genes of TP53 that fulfill its 
+tumor suppressor function is an area of intense investigation. Zmat3 (also known 
+as Wig-1 or PAG608) is one such downstream target of p53, whose loss in 
+hemopoietic stem cells lacking the apoptosis and cell cycle regulators, Puma and 
+p21, respectively, promotes the development of leukemia. The function of Zmat3 
+in tumorigenesis however remains unclear. Here, to investigate which oncogenic 
+drivers co-operate with Zmat3 loss to promote neoplastic transformation, we 
+utilized Zmat3 knockout mice in models of c-MYC-driven lymphomagenesis and 
+KrasG12D-driven lung adenocarcinoma development. Interestingly, unlike loss of 
+p53, Zmat3 germline loss had little impact on the rate of tumor development or 
+severity of malignant disease upon either the c-MYC or KrasG12D oncogenic 
+activation. Furthermore, loss of Zmat3 failed to rescue KrasG12D primary lung 
+tumor cells from oncogene-induced senescence. Taken together, we conclude that 
+in the context of c-MYC-driven lymphomagenesis or mutant KrasG12D-driven lung 
+adenocarcinoma development, additional co-occurring mutations are required to 
+resolve Zmat3 tumor suppressive activity.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="715~729" text="Zmat3 knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="867~886" text="Zmat3 germline loss" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="997~1027" text="KrasG12D oncogenic  activation" perturbingaction="other" />
+<PERTURBING_ACTION id="P3" spans="1042~1055" text="loss of Zmat3" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="730~734" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1090~1107" text="lung  tumor cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="920~937" text="tumor development" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH1" spans="1130~1140" text="senescence" phenotype="senescence" />
+<EFFECT id="E0" spans="887~904" text="had little impact" effect="no effect" />
+<EFFECT id="E1" spans="1122~1129" text="induced" effect="positive" />
+<EFFECT id="E2" spans="1056~1072" text="failed to rescue" effect="no effect" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P3" perturbing_actionText="loss of Zmat3" effectID="E2" effectText="failed to rescue" contextID="C1" contextText="lung  tumor cells" phenotypeID="PH1" phenotypeText="senescence" />
+</TAGS>
+</Genomics_ConceptTask>

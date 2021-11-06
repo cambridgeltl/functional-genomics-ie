@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[miR-182-5p and miR-378a-3p regulate ferroptosis in I/R-induced renal injury.
+
+Renal tubular cell death is the key factor of the pathogenesis of 
+ischemia/reperfusion (I/R) kidney injury. Ferroptosis is a type of regulated 
+cell death (RCD) found in various diseases. However, the underlying molecular 
+mechanisms related to ferroptosis in renal I/R injury remain unclear. In the 
+present study, we investigated the regulatory role of microRNAs on ferroptosis 
+in I/R-induced renal injury. We established the I/R-induced renal injury model 
+in rats, and H/R induced HK-2 cells injury in vitro. CCK-8 was used to measure 
+cell viability. Fe2+ and ROS levels were assayed to evaluate the activation of 
+ferroptosis. We performed RNA sequencing to profile the miRNAs expression in 
+H/R-induced injury and ferroptosis. Western blot analysis was used to detect the 
+protein expression. qRT-PCR was used to detect the mRNA and miRNA levels in 
+cells and tissues. We further used luciferase reporter assay to verify the 
+direct targeting effect of miRNA. We found that ischemia/reperfusion-induced 
+ferroptosis in rat's kidney. We identified that miR-182-5p and miR-378a-3p were 
+upregulated in the ferroptosis and H/R-induced injury, and correlates reversely 
+with glutathione peroxidases 4 (GPX4) and solute carrier family 7 member 11 
+(SLC7A11) expression in renal I/R injury tissues, respectively. In vitro studies 
+showed that miR-182-5p and miR-378a-3p induced ferroptosis in cells. We further 
+found that miR-182-5p and miR-378a-3p regulated the expression of GPX4 and 
+SLC7A11 negatively by directly binding to the 3'UTR of GPX4 and SLC7A11 mRNA. In 
+vivo study showed that silencing miR-182-5p and miR-378a-3p alleviated the 
+I/R-induced renal injury in rats. In conclusion, we demonstrated that I/R 
+induced upregulation of miR-182-5p and miR-378a-3p, leading to activation of 
+ferroptosis in renal injury through downregulation of GPX4 and SLC7A11.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P2" spans="1674~1710" text="silencing miR-182-5p and miR-378a-3p" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="1106~1118" text="rat&apos;s kidney" context="tissue/organ" />
+<CONTEXT id="C1" spans="1394~1402" text="In vitro" context="in vitro" />
+<CONTEXT id="C2" spans="1474~1479" text="cells" context="cells" />
+<CONTEXT id="C3" spans="1647~1655" text="In  vivo" context="in vivo" />
+<CONTEXT id="C4" spans="1755~1759" text="rats" context="organism" />
+<PHENOTYPE id="PH0" spans="1091~1102" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="1459~1470" text="ferroptosis" phenotype="ferroptosis" />
+<EFFECT id="E0" spans="1082~1089" text="induced" effect="positive" />
+<EFFECT id="E1" spans="1451~1458" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

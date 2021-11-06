@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Tumor Microenvironment-Derived NRG1 Promotes Antiandrogen Resistance in Prostate 
+Cancer.
+
+Despite the development of second-generation antiandrogens, acquired resistance 
+to hormone therapy remains a major challenge in treating advanced prostate 
+cancer. We find that cancer-associated fibroblasts (CAFs) can promote 
+antiandrogen resistance in mouse models and in prostate organoid cultures. We 
+identify neuregulin 1 (NRG1) in CAF supernatant, which promotes resistance in 
+tumor cells through activation of HER3. Pharmacological blockade of the 
+NRG1/HER3 axis using clinical-grade blocking antibodies re-sensitizes tumors to 
+hormone deprivation in vitro and in vivo. Furthermore, patients with 
+castration-resistant prostate cancer with increased tumor NRG1 activity have an 
+inferior response to second-generation antiandrogen therapy. This work reveals a 
+paracrine mechanism of antiandrogen resistance in prostate cancer amenable to 
+clinical testing using available targeted therapies.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="346~358" text="mouse models" context="organism" />
+<CONTEXT id="C1" spans="366~392" text="prostate organoid cultures" context="organoid" />
+<CONTEXT id="C2" spans="620~626" text="tumors" context="neoplasm" />
+<CONTEXT id="C3" spans="651~659" text="in vitro" context="in vitro" />
+<CONTEXT id="C4" spans="664~671" text="in vivo" context="in vivo" />
+<CONTEXT id="C5" spans="686~694" text="patients" context="patient" />
+<CONTEXT id="C6" spans="701~737" text="castration-resistant prostate cancer" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

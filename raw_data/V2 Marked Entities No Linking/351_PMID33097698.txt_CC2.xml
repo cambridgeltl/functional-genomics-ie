@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[HCF-1 promotes cell cycle progression by regulating the expression of CDC42.
+
+The eukaryotic cell cycle involves a highly orchestrated series of events in 
+which the cellular genome is replicated during a synthesis (S) phase and each of 
+the two resulting copies are segregated properly during mitosis (M). Host cell 
+factor-1 (HCF-1) is a transcriptional co-regulator that is essential for and has 
+been implicated in basic cellular processes, such as transcriptional regulation 
+and cell cycle progression. Although a series of HCF-1 transcriptional targets 
+have been identified, few functional clues have been provided, especially for 
+chromosome segregation. Our results showed that HCF-1 activated CDC42 expression 
+by binding to the -881 to -575 region upstream of the CDC42 transcription start 
+site, and the regulation of CDC42 expression by HCF-1 was correlated with cell 
+cycle progression. The overexpression of a spontaneously cycling and 
+constitutively active CDC42 mutant (CDC42F28L) rescued G1 phase delay and 
+multinucleate defects in mitosis upon the loss of HCF-1. Therefore, these 
+results establish that HCF-1 ensures proper cell cycle progression by regulating 
+the expression of CDC42, which indicates a possible mechanism of cell cycle 
+coordination and the regulation mode of typical Rho GTPases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="906~999" text="overexpression of a spontaneously cycling and  constitutively active CDC42 mutant (CDC42F28L)" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="1070~1083" text="loss of HCF-1" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

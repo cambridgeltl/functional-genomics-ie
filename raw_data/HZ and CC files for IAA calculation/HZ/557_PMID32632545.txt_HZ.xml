@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Elevated IL-22 in psoriasis plays an anti-apoptotic role in keratinocytes 
+through mediating Bcl-xL/Bax.
+
+IL-22 is known to mediate inflammation in psoriasis, while IL-22 binding protein 
+(IL-22BP) binds IL-22 to suppress IL-22 signaling. However, the function of 
+IL-22 in regulating apoptosis in psoriasis remains poorly understood. In this 
+study, we found that IL-22/IL-22R1 in lesional skin and IL-22 in serum from 
+psoriatic patients were highly upregulated compared with healthy controls, while 
+IL-22BP was not changed. Correlations between IL-22/IL-22R1 levels and the 
+thickness of psoriatic lesions suggested that IL-22 might positively regulate 
+abnormal hyperplasia in psoriasis. Apoptotic keratinocytes were increased only 
+in stratum corneum, but not in spinous and basal layers of psoriasis. Moreover, 
+IL-22 promoted cell viability in human epidermal keratinocytes (HEKs). The 
+apoptosis induced by TNF-α and IFN-γ was inhibited in HEKs treated with IL-22, 
+since that IL-22 upregulated Bcl-xL and downregulated Bax production in HEKs in 
+the presence of TNF-α and IFN-γ. In addition, IL-22BP could counteract the 
+anti-apoptotic effect of IL-22. Our finding demonstrates that IL-22 might play 
+an anti-apoptosis role on keratinocytes to balance cell proliferation and 
+apoptosis in psoriatic epidermis.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="382~395" text="lesional skin" context="tissue/organ" />
+<CONTEXT id="C1" spans="703~716" text="keratinocytes" context="cells" />
+<CONTEXT id="C3" spans="949~953" text="HEKs" context="cells" />
+<CONTEXT id="C4" spans="1047~1051" text="HEKs" context="cells" />
+<CONTEXT id="C5" spans="852~888" text="human epidermal keratinocytes (HEKs)" context="cells" />
+<PHENOTYPE id="PH0" spans="834~848" text="cell viability" phenotype="cell survival" />
+<PHENOTYPE id="PH1" spans="895~904" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="722~731" text="increased" effect="positive" />
+<EFFECT id="E1" spans="825~833" text="promoted" effect="positive" />
+<EFFECT id="E2" spans="905~912" text="induced" effect="positive" />
+<EFFECT id="E3" spans="936~945" text="inhibited" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

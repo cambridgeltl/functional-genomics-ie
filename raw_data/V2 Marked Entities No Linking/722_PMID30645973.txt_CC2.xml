@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Gain Fat-Lose Metastasis: Converting Invasive Breast Cancer Cells into 
+Adipocytes Inhibits Cancer Metastasis.
+
+Cancer cell plasticity facilitates the development of therapy resistance and 
+malignant progression. De-differentiation processes, such as an 
+epithelial-mesenchymal transition (EMT), are known to enhance cellular 
+plasticity. Here, we demonstrate that cancer cell plasticity can be exploited 
+therapeutically by forcing the trans-differentiation of EMT-derived breast 
+cancer cells into post-mitotic and functional adipocytes. Delineation of the 
+molecular pathways underlying such trans-differentiation has motivated a 
+combination therapy with MEK inhibitors and the anti-diabetic drug Rosiglitazone 
+in various mouse models of murine and human breast cancer in vivo. This 
+combination therapy provokes the conversion of invasive and disseminating cancer 
+cells into post-mitotic adipocytes leading to the repression of primary tumor 
+invasion and metastasis formation.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="727~773" text="mouse models of murine and human breast cancer" context="neoplasm" />
+<CONTEXT id="C1" spans="774~781" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="863~876" text="cancer  cells" context="transformed cells" />
+<CONTEXT id="C3" spans="935~948" text="primary tumor" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="950~958" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH1" spans="963~983" text="metastasis formation" phenotype="metastasis" />
+<EFFECT id="E0" spans="921~931" text="repression" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

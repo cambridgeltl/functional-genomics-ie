@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A cross-talk between epithelium and endothelium mediates human 
+alveolar-capillary injury during SARS-CoV-2 infection.
+
+COVID-19, caused by SARS-CoV-2, is an acute and rapidly developing pandemic, 
+which leads to a global health crisis. SARS-CoV-2 primarily attacks human 
+alveoli and causes severe lung infection and damage. To better understand the 
+molecular basis of this disease, we sought to characterize the responses of 
+alveolar epithelium and its adjacent microvascular endothelium to viral 
+infection under a co-culture system. SARS-CoV-2 infection caused massive virus 
+replication and dramatic organelles remodeling in alveolar epithelial cells, 
+alone. While, viral infection affected endothelial cells in an indirect manner, 
+which was mediated by infected alveolar epithelium. Proteomics analysis and TEM 
+examinations showed viral infection caused global proteomic modulations and 
+marked ultrastructural changes in both epithelial cells and endothelial cells 
+under the co-culture system. In particular, viral infection elicited global 
+protein changes and structural reorganizations across many sub-cellular 
+compartments in epithelial cells. Among the affected organelles, mitochondrion 
+seems to be a primary target organelle. Besides, according to EM and proteomic 
+results, we identified Daurisoline, a potent autophagy inhibitor, could inhibit 
+virus replication effectively in host cells. Collectively, our study revealed an 
+unrecognized cross-talk between epithelium and endothelium, which contributed to 
+alveolar-capillary injury during SARS-CoV-2 infection. These new findings will 
+expand our understanding of COVID-19 and may also be helpful for targeted drug 
+development.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="632~657" text="alveolar epithelial cells" context="cells" />
+<CONTEXT id="C1" spans="938~954" text="epithelial cells" context="cells" />
+<CONTEXT id="C2" spans="959~976" text="endothelial cells" context="cells" />
+<CONTEXT id="C3" spans="1144~1160" text="epithelial cells" context="cells" />
+<CONTEXT id="C4" spans="1407~1412" text="cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Blockade of EIF5A hypusination limits colorectal cancer growth by inhibiting MYC 
+elongation.
+
+Eukaryotic Translation Initiation Factor 5A (EIF5A) is a translation factor 
+regulated by hypusination, a unique posttranslational modification catalyzed by 
+deoxyhypusine synthetase (DHPS) and deoxyhypusine hydroxylase (DOHH) starting 
+from the polyamine spermidine. Emerging data are showing that hypusinated EIF5A 
+regulates key cellular processes such as autophagy, senescence, polyamine 
+homeostasis, energy metabolism, and plays a role in cancer. However, the effects 
+of EIF5A inhibition in preclinical cancer models, the mechanism of action, and 
+specific translational targets are still poorly understood. We show here that 
+hypusinated EIF5A promotes growth of colorectal cancer (CRC) cells by directly 
+regulating MYC biosynthesis at specific pausing motifs. Inhibition of EIF5A 
+hypusination with the DHPS inhibitor GC7 or through lentiviral-mediated 
+knockdown of DHPS or EIF5A reduces the growth of various CRC cells. Multiplex 
+gene expression analysis reveals that inhibition of hypusination impairs the 
+expression of transcripts regulated by MYC, suggesting the involvement of this 
+oncogene in the observed effect. Indeed, we demonstrate that EIF5A regulates MYC 
+elongation without affecting its mRNA content or protein stability, by 
+alleviating ribosome stalling at five distinct pausing motifs in MYC CDS. Of 
+note, we show that blockade of the hypusination axis elicits a remarkable growth 
+inhibitory effect in preclinical models of CRC and significantly reduces the 
+size of polyps in APCMin/+ mice, a model of human familial adenomatous polyposis 
+(FAP). Together, these data illustrate an unprecedented mechanism, whereby the 
+tumor-promoting properties of hypusinated EIF5A are linked to its ability to 
+regulate MYC elongation and provide a rationale for the use of DHPS/EIF5A 
+inhibitors in CRC therapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="938~985" text="lentiviral-mediated  knockdown of DHPS or EIF5A" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1606~1614" text="APCMin/+" perturbingaction="other" />
+<CONTEXT id="C0" spans="766~795" text="colorectal cancer (CRC) cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1016~1025" text="CRC cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1531~1556" text="preclinical models of CRC" context="neoplasm" />
+<CONTEXT id="C3" spans="1615~1619" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

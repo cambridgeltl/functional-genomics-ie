@@ -7,53 +7,53 @@ geometry: margin=2.5cm
 
 ## Train Losses
 
-BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10 train_losses link_only:
+BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27 train_losses link_only:
 
-* Best (Epoch 5): 9.935028635202035e-05
-* Last (Epoch 6): 9.935028635202035e-05
+* Best (Epoch 5): 0.0002712659169545332
+* Last (Epoch 6): 0.0002712659169545332
 
-BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10 train_losses link_same_tag_only:
+BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27 train_losses link_same_tag_only:
 
-* Best (Epoch 5): 0.025885314576778763
-* Last (Epoch 6): 0.025885314576778763
+* Best (Epoch 5): 0.0013369397504201788
+* Last (Epoch 6): 0.0013369397504201788
 
 Overall best:
 
-* Name: BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10 train_losses link_only
-* Value (Epoch 5): 9.935028635202035e-05
+* Name: BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27 train_losses link_only
+* Value (Epoch 5): 0.0002712659169545332
 
 
 ## Val Losses
 
-BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10 validation_losses link_only:
+BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27 validation_losses link_only:
 
-* Best (Epoch 4): 0.00033766719679995854
-* Last (Epoch 6): 0.00033985932867247934
+* Best (Epoch 5): 0.0006436056843327629
+* Last (Epoch 6): 0.0006436056843327629
 
-BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10 validation_losses link_same_tag_only:
+BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27 validation_losses link_same_tag_only:
 
-* Best (Epoch 4): 0.026533266905465525
-* Last (Epoch 6): 0.026549871264679184
+* Best (Epoch 5): 0.0022971483901878505
+* Last (Epoch 6): 0.0022971483901878505
 
 Overall best:
 
-* Name: BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10 validation_losses link_only
-* Value (Epoch 4): 0.00033766719679995854
+* Name: BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27 validation_losses link_only
+* Value (Epoch 5): 0.0006436056843327629
 
 
 ## F1 Scores
 
-BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10 validation_accuracies link_only f1:
+BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27 validation_accuracies link_only f1:
 
-* Best (Epoch 5): 0.9033207635577825
-* Last (Epoch 6): 0.9033207635577825
+* Best (Epoch 5): 0.8979746165180194
+* Last (Epoch 6): 0.8979746165180194
 
-BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10 validation_accuracies link_same_tag_only f1:
+BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27 validation_accuracies link_same_tag_only f1:
 
-* Best (Epoch 5): 0.6532531036292928
-* Last (Epoch 6): 0.6532531036292928
+* Best (Epoch 3): 0.6754198922090341
+* Last (Epoch 6): 0.6715588840737818
 
 Overall best:
 
-* Name: BioBERTv11_link_both_heads_bl05_k4_2021-09-09_02-10 validation_accuracies link_only f1
-* Value (Epoch 5): 0.9033207635577825
+* Name: BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27 validation_accuracies link_only f1
+* Value (Epoch 5): 0.8979746165180194

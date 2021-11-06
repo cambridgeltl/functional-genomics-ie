@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[HUWE1 controls MCL1 stability to unleash AMBRA1-induced mitophagy.
+
+Receptor-mediated mitophagy is a crucial process involved in mitochondria 
+quality control. AMBRA1 is a mitophagy receptor for the selective removal of 
+damaged mitochondria in mammalian cells. A critical unresolved issue is how 
+AMBRA1-mediated mitophagy is controlled in response to cellular stress. Here, we 
+investigated the role of BCL2-family proteins on AMBRA1-dependent mitophagy and 
+showed that MCL1 delays AMBRA1-dependent mitophagy. Indeed, MCL1 overexpression 
+is sufficient to inhibit recruitment to mitochondria of the E3 Ubiquitin ligase 
+HUWE1, a crucial dynamic partner of AMBRA1, upon AMBRA1-mediated mitophagy 
+induction. In addition, we found that during mitophagy induced by AMBRA1, MCL1 
+levels decreased but were sustained by inhibition of the GSK-3β kinase, which 
+delayed AMBRA1-mediated mitophagy. Also, we showed that MCL1 was phosphorylated 
+by GSK-3β at a conserved GSK-3 phosphorylation site (S159) during 
+AMBRA1-mediated mitophagy and that this event was accompanied by HUWE1-dependent 
+MCL1 degradation. Altogether, our results demonstrate that MCL1 stability is 
+regulated by the kinase GSK-3β and the E3 ubiquitin ligase HUWE1 in regulating 
+AMBRA1-mediated mitophagy. Our work thus defines MCL1 as an upstream 
+stress-sensitive protein, functional in AMBRA1-mediated mitophagy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="521~540" text="MCL1 overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="818~849" text="inhibition of the GSK-3β kinase" perturbingaction="pharmacological inhibition" />
+<PHENOTYPE id="PH0" spans="502~511" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH1" spans="688~697" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH2" spans="744~753" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH3" spans="882~891" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH4" spans="1022~1031" text="mitophagy" phenotype="mitophagy" />
+<EFFECT id="E0" spans="478~484" text="delays" effect="negative" />
+<EFFECT id="E1" spans="699~708" text="induction" effect="positive" />
+<EFFECT id="E2" spans="754~761" text="induced" effect="positive" />
+<EFFECT id="E3" spans="858~865" text="delayed" effect="negative" />
+<EFFECT id="E4" spans="873~881" text="mediated" effect="regulates" />
+<EFFECT id="E5" spans="679~687" text="mediated" effect="regulates" />
+<EFFECT id="E6" spans="1013~1021" text="mediated" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

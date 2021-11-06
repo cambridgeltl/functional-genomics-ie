@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CSF1R signaling is a regulator of pathogenesis in progressive MS.
+
+Microglia serve as the innate immune cells of the central nervous system (CNS) 
+by providing continuous surveillance of the CNS microenvironment and initiating 
+defense mechanisms to protect CNS tissue. Upon injury, microglia transition into 
+an activated state altering their transcriptional profile, transforming their 
+morphology, and producing pro-inflammatory cytokines. These activated microglia 
+initially serve a beneficial role, but their continued activation drives 
+neuroinflammation and neurodegeneration. Multiple sclerosis (MS) is a chronic, 
+inflammatory, demyelinating disease of the CNS, and activated microglia and 
+macrophages play a significant role in mediating disease pathophysiology and 
+progression. Colony-stimulating factor-1 receptor (CSF1R) and its ligand CSF1 
+are elevated in CNS tissue derived from MS patients. We performed a large-scale 
+RNA-sequencing experiment and identified CSF1R as a key node of disease 
+progression in a mouse model of progressive MS. We hypothesized that modulating 
+microglia and infiltrating macrophages through the inhibition of CSF1R will 
+attenuate deleterious CNS inflammation and reduce subsequent demyelination and 
+neurodegeneration. To test this hypothesis, we generated a novel potent and 
+selective small-molecule CSF1R inhibitor (sCSF1Rinh) for preclinical testing. 
+sCSF1Rinh blocked receptor phosphorylation and downstream signaling in both 
+microglia and macrophages and altered cellular functions including 
+proliferation, survival, and cytokine production. In vivo, CSF1R inhibition with 
+sCSF1Rinh attenuated neuroinflammation and reduced microglial proliferation in a 
+murine acute LPS model. Furthermore, the sCSF1Rinh attenuated a 
+disease-associated microglial phenotype and blocked both axonal damage and 
+neurological impairments in an experimental autoimmune encephalomyelitis (EAE) 
+model of MS. While previous studies have focused on microglial depletion 
+following CSF1R inhibition, our data clearly show that signaling downstream of 
+this receptor can be beneficially modulated in the context of CNS injury. 
+Together, these data suggest that CSF1R inhibition can reduce deleterious 
+microglial proliferation and modulate microglial phenotypes during 
+neuroinflammatory pathogenesis, particularly in progressive MS.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="1406~1415" text="sCSF1Rinh" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1610~1642" text="CSF1R inhibition with  sCSF1Rinh" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1756~1765" text="sCSF1Rinh" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1483~1492" text="microglia" context="cells" />
+<CONTEXT id="C1" spans="1497~1508" text="macrophages" context="cells" />
+<CONTEXT id="C2" spans="1601~1608" text="In vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="1551~1564" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="1695~1708" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="1513~1520" text="altered" effect="regulates" />
+<EFFECT id="E1" spans="1676~1683" text="reduced" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="sCSF1Rinh" contextID="C0" contextText="microglia" effectID="E0" effectText="altered" phenotypeID="PH0" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="sCSF1Rinh" contextID="C1" contextText="macrophages" effectID="E0" effectText="altered" phenotypeID="PH0" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="CSF1R inhibition with  sCSF1Rinh" contextID="C2" contextText="In vivo" effectID="E1" effectText="reduced" phenotypeID="PH1" phenotypeText="proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

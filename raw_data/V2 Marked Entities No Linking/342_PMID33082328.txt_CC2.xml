@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Immunomodulatory activity of IR700-labelled affibody targeting HER2.
+
+There is an urgent need to develop therapeutic approaches that can increase the 
+response rate to immuno-oncology agents. Photoimmunotherapy has recently been 
+shown to generate anti-tumour immunological responses by releasing 
+tumour-associated antigens from ablated tumour cell residues, thereby enhancing 
+antigenicity and adjuvanticity. Here, we investigate the feasibility of a novel 
+HER2-targeted affibody-based conjugate (ZHER2:2395-IR700) selectively to induce 
+cancer cell death in vitro and in vivo. The studies in vitro confirmed the 
+specificity of ZHER2:2395-IR700 binding to HER2-positive cells and its ability 
+to produce reactive oxygen species upon light irradiation. A conjugate 
+concentration- and light irradiation-dependent decrease in cell viability was 
+also demonstrated. Furthermore, light-activated ZHER2:2395-IR700 triggered all 
+hallmarks of immunogenic cell death, as defined by the translocation of 
+calreticulin to the cell surface, and the secretion of ATP, HSP70/90 and HMGB1 
+from dying cancer cells into the medium. Irradiating a co-culture of immature 
+dendritic cells (DCs) and cancer cells exposed to light-activated 
+ZHER2:2395-IR700 enhanced DC maturation, as indicated by augmented expression of 
+CD86 and HLA-DR. In SKOV-3 xenografts, the ZHER2:2395-IR700-based phototherapy 
+delayed tumour growth and increased median overall survival. Collectively, our 
+results strongly suggest that ZHER2:2395-IR700 is a promising new therapeutic 
+conjugate that has great potential to be applicable for photoimmunotherapy-based 
+regimens.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="660~679" text="HER2-positive cells" context="cells" />
+<CONTEXT id="C1" spans="593~601" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="1092~1104" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1150~1181" text="immature  dendritic cells (DCs)" context="cells" />
+<CONTEXT id="C4" spans="1186~1198" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C5" spans="1253~1255" text="DC" context="cells" />
+<CONTEXT id="C6" spans="1329~1346" text="SKOV-3 xenografts" context="xenograft" />
+<PHENOTYPE id="PH0" spans="828~842" text="cell viability" phenotype="cell survival" />
+<PHENOTYPE id="PH1" spans="953~963" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH2" spans="1397~1410" text="tumour growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="816~824" text="decrease" effect="negative" />
+<EFFECT id="E1" spans="913~922" text="triggered" effect="positive" />
+<EFFECT id="E2" spans="1389~1396" text="delayed" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[DAPK3 inhibits gastric cancer progression via activation of ULK1-dependent 
+autophagy.
+
+Dysregulation of the balance between cell proliferation and cell death is a 
+central feature of malignances. Death-associated protein kinase 3 (DAPK3) 
+regulates programmed cell death including apoptosis and autophagy. Our previous 
+study showed that DAPK3 downregulation was detected in more than half of gastric 
+cancers (GCs), which was related to tumor invasion, metastasis, and poor 
+prognosis. However, the precise molecular mechanism underlying DAPK3-mediated 
+tumor suppression remains unclear. Here, we showed that the tumor suppressive 
+function of DAPK3 was dependent on autophagy process. Mass spectrometry, in 
+vitro kinase assay, and immunoprecipitation revealed that DAPK3 increased ULK1 
+activity by direct ULK1 phosphorylation at Ser556. ULK1 phosphorylation by DAPK3 
+facilitates the ULK1 complex formation, the VPS34 complex activation, and 
+autophagy induction upon starvation. The kinase activity of DAPK3 and ULK1 
+Ser556 phosphorylation were required for DAPK3-modulated tumor suppression. The 
+coordinate expression of DAPK3 with ULK1 Ser556 phosphorylation was confirmed in 
+clinical GC samples, and this co-expression was correlated with favorable 
+survival outcomes in patients. Collectively, these findings indicate that the 
+tumor-suppressor roles of DAPK3 in GC are associated with autophagy and that 
+DAPK3 is a novel autophagy regulator, which can directly phosphorylate ULK1 and 
+activate ULK1. Thus, DAPK3 might be a promising prognostic autophagy-associated 
+marker.]]></TEXT>
+<TAGS>
+<PHENOTYPE id="PH0" spans="949~958" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="959~968" text="induction" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

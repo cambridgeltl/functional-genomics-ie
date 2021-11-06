@@ -6,6 +6,7 @@
         "PHENOTYPE"
     ],
     "perturbing_action": [
+        "-",
         "gene loss-of-function",
         "gene gain-of-function",
         "rnai/knockdown",
@@ -14,6 +15,7 @@
         "other"
     ],
     "context": [
+        "-",
         "patient",
         "organism",
         "tissue/organ",
@@ -27,6 +29,7 @@
         "in vivo"
     ],
     "effect": [
+        "-",
         "positive",
         "negative",
         "regulates",
@@ -34,6 +37,7 @@
         "no effect"
     ],
     "phenotype": [
+        "-",
         "adhesion",
         "apoptosis",
         "anoikis",

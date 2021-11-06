@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mechanisms of cell death induced by arginase and asparaginase in precursor 
+B-cell lymphoblasts.
+
+Arginase has therapeutic potential as a cytotoxic agent in some cancers, but 
+this is unclear for precursor B acute lymphoblastic leukaemia (pre-B ALL), the 
+commonest form of childhood leukaemia. We compared arginase cytotoxicity with 
+asparaginase, currently used in pre-B ALL treatment, and characterised the forms 
+of cell death induced in a pre-B ALL cell line 697. Arginase and asparaginase 
+both efficiently killed 697 cells and mature B lymphoma cell line Ramos, but 
+neither enzyme killed normal lymphocytes. Arginase depleted cellular arginine, 
+and arginase-treated media induced cell death, blocked by addition of arginine 
+or arginine-precursor citrulline. Asparaginase depleted both asparagine and 
+glutamine, and asparaginase-treated media induced cell death, blocked by 
+asparagine, but not glutamine. Both enzymes induced caspase cleavage and 
+activation, chromatin condensation and phosphatidylserine exposure, indicating 
+apoptosis. Both arginase- and asparaginase-induced death were blocked by caspase 
+inhibitors, but with different sensitivities. BCL-2 overexpression inhibited 
+arginase- and asparaginase-induced cell death, but did not prevent 
+arginase-induced cytostasis, indicating a different mechanism of growth arrest. 
+An autophagy inhibitor, chloroquine, had no effect on the cell death induced by 
+arginase, but doubled the cell death induced by asparaginase. In conclusion, 
+arginase causes death of lymphoblasts by arginine-depletion induced apoptosis, 
+via mechanism distinct from asparaginase. Therapeutic implications for childhood 
+ALL include: arginase might be used as treatment (but antagonised by dietary 
+arginine and citrulline), chloroquine may enhance efficacy of asparaginase 
+treatment, and partial resistance to arginase and asparaginase may develop by 
+BCL-2 expression. Arginase or asparaginase might potentially be used to treat 
+Burkitt lymphoma.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1167~1187" text="BCL-2 overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="1112~1131" text="caspase  inhibitors" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1348~1383" text="An autophagy inhibitor, chloroquine" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="444~467" text="pre-B ALL cell line 697" context="cells" />
+<CONTEXT id="C1" spans="520~529" text="697 cells" context="cells" />
+<CONTEXT id="C2" spans="541~561" text="B lymphoma cell line" context="cells" />
+<CONTEXT id="C3" spans="603~614" text="lymphocytes" context="cells" />
+<PHENOTYPE id="PH0" spans="689~699" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH1" spans="1039~1048" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="1234~1244" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH5" spans="1406~1416" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH6" spans="1455~1465" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH7" spans="861~871" text="cell death" phenotype="-" />
+<EFFECT id="E0" spans="681~689" text="induced " effect="positive" />
+<EFFECT id="E2" spans="929~937" text="induced " effect="positive" />
+<EFFECT id="E4" spans="1188~1197" text="inhibited" effect="negative" />
+<EFFECT id="E5" spans="1226~1233" text="induced" effect="positive" />
+<EFFECT id="E10" spans="1389~1398" text="no effect" effect="no effect" />
+<EFFECT id="E11" spans="1443~1450" text="doubled" effect="positive" />
+<EFFECT id="E1" spans="853~860" text="induced" effect="positive" />
+<EFFECT id="E6" spans="1388~1398" text=" no effect" effect="no effect" />
+</TAGS>
+</Genomics_ConceptTask>

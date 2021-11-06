@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mesenchymal stem cells reverse EMT process through blocking the activation of 
+NF-κB and Hedgehog pathways in LPS-induced acute lung injury.
+
+Acute lung injury (ALI) is a pulmonary disorder, which can result in fibrosis of 
+the lung tissues. Recently, mesenchymal stem cell (MSC) has become a novel 
+therapeutic method for ALI. However, the potential mechanism by which MSC 
+regulates the progression of ALI remains blurry. The present study focused on 
+investigating the mechanism underneath MSC-reversed lung injury and fibrosis. At 
+first, we determined that coculture with MSC led to the inactivation of NF-κB 
+signaling and therefore suppressed hedgehog pathway in LPS-treated MLE-12 cells. 
+Besides, we confirmed that MSC-exosomes were responsible for the inhibition of 
+EMT process in LPS-treated MLE-12 cells through transmitting miRNAs. Mechanism 
+investigation revealed that MSC-exosome transmitted miR-182-5p and miR-23a-3p 
+into LPS-treated MLE-12 cells to, respectively, target Ikbkb and Usp5. Of note, 
+Usp5 interacted with IKKβ to hamper IKKβ ubiquitination. Moreover, co-inhibition 
+of miR-182-5p and miR-23a-3p offset the suppression of MSC on EMT process in 
+LPS-treated MLE-12 cells as well as in LPS-injured lungs of mice. Besides, the 
+retarding effect of MSC on p65 nuclear translocation was also counteracted after 
+co-inhibiting miR-182-5p and miR-23a-3p, both in vitro and in vivo. In summary, 
+MSC-exosome transmitted miR-23a-3p and miR-182-5p reversed the progression of 
+LPS-induced lung injury and fibrosis through inhibiting NF-κB and hedgehog 
+pathways via silencing Ikbkb and destabilizing IKKβ.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1084~1127" text="co-inhibition  of miR-182-5p and miR-23a-3p" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1339~1378" text="co-inhibiting miR-182-5p and miR-23a-3p" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="682~694" text="MLE-12 cells" context="cells" />
+<CONTEXT id="C1" spans="804~816" text="MLE-12 cells" context="cells" />
+<CONTEXT id="C2" spans="953~965" text="MLE-12 cells" context="cells" />
+<CONTEXT id="C3" spans="1189~1201" text="MLE-12 cells" context="cells" />
+<CONTEXT id="C4" spans="1228~1233" text="lungs" context="tissue/organ" />
+<CONTEXT id="C5" spans="1237~1241" text="mice" context="organism" />
+<CONTEXT id="C6" spans="1385~1393" text="in vitro" context="in vitro" />
+<CONTEXT id="C7" spans="1398~1405" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="777~788" text="EMT process" phenotype="epithelial-mesenchymal transition" />
+<PHENOTYPE id="PH1" spans="1161~1172" text="EMT process" phenotype="epithelial-mesenchymal transition" />
+<EFFECT id="E0" spans="762~772" text="inhibition" effect="negative" />
+<EFFECT id="E1" spans="1139~1150" text="suppression" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="co-inhibition  of miR-182-5p and miR-23a-3p" effectID="E1" effectText="suppression" phenotypeID="PH1" phenotypeText="EMT process" contextID="C3" contextText="MLE-12 cells" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Altered RNA Splicing by Mutant p53 Activates Oncogenic RAS Signaling in 
+Pancreatic Cancer.
+
+Pancreatic ductal adenocarcinoma (PDAC) is driven by co-existing mutations in 
+KRAS and TP53. However, how these mutations collaborate to promote this cancer 
+is unknown. Here, we uncover sequence-specific changes in RNA splicing enforced 
+by mutant p53 which enhance KRAS activity. Mutant p53 increases expression of 
+splicing regulator hnRNPK to promote inclusion of cytosine-rich exons within 
+GTPase-activating proteins (GAPs), negative regulators of RAS family members. 
+Mutant p53-enforced GAP isoforms lose cell membrane association, leading to 
+heightened KRAS activity. Preventing cytosine-rich exon inclusion in mutant 
+KRAS/p53 PDACs decreases tumor growth. Moreover, mutant p53 PDACs are sensitized 
+to inhibition of splicing via spliceosome inhibitors. These data provide insight 
+into co-enrichment of KRAS and p53 mutations and therapeutics targeting this 
+mechanism in PDAC.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="732~737" text="PDACs" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="748~760" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="738~747" text="decreases" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

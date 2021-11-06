@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeting Mitochondria-Located circRNA SCAR Alleviates NASH via Reducing mROS 
+Output.
+
+Mitochondria, which play central roles in immunometabolic diseases, have their 
+own genome. However, the functions of mitochondria-located noncoding RNAs are 
+largely unknown due to the absence of a specific delivery system. By circular 
+RNA (circRNA) expression profile analysis of liver fibroblasts from patients 
+with nonalcoholic steatohepatitis (NASH), we observe that mitochondrial circRNAs 
+account for a considerable fraction of downregulated circRNAs in NASH 
+fibroblasts. By constructing mitochondria-targeting nanoparticles, we observe 
+that Steatohepatitis-associated circRNA ATP5B Regulator (SCAR), which is located 
+in mitochondria, inhibits mitochondrial ROS (mROS) output and fibroblast 
+activation. circRNA SCAR, mediated by PGC-1α, binds to ATP5B and shuts down mPTP 
+by blocking CypD-mPTP interaction. Lipid overload inhibits PGC-1α by endoplasmic 
+reticulum (ER) stress-induced CHOP. In vivo, targeting circRNA SCAR alleviates 
+high fat diet-induced cirrhosis and insulin resistance. Clinically, circRNA SCAR 
+is associated with steatosis-to-NASH progression. Collectively, we identify a 
+mitochondrial circRNA that drives metaflammation and serves as a therapeutic 
+target for NASH.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="780~790" text="fibroblast" context="cells" />
+<CONTEXT id="C1" spans="992~999" text="In vivo" context="in vivo" />
+</TAGS>
+</Genomics_ConceptTask>

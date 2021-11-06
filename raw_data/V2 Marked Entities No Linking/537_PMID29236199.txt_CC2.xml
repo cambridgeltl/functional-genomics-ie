@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Caspase cleavage of transcription factor Sp1 enhances apoptosis.
+
+Sp1 is a ubiquitous transcription factor that regulates many genes involved in 
+apoptosis and senescence. Sp1 also has a role in the DNA damage response; at low 
+levels of DNA damage, Sp1 is phosphorylated by ATM and localizes to 
+double-strand break sites where it facilitates DNA double-strand-break repair. 
+Depletion of Sp1 increases the sensitivity of cells to DNA damage, whereas 
+overexpression of Sp1 can drive cells into apoptosis. In response to a variety 
+of stimuli, Sp1 can be regulated through proteolytic cleavage by caspases and/or 
+degradation. Here, we show that activation of apoptosis through DNA damage or 
+TRAIL-mediated activation of the extrinsic apoptotic pathway induces 
+caspase-mediated cleavage of Sp1. Cleavage of Sp1 was coincident with the 
+appearance of cleaved caspase 3, and produced a 70 kDa Sp1 product. In vitro 
+analysis revealed a novel caspase cleavage site at aspartic acid 183. Mutation 
+of aspartic acid 183 to alanine conferred resistance to cleavage, and ectopic 
+expression of the Sp1 D183A rendered cells resistant to apoptotic stimuli, 
+indicating that Sp1 cleavage is involved in the induction of apoptosis. The 
+70 kDa product resulting from caspase cleavage of Sp1 comprises amino acids 
+184-785. This truncated form, designated Sp1-70C, which retains transcriptional 
+activity, induced apoptosis when overexpressed in normal epithelial cells, 
+whereas Sp1D183A induced significantly less apoptosis. Together, these data 
+reveal a new caspase cleavage site in Sp1 and demonstrate for the first time 
+that caspase cleavage of Sp1 promotes apoptosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1067~1103" text="ectopic  expression of the Sp1 D183A" perturbingaction="other" />
+<CONTEXT id="C0" spans="1113~1118" text="cells" context="cells" />
+<CONTEXT id="C1" spans="1444~1460" text="epithelial cells" context="cells" />
+<PHENOTYPE id="PH0" spans="1405~1414" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1507~1516" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1397~1404" text="induced" effect="positive" />
+<EFFECT id="E1" spans="1480~1487" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

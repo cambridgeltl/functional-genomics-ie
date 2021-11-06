@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Therapeutic Targeting of RNA Splicing Catalysis through Inhibition of Protein 
+Arginine Methylation.
+
+Cancer-associated mutations in genes encoding RNA splicing factors (SFs) 
+commonly occur in leukemias, as well as in a variety of solid tumors, and confer 
+dependence on wild-type splicing. These observations have led to clinical 
+efforts to directly inhibit the spliceosome in patients with refractory 
+leukemias. Here, we identify that inhibiting symmetric or asymmetric 
+dimethylation of arginine, mediated by PRMT5 and type I protein arginine 
+methyltransferases (PRMTs), respectively, reduces splicing fidelity and results 
+in preferential killing of SF-mutant leukemias over wild-type counterparts. 
+These data identify genetic subsets of cancer most likely to respond to PRMT 
+inhibition, synergistic effects of combined PRMT5 and type I PRMT inhibition, 
+and a mechanistic basis for the therapeutic efficacy of PRMT inhibition in 
+cancer.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="668~677" text="leukemias" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

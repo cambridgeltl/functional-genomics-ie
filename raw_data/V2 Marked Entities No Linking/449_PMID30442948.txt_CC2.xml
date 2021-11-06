@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Dysregulation of autophagy and stress granule-related proteins in stress-driven 
+Tau pathology.
+
+Imbalance of neuronal proteostasis associated with misfolding and aggregation of 
+Tau protein is a common neurodegenerative feature in Alzheimer's disease (AD) 
+and other Tauopathies. Consistent with suggestions that lifetime stress may be 
+an important AD precipitating factor, we previously reported that environmental 
+stress and high glucocorticoid (GC) levels induce accumulation of aggregated 
+Tau; however, the molecular mechanisms for such process remain unclear. Herein, 
+we monitor a novel interplay between RNA-binding proteins (RBPs) and autophagic 
+machinery in the underlying mechanisms through which chronic stress and high GC 
+levels impact on Tau proteostasis precipitating Tau aggregation. Using 
+molecular, pharmacological and behavioral analysis, we demonstrate that chronic 
+stress and high GC trigger mTOR-dependent inhibition of autophagy, leading to 
+accumulation of Tau aggregates and cell death in P301L-Tau expressing mice and 
+cells. In parallel, we found that environmental stress and GC disturb cellular 
+homeostasis and trigger the insoluble accumulation of different RBPs, such as 
+PABP, G3BP1, TIA-1, and FUS, shown to form stress granules (SGs) and Tau 
+aggregation. Interestingly, an mTOR-driven pharmacological stimulation of 
+autophagy attenuates the GC-driven accumulation of Tau and SG-related proteins 
+as well as the related cell death, suggesting a critical interface between 
+autophagy and the response of the SG-related protein in the neurodegenerative 
+potential of chronic stress and GC. These studies provide novel insights into 
+the RNA-protein intracellular signaling regulating the precipitating role of 
+environmental stress and GC on Tau-driven brain pathology.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1042~1046" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1052~1057" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="949~958" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1007~1017" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH2" spans="1360~1369" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="1463~1473" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="912~919" text="trigger" effect="positive" />
+<EFFECT id="E1" spans="935~945" text="inhibition" effect="negative" />
+<EFFECT id="E2" spans="960~970" text="leading to" effect="positive" />
+<EFFECT id="E3" spans="1344~1355" text="stimulation" effect="positive" />
+<EFFECT id="E4" spans="1370~1380" text="attenuates" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeting the Vulnerability of Glutathione Metabolism in ARID1A-Deficient 
+Cancers.
+
+ARID1A encodes an SWI/SNF chromatin-remodeling factor and is frequently mutated 
+in various cancers. This study demonstrates that ARID1A-deficient cancer cells 
+are specifically vulnerable to inhibition of the antioxidant glutathione (GSH) 
+and the glutamate-cysteine ligase synthetase catalytic subunit (GCLC), a 
+rate-limiting enzyme for GSH synthesis. Inhibition of GCLC markedly decreased 
+GSH in ARID1A-deficient cancer cells, leading to apoptotic cell death triggered 
+by excessive amounts of reactive oxygen species. The vulnerability of 
+ARID1A-deficient cancer cells results from low basal levels of GSH due to 
+impaired expression of SLC7A11. The SLC7A11-encoded cystine transporter supplies 
+cells with cysteine, a key source of GSH, and its expression is enhanced by 
+ARID1A-mediated chromatin remodeling. Thus, ARID1A-deficient cancers are 
+susceptible to synthetic lethal targeting of GCLC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="215~231" text="ARID1A-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="440~458" text="Inhibition of GCLC" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="486~502" text="ARID1A-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="631~647" text="ARID1A-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="232~244" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="503~515" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C2" spans="648~660" text="cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="528~548" text="apoptotic cell death" phenotype="apoptosis" />
+<EFFECT id="E0" spans="517~527" text="leading to" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Inhibition of GCLC" contextID="C1" contextText="cancer cells" effectID="E0" effectText="leading to" phenotypeID="PH0" phenotypeText="apoptotic cell death" />
+</TAGS>
+</Genomics_ConceptTask>

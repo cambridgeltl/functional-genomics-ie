@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Hemocompatible LAT1-inhibitor can induce apoptosis in cancer cells without 
+affecting brain amino acid homeostasis.
+
+Increased amounts of amino acids are essential for cancer cells to support their 
+sustained growth and survival. Therefore, inhibitors of amino acid transporters, 
+such as L-type amino acid transporter 1 (LAT1) have been developed. In this 
+study, a previously reported LAT1-inhibitor (KMH-233) was studied for its 
+hemocompatibility and toxicity towards human umbilical vein endothelial cells 
+(HUVEC) and human aortic smooth muscle cells (AoSMCs). Furthermore, the 
+cytotoxic effects against human breast adenocarcinoma cells (MCF-7) and its 
+ability to affect mammalian (or mechanistic) target of rapamycin (mTOR) and 
+nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) signaling 
+were evaluated. Moreover, the effects of this inhibitor to modulate LAT1 
+function on the cell surface and the brain amino acid homeostasis were evaluated 
+after intraperitoneal (i.p.) administration of LAT1-inhibitor (23 µmol/kg) in 
+mice. The results showed that LAT1-inhibitor (KMH-233) is hemocompatible at 
+concentrations below 25 µM and it does not affect coagulation in plasma. 
+However, it can reduce the total protein amount of mTOR and NF-κB, resulting in 
+increased apoptosis in LAT1-expressing cancer cells. Most importantly, the 
+inhibitor did not affect mouse brain levels of L-Leu, L-Tyr or L-Trp or modulate 
+the function of LAT1 on the MCF-7 cell surface. Therefore, this inhibitor can be 
+considered as a safe but effective anti-cancer agent. However, due to the 
+compensative mechanism of cancer cells for their increased amino acid demand, 
+this compound is most effective inducing apoptosis when used in combinations 
+with other chemotherapeutics, such as protease inhibitor, bestatin, as 
+demonstrated in this study.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1024~1038" text="LAT1-inhibitor" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1085~1110" text=" LAT1-inhibitor (KMH-233)" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="387~411" text="LAT1-inhibitor (KMH-233)" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1056~1060" text="mice" context="organism" />
+<CONTEXT id="C2" spans="1311~1339" text="LAT1-expressing cancer cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1389~1400" text="mouse brain" context="tissue/organ" />
+<CONTEXT id="C4" spans="1474~1484" text="MCF-7 cell" context="transformed cells" />
+<CONTEXT id="C1" spans="472~519" text="human umbilical vein endothelial cells  (HUVEC)" context="cells" />
+<CONTEXT id="C5" spans="524~565" text="human aortic smooth muscle cells (AoSMCs)" context="cells" />
+<CONTEXT id="C6" spans="611~652" text="human breast adenocarcinoma cells (MCF-7)" context="transformed cells" />
+<CONTEXT id="C7" spans="932~937" text="brain" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="1298~1307" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1723~1732" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1288~1297" text="increased" effect="positive" />
+<EFFECT id="E1" spans="1714~1722" text="inducing" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText=" LAT1-inhibitor (KMH-233)" effectID="E0" effectText="increased" phenotypeID="PH0" phenotypeText="apoptosis" contextID="C2" contextText="LAT1-expressing cancer cells" />
+</TAGS>
+</Genomics_ConceptTask>

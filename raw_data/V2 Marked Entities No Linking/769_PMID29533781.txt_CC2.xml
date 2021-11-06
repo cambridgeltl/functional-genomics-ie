@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PKM1 Confers Metabolic Advantages and Promotes Cell-Autonomous Tumor Cell 
+Growth.
+
+Expression of PKM2, which diverts glucose-derived carbon from catabolic to 
+biosynthetic pathways, is a hallmark of cancer. However, PKM2 function in 
+tumorigenesis remains controversial. Here, we show that, when expressed rather 
+than PKM2, the PKM isoform PKM1 exhibits a tumor-promoting function in 
+KRASG12D-induced or carcinogen-initiated mouse models or in some human cancers. 
+Analysis of Pkm mutant mouse lines expressing specific PKM isoforms established 
+that PKM1 boosts tumor growth cell intrinsically. PKM1 activated glucose 
+catabolism and stimulated autophagy/mitophagy, favoring malignancy. Importantly, 
+we observed that pulmonary neuroendocrine tumors (NETs), including small-cell 
+lung cancer (SCLC), express PKM1, and that PKM1 expression is required for SCLC 
+cell proliferation. Our findings provide a rationale for targeting PKM1 
+therapeutically in certain cancer subtypes, including pulmonary NETs.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="480~490" text="Pkm mutant" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="387~395" text="KRASG12D" perturbingaction="other" />
+<CONTEXT id="C0" spans="428~440" text="mouse models" context="organism" />
+<CONTEXT id="C1" spans="452~465" text="human cancers" context="neoplasm" />
+<CONTEXT id="C2" spans="491~502" text="mouse lines" context="organism" />
+<PHENOTYPE id="PH1" spans="566~578" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH2" spans="649~658" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="659~668" text="mitophagy" phenotype="mitophagy" />
+<EFFECT id="E0" spans="559~565" text="boosts" effect="positive" />
+<EFFECT id="E1" spans="638~648" text="stimulated" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Procaspase-activating compound-1 induces apoptosis in Trypanosoma cruzi.
+
+Some therapeutics for parasitic, cardiac and neurological diseases activate 
+apoptosis. Therefore, the study of apoptotic proteins in pathogenic organisms is 
+relevant. However, the molecular mechanism of apoptosis in unicellular organisms 
+remain elusive, despite morphological evidence of its occurrence. In Trypanosoma 
+cruzi, the causative agent of Chagas disease, metacaspase 3 (TcMCA3), seems to 
+have a key role in parasite apoptosis. Accordingly, this work provides data 
+concerning TcMCA3 regulation through its interaction with procaspase-activating 
+compound 1 (PAC-1), a procaspase 3 activator. Indeed, PAC-1 reduced T. cruzi 
+epimastigote viability with an IC50 of 14.12 µM and induced loss of 
+mitochondrial potential and exposure of phosphatidylserine, features of the 
+apoptotic process. Notwithstanding, those PAC-1-inducible effects were not 
+conserved in metacyclic trypomastigotes. Moreover, PAC-1 reduced the viability 
+of mammalian cells with a greater IC50 (25.70 µM) compared to T. cruzi 
+epimastigotes, indicating distinct modes of binding between caspases and 
+metacaspases. To shed light on the selectivity of metacaspases and caspases, we 
+determined the structural features related to the PAC-1 binding sites in both 
+types of proteins. These data are important for improving the understanding of 
+the apoptosis pathway in T. cruzi so that TcMCA3 could be better targeted with 
+future pharmaceuticals.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1018~1033" text="mammalian cells" context="cells" />
+<CONTEXT id="C2" spans="384~402" text="Trypanosoma  cruzi" context="organism" />
+<CONTEXT id="C3" spans="703~712" text="T. cruzi " context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

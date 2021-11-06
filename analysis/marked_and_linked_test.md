@@ -29,13 +29,13 @@ geometry: margin=2cm
 
 ## Sizes
 
-* Average words: 207.5
-* Maximum words: 301
-* Minimum words: 145\
-* Average tokens: 380.7
-* Maximum tokens: 598
-* Minimum tokens: 265\
-* Entries with over 512 tokens: 1/22, 4.55%
+* Average words: 210.0
+* Maximum words: 304
+* Minimum words: 119\
+* Average tokens: 404.6
+* Maximum tokens: 589
+* Minimum tokens: 228\
+* Entries with over 512 tokens: 5/22, 22.73%
 
 
 ## Tags
@@ -47,18 +47,18 @@ geometry: margin=2cm
 * Max tags: 4
 * Tagged words: 78
 * Tagged words %: 39.2%
-* Avg tags: 1.32
-* MC words: 0
+* Avg tags: 1.22
+* MC words: 1
 
 ### Averages
 
-* Total tags: 30.77
-* Unique tags: 10.55
-* Max tags: 1.64
-* Tagged words: 28.5
-* Tagged words %: 14.11%
+* Total tags: 35.0
+* Unique tags: 12.0
+* Max tags: 1.82
+* Tagged words: 32.86
+* Tagged words %: 14.83%
 * Avg tags: 1.05
-* MC words: 0.0
+* MC words: 0.05
 
 
 ## Links
@@ -70,22 +70,22 @@ geometry: margin=2cm
 * Max links per tag, word: 10, 10
 * Linked tags, words: 63, 57
 * Linked % tags, words: 100.0%, 28.64%
-* Avg links per tag, word: 3.29, 4.31
+* Avg links per tag, word: 3.67, 3.67
 
 ### Averages
 
-* Total links: 26.05
-* Unique links: 2.86
-* Max links per tag, word: 2.27, 2.27
-* Linked tags, words: 17.05, 15.68
-* Linked % tags, words: 61.65%, 7.91%
-* Avg links per tag, word: 1.34, 1.45
+* Total links: 32.73
+* Unique links: 3.64
+* Max links per tag, word: 2.5, 2.5
+* Linked tags, words: 18.77, 17.64
+* Linked % tags, words: 61.6%, 8.34%
+* Avg links per tag, word: 1.47, 1.55
 
 
 ## Schema
 
-* Maximums (B, I, E, S): 21, 28, 21, 18
-* Averages (B, I, E, S): 8.27, 9.09, 8.27, 5.14
+* Maximums (B, I, E, S): 21, 32, 21, 18
+* Averages (B, I, E, S): 9.45, 10.45, 9.45, 5.64
 
 
 ## Labels
@@ -94,151 +94,246 @@ geometry: margin=2cm
 
 ### Categories
 
-* Perturbing_Action: 277, 33, 12.59
-* Context: 366, 62, 16.64
-* Effect: 434, 80, 19.73
+* Perturbing_Action: 292, 35, 13.27
+* Context: 490, 62, 22.27
+* Effect: 466, 58, 21.18
 
 ### Description
 
-* Knock Out: 51, 17, 2.32
-* Conditional Knock Out: 11, 7, 0.5
+* Knock Out: 44, 17, 2.0
+* Conditional Knock Out: 8, 6, 0.36
 * Knock In: 0, 0, 0.0
 * Conditional Knock In: 0, 0, 0.0
-* Knock Down: 35, 13, 1.59
+* Knock Down: 68, 13, 3.09
 * Plasmid Vector: 0, 0, 0.0
 * Viral Vector: 8, 8, 0.36
-* Pharmacological Inhibition: 51, 10, 2.32
-* Decreased Expression Level: 32, 15, 1.45
-* Increased Expression Level: 22, 6, 1.0
-* Other: 67, 26, 3.05
+* Pharmacological Inhibition: 31, 9, 1.41
+* Decreased Expression Level: 17, 5, 0.77
+* Increased Expression Level: 26, 9, 1.18
+* Other: 90, 19, 4.09
 
 ### Experiment_Type
 
-* Organism: 34, 5, 1.55
-* Tumour: 16, 8, 0.73
-* Cells: 57, 14, 2.59
-* Cell Line: 3, 3, 0.14
-* Transformed Cell Line: 45, 11, 2.05
+* Organism: 58, 10, 2.64
+* Tumour: 6, 2, 0.27
+* Cells: 63, 14, 2.86
+* Cell Line: 14, 6, 0.64
+* Transformed Cell Line: 61, 17, 2.77
 * Primary Culture: 0, 0, 0.0
 * Organoid Culture: 0, 0, 0.0
 * Cell Transplantation: 0, 0, 0.0
-* Xenotransplantation: 28, 14, 1.27
+* Xenotransplantation: 43, 14, 1.95
 * Other: 0, 0, 0.0
 * Not Stated: 0, 0, 0.0
 
 ### Species
 
-* Human: 9, 5, 0.41
-* Mouse: 42, 9, 1.91
-* Rat: 0, 0, 0.0
+* Human: 14, 6, 0.64
+* Mouse: 49, 10, 2.23
+* Rat: 1, 1, 0.05
 * Fish: 0, 0, 0.0
 * Fly: 0, 0, 0.0
 * Yeast: 0, 0, 0.0
 * Bacterium: 0, 0, 0.0
 * Other: 0, 0, 0.0
-* Not Stated: 132, 26, 6.0
+* Not Stated: 181, 26, 8.23
 
 ### Phenotype
 
 * Adhesion: 0, 0, 0.0
-* Apoptosis: 23, 6, 1.05
+* Apoptosis: 22, 10, 1.0
 * Anoikis: 0, 0, 0.0
-* Autophagy: 15, 11, 0.68
-* Cell Cycle Arrest: 12, 7, 0.55
-* Cell Death: 3, 3, 0.14
-* Cell Growth: 22, 5, 1.0
-* Cell Survival: 2, 2, 0.09
-* Colony Formation: 0, 0, 0.0
-* Differentiation: 4, 4, 0.18
+* Autophagy: 43, 19, 1.95
+* Cell Cycle Arrest: 11, 8, 0.5
+* Cell Death: 17, 12, 0.77
+* Cell Growth: 17, 5, 0.77
+* Cell Survival: 5, 3, 0.23
+* Colony Formation: 3, 3, 0.14
+* Differentiation: 5, 5, 0.23
 * Entosis: 0, 0, 0.0
-* Epithelial-Mesenchymal Transition: 8, 8, 0.36
-* Ferroptosis: 17, 12, 0.77
-* Invasion: 4, 3, 0.18
-* Metastasis: 11, 5, 0.5
-* Migration: 7, 4, 0.32
-* Mitophagy: 12, 7, 0.55
+* Epithelial-Mesenchymal Transition: 0, 0, 0.0
+* Ferroptosis: 0, 0, 0.0
+* Invasion: 4, 4, 0.18
+* Metastasis: 10, 5, 0.45
+* Migration: 6, 4, 0.27
+* Mitophagy: 11, 9, 0.5
 * Necroptosis: 0, 0, 0.0
 * Necrosis: 0, 0, 0.0
 * Netosis: 0, 0, 0.0
 * Oncosis: 0, 0, 0.0
-* Proliferation: 12, 4, 0.55
-* Pyroptosis: 0, 0, 0.0
+* Proliferation: 22, 8, 1.0
+* Pyroptosis: 2, 2, 0.09
 * Quiescence: 0, 0, 0.0
 * Self-Renewal: 0, 0, 0.0
-* Senescence: 5, 5, 0.23
-* Transformation: 2, 2, 0.09
-* Tumour Growth: 6, 3, 0.27
-* Tumourigenesis: 52, 18, 2.36
+* Senescence: 15, 8, 0.68
+* Transformation: 0, 0, 0.0
+* Tumour Growth: 23, 6, 1.05
+* Tumourigenesis: 17, 5, 0.77
 
 ### Activity
 
-* Causes: 28, 8, 1.27
-* Inhibits: 63, 22, 2.86
-* Increases: 58, 13, 2.64
-* Decreases: 50, 12, 2.27
-* Regulates: 0, 0, 0.0
-* No Effect: 15, 8, 0.68
-* Not Stated: 3, 3, 0.14
+* Causes: 52, 10, 2.36
+* Inhibits: 48, 11, 2.18
+* Increases: 46, 7, 2.09
+* Decreases: 70, 13, 3.18
+* Regulates: 8, 8, 0.36
+* No Effect: 9, 5, 0.41
+* Not Stated: 0, 0, 0.0
 
 
 # Information on each entry
 
 **Title**:
-481_PMID31570854.txt_CC.xml,
-Words: 195,
-Tokens: 382\
+725_PMID31679823.txt_CC.xml,
+Words: 123,
+Tokens: 233\
 Tag data:
-Total: 12,
-Unique: 5,
+Total: 10,
+Unique: 4,
 Max tags: 1,
-Tagged words: 12 (6%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 16,
-Unique: 2,
-Max links (tag, word): (2, 2),
-Linked (tags, words): (10 (83.33%), 10 (5.13%))\
-Avg links (tag, word): (1.6, 1.6),
-Schema counts (B, I, E, S): (5, 2, 5, 0)
-
-**Title**:
-444_PMID32231246.txt_CC.xml,
-Words: 237,
-Tokens: 447\
-Tag data:
-Total: 27,
-Unique: 13,
-Max tags: 1,
-Tagged words: 27 (11%),
+Tagged words: 10 (8%),
 Avg tags: 1.0,
 MC words: 0\
 Link data:
 Total: 17,
-Unique: 3,
-Max links (tag, word): (3, 3),
-Linked (tags, words): (12 (44.44%), 12 (5.06%))\
-Avg links (tag, word): (1.42, 1.42),
-Schema counts (B, I, E, S): (5, 7, 5, 10)
+Unique: 2,
+Max links (tag, word): (2, 2),
+Linked (tags, words): (10 (100.0%), 10 (8.13%))\
+Avg links (tag, word): (1.7, 1.7),
+Schema counts (B, I, E, S): (3, 2, 3, 2)
 
 **Title**:
-19_PMID31177901.txt_CC.xml,
-Words: 232,
-Tokens: 453\
+178_PMID32999000.txt_CC.xml,
+Words: 228,
+Tokens: 404\
 Tag data:
-Total: 25,
+Total: 18,
+Unique: 6,
+Max tags: 2,
+Tagged words: 16 (7%),
+Avg tags: 1.12,
+MC words: 0\
+Link data:
+Total: 20,
+Unique: 2,
+Max links (tag, word): (2, 2),
+Linked (tags, words): (14 (77.78%), 12 (5.26%))\
+Avg links (tag, word): (1.43, 1.67),
+Schema counts (B, I, E, S): (7, 3, 7, 1)
+
+**Title**:
+267_PMID32675324.txt_CC.xml,
+Words: 203,
+Tokens: 352\
+Tag data:
+Total: 33,
 Unique: 8,
 Max tags: 1,
-Tagged words: 25 (11%),
+Tagged words: 33 (16%),
 Avg tags: 1.0,
 MC words: 0\
 Link data:
-Total: 28,
-Unique: 2,
-Max links (tag, word): (2, 2),
-Linked (tags, words): (16 (64.0%), 16 (6.9%))\
-Avg links (tag, word): (1.75, 1.75),
-Schema counts (B, I, E, S): (6, 9, 6, 4)
+Total: 16,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (16 (48.48%), 16 (7.88%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (6, 19, 6, 2)
+
+**Title**:
+423_PMID32203171.txt_CC.xml,
+Words: 180,
+Tokens: 256\
+Tag data:
+Total: 13,
+Unique: 6,
+Max tags: 1,
+Tagged words: 13 (7%),
+Avg tags: 1.0,
+MC words: 0\
+Link data:
+Total: 6,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (6 (46.15%), 6 (3.33%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (5, 1, 5, 2)
+
+**Title**:
+51_PMID31007149.txt_CC.xml,
+Words: 267,
+Tokens: 568\
+Tag data:
+Total: 79,
+Unique: 23,
+Max tags: 2,
+Tagged words: 75 (28%),
+Avg tags: 1.05,
+MC words: 0\
+Link data:
+Total: 88,
+Unique: 8,
+Max links (tag, word): (4, 4),
+Linked (tags, words): (24 (30.38%), 24 (8.99%))\
+Avg links (tag, word): (3.67, 3.67),
+Schema counts (B, I, E, S): (19, 32, 19, 9)
+
+**Title**:
+114_PMID32312833.txt_CC.xml,
+Words: 176,
+Tokens: 367\
+Tag data:
+Total: 24,
+Unique: 9,
+Max tags: 2,
+Tagged words: 22 (12%),
+Avg tags: 1.09,
+MC words: 0\
+Link data:
+Total: 58,
+Unique: 6,
+Max links (tag, word): (4, 4),
+Linked (tags, words): (24 (100.0%), 22 (12.5%))\
+Avg links (tag, word): (2.42, 2.64),
+Schema counts (B, I, E, S): (5, 6, 5, 8)
+
+**Title**:
+504_PMID31175486.txt_CC.xml,
+Words: 260,
+Tokens: 568\
+Tag data:
+Total: 39,
+Unique: 13,
+Max tags: 2,
+Tagged words: 38 (15%),
+Avg tags: 1.03,
+MC words: 0\
+Link data:
+Total: 13,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (13 (33.33%), 13 (5.0%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (10, 14, 10, 5)
+
+**Title**:
+67_PMID30661440.txt_CC.xml,
+Words: 225,
+Tokens: 409\
+Tag data:
+Total: 27,
+Unique: 9,
+Max tags: 1,
+Tagged words: 27 (12%),
+Avg tags: 1.0,
+MC words: 0\
+Link data:
+Total: 9,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (9 (33.33%), 9 (4.0%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (7, 8, 7, 5)
 
 **Title**:
 360_PMID33257688.txt_CC.xml,
@@ -260,23 +355,232 @@ Avg links (tag, word): (2.27, 2.51),
 Schema counts (B, I, E, S): (21, 25, 21, 18)
 
 **Title**:
-591_PMID32901335.txt_CC.xml,
-Words: 145,
-Tokens: 265\
+405_PMID31804607.txt_CC.xml,
+Words: 198,
+Tokens: 422\
 Tag data:
 Total: 31,
-Unique: 9,
+Unique: 11,
 Max tags: 2,
-Tagged words: 26 (18%),
-Avg tags: 1.19,
+Tagged words: 27 (14%),
+Avg tags: 1.15,
 MC words: 0\
 Link data:
-Total: 69,
-Unique: 6,
+Total: 12,
+Unique: 2,
+Max links (tag, word): (2, 2),
+Linked (tags, words): (10 (32.26%), 8 (4.04%))\
+Avg links (tag, word): (1.2, 1.5),
+Schema counts (B, I, E, S): (10, 7, 10, 4)
+
+**Title**:
+331_PMID33040078.txt_CC.xml,
+Words: 304,
+Tokens: 546\
+Tag data:
+Total: 58,
+Unique: 20,
+Max tags: 3,
+Tagged words: 55 (18%),
+Avg tags: 1.05,
+MC words: 0\
+Link data:
+Total: 87,
+Unique: 10,
 Max links (tag, word): (6, 6),
-Linked (tags, words): (21 (67.74%), 16 (11.03%))\
-Avg links (tag, word): (3.29, 4.31),
-Schema counts (B, I, E, S): (6, 14, 6, 5)
+Linked (tags, words): (31 (53.45%), 28 (9.21%))\
+Avg links (tag, word): (2.81, 3.11),
+Schema counts (B, I, E, S): (15, 18, 15, 10)
+
+**Title**:
+549_PMID32564202.txt_CC.xml,
+Words: 248,
+Tokens: 506\
+Tag data:
+Total: 19,
+Unique: 11,
+Max tags: 1,
+Tagged words: 19 (8%),
+Avg tags: 1.0,
+MC words: 0\
+Link data:
+Total: 20,
+Unique: 4,
+Max links (tag, word): (2, 2),
+Linked (tags, words): (13 (68.42%), 13 (5.24%))\
+Avg links (tag, word): (1.54, 1.54),
+Schema counts (B, I, E, S): (4, 3, 4, 8)
+
+**Title**:
+438_PMID31320749.txt_CC.xml,
+Words: 274,
+Tokens: 536\
+Tag data:
+Total: 60,
+Unique: 20,
+Max tags: 4,
+Tagged words: 49 (18%),
+Avg tags: 1.22,
+MC words: 0\
+Link data:
+Total: 72,
+Unique: 9,
+Max links (tag, word): (4, 4),
+Linked (tags, words): (42 (70.0%), 35 (12.77%))\
+Avg links (tag, word): (1.71, 2.06),
+Schema counts (B, I, E, S): (15, 13, 15, 17)
+
+**Title**:
+370_PMID33277461.txt_CC.xml,
+Words: 264,
+Tokens: 589\
+Tag data:
+Total: 67,
+Unique: 24,
+Max tags: 2,
+Tagged words: 66 (25%),
+Avg tags: 1.02,
+MC words: 1\
+Link data:
+Total: 9,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (9 (13.43%), 9 (3.41%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (19, 21, 19, 8)
+
+**Title**:
+737_PMID31526760.txt_CC.xml,
+Words: 119,
+Tokens: 228\
+Tag data:
+Total: 14,
+Unique: 5,
+Max tags: 1,
+Tagged words: 14 (12%),
+Avg tags: 1.0,
+MC words: 0\
+Link data:
+Total: 10,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (10 (71.43%), 10 (8.4%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (5, 3, 5, 1)
+
+**Title**:
+32_PMID30290714.txt_CC.xml,
+Words: 255,
+Tokens: 462\
+Tag data:
+Total: 39,
+Unique: 16,
+Max tags: 2,
+Tagged words: 37 (15%),
+Avg tags: 1.05,
+MC words: 0\
+Link data:
+Total: 35,
+Unique: 5,
+Max links (tag, word): (4, 4),
+Linked (tags, words): (27 (69.23%), 25 (9.8%))\
+Avg links (tag, word): (1.3, 1.4),
+Schema counts (B, I, E, S): (15, 7, 15, 2)
+
+**Title**:
+751_PMID30205049.txt_CC.xml,
+Words: 128,
+Tokens: 236\
+Tag data:
+Total: 15,
+Unique: 7,
+Max tags: 1,
+Tagged words: 15 (12%),
+Avg tags: 1.0,
+MC words: 0\
+Link data:
+Total: 6,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (6 (40.0%), 6 (4.69%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (6, 1, 6, 2)
+
+**Title**:
+150_PMID32107212.txt_CC.xml,
+Words: 150,
+Tokens: 290\
+Tag data:
+Total: 15,
+Unique: 3,
+Max tags: 1,
+Tagged words: 15 (10%),
+Avg tags: 1.0,
+MC words: 0\
+Link data:
+Total: 15,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (15 (100.0%), 15 (10.0%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (2, 10, 2, 1)
+
+**Title**:
+789_PMID29805077.txt_CC.xml,
+Words: 132,
+Tokens: 280\
+Tag data:
+Total: 6,
+Unique: 3,
+Max tags: 1,
+Tagged words: 6 (5%),
+Avg tags: 1.0,
+MC words: 0\
+Link data:
+Total: 6,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (6 (100.0%), 6 (4.55%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (2, 0, 2, 2)
+
+**Title**:
+430_PMID29317762.txt_CC.xml,
+Words: 239,
+Tokens: 438\
+Tag data:
+Total: 42,
+Unique: 16,
+Max tags: 2,
+Tagged words: 41 (17%),
+Avg tags: 1.02,
+MC words: 0\
+Link data:
+Total: 55,
+Unique: 7,
+Max links (tag, word): (4, 4),
+Linked (tags, words): (42 (100.0%), 41 (17.15%))\
+Avg links (tag, word): (1.31, 1.34),
+Schema counts (B, I, E, S): (14, 8, 14, 6)
+
+**Title**:
+421_PMID30341421.txt_CC.xml,
+Words: 211,
+Tokens: 382\
+Tag data:
+Total: 18,
+Unique: 5,
+Max tags: 1,
+Tagged words: 18 (9%),
+Avg tags: 1.0,
+MC words: 0\
+Link data:
+Total: 14,
+Unique: 1,
+Max links (tag, word): (1, 1),
+Linked (tags, words): (14 (77.78%), 14 (6.64%))\
+Avg links (tag, word): (1.0, 1.0),
+Schema counts (B, I, E, S): (3, 8, 3, 4)
 
 **Title**:
 395_PMID33243998.txt_CC.xml,
@@ -296,309 +600,5 @@ Max links (tag, word): (1, 1),
 Linked (tags, words): (9 (15.52%), 9 (3.8%))\
 Avg links (tag, word): (1.0, 1.0),
 Schema counts (B, I, E, S): (15, 21, 15, 7)
-
-**Title**:
-321_PMID33188176.txt_CC.xml,
-Words: 179,
-Tokens: 411\
-Tag data:
-Total: 21,
-Unique: 8,
-Max tags: 1,
-Tagged words: 21 (12%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 8,
-Unique: 1,
-Max links (tag, word): (1, 1),
-Linked (tags, words): (8 (38.1%), 8 (4.47%))\
-Avg links (tag, word): (1.0, 1.0),
-Schema counts (B, I, E, S): (8, 4, 8, 1)
-
-**Title**:
-399_PMID33203836.txt_CC.xml,
-Words: 198,
-Tokens: 311\
-Tag data:
-Total: 30,
-Unique: 15,
-Max tags: 2,
-Tagged words: 29 (15%),
-Avg tags: 1.03,
-MC words: 0\
-Link data:
-Total: 16,
-Unique: 2,
-Max links (tag, word): (2, 2),
-Linked (tags, words): (11 (36.67%), 11 (5.56%))\
-Avg links (tag, word): (1.45, 1.45),
-Schema counts (B, I, E, S): (8, 4, 8, 10)
-
-**Title**:
-589_PMID31177396.txt_CC.xml,
-Words: 201,
-Tokens: 336\
-Tag data:
-Total: 14,
-Unique: 5,
-Max tags: 1,
-Tagged words: 14 (7%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 10,
-Unique: 1,
-Max links (tag, word): (1, 1),
-Linked (tags, words): (10 (71.43%), 10 (4.98%))\
-Avg links (tag, word): (1.0, 1.0),
-Schema counts (B, I, E, S): (5, 2, 5, 2)
-
-**Title**:
-154_PMID32747363.txt_CC.xml,
-Words: 249,
-Tokens: 436\
-Tag data:
-Total: 28,
-Unique: 10,
-Max tags: 2,
-Tagged words: 25 (10%),
-Avg tags: 1.12,
-MC words: 0\
-Link data:
-Total: 19,
-Unique: 2,
-Max links (tag, word): (2, 2),
-Linked (tags, words): (15 (53.57%), 12 (4.82%))\
-Avg links (tag, word): (1.27, 1.58),
-Schema counts (B, I, E, S): (9, 6, 9, 4)
-
-**Title**:
-31_PMID31066324.txt_CC.xml,
-Words: 260,
-Tokens: 487\
-Tag data:
-Total: 38,
-Unique: 12,
-Max tags: 1,
-Tagged words: 38 (15%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 5,
-Unique: 1,
-Max links (tag, word): (1, 1),
-Linked (tags, words): (5 (13.16%), 5 (1.92%))\
-Avg links (tag, word): (1.0, 1.0),
-Schema counts (B, I, E, S): (12, 13, 12, 1)
-
-**Title**:
-339_PMID33288741.txt_CC.xml,
-Words: 157,
-Tokens: 267\
-Tag data:
-Total: 6,
-Unique: 3,
-Max tags: 1,
-Tagged words: 6 (4%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 6,
-Unique: 1,
-Max links (tag, word): (1, 1),
-Linked (tags, words): (6 (100.0%), 6 (3.82%))\
-Avg links (tag, word): (1.0, 1.0),
-Schema counts (B, I, E, S): (2, 0, 2, 2)
-
-**Title**:
-132_PMID32366477.txt_CC.xml,
-Words: 183,
-Tokens: 314\
-Tag data:
-Total: 36,
-Unique: 10,
-Max tags: 1,
-Tagged words: 36 (20%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 23,
-Unique: 2,
-Max links (tag, word): (1, 1),
-Linked (tags, words): (23 (63.89%), 23 (12.57%))\
-Avg links (tag, word): (1.0, 1.0),
-Schema counts (B, I, E, S): (9, 14, 9, 4)
-
-**Title**:
-142_PMID33277366.txt_CC.xml,
-Words: 185,
-Tokens: 326\
-Tag data:
-Total: 9,
-Unique: 4,
-Max tags: 1,
-Tagged words: 9 (5%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 8,
-Unique: 1,
-Max links (tag, word): (1, 1),
-Linked (tags, words): (8 (88.89%), 8 (4.32%))\
-Avg links (tag, word): (1.0, 1.0),
-Schema counts (B, I, E, S): (3, 1, 3, 2)
-
-**Title**:
-146_PMID32193285.txt_CC.xml,
-Words: 215,
-Tokens: 422\
-Tag data:
-Total: 45,
-Unique: 11,
-Max tags: 1,
-Tagged words: 45 (21%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 20,
-Unique: 1,
-Max links (tag, word): (1, 1),
-Linked (tags, words): (20 (44.44%), 20 (9.3%))\
-Avg links (tag, word): (1.0, 1.0),
-Schema counts (B, I, E, S): (11, 20, 11, 3)
-
-**Title**:
-226_PMID33303641.txt_CC.xml,
-Words: 152,
-Tokens: 276\
-Tag data:
-Total: 75,
-Unique: 21,
-Max tags: 4,
-Tagged words: 57 (38%),
-Avg tags: 1.32,
-MC words: 0\
-Link data:
-Total: 60,
-Unique: 8,
-Max links (tag, word): (5, 5),
-Linked (tags, words): (43 (57.33%), 32 (21.05%))\
-Avg links (tag, word): (1.4, 1.88),
-Schema counts (B, I, E, S): (17, 28, 17, 13)
-
-**Title**:
-143_PMID330223944.txt_CC.xml,
-Words: 183,
-Tokens: 300\
-Tag data:
-Total: 9,
-Unique: 3,
-Max tags: 1,
-Tagged words: 9 (5%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 9,
-Unique: 1,
-Max links (tag, word): (1, 1),
-Linked (tags, words): (9 (100.0%), 9 (4.92%))\
-Avg links (tag, word): (1.0, 1.0),
-Schema counts (B, I, E, S): (3, 3, 3, 0)
-
-**Title**:
-417_PMID31320750.txt_CC.xml,
-Words: 273,
-Tokens: 487\
-Tag data:
-Total: 35,
-Unique: 14,
-Max tags: 2,
-Tagged words: 32 (12%),
-Avg tags: 1.09,
-MC words: 0\
-Link data:
-Total: 26,
-Unique: 3,
-Max links (tag, word): (2, 2),
-Linked (tags, words): (21 (60.0%), 18 (6.59%))\
-Avg links (tag, word): (1.24, 1.44),
-Schema counts (B, I, E, S): (11, 5, 11, 8)
-
-**Title**:
-400_PMID33093470.txt_CC.xml,
-Words: 301,
-Tokens: 598\
-Tag data:
-Total: 18,
-Unique: 9,
-Max tags: 1,
-Tagged words: 18 (6%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 11,
-Unique: 2,
-Max links (tag, word): (1, 1),
-Linked (tags, words): (11 (61.11%), 11 (3.65%))\
-Avg links (tag, word): (1.0, 1.0),
-Schema counts (B, I, E, S): (5, 2, 5, 6)
-
-**Title**:
-228_PMID28698299.txt_CC.xml,
-Words: 229,
-Tokens: 400\
-Tag data:
-Total: 34,
-Unique: 12,
-Max tags: 2,
-Tagged words: 32 (14%),
-Avg tags: 1.06,
-MC words: 0\
-Link data:
-Total: 36,
-Unique: 4,
-Max links (tag, word): (2, 2),
-Linked (tags, words): (29 (85.29%), 27 (11.79%))\
-Avg links (tag, word): (1.24, 1.33),
-Schema counts (B, I, E, S): (9, 11, 9, 5)
-
-**Title**:
-195_PMID32605998.txt_CC.xml,
-Words: 205,
-Tokens: 345\
-Tag data:
-Total: 17,
-Unique: 7,
-Max tags: 1,
-Tagged words: 17 (8%),
-Avg tags: 1.0,
-MC words: 0\
-Link data:
-Total: 25,
-Unique: 3,
-Max links (tag, word): (2, 2),
-Linked (tags, words): (17 (100.0%), 17 (8.29%))\
-Avg links (tag, word): (1.47, 1.47),
-Schema counts (B, I, E, S): (6, 2, 6, 3)
-
-**Title**:
-734_PMID32860742.txt_CC.xml,
-Words: 150,
-Tokens: 282\
-Tag data:
-Total: 24,
-Unique: 8,
-Max tags: 2,
-Tagged words: 22 (15%),
-Avg tags: 1.09,
-MC words: 0\
-Link data:
-Total: 9,
-Unique: 2,
-Max links (tag, word): (2, 2),
-Linked (tags, words): (8 (33.33%), 8 (5.33%))\
-Avg links (tag, word): (1.12, 1.12),
-Schema counts (B, I, E, S): (6, 7, 6, 5)
 
 

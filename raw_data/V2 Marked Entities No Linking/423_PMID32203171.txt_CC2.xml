@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Drp1 modulates mitochondrial stress responses to mitotic arrest.
+
+Antimitotic drugs are extensively used in the clinics to treat different types 
+of cancer. They can retain cells in a prolonged mitotic arrest imposing two 
+major fates, mitotic slippage, or mitotic cell death. While the former is 
+molecularly well characterized, the mechanisms that control mitotic cell death 
+remain poorly understood. Here, we performed quantitative proteomics of HeLa 
+cells under mitotic arrest induced with paclitaxel, a microtubule-stabilizer 
+drug, to identify regulators of such cell fate decision. We identified 
+alterations in several apoptosis-related proteins, among which the mitochondrial 
+fission protein Drp1 presented increased levels. We found that Drp1 depletion 
+during prolonged mitotic arrest led to strong mitochondrial depolarization and 
+faster mitotic cell death as well as enhanced mitophagy, a mechanism to remove 
+damaged mitochondria. Our findings support a new role of Drp1 in orchestrating 
+the cellular stress responses during mitosis, where mitochondrial function and 
+distribution into the daughter cells need to be coordinated with cell fate. This 
+novel function of Drp1 in the cell cycle becomes best visible under conditions 
+of prolonged mitotic arrest.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="751~765" text="Drp1 depletion" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="450~461" text="HeLa  cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="468~482" text="mitotic arrest" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH1" spans="862~872" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH2" spans="893~902" text="mitophagy" phenotype="mitophagy" />
+<EFFECT id="E0" spans="483~490" text="induced" effect="positive" />
+<EFFECT id="E1" spans="847~853" text="faster" effect="positive" />
+<EFFECT id="E2" spans="884~892" text="enhanced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

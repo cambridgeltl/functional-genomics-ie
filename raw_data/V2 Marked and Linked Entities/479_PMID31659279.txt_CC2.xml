@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Caspase-8, receptor-interacting protein kinase 1 (RIPK1), and RIPK3 regulate 
+retinoic acid-induced cell differentiation and necroptosis.
+
+Among caspase family members, Caspase-8 is unique, with associated critical 
+activities to induce and suppress death receptor-mediated apoptosis and 
+necroptosis, respectively. Caspase-8 inhibits necroptosis by suppressing the 
+function of receptor-interacting protein kinase 1 (RIPK1 or RIP1) and RIPK3 to 
+activate mixed lineage kinase domain-like (MLKL). Disruption of Caspase-8 
+expression causes embryonic lethality in mice, which is rescued by depletion of 
+either Ripk3 or Mlkl, indicating that the embryonic lethality is caused by 
+activation of necroptosis. Here, we show that knockdown of Caspase-8 expression 
+in embryoid bodies derived from ES cells markedly enhances retinoic acid 
+(RA)-induced cell differentiation and necroptosis, both of which are dependent 
+on Ripk1 and Ripk3; however, the enhancement of RA-induced cell differentiation 
+is independent of Mlkl and necrosome formation. RA treatment obviously enhanced 
+the expression of RA-specific target genes having the retinoic acid response 
+element (RARE) in their promoter regions to induce cell differentiation, and 
+induced marked expression of RIPK1, RIPK3, and MLKL to stimulate necroptosis. 
+Caspase-8 knockdown induced RIPK1 and RIPK3 to translocate into the nucleus and 
+to form a complex with RA receptor (RAR), and RAR interacting with RIPK1 and 
+RIPK3 showed much stronger binding activity to RARE than RAR without RIPK1 or 
+RIPK3. In Caspase-8-deficient as well as Caspase-8- and Mlkl-deficient mouse 
+embryos, the expression of RA-specific target genes was obviously enhanced. 
+Thus, Caspase-8, RIPK1, and RIPK3 regulate RA-induced cell differentiation and 
+necroptosis both in vitro and in vivo.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="725~758" text="knockdown of Caspase-8 expression" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1311~1330" text="Caspase-8 knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1559~1578" text="Caspase-8-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="1590~1619" text="Caspase-8- and Mlkl-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C1" spans="763~800" text="embryoid bodies derived from ES cells" context="cells" />
+<CONTEXT id="C2" spans="847~851" text="cell" context="cells" />
+<CONTEXT id="C3" spans="973~977" text="cell" context="cells" />
+<CONTEXT id="C4" spans="1620~1634" text="mouse  embryos" context="organism" />
+<PHENOTYPE id="PH0" spans="852~867" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH1" spans="872~883" text="necroptosis" phenotype="necroptosis" />
+<PHENOTYPE id="PH2" spans="978~993" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH3" spans="1297~1308" text="necroptosis" phenotype="necroptosis" />
+<EFFECT id="E0" spans="810~818" text="enhances" effect="positive" />
+<EFFECT id="E1" spans="839~846" text="induced" effect="positive" />
+<EFFECT id="E2" spans="947~958" text="enhancement" effect="positive" />
+<EFFECT id="E3" spans="965~972" text="induced" effect="positive" />
+<EFFECT id="E4" spans="1287~1296" text="stimulate" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="knockdown of Caspase-8 expression" contextID="C1" contextText="embryoid bodies derived from ES cells" effectID="E0" effectText="enhances" phenotypeID="PH0" phenotypeText="differentiation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="knockdown of Caspase-8 expression" contextID="C1" contextText="embryoid bodies derived from ES cells" effectID="E0" effectText="enhances" phenotypeID="PH1" phenotypeText="necroptosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="knockdown of Caspase-8 expression" contextID="C2" contextText="cell" phenotypeID="PH0" phenotypeText="differentiation" effectID="E0" effectText="enhances" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="knockdown of Caspase-8 expression" contextID="C2" contextText="cell" effectID="E0" effectText="enhances" phenotypeID="PH1" phenotypeText="necroptosis" />
+</TAGS>
+</Genomics_ConceptTask>

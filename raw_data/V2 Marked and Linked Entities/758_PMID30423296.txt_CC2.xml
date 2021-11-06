@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RIP1 Kinase Drives Macrophage-Mediated Adaptive Immune Tolerance in Pancreatic 
+Cancer.
+
+Pancreatic ductal adenocarcinoma (PDA) is characterized by immune tolerance and 
+immunotherapeutic resistance. We discovered upregulation of receptor-interacting 
+serine/threonine protein kinase 1 (RIP1) in tumor-associated macrophages (TAMs) 
+in PDA. To study its role in oncogenic progression, we developed a selective 
+small-molecule RIP1 inhibitor with high in vivo exposure. Targeting RIP1 
+reprogrammed TAMs toward an MHCIIhiTNFα+IFNγ+ immunogenic phenotype in a 
+STAT1-dependent manner. RIP1 inhibition in TAMs resulted in cytotoxic T cell 
+activation and T helper cell differentiation toward a mixed Th1/Th17 phenotype, 
+leading to tumor immunity in mice and in organotypic models of human PDA. 
+Targeting RIP1 synergized with PD1-and inducible co-stimulator-based 
+immunotherapies. Tumor-promoting effects of RIP1 were independent of its 
+co-association with RIP3. Collectively, our work describes RIP1 as a checkpoint 
+kinase governing tumor immunity.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="400~440" text="selective  small-molecule RIP1 inhibitor" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="583~598" text="RIP1 inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="793~807" text="Targeting RIP1" perturbingaction="other" />
+<CONTEXT id="C0" spans="602~606" text="TAMs" context="cells" />
+<CONTEXT id="C1" spans="652~665" text="T helper cell" context="cells" />
+<CONTEXT id="C2" spans="747~751" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="666~681" text="differentiation" phenotype="differentiation" />
+<EFFECT id="E0" spans="607~618" text="resulted in" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="RIP1 inhibition" effectID="E0" effectText="resulted in" phenotypeID="PH0" phenotypeText="differentiation" contextID="C1" contextText="T helper cell" />
+</TAGS>
+</Genomics_ConceptTask>

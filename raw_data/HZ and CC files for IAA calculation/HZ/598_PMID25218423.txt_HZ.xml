@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ClC-3 deficiency protects preadipocytes against apoptosis induced by palmitate 
+in vitro and in type 2 diabetes mice.
+
+Palmitate, a common saturated free fatty acid (FFA), has been demonstrated to 
+induce preadipocyte apoptosis in the absence of adipogenic stimuli, suggesting 
+that preadipocytes may be prone to apoptosis under adipogenic insufficient 
+conditions, like type 2 diabetes mellitus (T2DM). ClC-3, encoding Cl(-) channel 
+or Cl(-)/H(+) antiporter, is critical for cell fate choices of proliferation 
+versus apoptosis under diseased conditions. However, it is unknown whether ClC-3 
+is related with preadipocyte apoptosis induced by palmitate or T2DM. Palmitate, 
+but not oleate, induced apoptosis and increase in ClC-3 protein expression and 
+endoplasmic reticulum (ER) stress in 3T3-L1 preadipocyte. ClC-3 specific siRNA 
+attenuated palmitate-induced apoptosis and increased protein levels of Grp78, 
+ATF4, CHOP and phosphorylation of JNK1/2, whereas had no effects on increased 
+phospho-PERK and phospho-eIF2α protein expression. Moreover, the enhanced 
+apoptosis was shown in preadipocytes from high-sucrose/fat, low-dose STZ induced 
+T2DM mouse model with hyperglycemia, hyperlipidemia (elevated serum TG and FFA 
+levels) and insulin resistance. ClC-3 knockout significantly attenuated 
+preadipocyte apoptosis and the above metabolic disorders in T2DM mice. These 
+data demonstrated that ClC-3 deficiency prevent preadipocytes against 
+palmitate-induced apoptosis via suppressing ER stress, and also suggested that 
+ClC-3 may play a role in regulating cellular apoptosis and disorders of glucose 
+and lipid metabolism during T2DM.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="814~834" text="ClC-3 specific siRNA" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1263~1277" text="ClC-3 knockout" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="1092~1105" text="preadipocytes" context="cells" />
+<CONTEXT id="C1" spans="1304~1316" text="preadipocyte" context="cells" />
+<CONTEXT id="C2" spans="1369~1373" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="700~709" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="865~875" text="apoptosis " phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1069~1078" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="1317~1326" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="692~699" text="induced" effect="positive" />
+<EFFECT id="E1" spans="836~846" text="attenuated" effect="negative" />
+<EFFECT id="E2" spans="857~864" text="induced" effect="positive" />
+<EFFECT id="E3" spans="1059~1067" text="enhanced" effect="positive" />
+<EFFECT id="E4" spans="1292~1302" text="attenuated" effect="negative" />
+<ENTITY_LINKING id="EN0" phenotypeID="PH3" phenotypeText="apoptosis" contextID="C2" contextText="mice" effectID="E4" effectText="attenuated" perturbing_actionID="P1" perturbing_actionText="ClC-3 knockout" />
+</TAGS>
+</Genomics_ConceptTask>

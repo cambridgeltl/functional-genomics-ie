@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Suppression of poised oncogenes by ZMYND8 promotes chemo-sensitization.
+
+The major challenge in chemotherapy lies in the gain of therapeutic resistance 
+properties of cancer cells. The relatively small fraction of chemo-resistant 
+cancer cells outgrows and are responsible for tumor relapse, with acquired 
+invasiveness and stemness. We demonstrate that zinc-finger MYND type-8 (ZMYND8), 
+a putative chromatin reader, suppresses stemness, drug resistance, and 
+tumor-promoting genes, which are hallmarks of cancer. Reinstating ZMYND8 
+suppresses chemotherapeutic drug doxorubicin-induced tumorigenic potential (at a 
+sublethal dose) and drug resistance, thereby resetting the transcriptional 
+program of cells to the epithelial state. The ability of ZMYND8 to 
+chemo-sensitize doxorubicin-treated metastatic breast cancer cells by 
+downregulating tumor-associated genes was further confirmed by transcriptome 
+analysis. Interestingly, we observed that ZMYND8 overexpression in 
+doxorubicin-treated cells stimulated those involved in a good prognosis in 
+breast cancer. Consistently, sensitizing the cancer cells with ZMYND8 followed 
+by doxorubicin treatment led to tumor regression in vivo and revert back the 
+phenotypes associated with drug resistance and stemness. Intriguingly, ZMYND8 
+modulates the bivalent or poised oncogenes through its association with KDM5C 
+and EZH2, thereby chemo-sensitizing the cells to chemotherapy for better 
+disease-free survival. Collectively, our findings indicate that poised chromatin 
+is instrumental for the acquisition of chemo-resistance by cancer cells and 
+propose ZMYND8 as a suitable epigenetic tool that can re-sensitize the 
+chemo-refractory breast carcinoma.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="515~533" text="Reinstating ZMYND8" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="952~973" text="ZMYND8 overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="704~709" text="cells" context="cells" />
+<CONTEXT id="C1" spans="998~1003" text="cells" context="cells" />
+<CONTEXT id="C2" spans="1099~1111" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1183~1190" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="1166~1182" text="tumor regression" phenotype="tumour regression" />
+<EFFECT id="E0" spans="1159~1165" text="led to" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

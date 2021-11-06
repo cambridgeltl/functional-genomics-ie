@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ADORA1 Inhibition Promotes Tumor Immune Evasion by Regulating the ATF3-PD-L1 
+Axis.
+
+Here, we show that tumor ADORA1 deletion suppresses cell growth in human 
+melanoma cell lines in vitro and tumor development in vivo in immune-deficient 
+xenografts. However, this deletion induces the upregulation of PD-L1 levels, 
+which inactivates cocultured T cells in vitro, compromises anti-tumor immunity 
+in vivo, and reduces anti-tumor efficacy in an immune-competent mouse model. 
+Functionally, PD-1 mAb treatment enhances the efficacy of ADORA1-deficient or 
+ADORA1 antagonist-treated melanoma and NSCLC immune-competent mouse models. 
+Mechanistically, we identify ATF3 as the factor transcriptionally upregulating 
+PD-L1 expression. Tumor ATF3 deletion improves the effect of ADORA1 antagonist 
+treatment of melanoma and NSCLC xenografts. We observe higher ADORA1, lower 
+ATF3, and lower PD-L1 expression levels in tumor tissues from nonresponders 
+among PD-1 mAb-treated NSCLC patients.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="104~125" text="tumor ADORA1 deletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="533~549" text="ADORA1-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="554~579" text="ADORA1 antagonist-treated" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="729~748" text="Tumor ATF3 deletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="772~800" text="ADORA1 antagonist  treatment" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="152~178" text="human  melanoma cell lines" context="transformed cells" />
+<CONTEXT id="C1" spans="179~187" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="210~217" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="221~249" text="immune-deficient  xenografts" context="xenograft" />
+<CONTEXT id="C4" spans="346~353" text="T cells" context="cells" />
+<CONTEXT id="C5" spans="354~362" text="in vitro" context="in vitro" />
+<CONTEXT id="C6" spans="397~404" text="in vivo" context="in vivo" />
+<CONTEXT id="C7" spans="444~472" text="immune-competent mouse model" context="organism" />
+<CONTEXT id="C8" spans="580~588" text="melanoma" context="neoplasm" />
+<CONTEXT id="C9" spans="593~628" text="NSCLC immune-competent mouse models" context="neoplasm" />
+<CONTEXT id="C12" spans="804~812" text="melanoma" context="neoplasm" />
+<CONTEXT id="C13" spans="817~833" text="NSCLC xenografts" context="xenograft" />
+<PHENOTYPE id="PH0" spans="137~148" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH1" spans="192~209" text="tumor development" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="126~136" text="suppresses" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="tumor ADORA1 deletion" effectID="E0" effectText="suppresses" phenotypeID="PH0" phenotypeText="cell growth" contextID="C0" contextText="human  melanoma cell lines" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="tumor ADORA1 deletion" effectID="E0" effectText="suppresses" phenotypeID="PH0" phenotypeText="cell growth" contextID="C1" contextText="in vitro" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="tumor ADORA1 deletion" effectID="E0" effectText="suppresses" phenotypeID="PH1" phenotypeText="tumor development" contextID="C2" contextText="in vivo" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="tumor ADORA1 deletion" effectID="E0" effectText="suppresses" phenotypeID="PH1" phenotypeText="tumor development" contextID="C3" contextText="immune-deficient  xenografts" />
+</TAGS>
+</Genomics_ConceptTask>

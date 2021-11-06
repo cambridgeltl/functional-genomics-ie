@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SETD2 Restricts Prostate Cancer Metastasis by Integrating EZH2 and AMPK 
+Signaling Pathways.
+
+The level of SETD2-mediated H3K36me3 is inversely correlated with that of 
+EZH2-catalyzed H3K27me3. Nevertheless, it remains unclear whether these two 
+enzymatic activities are molecularly intertwined. Here, we report that SETD2 
+delays prostate cancer (PCa) metastasis via its substrate EZH2. We show that 
+SETD2 methylates EZH2 which promotes EZH2 degradation. SETD2 deficiency induces 
+a Polycomb-repressive chromatin state that enables cells to acquire metastatic 
+traits. Conversely, mice harboring nonmethylated EZH2 mutant or SETD2 mutant 
+defective in binding to EZH2 develop metastatic PCa. Furthermore, we identify 
+that metformin-stimulated AMPK signaling converges at FOXO3 to stimulate SETD2 
+expression. Together, our results demonstrate that the SETD2-EZH2 axis 
+integrates metabolic and epigenetic signaling to restrict PCa metastasis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="457~473" text="SETD2 deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="598~623" text="nonmethylated EZH2 mutant" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="627~669" text="SETD2 mutant  defective in binding to EZH2" perturbingaction="other" />
+<CONTEXT id="C0" spans="534~539" text="cells" context="cells" />
+<CONTEXT id="C1" spans="583~587" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="551~569" text="metastatic  traits" phenotype="metastasis" />
+<EFFECT id="E0" spans="543~550" text="acquire" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="SETD2 deficiency" contextID="C0" contextText="cells" effectID="E0" effectText="acquire" phenotypeID="PH0" phenotypeText="metastatic  traits" />
+</TAGS>
+</Genomics_ConceptTask>

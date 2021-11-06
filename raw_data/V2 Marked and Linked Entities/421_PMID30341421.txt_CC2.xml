@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Circular RNA circAGO2 drives cancer progression through facilitating 
+HuR-repressed functions of AGO2-miRNA complexes.
+
+Argonaute 2 (AGO2), the core component of microRNA (miRNA)-induced silencing 
+complex, plays a compelling role in tumorigenesis and aggressiveness. However, 
+the mechanisms regulating the functions of AGO2 in cancer still remain elusive. 
+Herein, we indentify one intronic circular RNA (circRNA) generated from AGO2 
+gene (circAGO2) as a novel regulator of AGO2-miRNA complexes and cancer 
+progression. CircAGO2 is up-regulated in gastric cancer, colon cancer, prostate 
+cancer, and neuroblastoma, and is associated with poor prognosis of patients. 
+CircAGO2 promotes the growth, invasion, and metastasis of cancer cells in vitro 
+and in vivo. Mechanistic studies reveal that circAGO2 physically interacts with 
+human antigen R (HuR) protein to facilitate its activation and enrichment on the 
+3'-untranslated region of target genes, resulting in reduction of AGO2 binding 
+and repression of AGO2/miRNA-mediated gene silencing associated with cancer 
+progression. Pre-clinically, administration of lentivirus-mediated short hairpin 
+RNA targeting circAGO2 inhibits the expression of downstream target genes, and 
+suppresses the tumorigenesis and aggressiveness of xenografts in nude mice. In 
+addition, blocking the interaction between circAGO2 and HuR by cell-penetrating 
+inhibitory peptide represses the tumorigenesis and aggressiveness of cancer 
+cells. Taken together, these results indicate that oncogenic circAGO2 drives 
+cancer progression through facilitating HuR-repressed functions of AGO2-miRNA 
+complexes.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1118~1175" text="lentivirus-mediated short hairpin  RNA targeting circAGO2" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="728~740" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="741~749" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="755~762" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="1284~1307" text="xenografts in nude mice" context="xenograft" />
+<PHENOTYPE id="PH0" spans="700~708" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH1" spans="714~724" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="1248~1261" text="tumorigenesis" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="679~687" text="promotes" effect="positive" />
+<EFFECT id="E1" spans="1233~1243" text="suppresses" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="lentivirus-mediated short hairpin  RNA targeting circAGO2" effectID="E1" effectText="suppresses" phenotypeID="PH2" phenotypeText="tumorigenesis" contextID="C3" contextText="xenografts in nude mice" />
+</TAGS>
+</Genomics_ConceptTask>

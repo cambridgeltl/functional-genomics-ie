@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Early expansion of myeloid-derived suppressor cells inhibits SARS-CoV-2 specific 
+T-cell response and may predict fatal COVID-19 outcome.
+
+The immunological mechanisms underlying the clinical presentation of SARS-CoV-2 
+infection and those influencing the disease outcome remain to be defined. 
+Myeloid-derived suppressor cells (MDSC) have been described to be highly 
+increased during COVID-19, however, their role remains elusive. We performed an 
+in depth analysis of MDSC in 128 SARS-CoV-2 infected patients. Polymorphonuclear 
+(PMN)-MDSC expanded during COVID-19, in particular in patients who required 
+intensive care treatments, and correlated with IL-1β, IL-6, IL-8, and TNF-α 
+plasma levels. PMN-MDSC inhibited T-cells IFN-γ production upon SARS-CoV-2 
+peptides stimulation, through TGF-β- and iNOS-mediated mechanisms, possibly 
+contrasting virus elimination. Accordingly, a multivariate regression analysis 
+found a strong association between PMN-MDSC percentage and fatal outcome of the 
+disease. The PMN-MDSC frequency was higher in non-survivors than survivors at 
+the admission time, followed by a decreasing trend. Interestingly, this trend 
+was associated with IL-6 increase in non-survivors but not in survivors. In 
+conclusion, this study indicates PMN-MDSC as a novel factor in the pathogenesis 
+of SARS-CoV2 infection, and open up to new therapeutic options.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="720~727" text="T-cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

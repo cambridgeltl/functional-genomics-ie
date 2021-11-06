@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ Mesenchymal stem cells alleviate LPS-induced acute lung injury by inhibiting the 
+proinflammatory function of Ly6C(+) CD8(+) T cells.
+
+Systemic inflammatory processes, including alveolar injury, cytokine induction, 
+and neutrophil accumulation, play key roles in the pathophysiology of acute lung 
+injury (ALI). The immunomodulatory effects of mesenchymal stem cells (MSCs) can 
+contribute to the treatment of inflammatory disorders. In previous studies, the 
+focus was on innate immune cells and the effects of MSCs on ALI through CD8+ T 
+cells remain unclear. In the present study, lipopolysaccharide (LPS) was used to 
+induce ALI in mice. ALI mice were treated with MSCs via intratracheal 
+instillation. Survival rate, histopathological changes, protein levels, total 
+cell count, cytokine levels, and chemokine levels in alveolar lavage fluid were 
+used to determine the efficacy of MSCs. Mass cytometry and single-cell RNA 
+sequencing (scRNA-seq) were used to characterize the CD8+ T cells in the lungs. 
+Ly6C- CD8+ T cells are prevalent in normal mice, whereas a specialized effector 
+phenotype expressing a high level of Ly6C is predominant in advanced disease. 
+MSCs significantly mitigated ALI and improved survival. MSCs decreased the 
+infiltration of CD8+ T cells, especially Ly6C+ CD8+ T cells into the lungs. Mass 
+cytometry revealed that CD8+ T cells expressing high Ly6C and CXCR3 levels 
+caused tissue damage in the lungs of ALI mice, which was alleviated by MSCs. The 
+scRNA-seq showed that Ly6C+ CD8+ T cells exhibited a more activated phenotype 
+and decreased expression of proinflammatory factors that were enriched the most 
+in immune chemotaxis after treatment with MSCs. We showed that CD8+ T cells play 
+an important role in MSC-mediated ALI remission, and both infiltration quantity 
+and proinflammatory function were inhibited by MSCs, indicating a potential 
+mechanism for therapeutic intervention.
+
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="637~641" text="mice" context="organism" />
+<CONTEXT id="C1" spans="647~651" text="mice" context="organism" />
+<CONTEXT id="C2" spans="1263~1275" text="CD8+ T cells" context="cells" />
+<CONTEXT id="C3" spans="1288~1306" text="Ly6C+ CD8+ T cells" context="cells" />
+<CONTEXT id="C4" spans="1446~1450" text="mice" context="organism" />
+<CONTEXT id="C5" spans="1353~1365" text="CD8+ T cells" context="cells" />
+<CONTEXT id="C6" spans="1433~1438" text="lungs" context="tissue/organ" />
+<CONTEXT id="C7" spans="1509~1527" text="Ly6C+ CD8+ T cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Tumor Evolution of Glioma-Intrinsic Gene Expression Subtypes Associates with 
+Immunological Changes in the Microenvironment.
+
+We leveraged IDH wild-type glioblastomas, derivative neurospheres, and 
+single-cell gene expression profiles to define three tumor-intrinsic 
+transcriptional subtypes designated as proneural, mesenchymal, and classical. 
+Transcriptomic subtype multiplicity correlated with increased intratumoral 
+heterogeneity and presence of tumor microenvironment. In silico cell sorting 
+identified macrophages/microglia, CD4+ T lymphocytes, and neutrophils in the 
+glioma microenvironment. NF1 deficiency resulted in increased tumor-associated 
+macrophages/microglia infiltration. Longitudinal transcriptome analysis showed 
+that expression subtype is retained in 55% of cases. Gene signature-based tumor 
+microenvironment inference revealed a decrease in invading monocytes and a 
+subtype-dependent increase in macrophages/microglia cells upon disease 
+recurrence. Hypermutation at diagnosis or at recurrence associated with CD8+ 
+T cell enrichment. Frequency of M2 macrophages detection associated with 
+short-term relapse after radiation therapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="604~618" text="NF1 deficiency" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="641~680" text="tumor-associated  macrophages/microglia" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

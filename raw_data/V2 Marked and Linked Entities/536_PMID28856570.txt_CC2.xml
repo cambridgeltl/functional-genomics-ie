@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SIRT6 knockout cells resist apoptosis initiation but not progression: a 
+computational method to evaluate the progression of apoptosis.
+
+Apoptosis is essential for numerous processes, such as development, resistance 
+to infections, and suppression of tumorigenesis. Here, we investigate the 
+influence of the nutrient sensing and longevity-assuring enzyme SIRT6 on the 
+dynamics of apoptosis triggered by serum starvation. Specifically, we 
+characterize the progression of apoptosis in wild type and SIRT6 deficient mouse 
+embryonic fibroblasts using time-lapse flow cytometry and computational 
+modelling based on rate-equations and cell distribution analysis. We find that 
+SIRT6 deficient cells resist apoptosis by delaying its initiation. 
+Interestingly, once apoptosis is initiated, the rate of its progression is 
+higher in SIRT6 null cells compared to identically cultured wild type cells. 
+However, SIRT6 null cells succumb to apoptosis more slowly, not only in response 
+to nutrient deprivation but also in response to other stresses. Our data suggest 
+that SIRT6 plays a role in several distinct steps of apoptosis. Overall, we 
+demonstrate the utility of our computational model to describe stages of 
+apoptosis progression and the integrity of the cellular membrane. Such 
+measurements will be useful in a broad range of biological applications.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="500~515" text="SIRT6 deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="676~691" text="SIRT6 deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="830~840" text="SIRT6 null" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="907~917" text="SIRT6 null" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="516~544" text="mouse  embryonic fibroblasts" context="cells" />
+<CONTEXT id="C1" spans="692~697" text="cells" context="cells" />
+<CONTEXT id="C2" spans="841~846" text="cells" context="cells" />
+<CONTEXT id="C3" spans="890~895" text="cells" context="cells" />
+<CONTEXT id="C4" spans="918~923" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="705~714" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="764~773" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="935~944" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="698~704" text="resist" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="SIRT6 deficient" contextID="C1" contextText="cells" effectID="E0" effectText="resist" phenotypeID="PH0" phenotypeText="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

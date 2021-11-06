@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Branched-chain amino acid aminotransferase 2 regulates ferroptotic cell death in 
+cancer cells.
+
+Ferroptosis, a form of iron-dependent cell death driven by cellular metabolism 
+and iron-dependent lipid peroxidation, has been implicated as a tumor-suppressor 
+function for cancer therapy. Recent advance revealed that the sensitivity to 
+ferroptosis is tightly linked to numerous biological processes, including 
+metabolism of amino acid and the biosynthesis of glutathione. Here, by using a 
+high-throughput CRISPR/Cas9-based genetic screen in HepG2 hepatocellular 
+carcinoma cells to search for metabolic proteins inhibiting ferroptosis, we 
+identified a branched-chain amino acid aminotransferase 2 (BCAT2) as a novel 
+suppressor of ferroptosis. Mechanistically, ferroptosis inducers (erastin, 
+sorafenib, and sulfasalazine) activated AMPK/SREBP1 signaling pathway through 
+iron-dependent ferritinophagy, which in turn inhibited BCAT2 transcription. We 
+further confirmed that BCAT2 as the key enzyme mediating the metabolism of 
+sulfur amino acid, regulated intracellular glutamate level, whose activation by 
+ectopic expression specifically antagonize system Xc- inhibition and protected 
+liver and pancreatic cancer cells from ferroptosis in vitro and in vivo. On the 
+contrary, direct inhibition of BCAT2 by RNA interference, or indirect inhibition 
+by blocking system Xc- activity, triggers ferroptosis. Finally, our results 
+demonstrate the synergistic effect of sorafenib and sulfasalazine in 
+downregulating BCAT2 expression and dictating ferroptotic death, where BCAT2 can 
+also be used to predict the responsiveness of cancer cells to 
+ferroptosis-inducing therapies. Collectively, these findings identify a novel 
+role of BCAT2 in ferroptosis, suggesting a potential therapeutic strategy for 
+overcoming sorafenib resistance.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1291~1330" text="inhibition of BCAT2 by RNA interference" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="544~581" text="HepG2 hepatocellular  carcinoma cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1193~1226" text="liver and pancreatic cancer cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1244~1252" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="1257~1264" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="735~746" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="765~776" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH2" spans="1232~1243" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH3" spans="1398~1409" text="ferroptosis" phenotype="ferroptosis" />
+<EFFECT id="E0" spans="721~731" text="suppressor" effect="negative" />
+<EFFECT id="E1" spans="777~785" text="inducers" effect="positive" />
+<EFFECT id="E2" spans="1389~1397" text="triggers" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

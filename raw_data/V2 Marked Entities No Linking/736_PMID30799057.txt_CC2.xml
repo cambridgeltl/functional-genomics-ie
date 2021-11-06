@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeting an RNA-Binding Protein Network in Acute Myeloid Leukemia.
+
+RNA-binding proteins (RBPs) are essential modulators of transcription and 
+translation frequently dysregulated in cancer. We systematically interrogated 
+RBP dependencies in human cancers using a comprehensive CRISPR/Cas9 
+domain-focused screen targeting RNA-binding domains of 490 classical RBPs. This 
+uncovered a network of physically interacting RBPs upregulated in acute myeloid 
+leukemia (AML) and crucial for maintaining RNA splicing and AML survival. 
+Genetic or pharmacologic targeting of one key member of this network, RBM39, 
+repressed cassette exon inclusion and promoted intron retention within mRNAs 
+encoding HOXA9 targets as well as in other RBPs preferentially required in AML. 
+The effects of RBM39 loss on splicing further resulted in preferential lethality 
+of spliceosomal mutant AML, providing a strategy for treatment of AML bearing 
+RBP splicing mutations.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="540~604" text="pharmacologic targeting of one key member of this network, RBM39" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="781~791" text="RBM39 loss" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="243~256" text="human cancers" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

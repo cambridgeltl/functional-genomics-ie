@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Prohibitin, STAT3 and SH2D4A physically and functionally interact in tumor cell 
+mitochondria.
+
+Chromosome 8p is frequently deleted in various cancer entities and has been 
+shown to correlate with poor patient survival. SH2D4A is located on chromosome 
+8p and prevents the nuclear translocation of the pro-tumorigenic transcription 
+factor STAT3. Here, we investigated the interaction of SH2D4A and STAT3 to shed 
+light on the non-canonical functions of STAT3 in cooperation with the tumor 
+suppressor SH2D4A. Using an immunoprecipitation-mass spectrometry (IP-MS) 
+approach, we identified the mitochondrial scaffold proteins prohibitin 1 (PHB1) 
+and prohibitin 2 (PHB2) among other proteins to potentially bind to SH2D4A. 
+Co-immunoprecipitation and proximity ligation assays confirmed direct 
+interactions of STAT3, PHB1, and SH2D4A in situ and in vitro. In addition, cell 
+fractionation and immunofluorescence staining revealed co-localization of these 
+proteins with mitochondria. These interactions were selectively interrupted by 
+the small molecule and PHB ligand FL3. Furthermore, FL3 led to a reduction of 
+STAT3 protein levels, STAT3 transcriptional activity, and HIF1α protein 
+stabilization upon dimethyloxalylglycine (DMOG) treatment. Besides, 
+mitochondrial fusion and fission markers, L-OPA1, Mfn1, and FIS1, were 
+dysregulated upon FL3 treatment. This dysregulated morphology was accompanied by 
+significant reduction of mitochondrial respiration, thus, FL3 significantly 
+diminished mitochondrial respirational capacity. In contrast, SH2D4A knockout 
+increased mitochondrial respiration, whereas FL3 reversed the effect of SH2D4A 
+knockout. The here described results indicate that the interaction of SH2D4A and 
+PHB1 is involved in the mitochondrial function and integrity. The demonstrated 
+interaction with STAT3, accompanied by its reduction of transcriptional 
+activity, further suggests that SH2D4A is linking STAT3 to its mitochondrial 
+functions, and inhibition of PHB-interaction may have therapeutic effects in 
+tumor cells with STAT3 activation.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1551~1566" text="SH2D4A knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1640~1656" text="SH2D4A  knockout" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

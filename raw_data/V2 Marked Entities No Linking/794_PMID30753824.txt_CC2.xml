@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Antitumor Responses in the Absence of Toxicity in Solid Tumors by Targeting 
+B7-H3 via Chimeric Antigen Receptor T Cells.
+
+The high expression across multiple tumor types and restricted expression in 
+normal tissues make B7-H3 an attractive target for immunotherapy. We generated 
+chimeric antigen receptor (CAR) T cells targeting B7-H3 (B7-H3.CAR-Ts) and found 
+that B7-H3.CAR-Ts controlled the growth of pancreatic ductal adenocarcinoma, 
+ovarian cancer and neuroblastoma in vitro and in orthotopic and metastatic 
+xenograft mouse models, which included patient-derived xenograft. We also found 
+that 4-1BB co-stimulation promotes lower PD-1 expression in B7-H3.CAR-Ts, and 
+superior antitumor activity when targeting tumor cells that constitutively 
+expressed PD-L1. We took advantage of the cross-reactivity of the B7-H3.CAR with 
+murine B7-H3, and found that B7-H3.CAR-Ts significantly controlled tumor growth 
+in a syngeneic tumor model without evident toxicity. These findings support the 
+clinical development of B7-H3.CAR-Ts.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="406~438" text="pancreatic ductal adenocarcinoma" context="neoplasm" />
+<CONTEXT id="C1" spans="441~455" text="ovarian cancer" context="neoplasm" />
+<CONTEXT id="C2" spans="460~473" text="neuroblastoma" context="neoplasm" />
+<CONTEXT id="C3" spans="474~482" text="in vitro" context="in vitro" />
+<CONTEXT id="C4" spans="490~539" text="orthotopic and metastatic  xenograft mouse models" context="xenograft" />
+<CONTEXT id="C5" spans="556~581" text="patient-derived xenograft" context="xenograft" />
+<CONTEXT id="C6" spans="720~731" text="tumor cells" context="transformed cells" />
+<CONTEXT id="C7" spans="921~942" text="syngeneic tumor model" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="902~914" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="891~901" text="controlled" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Selective targeting of ubiquitination and degradation of PARP1 by E3 ubiquitin 
+ligase WWP2 regulates isoproterenol-induced cardiac remodeling.
+
+The elevated expression of poly(ADP-ribose) polymerase-1 (PARP1) and increased 
+PARP1 activity, namely, poly(ADP-ribosyl)ation (PARylation), have been observed 
+in cardiac remodeling, leading to extreme energy consumption and myocardial 
+damage. However, the mechanisms underlying the regulation of PARP1 require 
+further study. WWP2, a HECT-type E3 ubiquitin ligase, is highly expressed in the 
+heart, but its function there is largely unknown. Here, we clarified the role of 
+WWP2 in the regulation of PARP1 and the impact of this regulatory process on 
+cardiac remodeling. We determined that the knockout of WWP2 specifically in 
+myocardium decreased the level of PARP1 ubiquitination and increased the effects 
+of isoproterenol (ISO)-induced PARP1 and PARylation, in turn aggravating 
+ISO-induced myocardial hypertrophy, heart failure, and myocardial fibrosis. 
+Similar findings were obtained in a model of ISO-induced H9c2 cells with WWP2 
+knockdown, while the reexpression of WWP2 significantly increased PARP1 
+ubiquitination and decreased PAPR1 and PARylation levels. Mechanistically, 
+coimmunoprecipitation results identified that WWP2 is a novel interacting 
+protein of PARP1 and mainly interacts with its BRCT domain, thus mediating the 
+degradation of PARP1 through the ubiquitin-proteasome system. In addition, 
+lysine 418 (K418) and lysine 249 (K249) were shown to be of critical importance 
+in regulating PARP1 ubiquitination and degradation by WWP2. These findings 
+reveal a novel WWP2-PARP1 signal transduction pathway involved in controlling 
+cardiac remodeling and may provide a basis for exploring new strategies for 
+treating heart disorders related to cardiac remodeling.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="744~760" text="knockout of WWP2" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1084~1099" text="WWP2  knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1111~1131" text="reexpression of WWP2" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="778~788" text="myocardium" context="tissue/organ" />
+<CONTEXT id="C1" spans="970~975" text="heart" context="tissue/organ" />
+<CONTEXT id="C2" spans="1068~1078" text="H9c2 cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

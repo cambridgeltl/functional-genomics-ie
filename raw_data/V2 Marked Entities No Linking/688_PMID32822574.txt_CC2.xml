@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Decidual NK Cells Transfer Granulysin to Selectively Kill Bacteria in 
+Trophoblasts.
+
+Maternal decidual NK (dNK) cells promote placentation, but how they protect 
+against placental infection while maintaining fetal tolerance is unclear. Here 
+we show that human dNK cells highly express the antimicrobial peptide granulysin 
+(GNLY) and selectively transfer it via nanotubes to extravillous trophoblasts to 
+kill intracellular Listeria monocytogenes (Lm) without killing the trophoblast. 
+Transfer of GNLY, but not other cell death-inducing cytotoxic granule proteins, 
+strongly inhibits Lm in human placental cultures and in mouse and human 
+trophoblast cell lines. Placental and fetal Lm loads are lower and pregnancy 
+success is greatly improved in pregnant Lm-infected GNLY-transgenic mice than in 
+wild-type mice that lack GNLY. This immune defense is not restricted to 
+pregnancy; peripheral NK (pNK) cells also transfer GNLY to kill bacteria in 
+macrophages and dendritic cells without killing the host cell. Nanotube transfer 
+of GNLY allows dNK to protect against infection while leaving the maternal-fetal 
+barrier intact.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="772~787" text="GNLY-transgenic" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="593~617" text="human placental cultures" context="cells" />
+<CONTEXT id="C1" spans="625~664" text="mouse and human  trophoblast cell lines" context="cells" />
+<CONTEXT id="C2" spans="788~792" text="mice" context="organism" />
+<CONTEXT id="C3" spans="812~816" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

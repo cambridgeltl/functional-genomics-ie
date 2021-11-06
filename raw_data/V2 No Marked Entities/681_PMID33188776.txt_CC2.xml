@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in 
+Tissue.
+
+We present deterministic barcoding in tissue for spatial omics sequencing 
+(DBiT-seq) for co-mapping of mRNAs and proteins in a formaldehyde-fixed tissue 
+slide via next-generation sequencing (NGS). Parallel microfluidic channels were 
+used to deliver DNA barcodes to the surface of a tissue slide, and crossflow of 
+two sets of barcodes, A1-50 and B1-50, followed by ligation in situ, yielded a 
+2D mosaic of tissue pixels, each containing a unique full barcode AB. 
+Application to mouse embryos revealed major tissue types in early organogenesis 
+as well as fine features like microvasculature in a brain and pigmented 
+epithelium in an eye field. Gene expression profiles in 10-μm pixels conformed 
+into the clusters of single-cell transcriptomes, allowing for rapid 
+identification of cell types and spatial distributions. DBiT-seq can be adopted 
+by researchers with no experience in microfluidics and may find applications in 
+a range of fields including developmental biology, cancer biology, neuroscience, 
+and clinical pathology.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Inhibiting the NLRP3 inflammasome with MCC950 ameliorates retinal 
+neovascularization and leakage by reversing the IL-1β/IL-18 activation pattern 
+in an oxygen-induced ischemic retinopathy mouse model.
+
+Activation of the nucleotide-binding domain leucine-rich repeat and pyrin domain 
+containing receptor 3 (NLRP3) inflammasome plays an important role in ocular 
+neovascularization. In our study, we found that the expression and activation 
+levels of NLRP3 inflammasome components, including NLRP3, an 
+apoptosis-associated speck-like protein (ASC) containing caspase activation and 
+recruitment domain (CARD) and caspase-1 (CAS1), were significantly upregulated. 
+In addition, we found interleukin (IL)-1β activity increased while IL-18 
+activity decreased in the retinas of oxygen-induced ischemic retinopathy (OIR) 
+mice. MCC950, an inhibitor of NLRP3, reversed the IL-1β/IL-18 activation 
+pattern, inhibited the formation of retinal neovascularization (RNV), decreased 
+the number of acellular capillaries and reduced leakage of retinal vessels. 
+Moreover, MCC950 could regulate the expression of endothelial cell- and pericyte 
+function-associated molecules, such as vascular endothelial growth factor 
+(VEGF), VEGF receptor (VEGFR)1, VEGFR2, matrix metalloproteinase (MMP)2, MMP9, 
+tissue inhibitor of metalloproteinases (TIMP)1, TIMP2, platelet-derived growth 
+factor receptor-β (PDGFR-β), platelet-derived growth factor-B (PDGF-B), and 
+angiopoietin2 (Ang2). In vitro, recombinant human (r)IL-18 and rIL-1β regulated 
+the expression of endothelial cell- and pericyte function-associated molecules 
+and the proliferation and migration of endothelial cells and pericytes. We 
+therefore determined that inhibiting the NLRP3 inflammasome with MCC950 can 
+regulate the function of endothelial cells and pericytes by reversing the 
+IL-1β/IL-18 activation pattern to ameliorate RNV and leakage; thereby opening 
+new avenues to treat RNV-associated ocular diseases.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="826~855" text="MCC950, an inhibitor of NLRP3" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="820~824" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1468~1476" text="In vitro" context="in vitro" />
+<CONTEXT id="C2" spans="1646~1663" text="endothelial cells" context="cells" />
+<CONTEXT id="C3" spans="1668~1677" text="pericytes" context="cells" />
+<CONTEXT id="C4" spans="1785~1802" text="endothelial cells" context="cells" />
+<CONTEXT id="C5" spans="1807~1816" text="pericytes" context="cells" />
+<PHENOTYPE id="PH0" spans="1615~1628" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="1633~1642" text="migration" phenotype="migration" />
+<EFFECT id="E0" spans="1516~1525" text="regulated" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

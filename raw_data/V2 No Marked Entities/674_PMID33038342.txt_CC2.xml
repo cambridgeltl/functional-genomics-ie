@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium 
+Approach Improve Neoantigen Prediction.
+
+Many approaches to identify therapeutically relevant neoantigens couple tumor 
+sequencing with bioinformatic algorithms and inferred rules of tumor epitope 
+immunogenicity. However, there are no reference data to compare these 
+approaches, and the parameters governing tumor epitope immunogenicity remain 
+unclear. Here, we assembled a global consortium wherein each participant 
+predicted immunogenic epitopes from shared tumor sequencing data. 608 epitopes 
+were subsequently assessed for T cell binding in patient-matched samples. By 
+integrating peptide features associated with presentation and recognition, we 
+developed a model of tumor epitope immunogenicity that filtered out 98% of 
+non-immunogenic peptides with a precision above 0.70. Pipelines prioritizing 
+model features had superior performance, and pipeline alterations leveraging 
+them improved prediction performance. These findings were validated in an 
+independent cohort of 310 epitopes prioritized from tumor sequencing data and 
+assessed for T cell binding. This data resource enables identification of 
+parameters underlying effective anti-tumor immunity and is available to the 
+research community.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

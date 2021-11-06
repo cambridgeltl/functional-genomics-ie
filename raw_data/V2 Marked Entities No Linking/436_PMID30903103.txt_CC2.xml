@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[FGFR4 phosphorylates MST1 to confer breast cancer cells resistance to 
+MST1/2-dependent apoptosis.
+
+Cancer cells balance with the equilibrium of cell death and growth to expand and 
+metastasize. The activity of mammalian sterile20-like kinases (MST1/2) has been 
+linked to apoptosis and tumor suppression via YAP/Hippo pathway-independent and 
+-dependent mechanisms. Using a kinase substrate screen, we identified here MST1 
+and MST2 among the top substrates for fibroblast growth factor receptor 4 
+(FGFR4). In COS-1 cells, MST1 was phosphorylated at Y433 residue in an FGFR4 
+kinase activity-dependent manner, as assessed by mass spectrometry. Blockade of 
+this phosphorylation by Y433F mutation induced MST1 activation, as indicated by 
+increased threonine phosphorylation of MST1/2, and the downstream substrate 
+MOB1, in FGFR4-overexpressing T47D and MDA-MB-231 breast cancer cells. 
+Importantly, the specific knockdown or short-term inhibition of FGFR4 in 
+endogenous models of human HER2+ breast cancer cells likewise led to increased 
+MST1/2 activation, in conjunction with enhanced MST1 nuclear localization and 
+generation of N-terminal cleaved and autophosphorylated MST1. Unexpectedly, MST2 
+was also essential for this MST1/N activation and coincident apoptosis 
+induction, although these two kinases, as well as YAP, were differentially 
+regulated in the breast cancer models analyzed. Moreover, pharmacological FGFR4 
+inhibition specifically sensitized the HER2+ MDA-MB-453 breast cancer cells, not 
+only to HER2/EGFR and AKT/mTOR inhibitors, but also to clinically relevant 
+apoptosis modulators. In TCGA cohort, FGFR4 overexpression correlated with 
+abysmal HER2+ breast carcinoma patient outcome. Therefore, our results uncover a 
+clinically relevant, targetable mechanism of FGFR4 oncogenic activity via 
+suppression of the stress-associated MST1/2-induced apoptosis machinery in tumor 
+cells with prominent HER/ERBB and FGFR4 signaling-driven proliferation.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="928~958" text="short-term inhibition of FGFR4" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1410~1443" text="pharmacological FGFR4  inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1537~1556" text="AKT/mTOR inhibitors" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="847~886" text="T47D and MDA-MB-231 breast cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="984~1015" text="human HER2+ breast cancer cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1472~1508" text="HER2+ MDA-MB-453 breast cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="1265~1274" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1276~1285" text="induction" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

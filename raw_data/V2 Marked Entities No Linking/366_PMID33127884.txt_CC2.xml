@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Soluble PD-L1 improved direct ARDS by reducing monocyte-derived macrophages.
+
+Acute respiratory distress syndrome (ARDS) is common in intensive care units 
+(ICUs), although it is associated with high mortality, no effective 
+pharmacological treatments are currently available. Despite being poorly 
+understood, the role of programmed cell death protein 1 (PD-1) and PD-ligand 1 
+(PD-L1) axis in ARDS may provide significant insights into the immunosuppressive 
+mechanisms that occur after ARDS. In the present study, we observed that the 
+level of soluble PD-L1 (sPD-L1), a potential activator of the PD-1 pathway, was 
+upregulated in survivors of direct ARDS than in non-survivors. Administration of 
+sPD-L1 in mice with direct ARDS relieved inflammatory lung injury and improved 
+the survival rate, indicating the protective role of sPD-L1 in direct ARDS. 
+Using high-throughput mass cytometry, we found a marked decrease in the number 
+of lung monocyte-derived macrophages (MDMs) with proinflammatory markers, and 
+the protective role of sPD-L1 diminished in ARDS mice with monocyte/macrophage 
+depletion. Furthermore, PD-1 expression increased in the MDMs of patients and 
+mice with direct ARDS. Finally, we showed that sPD-L1 induced MDM apoptosis in 
+patients with direct ARDS. Taken together, our results demonstrated that the 
+engagement of sPD-L1 on PD-1 expressing macrophages resulted in a decrease in 
+pro-inflammatory macrophages and eventually improved direct ARDS. Our study 
+identified a prognostic indicator for patients with direct ARDS and a potential 
+target for therapeutic development in direct ARDS.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="712~716" text="mice" context="organism" />
+<CONTEXT id="C1" spans="942~982" text="lung monocyte-derived macrophages (MDMs)" context="cells" />
+<CONTEXT id="C2" spans="1062~1071" text="ARDS mice" context="organism" />
+<CONTEXT id="C3" spans="1239~1242" text="MDM" context="cells" />
+<CONTEXT id="C4" spans="1257~1265" text="patients" context="patient" />
+<CONTEXT id="C5" spans="1359~1386" text="PD-1 expressing macrophages" context="cells" />
+<PHENOTYPE id="PH0" spans="1243~1252" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1231~1238" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

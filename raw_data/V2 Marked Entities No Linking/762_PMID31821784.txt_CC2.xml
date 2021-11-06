@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Menin-MLL Inhibitor Induces Specific Chromatin Changes and Eradicates Disease 
+in Models of MLL-Rearranged Leukemia.
+
+Inhibition of the Menin (MEN1) and MLL (MLL1, KMT2A) interaction is a potential 
+therapeutic strategy for MLL-rearranged (MLL-r) leukemia. Structure-based design 
+yielded the potent, highly selective, and orally bioavailable small-molecule 
+inhibitor VTP50469. Cell lines carrying MLL rearrangements were selectively 
+responsive to VTP50469. VTP50469 displaced Menin from protein complexes and 
+inhibited chromatin occupancy of MLL at select genes. Loss of MLL binding led to 
+changes in gene expression, differentiation, and apoptosis. Patient-derived 
+xenograft (PDX) models derived from patients with either MLL-r acute myeloid 
+leukemia or MLL-r acute lymphoblastic leukemia (ALL) showed dramatic reductions 
+of leukemia burden when treated with VTP50469. Multiple mice engrafted with 
+MLL-r ALL remained disease free for more than 1 year after treatment. These data 
+support rapid translation of this approach to clinical trials.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="381~419" text="Cell lines carrying MLL rearrangements" context="cells" />
+<CONTEXT id="C1" spans="657~696" text="Patient-derived  xenograft (PDX) models" context="xenograft" />
+<CONTEXT id="C3" spans="836~844" text="leukemia" context="neoplasm" />
+<CONTEXT id="C4" spans="710~718" text="patients" context="patient" />
+<CONTEXT id="C5" spans="731~760" text="MLL-r acute myeloid  leukemia" context="neoplasm" />
+<CONTEXT id="C6" spans="764~804" text="MLL-r acute lymphoblastic leukemia (ALL)" context="neoplasm" />
+<CONTEXT id="C8" spans="889~919" text="mice engrafted with  MLL-r ALL" context="xenograft" />
+<PHENOTYPE id="PH1" spans="625~640" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH2" spans="646~655" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="597~604" text="changes" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

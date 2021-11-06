@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Nuclear miR-30b-5p suppresses TFEB-mediated lysosomal biogenesis and autophagy.
+
+Lysosome is a crucial organelle in charge of degrading proteins and damaged 
+organelles to maintain cellular homeostasis. Transcription factor EB (TFEB) is 
+the master transcription factor regulating lysosomal biogenesis and autophagy. 
+Under external stimuli such as starvation, dephosphorylated TFEB transports into 
+the nucleus to specifically recognize and bind to the coordinated lysosomal 
+expression and regulation (CLEAR) elements at the promotors of autophagy and 
+lysosomal biogenesis-related genes. The function of TFEB in the nucleus is fine 
+regulated but the molecular mechanism is not fully elucidated. In this study, we 
+discovered that miR-30b-5p, a small RNA which is known to regulate a series of 
+genes through posttranscriptional regulation in the cytoplasm, was translocated 
+into the nucleus, bound to the CLEAR elements, suppressed the transcription of 
+TFEB-dependent downstream genes, and further inhibited the lysosomal biogenesis 
+and the autophagic flux; meanwhile, knocking out the endogenous miR-30b-5p by 
+CRISPR/Cas9 technique significantly increased the TFEB-mediated transactivation, 
+resulting in the increased expression of autophagy and lysosomal 
+biogenesis-related genes. Overexpressing miR-30b-5p in mice livers showed a 
+decrease in lysosomal biogenesis and autophagy. These in vitro and in vivo data 
+indicate that miR-30b-5p may inhibit the TFEB-dependent transactivation by 
+binding to the CLEAR elements in the nucleus to regulate the lysosomal 
+biogenesis and autophagy. This novel mechanism of nuclear miRNA regulating gene 
+transcription is conducive to further elucidating the roles of miRNAs in the 
+lysosomal physiological functions and helps to understand the pathogenesis of 
+abnormal autophagy-related diseases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1076~1140" text="knocking out the endogenous miR-30b-5p by  CRISPR/Cas9 technique" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1293~1318" text="Overexpressing miR-30b-5p" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="1322~1333" text="mice livers" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="1381~1390" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="1344~1352" text="decrease" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Overexpressing miR-30b-5p" contextID="C0" contextText="mice livers" effectID="E0" effectText="decrease" phenotypeID="PH0" phenotypeText="autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

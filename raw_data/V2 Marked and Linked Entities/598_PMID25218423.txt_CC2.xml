@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ClC-3 deficiency protects preadipocytes against apoptosis induced by palmitate 
+in vitro and in type 2 diabetes mice.
+
+Palmitate, a common saturated free fatty acid (FFA), has been demonstrated to 
+induce preadipocyte apoptosis in the absence of adipogenic stimuli, suggesting 
+that preadipocytes may be prone to apoptosis under adipogenic insufficient 
+conditions, like type 2 diabetes mellitus (T2DM). ClC-3, encoding Cl(-) channel 
+or Cl(-)/H(+) antiporter, is critical for cell fate choices of proliferation 
+versus apoptosis under diseased conditions. However, it is unknown whether ClC-3 
+is related with preadipocyte apoptosis induced by palmitate or T2DM. Palmitate, 
+but not oleate, induced apoptosis and increase in ClC-3 protein expression and 
+endoplasmic reticulum (ER) stress in 3T3-L1 preadipocyte. ClC-3 specific siRNA 
+attenuated palmitate-induced apoptosis and increased protein levels of Grp78, 
+ATF4, CHOP and phosphorylation of JNK1/2, whereas had no effects on increased 
+phospho-PERK and phospho-eIF2α protein expression. Moreover, the enhanced 
+apoptosis was shown in preadipocytes from high-sucrose/fat, low-dose STZ induced 
+T2DM mouse model with hyperglycemia, hyperlipidemia (elevated serum TG and FFA 
+levels) and insulin resistance. ClC-3 knockout significantly attenuated 
+preadipocyte apoptosis and the above metabolic disorders in T2DM mice. These 
+data demonstrated that ClC-3 deficiency prevent preadipocytes against 
+palmitate-induced apoptosis via suppressing ER stress, and also suggested that 
+ClC-3 may play a role in regulating cellular apoptosis and disorders of glucose 
+and lipid metabolism during T2DM.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="814~834" text="ClC-3 specific siRNA" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1263~1277" text="ClC-3 knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1405~1421" text="ClC-3 deficiency" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="793~812" text="3T3-L1 preadipocyte" context="cells" />
+<CONTEXT id="C1" spans="1092~1105" text="preadipocytes" context="cells" />
+<CONTEXT id="C3" spans="1304~1316" text="preadipocyte" context="cells" />
+<CONTEXT id="C6" spans="1430~1443" text="preadipocytes" context="cells" />
+<CONTEXT id="C7" spans="1151~1167" text="T2DM mouse model" context="organism" />
+<CONTEXT id="C8" spans="1364~1373" text="T2DM mice" context="organism" />
+<PHENOTYPE id="PH0" spans="700~709" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="865~874" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1069~1078" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="1317~1326" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH4" spans="1471~1480" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="692~699" text="induced" effect="positive" />
+<EFFECT id="E1" spans="836~846" text="attenuated" effect="negative" />
+<EFFECT id="E2" spans="857~864" text="induced" effect="positive" />
+<EFFECT id="E3" spans="1059~1067" text="enhanced" effect="positive" />
+<EFFECT id="E4" spans="1292~1302" text="attenuated" effect="negative" />
+<EFFECT id="E5" spans="1422~1429" text="prevent" effect="negative" />
+<EFFECT id="E6" spans="1463~1470" text="induced" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="ClC-3 knockout" effectID="E4" effectText="attenuated" contextID="C3" contextText="preadipocyte" phenotypeID="PH3" phenotypeText="apoptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="ClC-3 deficiency" effectID="E5" effectText="prevent" contextID="C6" contextText="preadipocytes" phenotypeID="PH4" phenotypeText="apoptosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="ClC-3 knockout" effectID="E4" effectText="attenuated" phenotypeID="PH3" phenotypeText="apoptosis" contextID="C8" contextText="T2DM mice" />
+</TAGS>
+</Genomics_ConceptTask>

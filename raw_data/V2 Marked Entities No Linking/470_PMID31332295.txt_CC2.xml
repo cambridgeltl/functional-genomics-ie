@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Fate decision of satellite cell differentiation and self-renewal by miR-31-IL34 
+axis.
+
+Quiescent satellite cells (SCs) that are activated to produce numerous myoblasts 
+underpin the complete healing of damaged skeletal muscle. How cell-autonomous 
+regulatory mechanisms modulate the balance among cells committed to 
+differentiation and those committed to self-renewal to maintain the stem cell 
+pool remains poorly explored. Here, we show that miR-31 inactivation compromises 
+muscle regeneration in adult mice by impairing the expansion of myoblasts. 
+miR-31 is pivotal for SC proliferation, and its deletion promotes asymmetric 
+cell fate segregation of proliferating cells, resulting in enhanced myogenic 
+commitment and re-entry into quiescence. Further analysis revealed that miR-31 
+posttranscriptionally suppresses interleukin 34 (IL34) mRNA, the protein product 
+of which activates JAK-STAT3 signaling required for myogenic progression. IL34 
+inhibition rescues the regenerative deficiency of miR-31 knockout mice. Our 
+results provide evidence that targeting miR-31 or IL34 activities in SCs could 
+be used to counteract the functional exhaustion of SCs in pathological 
+conditions.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="446~465" text="miR-31 inactivation" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="947~963" text="IL34  inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1003~1018" text="miR-31 knockout" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="479~485" text="muscle" context="tissue/organ" />
+<CONTEXT id="C1" spans="502~512" text="adult mice" context="organism" />
+<CONTEXT id="C2" spans="543~552" text="myoblasts" context="cells" />
+<CONTEXT id="C3" spans="658~677" text="proliferating cells" context="cells" />
+<CONTEXT id="C4" spans="1019~1023" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="740~750" text="quiescence" phenotype="quiescence" />
+<EFFECT id="E0" spans="679~691" text="resulting in" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

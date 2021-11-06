@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ATP induces caspase-3/gasdermin E-mediated pyroptosis in NLRP3 pathway-blocked 
+murine macrophages.
+
+ATP acts as a canonical activator to induce NLRP3 (NOD-like receptor family, 
+pyrin domain containing 3) inflammasome activation in macrophages, leading to 
+caspase-1/gasdermin D (GSDMD)-mediated pyroptosis. It remains unclear whether 
+ATP can induce pyroptosis in macrophages when the NLRP3 pathway is blocked by 
+pathogenic infection. In this study, we used cellular models to mimic such 
+blockade of NLRP3 activation: bone marrow-derived macrophages (BMDMs) treated 
+with NLRP3-specific inhibitor MCC950 and RAW264.7 cells deficient in ASC 
+(apoptosis-associated speck-like protein containing a caspase recruitment 
+domain) expression. The results showed that ATP treatment induced lytic cell 
+death morphologically resembling canonical pyroptosis in both MCC950-treated 
+BMDMs and RAW264.7 cells, but did not cause the activation of caspase-1 (by 
+detecting caspase-1p10 and mature interleukin-1β) and cleavage of GSDMD. 
+Instead, both apoptotic initiator (caspase-8 and -9) and executioner (caspase-3 
+and -7) caspases were evidently activated and gasdermin E (GSDME) was cleaved to 
+generate its N-terminal fragment (GSDME-NT) which executes pyroptosis. The 
+GSDME-NT production and lytic cell death induced by ATP were diminished by 
+caspase-3 inhibitor. In BMDMs without MCC950 treatment, ATP induced the 
+formation of ASC specks which were co-localized with caspase-8; with MCC950 
+treatment, however, ATP did not induced the formation of ASC specks. In RAW264.7 
+cells, knockdown of GSDME by small interfering RNA attenuated ATP-induced lytic 
+cell death and HMGB1 release into culture supernatants. Collectively, our 
+results indicate that ATP induces pyroptosis in macrophages through the 
+caspase-3/GSDME axis when the canonical NLRP3 pathway is blocked, suggestive of 
+an alternative mechanism for combating against pathogen evasion.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="576~607" text="NLRP3-specific inhibitor MCC950" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1342~1361" text="caspase-3 inhibitor" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P5" spans="1581~1624" text="knockdown of GSDME by small interfering RNA" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="522~561" text="bone marrow-derived macrophages (BMDMs)" context="cells" />
+<CONTEXT id="C1" spans="612~626" text="RAW264.7 cells" context="cells" />
+<CONTEXT id="C2" spans="876~881" text="BMDMs" context="cells" />
+<CONTEXT id="C3" spans="886~900" text="RAW264.7 cells" context="cells" />
+<CONTEXT id="C4" spans="1366~1371" text="BMDMs" context="cells" />
+<CONTEXT id="C5" spans="1564~1579" text="RAW264.7  cells" context="cells" />
+<CONTEXT id="C6" spans="1778~1789" text="macrophages" context="cells" />
+<PHENOTYPE id="PH0" spans="792~803" text="cell  death" phenotype="cell death" />
+<PHENOTYPE id="PH1" spans="841~851" text="pyroptosis" phenotype="pyroptosis" />
+<PHENOTYPE id="PH2" spans="1296~1306" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH3" spans="1655~1665" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH4" spans="1764~1774" text="pyroptosis" phenotype="pyroptosis" />
+<EFFECT id="E0" spans="778~785" text="induced" effect="positive" />
+<EFFECT id="E1" spans="1307~1314" text="induced" effect="positive" />
+<EFFECT id="E2" spans="1625~1635" text="attenuated" effect="negative" />
+<EFFECT id="E3" spans="1756~1763" text="induces" effect="positive" />
+<ENTITY_LINKING id="EN0" contextID="C5" contextText="RAW264.7  cells" perturbing_actionID="P5" perturbing_actionText="knockdown of GSDME by small interfering RNA" effectID="E2" effectText="attenuated" phenotypeID="PH3" phenotypeText="cell death" />
+</TAGS>
+</Genomics_ConceptTask>

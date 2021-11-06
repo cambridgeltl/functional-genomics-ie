@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cell Lineage-Based Stratification for Glioblastoma.
+
+Glioblastoma, the predominant adult malignant brain tumor, has been 
+computationally classified into molecular subtypes whose functional relevance 
+remains to be comprehensively established. Tumors from genetically engineered 
+glioblastoma mouse models initiated by identical driver mutations in distinct 
+cells of origin portray unique transcriptional profiles reflective of their 
+respective lineage. Here, we identify corresponding transcriptional profiles in 
+human glioblastoma and describe patient-derived xenografts with 
+species-conserved subtype-discriminating functional properties. The 
+oligodendrocyte lineage-associated glioblastoma subtype requires functional 
+ERBB3 and harbors unique therapeutic sensitivities. These results highlight the 
+importance of cell lineage in glioblastoma independent of driver mutations and 
+provide a methodology for functional glioblastoma classification for future 
+clinical investigations.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

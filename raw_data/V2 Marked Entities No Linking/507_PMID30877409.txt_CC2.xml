@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BDNF-mediated mitophagy alleviates high-glucose-induced brain microvascular 
+endothelial cell injury.
+
+Endothelial cell dysfunction and diabetic vascular complications are 
+intrinsically linked. Although BDNF plays a protective role in cerebral 
+microvascular complications caused by diabetes, the mechanisms of this activity 
+are not fully clear. In this study, we investigated the role of BDNF in the 
+hyperglycemic injury of BMECs and its associated intracellular signal 
+transduction pathways. BMECs were treated with 33 mM glucose to imitate the 
+endothelium under hyperglycemic conditions. The high-glucose treatment caused 
+cell dysfunction, as evaluated by oxidative stress and cell apoptosis, which 
+could be alleviated by BDNF. In addition, BDNF preserved mitochondrial function 
+as assessed by mPTP opening, mitochondrial membrane potential, calcium content, 
+and mitochondrial biogenesis markers. Western blot analysis of LC3-II, p62, and 
+TOMM20 and the detection of mRFP-GFP-LC3 adenovirus for autophagy flux revealed 
+that BDNF enhanced autophagy flux. Furthermore, BDNF activated mitophagy, which 
+was confirmed by the observed colocalization of LC3-II with BNIP3 and from 
+transmission electron microscopy observations. The HIF-1α/BNIP3 signaling 
+pathway was associated with BDNF/TrkB-induced mitophagy. In addition, 
+BDNF-induced mitophagy played a protective role against BMEC damage under 
+hyperglycemia. Thus, the results of this study suggest that 
+BDNF/TrkB/HIF-1α/BNIP3-mediated mitophagy protects BMECs from hyperglycemia.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="686~690" text="cell" context="cells" />
+<CONTEXT id="C1" spans="1523~1528" text="BMECs" context="cells" />
+<CONTEXT id="C2" spans="498~503" text="BMECs" context="cells" />
+<CONTEXT id="C3" spans="631~635" text="cell" context="cells" />
+<CONTEXT id="C4" spans="1392~1396" text="BMEC" context="cells" />
+<PHENOTYPE id="PH0" spans="691~700" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1052~1066" text="autophagy flux" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="1096~1105" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH3" spans="1311~1320" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH4" spans="1349~1358" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH5" spans="1504~1513" text="mitophagy" phenotype="mitophagy" />
+<EFFECT id="E0" spans="718~728" text="alleviated" effect="negative" />
+<EFFECT id="E1" spans="1043~1051" text="enhanced" effect="positive" />
+<EFFECT id="E2" spans="1086~1095" text="activated" effect="positive" />
+<EFFECT id="E3" spans="1303~1310" text="induced" effect="positive" />
+<EFFECT id="E4" spans="1341~1348" text="induced" effect="positive" />
+<EFFECT id="E5" spans="1495~1503" text="mediated" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

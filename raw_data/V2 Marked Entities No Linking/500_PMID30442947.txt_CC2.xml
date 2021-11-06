@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The anticonvulsive Phenhydan(®) suppresses extrinsic cell death.
+
+Different forms of regulated cell death-like apoptosis and necroptosis 
+contribute to the pathophysiology of clinical conditions including 
+ischemia-reperfusion injury, myocardial infarction, sepsis, and multiple 
+sclerosis. In particular, the kinase activity of the receptor-interacting 
+serine/threonine protein kinase 1 (RIPK1) is crucial for cell fate in 
+inflammation and cell death. However, despite its involvement in pathological 
+conditions, no pharmacologic inhibitor of RIPK1-mediated cell death is currently 
+in clinical use. Herein, we screened a collection of clinical compounds to 
+assess their ability to modulate RIPK1-mediated cell death. Our small-scale 
+screen identified the anti-epilepsy drug Phenhydan® as a potent inhibitor of 
+death receptor-induced necroptosis and apoptosis. Accordingly, Phenhydan® 
+blocked activation of necrosome formation/activation as well as death 
+receptor-induced NF-κB signaling by influencing the membrane function of cells, 
+such as lipid raft formation, thus exerting an inhibitory effect on 
+pathophysiologic cell death processes. By targeting death receptor signaling, 
+the already FDA-approved Phenhydan® may provide new therapeutic strategies for 
+inflammation-driven diseases caused by aberrant cell death.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1037~1042" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="841~852" text="necroptosis" phenotype="necroptosis" />
+<PHENOTYPE id="PH1" spans="857~866" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1131~1151" text="cell death processes" phenotype="cell death" />
+<EFFECT id="E0" spans="804~813" text="inhibitor" effect="negative" />
+<EFFECT id="E1" spans="833~840" text="induced" effect="positive" />
+<EFFECT id="E2" spans="1092~1109" text="inhibitory effect" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

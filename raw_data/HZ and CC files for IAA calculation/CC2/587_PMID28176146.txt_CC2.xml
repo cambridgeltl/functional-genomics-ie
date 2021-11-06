@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Centchroman induces redox-dependent apoptosis and cell-cycle arrest in human 
+endometrial cancer cells.
+
+Centchroman (CC) or Ormeloxifene has been shown to induce apoptosis and cell 
+cycle arrest in various types of cancer cells. This has, however, not been 
+addressed for endometrial cancer cells where its (CC) mechanism of action 
+remains unclear. This study focuses on the basis of antineoplasticity of CC by 
+blocking the targets involved in the cell cycle, survival and apoptosis in 
+endometrial cancer cells. Ishikawa Human Endometrial Cancer Cells were cultured 
+under estrogen deprived medium, exposed to CC and analyzed for proliferation and 
+apoptosis. Additionally, we also analyzed oxidative stress induced by CC. Cell 
+viability studies confirmed the IC50 of CC in Ishikawa cells to be 20 µM after 
+48 h treatment. CC arrests the cells in G0/G1 phase through cyclin D1 and cyclin 
+E mediated pathways. Phosphatidylserine externalization, nuclear morphology 
+changes, DNA fragmentation, PARP cleavage, and alteration of Bcl-2 family 
+protein expression clearly suggest ongoing apoptosis in the CC treated cells. 
+Activation of caspase 3 & 9, up-regulation of AIF and inhibition of apoptosis by 
+z-VAD-fmk clearly explains the participation of the intrinsic pathway of 
+programmed cell death. Further, the increase of ROS, loss of MMP, inhibition of 
+antioxidant (MnSOD, Cu/Zn-SOD and GST) and inhibition of apoptosis with L-NAC 
+suggests CC induced oxidative stress leading to apoptosis via mitochondria 
+mediated pathway. Therefore, CC could be a potential therapeutic agent for the 
+treatment of Endometrial Cancer adjunct to its utility as a contraceptive and an 
+anti-breast cancer agent.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="516~555" text="Ishikawa Human Endometrial Cancer Cells" context="transformed cells" />
+<CONTEXT id="C1" spans="779~793" text="Ishikawa cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1118~1123" text="cells" context="cells" />
+<CONTEXT id="C3" spans="490~514" text="endometrial cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="832~864" text="arrests the cells in G0/G1 phase" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH1" spans="1090~1099" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1194~1203" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="1293~1303" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH4" spans="1420~1429" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH5" spans="1490~1499" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1180~1190" text="inhibition" effect="negative" />
+<EFFECT id="E1" spans="1406~1416" text="inhibition" effect="negative" />
+<EFFECT id="E2" spans="1479~1489" text="leading to" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MPTP-driven NLRP3 inflammasome activation in microglia plays a central role in 
+dopaminergic neurodegeneration.
+
+Parkinson's disease (PD) is a progressive neurodegenerative disease 
+characterized by the loss of dopaminergic neurons in the substantia nigra (SN) 
+and the reduction of dopamine levels in the striatum. Although details of the 
+molecular mechanisms underlying dopaminergic neuronal death in PD remain 
+unclear, neuroinflammation is also considered a potent mediator in the 
+pathogenesis and progression of PD. In the present study, we present evidences 
+that microglial NLRP3 inflammasome activation is critical for dopaminergic 
+neuronal loss and the subsequent motor deficits in the 
+1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP) mouse model of PD. 
+Specifically, NLRP3 deficiency significantly reduces motor dysfunctions and 
+dopaminergic neurodegeneration of MPTP-treated mice. Furthermore, NLRP3 
+deficiency abolishes MPTP-induced microglial recruitment, interleukin-1β 
+production and caspase-1 activation in the SN of mouse brain. In primary 
+microglia and mixed glial cell cultures, MPTP/ATP treatment promotes the robust 
+assembly and activation of the NLRP3 inflammasome via producing mitochondrial 
+reactive oxygen species. Consistently, 1-methyl-4-phenyl-pyridinium (MPP+) 
+induces NLRP3 inflammasome activation in the presence of ATP or nigericin 
+treatment in mouse bone-marrow-derived macrophages. These findings reveal a 
+novel priming role of neurotoxin MPTP or MPP+ for NLRP3 activation. 
+Subsequently, NLRP3 inflammasome-active microglia induces profound neuronal 
+death in a microglia-neuron co-culture model. Furthermore, Cx3Cr1CreER-based 
+microglia-specific expression of an active NLRP3 mutant greatly exacerbates 
+motor deficits and dopaminergic neuronal loss of MPTP-treated mice. Taken 
+together, our results indicate that microglial NLRP3 inflammasome activation 
+plays a pivotal role in the MPTP-induced neurodegeneration in PD.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="785~801" text="NLRP3 deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="914~931" text="NLRP3  deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1662~1736" text="Cx3Cr1CreER-based  microglia-specific expression of an active NLRP3 mutant" perturbingaction="other" />
+<CONTEXT id="C0" spans="895~899" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1038~1055" text="SN of mouse brain" context="tissue/organ" />
+<CONTEXT id="C2" spans="1060~1078" text="primary  microglia" context="cells" />
+<CONTEXT id="C3" spans="1083~1108" text="mixed glial cell cultures" context="cells" />
+<CONTEXT id="C4" spans="1393~1430" text="mouse bone-marrow-derived macrophages" context="cells" />
+<CONTEXT id="C5" spans="1614~1647" text="microglia-neuron co-culture model" context="cells" />
+<CONTEXT id="C6" spans="1820~1824" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

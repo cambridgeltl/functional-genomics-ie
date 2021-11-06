@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MLKL mediates apoptosis via a mutual regulation with PERK/eIF2α pathway in 
+response to reactive oxygen species generation.
+
+The pseudokinase mixed lineage kinase domain-like protein (MLKL) is a core 
+effector of necroptosis, and its function in necroptosis is widely studied. 
+However, the function of MLKL in apoptosis remains unclear. In the present 
+study, the role of MLKL in chelerythrine (CHE)-promoted apoptosis was studied. A 
+special band of MLKL (i.e., *MLKL) was observed after treatment with CHE. MLKL 
+and *MLKL were accumulated in the nucleus upon treatment with CHE and MLKL 
+silencing reversed the CHE-induced apoptosis. Blockade of CHE-triggered reactive 
+oxygen species (ROS) generation or inhibition of CHE-activated protein 
+kinase-like endoplasmic reticulum kinase (PERK)-eukaryotic initiation factor 2 α 
+subunit (eIF2α) pathway reversed the apoptosis. A decreased ROS level inhibited 
+CHE-mediated nuclear translocation of MLKL and *MLKL and the activation of 
+eIF2α, whereas MLKL or eIF2α silencing did not affect the CHE-triggered ROS 
+generation. Furthermore, MLKL silencing prevented the CHE-activated eIF2α 
+signal, and eIF2α silencing blocked the CHE-induced nuclear translocation of 
+MLKL and *MLKL. Our studies suggested that CHE possibly induces apoptosis 
+through the nuclear translocation of MLKL and *MLKL, which is promoted by a 
+mutual regulation between MLKL and PERK-eIF2α pathway in response to ROS 
+formation. The present study clarified the new function of MLKL in apoptosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="586~601" text="MLKL  silencing" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1000~1023" text="MLKL or eIF2α silencing" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1087~1101" text="MLKL silencing" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P3" spans="1149~1164" text="eIF2α silencing" perturbingaction="rnai/knockdown" />
+<PHENOTYPE id="PH0" spans="627~636" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="865~874" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="602~610" text="reversed" effect="negative" />
+<EFFECT id="E1" spans="619~626" text="induced" effect="positive" />
+<EFFECT id="E2" spans="852~860" text="reversed" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

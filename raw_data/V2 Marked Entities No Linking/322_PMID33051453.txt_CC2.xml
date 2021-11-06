@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PERK controls bone homeostasis through the regulation of osteoclast 
+differentiation and function.
+
+Osteoclasts are multinucleated giant cells with the ability to degrade bone 
+tissue, and are closely related to abnormal bone metabolic diseases. Endoplasmic 
+reticulum (ER) is an organelle responsible for protein modification, quality 
+control, and transportation. The accumulation of unfolded or misfolded proteins 
+in ER cavity induces ER stress. Double-stranded RNA-dependent protein 
+kinase-like ER kinase (PERK) is an ER stress-sensing protein, which is 
+ubiquitous in eukaryotic cells. Systemic PERK knockout mice show severe bone 
+loss, suggesting that PERK is of great significance for maintaining the normal 
+growth and development of bone tissue, but the role of PERK in 
+osteoclastogenesis is still unclear. In this study, we found that PERK was 
+significantly activated during RANKL-induced osteoclast differentiation; 
+knockdown of PERK by siRNA and inhibition of PERK by GSK2606414, respectively, 
+had significant negative regulatory effects on the formation and bone resorption 
+of osteoclasts. PERK inhibitor GSK2606414 down-regulated the mRNA levels and 
+protein expression of osteoclast differentiation marker genes, and inhibited 
+RANKL-induced activation of Mitogen-activated protein kinase (MAPK) and nuclear 
+factor κB (NF-κB) pathways. Treatment with PERK inhibitor GSK2606414 in 
+ovariectomized mouse model significantly suppressed bone loss and osteoclast 
+formation. Thapsigargin activated ER stress to enhance autophagy, while 
+GSK2606414 had a significant inhibitory effect on autophagy flux and 
+autophagosome formation. Antioxidant N-acetylcysteine (NAC) could inhibit the 
+expression of PERK phosphorylation, osteoclast-related proteins and 
+autophagy-related proteins, but the use of PERK activator CCT020312 can reverse 
+inhibition effect of NAC. Our findings demonstrate a key role for PERK in 
+osteoclast differentiation and suggest its therapeutic potential.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="933~959" text="knockdown of PERK by siRNA" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="964~996" text="inhibition of PERK by GSK2606414" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1111~1136" text="PERK inhibitor GSK2606414" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P4" spans="1375~1400" text="PERK inhibitor GSK2606414" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P5" spans="1817~1841" text="PERK activator CCT020312" perturbingaction="pharmacological augmentation" />
+<CONTEXT id="C1" spans="1420~1431" text="mouse model" context="organism" />
+<PHENOTYPE id="PH0" spans="1538~1547" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1606~1620" text="autophagy flux" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="1626~1649" text="autophagosome formation" phenotype="autophagy" />
+<EFFECT id="E0" spans="1530~1537" text="enhance" effect="positive" />
+<EFFECT id="E1" spans="1585~1602" text="inhibitory effect" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

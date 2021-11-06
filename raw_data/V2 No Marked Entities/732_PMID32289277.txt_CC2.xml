@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Probabilistic Classification Tool for Genetic Subtypes of Diffuse Large B Cell 
+Lymphoma with Therapeutic Implications.
+
+The development of precision medicine approaches for diffuse large B cell 
+lymphoma (DLBCL) is confounded by its pronounced genetic, phenotypic, and 
+clinical heterogeneity. Recent multiplatform genomic studies revealed the 
+existence of genetic subtypes of DLBCL using clustering methodologies. Here, we 
+describe an algorithm that determines the probability that a patient's lymphoma 
+belongs to one of seven genetic subtypes based on its genetic features. This 
+classification reveals genetic similarities between these DLBCL subtypes and 
+various indolent and extranodal lymphoma types, suggesting a shared 
+pathogenesis. These genetic subtypes also have distinct gene expression 
+profiles, immune microenvironments, and outcomes following immunochemotherapy. 
+Functional analysis of genetic subtype models highlights distinct 
+vulnerabilities to targeted therapy, supporting the use of this classification 
+in precision medicine trials.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

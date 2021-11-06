@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mitochondrial Reprogramming Underlies Resistance to BCL-2 Inhibition in Lymphoid 
+Malignancies.
+
+Mitochondrial apoptosis can be effectively targeted in lymphoid malignancies 
+with the FDA-approved B cell lymphoma 2 (BCL-2) inhibitor venetoclax, but 
+resistance to this agent is emerging. We show that venetoclax resistance in 
+chronic lymphocytic leukemia is associated with complex clonal shifts. To 
+identify determinants of resistance, we conducted parallel genome-scale screens 
+of the BCL-2-driven OCI-Ly1 lymphoma cell line after venetoclax exposure along 
+with integrated expression profiling and functional characterization of 
+drug-resistant and engineered cell lines. We identified regulators of lymphoid 
+transcription and cellular energy metabolism as drivers of venetoclax resistance 
+in addition to the known involvement by BCL-2 family members, which were 
+confirmed in patient samples. Our data support the implementation of 
+combinatorial therapy with metabolic modulators to address venetoclax 
+resistance.]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="503~529" text="OCI-Ly1 lymphoma cell line" context="transformed cells" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[STAT3 dictates β-cell apoptosis by modulating PTEN in streptozocin-induced 
+hyperglycemia.
+
+Insufficient pancreatic β-cell mass or insulin-producing β-cells are implicated 
+in all forms of diabetes mellitus. However, the molecular mechanisms underlying 
+β-cell destruction are complex and not fully defined. Here we observed that 
+activation of STAT3 is intensely and specifically inhibited in β-cells under 
+hyperglycemic conditions. By knocking out STAT3 specifically in mouse β-cells, 
+we found that the loss of STAT3 sensitized mice to three low doses of STZ 
+stimulation resulting in hyperglycemia. Mechanistically, accumulating PTEN, 
+induced by STAT3 deficiency, directly represses phosphorylation of AKT, which 
+negatively modulates transcription factor activation, dysregulates β-cell 
+function, positively promotes apoptotic signaling, and finally induces β-cell 
+apoptosis. Notably, the defective secretion of insulin and β-cells apoptosis was 
+completely rescued by PTEN ablation in STAT3-null islets or PTEN inhibitor 
+bpv(phen) treatment. Thus our data suggest that STAT3 is a vital modulator of 
+β-cell survival and function, highlighting a critical role for STAT3 in the 
+negative regulation of PTEN-AKT signaling pathway associated with β-cell 
+dysfunction and apoptosis.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="438~486" text="knocking out STAT3 specifically in mouse β-cells" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="507~520" text="loss of STAT3" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="652~668" text="STAT3 deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="978~991" text="PTEN ablation" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="995~1005" text="STAT3-null" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P5" spans="1016~1051" text="PTEN inhibitor  bpv(phen) treatment" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="532~536" text="mice" context="organism" />
+<CONTEXT id="C1" spans="787~793" text="β-cell" context="cells" />
+<CONTEXT id="C2" spans="866~872" text="β-cell" context="cells" />
+<CONTEXT id="C3" spans="933~940" text="β-cells" context="cells" />
+<CONTEXT id="C4" spans="1006~1012" text="islets" context="cells" />
+<PHENOTYPE id="PH0" spans="874~883" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="941~950" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="858~865" text="induces" effect="positive" />
+<EFFECT id="E1" spans="967~974" text="rescued" effect="rescues" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="STAT3 deficiency" contextID="C2" contextText="β-cell" phenotypeID="PH0" phenotypeText="apoptosis" effectID="E0" effectText="induces" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="PTEN ablation" effectID="E1" effectText="rescued" contextID="C3" contextText="β-cells" phenotypeID="PH1" phenotypeText="apoptosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P5" perturbing_actionText="PTEN inhibitor  bpv(phen) treatment" effectID="E1" effectText="rescued" contextID="C3" contextText="β-cells" phenotypeID="PH1" phenotypeText="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

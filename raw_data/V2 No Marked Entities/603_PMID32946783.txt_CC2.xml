@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cell Types of the Human Retina and Its Organoids at Single-Cell Resolution.
+
+Human organoids recapitulating the cell-type diversity and function of their 
+target organ are valuable for basic and translational research. We developed 
+light-sensitive human retinal organoids with multiple nuclear and synaptic 
+layers and functional synapses. We sequenced the RNA of 285,441 single cells 
+from these organoids at seven developmental time points and from the periphery, 
+fovea, pigment epithelium and choroid of light-responsive adult human retinas, 
+and performed histochemistry. Cell types in organoids matured in vitro to a 
+stable "developed" state at a rate similar to human retina development in vivo. 
+Transcriptomes of organoid cell types converged toward the transcriptomes of 
+adult peripheral retinal cell types. Expression of disease-associated genes was 
+cell-type-specific in adult retina, and cell-type specificity was retained in 
+organoids. We implicate unexpected cell types in diseases such as macular 
+degeneration. This resource identifies cellular targets for studying disease 
+mechanisms in organoids and for targeted repair in human retinas.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

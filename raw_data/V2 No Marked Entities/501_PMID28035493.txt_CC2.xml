@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Methods to detect apoptotic cell death.
+
+In concert with the increased understanding that there are many ways for cells 
+to die, several methods have been developed to detect cell death. The 
+classification of cell death posed some difficulties that were overcome by 
+implementing strict selection criteria that should also apply to the detection 
+methods. The selection of assays is based on morphological criteria and 
+distinguishable marks of apoptotic patways. The detection of apoptosis includes 
+methods related to membrane alterations, DNA fragmentation, cytotoxicity and 
+cell proliferation, mitochondrial damage, immunological detection and mechanism 
+based assays. Other less frequently used detections of apoptosis are: (a) 
+light-scattering flow cytometry to avoid underestimating the extent and timing 
+of apoptosis, (b) time-lapse microscopy perfusion platform to support the 
+temporal aspects of detection, to measure cell surface area and cellular 
+adhesion, and (c) genotoxicity specific chromatin changes. Attention is called 
+to the advantages and limitations of various methods.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

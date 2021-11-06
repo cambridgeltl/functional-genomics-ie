@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Two-factor specification of apoptosis: TGF-β signaling acts cooperatively with 
+ecdysone signaling to induce cell- and stage-specific apoptosis of larval 
+neurons during metamorphosis in Drosophila melanogaster.
+
+Developmentally regulated programmed cell death (PCD) is one of the key cellular 
+events for precise controlling of neuronal population during postembryonic 
+development of the central nervous system. Previously we have shown that a group 
+of corazonin-producing peptidergic neurons (vCrz) undergo apoptosis in response 
+to ecdysone signaling via ecdysone receptor (EcR)-B isoforms and Ultraspiracle 
+during early phase of metamorphosis. Further utilizing genetic, transgenic, and 
+mosaic analyses, we have found that TGF-β signaling mediated by a glia-produced 
+ligand, Myoglianin, type-I receptor Baboon (particularly Babo-A isoform) and 
+dSmad2, is also required autonomously for PCD of the vCrz neurons. Our studies 
+show that TGF-β signaling is not acting epistatically to EcR or vice versa. We 
+also show that ectopic expression of a constitutively active phosphomimetic form 
+of dSmad2 (dSmad2PM) is capable of inducing premature death of vCrz neurons in 
+larva but not other larval neurons. Intriguingly, the dSmad2PM-mediated killing 
+is completely suppressed by coexpression of a dominant-negative form of EcR 
+(EcRDN), suggesting that EcR function is required for the proapoptotic dSmad2PM 
+function. Based on these data, we suggest that TGF-β and ecdysone signaling 
+pathways act cooperatively to induce vCrz neuronal PCD. We propose that this 
+type of two-factor authentication is a key developmental strategy to ensure the 
+timely PCD of specific larval neurons during metamorphosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1029~1116" text="ectopic expression of a constitutively active phosphomimetic form  of dSmad2 (dSmad2PM)" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="1285~1341" text="coexpression of a dominant-negative form of EcR  (EcRDN)" perturbingaction="other" />
+<CONTEXT id="C0" spans="1159~1171" text="vCrz neurons" context="cells" />
+<CONTEXT id="C1" spans="1176~1181" text="larva" context="organism" />
+<CONTEXT id="C2" spans="1529~1533" text="vCrz" context="cells" />
+<CONTEXT id="C3" spans="1196~1210" text="larval neurons" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

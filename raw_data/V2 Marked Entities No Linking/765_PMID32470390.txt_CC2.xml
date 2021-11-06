@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Extensive Remodeling of the Immune Microenvironment in B Cell Acute 
+Lymphoblastic Leukemia.
+
+A subset of B cell acute lymphoblastic leukemia (B-ALL) patients will relapse 
+and succumb to therapy-resistant disease. The bone marrow microenvironment may 
+support B-ALL progression and treatment evasion. Utilizing single-cell 
+approaches, we demonstrate B-ALL bone marrow immune microenvironment remodeling 
+upon disease initiation and subsequent re-emergence during conventional 
+chemotherapy. We uncover a role for non-classical monocytes in B-ALL survival, 
+and demonstrate monocyte abundance at B-ALL diagnosis is predictive of pediatric 
+and adult B-ALL patient survival. We show that human B-ALL blasts alter a 
+vascularized microenvironment promoting monocytic differentiation, while 
+depleting leukemia-associated monocytes in B-ALL animal models prolongs disease 
+remission in vivo. Our profiling of the B-ALL immune microenvironment identifies 
+extrinsic regulators of B-ALL survival supporting new immune-based therapeutic 
+approaches for high-risk B-ALL treatment.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="800~829" text="leukemia-associated monocytes" context="cells" />
+<CONTEXT id="C1" spans="833~852" text="B-ALL animal models" context="organism" />
+<CONTEXT id="C2" spans="881~888" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="766~781" text="differentiation" phenotype="differentiation" />
+<EFFECT id="E0" spans="746~755" text="promoting" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

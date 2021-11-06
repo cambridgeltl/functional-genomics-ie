@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Acyl-CoA thioesterase 1 prevents cardiomyocytes from Doxorubicin-induced 
+ferroptosis via shaping the lipid composition.
+
+In this study, we first established the doxorubicin-induced cardiotoxicity (DIC) 
+model with C57BL/6 mice and confirmed cardiac dysfunction with transthoracic 
+echocardiography examination. RNA-sequencing was then performed to explore the 
+potential mechanisms and transcriptional changes in the process. The metabolic 
+pathway, biosynthesis of polyunsaturated fatty acid was significantly altered in 
+DOX-treated murine heart, and Acot1 was one of the leading-edge core genes. We 
+then investigated the role of Acot1 to ferroptosis that was reported recently to 
+be related to DIC. The induction of ferroptosis in the DOX-treated heart was 
+confirmed by transmission electron microscopy, and the inhibition of ferroptosis 
+using Fer-1 effectively prevented the cardiac injury as well as the 
+ultrastructure changes of cardiomyocyte mitochondrial. Both in vitro and in vivo 
+experiments proved the downregulation of Acot1 in DIC, which can be partially 
+prevented with Fer-1 treatment. Overexpression of Acot1 in cell lines showed 
+noteworthy protection to ferroptosis, while the knock-down of Acot1 sensitized 
+cardiomyocytes to ferroptosis by DIC. Finally, the heart tissue of αMHC-Acot1 
+transgenic mice presented altered free fatty acid composition, indicating that 
+the benefit of Acot1 in the inhibition of ferroptosis lies biochemically and 
+relates to its enzymatic function in lipid metabolism in DIC. The current study 
+highlights the importance of ferroptosis in DIC and points out the potential 
+protective role of Acot1 in the process. The beneficial role of Acot1 may be 
+related to its biochemical function by shaping the lipid composition. In all, 
+Acot1 may become a potential treating target in preventing DIC by 
+anti-ferroptosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1108~1131" text="Overexpression of Acot1" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="1202~1221" text="knock-down of Acot1" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="536~548" text="murine heart" context="tissue/organ" />
+<CONTEXT id="C1" spans="753~758" text="heart" context="tissue/organ" />
+<CONTEXT id="C2" spans="1135~1145" text="cell lines" context="cells" />
+<CONTEXT id="C3" spans="1234~1248" text="cardiomyocytes" context="cells" />
+<PHENOTYPE id="PH0" spans="722~733" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="833~844" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH2" spans="1179~1190" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH3" spans="1252~1263" text="ferroptosis" phenotype="ferroptosis" />
+<EFFECT id="E0" spans="709~718" text="induction" effect="positive" />
+<EFFECT id="E1" spans="819~829" text="inhibition" effect="negative" />
+<EFFECT id="E2" spans="1222~1232" text="sensitized" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="knock-down of Acot1" contextID="C3" contextText="cardiomyocytes" effectID="E2" effectText="sensitized" phenotypeID="PH3" phenotypeText="ferroptosis" />
+</TAGS>
+</Genomics_ConceptTask>

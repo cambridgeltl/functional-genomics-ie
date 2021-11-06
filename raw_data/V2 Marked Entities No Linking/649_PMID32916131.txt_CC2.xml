@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Oxidative Metabolism Drives Immortalization of Neural Stem Cells during 
+Tumorigenesis.
+
+Metabolic reprogramming is a key feature of many cancers, but how and when it 
+contributes to tumorigenesis remains unclear. Here we demonstrate that metabolic 
+reprogramming induced by mitochondrial fusion can be rate-limiting for 
+immortalization of tumor-initiating cells (TICs) and trigger their irreversible 
+dedication to tumorigenesis. Using single-cell transcriptomics, we find that 
+Drosophila brain tumors contain a rapidly dividing stem cell population defined 
+by upregulation of oxidative phosphorylation (OxPhos). We combine targeted 
+metabolomics and in vivo genetic screening to demonstrate that OxPhos is 
+required for tumor cell immortalization but dispensable in neural stem cells 
+(NSCs) giving rise to tumors. Employing an in vivo NADH/NAD+ sensor, we show 
+that NSCs precisely increase OxPhos during immortalization. Blocking OxPhos or 
+mitochondrial fusion stalls TICs in quiescence and prevents tumorigenesis 
+through impaired NAD+ regeneration. Our work establishes a unique connection 
+between cellular metabolism and immortalization of tumor-initiating cells.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="655~662" text="in vivo" context="in vivo" />
+<CONTEXT id="C1" spans="725~735" text="tumor cell" context="transformed cells" />
+<CONTEXT id="C2" spans="771~788" text="neural stem cells" context="cells" />
+<CONTEXT id="C3" spans="812~818" text="tumors" context="neoplasm" />
+<CONTEXT id="C4" spans="976~980" text="TICs" context="cells" />
+<PHENOTYPE id="PH0" spans="984~994" text="quiescence" phenotype="quiescence" />
+<PHENOTYPE id="PH1" spans="1008~1021" text="tumorigenesis" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="999~1007" text="prevents" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

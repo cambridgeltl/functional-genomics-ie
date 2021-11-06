@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Multi-phenotype CRISPR-Cas9 Screen Identifies p38 Kinase as a Target for 
+Adoptive Immunotherapies.
+
+T cells are central to all currently effective cancer immunotherapies, but the 
+characteristics defining therapeutically effective anti-tumor T cells have not 
+been comprehensively elucidated. Here, we delineate four phenotypic qualities of 
+effective anti-tumor T cells: cell expansion, differentiation, oxidative stress, 
+and genomic stress. Using a CRISPR-Cas9-based genetic screen of primary T cells 
+we measured the multi-phenotypic impact of disrupting 25 T cell receptor-driven 
+kinases. We identified p38 kinase as a central regulator of all four phenotypes 
+and uncovered transcriptional and antioxidant pathways regulated by p38 in 
+T cells. Pharmacological inhibition of p38 improved the efficacy of mouse 
+anti-tumor T cells and enhanced the functionalities of human tumor-reactive and 
+gene-engineered T cells, paving the way for clinically relevant interventions.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="753~786" text="Pharmacological inhibition of p38" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="489~504" text="primary T cells" context="cells" />
+<CONTEXT id="C1" spans="812~837" text="mouse  anti-tumor T cells" context="cells" />
+<CONTEXT id="C2" spans="874~923" text="human tumor-reactive and  gene-engineered T cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

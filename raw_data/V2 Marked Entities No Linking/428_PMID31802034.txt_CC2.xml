@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Macrophage-derived CCL5 facilitates immune escape of colorectal cancer cells via 
+the p65/STAT3-CSN5-PD-L1 pathway.
+
+Infiltrated macrophages are an important constituent of the tumor 
+microenvironment and play roles in tumor initiation and progression by promoting 
+immune evasion. However, the molecular mechanism by which macrophage-derived 
+cytokines foster immune escape of colorectal cancer (CRC) is unclear. Here, we 
+demonstrated that macrophage infiltration induced by lipopolysaccharide (LPS) or 
+a high-cholesterol diet (HCD) significantly promoted CRC growth. Similarly, LPS 
+and poly (I:C) remarkably increased the volume of CT26 cell allograft tumors. 
+C-C motif chemokine ligand 5 (CCL5), which is secreted by macrophages, inhibited 
+T-cell-mediated killing of HT29 cells and promoted immune escape by stabilizing 
+PD-L1 in vitro and in vivo. Mechanistically, CCL5 resulted in formation of 
+nuclear factor kappa-B p65/STAT3 complexes, which bound to the COP9 signalosome 
+5 (CSN5) promoter, leading to its upregulation. Moreover, CSN5 modulated the 
+deubiquitination and stability of PD-L1. High expression of CSN5 in CRC was 
+associated with significantly shorter survival. Furthermore, compound-15 was 
+identified as an inhibitor of CSN5, and destabilized PD-L1 to alleviate the 
+tumor burden. Our results suggest that the novel CCL5-p65/STAT3-CSN5-PD-L1 
+signaling axis is significantly activated by LPS or HCD-driven macrophage 
+infiltration in an animal model of CRC, which likely has therapeutic and 
+prognostic implications for human cancers.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="559~562" text="CRC" context="neoplasm" />
+<CONTEXT id="C1" spans="637~663" text="CT26 cell allograft tumors" context="neoplasm" />
+<CONTEXT id="C2" spans="775~785" text="HT29 cells" context="cells" />
+<CONTEXT id="C3" spans="835~843" text="in vitro" context="in vitro" />
+<CONTEXT id="C4" spans="848~855" text="in vivo" context="in vivo" />
+</TAGS>
+</Genomics_ConceptTask>

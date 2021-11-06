@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Targeting FTO Suppresses Cancer Stem Cell Maintenance and Immune Evasion.
+
+Fat mass and obesity-associated protein (FTO), an RNA N6-methyladenosine (m6A) 
+demethylase, plays oncogenic roles in various cancers, presenting an opportunity 
+for the development of effective targeted therapeutics. Here, we report two 
+potent small-molecule FTO inhibitors that exhibit strong anti-tumor effects in 
+multiple types of cancers. We show that genetic depletion and pharmacological 
+inhibition of FTO dramatically attenuate leukemia stem/initiating cell 
+self-renewal and reprogram immune response by suppressing expression of immune 
+checkpoint genes, especially LILRB4. FTO inhibition sensitizes leukemia cells to 
+T cell cytotoxicity and overcomes hypomethylating agent-induced immune evasion. 
+Our study demonstrates that FTO plays critical roles in cancer stem cell 
+self-renewal and immune evasion and highlights the broad potential of targeting 
+FTO for cancer therapy.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="456~490" text="pharmacological  inhibition of FTO" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="662~676" text="FTO inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="321~350" text="small-molecule FTO inhibitors" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="514~543" text="leukemia stem/initiating cell" context="transformed cells" />
+<CONTEXT id="C1" spans="688~702" text="leukemia cells" context="transformed cells" />
+<CONTEXT id="C2" spans="412~419" text="cancers" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="545~557" text="self-renewal" phenotype="self-renewal" />
+<EFFECT id="E0" spans="504~513" text="attenuate" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="pharmacological  inhibition of FTO" effectID="E0" effectText="attenuate" contextID="C0" contextText="leukemia stem/initiating cell" phenotypeID="PH0" phenotypeText="self-renewal" />
+</TAGS>
+</Genomics_ConceptTask>

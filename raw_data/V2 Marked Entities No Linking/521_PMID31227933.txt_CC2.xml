@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SPECT/CT imaging of apoptosis in aortic aneurysm with radiolabeled duramycin.
+
+The objective of this research was to estimate whether a [99mTc]duramycin probe 
+can be used for apoptosis imaging in patients with aortic aneurysm (AA). 
+Vascular smooth muscle cell (SMC) apoptosis has an important influence on AA 
+development. Thus, non-invasive imaging of SMC apoptosis may be able to evaluate 
+AA progress and risk stratification. SMCs were treated with hydrogen peroxide 
+(H2O2; 200 μΜ) or culture medium as a control. Apoptosis was measured using flow 
+cytometry and [99mTc]duramycin to detect the binding efficiency to apoptotic 
+SMCs. C57/BL6 mice were administered angiotensin-II and beta-aminopropionitrile 
+(BAPN) subcutaneously to establish an AA model, or saline for controls. Aortic 
+specimens underwent pathological evaluation and their aortic diameters were 
+measured after 6 weeks. Micro-SPECT/CT scanning of [99mTc]duramycin and 18F-FDG 
+PET detection were performed. SMCs treated with H2O2 showed more apoptosis 
+compared with the control group (67.2 ± 3.8% vs. 16.1 ± 0.6%, P < 0.01). The 
+experimental group showed a high rate of AA formation (70%) compared with no AA 
+formation in the control group. The average aorta diameter was higher and 
+[99mTc]duramycin uptake at the AA site was higher in the experimental group 
+compared with the control group. Compared with the normal aorta in the control 
+group, AA in experiment group had more severe medial degeneration, elastic fiber 
+reduction and fracture, and collagen degeneration. TUNEL staining verified the 
+higher apoptosis rate at the AA site in experiment group compared with the 
+control group (63.9 ± 3.7% in ascending AA, 66.4 ± 4.0% in thoracic AA, vs. 
+3.5 ± 0.3% in normal aorta, P < 0.01). [99mTc]Duramycin may be an effective 
+probe to evaluate apoptosis in AA.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="431~435" text="SMCs" context="cells" />
+<CONTEXT id="C1" spans="633~637" text="SMCs" context="cells" />
+<CONTEXT id="C2" spans="639~651" text="C57/BL6 mice" context="organism" />
+<CONTEXT id="C3" spans="982~986" text="SMCs" context="cells" />
+<CONTEXT id="C4" spans="1231~1236" text="aorta" context="tissue/organ" />
+<CONTEXT id="C5" spans="1755~1760" text="aorta" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="1017~1026" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1588~1597" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1005~1016" text="showed more" effect="positive" />
+<EFFECT id="E1" spans="1581~1587" text="higher" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

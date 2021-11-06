@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+SEMG1/2 augment energy metabolism of tumor cells.
+
+SEMG1 and SEMG2 genes belong to the family of cancer-testis antigens (CTAs), 
+whose expression normally is restricted to male germ cells but is often restored 
+in various malignancies. High levels of SEMG1 and SEMG2 expression are detected 
+in prostate, renal, and lung cancer as well as hemoblastosis. However, the 
+functional importance of both SEMGs proteins in human neoplasms is still largely 
+unknown. In this study, by using a combination of the bioinformatics and various 
+cellular and molecular assays, we have demonstrated that SEMG1 and SEMG2 are 
+frequently expressed in lung cancer clinical samples and cancer cell lines of 
+different origins and are negatively associated with the survival rate of cancer 
+patients. Using the pull-down assay followed by LC-MS/MS mass-spectrometry, we 
+have identified 119 proteins associated with SEMG1 and SEMG2. Among the SEMGs 
+interacting proteins we noticed two critical glycolytic enzymes-pyruvate kinase 
+M2 (PKM2) and lactate dehydrogenase A (LDHA). Importantly, we showed that SEMGs 
+increased the protein level and activity of both PKM2 and LDHA. Further, both 
+SEMGs increased the membrane mitochondrial potential (MMP), glycolysis, 
+respiration, and ROS production in several cancer cell lines. Taken together, 
+these data provide first evidence that SEMGs can up-regulate the energy 
+metabolism of cancer cells, exemplifying their oncogenic features.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1288~1305" text="cancer cell lines" context="transformed cells" />
+</TAGS>
+</Genomics_ConceptTask>

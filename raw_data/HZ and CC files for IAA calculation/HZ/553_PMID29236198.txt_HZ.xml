@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SDF-1 induces TNF-mediated apoptosis in cardiac myocytes.
+
+Chemokines are small secreted proteins with chemoattractant properties that play 
+a key role in inflammation. One such chemokine, Stromal cell-derived factor-1 
+(SDF-1) also known as CXCL12, and its receptor, CXCR4, are expressed and 
+functional in cardiac myocytes. SDF-1 both stimulates and enhances the cellular 
+signal which attracts potentially beneficial stem cells for tissue repair within 
+the ischemic heart. Paradoxically however, this chemokine is known to act in 
+concert with the inflammatory cytokines of the innate immune response which 
+contributes to cellular injury through the recruitment of inflammatory cells 
+during ischemia. In the present study, we have demonstrated that SDF-1 has dose 
+dependent effects on freshly isolated cardiomyocytes. Using Tunnel and caspase 
+3-activation assays, we have demonstrated that the treatment of isolated adult 
+rat cardiac myocyte with SDF-1 at higher concentrations (pathological 
+concentrations) induced apoptosis. Furthermore, ELISA data demonstrated that the 
+treatment of isolated adult rat cardiac myocyte with SDF-1 at higher 
+concentrations upregulated TNF-α protein expression which directly correlated 
+with subsequent apoptosis. There was a significant reduction in SDF-1 mediated 
+apoptosis when TNF-α expression was neutralized which suggests that SDF-1 
+mediated apoptosis is TNF-α-dependent. The fact that certain stimuli are capable 
+of driving cardiomyocytes into apoptosis indicates that these cells are 
+susceptible to clinically relevant apoptotic triggers. Our findings suggest that 
+the elevated SDF-1 levels seen in a variety of clinical conditions, including 
+ischemic myocardial infarction, may either directly or indirectly contribute to 
+cardiac cell death via a TNF-α mediated pathway. This highlights the importance 
+of this receptor/ligand in regulating the cardiomyocyte response to stress 
+conditions.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="931~950" text="rat cardiac myocyte" context="cells" />
+<CONTEXT id="C1" spans="1112~1131" text="rat cardiac myocyte" context="cells" />
+<PHENOTYPE id="PH0" spans="1026~1035" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1249~1258" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1313~1322" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="1397~1406" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1018~1025" text="induced" effect="positive" />
+<EFFECT id="E1" spans="1169~1180" text="upregulated" effect="positive" />
+<EFFECT id="E2" spans="1284~1293" text="reduction" effect="negative" />
+<EFFECT id="E3" spans="1388~1396" text="mediated" effect="regulates" />
+<EFFECT id="E4" spans="1303~1311" text="mediated" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

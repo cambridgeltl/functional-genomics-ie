@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[NF-κB-mediated lncRNA AC007271.3 promotes carcinogenesis of oral squamous cell 
+carcinoma by regulating miR-125b-2-3p/Slug.
+
+Oral squamous cell carcinoma (OSCC) is the most common oral cancer. The 
+molecular mechanisms of this disease are not fully understood. Our previous 
+studies confirmed that dysregulated function of long non-coding RNA (lncRNA) 
+AC007271.3 was associated with a poor prognosis and overexpression of AC007271.3 
+promoted cell proliferation, migration, invasion, and inhibited cell apoptosis 
+in vitro, and promoted tumor growth in vivo. However, the underlying mechanisms 
+of AC007271.3 dysregulation remained obscure. In this study, our investigation 
+showed that AC007271.3 functioned as competing endogenous RNA by binding to 
+miR-125b-2-3p and by destabilizing primary miR-125b-2, resulted in the 
+upregulating expression of Slug, which is a direct target of miR-125b-2-3p. Slug 
+also inhibited the expression of E-cadherin but N-cadherin, vimentin, and 
+β-catenin had no obvious change. The expression of AC007271.3 was promoted by 
+the canonical nuclear factor-κB (NF-κB) pathway. Taken together, these results 
+suggested that the classical NF-κB pathway-activated AC007271.3 regulates EMT by 
+miR-125b-2-3p/Slug/E-cadherin axis to promote the development of OSCC, 
+implicating it as a novel potential target for therapeutic intervention in this 
+disease.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

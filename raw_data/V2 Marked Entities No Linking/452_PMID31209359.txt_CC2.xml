@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Magnesium protects against sepsis by blocking gasdermin D N-terminal-induced 
+pyroptosis.
+
+Hypomagnesemia is a significant risk factor for critically ill patients to 
+develop sepsis, a life-threatening disease with a mortality rate over 25%. Our 
+clinic data analysis showed that hypomagnesemia is associated with a decreased 
+monocyte count in septic patients. At the cellular level, we found that Mg2+ 
+inhibits pyroptosis. Specifically, Mg2+ limits the oligomerization and membrane 
+localization of gasdermin D N-terminal (GSDMD-NT) upon the activation of either 
+the canonical or noncanonical pyroptotic pathway. Mechanistically, we 
+demonstrated that Ca2+ influx is a prerequisite for the function of GSDMD-NT. 
+Mg2+ blocks Ca2+ influx by inhibiting the ATP-gated Ca2+ channel P2X7, thereby 
+impeding the function of GSDMD-NT and inhibiting lipopolysaccharide 
+(LPS)-induced noncanonical pyroptosis. Furthermore, Mg2+ administration protects 
+mice from LPS-induced lethal septic shock. Together, our data reveal the 
+underlying mechanism of how Mg2+ inhibits pyroptosis and suggest potential 
+clinic applications of magnesium supplementation for sepsis prevention and 
+treatment.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="948~952" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="414~424" text="pyroptosis" phenotype="pyroptosis" />
+<PHENOTYPE id="PH1" spans="893~903" text="pyroptosis" phenotype="pyroptosis" />
+<EFFECT id="E0" spans="405~413" text="inhibits" effect="negative" />
+<EFFECT id="E1" spans="835~845" text="inhibiting" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

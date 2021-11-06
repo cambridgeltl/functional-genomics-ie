@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Development of an Inactivated Vaccine Candidate, BBIBP-CorV, with Potent 
+Protection against SARS-CoV-2.
+
+The coronavirus disease 2019 (COVID-19) pandemic caused by severe acute 
+respiratory syndrome coronavirus 2 (SARS-CoV-2) threatens global public health. 
+The development of a vaccine is urgently needed for the prevention and control 
+of COVID-19. Here, we report the pilot-scale production of an inactivated 
+SARS-CoV-2 vaccine candidate (BBIBP-CorV) that induces high levels of 
+neutralizing antibodies titers in mice, rats, guinea pigs, rabbits, and nonhuman 
+primates (cynomolgus monkeys and rhesus macaques) to provide protection against 
+SARS-CoV-2. Two-dose immunizations using 2 μg/dose of BBIBP-CorV provided highly 
+efficient protection against SARS-CoV-2 intratracheal challenge in rhesus 
+macaques, without detectable antibody-dependent enhancement of infection. In 
+addition, BBIBP-CorV exhibits efficient productivity and good genetic stability 
+for vaccine manufacture. These results support the further evaluation of 
+BBIBP-CorV in a clinical trial.62q  kv ]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="520~524" text="mice" context="organism" />
+<CONTEXT id="C1" spans="526~530" text="rats" context="organism" />
+<CONTEXT id="C2" spans="532~543" text="guinea pigs" context="organism" />
+<CONTEXT id="C3" spans="545~552" text="rabbits" context="organism" />
+<CONTEXT id="C4" spans="558~576" text="nonhuman  primates" context="organism" />
+<CONTEXT id="C5" spans="578~596" text="cynomolgus monkeys" context="organism" />
+<CONTEXT id="C6" spans="601~616" text="rhesus macaques" context="organism" />
+<CONTEXT id="C7" spans="798~814" text="rhesus  macaques" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

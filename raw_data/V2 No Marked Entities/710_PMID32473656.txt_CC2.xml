@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MYC Drives Temporal Evolution of Small Cell Lung Cancer Subtypes by 
+Reprogramming Neuroendocrine Fate.
+
+Small cell lung cancer (SCLC) is a neuroendocrine tumor treated clinically as a 
+single disease with poor outcomes. Distinct SCLC molecular subtypes have been 
+defined based on expression of ASCL1, NEUROD1, POU2F3, or YAP1. Here, we use 
+mouse and human models with a time-series single-cell transcriptome analysis to 
+reveal that MYC drives dynamic evolution of SCLC subtypes. In neuroendocrine 
+cells, MYC activates Notch to dedifferentiate tumor cells, promoting a temporal 
+shift in SCLC from ASCL1+ to NEUROD1+ to YAP1+ states. MYC alternatively 
+promotes POU2F3+ tumors from a distinct cell type. Human SCLC exhibits 
+intratumoral subtype heterogeneity, suggesting that this dynamic evolution 
+occurs in patient tumors. These findings suggest that genetics, cell of origin, 
+and tumor cell plasticity determine SCLC subtype.
+
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

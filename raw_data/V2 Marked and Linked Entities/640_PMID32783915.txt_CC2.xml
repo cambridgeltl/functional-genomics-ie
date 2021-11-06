@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Coupled scRNA-Seq and Intracellular Protein Activity Reveal an Immunosuppressive 
+Role of TREM2 in Cancer.
+
+Cell function and activity are regulated through integration of signaling, 
+epigenetic, transcriptional, and metabolic pathways. Here, we introduce INs-seq, 
+an integrated technology for massively parallel recording of single-cell RNA 
+sequencing (scRNA-seq) and intracellular protein activity. We demonstrate the 
+broad utility of INs-seq for discovering new immune subsets by profiling 
+different intracellular signatures of immune signaling, transcription factor 
+combinations, and metabolic activity. Comprehensive mapping of Arginase 
+1-expressing cells within tumor models, a metabolic immune signature of 
+suppressive activity, discovers novel Arg1+ Trem2+ regulatory myeloid (Mreg) 
+cells and identifies markers, metabolic activity, and pathways associated with 
+these cells. Genetic ablation of Trem2 in mice inhibits accumulation of 
+intra-tumoral Mreg cells, leading to a marked decrease in dysfunctional CD8+ 
+T cells and reduced tumor growth. This study establishes INs-seq as a broadly 
+applicable technology for elucidating integrated transcriptional and 
+intra-cellular maps and identifies the molecular signature of myeloid 
+suppressive cells in tumors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="892~917" text="Genetic ablation of Trem2" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="921~925" text="mice" context="organism" />
+<CONTEXT id="C2" spans="966~976" text="Mreg cells" context="cells" />
+<CONTEXT id="C3" spans="1024~1037" text="CD8+  T cells" context="cells" />
+<PHENOTYPE id="PH0" spans="1050~1062" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="1042~1049" text="reduced" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Genetic ablation of Trem2" contextID="C0" contextText="mice" effectID="E0" effectText="reduced" phenotypeID="PH0" phenotypeText="tumor growth" />
+</TAGS>
+</Genomics_ConceptTask>

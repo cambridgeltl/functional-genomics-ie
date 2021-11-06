@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Tumor suppressor ZHX2 inhibits NAFLD-HCC progression via blocking LPL-mediated 
+lipid uptake.
+
+Non-alcoholic fatty liver disease (NAFLD) leads to hepatocellular carcinoma 
+(HCC). However, the underlying mechanism remains largely unclear. Here, we 
+investigated the role of the tumor suppressor Zinc fingers and homeoboxes 2 
+(ZHX2) in the progression of NAFLD to HCC. ZHX2 expression was significantly 
+decreased in fatty liver tissues, especially in the liver with NAFLD-HCC. ZHX2 
+overexpression disturbed lipid homeostasis of cultured HCC cells, and inhibited 
+lipid deposition in hepatocytes both in vitro and in vivo. Moreover, ZHX2 
+inhibited uptake of exogenous lipids through transcriptional suppression of 
+lipid lipase (LPL), leading to retarded proliferation of HCC cells. Importantly, 
+LPL overexpression significantly reversed ZHX2-mediated inhibition of HCC cell 
+proliferation, xenograft tumor growth, lipid deposition, and spontaneous liver 
+tumor formation. Consistently, IHC staining demonstrated a negative correlation 
+of ZHX2 with LPL in an HCC cohort. Collectively, ZHX2 protects hepatocytes from 
+abnormal lipid deposition in NAFLD through transcriptional repression of LPL, 
+which subsequently retards cell growth and NAFLD-HCC progression. These findings 
+illustrate a novel mechanism of NAFLD progression into HCC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="477~497" text="ZHX2  overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="798~816" text="LPL overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="538~547" text="HCC cells" context="cells" />
+<CONTEXT id="C1" spans="584~595" text="hepatocytes" context="cells" />
+<CONTEXT id="C2" spans="601~609" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="614~621" text="in vivo" context="in vivo" />
+<CONTEXT id="C4" spans="773~782" text="HCC cells" context="cells" />
+<CONTEXT id="C5" spans="868~876" text="HCC cell" context="cells" />
+<CONTEXT id="C6" spans="893~902" text="xenograft" context="xenograft" />
+<CONTEXT id="C7" spans="951~956" text="liver" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="756~769" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="878~891" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH2" spans="903~915" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH3" spans="958~973" text="tumor formation" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="747~755" text="retarded" effect="negative" />
+<EFFECT id="E1" spans="854~864" text="inhibition" effect="negative" />
+<EFFECT id="E2" spans="831~839" text="reversed" effect="rescues" />
+</TAGS>
+</Genomics_ConceptTask>

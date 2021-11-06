@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Chromatin Potential Identified by Shared Single-Cell Profiling of RNA and 
+Chromatin.
+
+Cell differentiation and function are regulated across multiple layers of gene 
+regulation, including modulation of gene expression by changes in chromatin 
+accessibility. However, differentiation is an asynchronous process precluding a 
+temporal understanding of regulatory events leading to cell fate commitment. 
+Here we developed simultaneous high-throughput ATAC and RNA expression with 
+sequencing (SHARE-seq), a highly scalable approach for measurement of chromatin 
+accessibility and gene expression in the same single cell, applicable to 
+different tissues. Using 34,774 joint profiles from mouse skin, we develop a 
+computational strategy to identify cis-regulatory interactions and define 
+domains of regulatory chromatin (DORCs) that significantly overlap with 
+super-enhancers. During lineage commitment, chromatin accessibility at DORCs 
+precedes gene expression, suggesting that changes in chromatin accessibility may 
+prime cells for lineage commitment. We computationally infer chromatin potential 
+as a quantitative measure of chromatin lineage-priming and use it to predict 
+cell fate outcomes. SHARE-seq is an extensible platform to study regulatory 
+circuitry across diverse cells in tissues.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

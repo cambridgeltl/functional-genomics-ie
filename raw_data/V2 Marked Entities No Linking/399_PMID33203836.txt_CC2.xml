@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[DEPDC1B is a tumor promotor in development of bladder cancer through targeting 
+SHC1.
+
+Bladder cancer is one of the most commonly diagnosed malignant tumors in the 
+urinary system and causes a massive cancer-related death. DEPDC1B is a DEP 
+domain-containing protein that has been found to be associated with a variety of 
+human cancers. This study aimed to explore the role and mechanism of DEPDC1B in 
+the development of bladder cancer. The analysis of clinical specimens revealed 
+the upregulated expression of DEPDC1B in bladder cancer, which was positively 
+related to tumor grade. In vitro and in vivo studies showed that DEPDC1B 
+knockdown could inhibit the growth of bladder cancer cells or xenografts in 
+mice. The suppression of bladder cancer by DEPDC1B was executed through 
+inhibiting cell proliferation, cell migration, and promoting cell apoptosis. 
+Moreover, a mechanistic study found that SHC1 may be an important route through 
+which DEPDC1B regulates the development of bladder cancer. Knockdown of SHC1 in 
+DEPDC1B-overexpressed cancer cells could abolish the promotion effects induced 
+by DEPDC1B. In conclusion, DEPDC1B was identified as a key regulator in the 
+development of bladder cancer, which may be used as a potential therapeutic 
+target in the treatment of bladder cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="628~646" text="DEPDC1B  knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1005~1022" text="Knockdown of SHC1" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1027~1048" text="DEPDC1B-overexpressed" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="587~595" text="In vitro" context="in vitro" />
+<CONTEXT id="C1" spans="600~607" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="675~695" text="bladder cancer cells" context="transformed cells" />
+<CONTEXT id="C3" spans="699~709" text="xenografts" context="xenograft" />
+<CONTEXT id="C4" spans="714~718" text="mice" context="organism" />
+<CONTEXT id="C5" spans="798~802" text="cell" context="cells" />
+<CONTEXT id="C6" spans="818~822" text="cell" context="cells" />
+<CONTEXT id="C7" spans="848~852" text="cell" context="cells" />
+<CONTEXT id="C8" spans="1049~1061" text="cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="803~816" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="823~832" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH2" spans="853~862" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="787~797" text="inhibiting" effect="negative" />
+<EFFECT id="E1" spans="838~847" text="promoting" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

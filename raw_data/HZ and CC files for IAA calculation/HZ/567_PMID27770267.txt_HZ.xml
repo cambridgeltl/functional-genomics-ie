@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[2-aryl benzimidazole conjugate induced apoptosis in human breast cancer MCF-7 
+cells through caspase independent pathway.
+
+Apoptosis is a representative form of programmed cell death, which has been 
+assumed to be critical for cancer prevention. Thus, any agent that can induce 
+apoptosis may be useful for cancer treatment and apoptosis induction is arguably 
+the most potent defense against cancer promotion. In our previous studies, 
+2-aryl benzimidazole conjugates were synthesized and evaluated for their 
+antiproliferative activity and one of the new molecule (2f) was considered as a 
+potential lead. This lead molecule showed significant antiproliferative activity 
+against human breast cancer cell line, MCF-7. The results of the present study 
+revealed that this compound arrested the cell cycle at G2/M phase. Topoisomerase 
+II inhibition assay and Western blot analysis suggested that this compound 
+effectively inhibits topoisomerase II activity which leads to apoptotic cell 
+death. Apoptosis induction in MCF-7 cells was further confirmed by loss of 
+mitochondrial membrane potential (∆Ψm), release of cytochrome c from 
+mitochondria, an increase in the level of apoptosis inducing factor (AIF), 
+generation of reactive oxygen species (ROS), up regulation of proapoptotic 
+protein Bax and down regulation of anti apoptotic protein Bcl-2. Apoptosis assay 
+using Annexin V-FITC assay also suggested that this compound induced cell death 
+by apoptosis. However, compound 2f induced apoptosis could not be reversed by 
+Z-VAD-FMK (a pan-caspase inhibitor) demonstrated that the 2f induced apoptosis 
+was caspase independent. Further, 2f treatment did not activate caspase-7 and 
+caspase-9 activity, suggesting that this compound induced apoptosis in breast 
+cancer cells via a caspase independent pathway. Most importantly, this compound 
+was less toxic towards non-tumorigenic breast epithelial cells, MCF-10A. 
+Furthermore, docking studies also support the potentiality of this molecule to 
+bind to the DNA topoisomerase II.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="682~718" text="human breast cancer cell line, MCF-7" context="transformed cells" />
+<CONTEXT id="C1" spans="1020~1031" text="MCF-7 cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="782~805" text="arrested the cell cycle" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH1" spans="984~995" text="cell  death" phenotype="cell death" />
+<PHENOTYPE id="PH2" spans="997~1016" text="Apoptosis induction" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="1439~1449" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH4" spans="1454~1463" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH5" spans="1494~1503" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH6" spans="1599~1608" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E1" spans="1431~1438" text="induced" effect="positive" />
+<EFFECT id="E2" spans="1486~1493" text="induced" effect="positive" />
+<EFFECT id="E3" spans="1591~1598" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

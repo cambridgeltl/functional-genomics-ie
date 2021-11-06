@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Senescence Reprogramming by TIMP1 Deficiency Promotes Prostate Cancer 
+Metastasis.
+
+Metastases account for most cancer-related deaths, yet the mechanisms underlying 
+metastatic spread remain poorly understood. Recent evidence demonstrates that 
+senescent cells, while initially restricting tumorigenesis, can induce tumor 
+progression. Here, we identify the metalloproteinase inhibitor TIMP1 as a 
+molecular switch that determines the effects of senescence in prostate cancer. 
+Senescence driven either by PTEN deficiency or chemotherapy limits the 
+progression of prostate cancer in mice. TIMP1 deletion allows senescence to 
+promote metastasis, and elimination of senescent cells with a senolytic BCL-2 
+inhibitor impairs metastasis. Mechanistically, TIMP1 loss reprograms the 
+senescence-associated secretory phenotype (SASP) of senescent tumor cells 
+through activation of matrix metalloproteinases (MMPs). Loss of PTEN and TIMP1 
+in prostate cancer is frequent and correlates with resistance to docetaxel and 
+worst clinical outcomes in patients treated in an adjuvant setting. Altogether, 
+these findings provide insights into the dual roles of tumor-associated 
+senescence and can potentially impact the treatment of prostate cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="506~521" text="PTEN deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="590~604" text="TIMP1 deletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="699~715" text="BCL-2  inhibitor" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="753~763" text="TIMP1 loss" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="565~580" text="prostate cancer" context="neoplasm" />
+<CONTEXT id="C1" spans="584~588" text="mice" context="organism" />
+<CONTEXT id="C2" spans="832~853" text="senescent tumor cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="478~488" text="Senescence" phenotype="senescence" />
+<PHENOTYPE id="PH1" spans="635~645" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="724~734" text="metastasis" phenotype="metastasis" />
+<EFFECT id="E0" spans="489~495" text="driven" effect="positive" />
+<EFFECT id="E1" spans="627~634" text="promote" effect="positive" />
+<EFFECT id="E2" spans="716~723" text="impairs" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="PTEN deficiency" phenotypeID="PH0" phenotypeText="Senescence" effectID="E0" effectText="driven" contextID="C1" contextText="mice" />
+</TAGS>
+</Genomics_ConceptTask>

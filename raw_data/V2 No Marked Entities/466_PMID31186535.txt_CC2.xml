@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The MAP3K13-TRIM25-FBXW7α axis affects c-Myc protein stability and tumor 
+development.
+
+c-Myc (Myc) is a master transcription factor that is often deregulated and 
+highly expressed by at least 50% of cancers. In many cases, Myc protein levels 
+correlate with resistance to therapy and poor prognosis. However, effective 
+direct inhibition of Myc by pharmacologic approaches has remained unachievable. 
+Here, we identify MAP3K13 as a positive regulator of Myc to promote tumor 
+development. Our findings show that MAP3K13 upregulation is predictive of poor 
+outcomes in patients with hepatocellular carcinoma (HCC). Mechanistically, 
+MAP3K13 phosphorylates the E3 ubiquitin ligase TRIM25 at Ser12 to decrease its 
+polyubiquitination and proteasomal degradation. This newly stabilized TRIM25 
+then directly ubiquitinates Lys412 of FBXW7α, a core subunit of the 
+SKP1-Cullin-F-box (SCF) ubiquitin ligase complex involved in Myc ubiquitination, 
+thereby stabilizing Myc. Together, these results reveal a novel regulatory 
+pathway that supervises Myc protein stability via the MAP3K13-TRIM25-FBXW7α 
+signaling axis. In addition, they provide a potential therapeutic target in Myc 
+over-expressing human cancers.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

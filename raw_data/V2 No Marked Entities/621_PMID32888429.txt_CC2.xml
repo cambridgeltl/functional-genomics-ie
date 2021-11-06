@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The Human and Mouse Enteric Nervous System at Single-Cell Resolution.
+
+The enteric nervous system (ENS) coordinates diverse functions in the intestine 
+but has eluded comprehensive molecular characterization because of the rarity 
+and diversity of cells. Here we develop two methods to profile the ENS of adult 
+mice and humans at single-cell resolution: RAISIN RNA-seq for profiling intact 
+nuclei with ribosome-bound mRNA and MIRACL-seq for label-free enrichment of rare 
+cell types by droplet-based profiling. The 1,187,535 nuclei in our mouse atlas 
+include 5,068 neurons from the ileum and colon, revealing extraordinary neuron 
+diversity. We highlight circadian expression changes in enteric neurons, show 
+that disease-related genes are dysregulated with aging, and identify differences 
+between the ileum and proximal/distal colon. In humans, we profile 436,202 
+nuclei, recovering 1,445 neurons, and identify conserved and species-specific 
+transcriptional programs and putative neuro-epithelial, neuro-stromal, and 
+neuro-immune interactions. The human ENS expresses risk genes for neuropathic, 
+inflammatory, and extra-intestinal diseases, suggesting neuronal contributions 
+to disease.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

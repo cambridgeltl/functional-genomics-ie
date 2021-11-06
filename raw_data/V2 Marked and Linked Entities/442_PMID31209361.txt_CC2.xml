@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[FNDC5 alleviates oxidative stress and cardiomyocyte apoptosis in 
+doxorubicin-induced cardiotoxicity via activating AKT.
+
+Oxidative stress and cardiomyocyte apoptosis play critical roles in doxorubicin 
+(DOX)-induced cardiotoxicity. Previous studies indicated that fibronectin type 
+III domain-containing 5 (FNDC5) and its cleaved form, irisin, could preserve 
+mitochondrial function and attenuate oxidative damage as well as cell apoptosis, 
+however, its role in DOX-induced cardiotoxicity remains unknown. Our present 
+study aimed to investigate the role and underlying mechanism of FNDC5 on 
+oxidative stress and cardiomyocyte apoptosis in DOX-induced cardiotoxicity. 
+Cardiomyocyte-specific FNDC5 overexpression was achieved using an 
+adeno-associated virus system, and then the mice were exposed to a single 
+intraperitoneal injection of DOX (15 mg/kg) to generate DOX-induced 
+cardiotoxicity. Herein, we found that FNDC5 expression was downregulated in 
+DOX-treated murine hearts and cardiomyocytes. Fndc5 deficiency resulted in 
+increased oxidative damage and apoptosis in H9C2 cells under basal conditions, 
+imitating the phenotype of DOX-induced cardiomyopathy in vitro, conversely, 
+FNDC5 overexpression or irisin treatment alleviated DOX-induced oxidative stress 
+and cardiomyocyte apoptosis in vivo and in vitro. Mechanistically, we identified 
+that FNDC5/Irisin activated AKT/mTOR signaling and decreased DOX-induced 
+cardiomyocyte apoptosis, and moreover, we provided direct evidence that the 
+anti-oxidant effect of FNDC5/Irisin was mediated by the AKT/GSK3β/FYN/Nrf2 axis 
+in an mTOR-independent manner. And we also demonstrated that heat shock protein 
+20 was responsible for the activation of AKT caused by FNDC5/Irisin. In line 
+with the data in acute model, we also found that FNDC5/Irisin exerted beneficial 
+effects in chronic model of DOX-induced cardiotoxicity (5 mg/kg, i.p., once a 
+week for three times, the total cumulative dose is 15 mg/kg) in mice. Based on 
+these findings, we supposed that FNDC5/Irisin was a potential therapeutic agent 
+against DOX-induced cardiotoxicity.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="672~715" text="Cardiomyocyte-specific FNDC5 overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="1006~1022" text="Fndc5 deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1193~1213" text="FNDC5 overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="783~787" text="mice" context="organism" />
+<CONTEXT id="C1" spans="972~985" text="murine hearts" context="tissue/organ" />
+<CONTEXT id="C2" spans="990~1004" text="cardiomyocytes" context="cells" />
+<CONTEXT id="C3" spans="1080~1090" text="H9C2 cells" context="cells" />
+<CONTEXT id="C4" spans="1279~1292" text="cardiomyocyte" context="cells" />
+<CONTEXT id="C5" spans="1303~1310" text="in vivo" context="in vivo" />
+<CONTEXT id="C6" spans="1315~1323" text="in vitro" context="in vitro" />
+<CONTEXT id="C7" spans="1973~1977" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="1067~1076" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1293~1302" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1023~1034" text="resulted in" effect="positive" />
+<EFFECT id="E1" spans="1234~1244" text="alleviated" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Fndc5 deficiency" phenotypeID="PH0" phenotypeText="apoptosis" contextID="C3" contextText="H9C2 cells" effectID="E1" effectText="alleviated" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="FNDC5 overexpression" contextID="C4" contextText="cardiomyocyte" phenotypeID="PH1" phenotypeText="apoptosis" effectID="E1" effectText="alleviated" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P2" perturbing_actionText="FNDC5 overexpression" effectID="E1" effectText="alleviated" phenotypeID="PH1" phenotypeText="apoptosis" contextID="C5" contextText="in vivo" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P2" perturbing_actionText="FNDC5 overexpression" effectID="E1" effectText="alleviated" phenotypeID="PH1" phenotypeText="apoptosis" contextID="C6" contextText="in vitro" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Bone marrow mesenchymal stem cells-derived exosomal microRNA-193a reduces 
+cisplatin resistance of non-small cell lung cancer cells via targeting LRRC1.
+
+Exosomes are small endogenous membrane vesicles that can mediate cell 
+communication by transferring genetic materials. Based on that, exosomes have 
+always been discussed as a cargo carrier for microRNA (miRNA) transportation. 
+Accumulating data have reported the inhibitory effects of microRNA-193a 
+(miR-193a) on non-small cell lung cancer (NSCLC) cell progression. However, the 
+mechanisms of miR-193a delivery to cancer cells and miR-193a in exosomes have 
+not been explored clearly in NSCLC. Given that, this work aims to decode 
+exosomal miR-193a in cisplatin (DDP) resistance of NSCLC cells. A549 and H1299 
+cell lines were screened out and their parent cells and drug-resistant cells 
+were co-cultured with human bone marrow mesenchymal stem cells (BMSCs)-derived 
+exosomes (BMSC-Exo) that had been transfected with miR-193a mimic or si-LRRC1 to 
+detect the colony formation, migration, apoptosis, invasion and proliferation of 
+NSCLC cells. In vivo experiment was conducted to verify the in vitro results. 
+BMSC-Exo with upregulated miR-193a and downregulated LRRC1 suppressed colony 
+formation, invasion, proliferation and migration as well as advanced apoptosis 
+of NSCLC parent cells and drug-resistant cells. BMSC-Exo combined with 
+upregulated miR-193a reduced tumor volume and weight in mice with NSCLC. 
+Functional studies report that BMSC-Exo shuffle miR-193a to suppress the colony 
+formation, invasion, migration, and proliferation as well as advance apoptosis 
+of NSCLC DDP-resistant cells via downregulating LRRC1.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="962~993" text="transfected with miR-193a mimic" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="997~1005" text="si-LRRC1" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1185~1205" text="upregulated miR-193a" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P3" spans="1210~1229" text="downregulated LRRC1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="1401~1421" text="upregulated miR-193a" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="754~780" text="A549 and H1299  cell lines" context="cells" />
+<CONTEXT id="C1" spans="809~821" text="parent cells" context="cells" />
+<CONTEXT id="C2" spans="826~846" text="drug-resistant cells" context="cells" />
+<CONTEXT id="C3" spans="870~918" text="human bone marrow mesenchymal stem cells (BMSCs)" context="cells" />
+<CONTEXT id="C4" spans="1332~1350" text="NSCLC parent cells" context="transformed cells" />
+<CONTEXT id="C5" spans="1355~1375" text="drug-resistant cells" context="cells" />
+<CONTEXT id="C6" spans="1457~1461" text="mice" context="organism" />
+<CONTEXT id="C7" spans="1467~1472" text="NSCLC" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="1241~1258" text="colony  formation" phenotype="colony formation" />
+<PHENOTYPE id="PH1" spans="1260~1268" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH2" spans="1270~1283" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH3" spans="1288~1297" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH4" spans="1318~1327" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH5" spans="1548~1565" text="colony  formation" phenotype="colony formation" />
+<PHENOTYPE id="PH6" spans="1567~1575" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH7" spans="1577~1586" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH8" spans="1592~1605" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH9" spans="1625~1634" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1230~1240" text="suppressed" effect="negative" />
+<EFFECT id="E1" spans="1309~1317" text="advanced" effect="positive" />
+<EFFECT id="E2" spans="1535~1543" text="suppress" effect="negative" />
+<EFFECT id="E3" spans="1617~1624" text="advance" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

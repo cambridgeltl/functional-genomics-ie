@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mitochondrial ROS-derived PTEN oxidation activates PI3K pathway for mTOR-induced 
+myogenic autophagy.
+
+Muscle differentiation is a crucial process controlling muscle development and 
+homeostasis. Mitochondrial reactive oxygen species (mtROS) rapidly increase and 
+function as critical cell signaling intermediates during the muscle 
+differentiation. However, it has not yet been elucidated how they control 
+myogenic signaling. Autophagy, a lysosome-mediated degradation pathway, is 
+importantly recognized as intracellular remodeling mechanism of cellular 
+organelles during muscle differentiation. Here, we demonstrated that the mtROS 
+stimulated phosphatidylinositol 3 kinase/AKT/mammalian target of rapamycin 
+(mTOR) cascade, and the activated mTORC1 subsequently induced autophagic 
+signaling via phosphorylation of uncoordinated-51-like kinase 1 (ULK1) at serine 
+317 and upregulation of Atg proteins to prompt muscle differentiation. Treatment 
+with MitoQ or rapamycin impaired both phosphorylation of ULK1 and expression of 
+Atg proteins. Therefore, we propose a novel regulatory paradigm in which mtROS 
+are required to initiate autophagic reconstruction of cellular organization 
+through mTOR activation in muscle differentiation.]]></TEXT>
+<TAGS>
+<PHENOTYPE id="PH0" spans="917~939" text="muscle differentiation" phenotype="differentiation" />
+<EFFECT id="E0" spans="910~916" text="prompt" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

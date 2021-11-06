@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The long noncoding RNA LUCAT1 promotes colorectal cancer cell proliferation by 
+antagonizing Nucleolin to regulate MYC expression.
+
+The long noncoding RNA (lncRNA) LUCAT1 was recently reported to be upregulated 
+and to play an essential role in multiple cancer types, especially colorectal 
+cancer (CRC), but the molecular mechanisms of LUCAT1 in CRC are mostly 
+unreported. Here, a systematic analysis of LUACT1 expression is performed with 
+data from TCGA database and clinic CRC samples. LUCAT1 is identified as a 
+putative oncogene, which is significantly upregulated in CRC and is associated 
+with poor prognosis. Loss of LUCAT1 restricts CRC proliferative capacities in 
+vitro and in vivo. Mechanically, NCL is identified as the protein binding 
+partner of LUCAT1 by using chromatin isolation by RNA purification coupled with 
+mass spectrometry (ChIRP-MS) and RNA immunoprecipitation assays. We also show 
+that NCL directly binds to LUCAT1 via its putative G-quadruplex-forming regions 
+from nucleotides 717 to 746. The interaction between LUCAT1 and NCL interferes 
+NCL-mediated inhibition of MYC and promote the expression of MYC. Cells lacking 
+LUCAT1 show a decreased MYC expression, and NCL knockdown rescue LUCAT1 
+depletion-induced inhibition of CRC cell proliferation and MYC expression. Our 
+results suggest that LUCAT1 plays a critical role in CRC cell proliferation by 
+inhibiting the function of NCL via its G-quadruplex structure and may serve as a 
+new prognostic biomarker and effective therapeutic target for CRC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="619~633" text="Loss of LUCAT1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1145~1160" text="lacking  LUCAT1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1198~1211" text="NCL knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P3" spans="1219~1236" text="LUCAT1  depletion" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="644~647" text="CRC" context="neoplasm" />
+<CONTEXT id="C1" spans="673~682" text="in  vitro" context="in vitro" />
+<CONTEXT id="C2" spans="687~694" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="1139~1144" text="Cells" context="cells" />
+<CONTEXT id="C4" spans="1259~1267" text="CRC cell" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="648~672" text="proliferative capacities" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="1268~1281" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="634~643" text="restricts" effect="negative" />
+<EFFECT id="E1" spans="1212~1218" text="rescue" effect="rescues" />
+<EFFECT id="E4" spans="1237~1255" text="induced inhibition" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Loss of LUCAT1" effectID="E0" effectText="restricts" contextID="C0" contextText="CRC" phenotypeID="PH0" phenotypeText="proliferative capacities" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Loss of LUCAT1" effectID="E0" effectText="restricts" phenotypeID="PH0" phenotypeText="proliferative capacities" contextID="C1" contextText="in  vitro" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="Loss of LUCAT1" effectID="E0" effectText="restricts" phenotypeID="PH0" phenotypeText="proliferative capacities" contextID="C2" contextText="in vivo" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P2" perturbing_actionText="NCL knockdown" effectID="E1" effectText="rescue" contextID="C4" contextText="CRC cell" phenotypeID="PH1" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P3" perturbing_actionText="LUCAT1  depletion" effectID="E4" effectText="induced inhibition" contextID="C4" contextText="CRC cell" phenotypeID="PH1" phenotypeText="proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

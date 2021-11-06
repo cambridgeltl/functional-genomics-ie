@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PET imaging of cardiomyocyte apoptosis in a rat myocardial infarction model.
+
+Cardiomyocyte apoptosis has been observed in several cardiovascular diseases and 
+contributes to the subsequent cardiac remodeling processes and progression to 
+heart failure. Consequently, apoptosis imaging is helpful for noninvasively 
+detecting the disease progression and providing treatment guidance. Here, we 
+tested 18F-labeled 2-(5-fluoropentyl)-2-methyl-malonic acid (18F-ML-10) and 
+18F-labeled 2-(3-fluoropropyl)-2-methyl-malonic acid (18F-ML-8) for apoptosis 
+imaging in rat models of myocardial infarction (MI) and compared them with 
+18F-fluorodeoxyglucose (18F-FDG). MI was induced in Sprague-Dawley rats by 
+permanent left coronary artery ligation. Procedural success was confirmed by 
+echocardiography and positron emission tomography (PET) imaging with 18F-FDG. In 
+vivo PET imaging with 18F-ML-10 and 18F-ML-8 was performed in the MI models at 
+different time points after operation. Terminal deoxynucleotidyl transferase 
+dUTP nick-end labeling (TUNEL) assays and immunohistochemical analyses were used 
+to evaluate myocardial apoptosis. In vitro cell binding assays were performed to 
+validate 18F-ML-8 binding to apoptotic cardiomyocytes. PET imaging demonstrated 
+high 18F-ML-10 and 18F-ML-8 uptake where 18F-FDG uptake was absent. The focal 
+accumulation of the two tracers was high on days 1 and 3 but was not notable on 
+days 5 and 7 after surgery. The infarct-to-lung uptake ratio was 4.29 ± 0.30 for 
+18F-ML-10 and 3.51 ± 0.18 for 18F-ML-8 (n = 6, analyzed by averaging the uptake 
+ratios on postoperative days 1 and 3, P < 0.05). The TUNEL results showed that 
+myocardial cell apoptosis was closely related to the focal uptake of the 
+apoptotic tracers in the infarct area. In addition, the apoptosis rates 
+calculated from the TUNEL results were better correlated with 18F-ML-8 uptake 
+than with 18F-ML-10 uptake. Ex vivo cell binding assays demonstrated that 
+18F-ML-8 accumulated in apoptotic cells but not in necrotic or normal cells. PET 
+imaging using 18F-ML-10 or 18F-ML-8 allows the noninvasive detection of 
+myocardial apoptosis in the early phase. In addition, 18F-ML-8 may be better 
+than 18F-ML-10 for apoptosis imaging. We propose that PET imaging with 18F-ML-10 
+or 18F-ML-8 combined with 18F-FDG is an alternative for detecting and assessing 
+MI.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="561~571" text="rat models" context="organism" />
+<CONTEXT id="C1" spans="678~697" text="Sprague-Dawley rats" context="organism" />
+<CONTEXT id="C2" spans="858~866" text="In  vivo" context="in vivo" />
+<CONTEXT id="C3" spans="1136~1144" text="In vitro" context="in vitro" />
+<CONTEXT id="C4" spans="1223~1237" text="cardiomyocytes" context="cells" />
+<CONTEXT id="C5" spans="1668~1683" text="myocardial cell" context="cells" />
+<CONTEXT id="C6" spans="2003~2008" text="cells" context="cells" />
+<CONTEXT id="C7" spans="2039~2044" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="1684~1693" text="apoptosis" phenotype="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

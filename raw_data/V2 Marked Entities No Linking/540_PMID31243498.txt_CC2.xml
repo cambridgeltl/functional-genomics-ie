@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Aspirin induces oncosis in tumor cells.
+
+In contrast to the well-known anti-tumor mechanisms of aspirin in inducing 
+apoptosis or autophagy, we here for the first time report oncosis induced by 
+aspirin in tumor cells. In vitro and in vivo analysis showed that aspirin 
+induced compromised Bcl-XL level and subsequent ATP depletion. Overexpression of 
+CFP-Bcl-XL in Hela and A549 cells observably inhibited aspirin-induced ATP 
+depletion and almost completely inhibited the aspirin-induced cells bubbling, 
+while pharmacological inhibition of endogenous Bcl-XL activity by ABT-737 
+remarkably promoted aspirin-induced ATP depletion and cells bubbling, suggesting 
+the key inhibitory role of Bcl-XL in aspirin-induced oncosis. Overexpression of 
+Bax/Bad significantly promoted aspirin-induced oncosis. In addition, cells 
+cultured in a glucose-free medium with low ATP level exhibited higher percentage 
+of bubbling cells than the cells cultured in a glucose medium with high ATP 
+level under aspirin treatment, indicating the important role of ATP depletion in 
+aspirin-induced oncosis. Furthermore, caspase-3 was demonstrated to be not 
+involved in aspirin-induced oncosis. Animal studies showed that aspirin 
+treatment significantly inhibited tumors growth, but did not induce toxicities 
+to mice. Collectively, aspirin inhibits tumors growth in mice and induces 
+oncosis in which the compromised Bcl-XL and intracellular ATP depletion play a 
+dominant role, which provides insights into the therapeutic strategy of aspirin 
+in oncology.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="333~362" text="Overexpression of  CFP-Bcl-XL" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="726~752" text="Overexpression of  Bax/Bad" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="206~217" text="tumor cells" context="transformed cells" />
+<CONTEXT id="C1" spans="366~385" text="Hela and A549 cells" context="transformed cells" />
+<CONTEXT id="C2" spans="490~495" text="cells" context="cells" />
+<CONTEXT id="C3" spans="636~641" text="cells" context="cells" />
+<CONTEXT id="C4" spans="814~819" text="cells" context="cells" />
+<CONTEXT id="C5" spans="915~920" text="cells" context="cells" />
+<CONTEXT id="C6" spans="930~935" text="cells" context="cells" />
+<CONTEXT id="C7" spans="1175~1181" text="Animal" context="organism" />
+<CONTEXT id="C8" spans="1294~1298" text="mice" context="organism" />
+<CONTEXT id="C9" spans="1348~1352" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="175~182" text="oncosis" phenotype="oncosis" />
+<PHENOTYPE id="PH1" spans="717~724" text="oncosis" phenotype="oncosis" />
+<PHENOTYPE id="PH2" spans="792~799" text="oncosis" phenotype="oncosis" />
+<PHENOTYPE id="PH3" spans="1078~1085" text="oncosis" phenotype="oncosis" />
+<PHENOTYPE id="PH4" spans="1166~1173" text="oncosis" phenotype="oncosis" />
+<PHENOTYPE id="PH5" spans="1245~1258" text="tumors growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH6" spans="1331~1344" text="tumors growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH7" spans="1366~1373" text="oncosis" phenotype="oncosis" />
+<EFFECT id="E0" spans="183~190" text="induced" effect="positive" />
+<EFFECT id="E1" spans="709~716" text="induced" effect="positive" />
+<EFFECT id="E2" spans="767~775" text="promoted" effect="positive" />
+<EFFECT id="E3" spans="784~791" text="induced" effect="positive" />
+<EFFECT id="E4" spans="1070~1077" text="induced" effect="positive" />
+<EFFECT id="E5" spans="1158~1165" text="induced" effect="positive" />
+<EFFECT id="E6" spans="1235~1244" text="inhibited" effect="negative" />
+<EFFECT id="E7" spans="1322~1330" text="inhibits" effect="negative" />
+<EFFECT id="E8" spans="1357~1364" text="induces" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

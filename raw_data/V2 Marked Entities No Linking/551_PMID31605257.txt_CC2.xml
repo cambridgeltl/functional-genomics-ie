@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PP2Ac upregulates PI3K-Akt signaling and induces hepatocyte apoptosis in liver 
+donor after brain death.
+
+Multiple research groups have demonstrated that the outcome of patients 
+receiving liver grafts from brain death donors (DBD) is poorer when compared 
+with patients receiving grafts from living donors. This might be due to an 
+increased hepatocyte apoptosis induced after brain death (BD). In this work, we 
+found that the activity of PP2A-Akt pathway is significantly increased in 
+clinical donor ex vivo hepatocytes after BD by iTRAQ protein quantification 
+analysis. The same results were confirmed in animal models. A time-dependent 
+promotion of apoptosis was also found in DBD rabbit liver, as demonstrated by 
+the increased levels of cleaved Caspase 3 and the decreased of Bcl-2. To further 
+investigate the roles of PP2A and Akt in regulating apoptosis of hepatocytes 
+after BD, we cultivated human liver cell line L02 with serum deprivation and 
+hypoxia, to simulate the ischemic and hypoxic conditions of hepatocytes in DBD. 
+Increased apoptosis and decreased viability were observed during the time in 
+this model. Meanwhile PP2A activity and Akt activity were respectively increased 
+and decreased. Notably, the proportion of Akt phosphorylation at Ser473 
+decreased, while other known targets of PP2A (p38, JNK and ERK) were not 
+affected in terms of protein levels or phosphorylation. These results suggested 
+that PP2A is involved in apoptotic induction of hepatocytes after brain death by 
+specific suppression of Akt. This discovery was further confirmed with 
+pharmaceutical and genetic methods. Our work implied potential targets for 
+reducing liver cell apoptosis and improving organ donor quality after BD.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="907~932" text="human liver cell line L02" context="cells" />
+<CONTEXT id="C2" spans="689~701" text="rabbit liver" context="tissue/organ" />
+<CONTEXT id="C1" spans="611~624" text="animal models" context="organism" />
+<CONTEXT id="C3" spans="870~881" text="hepatocytes" context="cells" />
+<PHENOTYPE id="PH0" spans="1052~1061" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="657~666" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1042~1051" text="Increased" effect="positive" />
+<EFFECT id="E1" spans="644~653" text="promotion" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

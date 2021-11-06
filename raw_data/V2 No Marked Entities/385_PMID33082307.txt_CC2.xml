@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[EVI1 phosphorylation at S436 regulates interactions with CtBP1 and DNMT3A and 
+promotes self-renewal.
+
+The transcriptional regulator EVI1 has an essential role in early development 
+and haematopoiesis. However, acute myeloid leukaemia (AML) driven by aberrantly 
+high EVI1 expression has very poor prognosis. To investigate the effects of 
+post-translational modifications on EVI1 function, we carried out a mass 
+spectrometry (MS) analysis of EVI1 in AML and detected dynamic phosphorylation 
+at serine 436 (S436). Wild-type EVI1 (EVI1-WT) with S436 available for 
+phosphorylation, but not non-phosphorylatable EVI1-S436A, conferred 
+haematopoietic progenitor cell self-renewal and was associated with 
+significantly higher organised transcriptional patterns. In silico modelling of 
+EVI1-S436 phosphorylation showed reduced affinity to CtBP1, and CtBP1 showed 
+reduced interaction with EVI1-WT compared with EVI1-S436A. The motif harbouring 
+S436 is a target of CDK2 and CDK3 kinases, which interacted with EVI1-WT. The 
+methyltransferase DNMT3A bound preferentially to EVI1-WT compared with 
+EVI1-S436A, and a hypomethylated cell population associated by EVI1-WT 
+expression in murine haematopoietic progenitors is not maintained with 
+EVI1-S436A. These data point to EVI1-S436 phosphorylation directing functional 
+protein interactions for haematopoietic self-renewal. Targeting EVI1-S436 
+phosphorylation may be of therapeutic benefit when treating EVI1-driven 
+leukaemia.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

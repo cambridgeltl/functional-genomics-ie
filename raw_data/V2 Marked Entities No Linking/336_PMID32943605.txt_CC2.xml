@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Dual inhibition of HDAC and tyrosine kinase signaling pathways with CUDC-907 
+attenuates TGFβ1 induced lung and tumor fibrosis.
+
+TGFβ1 signaling is a critical driver of collagen accumulation in pulmonary 
+fibrotic diseases and a well-characterized regulator of cancer associated 
+fibroblasts (CAF) activation in lung cancer. Myofibroblasts induced by TGFβ1 and 
+other factors are key players in the pathogenesis of lung fibrosis and tumor. 
+Tremendous attention has been gained to targeting myofibroblasts in order to 
+inhibit the progression of fibrosis and myofibroblast-induced tumor progression 
+and metastasis. Here we determined the therapeutic efficacy of simultaneously 
+targeting PI3K and HDAC pathways in lung myofibroblasts and CAF with a single 
+agent and to evaluate biomarkers of treatment response. CUDC-907 is a 
+first-in-class compound, functioning as a dual inhibitor of HDACs and PI3K/AKT 
+pathway. We investigated its effects in counteracting the activity of 
+TGFβ1-induced myofibroblasts/CAF in regard to cell proliferation, migration, 
+invasion, apoptosis in vitro antifibrosis efficiency in vivo. We found that 
+CUDC-907 inhibited myofibroblasts/CAF cell proliferation, migration and 
+apoptosis in a dose-dependent manner and caused cell cycle arrest at G1-S phase. 
+CUDC-907 not only inhibited myofibroblasts markers expression, but also 
+significantly inhibited the phosphorylation level of AKT, mTOR, Smad2/3, and 
+promoted acetylation of histones. Furthermore, the observed inhibitory effect 
+was also confirmed in bleomycin-induced mice lung fibrosis and nude mouse 
+transplanted tumor model. Overall, these data suggest that dual inhibition of 
+HDAC and the tyrosine kinase signaling pathways with CUDC-907 is a promising 
+treatment strategy for TGFβ1-induced lung and tumor fibrosis.]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="1153~1177" text=" myofibroblasts/CAF cell" context="cells" />
+<CONTEXT id="C2" spans="1318~1332" text="myofibroblasts" context="cells" />
+<PHENOTYPE id="PH0" spans="1178~1191" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="1193~1202" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH2" spans="1208~1217" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH5" spans="1256~1273" text="cell cycle arrest" phenotype="cell cycle arrest" />
+<EFFECT id="E0" spans="1144~1153" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="1249~1255" text="caused" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

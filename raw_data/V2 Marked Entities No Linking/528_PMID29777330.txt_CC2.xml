@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Down-regulating IL-6/GP130 targets improved the anti-tumor effects of 
+5-fluorouracil in colon cancer.
+
+Recent studies have confirmed that IL-6/GP130 targets are closely associated 
+with tumor growth, metastasis and drug resistance. 5-Fluorouracil (5-FU) is the 
+most common chemotherapeutic agent for colon cancer but is limited due to 
+chemoresistance and high cytotoxicity. Bazedoxifene (BZA), a third-generation 
+selective estrogen receptor modulator, was discovered by multiple ligand 
+simultaneous docking and drug repositioning approaches to have a novel function 
+as an IL-6/GP130 target inhibitor. Thus, we speculated that in colon cancer, the 
+anti-tumor efficacy of 5-FU might be increased in combination with IL-6/GP130 
+inhibitors. CCK8 assay and colony formation assay were used to detect the cell 
+proliferation and colony formation. We measured the IC50 value of 5-FU alone and 
+in combination with BZA by cell viability inhibition. Cell migration and 
+invasion ability were tested by scratch migration assays and transwell invasion 
+assays. Flow cytometric analysis for cell apoptosis and cell cycle. Quantitative 
+real-time PCR was used to detect Bad, Bcl-2 and Ki-67 mRNA expression and 
+western blotting (WB) assay analyzed protein expression of Bad/Bcl-2 signaling 
+pathway. Further mechanism study, WB analysis detected the key proteins level in 
+IL-6/GP130 targets and JAK/STAT3, Ras/Raf/MEK/ERK, and PI3K/AKT/mTOR signaling 
+pathway. A colon cancer xenograft model was used to further confirm the efficacy 
+of 5-FU and BZA in vivo. The GP130, P-STAT3, P-AKT, and P-ERK expression levels 
+were detected by immunohistochemistry in the xenograft tumor. BZA markedly 
+potentiates the anti-tumor function of 5-FU in vitro and in vivo. Conversely, 
+5-FU activation is reduced following exogenous IL-6 treatment in cells. Further 
+mechanistic studies determined that BZA treatment enhanced 5-FU anti-tumor 
+activation by inhibiting the IL-6/GP130 signaling pathway and the 
+phosphorylation status of the downstream effectors AKT, ERK and STAT3. In 
+contrast, IL-6 can attenuate 5-FU function via activating IL-6R/GP130 signaling 
+and the P-AKT, P-ERK and P-STAT3 levels. This study firstly verifies that 
+targeting IL-6/GP130 signaling can increase the anti-tumor function of 5-FU; in 
+addition, this strategy can sensitize cancer cell drug sensitivity, implying 
+that blocking IL-6/GP130 targets can reverse chemoresistance. Therefore, 
+combining 5-FU and IL-6/GP130 target inhibitors may be a promising approach for 
+cancer treatment.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1460~1488" text="colon cancer xenograft model" context="xenograft" />
+<CONTEXT id="C1" spans="1547~1554" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="1657~1672" text="xenograft tumor" context="xenograft" />
+<CONTEXT id="C3" spans="1732~1740" text="in vitro" context="in vitro" />
+<CONTEXT id="C4" spans="1745~1752" text="in vivo" context="in vivo" />
+<CONTEXT id="C5" spans="1832~1837" text="cells" context="cells" />
+<CONTEXT id="C6" spans="922~926" text="cell" context="cells" />
+<CONTEXT id="C7" spans="949~953" text="Cell" context="cells" />
+<CONTEXT id="C8" spans="1087~1091" text="cell" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

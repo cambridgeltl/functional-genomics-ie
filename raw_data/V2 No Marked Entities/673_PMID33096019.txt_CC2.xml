@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Detecting Tumor Antigen-Specific T Cells via Interaction-Dependent 
+Fucosyl-Biotinylation.
+
+Re-activation and clonal expansion of tumor-specific antigen (TSA)-reactive 
+T cells are critical to the success of checkpoint blockade and adoptive transfer 
+of tumor-infiltrating lymphocyte (TIL)-based therapies. There are no reliable 
+markers to specifically identify the repertoire of TSA-reactive T cells due to 
+their heterogeneous composition. We introduce FucoID as a general platform to 
+detect endogenous antigen-specific T cells for studying their biology. Through 
+this interaction-dependent labeling approach, intratumoral TSA-reactive CD4+, 
+CD8+ T cells, and TSA-suppressive CD4+ T cells can be detected and separated 
+from bystander T cells based on their cell-surface enzymatic 
+fucosyl-biotinylation. Compared to bystander TILs, TSA-reactive TILs possess a 
+distinct T cell receptor (TCR) repertoire and unique gene features. Although 
+exhibiting a dysfunctional phenotype, TSA-reactive CD8+ TILs possess substantial 
+capabilities of proliferation and tumor-specific killing. Featuring genetic 
+manipulation-free procedures and a quick turnover cycle, FucoID should have the 
+potential of accelerating the pace of personalized cancer treatment.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Pan-Genome of Wild and Cultivated Soybeans.
+
+Soybean is one of the most important vegetable oil and protein feed crops. To 
+capture the entire genomic diversity, it is needed to construct a complete 
+high-quality pan-genome from diverse soybean accessions. In this study, we 
+performed individual de novo genome assemblies for 26 representative soybeans 
+that were selected from 2,898 deeply sequenced accessions. Using these assembled 
+genomes together with three previously reported genomes, we constructed a 
+graph-based genome and performed pan-genome analysis, which identified numerous 
+genetic variations that cannot be detected by direct mapping of short sequence 
+reads onto a single reference genome. The structural variations from the 2,898 
+accessions that were genotyped based on the graph-based genome and the RNA 
+sequencing (RNA-seq) data from the representative 26 accessions helped to link 
+genetic variations to candidate genes that are responsible for important traits. 
+This pan-genome resource will promote evolutionary and functional genomics 
+studies in soybean.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

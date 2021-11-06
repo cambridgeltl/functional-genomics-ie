@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Small-Molecule Targeting of Oncogenic FTO Demethylase in Acute Myeloid Leukemia.
+
+FTO, an mRNA N6-methyladenosine (m6A) demethylase, was reported to promote 
+leukemogenesis. Using structure-based rational design, we have developed two 
+promising FTO inhibitors, namely FB23 and FB23-2, which directly bind to FTO and 
+selectively inhibit FTO's m6A demethylase activity. Mimicking FTO depletion, 
+FB23-2 dramatically suppresses proliferation and promotes the 
+differentiation/apoptosis of human acute myeloid leukemia (AML) cell line cells 
+and primary blast AML cells in vitro. Moreover, FB23-2 significantly inhibits 
+the progression of human AML cell lines and primary cells in xeno-transplanted 
+mice. Collectively, our data suggest that FTO is a druggable target and that 
+targeting FTO by small-molecule inhibitors holds potential to treat AML.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="246~284" text="FTO inhibitors, namely FB23 and FB23-2" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="488~538" text="human acute myeloid leukemia (AML) cell line cells" context="transformed cells" />
+<CONTEXT id="C1" spans="544~567" text="primary blast AML cells" context="transformed cells" />
+<CONTEXT id="C2" spans="568~576" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="638~658" text="human AML cell lines" context="transformed cells" />
+<CONTEXT id="C4" spans="663~676" text="primary cells" context="cells" />
+<CONTEXT id="C5" spans="680~703" text="xeno-transplanted  mice" context="xenograft" />
+<PHENOTYPE id="PH0" spans="427~440" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="459~474" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH2" spans="475~484" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="416~426" text="suppresses" effect="negative" />
+<EFFECT id="E1" spans="445~453" text="promotes" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

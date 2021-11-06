@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[BET degrader inhibits tumor progression and stem-like cell growth via 
+Wnt/β-catenin signaling repression in glioma cells.
+
+Based on their histological appearance, gliomas are a very common primary tumor 
+type of the brain and are classified into grades, Grade I to Grade IV, of the 
+World Health Organization. Treatment failure is due to the cancer stem cells 
+(CSC) phenotype maintenance and self-renewal. BET degraders such as ZBC260 
+represents a novel class of BET inhibitors that act by inducing BET proteins 
+degradation. This study explores the mode of action and effects of ZBC260 in 
+vivo and in vitro against glioma. By inhibiting cell proliferation and inducting 
+cell cycle arrest, the fact that glioma cell lines show sensitivity to ZBC260. 
+Notably, ZBC260 targeted glioma without side effects in vivo. In addition, the 
+stem cell-like properties of glioma cells were inhibited upon ZBC260 treatment. 
+When the mechanism was examined, our findings indicated that Wnt/β-catenin 
+pathway repression is required for ZBC260-induced stem cell-like properties and 
+tumor growth suppression. In conclusion, the growth of tumors and stem cell-like 
+properties were inhibited by ZBC260 via Wnt/β-catenin repression, which suggests 
+ZBC260 as a potential therapeutic agent for glioma.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="642~646" text="cell" context="cells" />
+<CONTEXT id="C1" spans="709~726" text="glioma cell lines" context="transformed cells" />
+<CONTEXT id="C2" spans="781~787" text="glioma" context="tissue/organ" />
+<CONTEXT id="C3" spans="809~816" text="in vivo" context="in vivo" />
+<CONTEXT id="C4" spans="865~877" text="glioma cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="647~660" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="676~693" text="cell cycle arrest" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH3" spans="1074~1086" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH4" spans="1119~1135" text="growth of tumors" phenotype="tumour growth" />
+<EFFECT id="E0" spans="631~641" text="inhibiting" effect="negative" />
+<EFFECT id="E1" spans="665~674" text="inducting" effect="negative" />
+<EFFECT id="E2" spans="1087~1098" text="suppression" effect="negative" />
+<EFFECT id="E3" spans="1172~1181" text="inhibited" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

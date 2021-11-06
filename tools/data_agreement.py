@@ -67,7 +67,7 @@ Best match: {max_fraction_entry}, {perc(max_fraction)}%
 
 
 def no_tags(d1entry, d2entry):
-    categories = {"PERTURBING_ACTION", "CONTEXT", "EFFECT"}
+    categories = {"PERTURBING_ACTION", "CONTEXT", "EFFECT", "PHENOTYPE"}
     for category in categories:
         d1category = d1entry[category]
         d2category = d2entry[category]
@@ -77,21 +77,21 @@ def no_tags(d1entry, d2entry):
 
 
 def get_tag_match_data(d1entry, d2entry):
-    categories = {"PERTURBING_ACTION": ["description"],
-                  "CONTEXT": ["experiment_type", "species"],
-                  "EFFECT": ["phenotype", "activity"]}
+    categories = {"PERTURBING_ACTION": ["perturbing_action"],
+                  "CONTEXT": ["context"],
+                  "EFFECT": ["effect"],
+                  "PHENOTYPE": ["phenotype"]}
     all_fields = [x for fields in categories.values() for x in fields]
 
     # Collect tag values into dicts that are keyed by fields
     d1tags = {}
     d2tags = {}
 
+    # Assumes no field has same name
     for category, fields in categories.items():
         for field in fields:
-            values1 = [tag[field] for tag in d1entry[category]]
-            d1tags[field] = values1
-            values2 = [tag[field] for tag in d2entry[category]]
-            d2tags[field] = values2
+            d1tags[field] = [tag[field] for tag in d1entry[category]]
+            d2tags[field] = [tag[field] for tag in d2entry[category]]
 
     # The token will be given a score: how many tags match / how many tags could of matched
     possible_matches = 0
@@ -151,57 +151,61 @@ if __name__ == "__main__":
     matching_keys = [x for x in data1.keys() if x in data2.keys()]
     total_matching = len(matching_keys)
 
-    for key in matching_keys:
-        d1 = data1[key]
-        d2 = data2[key]
+    if total_matching == 0:
+        print("[E] No matching keys! Please check the json files have matching key names")
 
-        # Check lengths are the same (Same number of words)
-        # TODO: Improve this bit
-        if len(d1) != len(d2):
-            data_comparisons[key] = f"Word lengths unequal: {len(d1)} vs {len(d2)}"
-            continue
+    else:
+        for key in matching_keys:
+            d1 = data1[key]
+            d2 = data2[key]
 
-        total_score = 0
-        entry = []
-        for i in range(0,len(d1)):
-            d1entry = d1[i]
-            d2entry = d2[i]
-            d1word = d1entry["WORD"]
-            d2word = d2entry["WORD"]
-
-            # Check the 2 words are actually equal
-            if d1word != d2word:
-                entry_dict = {
-                    "First Token": d1word,
-                    "Second Token": d2word,
-                    "Score": 0
-                }
-
-            # Skip and don't count words where both are not tagged
-            elif no_tags(d1entry, d2entry):
+            # Check lengths are the same (Same number of words)
+            # TODO: Improve this bit
+            if len(d1) != len(d2):
+                data_comparisons[key] = f"Word lengths unequal: {len(d1)} vs {len(d2)}"
                 continue
 
-            else:
-                # Check all the relevant tag data is the same, doesn't check links
-                score, d1tags, d2tags = get_tag_match_data(d1entry, d2entry)
-                total_score += score
-                entry_dict = {
-                    "Token": d1word,
-                    "Score": score,
-                    "First Tag Set": d1tags,
-                    "Second Tag Set": d2tags
-                }
-            entry.append(entry_dict)
+            total_score = 0
+            entry = []
+            for i in range(0,len(d1)):
+                d1entry = d1[i]
+                d2entry = d2[i]
+                d1word = d1entry["WORD"]
+                d2word = d2entry["WORD"]
 
-        data_comparisons[key] = {"TOTAL_TAGGED_WORDS": len(entry),
-                                 "TOTAL_SCORE": total_score,
-                                 "FRACTION": total_score/len(entry) if len(entry) != 0 else -1,
-                                 "RAW_DATA": entry}
+                # Check the 2 words are actually equal
+                if d1word != d2word:
+                    entry_dict = {
+                        "First Token": d1word,
+                        "Second Token": d2word,
+                        "Score": 0
+                    }
 
-    if args.raw:
-        with open(raw_data_output_path, 'w', encoding="utf-8") as f:
-            json.dump(data_comparisons, f, ensure_ascii=False, indent=4)
+                # Skip and don't count words where both are not tagged
+                elif no_tags(d1entry, d2entry):
+                    continue
 
-    with open(output_path, 'w') as f:
-        f.write(md_template(name1=args.js1, name2=args.js2, num_entries1=total_entries1, num_entries2=total_entries2, data_comparisons=data_comparisons))
+                else:
+                    # Check all the relevant tag data is the same, doesn't check links
+                    score, d1tags, d2tags = get_tag_match_data(d1entry, d2entry)
+                    total_score += score
+                    entry_dict = {
+                        "Token": d1word,
+                        "Score": score,
+                        "First Tag Set": d1tags,
+                        "Second Tag Set": d2tags
+                    }
+                entry.append(entry_dict)
+
+            data_comparisons[key] = {"TOTAL_TAGGED_WORDS": len(entry),
+                                     "TOTAL_SCORE": total_score,
+                                     "FRACTION": total_score/len(entry) if len(entry) != 0 else -1,
+                                     "RAW_DATA": entry}
+
+        if args.raw:
+            with open(raw_data_output_path, 'w', encoding="utf-8") as f:
+                json.dump(data_comparisons, f, ensure_ascii=False, indent=4)
+
+        with open(output_path, 'w') as f:
+            f.write(md_template(name1=args.js1, name2=args.js2, num_entries1=total_entries1, num_entries2=total_entries2, data_comparisons=data_comparisons))
 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Oocyte competence is maintained by m(6)A methyltransferase KIAA1429-mediated RNA 
+metabolism during mouse follicular development.
+
+KIAA1429 (also known as vir-like m6A methyltransferase-associated protein 
+(VIRMA)), a newly identified component of the RNA m6A methyltransferase complex, 
+plays critical roles in guiding region-selective m6A deposition. However, in 
+mammals, whether KIAA1429 mediates RNA m6A regulatory pathway functions in vivo 
+remains unknown. Here, we show that the Kiaa1429-specific deficiency in oocytes 
+resulted in female infertility with defective follicular development and fully 
+grown germinal vesicle (GV) oocytes failing to undergo germinal vesicle 
+breakdown (GVBD) and consequently losing the ability to resume meiosis. The 
+oocyte growth is accompanied by the accumulation of abundant RNAs and 
+posttranscriptional regulation. We found that the loss of Kiaa1429 could also 
+lead to abnormal RNA metabolism in GV oocytes. RNA-seq profiling revealed that 
+Kiaa1429 deletion altered the expression pattern of the oocyte-derived factors 
+essential for follicular development. In addition, our data show that the 
+conditional depletion of Kiaa1429 decreased the m6A levels in oocytes and mainly 
+affected the alternative splicing of genes associated with oogenesis. In 
+summary, the m6A methyltransferase KIAA1429-mediated RNA metabolism plays 
+critical roles in folliculogenesis and the maintenance of oocyte competence.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="487~515" text="Kiaa1429-specific deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="879~895" text="loss of Kiaa1429" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="988~1005" text="Kiaa1429 deletion" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="519~526" text="oocytes" context="cells" />
+<CONTEXT id="C1" spans="614~643" text="germinal vesicle (GV) oocytes" context="cells" />
+<CONTEXT id="C2" spans="758~764" text="oocyte" context="cells" />
+<CONTEXT id="C3" spans="946~953" text="oocytes" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

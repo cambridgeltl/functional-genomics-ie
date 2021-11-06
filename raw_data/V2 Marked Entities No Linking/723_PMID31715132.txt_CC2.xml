@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Potent and Selective Small-Molecule Degrader of STAT3 Achieves Complete Tumor 
+Regression In Vivo.
+
+Signal transducer and activator of transcription 3 (STAT3) is an attractive 
+cancer therapeutic target. Here we report the discovery of SD-36, a 
+small-molecule degrader of STAT3. SD-36 potently induces the degradation of 
+STAT3 protein in vitro and in vivo and demonstrates high selectivity over other 
+STAT members. Induced degradation of STAT3 results in a strong suppression of 
+its transcription network in leukemia and lymphoma cells. SD-36 inhibits the 
+growth of a subset of acute myeloid leukemia and anaplastic large-cell lymphoma 
+cell lines by inducing cell-cycle arrest and/or apoptosis. SD-36 achieves 
+complete and long-lasting tumor regression in multiple xenograft mouse models at 
+well-tolerated dose schedules. Degradation of STAT3 protein, therefore, is a 
+promising cancer therapeutic strategy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="339~347" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="352~359" text="in vivo" context="in vivo" />
+<CONTEXT id="C2" spans="514~541" text="leukemia and lymphoma cells" context="transformed cells" />
+<CONTEXT id="C3" spans="585~654" text="acute myeloid leukemia and anaplastic large-cell lymphoma  cell lines" context="transformed cells" />
+<CONTEXT id="C4" spans="774~796" text="xenograft mouse models" context="xenograft" />
+<PHENOTYPE id="PH0" spans="667~684" text="cell-cycle arrest" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH1" spans="692~701" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="745~761" text="tumor regression" phenotype="tumour regression" />
+<EFFECT id="E0" spans="658~666" text="inducing" effect="positive" />
+<EFFECT id="E1" spans="709~717" text="achieves" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

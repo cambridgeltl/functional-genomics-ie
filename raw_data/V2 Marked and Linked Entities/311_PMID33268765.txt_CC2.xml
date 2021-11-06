@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SKIL facilitates tumorigenesis and immune escape of NSCLC via upregulating 
+TAZ/autophagy axis.
+
+Immune escape is an important mechanism in tumorigenesis. The aim of this study 
+was to investigate roles of SKIL in tumorigenesis and immune escape of 
+non-small-cell lung cancer (NSCLC). SKIL expression levels in NSCLC cell line, 
+clinical sample, and adjacent normal tissue were measured by quantitative PCR, 
+western blot, or immunohistochemistry. Lentivirus was used to 
+overexpress/silence SKIL or TAZ expression. Malignant phenotypes of NSCLC cells 
+were evaluated by colony formation, transwell, and MTT assays, and in xenograft 
+mice model. Syngeneic mice model and flow cytometry were used to evaluate T cell 
+infiltration. Quantitative PCR and western blot were applied to evaluate 
+relevant mRNA and protein levels, respectively. Co-immunoprecipitation was 
+applied to unveil the interaction between SKIL and TAZ. SKIL expression was 
+higher in NSCLC tissue compared to adjacent normal tissue. Silencing of SKIL 
+inhibited malignant phenotypes of NSCLC cells and promoted T cell infiltration. 
+SKIL-knockdown inhibited autophagy and activated the STING pathway in NSCLC 
+cells through down-regulation of TAZ. Silencing of TAZ cancelled the effects of 
+SKIL overexpression on malignant phenotypes and autophagy of NSCLC cells. 
+Inhibition of autophagy reversed the effects of SKIL/TAZ overexpression on the 
+STING pathway. In conclusion, SKIL promoted tumorigenesis and immune escape of 
+NSCLC cells through upregulation of TAZ/autophagy axis and inhibition on 
+downstream STING pathway.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1003~1020" text="Silencing of SKIL" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1103~1117" text="SKIL-knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P2" spans="1218~1234" text="Silencing of TAZ" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P3" spans="1261~1280" text="SKIL overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P4" spans="1384~1407" text="SKIL/TAZ overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="1056~1067" text="NSCLC cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1173~1185" text="NSCLC  cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1322~1333" text="NSCLC cells" context="transformed cells" />
+<PHENOTYPE id="PH1" spans="1128~1137" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="1309~1318" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH4" spans="1350~1359" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E1" spans="1118~1127" text="inhibited" effect="negative" />
+<EFFECT id="E2" spans="1336~1346" text="Inhibition" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="SKIL-knockdown" effectID="E1" effectText="inhibited" phenotypeID="PH1" phenotypeText="autophagy" contextID="C1" contextText="NSCLC  cells" />
+</TAGS>
+</Genomics_ConceptTask>

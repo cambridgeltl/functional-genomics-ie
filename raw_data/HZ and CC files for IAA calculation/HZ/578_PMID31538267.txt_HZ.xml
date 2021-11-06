@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Oroxylin A induces apoptosis of activated hepatic stellate cells through 
+endoplasmic reticulum stress.
+
+Hepatic stellate cell (HSC) activation plays an indispensable role in hepatic 
+fibrosis. Inducing apoptosis of activated HSCs can attenuate or reverse 
+fibrogenesis. In this study, we initially found that oroxylin A (OA) protected 
+CCl4-induced liver injury accompanied by endoplasmic reticulum stress (ERS) 
+activation of HSCs in mice. In vitro, OA treatment markedly reduced fibrogenesis 
+by modulating extracellular matrix synthesis and degradation. OA inhibited cell 
+proliferation and induced cell cycle arrest of HSCs at S phase. Further, OA was 
+observed to induce HSC apoptosis, as indicated by caspase activation. Using the 
+eIF2α dephosphorylation inhibitor salubrinal, we found that ERS pathway 
+activation was required for OA to induce HSC apoptosis. ERS-related proteins 
+were significantly upregulated by OA treatment, and salubrinal abrogated the 
+effects of OA on HSCs. Thus, we inferred that OA attenuated HSC activation by 
+promoting ERS. In vivo, inhibition of ERS by salubrinal partly abrogated the 
+hepatoprotective effect of OA in CCl4-treated mice. In conclusion, our findings 
+suggest a role for ERS in the mechanism underlying amelioration of hepatic 
+fibrosis by OA.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="428~432" text="HSCs" context="cells" />
+<CONTEXT id="C1" spans="436~440" text="mice" context="organism" />
+<CONTEXT id="C2" spans="677~680" text="HSC" context="cells" />
+<CONTEXT id="C3" spans="853~856" text="HSC" context="cells" />
+<CONTEXT id="C4" spans="985~989" text="HSCs" context="cells" />
+<PHENOTYPE id="PH0" spans="571~590" text="cell  proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="603~620" text="cell cycle arrest" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH2" spans="681~690" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="857~866" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="561~570" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="595~602" text="induced" effect="positive" />
+<EFFECT id="E2" spans="670~676" text="induce" effect="positive" />
+<EFFECT id="E3" spans="846~852" text="induce" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

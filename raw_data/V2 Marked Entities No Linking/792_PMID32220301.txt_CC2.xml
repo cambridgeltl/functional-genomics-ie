@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Loss of CHD1 Promotes Heterogeneous Mechanisms of Resistance to AR-Targeted 
+Therapy via Chromatin Dysregulation.
+
+Metastatic prostate cancer is characterized by recurrent genomic copy number 
+alterations that are presumed to contribute to resistance to hormone therapy. We 
+identified CHD1 loss as a cause of antiandrogen resistance in an in vivo small 
+hairpin RNA (shRNA) screen of 730 genes deleted in prostate cancer. ATAC-seq and 
+RNA-seq analyses showed that CHD1 loss resulted in global changes in open and 
+closed chromatin with associated transcriptomic changes. Integrative analysis of 
+this data, together with CRISPR-based functional screening, identified four 
+transcription factors (NR3C1, POU3F2, NR2F1, and TBX2) that contribute to 
+antiandrogen resistance, with associated activation of non-luminal lineage 
+programs. Thus, CHD1 loss results in chromatin dysregulation, thereby 
+establishing a state of transcriptional plasticity that enables the emergence of 
+antiandrogen resistance through heterogeneous mechanisms.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="466~475" text="CHD1 loss" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="842~851" text="CHD1 loss" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="340~347" text="in vivo" context="in vivo" />
+<CONTEXT id="C1" spans="406~421" text="prostate cancer" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

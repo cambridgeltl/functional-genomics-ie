@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Swarm Intelligence-Enhanced Detection of Non-Small-Cell Lung Cancer Using 
+Tumor-Educated Platelets.
+
+Blood-based liquid biopsies, including tumor-educated blood platelets (TEPs), 
+have emerged as promising biomarker sources for non-invasive detection of 
+cancer. Here we demonstrate that particle-swarm optimization (PSO)-enhanced 
+algorithms enable efficient selection of RNA biomarker panels from platelet 
+RNA-sequencing libraries (n = 779). This resulted in accurate TEP-based 
+detection of early- and late-stage non-small-cell lung cancer (n = 518 
+late-stage validation cohort, accuracy, 88%; AUC, 0.94; 95% CI, 0.92-0.96; p < 
+0.001; n = 106 early-stage validation cohort, accuracy, 81%; AUC, 0.89; 95% CI, 
+0.83-0.95; p < 0.001), independent of age of the individuals, smoking habits, 
+whole-blood storage time, and various inflammatory conditions. PSO enabled 
+selection of gene panels to diagnose cancer from TEPs, suggesting that swarm 
+intelligence may also benefit the optimization of diagnostics readout of other 
+liquid biopsy biosources.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[GDC-0349 inhibits non-small cell lung cancer cell growth.
+
+Non-small cell lung cancer (NSCLC) is a leading cause of cancer-related human 
+mortality with a clear need for new therapeutic intervention. GDC-0349 is a 
+potent and selective ATP-competitive mTOR inhibitor. In A549 cells and primary 
+human NSCLC cells, GDC-0349 inhibited cell growth, proliferation, cell cycle 
+progression, migration and invasion, while inducing significant apoptosis 
+activation. Although GDC-0349 blocked Akt-mTORC1/2 activation in NSCLC cells, it 
+also exerted cytotoxicity in Akt1-knockout A549 cells. Furthermore, restoring 
+Akt-mTOR activation by a constitutively-active Akt1 only partially attenuated 
+GDC-0349-induced A549 cell apoptosis, indicating the existence of 
+Akt-mTOR-independent mechanisms. In NSCLC cells GDC-0349 induced sphingosine 
+kinase 1 (SphK1) inhibition, ceramide accumulation, JNK activation and oxidative 
+injury. Conversely, N-acetylcysteine, the JNK inhibitor and sphingosine 
+1-phosphate alleviated GDC-0349-induced NSCLC cell apoptosis. In vivo, daily 
+oral administration of GDC-0349 potently inhibited NSCLC xenograft growth in 
+mice. Akt-mTOR in-activation, SphK1 inhibition, JNK activation and oxidative 
+stress were detected in NSCLC xenograft tissues with GDC-0349 administration. In 
+summary, GDC-0349 inhibits NSCLC cell growth via Akt-mTOR-dependent and 
+Akt-mTOR-independent mechanisms.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="559~572" text="Akt1-knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="634~660" text="constitutively-active Akt1" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="271~281" text="A549 cells" context="cells" />
+<CONTEXT id="C1" spans="286~312" text="primary  human NSCLC cells" context="transformed cells" />
+<CONTEXT id="C2" spans="513~524" text="NSCLC cells" context="transformed cells" />
+<CONTEXT id="C3" spans="573~583" text="A549 cells" context="cells" />
+<CONTEXT id="C4" spans="705~714" text="A549 cell" context="cells" />
+<CONTEXT id="C5" spans="791~802" text="NSCLC cells" context="cells" />
+<CONTEXT id="C6" spans="1028~1038" text="NSCLC cell" context="cells" />
+<CONTEXT id="C7" spans="1050~1057" text="In vivo" context="in vivo" />
+<CONTEXT id="C8" spans="1117~1132" text="NSCLC xenograft" context="xenograft" />
+<CONTEXT id="C9" spans="1144~1148" text="mice" context="organism" />
+<CONTEXT id="C10" spans="1246~1269" text="NSCLC xenograft tissues" context="xenograft" />
+<CONTEXT id="C11" spans="1331~1336" text="NSCLC" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="333~344" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH1" spans="346~359" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH2" spans="386~395" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH3" spans="400~408" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH4" spans="437~446" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH5" spans="715~724" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH6" spans="1039~1048" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH7" spans="1337~1348" text="cell growth" phenotype="cell growth" />
+<EFFECT id="E0" spans="323~332" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="416~424" text="inducing" effect="positive" />
+<EFFECT id="E2" spans="448~458" text="activation" effect="positive" />
+<EFFECT id="E3" spans="666~686" text="partially attenuated" effect="negative" />
+<EFFECT id="E4" spans="697~704" text="induced" effect="positive" />
+<EFFECT id="E5" spans="1000~1010" text="alleviated" effect="negative" />
+<EFFECT id="E6" spans="1020~1027" text="induced" effect="positive" />
+<EFFECT id="E8" spans="1322~1330" text="inhibits" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="constitutively-active Akt1" contextID="C4" contextText="A549 cell" effectID="E3" effectText="partially attenuated" phenotypeID="PH5" phenotypeText="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

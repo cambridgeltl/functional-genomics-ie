@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CPAP promotes angiogenesis and metastasis by enhancing STAT3 activity.
+
+Centrosomal P4.1-associated protein (CPAP) is overexpressed in hepatocellular 
+carcinoma (HCC) and positively correlated with recurrence and vascular invasion. 
+Here, we found that CPAP plays an important role in HCC malignancies. Functional 
+characterization indicated that CPAP overexpression increases tumor growth, 
+angiogenesis, and metastasis ex vivo and in vivo. In addition, overexpressed 
+CPAP contributes to sorafenib resistance. Mechanical investigation showed that 
+the expression level of CPAP is positively correlated with activated STAT3 in 
+HCC. CPAP acts as a transcriptional coactivator of STAT3 by directly binding 
+with STAT3. Interrupting the interaction between CPAP and STAT3 attenuates 
+STAT3-mediated tumor growth and angiogenesis. Overexpression of CPAP upregulates 
+several STAT3 target genes such as IL-8 and CD44 that are involved in 
+angiogenesis, and CPAP mRNA expression is positively correlated with the levels 
+of both mRNAs in HCC. Knocked-down expression of CPAP impairs IL-6-mediated 
+STAT3 activation, target gene expression, cell migration, and invasion 
+abilities. IL-6/STAT3-mediated angiogenesis is significantly increased by CPAP 
+overexpression and can be blocked by decreased expression of IL-8. Our findings 
+not only shed light on the importance of CPAP in HCC malignancies, but also 
+provide potential therapeutic strategies for inhibiting the angiogenesis pathway 
+and treating metastatic HCC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="347~366" text="CPAP overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="455~474" text="overexpressed  CPAP" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="829~851" text="Overexpression of CPAP" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P3" spans="1039~1070" text="Knocked-down expression of CPAP" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P4" spans="1240~1260" text="CPAP  overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="433~440" text="in vivo" context="in vivo" />
+<CONTEXT id="C1" spans="1136~1140" text="cell" context="cells" />
+<PHENOTYPE id="PH0" spans="377~389" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH1" spans="410~420" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="798~810" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH3" spans="1141~1150" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH4" spans="1156~1164" text="invasion" phenotype="invasion" />
+<EFFECT id="E0" spans="367~376" text="increases" effect="positive" />
+<EFFECT id="E1" spans="771~781" text="attenuates" effect="negative" />
+<EFFECT id="E2" spans="1071~1078" text="impairs" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="CPAP overexpression" effectID="E0" effectText="increases" phenotypeID="PH0" phenotypeText="tumor growth" contextID="C0" contextText="in vivo" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="CPAP overexpression" effectID="E0" effectText="increases" phenotypeID="PH1" phenotypeText="metastasis" contextID="C0" contextText="in vivo" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P3" perturbing_actionText="Knocked-down expression of CPAP" effectID="E2" effectText="impairs" phenotypeID="PH3" phenotypeText="migration" contextID="C1" contextText="cell" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P3" perturbing_actionText="Knocked-down expression of CPAP" effectID="E2" effectText="impairs" contextID="C1" contextText="cell" phenotypeID="PH4" phenotypeText="invasion" />
+</TAGS>
+</Genomics_ConceptTask>

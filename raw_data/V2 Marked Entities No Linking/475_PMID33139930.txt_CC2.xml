@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[KPNB1-mediated nuclear translocation of PD-L1 promotes non-small cell lung 
+cancer cell proliferation via the Gas6/MerTK signaling pathway.
+
+In addition to the role of programmed cell death ligand 1 (PD-L1) in 
+facilitating tumour cells escape from immune surveillance, it is considered as a 
+crucial effector in transducing intrinsic signals to promote tumour development. 
+Our previous study has pointed out that PD-L1 promotes non-small cell lung 
+cancer (NSCLC) cell proliferation, but the mechanism remains elusive. Here we 
+first demonstrated that PD-L1 expression levels were positively correlated with 
+p-MerTK levels in patient samples and NSCLC cell lines. In addition, PD-L1 
+knockdown led to the reduced phosphorylation level of MerTK in vitro. We next 
+showed that PD-L1 regulated NSCLC cell proliferation via Gas6/MerTK signaling 
+pathway in vitro and in vivo. To investigate the underlying mechanism, we 
+unexpectedly found that PD-L1 translocated into the nucleus of cancer cells 
+which was facilitated through the binding of Karyopherin β1 (KPNB1). Nuclear 
+PD-L1 (nPD-L1), coupled with transcription factor Sp1, regulated the synthesis 
+of Gas6 mRNA and promoted Gas6 secretion to activate MerTK signaling pathway. 
+Taken together, our results shed light on the novel role of nPD-L1 in NSCLC cell 
+proliferation and reveal a new molecular mechanism underlying nPD-L1-mediated 
+Gas6/MerTK signaling activation. All above findings provide the possible 
+combinational implications for PD-L1 targeted immunotherapy in the clinic.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="680~696" text="PD-L1  knockdown" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="747~755" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="794~804" text="NSCLC cell" context="cells" />
+<CONTEXT id="C2" spans="853~861" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="866~873" text="in vivo" context="in vivo" />
+<CONTEXT id="C4" spans="983~995" text="cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="805~818" text="proliferation" phenotype="proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

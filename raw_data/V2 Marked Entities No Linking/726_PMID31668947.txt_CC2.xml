@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer.
+
+Epigenetic regulation enables tumors to respond to changing environments during 
+tumor progression and metastases and facilitates treatment resistance. Targeting 
+chromatin modifiers or catalytic effectors of transcription is an emerging 
+anti-cancer strategy. The cyclin-dependent kinases (CDKs) 12 and 13 
+phosphorylate the C-terminal domain of RNA polymerase II, regulating 
+transcription and co-transcriptional processes. Here we report the development 
+of SR-4835, a highly selective dual inhibitor of CDK12 and CDK13, which disables 
+triple-negative breast cancer (TNBC) cells. Mechanistically, inhibition or loss 
+of CDK12/CDK13 triggers intronic polyadenylation site cleavage that suppresses 
+the expression of core DNA damage response proteins. This provokes a "BRCAness" 
+phenotype that results in deficiencies in DNA damage repair, promoting synergy 
+with DNA-damaging chemotherapy and PARP inhibitors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="533~594" text="SR-4835, a highly selective dual inhibitor of CDK12 and CDK13" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="687~707" text="loss  of CDK12/CDK13" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="612~654" text="triple-negative breast cancer (TNBC) cells" context="transformed cells" />
+</TAGS>
+</Genomics_ConceptTask>

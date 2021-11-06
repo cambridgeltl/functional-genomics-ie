@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Kinome screen of ferroptosis reveals a novel role of ATM in regulating iron 
+metabolism.
+
+Ferroptosis is a specialized iron-dependent cell death that is associated with 
+lethal lipid peroxidation. Modulation of ferroptosis may have therapeutic 
+potential since it has been implicated in various human diseases as well as 
+potential antitumor activities. However, much remains unknown about the 
+underlying mechanisms and genetic determinants of ferroptosis. Given the 
+critical role of kinases in most biological processes and the availability of 
+various kinase inhibitors, we sought to systemically identify kinases essential 
+for ferroptosis. We performed a forward genetic-based kinome screen against 
+ferroptosis in MDA-MB-231 cells triggered by cystine deprivation. This screen 
+identified 34 essential kinases involved in TNFα and NF-kB signaling. 
+Unexpectedly, the DNA damage response serine/threonine kinase ATM (mutated in 
+Ataxia-Telangiectasia) was found to be essential for ferroptosis. The 
+pharmacological or genetic inhibition of ATM consistently rescued multiple 
+cancer cells from ferroptosis triggered by cystine deprivation or erastin. 
+Instead of the canonical DNA damage pathways, ATM inhibition rescued ferroptosis 
+by increasing the expression of iron regulators involved in iron storage 
+(ferritin heavy and light chain, FTH1 and FTL) and export (ferroportin, FPN1). 
+The coordinated changes of these iron regulators during ATM inhibition resulted 
+in a lowering of labile iron and prevented the iron-dependent ferroptosis. 
+Furthermore, we found that ATM inhibition enhanced the nuclear translocation of 
+metal-regulatory transcription factor 1 (MTF1), responsible for regulating 
+expression of Ferritin/FPN1 and ferroptosis protection. Genetic depletion of 
+MTF-1 abolished the regulation of iron-regulatory elements by ATM and 
+resensitized the cells to ferroptosis. Together, we have identified an 
+unexpected ATM-MTF1-Ferritin/FPN1 regulatory axis as novel determinants of 
+ferroptosis through regulating labile iron levels.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1025~1050" text="genetic inhibition of ATM" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1204~1218" text="ATM inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1578~1592" text="ATM inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1764~1791" text="Genetic depletion of  MTF-1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="1450~1464" text="ATM inhibition" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="721~737" text="MDA-MB-231 cells" context="cells" />
+<CONTEXT id="C1" spans="1082~1094" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1874~1879" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="1100~1111" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="1227~1238" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH2" spans="1537~1548" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH3" spans="1883~1894" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH4" spans="988~999" text="ferroptosis" phenotype="ferroptosis" />
+<EFFECT id="E0" spans="1064~1071" text="rescued" effect="rescues" />
+<EFFECT id="E1" spans="1112~1121" text="triggered" effect="positive" />
+<EFFECT id="E2" spans="1219~1226" text="rescued" effect="rescues" />
+<EFFECT id="E3" spans="1508~1517" text="prevented" effect="negative" />
+<EFFECT id="E4" spans="1857~1869" text="resensitized" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="genetic inhibition of ATM" phenotypeID="PH0" phenotypeText="ferroptosis" effectID="E0" effectText="rescued" contextID="C1" contextText="cancer cells" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="Genetic depletion of  MTF-1" effectID="E4" effectText="resensitized" contextID="C2" contextText="cells" phenotypeID="PH3" phenotypeText="ferroptosis" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Requirement for Serine-384 in Caspase-2 processing and activity.
+
+aspase-2 is a unique and conservative cysteine protease which plays an 
+important role in several cellular processes including apoptotic cell death. 
+Although the molecular mechanisms of its activation remain largely unclear, a 
+major role belongs to the architecture of the caspase-2 active center. We 
+demonstrate that the substitution of the putative phosphorylation site of 
+caspase-2, Serine-384 to Alanine, blocks caspase-2 processing and decreases its 
+enzymatic activity. Strikingly, in silico analysis using molecular dynamics 
+simulations has shown that Serine-384 is crucially involved in interactions 
+within the caspase-2 active center. It stabilizes Arginine-378, which forms a 
+crucial hydrogen bond with the aspartate residue of a substrate. Hence, 
+Serine-384 is essential for supporting a proper architecture of the active 
+center of caspase-2. Moreover, molecular modeling strongly proved steric 
+inaccessibility of Ser-384 to be phosphorylated. Importantly, a multiple 
+alignment has demonstrated that both Serine-384 and Arg-378 residues are highly 
+conservative across all members of caspase family, which allows us to suggest 
+that this diade is indispensable for caspase processing and activity. 
+Spontaneous mutations in this diade might influence oncosuppressive function of 
+caspases, in particular of caspase-2. Likewise, the mutation of Ser-384 is 
+associated with the development of lung squamous cell carcinoma and 
+adenocarcinoma. Taken together, we have uncovered a central feature of the 
+caspase-2 activation mechanism which is crucial for the regulation of its 
+signaling network.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

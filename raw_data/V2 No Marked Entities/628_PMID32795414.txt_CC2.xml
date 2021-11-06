@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Extracellular Vesicle and Particle Biomarkers Define Multiple Human Cancers.
+
+There is an unmet clinical need for improved tissue and liquid biopsy tools for 
+cancer detection. We investigated the proteomic profile of extracellular 
+vesicles and particles (EVPs) in 426 human samples from tissue explants (TEs), 
+plasma, and other bodily fluids. Among traditional exosome markers, CD9, HSPA8, 
+ALIX, and HSP90AB1 represent pan-EVP markers, while ACTB, MSN, and RAP1B are 
+novel pan-EVP markers. To confirm that EVPs are ideal diagnostic tools, we 
+analyzed proteomes of TE- (n = 151) and plasma-derived (n = 120) EVPs. 
+Comparison of TE EVPs identified proteins (e.g., VCAN, TNC, and THBS2) that 
+distinguish tumors from normal tissues with 90% sensitivity/94% specificity. 
+Machine-learning classification of plasma-derived EVP cargo, including 
+immunoglobulins, revealed 95% sensitivity/90% specificity in detecting cancer. 
+Finally, we defined a panel of tumor-type-specific EVP proteins in TEs and 
+plasma, which can classify tumors of unknown primary origin. Thus, EVP proteins 
+can serve as reliable biomarkers for cancer detection and determining cancer 
+type.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[PPPDE1 promotes hepatocellular carcinoma development by negatively regulate p53 
+and apoptosis.
+
+We have previously identified that PPPDE1 is a deubiquitinase (DUB) belonging to 
+a cysteine isopeptidase family. Here we sought to explore the biological 
+significance of PPPDE1 in hepatocellular carcinoma and its underlying molecular 
+mechanism. In the present study, we found that amplification and overexpression 
+of PPPDE1 were associated with poor prognosis in hepatocellular carcinoma (HCC). 
+We also demonstrated that knocking down of PPPDE1 could significantly block the 
+clonal growth and tumorigenicity of human HCC cells, which revealed a critical 
+role for PPPDE1 in HCC development. Furthermore, we proved that PPPDE1 is a key 
+modulator of p53 protein level and its down stream apoptosis pathway. Taken 
+together, these results suggested that PPPDE1 is a putative HCC driver gene and 
+extensive studies should be conducted in the future to investigate the role of 
+PPPDE1 in HCC and other tumors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="523~546" text="knocking down of PPPDE1" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="614~629" text="human HCC cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="578~591" text="clonal growth" phenotype="colony formation" />
+<PHENOTYPE id="PH1" spans="596~610" text="tumorigenicity" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="567~572" text="block" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="knocking down of PPPDE1" effectID="E0" effectText="block" phenotypeID="PH0" phenotypeText="clonal growth" contextID="C0" contextText="human HCC cells" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="knocking down of PPPDE1" effectID="E0" effectText="block" phenotypeID="PH1" phenotypeText="tumorigenicity" contextID="C0" contextText="human HCC cells" />
+</TAGS>
+</Genomics_ConceptTask>

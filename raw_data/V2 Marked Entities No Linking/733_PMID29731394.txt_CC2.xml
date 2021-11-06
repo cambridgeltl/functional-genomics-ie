@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Tumor Mutational Burden and Efficacy of Nivolumab Monotherapy and in Combination 
+with Ipilimumab in Small-Cell Lung Cancer.
+
+Durable responses and encouraging survival have been demonstrated with immune 
+checkpoint inhibitors in small-cell lung cancer (SCLC), but predictive markers 
+are unknown. We used whole exome sequencing to evaluate the impact of tumor 
+mutational burden on efficacy of nivolumab monotherapy or combined with 
+ipilimumab in patients with SCLC from the nonrandomized or randomized cohorts of 
+CheckMate 032. Patients received nivolumab (3 mg/kg every 2 weeks) or nivolumab 
+plus ipilimumab (1 mg/kg plus 3 mg/kg every 3 weeks for four cycles, followed by 
+nivolumab 3 mg/kg every 2 weeks). Efficacy of nivolumab ± ipilimumab was 
+enhanced in patients with high tumor mutational burden. Nivolumab plus 
+ipilimumab appeared to provide a greater clinical benefit than nivolumab 
+monotherapy in the high tumor mutational burden tertile.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="449~467" text="patients with SCLC" context="patient" />
+<CONTEXT id="C1" spans="532~540" text="Patients" context="patient" />
+<CONTEXT id="C2" spans="766~774" text="patients" context="patient" />
+</TAGS>
+</Genomics_ConceptTask>

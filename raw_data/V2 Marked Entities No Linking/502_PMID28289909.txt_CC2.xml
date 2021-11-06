@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RIPK1/RIPK3/MLKL-mediated necroptosis contributes to compression-induced rat 
+nucleus pulposus cells death.
+
+
+The aim of this study was to systematically investigate the role of necroptosis 
+in compression-induced rat nucleus pulposus (NP) cells death, as well as explore 
+the underlying mechanisms involved. Rat NP cells underwent various periods of 
+exposure to 1.0 MPa pressure. Cell viability and cell death were quantified by 
+using cell counting kit-8 (CCK-8), and Calcein-AM/propidium iodine (PI) staining 
+respectively. Necroptosis-associated target molecules receptor-interacing 
+protein kinase 1 (RIPK1), phosphorylated RIPK1 (pRIPK1), receptor-interacing 
+protein kinase 3 (RIPK3), phosphorylated RIPK3 (pRIPK3) and mixed lineage kinase 
+domain-like (MLKL) were analyzed by Western-blot and RT-PCR. NP cells were also 
+examined for morphological and ultrastructural changes, which can indicate 
+necroptosis. To indirectly establish the presence of necroptosis, the RIPK1 
+specific inhibitor necrostatin-1 (Nec-1), RIPK3 inhibitor GSK'872, MLKL 
+inhibitor necrosulfonamide (NSA) and small interfering RNA (siRNA) were 
+utilized. The results established necroptosis was taking place in NP cells. The 
+level of necroptosis increased in a time-dependent manner, and this effect was 
+reduced by Nec-1 in vitro. Additionally, NP cells death were significantly 
+attenuated following treatment with Nec-1, GSK'872 or NSA. SiRNA-induced 
+knockdown of RIPK3 or MLKL increased cell survival rate, while knockdown of 
+RIPK1 resulted in a decreased cell survival rate. In summary, 
+RIPK1/RIPK3/MLKL-mediated necroptosis may play an important role in NP cells 
+death induced by continuous mechanical stress. Treatment strategies which aim to 
+regulate necroptosis may prove beneficial, by both reducing NP cells death and 
+slowing IVD degeneration.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="976~1023" text="RIPK1  specific inhibitor necrostatin-1 (Nec-1)" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="1025~1048" text="RIPK3 inhibitor GSK&apos;872" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="1050~1088" text="MLKL  inhibitor necrosulfonamide (NSA)" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="1425~1466" text="SiRNA-induced  knockdown of RIPK3 or MLKL" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P4" spans="1503~1522" text="knockdown of  RIPK1" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="309~321" text="Rat NP cells" context="cells" />
+<CONTEXT id="C1" spans="1195~1203" text="NP cells" context="cells" />
+<CONTEXT id="C2" spans="1307~1315" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="1331~1339" text="NP cells" context="cells" />
+<CONTEXT id="C4" spans="810~818" text="NP cells" context="cells" />
+<PHENOTYPE id="PH0" spans="1163~1174" text="necroptosis" phenotype="necroptosis" />
+<PHENOTYPE id="PH1" spans="1219~1230" text="necroptosis" phenotype="necroptosis" />
+<PHENOTYPE id="PH2" spans="1477~1490" text="cell survival" phenotype="cell survival" />
+<PHENOTYPE id="PH3" spans="1547~1560" text="cell survival" phenotype="cell survival" />
+<EFFECT id="E0" spans="1231~1240" text="increased" effect="positive" />
+<EFFECT id="E1" spans="1467~1476" text="increased" effect="positive" />
+<EFFECT id="E2" spans="1537~1546" text="decreased" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

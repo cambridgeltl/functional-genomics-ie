@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RIPK3 collaborates with GSDMD to drive tissue injury in lethal polymicrobial 
+sepsis.
+
+Sepsis is a systemic inflammatory disease causing life-threatening multi-organ 
+dysfunction. Accumulating evidences suggest that two forms of programmed 
+necrosis, necroptosis and pyroptosis triggered by the pathogen component 
+lipopolysaccharide (LPS) and inflammatory cytokines, play important roles in the 
+development of bacterial sepsis-induced shock and tissue injury. Sepsis-induced 
+shock and tissue injury required receptor-interacting protein kinase-3 (RIPK3) 
+and mixed lineage kinase domain-like protein (MLKL) phosphorylation, caspase11 
+activation and gasdermin D (GSDMD) cleavage. However, the synergistic effect of 
+necroptosis and pyroptosis in the pathological progress of sepsis remains 
+elusive. In this study, we found that blockage of both necroptosis and 
+pyroptosis (double deletion of Ripk3/Gsdmd or Mlkl/Gsdmd) resulted in 
+accumulative protection against septic shock, systemic blood clotting and 
+multi-organ injury in mice. Bone marrow transplantation confirmed that 
+necroptosis and pyroptosis in both myeloid and nonmyeloid cells are 
+indispensable in the progression of sepsis-induced multi-organ injury. Both 
+RIPK3 and GSDMD signaling collaborated to amplify necroinflammation and tissue 
+factor release in macrophages and endothelial cells, which led to tissue injury. 
+Furthermore, cell death induced by inflammatory cytokines and high-mobility 
+group box 1 could be prevented by double ablation of Ripk3/Gsdmd or Mlkl/Gsdmd, 
+suggesting that a positive feedback loop interconnecting RIPK3/MLKL and GSDMD 
+machinery and inflammation facilitated sepsis progression. Collectively, our 
+findings demonstrated that RIPK3-mediated necroptosis and GSDMD-mediated 
+pyroptosis collaborated to amply inflammatory signaling and enhance tissue 
+injury in the process of sepsis, which may shed new light on two potential 
+targets of combined therapeutic interventions for this highly lethal disorder.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="878~922" text="double deletion of Ripk3/Gsdmd or Mlkl/Gsdmd" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1503~1547" text="double ablation of Ripk3/Gsdmd or Mlkl/Gsdmd" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="1034~1038" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1119~1147" text="myeloid and nonmyeloid cells" context="cells" />
+<CONTEXT id="C2" spans="1328~1339" text="macrophages" context="cells" />
+<CONTEXT id="C3" spans="1344~1361" text="endothelial cells" context="cells" />
+<PHENOTYPE id="PH0" spans="1405~1415" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="1490~1499" text="prevented" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

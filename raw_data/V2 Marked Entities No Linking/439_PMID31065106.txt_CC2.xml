@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Liver stage malaria infection is controlled by host regulators of lipid 
+peroxidation.
+
+The facets of host control during Plasmodium liver infection remain largely 
+unknown. We find that the SLC7a11-GPX4 pathway, which has been associated with 
+the production of reactive oxygen species, lipid peroxidation, and a form of 
+cell death called ferroptosis, plays a critical role in control of Plasmodium 
+liver stage infection. Specifically, blocking GPX4 or SLC7a11 dramatically 
+reduces Plasmodium liver stage parasite infection. In contrast, blocking 
+negative regulators of this pathway, NOX1 and TFR1, leads to an increase in 
+liver stage infection. We have shown previously that increased levels of P53 
+reduces Plasmodium LS burden in an apoptosis-independent manner. Here, we 
+demonstrate that increased P53 is unable to control parasite burden during NOX1 
+or TFR1 knockdown, or in the presence of ROS scavenging or when lipid 
+peroxidation is blocked. Additionally, SLC7a11 inhibitors Erastin and Sorafenib 
+reduce infection. Thus, blocking the host SLC7a11-GPX4 pathway serves to 
+selectively elevate lipid peroxides in infected cells, which localize within the 
+parasite and lead to the elimination of liver stage parasites.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="439~463" text="blocking GPX4 or SLC7a11" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="542~602" text="blocking  negative regulators of this pathway, NOX1 and TFR1" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="799~812" text="increased P53" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P3" spans="857~880" text="NOX1  or TFR1 knockdown" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="486~517" text="Plasmodium liver stage parasite" context="organism" />
+<CONTEXT id="C2" spans="834~842" text="parasite" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

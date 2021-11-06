@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SIRT1 modulates cell cycle progression by regulating CHK2 
+acetylation-phosphorylation.
+
+Both the stress-response protein, SIRT1, and the cell cycle checkpoint kinase, 
+CHK2, play critical roles in aging and cancer via the modulation of cellular 
+homeostasis and the maintenance of genomic integrity. However, the underlying 
+mechanism linking the two pathways remains elusive. Here, we show that SIRT1 
+functions as a modifier of CHK2 in cell cycle control. Specifically, SIRT1 
+interacts with CHK2 and deacetylates it at lysine 520 residue, which suppresses 
+CHK2 phosphorylation, dimerization, and thus activation. SIRT1 depletion induces 
+CHK2 hyperactivation-mediated cell cycle arrest and subsequent cell death. In 
+vivo, genetic deletion of Chk2 rescues the neonatal lethality of Sirt1-/- mice, 
+consistent with the role of SIRT1 in preventing CHK2 hyperactivation. Together, 
+these results suggest that CHK2 mediates the function of SIRT1 in cell cycle 
+progression, and may provide new insights into modulating cellular homeostasis 
+and maintaining genomic integrity in the prevention of aging and cancer.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="618~633" text="SIRT1 depletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="728~752" text="genetic deletion of Chk2" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="787~795" text="Sirt1-/-" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="718~726" text="In  vivo" context="in vivo" />
+<CONTEXT id="C1" spans="796~800" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="673~690" text="cell cycle arrest" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH1" spans="706~716" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="634~641" text="induces" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

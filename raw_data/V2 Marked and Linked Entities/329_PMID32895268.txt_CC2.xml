@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Exosome-transferred LINC01559 promotes the progression of gastric cancer via 
+PI3K/AKT signaling pathway.
+
+Increasing evidence indicates that long non-coding RNAs (lncRNAs) are associated 
+with the progression of human cancers. However, the expression level and 
+function of LINC01559 (long intergenic non-protein coding RNA 1559) in gastric 
+cancer (GC) are rarely reported. Here we found that LINC01559 was upregulated in 
+GC tissues based on GEPIA (Gene Expression Profiling Interactive Analysis) and 
+TCGA (The Cancer Genome Atlas) databases. Also, LINC01559 was expressed at a 
+lower level in GC cells than in mesenchymal stem cells (MSCs). In vitro 
+experiments revealed that silencing LINC01559 remarkably hindered GC cell 
+proliferation, migration and stemness. Then, we identified that LINC01559 was 
+transmitted form MSCs to GC cells via the exosomes. Immunofluorescence staining 
+and electron microscope validated the existence of exosomes in GC cells. 
+Mechanistically, LINC01559 sponged miR-1343-3p to upregulate PGK1 
+(phosphoglycerate kinase 1), therefore activating PI3K/AKT pathway. Moreover, 
+LINC01559 recruited EZH2 (enhancer of zeste 2 polycomb repressive complex 2 
+subunit) to PTEN (phosphatase and tensin homolog) promoter, inducing the 
+methylation of PTEN promoter and finally resulting in PTEN repression. Of note, 
+LINC01559 targeted both PGK1 and PTEN to promote GC progression by activating 
+PI3K/AKT pathway. Taken together, our study demonstrated that LINC01559 
+accelerated GC progression via upregulating PGK1 and downregulating PTEN to 
+trigger phosphatidylinositol 3-kinase/AKT serine/threonine kinase (PI3K/AKT) 
+pathway, indicating LINC01559 as a potential biomarker for GC treatment.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="682~701" text="silencing LINC01559" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="646~654" text="In vitro" context="in vitro" />
+<CONTEXT id="C1" spans="722~729" text="GC cell" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="731~744" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="746~755" text="migration" phenotype="migration" />
+<EFFECT id="E0" spans="713~721" text="hindered" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="silencing LINC01559" contextID="C1" contextText="GC cell" effectID="E0" effectText="hindered" phenotypeID="PH0" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="silencing LINC01559" effectID="E0" effectText="hindered" contextID="C1" contextText="GC cell" phenotypeID="PH1" phenotypeText="migration" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="silencing LINC01559" contextID="C0" contextText="In vitro" effectID="E0" effectText="hindered" phenotypeID="PH0" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P0" perturbing_actionText="silencing LINC01559" effectID="E0" effectText="hindered" contextID="C0" contextText="In vitro" phenotypeID="PH1" phenotypeText="migration" />
+</TAGS>
+</Genomics_ConceptTask>

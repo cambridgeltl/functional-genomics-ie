@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[KMT2D Deficiency Impairs Super-Enhancers to Confer a Glycolytic Vulnerability in 
+Lung Cancer.
+
+Epigenetic modifiers frequently harbor loss-of-function mutations in lung 
+cancer, but their tumor-suppressive roles are poorly characterized. Histone 
+methyltransferase KMT2D (a COMPASS-like enzyme, also called MLL4) is among the 
+most highly inactivated epigenetic modifiers in lung cancer. Here, we show that 
+lung-specific loss of Kmt2d promotes lung tumorigenesis in mice and upregulates 
+pro-tumorigenic programs, including glycolysis. Pharmacological inhibition of 
+glycolysis preferentially impedes tumorigenicity of human lung cancer cells 
+bearing KMT2D-inactivating mutations. Mechanistically, Kmt2d loss widely impairs 
+epigenomic signals for super-enhancers/enhancers, including the super-enhancer 
+for the circadian rhythm repressor Per2. Loss of Kmt2d decreases expression of 
+PER2, which regulates multiple glycolytic genes. These findings indicate that 
+KMT2D is a lung tumor suppressor and that KMT2D deficiency confers a therapeutic 
+vulnerability to glycolytic inhibitors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="409~436" text="lung-specific loss of Kmt2d" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="701~711" text="Kmt2d loss" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="849~862" text="Loss of Kmt2d" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="446~450" text="lung" context="tissue/organ" />
+<CONTEXT id="C1" spans="468~472" text="mice" context="organism" />
+<CONTEXT id="C2" spans="621~644" text="human lung cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="451~464" text="tumorigenesis" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH1" spans="603~617" text="tumorigenicity" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="437~445" text="promotes" effect="positive" />
+<EFFECT id="E1" spans="595~602" text="impedes" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="lung-specific loss of Kmt2d" effectID="E0" effectText="promotes" contextID="C0" contextText="lung" phenotypeID="PH0" phenotypeText="tumorigenesis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="lung-specific loss of Kmt2d" effectID="E0" effectText="promotes" phenotypeID="PH0" phenotypeText="tumorigenesis" contextID="C1" contextText="mice" />
+</TAGS>
+</Genomics_ConceptTask>

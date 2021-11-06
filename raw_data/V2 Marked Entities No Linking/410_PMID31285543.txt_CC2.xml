@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[FBXO45-MYCBP2 regulates mitotic cell fate by targeting FBXW7 for degradation.
+
+
+Cell fate decision upon prolonged mitotic arrest induced by 
+microtubule-targeting agents depends on the activity of the tumor suppressor and 
+F-box protein FBXW7. FBXW7 promotes mitotic cell death and prevents premature 
+escape from mitosis through mitotic slippage. Mitotic slippage is a process that 
+can cause chemoresistance and tumor relapse. Therefore, understanding the 
+mechanisms that regulate the balance between mitotic cell death and mitotic 
+slippage is an important task. Here we report that FBXW7 protein levels markedly 
+decline during extended mitotic arrest. FBXO45 binds to a conserved acidic 
+N-terminal motif of FBXW7 specifically under a prolonged delay in mitosis, 
+leading to ubiquitylation and subsequent proteasomal degradation of FBXW7 by the 
+FBXO45-MYCBP2 E3 ubiquitin ligase. Moreover, we find that FBXO45-MYCBP2 
+counteracts FBXW7 in that it promotes mitotic slippage and prevents cell death 
+in mitosis. Targeting this interaction represents a promising strategy to 
+prevent chemotherapy resistance.]]></TEXT>
+<TAGS>
+<PHENOTYPE id="PH0" spans="993~1003" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="984~992" text="prevents" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

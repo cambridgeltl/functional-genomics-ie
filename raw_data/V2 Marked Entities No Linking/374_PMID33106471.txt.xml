@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Rosuvastatin protects against coronary microembolization-induced cardiac injury 
+via inhibiting NLRP3 inflammasome activation.
+
+Coronary microembolization (CME), a common reason for periprocedural myocardial 
+infarction (PMI), bears very important prognostic implications. However, the 
+molecular mechanisms related to CME remain largely elusive. Statins have been 
+shown to prevent PMI, but the underlying mechanism has not been identified. 
+Here, we examine whether the NLRP3 inflammasome contributes to CME-induced 
+cardiac injury and investigate the effects of statin therapy on CME. In vivo 
+study, mice with CME were treated with 40 mg/kg/d rosuvastatin (RVS) orally or a 
+selective NLRP3 inflammasome inhibitor MCC950 intraperitoneally (20 mg/kg/d). 
+Mice treated with MCC950 and RVS showed improved cardiac contractile function 
+and morphological changes, diminished fibrosis and microinfarct size, and 
+reduced serum lactate dehydrogenase (LDH) level. Mechanistically, RVS decreased 
+the expression of NLRP3, caspase-1, interleukin-1β, and Gasdermin D N-terminal 
+domains. Proteomics analysis revealed that RVS restored the energy metabolism 
+and oxidative phosphorylation in CME. Furthermore, reduced reactive oxygen 
+species (ROS) level and alleviated mitochondrial damage were observed in 
+RVS-treated mice. In vitro study, RVS inhibited the activation of NLRP3 
+inflammasome induced by tumor necrosis factor α plus hypoxia in H9c2 cells. 
+Meanwhile, the pyroptosis was also suppressed by RVS, indicated by the increased 
+cell viability, decreased LDH and propidium iodide uptake in H9c2 cells. RVS 
+also reduced the level of mitochondrial ROS generation in vitro. Our results 
+indicate the NLRP3 inflammasome-dependent cardiac pyroptosis plays an important 
+role in CME-induced cardiac injury and its inhibitor exerts cardioprotective 
+effect following CME. We also uncover the anti-pyroptosis role of RVS in CME, 
+which is associated with regulating mitochondrial ROS.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="588~595" text="In vivo" context="in vivo" />
+<CONTEXT id="C1" spans="604~608" text="mice" context="organism" />
+<CONTEXT id="C2" spans="758~762" text="Mice" context="organism" />
+<CONTEXT id="C3" spans="1314~1318" text="mice" context="organism" />
+<CONTEXT id="C4" spans="1320~1328" text="In vitro" context="in vitro" />
+<CONTEXT id="C5" spans="1439~1449" text="H9c2 cells" context="cells" />
+<CONTEXT id="C6" spans="1595~1605" text="H9c2 cells" context="cells" />
+<CONTEXT id="C7" spans="1667~1675" text="in vitro" context="in vitro" />
+<PHENOTYPE id="PH0" spans="1467~1477" text="pyroptosis" phenotype="pyroptosis" />
+<PHENOTYPE id="PH1" spans="1534~1548" text="cell viability" phenotype="cell survival" />
+<EFFECT id="E0" spans="1487~1497" text="suppressed" effect="negative" />
+<EFFECT id="E1" spans="1523~1532" text="increased" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

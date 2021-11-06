@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Lysophosphatidic acid promotes survival of T lymphoma cells by altering 
+apoptosis and glucose metabolism.
+
+Lysophosphatidic acid (LPA) is a bioactive lipid, which plays an indispensable 
+role in various physiological and pathological processes. Moreover, an elevated 
+level of LPA has been observed in malignancies of different origins and 
+implicated in their progression via modulation of proliferation, apoptosis, 
+invasion and metastasis. Interestingly, few recent reports suggest a pivotal 
+role of LPA-modulated metabolism in oncogenesis of ovarian cancer. However, 
+little is understood regarding the role of LPA in the development and 
+progression of T cell malignancies, which are considered as one of the most 
+challenging neoplasms for clinical management. Additionally, mechanisms 
+underlying the LPA-dependent modulation of glucose metabolism in T cell lymphoma 
+are also not known. Therefore, the present study was undertaken to explore the 
+role of LPA-altered apoptosis and glucose metabolism on the survival of T 
+lymphoma cells. Observations of this investigation suggest that LPA supports 
+survival of T lymphoma cells via altering apoptosis and glucose metabolism 
+through changing the level of reactive species, namely nitric oxide and reactive 
+oxygen species along with expression of various survival and glucose metabolism 
+regulatory molecules, including hypoxia-inducible factor 1-alpha, p53, Bcl2, and 
+glucose transporter 3, hexokinase II, pyruvate kinase muscle isozyme 2, 
+monocarboxylate transporter 1, pyruvate dehydrogenase kinase 1. Taken together' 
+the results of the present investigation decipher the novel mechanisms of 
+LPA-mediated survival of T lymphoma cells via modulation of apoptosis and 
+glucose metabolism.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1122~1138" text="T lymphoma cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="1152~1161" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1143~1151" text="altering" effect="regulates" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Symbiotic Macrophage-Glioma Cell Interactions Reveal Synthetic Lethality in 
+PTEN-Null Glioma.
+
+Heterotypic interactions across diverse cell types can enable tumor progression 
+and hold the potential to expand therapeutic interventions. Here, combined 
+profiling and functional studies of glioma cells in glioblastoma multiforme 
+(GBM) models establish that PTEN deficiency activates YAP1, which directly 
+upregulates lysyl oxidase (LOX) expression. Mechanistically, secreted LOX 
+functions as a potent macrophage chemoattractant via activation of the β1 
+integrin-PYK2 pathway in macrophages. These infiltrating macrophages secrete 
+SPP1, which sustains glioma cell survival and stimulates angiogenesis. In 
+PTEN-null GBM models, LOX inhibition markedly suppresses macrophage infiltration 
+and tumor progression. Correspondingly, YAP1-LOX and β1 integrin-SPP1 signaling 
+correlates positively with higher macrophage density and lower overall survival 
+in GBM patients. This symbiotic glioma-macrophage interplay provides therapeutic 
+targets specifically for PTEN-deficient GBM.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="358~373" text="PTEN deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="709~718" text="PTEN-null" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="731~745" text="LOX inhibition" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="289~301" text="glioma cells" context="transformed cells" />
+<CONTEXT id="C1" spans="305~342" text="glioblastoma multiforme  (GBM) models" context="organism" />
+<CONTEXT id="C2" spans="719~729" text="GBM models" context="neoplasm" />
+<CONTEXT id="C3" spans="766~776" text="macrophage" context="cells" />
+<CONTEXT id="C4" spans="655~661" text="glioma" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="795~812" text="tumor progression" phenotype="tumour progression" />
+<PHENOTYPE id="PH1" spans="662~675" text="cell survival" phenotype="cell survival" />
+<EFFECT id="E0" spans="755~765" text="suppresses" effect="negative" />
+<EFFECT id="E1" spans="646~654" text="sustains" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="LOX inhibition" effectID="E0" effectText="suppresses" contextID="C2" contextText="GBM models" phenotypeID="PH0" phenotypeText="tumor progression" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cardiac Mitochondrial PTEN-L determines cell fate between apoptosis and survival 
+during chronic alcohol consumption.
+
+Chronic alcohol consumption induces myocardial damage and a type of non-ischemic 
+cardiomyopathy termed alcoholic cardiomyopathy, where mitochondrial 
+ultrastructural damages and suppressed fusion activity promote cardiomyocyte 
+apoptosis. The aim of the present study is to determine the role of 
+mitochondrial fission proteins and/or other proteins that localise on cardiac 
+mitochondria for apoptosis upon ethanol consumption. In vivo and in vitro 
+chronic alcohol exposure increased mitochondrial Drp1 levels but knockdown of 
+the same did not confer cardioprotection in H9c2 cells. These cells displayed 
+downregulated expression of MFN2 and OPA1 for Bak-mediated cytochrome c release 
+and apoptosis. Dysregulated PTEN/AKT cell survival signal in both ethanol 
+treated and Drp1 knockdown cells augmented oxidative stress by promoting  
+mitochondrial PTEN-L and MFN1 interaction. Inhibiting this interaction with 
+VO-OHpic, a reversible PTEN inhibitor, prevented Bak insertion into the 
+mitochondria and release of cytochrome c to cytoplasm. Thus, our study provides 
+evidence that Drp1-mediated mitochondrial fission is dispensable for 
+ethanol-induced cardiotoxicity and that stress signals induce mitochondrial 
+PTEN-L accumulation for structural and functional dyshomeostasis. Our in vivo 
+results also demonstrates the therapeutic potential of VO-OHpic for habitual 
+alcoholics developing myocardial dysfunction.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="897~911" text="Drp1 knockdown" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="912~917" text="cells" context="cells" />
+<CONTEXT id="C1" spans="712~717" text="cells" context="cells" />
+<CONTEXT id="C2" spans="694~704" text="H9c2 cells" context="cells" />
+<CONTEXT id="C3" spans="549~556" text="In vivo" context="in vivo" />
+<CONTEXT id="C4" spans="561~569" text="in vitro" context="in vitro" />
+<PHENOTYPE id="PH0" spans="814~823" text="apoptosis" phenotype="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

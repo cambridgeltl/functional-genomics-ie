@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cooperation between Constitutive and Inducible Chemokines Enables T Cell 
+Engraftment and Immune Attack in Solid Tumors.
+
+We investigated the role of chemokines in regulating T cell accumulation in 
+solid tumors. CCL5 and CXCL9 overexpression was associated with CD8+ T cell 
+infiltration in solid tumors. T cell infiltration required tumor cell-derived 
+CCL5 and was amplified by IFN-γ-inducible, myeloid cell-secreted CXCL9. CCL5 and 
+CXCL9 coexpression revealed immunoreactive tumors with prolonged survival and 
+response to checkpoint blockade. Loss of CCL5 expression in human tumors was 
+associated with epigenetic silencing through DNA methylation. Reduction of CCL5 
+expression caused tumor-infiltrating lymphocyte (TIL) desertification, whereas 
+forced CCL5 expression prevented Cxcl9 expression and TILs loss, and attenuated 
+tumor growth in mice through IFN-γ. The cooperation between tumor-derived CCL5 
+and IFN-γ-inducible CXCR3 ligands secreted by myeloid cells is key for 
+orchestrating T cell infiltration in immunoreactive and immunoresponsive tumors.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="549~572" text="Loss of CCL5 expression" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="656~685" text="Reduction of CCL5  expression" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="755~777" text="forced CCL5 expression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="306~312" text="T cell" context="cells" />
+<CONTEXT id="C1" spans="576~588" text="human tumors" context="neoplasm" />
+<CONTEXT id="C2" spans="693~728" text="tumor-infiltrating lymphocyte (TIL)" context="cells" />
+<CONTEXT id="C3" spans="809~813" text="TILs" context="cells" />
+<CONTEXT id="C4" spans="852~856" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="836~848" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="824~834" text="attenuated" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="forced CCL5 expression" contextID="C3" contextText="TILs" effectID="E0" effectText="attenuated" phenotypeID="PH0" phenotypeText="tumor growth" />
+</TAGS>
+</Genomics_ConceptTask>

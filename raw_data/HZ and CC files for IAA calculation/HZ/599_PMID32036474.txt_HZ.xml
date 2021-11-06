@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Exploitation of a novel phenothiazine derivative for its anti-cancer activities 
+in malignant glioblastoma.
+
+Glioblastoma remains the most malignant of all primary adult brain tumours with 
+poor patient survival and limited treatment options. This study adopts a drug 
+repurposing approach by investigating the anti-cancer activity of a derivative 
+of the antipsychotic drug phenothiazine (DS00329) in malignant U251 and U87 
+glioblastoma cells. Results from MTT 
+(3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) and clonogenic 
+assays showed that DS00329 inhibited short-term glioblastoma cell viability and 
+long-term survival while sparing non-cancerous cells. Western blot analysis with 
+an antibody to γH2AX showed that DS00329 induced DNA damage and flow cytometry 
+and western blotting confirmed that it triggered a G1 cell cycle arrest which 
+correlated with decreased levels in Cyclin A, Cyclin B, Cyclin D1 and cyclin 
+dependent kinase 2 and an increase in levels of the cyclin dependent kinase 
+inhibitor p21. DS00329 treated glioblastoma cells exhibited morphological and 
+molecular markers typical of apoptotic cells such as membrane blebbing and cell 
+shrinkage and an increase in levels of cleaved PARP. Flow cytometry with annexin 
+V-FITC/propidium iodide staining confirmed that DS00329 induced apoptotic cell 
+death in glioblastoma cells. We also show that DS00329 treatment of glioblastoma 
+cells led to an increase in the autophagosome marker LC3-II and autophagy 
+inhibition studies using bafilomycin A1 and wortmannin, showed that 
+DS00329-induced-autophagy was a pro-death mechanism. Furthermore, DS00329 
+treatment of glioblastoma cells inhibited the phosphatidylinositol 3'-kinase/Akt 
+cell survival pathway. Our findings suggest that DS00329 may be an effective 
+treatment for glioblastoma and provide a rationale for further exploration and 
+validation of the use of phenothiazines and their derivatives in the treatment 
+of glioblastoma.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="591~603" text="glioblastoma" context="transformed cells" />
+<CONTEXT id="C1" spans="657~676" text="non-cancerous cells" context="cells" />
+<CONTEXT id="C2" spans="1051~1069" text="glioblastoma cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1351~1369" text="glioblastoma cells" context="transformed cells" />
+<CONTEXT id="C4" spans="1410~1429" text="glioblastoma  cells" context="transformed cells" />
+<CONTEXT id="C5" spans="1656~1674" text="glioblastoma cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="604~618" text="cell viability" phenotype="cell survival" />
+<PHENOTYPE id="PH2" spans="840~857" text="cell cycle arrest" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH3" spans="1336~1347" text="cell  death" phenotype="cell death" />
+<PHENOTYPE id="PH4" spans="1488~1497" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH5" spans="1584~1593" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH6" spans="1725~1738" text="cell survival" phenotype="cell survival" />
+<EFFECT id="E0" spans="570~579" text="inhibited" effect="negative" />
+<EFFECT id="E2" spans="825~834" text="triggered" effect="positive" />
+<EFFECT id="E3" spans="1318~1325" text="induced" effect="positive" />
+<EFFECT id="E4" spans="1499~1509" text="inhibition" effect="negative" />
+<EFFECT id="E5" spans="1576~1583" text="induced" effect="positive" />
+<EFFECT id="E6" spans="1675~1684" text="inhibited" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

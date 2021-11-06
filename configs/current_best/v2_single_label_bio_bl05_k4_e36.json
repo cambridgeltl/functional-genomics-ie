@@ -6,10 +6,10 @@
         "TRANSFORMER_MODEL": "dmis-lab/biobert-v1.1",
         "HEADS": {
             "category": {"htype": "single_label", "num_labels": 9, "schema": "BIO"},
-            "perturbing_action": {"htype": "single_label", "num_labels": 13, "schema": "BIO"},
-            "context": {"htype": "single_label", "num_labels": 23, "schema": "BIO"},
-            "effect": {"htype": "single_label", "num_labels": 11, "schema": "BIO"},
-            "phenotype": {"htype": "single_label", "num_labels": 63, "schema": "BIO"}
+            "perturbing_action": {"htype": "single_label", "num_labels": 15, "schema": "BIO"},
+            "context": {"htype": "single_label", "num_labels": 25, "schema": "BIO"},
+            "effect": {"htype": "single_label", "num_labels": 13, "schema": "BIO"},
+            "phenotype": {"htype": "single_label", "num_labels": 65, "schema": "BIO"}
         },
         "TAG_LIST_DEFINITIONS": "tag_list_definitions_v2.json",
         "TAG_CATEGORY_DEFINITIONS": "tag_categories_v2.json",

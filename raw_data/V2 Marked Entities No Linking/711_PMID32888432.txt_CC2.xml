@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Integrated Omics of Metastatic Colorectal Cancer.
+
+We integrate the genomics, proteomics, and phosphoproteomics of 480 clinical 
+tissues from 146 patients in a Chinese colorectal cancer (CRC) cohort, among 
+which 70 had metastatic CRC (mCRC). Proteomic profiling differentiates three CRC 
+subtypes characterized by distinct clinical prognosis and molecular signatures. 
+Proteomic and phosphoproteomic profiling of primary tumors alone successfully 
+distinguishes cases with metastasis. Metastatic tissues exhibit high 
+similarities with primary tumors at the genetic but not the proteomic level, and 
+kinase network analysis reveals significant heterogeneity between primary 
+colorectal tumors and their liver metastases. In vivo xenograft-based drug tests 
+using 31 primary and metastatic tumors show personalized responses, which could 
+also be predicted by kinase-substrate network analysis no matter whether tumors 
+carry mutations in the drug-targeted genes. Our study provides a valuable 
+resource for better understanding of mCRC and has potential for clinical 
+application.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="722~729" text="In vivo" context="in vivo" />
+<CONTEXT id="C1" spans="730~739" text="xenograft" context="xenograft" />
+<CONTEXT id="C2" spans="767~796" text="primary and metastatic tumors" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

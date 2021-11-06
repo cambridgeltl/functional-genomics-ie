@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Artemisinin compounds sensitize cancer cells to ferroptosis by regulating iron 
+homeostasis.
+
+The antimalarial drug artemisinin and its derivatives have been explored as 
+potential anticancer agents, but their underlying mechanisms are controversial. 
+In this study, we found that artemisinin compounds can sensitize cancer cells to 
+ferroptosis, a new form of programmed cell death driven by iron-dependent lipid 
+peroxidation. Mechanistically, dihydroartemisinin (DAT) can induce lysosomal 
+degradation of ferritin in an autophagy-independent manner, increasing the 
+cellular free iron level and causing cells to become more sensitive to 
+ferroptosis. Further, by associating with cellular free iron and thus 
+stimulating the binding of iron-regulatory proteins (IRPs) with mRNA molecules 
+containing iron-responsive element (IRE) sequences, DAT impinges on 
+IRP/IRE-controlled iron homeostasis to further increase cellular free iron. 
+Importantly, in both in vitro and a mouse xenograft model in which ferroptosis 
+was triggered in cancer cells by the inducible knockout of GPX4, we found that 
+DAT can augment GPX4 inhibition-induced ferroptosis in a cohort of cancer cells 
+that are otherwise highly resistant to ferroptosis. Collectively, artemisinin 
+compounds can sensitize cells to ferroptosis by regulating cellular iron 
+homeostasis. Our findings can be exploited clinically to enhance the effect of 
+future ferroptosis-inducing cancer therapies.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1055~1081" text="inducible knockout of GPX4" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1114~1129" text="GPX4 inhibition" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="317~329" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C1" spans="959~967" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="974~995" text="mouse xenograft model" context="xenograft" />
+<CONTEXT id="C3" spans="1035~1047" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C4" spans="1165~1177" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C5" spans="1282~1287" text="cells" context="cells" />
+<CONTEXT id="C6" spans="606~612" text="cells " context="cells" />
+<PHENOTYPE id="PH0" spans="334~345" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="1005~1016" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH2" spans="1138~1149" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH3" spans="1291~1302" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH4" spans="641~652" text="ferroptosis" phenotype="ferroptosis" />
+<EFFECT id="E1" spans="1022~1031" text="triggered" effect="positive" />
+<EFFECT id="E2" spans="1130~1137" text="induced" effect="positive" />
+<EFFECT id="E3" spans="615~639" text="become more sensitive to" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="inducible knockout of GPX4" contextID="C3" contextText="cancer cells" phenotypeID="PH1" phenotypeText="ferroptosis" effectID="E1" effectText="triggered" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="inducible knockout of GPX4" contextID="C2" contextText="mouse xenograft model" effectID="E1" effectText="triggered" phenotypeID="PH1" phenotypeText="ferroptosis" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P1" perturbing_actionText="GPX4 inhibition" effectID="E2" effectText="induced" phenotypeID="PH2" phenotypeText="ferroptosis" contextID="C4" contextText="cancer cells" />
+</TAGS>
+</Genomics_ConceptTask>

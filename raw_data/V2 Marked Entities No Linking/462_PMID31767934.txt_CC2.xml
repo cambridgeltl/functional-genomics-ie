@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Proteasome-dependent degradation of Smad7 is critical for lung cancer 
+metastasis.
+
+Lung cancer is one of the cancers with highest morbidity and mortality rates and 
+the metastasis of lung cancer is a leading cause of death. Mechanisms of lung 
+cancer metastasis are yet to be fully understood. Herein, we demonstrate that 
+mice deficient for REGγ, a proteasome activator, exhibited a significant 
+reduction in tumor size, numbers, and metastatic rate with prolonged survival in 
+a conditional Kras/p53 mutant lung cancer model. REGγ enhanced the TGFβ-Smad 
+signaling pathway by ubiquitin-ATP-independent degradation of Smad7, an 
+inhibitor of the TGFβ pathway. Activated TGFβ signaling in REGγ-positive lung 
+cancer cells led to diminished expression of E-cadherin, a biomarker of 
+epithelial-mesenchymal transitions (EMT), and elevated mesenchymal markers 
+compared with REGγ-deficient lung cancer cells. REGγ overexpression was found in 
+lung cancer patients with metastasis, correlating with the reduction of 
+E-Cadherin/Smad7 and a poor prognosis. Overall, our study indicates that REGγ 
+promotes lung cancer metastasis by activating TGF-β signaling via degradation of 
+Smad7. Thus, REGγ may serve as a novel therapeutic target for lung cancers with 
+poor prognosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="482~509" text="conditional Kras/p53 mutant" perturbingaction="other" />
+<CONTEXT id="C0" spans="510~527" text="lung cancer model" context="neoplasm" />
+<CONTEXT id="C1" spans="690~722" text="REGγ-positive lung  cancer cells" context="transformed cells" />
+<CONTEXT id="C2" spans="873~905" text="REGγ-deficient lung cancer cells" context="transformed cells" />
+<CONTEXT id="C3" spans="324~328" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="436~451" text="metastatic rate" phenotype="metastasis" />
+<EFFECT id="E0" spans="398~407" text="reduction" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

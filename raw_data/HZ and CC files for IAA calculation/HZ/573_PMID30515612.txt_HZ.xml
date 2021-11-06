@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[NG25, a novel inhibitor of TAK1, suppresses KRAS-mutant colorectal cancer growth 
+in vitro and in vivo.
+
+KRAS mutations are one of the most prevalent genetic alterations in colorectal 
+cancer (CRC). Although directly targeting KRAS still is a challenge in 
+anti-cancer therapies, alternatively inhibiting KRAS related signaling pathways 
+has been approached effectively. Here we firstly reported that MAP kinase, 
+transforming growth factor-β-activated kinase 1 (TAK1), commonly expressed in 
+CRC cell lines and significantly associated with KRAS mutation status. 
+Inhibition of TAK1 by the small molecular inhibitor NG25 could inhibit CRC cells 
+proliferation in vitro and in vivo, especially in KRAS-mutant cells. NG25 
+induced caspase-dependent apoptosis in KRAS-mutant cells and in orthotopic CRC 
+mouse models by regulating the B-cell lymphoma-2 (Bcl-2) family and the 
+inhibitor of apoptosis protein (IAP) family. Besides inhibiting molecules 
+downstream of MAPK, including ERK, JNK and p38 phosphorylation, NG25 could block 
+NF-κB activation in KRAS-mutant cells. As a target gene of NF-κB, down-regulated 
+XIAP expression may be not only involved in apoptosis induced by NG25, but also 
+reducing the formation of TAK1-XIAP complex that can activate TAK1 downstream 
+signaling pathways, which forms a positive feedback loop to further induce 
+apoptosis in KRAS-mutant CRC cells. Together, these findings indicated that TAK1 
+is an important kinase for survival of CRCs harboring KRAS mutations, and that 
+NG25 may be a potential therapeutic strategy for KRAS-mutant CRC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="591~621" text="small molecular inhibitor NG25" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="697~708" text="KRAS-mutant" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="761~772" text="KRAS-mutant" perturbingaction="other" />
+<PERTURBING_ACTION id="P3" spans="1052~1063" text="KRAS-mutant" perturbingaction="other" />
+<PERTURBING_ACTION id="P5" spans="1363~1374" text="KRAS-mutant" perturbingaction="-" />
+<CONTEXT id="C1" spans="493~507" text="CRC cell lines" context="transformed cells" />
+<CONTEXT id="C4" spans="661~669" text="in vitro" context="in vitro" />
+<CONTEXT id="C5" spans="674~681" text="in vivo" context="in vivo" />
+<CONTEXT id="C6" spans="773~778" text="cells" context="cells" />
+<CONTEXT id="C7" spans="802~807" text="mouse" context="organism" />
+<CONTEXT id="C8" spans="1064~1069" text="cells" context="cells" />
+<CONTEXT id="C9" spans="1375~1384" text="CRC cells" context="transformed cells" />
+<CONTEXT id="C10" spans="709~714" text="cells" context="cells" />
+<CONTEXT id="C11" spans="636~645" text="CRC cells" context="transformed cells" />
+<PHENOTYPE id="PH1" spans="748~757" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1158~1167" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="1350~1359" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH4" spans="647~660" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="628~635" text="inhibit" effect="negative" />
+<EFFECT id="E1" spans="722~729" text="induced" effect="positive" />
+<EFFECT id="E2" spans="1168~1175" text="induced" effect="positive" />
+<EFFECT id="E3" spans="1342~1349" text="induce " effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

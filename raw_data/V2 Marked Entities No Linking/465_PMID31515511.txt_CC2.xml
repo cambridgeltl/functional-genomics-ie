@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Histone methyltransferase G9a protects against acute liver injury through GSTP1.
+
+Acute liver injury is commonly caused by bacterial endotoxin/lipopolysaccharide 
+(LPS), and by drug overdose such as acetaminophen (APAP). The exact role of 
+epigenetic modification in acute liver injury remains elusive. Here, we 
+investigated the role of histone methyltransferase G9a in LPS- or APAP 
+overdose-induced acute liver injury. Under D-galactosamine sensitization, 
+liver-specific G9a-deficient mice (L-G9a-/-) exhibited 100% mortality after LPS 
+injection, while the control and L-G9a+/- littermates showed very mild 
+mortality. Moreover, abrogation of hepatic G9a or inhibiting the 
+methyltransferase activity of G9a aggravated LPS-induced liver damage. 
+Similarly, under sublethal APAP overdose, L-G9a-/- mice displayed more severe 
+liver injury. Mechanistically, ablation of G9a inhibited H3K9me1 levels at the 
+promoters of Gstp1/2, two liver detoxifying enzymes, and consequently suppressed 
+their transcription. Notably, treating L-G9a-/- mice with recombinant mouse 
+GSTP1 reversed the LPS- or APAP overdose-induced liver damage. Taken together, 
+we identify a novel beneficial role of G9a-GSTP1 axis in protecting against 
+acute liver injury.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="460~488" text="liver-specific G9a-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="495~503" text="L-G9a-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="574~582" text="L-G9a+/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="634~659" text="abrogation of hepatic G9a" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="793~801" text="L-G9a-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P5" spans="861~876" text="ablation of G9a" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P6" spans="1031~1039" text="L-G9a-/-" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="489~493" text="mice" context="organism" />
+<CONTEXT id="C2" spans="736~741" text="liver" context="tissue/organ" />
+<CONTEXT id="C3" spans="802~806" text="mice" context="organism" />
+<CONTEXT id="C4" spans="830~835" text="liver" context="tissue/organ" />
+<CONTEXT id="C5" spans="1040~1044" text="mice" context="organism" />
+<CONTEXT id="C6" spans="1118~1123" text="liver" context="tissue/organ" />
+</TAGS>
+</Genomics_ConceptTask>

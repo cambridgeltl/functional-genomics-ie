@@ -28,8 +28,9 @@ If you dont, run **sh create_venv.sh**.
 ### Quick usage
 
 * To re-run the best models on new available V2 data (and also analyse it) run **sh retrain_new_data.sh**.
-It may take a while for models to train.
-The shell script will log model training to **outputs/log.txt** unbuffered so you can check this file periodically to see progress.
+It may take a while for models to train, use ctrl+z to suspend the process and then use command 'bg' to let the models train in the background.
+* Note - converting the rough analysis markdown files to pdfs is done with pandoc so without it this step will fail
+* The shell script will log model training to **outputs/log.txt** unbuffered so you can check this file periodically to see progress.
 * Once trained, data about the models and their training are stored in **outputs/outputs_db.json**.
 * Make a copy of the templates **link_full_analysis.json** and **tagging_full_analysis.json** that are found in the **configs/templates** folder.
 * Take the names of the models found in **outputs/outputs_db.json** and put them in list keyed by "MODELS".
@@ -61,6 +62,12 @@ Various shell scripts are given that will run files in the respective folders in
 ### Analysing runs
 
 See quick usage, more will be added here later.
+
+
+### Trouble shooting
+
+* If you get errors relating to packages, make sure you are in a properly configured virtual environment or if runnning things manually that you have the correct packages installed
+* The data agreement tool still has hardcoded tag categories (currently setup for v2) so make sure to alter them (or generalise like the other programs) if the tag scheme changes
 
 
 ## Other information
@@ -110,8 +117,7 @@ Just make sure the configs in that folder are up to date in terms of what is bes
 
 ### High Priority
 
-* Analyse the V2 single head models
-* Analyse the new V2 link model
+* Analysis of latest models on v2 data
 * Crf head
     * Find a way to speed up
     * Find a way to balance losses
@@ -125,14 +131,14 @@ Just make sure the configs in that folder are up to date in terms of what is bes
 
 ### Medium Priotity
 
-* Push benchmark
+* Make data_agreement tool use a tag categories definition file rather than hardcoding
 * Combined accuracy of joint prediction
     * Predict tags with one model and then links with other
     * How to measure this joint accuracy?
 * fgen deploy
     * Multi model deploy method that can decide on tags and then link them (using 2 models)
         * Some sort of continuous tag detection that groups output for those words (could be done via explicit methods or using link predictions)
-    * Test new deploy method with link data
+    * Add link prediction to deploy method
 * Fully support multi-input to transformer heads
     * Test multi input heads
 * Linking improvements

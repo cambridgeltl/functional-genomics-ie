@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SIRT3 promotes lipophagy and chaperon-mediated autophagy to protect hepatocytes 
+against lipotoxicity.
+
+Lipophagy is a lysosomal lipolytic pathway that complements the actions of 
+cytosolic neutral lipases. Chaperon-mediated autophagy (CMA) triggers lipid 
+droplets (LDs) breakdown, to initiate lipolysis via either cytosolic lipases or 
+macroautophagy. SIRT3, a mitochondrial NAD+-dependent deacetylase, regulates the 
+acetylation status and activity of many substrates involving in energy 
+metabolism. However, the role of SIRT3 in regulating lipophagy is controversial. 
+The current study showed that SIRT3 expression was decreased and the 
+macroautophagy flux was blocked in the primary hepatocytes from high-fat diet 
+fed mice and P/O (palmitic acid and oleic acid mixture) treated AML12 mouse 
+hepatocytes, compared with the corresponding controls. SIRT3 overexpression 
+promoted macroautophagy in LDs from P/O-treated hepatocytes through activating 
+AMP-activated protein kinase (AMPK) and unc-51-like kinase 1, to boost LDs 
+digestion. Gain of SIRT3 expression stimulated the formation of 
+lysosome-associated membrane protein 2A (LAMP-2A)-heat shock cognate 71 kDa 
+protein (HSC70)-perilipin-2 (PLN2) complex, to promote CMA process and reduce 
+the stability of LDs in hepatocytes. Moreover, SIRT3 reduced the expression of 
+stearoyl-CoA desaturase 1, to suppress lipogenesis. In addition, SIRT3 
+overexpression promoted LDs dispersion on detyrosinated microtubules, and 
+directly deacetylated long-chain acyl-CoA dehydrogenase to enhance mitochondrial 
+energetics. Taken together, SIRT3 ameliorates lipotoxicity in hepatocytes, which 
+might be a potential target for the treatment of nonalcoholic fatty liver 
+disease.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="855~875" text="SIRT3 overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="1044~1068" text="Gain of SIRT3 expression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="1399~1420" text="SIRT3  overexpression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="683~702" text="primary hepatocytes" context="cells" />
+<CONTEXT id="C1" spans="727~731" text="mice" context="organism" />
+<CONTEXT id="C2" spans="793~811" text="mouse  hepatocytes" context="cells" />
+<CONTEXT id="C3" spans="925~936" text="hepatocytes" context="cells" />
+<CONTEXT id="C4" spans="1278~1289" text="hepatocytes" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

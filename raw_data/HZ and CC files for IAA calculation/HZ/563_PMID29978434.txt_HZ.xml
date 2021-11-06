@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Staurosporine-induced apoptotic water loss is cell- and attachment-specific.
+
+Apoptotic volume decrease (AVD) is a characteristic cell shrinkage observed 
+during apoptosis. There are at least two known processes that may result in the 
+AVD: exit of intracellular water and splitting of cells into smaller fragments. 
+Although AVD has traditionally been attributed to water loss, direct evidence 
+for that is often lacking. In this study, we quantified intracellular water in 
+staurosporine-treated cells using a previously described optical microscopic 
+technique that combines volume measurements with quantitative phase analysis. 
+Water loss was observed in detached HeLa and in adherent MDCK but not in 
+adherent HeLa cells. At the same time, adherent HeLa and adherent MDCK cells 
+exhibited visually similar apoptotic morphology, including fragmentation and 
+activation of caspase-3. Morphological changes and caspase activation were 
+prevented by chloride channel blockers DIDS and NPPB in both adherent and 
+suspended HeLa cells, while potassium channel blocker TEA was ineffective. We 
+conclude that staurosporine-induced dehydration is not a universal cell response 
+but depends on the cell type and substrate attachment and can only be judged by 
+direct water measurements. The effects of potassium or chloride channel blockers 
+do not always correlate with the AVD.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="669~673" text="HeLa" context="cells" />
+<CONTEXT id="C1" spans="690~694" text="MDCK" context="cells" />
+<CONTEXT id="C2" spans="716~726" text="HeLa cells" context="cells" />
+<CONTEXT id="C3" spans="755~759" text="HeLa" context="cells" />
+<CONTEXT id="C4" spans="773~783" text="MDCK cells" context="cells" />
+<CONTEXT id="C5" spans="1024~1034" text="HeLa cells" context="cells" />
+<PHENOTYPE id="PH0" spans="812~832" text="apoptotic morphology" phenotype="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

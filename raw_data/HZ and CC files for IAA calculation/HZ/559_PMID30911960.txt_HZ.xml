@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Effects of annexin A7 inhibitor-ABO on the expression and distribution of long 
+noncoding RNA-CERNA1 in vascular endothelial cells apoptosis.
+
+More and more studies reported that diverse biological roles of long noncoding 
+RNAs were usually dependent on their subcellular location. In our previous 
+study, long noncoding RNA CERNA1 was identified both located in cytoplasm and 
+nucleus of vascular endothelial cells (VECs). And CERNA1 in cytoplasm, which 
+functioned as competitive endogenous RNA (ceRNA), alleviated the apoptosis of 
+VECs. However, the function of CERNA1 in nucleus was still unclear. In this 
+study, we found that nuclear CERNA1 positively regulated BCL2L10, which 
+accelerated the serum and FGF-2 starvation-induced apoptosis of VECs, by 
+enhancing the histone modification level of H3K9ac and H3K4me3 in BCL2L10 
+promoter region. Furthermore, due to the paradoxical function, we investigated 
+the variation of CERNA1 subcellular location in VECs. The results showed that, 
+as the change of apoptosis status, CERNA1 altered the cellular distribution in 
+VECs. And the annexin A7 inhibitor, ABO 
+(6-amino-2,3-dihydro-3-hydroxymethyl-1,4-benzoxazine), not only increased the 
+expression of CERNA1 by TIA-1, but also specifically improved its cytoplasm 
+distribution proportion so as to inhibit the apoptosis of VECs. This evidence 
+suggested that the subcellular location of CERNA1 played an important role in 
+the VECs apoptosis and ABO might be a potential chemical molecule for therapy of 
+VECs apoptosis related cardiovascular diseases.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="389~422" text="vascular endothelial cells (VECs)" context="cells" />
+<CONTEXT id="C1" spans="535~539" text="VECs" context="cells" />
+<CONTEXT id="C2" spans="749~753" text="VECs" context="cells" />
+<CONTEXT id="C3" spans="1329~1333" text="VECs" context="cells" />
+<PHENOTYPE id="PH0" spans="521~530" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="736~745" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1316~1325" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="506~516" text="alleviated" effect="negative" />
+<EFFECT id="E1" spans="685~696" text="accelerated" effect="positive" />
+<EFFECT id="E2" spans="728~735" text="induced" effect="positive" />
+<EFFECT id="E3" spans="1304~1311" text="inhibit" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Berberine mitigates IL-21/IL-21R mediated autophagic influx in fibroblast-like 
+synoviocytes and regulates Th17/Treg imbalance in rheumatoid arthritis.
+
+In our previous study, we explored the therapeutic effect of berberine (BBR) 
+against IL-21/IL-21R mediated inflammatory proliferation of adjuvant-induced 
+arthritic fibroblast-like synoviocytes (AA-FLS) through the PI3K/Akt pathway. 
+The current study was designed to explore the therapeutic potential of BBR 
+(15-45 µM) against IL-21/IL-21R mediated autophagy in AA-FLS mediated through 
+PI3K/Akt signaling and Th17/Treg imbalance. Upon IL-21 stimulation, AA-FLS 
+expressed elevated levels of autophagy-related 5 (Atg5), Beclin-1 and 
+LC3-phosphatidylethanolamine conjugate 3-II (LC3-II) through the utilization of 
+p62 and inhibition of C/EBP homologous protein (CHOP). BBR (15-45 µM) inhibited 
+autophagy in AA-FLS cells mediated through PI3K/Akt signaling via suppressing 
+autophagic elements, p62 sequestration and induction of CHOP in a dose-dependent 
+manner. Moreover, IL-21 promoted the uncontrolled proliferation of AA-FLS 
+through induction of B cell lymphoma-2 (Bcl-2) and diminished expression of 
+Bcl-2 associated X protein (BAX) via PI3K/Akt signaling. BBR inhibited the 
+proliferation of AA-FLS via promoting apoptosis through increased expression of 
+BAX and diminished Bcl-2 transcription factor levels. Furthermore, T cells 
+stimulated with IL-21 induced CD4+ CD196+ Th17 cells proliferation through RORγt 
+activation mediated in a PI3K/Akt dependent manner. BBR inhibited the 
+proliferation of Th17 cells through downregulation of RORγt in a 
+concentration-dependent manner. BBR also promoted the differentiation of CD4+ 
+CD25+ Treg cells through induction of forkhead box P3 (Foxp3) activation via 
+aryl hydrocarbon receptor (AhR) and upregulation of cytochrome P450 family 1, 
+subfamily A, polypeptide 1 (CYP1A1). Collectively, we conclude that BBR might 
+attenuate AA-FLS proliferation through inhibition of IL-21/IL-21R dependent 
+autophagy and regulates the Th17/Treg imbalance in RA.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="611~617" text="AA-FLS" context="cells" />
+<CONTEXT id="C1" spans="865~877" text="AA-FLS cells" context="cells" />
+<CONTEXT id="C2" spans="1080~1086" text="AA-FLS" context="cells" />
+<CONTEXT id="C3" spans="1258~1264" text="AA-FLS" context="cells" />
+<CONTEXT id="C4" spans="1389~1396" text="T cells" context="cells" />
+<CONTEXT id="C5" spans="1428~1450" text="CD4+ CD196+ Th17 cells" context="cells" />
+<CONTEXT id="C6" spans="1568~1578" text="Th17 cells" context="cells" />
+<CONTEXT id="C7" spans="1690~1712" text="CD4+  CD25+ Treg cells" context="cells" />
+<CONTEXT id="C8" spans="1942~1948" text="AA-FLS" context="cells" />
+<PHENOTYPE id="PH0" spans="852~861" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1063~1076" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH2" spans="1241~1254" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH3" spans="1279~1288" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH4" spans="1451~1464" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH5" spans="1551~1564" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH6" spans="1671~1686" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH7" spans="1949~1962" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="841~850" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="1037~1045" text="promoted" effect="positive" />
+<EFFECT id="E2" spans="1226~1235" text="inhibited" effect="negative" />
+<EFFECT id="E3" spans="1269~1278" text="promoting" effect="positive" />
+<EFFECT id="E4" spans="1420~1427" text="induced" effect="positive" />
+<EFFECT id="E5" spans="1536~1545" text="inhibited" effect="negative" />
+<EFFECT id="E6" spans="1658~1666" text="promoted" effect="positive" />
+<EFFECT id="E7" spans="1932~1941" text="attenuate" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

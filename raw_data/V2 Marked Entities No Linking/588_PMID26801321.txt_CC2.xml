@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Caspase-12 is involved in stretch-induced apoptosis mediated endoplasmic 
+reticulum stress.
+
+It is well recognized that mandibular growth, which is caused by a variety of 
+functional appliances, is considered to be the result of both neuromuscular and 
+skeletal adaptations. Accumulating evidence has demonstrated that apoptosis 
+plays an important role in the adaptation of skeletal muscle function. However, 
+the underlying mechanism of apoptosis that is induced by stretch continues to be 
+incompletely understood. Endoplasmic reticulum stress (ERS), a newly defined 
+signaling pathway, initiates apoptosis. This study seeks to determine if 
+caspase-12 is involved in stretch-induced apoptosis mediated endoplasmic 
+reticulum stress in myoblast and its underlying mechanism. Apoptosis was 
+assessed by Hochest staining, DAPI staining and annexin V binding and PI 
+staining. ER chaperones, such as GRP78, CHOP and caspase-12, were determined by 
+reverse transcription polymerase chain reaction (RT-PCR) and Western blot. 
+Furthermore, caspase-12 inhibitor was used to value the mechanism of the 
+caspase-12 pathway. Apoptosis of myoblast, which is subjected to cyclic stretch, 
+was observed in a time-dependent manner. We found that GRP78 mRNA and protein 
+were significantly increased and CHOP and caspase-12 were activated in myoblast 
+that was exposed to cyclic stretch. Caspase-12 inhibition reduced 
+stretch-induced apoptosis, and caspase-12 activated caspase-3 to induce 
+apoptosis. We concluded that caspase-12 played an important role in 
+stretch-induced apoptosis that is associated by endoplasmic reticulum stress by 
+activating caspase-3.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1376~1397" text="Caspase-12 inhibition" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1131~1139" text="myoblast" context="cells" />
+<CONTEXT id="C1" spans="1330~1338" text="myoblast" context="cells" />
+<PHENOTYPE id="PH0" spans="1118~1127" text="Apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1423~1432" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1480~1489" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1398~1405" text="reduced" effect="negative" />
+<EFFECT id="E1" spans="1415~1422" text="induced" effect="positive" />
+<EFFECT id="E2" spans="1472~1478" text="induce" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

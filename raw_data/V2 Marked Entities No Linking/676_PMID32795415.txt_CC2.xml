@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Ubiquitin Ligase COP1 Suppresses Neuroinflammation by Degrading c/EBPβ in 
+Microglia.
+
+Dysregulated microglia are intimately involved in neurodegeneration, including 
+Alzheimer's disease (AD) pathogenesis, but the mechanisms controlling pathogenic 
+microglial gene expression remain poorly understood. The transcription factor 
+CCAAT/enhancer binding protein beta (c/EBPβ) regulates pro-inflammatory genes in 
+microglia and is upregulated in AD. We show expression of c/EBPβ in microglia is 
+regulated post-translationally by the ubiquitin ligase COP1 (also called RFWD2). 
+In the absence of COP1, c/EBPβ accumulates rapidly and drives a potent 
+pro-inflammatory and neurodegeneration-related gene program, evidenced by 
+increased neurotoxicity in microglia-neuronal co-cultures. Antibody blocking 
+studies reveal that neurotoxicity is almost entirely attributable to complement. 
+Remarkably, loss of a single allele of Cebpb prevented the pro-inflammatory 
+phenotype. COP1-deficient microglia markedly accelerated tau-mediated 
+neurodegeneration in a mouse model where activated microglia play a deleterious 
+role. Thus, COP1 is an important suppressor of pathogenic c/EBPβ-dependent gene 
+expression programs in microglia.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="581~596" text="absence of COP1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="893~925" text="loss of a single allele of Cebpb" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="969~983" text="COP1-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="748~778" text="microglia-neuronal co-cultures" context="cells" />
+<CONTEXT id="C1" spans="984~993" text="microglia" context="cells" />
+<CONTEXT id="C2" spans="1052~1063" text="mouse model" context="organism" />
+<CONTEXT id="C3" spans="1080~1089" text="microglia" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

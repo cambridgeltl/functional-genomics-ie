@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RIP1 inhibition blocks inflammatory diseases but not tumor growth or metastases.
+
+The kinase RIP1 acts in multiple signaling pathways to regulate inflammatory 
+responses and it can trigger both apoptosis and necroptosis. Its kinase activity 
+has been implicated in a range of inflammatory, neurodegenerative, and oncogenic 
+diseases. Here, we explore the effect of inhibiting RIP1 genetically, using 
+knock-in mice that express catalytically inactive RIP1 D138N, or 
+pharmacologically, using the murine-potent inhibitor GNE684. Inhibition of RIP1 
+reduced collagen antibody-induced arthritis, and prevented skin inflammation 
+caused by mutation of Sharpin, or colitis caused by deletion of Nemo from 
+intestinal epithelial cells. Conversely, inhibition of RIP1 had no effect on 
+tumor growth or survival in pancreatic tumor models driven by mutant Kras, nor 
+did it reduce lung metastases in a B16 melanoma model. Collectively, our data 
+emphasize a role for the kinase activity of RIP1 in certain inflammatory disease 
+models, but question its relevance to tumor progression and metastases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="528~546" text="Inhibition of RIP1" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="678~694" text="deletion of Nemo" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="742~760" text="inhibition of RIP1" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="841~852" text="mutant Kras" perturbingaction="other" />
+<CONTEXT id="C0" spans="607~611" text="skin" context="tissue/organ" />
+<CONTEXT id="C1" spans="701~728" text="intestinal epithelial cells" context="cells" />
+<CONTEXT id="C2" spans="807~830" text="pancreatic tumor models" context="neoplasm" />
+<CONTEXT id="C3" spans="894~912" text="B16 melanoma model" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="779~791" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH1" spans="873~888" text="lung metastases" phenotype="metastasis" />
+<EFFECT id="E0" spans="765~774" text="no effect" effect="no effect" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="inhibition of RIP1" effectID="E0" effectText="no effect" phenotypeID="PH0" phenotypeText="tumor growth" contextID="C2" contextText="pancreatic tumor models" />
+</TAGS>
+</Genomics_ConceptTask>

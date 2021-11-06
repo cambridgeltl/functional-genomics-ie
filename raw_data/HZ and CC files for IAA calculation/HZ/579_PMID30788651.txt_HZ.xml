@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Simultaneous polychromatic flow cytometric detection of multiple forms of 
+regulated cell death.
+
+Currently the study of Regulated Cell Death (RCD) processes is limited to the 
+use of lysed cell populations for Western blot analysis of each separate RCD 
+process. We have previously shown that intracellular antigen flow cytometric 
+analysis of RIP3, Caspase-3 and cell viability dye allowed the determination of 
+levels of apoptosis (Caspase-3+ ve/RIP3- ve), necroptosis 
+(RIP3Hi + ve/Caspase-3- ve) and RIP1-dependent apoptosis 
+(Caspase-3+ ve/RIP3+ ve) in a single Jurkat cell population. The addition of 
+more intracellular markers allows the determination of the incidence of 
+parthanatos (PARP), DNA Damage Response (DDR, H2AX), H2AX hyper-activation of 
+PARP (H2AX/PARP) autophagy (LC3B) and ER stress (PERK), thus allowing the 
+identification of 124 sub-populations both within live and dead cell 
+populations. Shikonin simultaneously induced Jurkat cell apoptosis and 
+necroptosis the degree of which can be shown flow cytometrically together with 
+the effects of blockade of these forms of cell death by zVAD and necrostatin-1 
+have on specific RCD populations including necroptosis, early and late apoptosis 
+and RIP1-dependent apoptosis phenotypes in live and dead cells. Necrostatin-1 
+and zVAD was shown to modulate levels of shikonin induced DDR, hyper-action of 
+PARP and parthanatos in the four forms of RCD processes analysed. LC3B was 
+up-regulated by combined treatment of zVAD with chloroquine which also revealed 
+that DNA damage was reduced in live cells but enhanced in dead cells indicating 
+the role of autophagy in maintaining cell health. This approach to RCD research 
+should be a great advance to understanding the mechanisms of drugs and their 
+effects upon RCD populations.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

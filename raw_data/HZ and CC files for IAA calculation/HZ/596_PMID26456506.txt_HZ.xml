@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Bcl-2 silencing attenuates hypoxia-induced apoptosis resistance in pulmonary 
+microvascular endothelial cells.
+
+Pulmonary arterial hypertension (PAH) is a life-threatening disorder that 
+ultimately causes heart failure. While the underlying causes of this condition 
+are not well understood, previous studies suggest that the anti-apoptotic nature 
+of pulmonary microvascular endothelial cells (PMVECs) in hypoxic environments 
+contributes to PAH pathogenesis. In this study, we focus on the contribution of 
+Bcl-2 and hypoxia response element (HRE) to apoptosis-resistant endothelial 
+cells and investigate the mechanism. PMVECs obtained from either normal rats or 
+apoptosis-resistant PMVECs obtained from PAH rats were transduced with 
+recombinant lentiviral vectors carrying either Bcl-2-shRNA or HRE combined 
+Bcl-2-shRNA, and then cultured these cells for 24 h under hypoxic (5% O2) or 
+normoxic (21% O2) conditions. In normal PMVECs, Bcl-2-shRNA or HRE combined with 
+Bcl-2-shRNA transduction successfully decreased Bcl-2 expression, while 
+increasing apoptosis as well as caspase-3 and P53 expression in a normoxic 
+environment. In a hypoxic environment, the effects of Bcl-2-shRNA treatment on 
+cell apoptosis, and on Bcl-2, caspase-3, P53 expression were significantly 
+suppressed. Conversely, HRE activation combined with Bcl-2-shRNA transduction 
+markedly enhanced cell apoptosis and upregulated caspase-3 and P53 expression, 
+while decreasing Bcl-2 expression. Furthermore, in apoptosis-resistant PMVECs, 
+HRE-mediated Bcl-2 silencing effectively enhanced cell apoptosis and caspase-3 
+activity. The apoptosis rate was significantly depressed when Lv-HRE-Bcl-2-shRNA 
+was combined with Lv-P53-shRNA or Lv-caspase3-shRNA transduction in a hypoxic 
+environment. These results suggest that HRE-mediated Bcl-2 inhibition can 
+effectively attenuate hypoxia-induced apoptosis resistance in PMVECs by 
+downregulating Bcl-2 expression and upregulating caspase-3 and P53 expression. 
+This study therefore reveals critical insight into potential therapeutic targets 
+for treating PAH.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="786~797" text="Bcl-2-shRNA" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="815~826" text="Bcl-2-shRNA" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1178~1189" text="Bcl-2-shRNA" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="941~952" text="Bcl-2-shRNA" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="975~986" text="Bcl-2-shRNA" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P5" spans="1333~1344" text="Bcl-2-shRNA" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P7" spans="1661~1680" text="Lv-HRE-Bcl-2-shRNA " perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P8" spans="1699~1711" text="Lv-P53-shRNA" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P9" spans="1715~1732" text="Lv-caspase3-shRNA" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C1" spans="352~402" text="pulmonary microvascular endothelial cells (PMVECs)" context="cells" />
+<CONTEXT id="C2" spans="623~629" text="PMVECs" context="cells" />
+<CONTEXT id="C5" spans="933~939" text="PMVECs" context="cells" />
+<CONTEXT id="C8" spans="1510~1516" text="PMVECs" context="cells" />
+<PHENOTYPE id="PH0" spans="1059~1068" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1209~1218" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="1382~1391" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="1574~1583" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH4" spans="1613~1622" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1048~1058" text="increasing" effect="positive" />
+<EFFECT id="E1" spans="1280~1290" text="suppressed" effect="negative" />
+<EFFECT id="E2" spans="1368~1376" text="enhanced" effect="positive" />
+<EFFECT id="E3" spans="1560~1568" text="enhanced" effect="positive" />
+<EFFECT id="E4" spans="1646~1655" text="depressed" effect="negative" />
+<ENTITY_LINKING id="EN1" contextID="C5" contextText="PMVECs" perturbing_actionID="P4" perturbing_actionText="Bcl-2-shRNA" effectID="E0" effectText="increasing" phenotypeID="PH0" phenotypeText="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

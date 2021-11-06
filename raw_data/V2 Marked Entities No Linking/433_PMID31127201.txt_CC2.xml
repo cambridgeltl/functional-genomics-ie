@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LncRNA H19 initiates microglial pyroptosis and neuronal death in retinal 
+ischemia/reperfusion injury.
+
+Ischemia-reperfusion (I/R) is a common pathology when the blood supply to an 
+organ was disrupted and then restored. During the reperfusion process, 
+inflammation and tissue injury were triggered, which were mediated by 
+immunocytes and cytokines. However, the mechanisms initiating I/R-induced 
+inflammation and driving immunocytes activation remained largely unknown. In 
+this study, we identified long non-coding RNA (lncRNA)-H19 as the key onset of 
+I/R-induced inflammation. We found that I/R increased lncRNA-H19 expression to 
+significantly promote NLRP3/6 inflammasome imbalance and resulted in microglial 
+pyroptosis, cytokines overproduction, and neuronal death. These damages were 
+effectively inhibited by lncRNA-H19 knockout. Specifically, lncRNA-H19 
+functioned via sponging miR-21 to facilitate PDCD4 expression and formed a 
+competing endogenous RNA network (ceRNET) in ischemic cascade. LncRNA 
+H19/miR-21/PDCD4 ceRNET can directly regulate I/R-induced sterile inflammation 
+and neuronal lesion in vivo. We thus propose that lncRNA-H19 is a previously 
+unknown danger signals in the molecular and immunological pathways of I/R 
+injury, and pharmacological approaches to inhibit H19 seem likely to become 
+treatment modalities for patients in the near future based on these mechanistic 
+findings.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="822~841" text="lncRNA-H19 knockout" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="1116~1123" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="719~729" text="pyroptosis" phenotype="pyroptosis" />
+<EFFECT id="E0" spans="695~703" text="resulted" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RAB25 confers resistance to chemotherapy by altering mitochondrial apoptosis 
+signaling in ovarian cancer cells.
+
+Ovarian cancer remains one of the most frequent causes of cancer-related death 
+in women. Many patients with ovarian cancer suffer from de novo or acquired 
+resistance to chemotherapy. Here, we report that RAB25 suppresses 
+chemotherapy-induced mitochondrial apoptosis signaling in ovarian cancer cell 
+lines and primary ovarian cancer cells. RAB25 blocks chemotherapy-induced 
+apoptosis upstream of mitochondrial outer membrane permeabilization by either 
+increasing antiapoptotic BCL-2 proteins or decreasing proapoptotic BCL-2 
+proteins. In particular, BAX expression negatively correlates with RAB25 
+expression in ovarian cancer cells. BH3 profiling assays corroborated that RAB25 
+decreases mitochondrial cell death priming. Suppressing RAB25 by means of RNAi 
+or RFP14 inhibitory hydrocarbon-stapled peptide sensitizes ovarian cancer cells 
+to chemotherapy as well as RAB25-mediated proliferation, invasion and migration. 
+Our data suggest that RAB25 is a potential therapeutic target for ovarian 
+cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="845~879" text="Suppressing RAB25 by means of RNAi" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="733~753" text="ovarian cancer cells" context="transformed cells" />
+<CONTEXT id="C2" spans="940~960" text="ovarian cancer cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="492~501" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="825~835" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH2" spans="1004~1017" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH3" spans="1019~1027" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH4" spans="1032~1041" text="migration" phenotype="migration" />
+<EFFECT id="E0" spans="463~470" text="blocks " effect="negative" />
+<EFFECT id="E1" spans="483~490" text="induced" effect="positive" />
+<EFFECT id="E2" spans="801~810" text="decreases" effect="negative" />
+<EFFECT id="E3" spans="995~1003" text="mediated" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

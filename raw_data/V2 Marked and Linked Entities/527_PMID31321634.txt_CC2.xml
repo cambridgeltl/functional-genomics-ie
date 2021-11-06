@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Inhibition of SIRT1/2 upregulates HSPA5 acetylation and induces pro-survival 
+autophagy via ATF4-DDIT4-mTORC1 axis in human lung cancer cells.
+
+Sirtuins have emerged as a promising novel class of anti-cancer drug targets. 
+Inhibition of SIRT1 and SIRT2 induces apoptosis in cancer cells and they play 
+multifaceted roles in regulating autophagy. In the present study, we found that 
+salermide, a SIRT1/2-specific inhibitor or small interfering RNAs (siRNAs) to 
+block SIRT1/2 expression could induce autophagy in human NSCLC cells. Moreover, 
+SIRT1/2 inhibition increased the expression levels of ATF4 and DDIT4 and 
+downregulated p-RPS6KB1 and p-EIF4EBP1, two downstream molecules of mTORC1. 
+Moreover, ATF4 or DDIT4 knockdown attenuated salermide-induced autophagy, 
+suggesting that SIRT1/2 inhibition induced autophagy through the 
+ATF4-DDIT4-mTORC1 axis. Mechanistically, SIRT1/2 inhibition led to HSPA5 
+acetylation and dissociation from EIF2AK3, leading to ER stress response and 
+followed by upregulation of ATF4 and DDIT4, triggering autophagy. Silencing of 
+the autophagic gene ATG5 in lung cancer cells resulted in increased apoptotic 
+cell death induced by SIRT1/2 inhibition. Our data show that inhibition of 
+SIRT1/2 induces pro-survival autophagy via acetylation of HSPA5 and subsequent 
+activation of ATF4 and DDIT4 to inhibit the mTOR signaling pathway in NSCLC 
+cells. These findings suggest that combinatorial treatment with SIRT1/2 
+inhibitors and pharmacological autophagy inhibitors is an effective therapeutic 
+strategy for cancer therapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="426~486" text="small interfering RNAs (siRNAs) to  block SIRT1/2 expression" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="383~422" text="salermide, a SIRT1/2-specific inhibitor" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="543~561" text="SIRT1/2 inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P3" spans="704~727" text="ATF4 or DDIT4 knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P4" spans="785~803" text="SIRT1/2 inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P5" spans="876~894" text="SIRT1/2 inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P6" spans="1053~1091" text="Silencing of  the autophagic gene ATG5" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P7" spans="1168~1186" text="SIRT1/2 inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P8" spans="1207~1229" text="inhibition of  SIRT1/2" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="513~530" text="human NSCLC cells" context="transformed cells" />
+<CONTEXT id="C1" spans="1095~1112" text="lung cancer cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1372~1384" text="NSCLC  cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="500~509" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="757~766" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="812~821" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="1042~1051" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH4" spans="1135~1156" text="apoptotic  cell death" phenotype="autophagy" />
+<PHENOTYPE id="PH5" spans="1251~1260" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="493~499" text="induce" effect="positive" />
+<EFFECT id="E1" spans="728~738" text="attenuated" effect="negative" />
+<EFFECT id="E2" spans="804~811" text="induced" effect="positive" />
+<EFFECT id="E3" spans="1031~1041" text="triggering" effect="positive" />
+<EFFECT id="E4" spans="1125~1134" text="increased" effect="positive" />
+<EFFECT id="E5" spans="1230~1237" text="induces" effect="positive" />
+<EFFECT id="E6" spans="1157~1164" text="induced" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="salermide, a SIRT1/2-specific inhibitor" contextID="C0" contextText="human NSCLC cells" effectID="E0" effectText="induce" phenotypeID="PH0" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="small interfering RNAs (siRNAs) to  block SIRT1/2 expression" effectID="E0" effectText="induce" contextID="C0" contextText="human NSCLC cells" phenotypeID="PH0" phenotypeText="autophagy" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P6" perturbing_actionText="Silencing of  the autophagic gene ATG5" contextID="C1" contextText="lung cancer cells" effectID="E4" effectText="increased" phenotypeID="PH4" phenotypeText="apoptotic  cell death" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P7" perturbing_actionText="SIRT1/2 inhibition" contextID="C1" contextText="lung cancer cells" effectID="E6" effectText="induced" phenotypeID="PH4" phenotypeText="apoptotic  cell death" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P8" perturbing_actionText="inhibition of  SIRT1/2" effectID="E5" effectText="induces" phenotypeID="PH5" phenotypeText="autophagy" contextID="C2" contextText="NSCLC  cells" />
+</TAGS>
+</Genomics_ConceptTask>

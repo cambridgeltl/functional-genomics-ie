@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Matrix metalloproteinase 9 induces keratinocyte apoptosis through FasL/Fas 
+pathway in diabetic wound.
+
+Apoptosis is a mechanism to remove unwanted cells in the tissue. In diabetic 
+wound, which is characterized by delayed healing process, excessive apoptosis is 
+documented and plays a crucial role. Matrix metalloproteinase 9 (MMP9), which is 
+elevated in non-healed diabetic wound, is necessary for healing process but its 
+abnormality resulted in a delayed healing. The classical function of MMP9 is the 
+degradation of extracellular matrix (ECM). However, there is some literature 
+evidence that MMP9 triggers cell apoptosis. Whether the excessive MMP9 
+contributes to epidermis cell apoptosis in delayed healing diabetic wound and 
+the underlying mechanisms is not clear. In this study, we aimed to explore 
+whether MMP9 induced keratinocyte apoptosis and investigate the plausible 
+mechanisms. Our in vitro study showed that advanced glycation end products 
+(AGEs) induced keratinocyte apoptosis and enhanced MMP9 level. Besides, MMP9, 
+both intra-cellular expressions and extra-cellular supplement, promoted cell 
+apoptosis. Further, MMP9 resulted in an increased expression of FasL, other than 
+Fas and p53. These findings identified a novel effect that MMP9 exerted in 
+delayed diabetic wound healing, owing to a pro-apoptotic effect on keratinocyte, 
+which was mediated by an increase of FasL expression. This study increases 
+understanding of elevated MMP9 which is involved in diabetic wound repair and 
+offers some insights into novel future therapies.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="905~913" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="980~992" text="keratinocyte" context="cells" />
+<CONTEXT id="C2" spans="1116~1120" text="cell" context="cells" />
+<PHENOTYPE id="PH0" spans="993~1002" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1122~1131" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="972~979" text="induced" effect="positive" />
+<EFFECT id="E1" spans="1107~1115" text="promoted" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

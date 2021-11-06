@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[TREM2 Modulation Remodels the Tumor Myeloid Landscape Enhancing Anti-PD-1 
+Immunotherapy.
+
+Checkpoint immunotherapy unleashes T cell control of tumors, but is undermined 
+by immunosuppressive myeloid cells. TREM2 is a myeloid receptor that transmits 
+intracellular signals that sustain microglial responses during Alzheimer's 
+disease. TREM2 is also expressed by tumor-infiltrating macrophages. Here, we 
+found that Trem2-/- mice are more resistant to growth of various cancers than 
+wild-type mice and are more responsive to anti-PD-1 immunotherapy. Furthermore, 
+treatment with anti-TREM2 mAb curbed tumor growth and fostered regression when 
+combined with anti-PD-1. scRNA-seq revealed that both TREM2 deletion and 
+anti-TREM2 are associated with scant MRC1+ and CX3CR1+ macrophages in the tumor 
+infiltrate, paralleled by expansion of myeloid subsets expressing 
+immunostimulatory molecules that promote improved T cell responses. TREM2 was 
+expressed in tumor macrophages in over 200 human cancer cases and inversely 
+correlated with prolonged survival for two types of cancer. Thus, TREM2 might be 
+targeted to modify tumor myeloid infiltrates and augment checkpoint 
+immunotherapy.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="416~424" text="Trem2-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="699~713" text="TREM2 deletion" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="425~429" text="mice" context="organism" />
+<CONTEXT id="C1" spans="494~498" text="mice" context="organism" />
+<CONTEXT id="C2" spans="756~785" text="MRC1+ and CX3CR1+ macrophages" context="cells" />
+<CONTEXT id="C3" spans="917~923" text="T cell" context="cells" />
+<CONTEXT id="C4" spans="839~854" text="myeloid subsets" context="cells" />
+<PHENOTYPE id="PH0" spans="602~614" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="595~601" text="curbed" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

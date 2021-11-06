@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Dynamic PGAM5 multimers dephosphorylate BCL-xL or FUNDC1 to regulate 
+mitochondrial and cellular fate.
+
+Mitochondria are highly dynamic organelles and respond to stress by changing 
+their fission-fusion cycle, undergoing mitophagy, or releasing apoptotic 
+proteins to initiate cell death. The molecular mechanisms that sense different 
+stresses and coordinate distinct effectors still await full characterization. 
+Here, we show that PGAM5, which exists in an equilibrium between dimeric and 
+multimeric states, dephosphorylates BCL-xL to inhibit apoptosis or FUNDC1 to 
+activate mitofission and mitophagy in response to distinct stresses. In 
+vinblastine-treated cells, PGAM5 dephosphorylates BCL-xL at Ser62 to restore 
+BCL-xL sequestration of BAX and BAK and thereby resistance to apoptosis. 
+Selenite-induced oxidative stress increases the multimerization of PGAM5, 
+resulting in its dissociation from BCL-xL, which causes increased BCL-xL 
+phosphorylation and apoptosis. Once freed, the more multimeric and active PGAM5 
+dephosphorylates FUNDC1 to initiate mitofission and mitophagy. The reciprocal 
+interaction of PGAM5 with FUNDC1 and BCL-xL, controlled by PGAM5 
+multimerization, serves as a molecular switch between mitofission/mitophagy and 
+apoptosis.
+]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="664~669" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="547~556" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="596~605" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH2" spans="784~793" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="965~974" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH4" spans="1078~1087" text="mitophagy" phenotype="mitophagy" />
+<EFFECT id="E0" spans="539~546" text="inhibit" effect="negative" />
+<EFFECT id="E1" spans="571~579" text="activate" effect="positive" />
+<EFFECT id="E2" spans="770~780" text="resistance" effect="negative" />
+<EFFECT id="E3" spans="920~926" text="causes" effect="positive" />
+<EFFECT id="E4" spans="1053~1061" text="initiate" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

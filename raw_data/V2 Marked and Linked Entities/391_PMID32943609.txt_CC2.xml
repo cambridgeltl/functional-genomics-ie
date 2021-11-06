@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Wnt/β-catenin signaling pathway induces autophagy-mediated 
+temozolomide-resistance in human glioblastoma.
+
+Temozolomide (TMZ) is widely used for treating glioblastoma multiforme (GBM), 
+however, the treatment of such brain tumors remains a challenge due to the 
+development of resistance. Increasing studies have found that TMZ treatment 
+could induce autophagy that may link to therapeutic resistance in GBM, but, the 
+precise mechanisms are not fully understood. Understanding the molecular 
+mechanisms underlying the response of GBM to chemotherapy is paramount for 
+developing improved cancer therapeutics. In this study, we demonstrated that the 
+loss of DOC-2/DAB2 interacting protein (DAB2IP) is responsible for 
+TMZ-resistance in GBM through ATG9B. DAB2IP sensitized GBM to TMZ and suppressed 
+TMZ-induced autophagy by negatively regulating ATG9B expression. A higher level 
+of ATG9B expression was associated with GBM compared to low-grade glioma. The 
+knockdown of ATG9B expression in GBM cells suppressed TMZ-induced autophagy as 
+well as TMZ-resistance. Furthermore, we showed that DAB2IP negatively regulated 
+ATG9B expression by blocking the Wnt/β-catenin pathway. To enhance the benefit 
+of TMZ and avoid therapeutic resistance, effective combination strategies were 
+tested using a small molecule inhibitor blocking the Wnt/β-catenin pathway in 
+addition to TMZ. The combination treatment synergistically enhanced the efficacy 
+of TMZ in GBM cells. In conclusion, the present study identified the mechanisms 
+of TMZ-resistance of GBM mediated by DAB2IP and ATG9B which provides insight 
+into a potential strategy to overcome TMZ chemo-resistance.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="653~700" text="loss of DOC-2/DAB2 interacting protein (DAB2IP)" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="963~992" text="knockdown of ATG9B expression" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="739~742" text="GBM" context="neoplasm" />
+<CONTEXT id="C1" spans="776~779" text="GBM" context="neoplasm" />
+<CONTEXT id="C2" spans="996~1005" text="GBM cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1455~1464" text="GBM cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="815~824" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="1029~1038" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="807~814" text="induced" effect="positive" />
+<EFFECT id="E1" spans="1006~1016" text="suppressed" effect="negative" />
+<EFFECT id="E2" spans="1021~1028" text="induced" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="knockdown of ATG9B expression" contextID="C2" contextText="GBM cells" effectID="E1" effectText="suppressed" phenotypeID="PH1" phenotypeText="autophagy" />
+</TAGS>
+</Genomics_ConceptTask>

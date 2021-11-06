@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Activator protein-1 and caspase 8 mediate p38α MAPK-dependent cardiomyocyte 
+apoptosis induced by palmitic acid.
+
+Lipoapoptosis of cardiomyocytes may underlie diabetic cardiomyopathy. Numerous 
+forms of cardiomyopathies share a common end-pathway in which apoptotic loss of 
+cardiomyocytes is mediated by p38α mitogen activated protein kinase (MAPK). 
+Although we have previously shown that palmitic acid (PA), a saturated fatty 
+acid (SFA) elevated in plasma of type 2 diabetes mellitus and morbid obesity, 
+induces apoptosis in cardiomyocytes via p38α MAPK-dependent signaling, the 
+downstream cascade events that cause cell death remain unknown. The objective of 
+this study was to investigate mechanisms involved in palmitic acid-induced 
+cardiomyocyte apoptosis. Human adult ventricular cardiomyocyte line (AC16 cells) 
+exposed to high physiological levels of PA for 16 h showed enhanced 
+transcription and phosphorylation of c-fos and c-jun subunits of AP-1 and 
+transcription of caspase 8. When AC16 cells were transfected with small 
+interfering RNA specific against p38α MAPK (si-p38α) for 24 or 48 h, the 
+amplified phosphorylation of c-fos was dose-dependently attenuated, and 
+procaspase 8 was dose-dependently reduced. With translational knockdown of 
+c-fos, PA-induced apoptosis was diminished. Inhibition of caspase 8 for 24 h 
+reduced apoptosis in PA-treated cardiomyocytes. These findings provide evidence 
+for induction of apoptosis in cardiomyocytes exposed to high SFA by a novel 
+pathway requiring activation of c-fos/AP-1 and caspase 8. These results 
+demonstrate how elevated plasma SFA may lead to continual and cumulative loss of 
+cardiomyocytes and potentially contribute to the development of diabetic 
+cardiomyopathy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1035~1094" text="small  interfering RNA specific against p38α MAPK (si-p38α)" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1251~1270" text="knockdown of  c-fos" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="768~823" text="Human adult ventricular cardiomyocyte line (AC16 cells)" context="cells" />
+<CONTEXT id="C1" spans="1002~1012" text="AC16 cells" context="cells" />
+<CONTEXT id="C2" spans="1375~1389" text="cardiomyocytes" context="cells" />
+<PHENOTYPE id="PH0" spans="1283~1292" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1351~1360" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1297~1307" text="diminished" effect="negative" />
+<EFFECT id="E1" spans="1275~1282" text="induced" effect="positive" />
+<EFFECT id="E2" spans="1343~1350" text="reduced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

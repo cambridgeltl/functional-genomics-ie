@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Re-programing Chromatin with a Bifunctional LSD1/HDAC Inhibitor Induces 
+Therapeutic Differentiation in DIPG.
+
+H3K27M mutations resulting in epigenetic dysfunction are frequently observed in 
+diffuse intrinsic pontine glioma (DIPGs), an incurable pediatric cancer. We 
+conduct a CRISPR screen revealing that knockout of KDM1A encoding 
+lysine-specific demethylase 1 (LSD1) sensitizes DIPG cells to histone 
+deacetylase (HDAC) inhibitors. Consistently, Corin, a bifunctional inhibitor of 
+HDACs and LSD1, potently inhibits DIPG growth in vitro and in xenografts. 
+Mechanistically, Corin increases H3K27me3 levels suppressed by H3K27M histones, 
+and simultaneously increases HDAC-targeted H3K27ac and LSD1-targeted H3K4me1 at 
+differentiation-associated genes. Corin treatment induces cell death, cell-cycle 
+arrest, and a cellular differentiation phenotype and drives transcriptional 
+changes correlating with increased survival time in DIPG patients. These data 
+suggest a strategy for treating DIPG by simultaneously inhibiting LSD1 and 
+HDACs.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="308~325" text="knockout of KDM1A" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="384~394" text="DIPG cells" context="transformed cells" />
+<CONTEXT id="C1" spans="522~526" text="DIPG" context="neoplasm" />
+<CONTEXT id="C2" spans="534~542" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="550~560" text="xenografts" context="xenograft" />
+<CONTEXT id="C4" spans="936~949" text="DIPG patients" context="patient" />
+<PHENOTYPE id="PH0" spans="783~793" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH1" spans="795~813" text="cell-cycle  arrest" phenotype="cell cycle arrest" />
+<PHENOTYPE id="PH2" spans="830~855" text="differentiation phenotype" phenotype="differentiation" />
+<EFFECT id="E1" spans="775~782" text="induces" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

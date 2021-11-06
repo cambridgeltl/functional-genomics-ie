@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[DNA Replication Vulnerabilities Render Ovarian Cancer Cells Sensitive to 
+Poly(ADP-Ribose) Glycohydrolase Inhibitors.
+
+Inhibitors of poly(ADP-ribose) polymerase (PARP) have demonstrated efficacy in 
+women with BRCA-mutant ovarian cancer. However, only 15%-20% of ovarian cancers 
+harbor BRCA mutations, therefore additional therapies are required. Here, we 
+show that a subset of ovarian cancer cell lines and ex vivo models derived from 
+patient biopsies are sensitive to a poly(ADP-ribose) glycohydrolase (PARG) 
+inhibitor. Sensitivity is due to underlying DNA replication vulnerabilities that 
+cause persistent fork stalling and replication catastrophe. PARG inhibition is 
+synthetic lethal with inhibition of DNA replication factors, allowing additional 
+models to be sensitized by CHK1 inhibitors. Because PARG and PARP inhibitor 
+sensitivity are mutually exclusive, our observations demonstrate that PARG 
+inhibitors have therapeutic potential to complement PARP inhibitor strategies in 
+the treatment of ovarian cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="475~524" text="poly(ADP-ribose) glycohydrolase (PARG)  inhibitor" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="657~672" text="PARG inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="786~801" text="CHK1 inhibitors" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="380~405" text="ovarian cancer cell lines" context="transformed cells" />
+</TAGS>
+</Genomics_ConceptTask>

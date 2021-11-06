@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[OTULIN protects the liver against cell death, inflammation, fibrosis, and 
+cancer.
+
+Methionine-1 (M1)-linked polyubiquitin chains conjugated by the linear ubiquitin 
+chain assembly complex (LUBAC) control NF-κB activation, immune homoeostasis, 
+and prevents tumour necrosis factor (TNF)-induced cell death. The deubiquitinase 
+OTULIN negatively regulates M1-linked polyubiquitin signalling by removing the 
+chains conjugated by LUBAC, and OTULIN deficiency causes OTULIN-related 
+autoinflammatory syndrome (ORAS) in humans. However, the cellular pathways and 
+physiological functions controlled by OTULIN remain poorly understood. Here, we 
+show that OTULIN prevents development of liver disease in mice and humans. In an 
+ORAS patient, OTULIN deficiency caused spontaneous and progressive steatotic 
+liver disease at 10-13 months of age. Similarly, liver-specific deletion of 
+OTULIN in mice leads to neonatally onset steatosis and hepatitis, akin to the 
+ORAS patient. OTULIN deficiency triggers metabolic alterations, apoptosis, and 
+inflammation in the liver. In mice, steatosis progresses to steatohepatitis, 
+fibrosis and pre-malignant tumour formation by 8 weeks of age, and by the age of 
+7-12 months the phenotype has advanced to malignant hepatocellular carcinoma. 
+Surprisingly, the pathology in OTULIN-deficient livers is independent of TNFR1 
+signalling. Instead, we find that steatohepatitis in OTULIN-deficient livers is 
+associated with aberrant mTOR activation, and inhibition of mTOR by rapamycin 
+administration significantly reduces the liver pathology. Collectively, our 
+results reveal that OTULIN is critical for maintaining liver homoeostasis and 
+suggest that M1-linked polyubiquitin chains may play a role in regulation of 
+mTOR signalling and metabolism in the liver.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="850~884" text="liver-specific deletion of  OTULIN" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="971~988" text="OTULIN deficiency" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1307~1323" text="OTULIN-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="1409~1425" text="OTULIN-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="1483~1530" text="inhibition of mTOR by rapamycin  administration" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="888~892" text="mice" context="organism" />
+<CONTEXT id="C1" spans="1057~1062" text="liver" context="tissue/organ" />
+<CONTEXT id="C2" spans="1067~1071" text="mice" context="organism" />
+<CONTEXT id="C3" spans="1324~1330" text="livers" context="tissue/organ" />
+<CONTEXT id="C4" spans="1426~1432" text="livers" context="tissue/organ" />
+<CONTEXT id="C5" spans="1557~1562" text="liver" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="1021~1030" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1128~1158" text="pre-malignant tumour formation" phenotype="tumourigenesis" />
+<EFFECT id="E0" spans="989~997" text="triggers" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="OTULIN deficiency" effectID="E0" effectText="triggers" phenotypeID="PH0" phenotypeText="apoptosis" contextID="C1" contextText="liver" />
+</TAGS>
+</Genomics_ConceptTask>

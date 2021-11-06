@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Impaired autophagy increases susceptibility to endotoxin-induced chronic 
+pancreatitis.
+
+Chronic pancreatitis (CP) is associated with elevated plasma levels of bacterial 
+lipopolysaccharide (LPS) and we have demonstrated reduced acinar cell autophagy 
+in human CP tissue. Therefore, we investigated the role of autophagy in 
+experimental endotoxin-induced pancreatic injury and aimed to identify LPS in 
+human CP tissue. Pancreatic Atg7-deficient mice were injected with a single 
+sub-lethal dose of LPS. Expression of autophagy, apoptosis, necroptosis, and 
+inflammatory markers was determined 3 and 24 h later utilizing immunoblotting 
+and immunofluorescence. The presence of LPS in pancreatic tissue from mice and 
+from patients and healthy controls was determined using immunohistochemistry, 
+immunoblots, and chromogenic assay. Mice lacking pancreatic autophagy exhibited 
+local signs of inflammation and were particularly sensitive to the toxic effect 
+of LPS injection as compared to control mice. In response to LPS, Atg7Δpan mice 
+exhibited enhanced vacuolization of pancreatic acinar cells, increase in TLR4 
+expression coupled to enhanced expression of NF-κΒ, JNK, and pro-inflammatory 
+cytokines by acinar cells and enhanced infiltration by myeloid cells (but not 
+Atg7F/F controls). Cell death was enhanced in Atg7Δpan pancreata, but only 
+necroptosis and trypsin activation was further amplified following LPS injection 
+along with elevated pancreatic LPS. The presence of LPS was identified in the 
+pancreata from all 14 CP patients examined but was absent in the pancreata from 
+all 10 normal controls. Altogether, these results support a potential role for 
+metabolic endotoxemia in the pathogenesis of CP. Moreover, the evidence also 
+supports the notion that autophagy plays a major cytoprotective and 
+anti-inflammatory role in the pancreas, and blunting metabolic 
+endotoxemia-induced CP.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="421~446" text="Pancreatic Atg7-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1025~1033" text="Atg7Δpan" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1323~1331" text="Atg7Δpan" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="447~451" text="mice" context="organism" />
+<CONTEXT id="C1" spans="833~837" text="Mice" context="organism" />
+<CONTEXT id="C2" spans="999~1003" text="mice" context="organism" />
+<CONTEXT id="C3" spans="1034~1038" text="mice" context="organism" />
+<CONTEXT id="C4" spans="1076~1099" text="pancreatic acinar cells" context="cells" />
+<CONTEXT id="C5" spans="1211~1223" text="acinar cells" context="cells" />
+<CONTEXT id="C6" spans="1253~1266" text="myeloid cells" context="cells" />
+<CONTEXT id="C7" spans="1332~1341" text="pancreata" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="1296~1306" text="Cell death" phenotype="cell death" />
+<PHENOTYPE id="PH1" spans="1353~1364" text="necroptosis" phenotype="necroptosis" />
+<EFFECT id="E0" spans="1311~1319" text="enhanced" effect="positive" />
+<EFFECT id="E1" spans="1400~1409" text="amplified" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="Atg7Δpan" phenotypeID="PH0" phenotypeText="Cell death" effectID="E0" effectText="enhanced" contextID="C7" contextText="pancreata" />
+</TAGS>
+</Genomics_ConceptTask>

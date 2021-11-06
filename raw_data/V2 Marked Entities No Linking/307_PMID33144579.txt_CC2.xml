@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LncRNA LINC00472 regulates cell stiffness and inhibits the migration and 
+invasion of lung adenocarcinoma by binding to YBX1.
+
+There is increasing evidence that long non-coding RNAs (lncRNAs) play important 
+roles in human tumorigenesis. By using publicly available expression profiling 
+data from lung adenocarcinoma and integrating bioinformatics analysis, we 
+screened a lncRNA, LINC00472. LINC00472 expression in lung adenocarcinoma 
+tissues was significantly lower and tightly associated with patient prognosis 
+and TNM clinical stages in lung adenocarcinoma. LINC00472 also inhibited lung 
+adenocarcinoma cell migration and invasion and increased cell stiffness and 
+adhesion. RNA pull down and RIP assays identified that LINC00472 interacted with 
+the transcription factor Y-box binding protein 1 (YBX1), which partially 
+reversed the inhibition of cell migration and invasion and increased 
+LINC00472-induced cell stiffness and adhesion. LINC00472 also regulated the 
+density and integrity of F-actin in A549 and PC-9 cells possibly via YBX1. 
+LINC00472 inhibited the cell epithelial-mesenchymal transition (EMT) processes 
+via the modulation of YBX1. These results indicated that LINC00472 inhibited the 
+cell EMT process by binding to YBX1, and affected the mechanical properties of 
+the cell, ultimately inhibited its ability to invade and metastasize. 
+Collectively, the present study provides the first evidence that LINC00472 
+changes the mechanical properties and inhibits the invasion and metastasis of 
+lung adenocarcinoma cells.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="590~615" text="lung  adenocarcinoma cell" context="transformed cells" />
+<CONTEXT id="C1" spans="653~657" text="cell" context="cells" />
+<CONTEXT id="C2" spans="856~860" text="cell" context="cells" />
+<CONTEXT id="C3" spans="917~921" text="cell" context="cells" />
+<CONTEXT id="C5" spans="1076~1080" text="cell" context="cells" />
+<CONTEXT id="C6" spans="1214~1218" text="cell" context="cells" />
+<CONTEXT id="C7" spans="1298~1302" text="cell" context="cells" />
+<CONTEXT id="C8" spans="1012~1031" text="A549 and PC-9 cells" context="cells" />
+<PHENOTYPE id="PH0" spans="616~625" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH1" spans="630~638" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH2" spans="673~681" text="adhesion" phenotype="adhesion" />
+<PHENOTYPE id="PH3" spans="861~870" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH4" spans="875~883" text="invasion" phenotype="invasion" />
+<PHENOTYPE id="PH5" spans="1081~1130" text="epithelial-mesenchymal transition (EMT) processes" phenotype="epithelial-mesenchymal transition" />
+<PHENOTYPE id="PH6" spans="1219~1230" text="EMT process" phenotype="epithelial-mesenchymal transition" />
+<PHENOTYPE id="PH7" spans="1329~1346" text="ability to invade" phenotype="invasion" />
+<PHENOTYPE id="PH8" spans="936~944" text="adhesion" phenotype="adhesion" />
+<EFFECT id="E0" spans="580~589" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="643~652" text="increased" effect="positive" />
+<EFFECT id="E2" spans="829~852" text="reversed the inhibition" effect="rescues" />
+<EFFECT id="E3" spans="888~897" text="increased" effect="positive" />
+<EFFECT id="E4" spans="1062~1071" text="inhibited" effect="negative" />
+<EFFECT id="E5" spans="1199~1208" text="inhibited" effect="negative" />
+<EFFECT id="E6" spans="1315~1324" text="inhibited" effect="negative" />
+<EFFECT id="E7" spans="909~916" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

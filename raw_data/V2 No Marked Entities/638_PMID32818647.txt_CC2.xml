@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[IL4I1 Is a Metabolic Immune Checkpoint that Activates the AHR and Promotes Tumor 
+Progression.
+
+Aryl hydrocarbon receptor (AHR) activation by tryptophan (Trp) catabolites 
+enhances tumor malignancy and suppresses anti-tumor immunity. The context 
+specificity of AHR target genes has so far impeded systematic investigation of 
+AHR activity and its upstream enzymes across human cancers. A pan-tissue AHR 
+signature, derived by natural language processing, revealed that across 32 tumor 
+entities, interleukin-4-induced-1 (IL4I1) associates more frequently with AHR 
+activity than IDO1 or TDO2, hitherto recognized as the main Trp-catabolic 
+enzymes. IL4I1 activates the AHR through the generation of indole metabolites 
+and kynurenic acid. It associates with reduced survival in glioma patients, 
+promotes cancer cell motility, and suppresses adaptive immunity, thereby 
+enhancing the progression of chronic lymphocytic leukemia (CLL) in mice. Immune 
+checkpoint blockade (ICB) induces IDO1 and IL4I1. As IDO1 inhibitors do not 
+block IL4I1, IL4I1 may explain the failure of clinical studies combining ICB 
+with IDO1 inhibition. Taken together, IL4I1 blockade opens new avenues for 
+cancer therapy.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

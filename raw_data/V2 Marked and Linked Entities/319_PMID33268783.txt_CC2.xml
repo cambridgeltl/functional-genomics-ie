@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LncRNA LINC00998 inhibits the malignant glioma phenotype via the CBX3-mediated 
+c-Met/Akt/mTOR axis.
+
+Long noncoding RNAs (lncRNAs), once considered to be nonfunctional relics of 
+evolution, are emerging as essential genes in tumor progression. However, the 
+function and underlying mechanisms of lncRNAs in glioma remain unclear. This 
+study aimed to investigate the role of LINC00998 in glioma progression. Through 
+screening using TCGA database, we found that LINC00998 was downregulated in 
+glioblastoma tissues and that low expression of LINC00998 was associated with 
+poor prognosis. Overexpression of LINC00998 inhibited glioma cell proliferation 
+in vitro and in vivo and blocked the G1/S cell cycle transition, which exerted a 
+tumor-suppressive effect on glioma progression. Mechanistically, RNA pull-down 
+and mass spectrometry results showed an interaction between LINC00998 and CBX3. 
+IP assays demonstrated that LINC00998 could stabilize CBX3 and prevent its 
+ubiquitination degradation. GSEA indicated that LINC00998 could regulate the 
+c-Met/Akt/mTOR signaling pathway, which was further confirmed by a rescue assay 
+using siRNA-mediated knockdown of CBX3 and the Akt inhibitor MK2206. In 
+addition, dual-luciferase assays showed that miR-34c-5p could directly bind to 
+LINC00998 and downregulate its expression. Our results identified LINC00998 as a 
+novel tumor suppressor in glioma, and LINC00998 could be a novel prognostic 
+biomarker, providing a strategy for precision therapy in glioma patients.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="590~617" text="Overexpression of LINC00998" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="1139~1200" text="siRNA-mediated knockdown of CBX3 and the Akt inhibitor MK2206" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="628~639" text="glioma cell" context="transformed cells" />
+<CONTEXT id="C1" spans="655~663" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="668~675" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="765~771" text="glioma" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="640~653" text="proliferation" phenotype="proliferation" />
+<EFFECT id="E0" spans="618~627" text="inhibited" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Overexpression of LINC00998" effectID="E0" effectText="inhibited" contextID="C0" contextText="glioma cell" phenotypeID="PH0" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="Overexpression of LINC00998" effectID="E0" effectText="inhibited" phenotypeID="PH0" phenotypeText="proliferation" contextID="C1" contextText="in vitro" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="Overexpression of LINC00998" effectID="E0" effectText="inhibited" phenotypeID="PH0" phenotypeText="proliferation" contextID="C2" contextText="in vivo" />
+</TAGS>
+</Genomics_ConceptTask>

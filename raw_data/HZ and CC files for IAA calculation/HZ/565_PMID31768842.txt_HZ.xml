@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Effect of miR-27b-5p on apoptosis of human vascular endothelial cells induced by 
+simulated microgravity.
+
+Weightlessness-induced cardiovascular dysfunction can lead to physiological and 
+pathological consequences. It has been shown that spaceflight or simulated 
+microgravity can alter expression profiles of some microRNAs (miRNAs). Here, we 
+attempt to identify the role of miRNAs in human umbilical vein endothelial cells 
+(HUVECs) apoptosis under simulated microgravity. RNA-sequencing and quantitative 
+real-time PCR (qRT-PCR) assays were used to identify differentially expressed 
+miRNAs in HUVECs under simulated microgravity. Then we obtained the target genes 
+of these miRNAs through target analysis software. Moreover, GO and KEGG 
+enrichment analysis were performed. The effects of these miRNAs on HUVECs 
+apoptosis were evaluated by flow cytometry, Western blot and Hoechst staining. 
+Furthermore, we obtained the target gene of miR-27b-5p by luciferase assay, 
+qRT-PCR and Western blot. Finally, we investigated the relationship between this 
+target gene and miR-27b-5p in HUVECs apoptosis under normal gravity or simulated 
+microgravity. We found 29 differentially expressed miRNAs in HUVECs under 
+simulated microgravity. Of them, the expressions of 3 miRNAs were validated by 
+qRT-PCR. We demonstrated that miR-27b-5p affected HUVECs apoptosis by inhibiting 
+zinc fingers and homeoboxes 1 (ZHX1). Our results reported here demonstrate for 
+the first time that simulated microgravity can alter the expression of some 
+miRNAs in HUVECs and miR-27b-5p may protect HUVECs from apoptosis under 
+simulated microgravity by targeting ZHX1.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="387~435" text="human umbilical vein endothelial cells  (HUVECs)" context="cells" />
+<CONTEXT id="C1" spans="810~816" text="HUVECs" context="cells" />
+<CONTEXT id="C2" spans="1087~1093" text="HUVECs" context="cells" />
+<CONTEXT id="C3" spans="1200~1206" text="HUVECs" context="cells" />
+<CONTEXT id="C4" spans="1344~1350" text="HUVECs" context="cells" />
+<PHENOTYPE id="PH0" spans="1351~1360" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1335~1343" text="affected" effect="regulates" />
+<EFFECT id="E1" spans="1364~1374" text="inhibiting" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

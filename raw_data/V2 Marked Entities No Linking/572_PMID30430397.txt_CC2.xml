@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Molecular mechanisms of apoptosis and autophagy elicited by combined treatment 
+with oridonin and cetuximab in laryngeal squamous cell carcinoma.
+
+Combined oridonin (ORI), a natural and safe kaurene diterpenoid isolated from 
+Rabdosia rubescens, and cetuximab (Cet), an anti-EGFR monoclonal antibody, have 
+been reported to exert synergistic anti-tumor effects against laryngeal squamous 
+cell carcinoma (LSCC) both in vitro and in vivo by our group. In the present 
+study, we further found that ORI/Cet treatment not only resulted in apoptosis 
+but also induced autophagy. AMPK/mTOR signaling pathway was found to be involved 
+in the activation of autophagy in ORI/Cet-treated LSCC cells, which is 
+independent of p53 status. Additionally, chromatin immunoprecipitation (ChIP) 
+assay showed that ORI/Cet significantly increased the binding NF-κB family 
+member p65 with the promotor of BECN 1, and p65-mediated up-regulation of BECN 1 
+caused by ORI/Cet is coupled to increased autophagy. On the other hand, we 
+demonstrated that either Beclin 1 SiRNA or autophagy inhibitors could increase 
+ORI/Cet induced-apoptosis, indicating that autophagy induced by combination of 
+the two agents plays a cytoprotective role. Interestingly, 48 h after the 
+combined treatment, autophagy began to decrease but apoptosis was significantly 
+elevated. Our findings suggest that autophagy might be strongly associated with 
+the antitumor efficacy of ORI/Cet, which may be beneficial to the clinical 
+application of ORI/Cet in LSCC treatment.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1038~1052" text="Beclin 1 SiRNA" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="678~688" text="LSCC cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="535~544" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="563~572" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="649~658" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="979~988" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH4" spans="1109~1118" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH5" spans="1136~1145" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH6" spans="1268~1277" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH7" spans="1300~1309" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="523~534" text="resulted in" effect="positive" />
+<EFFECT id="E1" spans="555~562" text="induced" effect="positive" />
+<EFFECT id="E2" spans="635~645" text="activation" effect="positive" />
+<EFFECT id="E3" spans="969~978" text="increased" effect="positive" />
+<EFFECT id="E4" spans="1083~1091" text="increase" effect="positive" />
+<EFFECT id="E5" spans="1101~1108" text="induced" effect="positive" />
+<EFFECT id="E6" spans="1146~1153" text="induced" effect="positive" />
+<EFFECT id="E7" spans="1287~1295" text="decrease" effect="negative" />
+<EFFECT id="E8" spans="1329~1337" text="elevated" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

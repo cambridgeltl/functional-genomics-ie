@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Treating metastatic prostate cancer with microRNA-145.
+
+Prostate cancer (PCa) is an incurable disease at the metastatic stage. Although 
+there are different options for treatment, the results are limited. MicroRNAs 
+(miRNAs) are a group of small, noncoding, regulatory RNAs with important roles 
+in regulating gene expression. miR-145 is reported to be a key tumor suppressor 
+miRNA (tsmiR) that controls important oncogenes, such as MYC and RAS. In this 
+study, in vitro studies were performed to show the control of MYC and RAS by 
+miR-145. Flow cytometry was used to analyze cell proliferation and apoptosis. 
+The efficacy of miR-145 in treating metastatic PCa was tested in nude mice using 
+a model of bone metastasis promoted by intraventricular injection of PC-3MLuc-C6 
+cells. Tumor growth was evaluated by an in vivo bioluminescence system. After 
+the full establishment of metastases on day 21, six animals were treated with 
+three intravenous doses of miR-145 (on days 21, 24 and 27), and six were 
+injected with scramble miRNA as controls. Compared to the controls, tumor growth 
+was significantly reduced in animals receiving miR-145, most importantly on day 
+7 after the third and last dose of miRNA. After discontinuing the treatment, 
+tumor growth resumed, becoming similar to the group of non-treated animals. A 
+decrease in MYC and RAS expression was observed in all cell lines after 
+treatment with miR-145, although statistical significance was achieved only in 
+experiments with LNCaP and PC3 cell lines, with a decrease in 56% (p = 0.012) 
+and 31% (p = 0.013) of RAS expression, respectively. Our results suggest that 
+miR-145 is a potential molecule to be tested for treatment of metastatic, 
+castration-resistant PCa.]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="1120~1127" text="animals" context="organism" />
+<CONTEXT id="C2" spans="1499~1504" text="LNCaP" context="transformed cells" />
+<CONTEXT id="C3" spans="1509~1513" text="PC3 " context="transformed cells" />
+<CONTEXT id="C4" spans="463~471" text="in vitro" context="in vitro" />
+<CONTEXT id="C5" spans="817~824" text="in vivo" context="in vivo" />
+<CONTEXT id="C6" spans="1317~1324" text="animals" context="organism" />
+<CONTEXT id="C7" spans="678~687" text="nude mice" context="organism" />
+<CONTEXT id="C8" spans="764~782" text="PC-3MLuc-C6  cells" context="transformed cells" />
+<CONTEXT id="C9" spans="908~915" text="animals" context="organism" />
+<PHENOTYPE id="PH0" spans="882~892" text="metastases" phenotype="metastasis" />
+<PHENOTYPE id="PH1" spans="1077~1089" text="tumor growth" phenotype="tumour growth" />
+<PHENOTYPE id="PH2" spans="1250~1262" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="1109~1116" text="reduced" effect="negative" />
+<EFFECT id="E1" spans="1263~1270" text="resumed" effect="rescues" />
+</TAGS>
+</Genomics_ConceptTask>

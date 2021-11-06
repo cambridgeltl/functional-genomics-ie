@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[CNOT3 contributes to cisplatin resistance in lung cancer through inhibiting 
+RIPK3 expression.
+
+Chemotherapeutic resistance always results in poor clinical outcomes of cancer 
+patients and its intricate mechanisms are large obstacles in overcoming drug 
+resistance. CCR4-NOT transcription complex subunit 3 (CNOT3), a 
+post-translational regulator, is suggested to be involved in cancer development 
+and progression. However, its role in chemotherapeutic resistance is not well 
+understood. In this study, after screening the CNOT3 mRNA in a cancer microarray 
+database called Oncomine and examining the expression levels of CNOT3 mRNA in 
+normal tissues and lung cancer tissues, we found that CNOT3 was up-regulated in 
+lung cancer tissues. Besides, its high-expression was associated with poor 
+prognosis of lung cancer patients. We also found higher expression level of 
+CNOT3 and lower expression level of receptor-interacting protein kinase 3 
+(RIPK3) in cisplatin-resistant A549 (A549/DDP) cells, and knocking down CNOT3 
+expression could sensitize A549/DDP cells to cisplatin-induced apoptosis. We 
+demonstrated that CNOT3 depletion up-regulated the expression level of RIPK3 and 
+the enhanced apoptosis was mediated by the elevated RIPK3 to further trigger 
+Caspase 8 activation. Taken together, our results reveal a role of CNOT3 in 
+cisplatin resistance of lung cancer and provide a potential target for lung 
+cancer therapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1007~1026" text="knocking down CNOT3" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="721~740" text="lung cancer tissues" context="tissue/organ" />
+<CONTEXT id="C1" spans="980~1001" text="A549 (A549/DDP) cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1055~1069" text="A549/DDP cells" context="transformed cells" />
+<CONTEXT id="C3" spans="810~830" text="lung cancer patients" context="patient" />
+<PHENOTYPE id="PH0" spans="1091~1100" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1083~1090" text="induced" effect="positive" />
+<EFFECT id="E1" spans="1045~1054" text="sensitize" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="knocking down CNOT3" contextID="C2" contextText="A549/DDP cells" effectID="E0" effectText="induced" phenotypeID="PH0" phenotypeText="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

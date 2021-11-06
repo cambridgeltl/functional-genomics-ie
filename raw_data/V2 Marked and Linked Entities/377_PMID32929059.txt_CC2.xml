@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[P53-regulated miR-320a targets PDL1 and is downregulated in malignant 
+mesothelioma.
+
+Malignant pleural mesothelioma (MPM) is an aggressive cancer, related to 
+asbestos exposure, which has a dismal prognosis. MPM diagnosis is late and often 
+challenging, suggesting the need to identify more reliable molecular biomarkers. 
+Here, we set out to identify differentially expressed miRNAs in epithelioid, 
+biphasic, and sarcomatoid MPMs versus normal mesothelium and explored specific 
+miRNA contribution to mesothelial tumorigenesis. We screened an LNA™-based 
+miRNA-microrray with 14 formalin-fixed paraffin-embedded (FFPE) MPMs and 6 
+normal controls. Through real-time qRT-PCR we extended the analysis of a miRNA 
+subset and further investigated miR-320a role through state-of-the-art 
+techniques. We identified 16 upregulated and 32 downregulated miRNAs in MPMs 
+versus normal tissue, including the previously identified potential biomarkers 
+miR-21, miR-126, miR-143, miR-145. We showed in an extended series that miR-145, 
+miR-10b, and miR-320a levels can discriminate tumor versus controls with high 
+specificity and sensitivity. We focused on miR-320a because other family members 
+were found downregulated in MPMs. However, stable miR-320a ectopic expression 
+induced higher proliferation and migration ability, whereas miR-320a silencing 
+reduced these processes, not supporting a classic tumor-suppressor role in MPM 
+cell lines. Among putative targets, we found that miR-320a binds the 3'-UTR of 
+the immune inhibitory receptor ligand PDL1 and, consistently, miR-320a 
+modulation affects PDL1 levels in MPM cells. Finally, we showed that p53 
+over-expression induces the upregulation of miR-320a, along with miR-200a and 
+miR-34a, both known to target PDL1, and reduces PDL1 levels in MPM cells. Our 
+data suggest that PDL1 expression might be due to a defective p53-regulated 
+miRNA response, which could contribute to MPM immune evasion or tumorigenesis 
+through tumor-intrinsic roles.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="1230~1264" text="stable miR-320a ectopic expression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="1326~1344" text="miR-320a silencing" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P3" spans="1647~1667" text="p53  over-expression" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="1421~1436" text="MPM  cell lines" context="transformed cells" />
+<CONTEXT id="C1" spans="1612~1621" text="MPM cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1794~1803" text="MPM cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="1281~1294" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="1299~1308" text="migration" phenotype="migration" />
+<EFFECT id="E0" spans="1266~1273" text="induced" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="stable miR-320a ectopic expression" effectID="E0" effectText="induced" contextID="C0" contextText="MPM  cell lines" phenotypeID="PH0" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="stable miR-320a ectopic expression" effectID="E0" effectText="induced" phenotypeID="PH1" phenotypeText="migration" contextID="C0" contextText="MPM  cell lines" />
+</TAGS>
+</Genomics_ConceptTask>

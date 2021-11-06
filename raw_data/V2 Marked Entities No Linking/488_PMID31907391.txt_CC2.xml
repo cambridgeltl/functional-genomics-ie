@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Chchd2 regulates mitochondrial morphology by modulating the levels of Opa1.
+
+The mitochondrion is a highly dynamic organelle that is critical for energy 
+production and numerous metabolic processes. Drosophila Chchd2, a homolog of the 
+human disease-related genes CHCHD2 and CHCHD10, encodes a mitochondrial protein. 
+In this study, we found that loss of Chchd2 in flies resulted in progressive 
+degeneration of photoreceptor cells and reduced muscle integrity. In the flight 
+muscles of adult Chchd2 mutants, some mitochondria exhibited curling cristae and 
+a reduced number of cristae compared to those of controls. Overexpression of 
+Chchd2 carrying human disease-related point mutations failed to fully rescue the 
+mitochondrial defects in Chchd2 mutants. In fat body cells, loss of Chchd2 
+resulted in fragmented mitochondria that could be partially rescued by Marf 
+overexpression and enhanced by Opa1 RNAi. The expression level of Opa1 was 
+reduced in Chchd2 mutants and increased when Chchd2 was overexpressed. The 
+chaperone-like protein P32 co-immunoprecipitated with Chchd2 and YME1L, a 
+protease known to processes human OPA1. Moreover, the interaction between P32 
+and YME1L enhanced YME1L activity and promoted Opa1 degradation. Finally, Chchd2 
+stabilized Opa1 by competing with P32 for YME1L binding. We propose a model 
+whereby Chchd2 regulates mitochondrial morphology and tissue homeostasis by 
+fine-tuning the levels of OPA1.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="347~361" text="loss of Chchd2" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="618~690" text="Overexpression of  Chchd2 carrying human disease-related point mutations" perturbingaction="other" />
+<PERTURBING_ACTION id="P2" spans="744~758" text="Chchd2 mutants" perturbingaction="other" />
+<PERTURBING_ACTION id="P3" spans="779~793" text="loss of Chchd2" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="866~886" text="Marf  overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P5" spans="903~912" text="Opa1 RNAi" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P6" spans="959~973" text="Chchd2 mutants" perturbingaction="other" />
+<PERTURBING_ACTION id="P7" spans="993~1017" text="Chchd2 was overexpressed" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P8" spans="494~508" text="Chchd2 mutants" perturbingaction="other" />
+<CONTEXT id="C0" spans="365~370" text="flies" context="organism" />
+<CONTEXT id="C1" spans="412~431" text="photoreceptor cells" context="cells" />
+<CONTEXT id="C2" spans="444~450" text="muscle" context="tissue/organ" />
+<CONTEXT id="C3" spans="469~484" text="flight  muscles" context="tissue/organ" />
+<CONTEXT id="C5" spans="763~777" text="fat body cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

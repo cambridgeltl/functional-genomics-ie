@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Direct Phosphorylation and Stabilization of MYC by Aurora B Kinase Promote 
+T-cell Leukemogenesis.
+
+Deregulation of MYC plays an essential role in T cell acute lymphoblastic 
+leukemia (T-ALL), yet the mechanisms underlying its deregulation remain elusive. 
+Herein, we identify a molecular mechanism responsible for reciprocal activation 
+between Aurora B kinase (AURKB) and MYC. AURKB directly phosphorylates MYC at 
+serine 67, counteracting GSK3β-directed threonine 58 phosphorylation and 
+subsequent FBXW7-mediated proteasomal degradation. Stabilized MYC, in concert 
+with T cell acute lymphoblastic leukemia 1 (TAL1), directly activates AURKB 
+transcription, constituting a positive feedforward loop that reinforces 
+MYC-regulated oncogenic programs. Therefore, inhibitors of AURKB induce 
+prominent MYC degradation concomitant with robust leukemia cell death. These 
+findings reveal an AURKB-MYC regulatory circuit that underlies T cell 
+leukemogenesis, and provide a rationale for therapeutic targeting of oncogenic 
+MYC via AURKB inhibition.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="765~784" text="inhibitors of AURKB" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="843~851" text="leukemia" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="852~862" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="785~791" text="induce" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="inhibitors of AURKB" effectID="E0" effectText="induce" contextID="C0" contextText="leukemia" phenotypeID="PH0" phenotypeText="cell death" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Fibroblast mTOR/PPARγ/HGF axis protects against tubular cell death and acute 
+kidney injury.
+
+Kidney fibroblasts play a crucial role in dictating tubular cell fate and the 
+outcome of acute kidney injury (AKI). The underlying mechanisms remain to be 
+determined. Here, we found that mTOR signaling was activated in fibroblasts from 
+mouse kidneys with ischemia/reperfusion injury (IRI). Ablation of fibroblast 
+Rheb or Rictor promoted, while ablation of fibroblast Tsc1 protected against 
+tubular cell death and IRI in mice. In tubular cells cultured with conditioned 
+media (CM) from Rheb-/- or Rictor-/- fibroblasts, less hepatocyte growth factor 
+(HGF) receptor c-met signaling activation or staurosporine-induced cell 
+apoptosis was observed. While CM from Tsc1-/- fibroblasts promoted tubular cell 
+c-met signaling activation and inhibited staurosporine-induced cell apoptosis. 
+In kidney fibroblasts, blocking mTOR signaling downregulated the expression of 
+peroxisome proliferator-activated receptor gamma (PPARγ) and HGF. Downregulating 
+fibroblast HGF expression or blocking tubular cell c-met signaling facilitated 
+tubular cell apoptosis. Notably, renal PPARγ and HGF expression was less in mice 
+with fibroblast Rheb or Rictor ablation, but more in mice with fibroblast Tsc1 
+ablation than their littermate controls, respectively. Together, these data 
+suggest that mTOR signaling activation in kidney fibroblasts protects against 
+tubular cell death and dictates the outcome of AKI through stimulating PPARγ and 
+HGF expression.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="387~425" text="Ablation of fibroblast  Rheb or Rictor" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="442~469" text="ablation of fibroblast Tsc1" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="585~592" text="Rheb-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="596~605" text="Rictor-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P4" spans="761~768" text="Tsc1-/-" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P5" spans="1224~1247" text="Rheb or Rictor ablation" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P6" spans="1271~1296" text="fibroblast Tsc1  ablation" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P7" spans="1030~1071" text="Downregulating  fibroblast HGF expression" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="315~326" text="fibroblasts" context="cells" />
+<CONTEXT id="C1" spans="333~346" text="mouse kidneys" context="tissue/organ" />
+<CONTEXT id="C3" spans="519~523" text="mice" context="organism" />
+<CONTEXT id="C4" spans="528~541" text="tubular cells" context="cells" />
+<CONTEXT id="C5" spans="606~617" text="fibroblasts" context="cells" />
+<CONTEXT id="C6" spans="717~721" text="cell" context="cells" />
+<CONTEXT id="C7" spans="769~780" text="fibroblasts" context="cells" />
+<CONTEXT id="C8" spans="867~871" text="cell" context="cells" />
+<CONTEXT id="C9" spans="887~905" text="kidney fibroblasts" context="cells" />
+<CONTEXT id="C10" spans="1084~1096" text="tubular cell" context="cells" />
+<CONTEXT id="C11" spans="1126~1138" text="tubular cell" context="cells" />
+<CONTEXT id="C12" spans="1202~1206" text="mice" context="organism" />
+<CONTEXT id="C13" spans="1261~1265" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="497~507" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH1" spans="723~732" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="872~881" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH3" spans="1139~1148" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="426~434" text="promoted" effect="positive" />
+<EFFECT id="E1" spans="470~487" text="protected against" effect="negative" />
+<EFFECT id="E2" spans="619~623" text="less" effect="negative" />
+<EFFECT id="E3" spans="835~844" text="inhibited" effect="negative" />
+<EFFECT id="E4" spans="859~866" text="induced" effect="positive" />
+<EFFECT id="E5" spans="1113~1124" text="facilitated" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Ablation of fibroblast  Rheb or Rictor" effectID="E0" effectText="promoted" contextID="C3" contextText="mice" phenotypeID="PH0" phenotypeText="cell death" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P1" perturbing_actionText="ablation of fibroblast Tsc1" effectID="E1" effectText="protected against" phenotypeID="PH0" phenotypeText="cell death" contextID="C3" contextText="mice" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P7" perturbing_actionText="Downregulating  fibroblast HGF expression" effectID="E5" effectText="facilitated" contextID="C11" contextText="tubular cell" phenotypeID="PH3" phenotypeText="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

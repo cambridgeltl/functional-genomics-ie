@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Improved in vivo targeting of BCL-2 phenotypic conversion through hollow gold 
+nanoshell delivery.
+
+Although new cancer therapeutics are discovered at a rapid pace, lack of 
+effective means of delivery and cancer chemoresistance thwart many of the 
+promising therapeutics. We demonstrate a method that confronts both of these 
+issues with the light-activated delivery of a Bcl-2 functional converting 
+peptide, NuBCP-9, using hollow gold nanoshells. This approach has shown not only 
+to increase the efficacy of the peptide 30-fold in vitro but also has shown to 
+reduce paclitaxel resistant H460 lung xenograft tumor growth by 56.4%.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="532~540" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="571~611" text="paclitaxel resistant H460 lung xenograft" context="xenograft" />
+<PHENOTYPE id="PH0" spans="612~624" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="564~570" text="reduce" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

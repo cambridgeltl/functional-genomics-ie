@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[IL6/STAT3 Signaling Hijacks Estrogen Receptor α Enhancers to Drive Breast Cancer 
+Metastasis.
+
+The cytokine interleukin-6 (IL6) and its downstream effector STAT3 constitute a 
+key oncogenic pathway, which has been thought to be functionally connected to 
+estrogen receptor α (ER) in breast cancer. We demonstrate that IL6/STAT3 
+signaling drives metastasis in ER+ breast cancer independent of ER. STAT3 
+hijacks a subset of ER enhancers to drive a distinct transcriptional program. 
+Although these enhancers are shared by both STAT3 and ER, IL6/STAT3 activity is 
+refractory to standard ER-targeted therapies. Instead, inhibition of STAT3 
+activity using the JAK inhibitor ruxolitinib decreases breast cancer invasion 
+in vivo. Therefore, IL6/STAT3 and ER oncogenic pathways are functionally 
+decoupled, highlighting the potential of IL6/STAT3-targeted therapies in ER+ 
+breast cancer.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="619~684" text="inhibition of STAT3  activity using the JAK inhibitor ruxolitinib" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="695~708" text="breast cancer" context="neoplasm" />
+<CONTEXT id="C1" spans="719~726" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="709~717" text="invasion" phenotype="invasion" />
+<EFFECT id="E0" spans="685~694" text="decreases" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="inhibition of STAT3  activity using the JAK inhibitor ruxolitinib" effectID="E0" effectText="decreases" contextID="C0" contextText="breast cancer" phenotypeID="PH0" phenotypeText="invasion" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="inhibition of STAT3  activity using the JAK inhibitor ruxolitinib" effectID="E0" effectText="decreases" phenotypeID="PH0" phenotypeText="invasion" contextID="C1" contextText="in vivo" />
+</TAGS>
+</Genomics_ConceptTask>

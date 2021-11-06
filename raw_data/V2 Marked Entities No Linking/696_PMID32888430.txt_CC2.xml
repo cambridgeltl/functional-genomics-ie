@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Diet Diurnally Regulates Small Intestinal Microbiome-Epithelial-Immune 
+Homeostasis and Enteritis.
+
+Throughout a 24-h period, the small intestine (SI) is exposed to diurnally 
+varying food- and microbiome-derived antigenic burdens but maintains a strict 
+immune homeostasis, which when perturbed in genetically susceptible individuals, 
+may lead to Crohn disease. Herein, we demonstrate that dietary content and 
+rhythmicity regulate the diurnally shifting SI epithelial cell (SIEC) 
+transcriptional landscape through modulation of the SI microbiome. We exemplify 
+this concept with SIEC major histocompatibility complex (MHC) class II, which is 
+diurnally modulated by distinct mucosal-adherent SI commensals, while supporting 
+downstream diurnal activity of intra-epithelial IL-10+ lymphocytes regulating 
+the SI barrier function. Disruption of this diurnally regulated 
+diet-microbiome-MHC class II-IL-10-epithelial barrier axis by circadian clock 
+disarrangement, alterations in feeding time or content, or epithelial-specific 
+MHC class II depletion leads to an extensive microbial product influx, driving 
+Crohn-like enteritis. Collectively, we highlight nutritional features that 
+modulate SI microbiome, immunity, and barrier function and identify dietary, 
+epithelial, and immune checkpoints along this axis to be potentially exploitable 
+in future Crohn disease interventions.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1011~1054" text="epithelial-specific  MHC class II depletion" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="457~482" text="SI epithelial cell (SIEC)" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

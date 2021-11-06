@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[KRAS-IRF2 Axis Drives Immune Suppression and Immune Therapy Resistance in 
+Colorectal Cancer.
+
+The biological functions and mechanisms of oncogenic KRASG12D (KRAS∗) in 
+resistance to immune checkpoint blockade (ICB) therapy are not fully understood. 
+We demonstrate that KRAS∗ represses the expression of interferon regulatory 
+factor 2 (IRF2), which in turn directly represses CXCL3 expression. 
+KRAS∗-mediated repression of IRF2 results in high expression of CXCL3, which 
+binds to CXCR2 on myeloid-derived suppressor cells and promotes their migration 
+to the tumor microenvironment. Anti-PD-1 resistance of KRAS∗-expressing tumors 
+can be overcome by enforced IRF2 expression or by inhibition of CXCR2. 
+Colorectal cancer (CRC) showing higher IRF2 expression exhibited increased 
+responsiveness to anti-PD-1 therapy. The KRAS∗-IRF2-CXCL3-CXCR2 axis provides a 
+framework for patient selection and combination therapies to enhance the 
+effectiveness of ICB therapy in CRC.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="655~679" text="enforced IRF2 expression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="686~705" text="inhibition of CXCR2" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="611~634" text="KRAS∗-expressing tumors" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

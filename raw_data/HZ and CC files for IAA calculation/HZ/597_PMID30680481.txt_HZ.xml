@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Overexpression of augmenter of liver regeneration (ALR) mitigates the effect of 
+H(2)O(2)-induced endoplasmic reticulum stress in renal tubule epithelial cells.
+
+Ischemia/reperfusion is a major cause of acute kidney injury and can induce 
+apoptosis in renal epithelial tubule (HK-2) cells. Accumulating evidence 
+indicates that endoplasmic reticulum (ER) stress is a major contributor to 
+apoptosis in acute kidney injury. We previously reported that augmenter of liver 
+regeneration (ALR) functions as an anti-apoptotic factor in H2O2-treated HK-2 
+cells although the precise mechanism underlying this action remains unclear. In 
+the present study, we investigate the role of ALR in H2O2-induced ER 
+stress-mediated apoptosis. We overexpressed ALR and established a H2O2-induced 
+ER stress model in HK-2 cells. Overexpression of ALR reduced the level of 
+reactive oxygen species and the rate of apoptosis in H2O2-treated HK-2 cells. 
+Using confocal microscopy and western blot, we observed that ALR colocalized 
+with the ER and mitochondria compartment. Moreover, ALR suppressed ER stress by 
+maintaining the morphology of the ER and reducing the levels of the ER-related 
+proteins, glucose-regulated protein 78 (GRP78), phospho-protein kinase-like ER 
+kinase (p-PERK), phospho-eukaryotic initiation factor 2α (p-eIF2α) and 
+C/EBP-homologous protein (CHOP) significantly (p < 0.05). Mechanistically, ALR 
+promoted Bcl-2 expression and suppressed Bax and cleaved-caspase-3 expression 
+significantly during ER-stress induced apoptosis (p < 0.05). Furthermore, ALR 
+attenuated calcium release from the ER, and transfer to mitochondria, under ER 
+stress. To conclude, ALR alleviates H2O2-induced ER stress-mediated apoptosis in 
+HK-2 cells by suppressing ER stress response and by maintaining calcium 
+homeostasis. Consequently, ALR may protect renal tubule epithelial cells from 
+ischemia/reperfusion induced acute kidney injury.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P1" spans="812~833" text="Overexpression of ALR" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P0" spans="731~748" text="overexpressed ALR" perturbingaction="-" />
+<CONTEXT id="C0" spans="800~810" text="HK-2 cells" context="cells" />
+<CONTEXT id="C1" spans="252~288" text="renal epithelial tubule (HK-2) cells" context="cells" />
+<CONTEXT id="C2" spans="922~932" text="HK-2 cells" context="cells" />
+<PHENOTYPE id="PH0" spans="896~905" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="834~841" text="reduced" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Overexpression of ALR" effectID="E0" effectText="reduced" phenotypeID="PH0" phenotypeText="apoptosis" contextID="C2" contextText="HK-2 cells" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Lactate accelerates vascular calcification through NR4A1-regulated mitochondrial 
+fission and BNIP3-related mitophagy.
+
+Arterial media calcification is related to mitochondrial dysfunction. Protective 
+mitophagy delays the progression of vascular calcification. We previously 
+reported that lactate accelerates osteoblastic phenotype transition of VSMC 
+through BNIP3-mediated mitophagy suppression. In this study, we investigated the 
+specific links between lactate, mitochondrial homeostasis, and vascular 
+calcification. Ex vivo, alizarin S red and von Kossa staining in addition to 
+measurement of calcium content, RUNX2, and BMP-2 protein levels revealed that 
+lactate accelerated arterial media calcification. We demonstrated that lactate 
+induced mitochondrial fission and apoptosis in aortas, whereas mitophagy was 
+suppressed. In VSMCs, lactate increased NR4A1 expression, leading to activation 
+of DNA-PKcs and p53. Lactate induced Drp1 migration to the mitochondria and 
+enhanced mitochondrial fission through NR4A1. Western blot analysis of LC3-II 
+and p62 and mRFP-GFP-LC3 adenovirus detection showed that NR4A1 knockdown was 
+involved in enhanced autophagy flux. Furthermore, NR4A1 inhibited BNIP3-related 
+mitophagy, which was confirmed by TOMM20 and BNIP3 protein levels, and LC3-II 
+co-localization with TOMM20. The excessive fission and deficient mitophagy 
+damaged mitochondrial structure and impaired respiratory function, determined by 
+mPTP opening rate, mitochondrial membrane potential, mitochondrial morphology 
+under TEM, ATP production, and OCR, which was reversed by NR4A1 silencing. 
+Mechanistically, lactate enhanced fission but halted mitophagy via activation of 
+the NR4A1/DNA-PKcs/p53 pathway, evoking apoptosis, finally accelerating 
+osteoblastic phenotype transition of VSMC and calcium deposition. This study 
+suggests that the NR4A1/DNA-PKcs/p53 pathway is involved in the mechanism by 
+which lactate accelerates vascular calcification, partly through excessive 
+Drp-mediated mitochondrial fission and BNIP3-related mitophagy deficiency.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1119~1134" text="NR4A1 knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1595~1610" text="NR4A1 silencing" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="793~799" text="aortas" context="tissue/organ" />
+<CONTEXT id="C1" spans="839~844" text="VSMCs" context="cells" />
+<CONTEXT id="C2" spans="1805~1809" text="VSMC" context="cells" />
+<PHENOTYPE id="PH0" spans="780~789" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="809~818" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH2" spans="1161~1175" text="autophagy flux" phenotype="autophagy" />
+<PHENOTYPE id="PH3" spans="1221~1230" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH4" spans="1365~1374" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH5" spans="1666~1675" text="mitophagy" phenotype="mitophagy" />
+<PHENOTYPE id="PH6" spans="1735~1744" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="746~753" text="induced" effect="positive" />
+<EFFECT id="E1" spans="824~834" text="suppressed" effect="negative" />
+<EFFECT id="E2" spans="1152~1160" text="enhanced" effect="positive" />
+<EFFECT id="E3" spans="1196~1205" text="inhibited" effect="negative" />
+<EFFECT id="E4" spans="1355~1364" text="deficient" effect="negative" />
+<EFFECT id="E5" spans="1659~1665" text="halted" effect="negative" />
+<EFFECT id="E6" spans="1727~1734" text="evoking" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

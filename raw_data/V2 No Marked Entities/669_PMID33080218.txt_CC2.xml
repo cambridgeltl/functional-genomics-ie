@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[SARS-CoV-2 Disrupts Splicing, Translation, and Protein Trafficking to Suppress 
+Host Defenses.
+
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a recently 
+identified coronavirus that causes the respiratory disease known as coronavirus 
+disease 2019 (COVID-19). Despite the urgent need, we still do not fully 
+understand the molecular basis of SARS-CoV-2 pathogenesis. Here, we 
+comprehensively define the interactions between SARS-CoV-2 proteins and human 
+RNAs. NSP16 binds to the mRNA recognition domains of the U1 and U2 splicing RNAs 
+and acts to suppress global mRNA splicing upon SARS-CoV-2 infection. NSP1 binds 
+to 18S ribosomal RNA in the mRNA entry channel of the ribosome and leads to 
+global inhibition of mRNA translation upon infection. Finally, NSP8 and NSP9 
+bind to the 7SL RNA in the signal recognition particle and interfere with 
+protein trafficking to the cell membrane upon infection. Disruption of each of 
+these essential cellular functions acts to suppress the interferon response to 
+viral infection. Our results uncover a multipronged strategy utilized by 
+SARS-CoV-2 to antagonize essential cellular processes to suppress host defenses.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

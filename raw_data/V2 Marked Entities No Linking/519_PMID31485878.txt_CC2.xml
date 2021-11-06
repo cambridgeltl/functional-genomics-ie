@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[
+Rotenone protects against β-cell apoptosis and attenuates type 1 diabetes 
+mellitus.
+
+Type 1 diabetes mellitus (T1DM) is caused by pancreatic β-cell dysfunction and 
+apoptosis, with consequent severe insulin deficiency. Thus, β-cell protection 
+may be a primary target in the treatment of T1DM. Evidence has demonstrated that 
+defective mitochondrial function plays an important role in pancreatic β-cell 
+dysfunction and apoptosis; however, the fundamental effect of mitochondrial 
+complex I action on β-cells and T1DM remains unclear. In the current study, the 
+pancreas protective effect of complex I inhibitor rotenone (ROT) and its 
+potential mechanism were assessed in a streptozotocin (STZ)-induced mouse model 
+of T1DM and in cultured mouse pancreatic β-cell line, Min6. ROT treatment 
+exerted a hypoglycemic effect, restored the insulin level, and decreased 
+inflammation and cell apoptosis in the pancreas. In vitro experiments also 
+showed that ROT decreased STZ- and inflammatory cytokines-induced β-cell 
+apoptosis. These protective effects were accompanied by attenuation of reactive 
+oxygen species, increased mitochondrial membrane potential, and upregulation of 
+transcriptional coactivator PPARα coactivator 1α (PGC-1α)-controlled 
+mitochondrial biogenesis. These findings suggest that mitochondrial complex I 
+inhibition may represent a promising strategy for β-cell protection in T1DM.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="707~727" text="mouse model  of T1DM" context="organism" />
+<CONTEXT id="C1" spans="735~778" text="cultured mouse pancreatic β-cell line, Min6" context="cells" />
+<CONTEXT id="C2" spans="886~890" text="cell" context="cells" />
+<CONTEXT id="C3" spans="908~916" text="pancreas" context="tissue/organ" />
+<CONTEXT id="C4" spans="918~926" text="In vitro" context="in vitro" />
+<CONTEXT id="C5" spans="1011~1017" text="β-cell" context="cells" />
+<PHENOTYPE id="PH0" spans="891~900" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1019~1028" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="858~867" text="decreased" effect="negative" />
+<EFFECT id="E1" spans="961~970" text="decreased" effect="negative" />
+<EFFECT id="E2" spans="1003~1010" text="induced" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

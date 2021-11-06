@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Phase Separation of Disease-Associated SHP2 Mutants Underlies MAPK 
+Hyperactivation.
+
+The non-receptor protein tyrosine phosphatase (PTP) SHP2, encoded by PTPN11, 
+plays an essential role in RAS-mitogen-activated protein kinase (MAPK) signaling 
+during normal development. It has been perplexing as to why both enzymatically 
+activating and inactivating mutations in PTPN11 result in human developmental 
+disorders with overlapping clinical manifestations. Here, we uncover a common 
+liquid-liquid phase separation (LLPS) behavior shared by these 
+disease-associated SHP2 mutants. SHP2 LLPS is mediated by the conserved 
+well-folded PTP domain through multivalent electrostatic interactions and 
+regulated by an intrinsic autoinhibitory mechanism through conformational 
+changes. SHP2 allosteric inhibitors can attenuate LLPS of SHP2 mutants, which 
+boosts SHP2 PTP activity. Moreover, disease-associated SHP2 mutants can recruit 
+and activate wild-type (WT) SHP2 in LLPS to promote MAPK activation. These 
+results not only suggest that LLPS serves as a gain-of-function mechanism 
+involved in the pathogenesis of SHP2-associated human diseases but also provide 
+evidence that PTP may be regulated by LLPS that can be therapeutically targeted.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="829~841" text="SHP2 mutants" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="780~806" text="SHP2 allosteric inhibitors" perturbingaction="pharmacological inhibition" />
+</TAGS>
+</Genomics_ConceptTask>

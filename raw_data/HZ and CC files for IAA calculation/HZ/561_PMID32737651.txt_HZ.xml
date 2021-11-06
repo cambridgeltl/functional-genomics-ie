@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Regulatory T cells are less sensitive to glucocorticoid hormone induced 
+apoptosis than CD4(+) T cells.
+
+Earlier we have reported that thymic regulatory T cells (Treg) are resistant to 
+in vivo glucocorticoid hormone (GC)-induced apoptosis, while the most 
+GC-sensitive DP thymocytes died through the activation of mitochondrial 
+apoptotic pathway. Here we analyzed the apoptosis-inducing effect of high dose 
+(10-6 M) in vitro dexamethasone (DX) treatment in mouse thymic- and splenic 
+Tregs and CD4+ T cells. Activation of both extrinsic and intrinsic apoptotic 
+pathways started after 2 h of DX treatment in CD4 SP thymocytes and was 
+3 × higher than in CD4+ splenocytes, while in Treg cells, weak activation of the 
+extrinsic apoptotic pathway started only after 3 h. We also investigated the 
+expression of 21 apoptosis-related molecules using a protein array and found 
+higher level of both pro-and anti-apoptotic molecules in Tregs compared to CD4+ 
+T cells. 4 h in vitro DX treatment induced upregulation of most 
+apoptosis-related molecules both in Tregs and CD4+ T cells, except for the 
+decrease of Bcl-2 expression in CD4+ T cells. We found high basal cytosolic Ca2+ 
+levels in untreated Treg cells, which further increased after DX treatment, 
+while the specific TCR-induced Ca2+ signal was lower in Tregs than in CD4+ T 
+cells. Our results suggest that in the background of the relative apoptosis 
+resistance of Treg cells to GCs might be their high basal cytosolic Ca2+ level 
+and upregulated Bcl-2 expression. In contrast, downregulation of Bcl-2 
+expression in CD4+ T cells can explain their higher, DX-induced apoptosis 
+sensitivity.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="611~628" text="CD4 SP thymocytes" context="cells" />
+<CONTEXT id="C1" spans="657~673" text="CD4+ splenocytes" context="cells" />
+<CONTEXT id="C2" spans="684~694" text="Treg cells" context="cells" />
+<CONTEXT id="C3" spans="933~938" text="Tregs" context="cells" />
+<CONTEXT id="C4" spans="951~964" text="CD4+  T cells" context="cells" />
+<CONTEXT id="C5" spans="970~978" text="in vitro" context="in vitro" />
+<CONTEXT id="C6" spans="1058~1063" text="Tregs" context="cells" />
+<CONTEXT id="C7" spans="1068~1080" text="CD4+ T cells" context="cells" />
+<CONTEXT id="C8" spans="1130~1142" text="CD4+ T cells" context="cells" />
+<CONTEXT id="C9" spans="1200~1210" text="Treg cells" context="cells" />
+<CONTEXT id="C10" spans="1313~1318" text="Tregs" context="cells" />
+<CONTEXT id="C11" spans="1327~1340" text="CD4+ T  cells" context="cells" />
+<CONTEXT id="C12" spans="460~465" text="mouse" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Podocyte hypertrophy precedes apoptosis under experimental diabetic conditions.
+
+Podocyte hypertrophy and apoptosis are two hallmarks of diabetic glomeruli, but 
+the sequence in which these processes occur remains a matter of debate. Here we 
+investigated the effects of inhibiting hypertrophy on apoptosis, and vice versa, 
+in both podocytes and glomeruli, under diabetic conditions. Hypertrophy and 
+apoptosis were inhibited using an epidermal growth factor receptor inhibitor 
+(PKI 166) and a pan-caspase inhibitor (zAsp-DCB), respectively. We observed 
+significant increases in the protein expression of p27, p21, phospho-eukaryotic 
+elongation factor 4E-binding protein 1, and phospho-p70 S6 ribosomal protein 
+kinase, in both cultured podocytes exposed to high-glucose (HG) medium, and 
+streptozotocin-induced diabetes mellitus (DM) rat glomeruli. These increases 
+were significantly inhibited by PKI 166, but not by zAsp-DCB. In addition, the 
+amount of protein per cell, the relative cell size, and the glomerular volume 
+were all significantly increased under diabetic conditions, and these changes 
+were also blocked by treatment with PKI 166, but not zAsp-DCB. Increased protein 
+expression of cleaved caspase-3 and cleaved poly (ADP-ribose) polymerase, 
+together with increased Bax/Bcl-2 ratios, were also observed in HG-stimulated 
+podocytes and DM glomeruli. Treatment with either zAsp-DCB or PKI 166 resulted 
+in a significant attenuation of these effects. Both PKI 166 and zAsp-DCB also 
+inhibited the increase in number of apoptotic cells, as assessed by Hoechst 
+33342 staining and TUNEL assay. Under diabetic conditions, inhibition of 
+podocyte hypertrophy results in attenuated apoptosis, whereas blocking apoptosis 
+has no effect on podocyte hypertrophy, suggesting that podocyte hypertrophy 
+precedes apoptosis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="436~489" text="epidermal growth factor receptor inhibitor  (PKI 166)" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="496~528" text="pan-caspase inhibitor (zAsp-DCB)" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C1" spans="1345~1354" text="podocytes" context="cells" />
+<CONTEXT id="C2" spans="839~852" text="rat glomeruli" context="tissue/organ" />
+<PHENOTYPE id="PH0" spans="402~411" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="417~426" text="inhibited" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

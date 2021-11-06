@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[LINC00941 promotes CRC metastasis through preventing SMAD4 protein degradation 
+and activating the TGF-β/SMAD2/3 signaling pathway.
+
+LINC00941 is a novel lncRNA that has been found to exhibit protumorigenic and 
+prometastatic behaviors during tumorigenesis. However, its role in metastatic 
+CRC remains unknown. We aimed to investigate the functions and mechanisms of 
+LINC00941 in CRC metastasis. LINC00941 was shown to be upregulated in CRC, and 
+upregulated LINC00941 was associated with poor prognosis. Functionally, 
+LINC00941 promoted migratory and invasive capacities and accelerated lung 
+metastasis in nude mice. Mechanistically, LINC00941 activated EMT in CRC cells, 
+as indicated by the increased expression of key molecular markers of cell 
+invasion and metastasis (Vimentin, Fibronectin, and Twist1) and simultaneous 
+decreased expression of the main invasion suppressors E-cadherin and ZO-1. 
+LINC00941 was found to activate EMT by directly binding the SMAD4 protein MH2 
+domain and competing with β-TrCP to prevent SMAD4 protein degradation, thus 
+activating the TGF-β/SMAD2/3 signaling pathway. Our data reveal the essential 
+role of LINC00941 in metastatic CRC via activation of the TGF-β/SMAD2/3 axis, 
+which provides new insight into the mechanism of metastatic CRC and a novel 
+potential therapeutic target for advanced CRC.]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="611~620" text="nude mice" context="organism" />
+<CONTEXT id="C2" spans="666~675" text="CRC cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="555~574" text="invasive capacities" phenotype="invasion" />
+<PHENOTYPE id="PH1" spans="591~607" text="lung  metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH2" spans="659~662" text="EMT" phenotype="epithelial-mesenchymal transition" />
+<PHENOTYPE id="PH3" spans="939~942" text="EMT" phenotype="epithelial-mesenchymal transition" />
+<EFFECT id="E0" spans="532~540" text="promoted" effect="positive" />
+<EFFECT id="E1" spans="579~590" text="accelerated" effect="positive" />
+<EFFECT id="E2" spans="649~658" text="activated" effect="positive" />
+<EFFECT id="E3" spans="930~938" text="activate" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

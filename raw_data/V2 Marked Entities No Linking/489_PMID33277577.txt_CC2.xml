@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Activating transcription factor-4 promotes neuronal death induced by Parkinson's 
+disease neurotoxins and α-synuclein aggregates.
+
+Parkinson's disease (PD) is a neurodegenerative disease characterized by the 
+loss of dopaminergic neurons in the substantia nigra resulting in severe and 
+progressive motor impairments. However, the mechanisms underlying this neuronal 
+loss remain largely unknown. Oxidative stress and ER stress have been implicated 
+in PD and these factors are known to activate the integrated stress response 
+(ISR). Activating transcription factor 4 (ATF4), a key mediator of the ISR, and 
+has been reported to induce the expression of genes involved in cellular 
+homeostasis. However, during prolonged activation ATF4 can also induce the 
+expression of pro-death target genes. Therefore, in the present study, we 
+investigated the role of ATF4 in neuronal cell death in models of PD. We 
+demonstrate that PD neurotoxins (MPP+ and 6-OHDA) and α-synuclein aggregation 
+induced by pre-formed human alpha-synuclein fibrils (PFFs) cause sustained 
+upregulation of ATF4 expression in mouse cortical and mesencephalic dopaminergic 
+neurons. Furthermore, we demonstrate that PD neurotoxins induce the expression 
+of the pro-apoptotic factors Chop, Trb3, and Puma in dopaminergic neurons in an 
+ATF4-dependent manner. Importantly, we have determined that PD neurotoxin and 
+α-synuclein PFF induced neuronal death is attenuated in ATF4-deficient 
+dopaminergic neurons. Furthermore, ectopic expression of ATF4 but not 
+transcriptionally defective ATF4ΔRK restores sensitivity of ATF4-deficient 
+neurons to PD neurotoxins. Finally, we demonstrate that the eIF2α kinase 
+inhibitor C16 suppresses MPP+ and 6-OHDA induced ATF4 activation and protects 
+against PD neurotoxin induced dopaminergic neuronal death. Taken together these 
+results indicate that ATF4 promotes dopaminergic cell death induced by PD 
+neurotoxins and pathogenic α-synuclein aggregates and highlight the ISR factor 
+ATF4 as a potential therapeutic target in PD.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1441~1455" text="ATF4-deficient" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="1492~1518" text="ectopic expression of ATF4" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="1588~1602" text="ATF4-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="1098~1152" text="mouse cortical and mesencephalic dopaminergic  neurons" context="cells" />
+<CONTEXT id="C1" spans="1278~1298" text="dopaminergic neurons" context="cells" />
+<CONTEXT id="C2" spans="1457~1477" text="dopaminergic neurons" context="cells" />
+<CONTEXT id="C3" spans="1604~1611" text="neurons" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

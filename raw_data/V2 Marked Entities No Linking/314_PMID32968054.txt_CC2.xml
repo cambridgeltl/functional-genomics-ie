@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Circular RNA GLIS2 promotes colorectal cancer cell motility via activation of 
+the NF-κB pathway.
+
+Circular RNAs (circRNAs) are a newly discovered type of biological molecule that 
+belongs to the noncoding RNA family. Abundant evidence has shown that circRNAs 
+are involved in the progression of various cancers. However, the particular 
+functions of circRNAs in colorectal cancer (CRC) remain elusive. In this study, 
+we investigated the differentially expressed circRNAs in three pairs of cancer 
+tissue and adjacent normal tissue of CRC. We revealed that circGLIS2 expression 
+was higher in CRC tissue and cell lines. Gain-and-loss function assays showed 
+that circGLIS2 was involved in the regulation of cell migration. Moreover, 
+overexpressing circGLIS2 in CRC cells activated the NF-κB pathway and induced 
+pro-inflammatory chemokine production, which evoked tumor-associated 
+inflammation through recruiting leukocytes. In turn, when the cancer cells were 
+exposed to the supernatant of circGLIS2 overexpressed cancer cells, they were 
+endowed with the ability of migration and chemokines production. Furthermore, 
+the rescue assay confirmed that circGLIS2 activated NF-κB signaling and promoted 
+cell migration by sponging miR-671. Overall, our study reveals that circGLIS2, 
+acting as a potential oncogene, maintains the abnormal activation state of the 
+NF-κB signaling pathway via the miR-671 sponge mechanism in CRC cells. This 
+study provides a scientific basis for targeting circGLIS2 in colorectal cancer 
+interventions.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="735~759" text="overexpressing circGLIS2" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="995~1018" text="circGLIS2 overexpressed" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="708~712" text="cell" context="cells" />
+<CONTEXT id="C1" spans="763~772" text="CRC cells" context="transformed cells" />
+<CONTEXT id="C2" spans="946~958" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1019~1031" text="cancer cells" context="transformed cells" />
+<CONTEXT id="C4" spans="1205~1209" text="cell" context="cells" />
+<PHENOTYPE id="PH0" spans="713~722" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH1" spans="1072~1081" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH2" spans="1210~1219" text="migration" phenotype="migration" />
+<EFFECT id="E0" spans="694~704" text="regulation" effect="regulates" />
+<EFFECT id="E1" spans="1195~1203" text="promoted" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

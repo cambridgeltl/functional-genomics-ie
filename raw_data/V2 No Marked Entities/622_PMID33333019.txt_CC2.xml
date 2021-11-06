@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RNA-Mediated Feedback Control of Transcriptional Condensates.
+
+Regulation of biological processes typically incorporates mechanisms that 
+initiate and terminate the process and, where understood, these mechanisms often 
+involve feedback control. Regulation of transcription is a fundamental cellular 
+process where the mechanisms involved in initiation have been studied 
+extensively, but those involved in arresting the process are poorly understood. 
+Modeling of the potential roles of RNA in transcriptional control suggested a 
+non-equilibrium feedback control mechanism where low levels of RNA promote 
+condensates formed by electrostatic interactions whereas relatively high levels 
+promote dissolution of these condensates. Evidence from in vitro and in vivo 
+experiments support a model where RNAs produced during early steps in 
+transcription initiation stimulate condensate formation, whereas the burst of 
+RNAs produced during elongation stimulate condensate dissolution. We propose 
+that transcriptional regulation incorporates a feedback mechanism whereby 
+transcribed RNAs initially stimulate but then ultimately arrest the process.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[GABPA is a master regulator of luminal identity and restrains aggressive 
+diseases in bladder cancer.
+
+TERT promoter mutations occur in the majority of glioblastoma, bladder cancer 
+(BC), and other malignancies while the ETS family transcription factors GABPA 
+and its partner GABPB1 activate the mutant TERT promoter and telomerase in these 
+tumors. GABPA depletion or the disruption of the GABPA/GABPB1 complex by 
+knocking down GABPB1 was shown to inhibit telomerase, thereby eliminating the 
+tumorigenic potential of glioblastoma cells. GABPA/B1 is thus suggested as a 
+cancer therapeutic target. However, it is unclear about its role in BC. Here we 
+unexpectedly observed that GABPA ablation inhibited TERT expression, but 
+robustly increased proliferation, stem, and invasive phenotypes and cisplatin 
+resistance in BC cells, while its overexpression exhibited opposite effects, and 
+inhibited in vivo metastasizing in a xenograft transplant model. 
+Mechanistically, GABPA directly activates the transcription of FoxA1 and GATA3, 
+key transcription factors driving luminal differentiation of urothelial cells. 
+Consistently, TCGA/GEO dataset analyses show that GABPA expression is correlated 
+positively with luminal while negatively with basal signatures. Luminal tumors 
+express higher GABPA than do basal ones. Lower GABPA expression is associated 
+with the GABPA gene methylation or deletion (especially in basal subtype of BC 
+tumors), and predicted significantly shorter patient survival based on TCGA and 
+our cohort of BC patient analyses. Taken together, GABPA dictates luminal 
+identity of BC cells and inhibits aggressive diseases in BC by promoting 
+cellular differentiation despite its stimulatory effect on telomerase/TERT 
+activation. Given these biological functions and its frequent methylation and/or 
+deletion, GABPA serves as a tumor suppressor rather than oncogenic factor in BC. 
+The GABPA effect on oncogenesis is context-dependent and its targeting for 
+telomerase inhibition in BC may promote disease metastasizing.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="682~696" text="GABPA ablation" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="822~830" text="BC cells" context="transformed cells" />
+<CONTEXT id="C2" spans="900~907" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="927~953" text="xenograft transplant model" context="xenograft" />
+<PHENOTYPE id="PH0" spans="748~761" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="773~792" text="invasive phenotypes" phenotype="invasion" />
+<PHENOTYPE id="PH2" spans="908~921" text="metastasizing" phenotype="metastasis" />
+<EFFECT id="E0" spans="738~747" text="increased" effect="positive" />
+<EFFECT id="E1" spans="890~899" text="inhibited" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="GABPA ablation" effectID="E0" effectText="increased" phenotypeID="PH0" phenotypeText="proliferation" contextID="C0" contextText="BC cells" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="GABPA ablation" effectID="E0" effectText="increased" phenotypeID="PH1" phenotypeText="invasive phenotypes" contextID="C0" contextText="BC cells" />
+</TAGS>
+</Genomics_ConceptTask>

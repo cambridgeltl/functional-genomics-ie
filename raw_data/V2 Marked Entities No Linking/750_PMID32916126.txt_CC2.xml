@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Conserved Interferon-γ Signaling Drives Clinical Response to Immune Checkpoint 
+Blockade Therapy in Melanoma.
+
+We analyze the transcriptome of baseline and on-therapy tumor biopsies from 101 
+patients with advanced melanoma treated with nivolumab (anti-PD-1) alone or 
+combined with ipilimumab (anti-CTLA-4). We find that T cell infiltration and 
+interferon-γ (IFN-γ) signaling signatures correspond most highly with clinical 
+response to therapy, with a reciprocal decrease in cell-cycle and WNT signaling 
+pathways in responding biopsies. We model the interaction in 58 human cell 
+lines, where IFN-γ in vitro exposure leads to a conserved transcriptome response 
+unless cells have IFN-γ receptor alterations. This conserved IFN-γ transcriptome 
+response in melanoma cells serves to amplify the antitumor immune response. 
+Therefore, the magnitude of the antitumor T cell response and the corresponding 
+downstream IFN-γ signaling are the main drivers of clinical response or 
+resistance to immune checkpoint blockade therapy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="572~589" text="human cell  lines" context="cells" />
+<CONTEXT id="C1" spans="603~611" text="in vitro" context="in vitro" />
+<CONTEXT id="C2" spans="760~774" text="melanoma cells" context="transformed cells" />
+<CONTEXT id="C3" spans="673~678" text="cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

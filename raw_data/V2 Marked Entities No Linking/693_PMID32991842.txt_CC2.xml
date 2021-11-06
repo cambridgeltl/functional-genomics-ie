@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Structural and Functional Analysis of the D614G SARS-CoV-2 Spike Protein 
+Variant.
+
+The SARS-CoV-2 spike (S) protein variant D614G supplanted the ancestral virus 
+worldwide, reaching near fixation in a matter of months. Here we show that D614G 
+was more infectious than the ancestral form on human lung cells, colon cells, 
+and on cells rendered permissive by ectopic expression of human ACE2 or of ACE2 
+orthologs from various mammals, including Chinese rufous horseshoe bat and 
+Malayan pangolin. D614G did not alter S protein synthesis, processing, or 
+incorporation into SARS-CoV-2 particles, but D614G affinity for ACE2 was reduced 
+due to a faster dissociation rate. Assessment of the S protein trimer by 
+cryo-electron microscopy showed that D614G disrupts an interprotomer contact and 
+that the conformation is shifted toward an ACE2 binding-competent state, which 
+is modeled to be on pathway for virion membrane fusion with target cells. 
+Consistent with this more open conformation, neutralization potency of 
+antibodies targeting the S protein receptor-binding domain was not attenuated.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="360~497" text="ectopic expression of human ACE2 or of ACE2  orthologs from various mammals, including Chinese rufous horseshoe bat and  Malayan pangolin" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="292~308" text="human lung cells" context="cells" />
+<CONTEXT id="C1" spans="310~321" text="colon cells" context="cells" />
+<CONTEXT id="C2" spans="331~336" text="cells" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

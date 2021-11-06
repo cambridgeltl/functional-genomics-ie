@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Intracellular amyloid toxicity induces oxytosis/ferroptosis regulated cell 
+death.
+
+Amyloid beta (Aβ) accumulates within neurons in the brains of early stage 
+Alzheimer's disease (AD) patients. However, the mechanism underlying its 
+toxicity remains unclear. Here, a triple omics approach was used to integrate 
+transcriptomic, proteomic, and metabolomic data collected from a nerve cell 
+model of the toxic intracellular aggregation of Aβ. It was found that 
+intracellular Aβ induces profound changes in the omics landscape of nerve cells 
+that are associated with a pro-inflammatory, metabolic reprogramming that 
+predisposes cells to die via the oxytosis/ferroptosis regulated cell death 
+pathway. Notably, the degenerative process included substantial alterations in 
+glucose metabolism and mitochondrial bioenergetics. Our findings have 
+implications for the understanding of the basic biology of proteotoxicity, 
+aging, and AD as well as for the development of future therapeutic interventions 
+designed to target the oxytosis/ferroptosis regulated cell death pathway in the 
+AD brain.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="528~539" text="nerve cells" context="cells" />
+<CONTEXT id="C1" spans="628~633" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="658~669" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="680~690" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="616~627" text="predisposes" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

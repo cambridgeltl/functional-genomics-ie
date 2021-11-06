@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[M1 macrophage dependent-p53 regulates the intracellular survival of 
+mycobacteria.
+
+Tumor suppressor p53 is not only affects immune responses but also contributes 
+to antibacterial activity. However, its bactericidal function during 
+mycobacterial infection remains unclear. In this study, we found that the 
+p53-deficient macrophages failed to control Mycobacterium tuberculosis (Mtb), 
+manifested as a lower apoptotic cell death rate and enhanced intracellular 
+survival. The expression levels of p53 during Mtb infection were stronger in M1 
+macrophages than in M2 macrophages. The TLR2/JNK signaling pathway plays an 
+essential role in the modulation of M1 macrophage polarization upon Mtb 
+infection. It facilitates p53-mediated apoptosis through the production of 
+reactive oxygen species, nitric oxide and inflammatory cytokines in Mtb-infected 
+M1 macrophages. In addition, nutlin-3 effectively abrogated the intracellular 
+survival of mycobacteria in both TB patients and healthy controls after H37Ra 
+infection for 24 h, indicating that the enhancement of p53 production 
+effectively suppressed the intracellular survival of Mtb in hosts. These results 
+suggest that p53 can be a new therapeutic target for TB therapy.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="309~322" text="p53-deficient" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="323~334" text="macrophages" context="cells" />
+<CONTEXT id="C2" spans="541~556" text="M1  macrophages" context="cells" />
+<CONTEXT id="C3" spans="565~579" text="M2 macrophages" context="cells" />
+<CONTEXT id="C5" spans="658~671" text="M1 macrophage" context="cells" />
+<CONTEXT id="C6" spans="853~867" text="M1 macrophages" context="cells" />
+<CONTEXT id="C7" spans="965~976" text="TB patients" context="patient" />
+<PHENOTYPE id="PH0" spans="410~430" text="apoptotic cell death" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="734~743" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="404~409" text="lower" effect="negative" />
+<EFFECT id="E1" spans="709~720" text="facilitates" effect="positive" />
+<EFFECT id="E2" spans="725~733" text="mediated" effect="regulates" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="p53-deficient" contextID="C0" contextText="macrophages" effectID="E0" effectText="lower" phenotypeID="PH0" phenotypeText="apoptotic cell death" />
+</TAGS>
+</Genomics_ConceptTask>

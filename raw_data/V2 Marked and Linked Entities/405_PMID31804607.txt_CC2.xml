@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[IGF2BP2 regulates DANCR by serving as an N6-methyladenosine reader.
+
+The major function of Insulin-like growth factor 2 mRNA-binding protein 2 
+(IGF2BP2) is to regulate cell metabolism. However, emerging evidence indicates 
+that IGF2BP2 plays a role in cancer, but the underlying mechanism is largely 
+unknown. Here we showed that upregulation of IGF2BP2 is associated with poor 
+outcomes of pancreatic cancer patients and suppression of IGF2BP2 inhibits cell 
+proliferation. We further showed that IGF2BP2 regulates lncRNA DANCR. Ectopic 
+expression IGF2BP2 enhances, whereas knockdown (KD) or knockout (KO) of IGF2BP2 
+suppresses DANCR expression. Moreover, in vivo RNA precipitation and reciprocal 
+RNA immunoprecipitation revealed that IGF2BP2 interacts with DANCR. DANCR 
+promotes cell proliferation and stemness-like properties. Experiments with 
+xenograft models revealed that while ectopic expression of DANCR promotes, DANCR 
+KO suppresses tumor growth. Mechanistically, DANCR is modified at 
+N6-methyladenosine (m6A) and mutagenesis assay identified that adenosine at 664 
+of DANCR is critical to the interaction between IGF2BP2 and DANCR where IGF2BP2 
+serves a reader for m6A modified DANCR and stabilizes DANCR RNA. Together, these 
+results suggest that DANCR is a novel target for IGF2BP2 through m6A 
+modification, and IGF2BP2 and DANCR work together to promote cancer 
+stemness-like properties and pancreatic cancer pathogenesis.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="531~558" text="Ectopic  expression IGF2BP2" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P1" spans="595~619" text="knockout (KO) of IGF2BP2" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="423~445" text="suppression of IGF2BP2" perturbingaction="other" />
+<PERTURBING_ACTION id="P3" spans="890~917" text="ectopic expression of DANCR" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P4" spans="928~937" text="DANCR  KO" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="455~459" text="cell" context="cells" />
+<CONTEXT id="C2" spans="853~869" text="xenograft models" context="xenograft" />
+<PHENOTYPE id="PH0" spans="461~474" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="949~961" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="446~454" text="inhibits" effect="negative" />
+<EFFECT id="E1" spans="918~926" text="promotes" effect="positive" />
+<EFFECT id="E2" spans="938~948" text="suppresses" effect="negative" />
+<ENTITY_LINKING id="EN0" effectID="E0" effectText="inhibits" contextID="C0" contextText="cell" phenotypeID="PH0" phenotypeText="proliferation" perturbing_actionID="P2" perturbing_actionText="suppression of IGF2BP2" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P3" perturbing_actionText="ectopic expression of DANCR" effectID="E1" effectText="promotes" contextID="C2" contextText="xenograft models" phenotypeID="PH1" phenotypeText="tumor growth" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P4" perturbing_actionText="DANCR  KO" contextID="C2" contextText="xenograft models" effectID="E2" effectText="suppresses" phenotypeID="PH1" phenotypeText="tumor growth" />
+</TAGS>
+</Genomics_ConceptTask>

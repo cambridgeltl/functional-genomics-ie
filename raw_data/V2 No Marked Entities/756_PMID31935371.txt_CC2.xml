@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[An Integrated Gene Expression Landscape Profiling Approach to Identify Lung 
+Tumor Endothelial Cell Heterogeneity and Angiogenic Candidates.
+
+Heterogeneity of lung tumor endothelial cell (TEC) phenotypes across patients, 
+species (human/mouse), and models (in vivo/in vitro) remains poorly inventoried 
+at the single-cell level. We single-cell RNA (scRNA)-sequenced 56,771 
+endothelial cells from human/mouse (peri)-tumoral lung and cultured human lung 
+TECs, and detected 17 known and 16 previously unrecognized phenotypes, including 
+TECs putatively regulating immune surveillance. We resolved the canonical tip 
+TECs into a known migratory tip and a putative basement-membrane remodeling 
+breach phenotype. Tip TEC signatures correlated with patient survival, and 
+tip/breach TECs were most sensitive to vascular endothelial growth factor 
+blockade. Only tip TECs were congruent across species/models and shared 
+conserved markers. Integrated analysis of the scRNA-sequenced data with 
+orthogonal multi-omics and meta-analysis data across different human tumors, 
+validated by functional analysis, identified collagen modification as a 
+candidate angiogenic pathway.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

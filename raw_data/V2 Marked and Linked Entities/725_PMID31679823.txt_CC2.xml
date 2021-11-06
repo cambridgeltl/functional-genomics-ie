@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Small-Molecule MYC Inhibitors Suppress Tumor Growth and Enhance Immunotherapy.
+
+Small molecules that directly target MYC and are also well tolerated in vivo 
+will provide invaluable chemical probes and potential anti-cancer therapeutic 
+agents. We developed a series of small-molecule MYC inhibitors that engage MYC 
+inside cells, disrupt MYC/MAX dimers, and impair MYC-driven gene expression. The 
+compounds enhance MYC phosphorylation on threonine-58, consequently increasing 
+proteasome-mediated MYC degradation. The initial lead, MYC inhibitor 361 
+(MYCi361), suppressed in vivo tumor growth in mice, increased tumor immune cell 
+infiltration, upregulated PD-L1 on tumors, and sensitized tumors to anti-PD1 
+immunotherapy. However, 361 demonstrated a narrow therapeutic index. An improved 
+analog, MYCi975 showed better tolerability. These findings suggest the potential 
+of small-molecule MYC inhibitors as chemical probes and possible anti-cancer 
+therapeutic agents.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="534~562" text="MYC inhibitor 361  (MYCi361)" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="575~582" text="in vivo" context="in vivo" />
+<CONTEXT id="C1" spans="599~603" text="mice" context="organism" />
+<CONTEXT id="C2" spans="615~620" text="tumor" context="neoplasm" />
+<CONTEXT id="C3" spans="669~675" text="tumors" context="neoplasm" />
+<CONTEXT id="C4" spans="692~698" text="tumors" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="583~595" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="564~574" text="suppressed" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="MYC inhibitor 361  (MYCi361)" effectID="E0" effectText="suppressed" contextID="C0" contextText="in vivo" phenotypeID="PH0" phenotypeText="tumor growth" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="MYC inhibitor 361  (MYCi361)" effectID="E0" effectText="suppressed" phenotypeID="PH0" phenotypeText="tumor growth" contextID="C1" contextText="mice" />
+</TAGS>
+</Genomics_ConceptTask>

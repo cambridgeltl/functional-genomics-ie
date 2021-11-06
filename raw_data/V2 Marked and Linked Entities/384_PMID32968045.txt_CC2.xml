@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A20 promotes melanoma progression via the activation of Akt pathway.
+
+Melanoma is the most life-threatening skin cancer with increasing incidence 
+around the world. Although recent advances in targeted therapy and immunotherapy 
+have brought revolutionary progress of the treatment outcome, the survival of 
+patients with advanced melanoma remains unoptimistic, and metastatic melanoma is 
+still an incurable disease. Therefore, to further understand the mechanism 
+underlying melanoma pathogenesis could be helpful for developing novel 
+therapeutic strategy. A20 is a crucial ubiquitin-editing enzyme implicated 
+immunity regulation, inflammatory responses and cancer pathogenesis. Herein, we 
+report that A20 played an oncogenic role in melanoma. We first found that the 
+expression of A20 was significantly up-regulated in melanoma cell lines. Then, 
+we showed that knockdown of A20 suppressed melanoma cell proliferation in vitro 
+and melanoma growth in vivo through the regulation of cell-cycle progression. 
+Moreover, A20 could potentiate the invasive and migratory capacities of melanoma 
+cell in vitro and melanoma metastasis in vivo by promoting 
+epithelial-mesenchymal transition (EMT). Mechanistically, we found that Akt 
+activation mediated the oncogenic effect of A20 on melanoma development, with 
+the involvement of glycolysis. What's more, the up-regulation of A20 conferred 
+the acquired resistance to Vemurafenib in BRAF-mutant melanoma. Taken together, 
+we demonstrated that up-regulated A20 promoted melanoma progression via the 
+activation of Akt pathway, and that A20 could be exploited as a potential 
+therapeutic target for melanoma treatment.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="869~885" text="knockdown of A20" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="897~910" text="melanoma cell" context="transformed cells" />
+<CONTEXT id="C1" spans="925~933" text="in vitro" context="cells" />
+<CONTEXT id="C2" spans="939~947" text="melanoma" context="neoplasm" />
+<CONTEXT id="C3" spans="955~962" text="in vivo" context="in vivo" />
+<CONTEXT id="C4" spans="1086~1100" text="melanoma  cell" context="transformed cells" />
+<CONTEXT id="C5" spans="1101~1109" text="in vitro" context="in vitro" />
+<CONTEXT id="C6" spans="1114~1122" text="melanoma" context="neoplasm" />
+<CONTEXT id="C7" spans="1134~1141" text="in vivo" context="in vivo" />
+<PHENOTYPE id="PH0" spans="911~924" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="1062~1082" text="migratory capacities" phenotype="migration" />
+<PHENOTYPE id="PH2" spans="1123~1133" text="metastasis" phenotype="metastasis" />
+<PHENOTYPE id="PH3" spans="1156~1195" text="epithelial-mesenchymal transition (EMT)" phenotype="epithelial-mesenchymal transition" />
+<EFFECT id="E0" spans="886~896" text="suppressed" effect="negative" />
+<EFFECT id="E1" spans="1034~1044" text="potentiate" effect="positive" />
+<EFFECT id="E2" spans="1145~1154" text="promoting" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="knockdown of A20" contextID="C0" contextText="melanoma cell" effectID="E0" effectText="suppressed" phenotypeID="PH0" phenotypeText="proliferation" />
+</TAGS>
+</Genomics_ConceptTask>

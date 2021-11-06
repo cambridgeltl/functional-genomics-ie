@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Loss of ferroportin induces memory impairment by promoting ferroptosis in 
+Alzheimer's disease.
+
+Iron homeostasis disturbance has been implicated in Alzheimer's disease (AD), 
+and excess iron exacerbates oxidative damage and cognitive defects. Ferroptosis 
+is a nonapoptotic form of cell death dependent upon intracellular iron. However, 
+the involvement of ferroptosis in the pathogenesis of AD remains elusive. Here, 
+we report that ferroportin1 (Fpn), the only identified mammalian nonheme iron 
+exporter, was downregulated in the brains of APPswe/PS1dE9 mice as an 
+Alzheimer's mouse model and Alzheimer's patients. Genetic deletion of Fpn in 
+principal neurons of the neocortex and hippocampus by breeding Fpnfl/fl mice 
+with NEX-Cre mice led to AD-like hippocampal atrophy and memory deficits. 
+Interestingly, the canonical morphological and molecular characteristics of 
+ferroptosis were observed in both Fpnfl/fl/NEXcre and AD mice. Gene set 
+enrichment analysis (GSEA) of ferroptosis-related RNA-seq data showed that the 
+differentially expressed genes were highly enriched in gene sets associated with 
+AD. Furthermore, administration of specific inhibitors of ferroptosis 
+effectively reduced the neuronal death and memory impairments induced by Aβ 
+aggregation in vitro and in vivo. In addition, restoring Fpn ameliorated 
+ferroptosis and memory impairment in APPswe/PS1dE9 mice. Our study demonstrates 
+the critical role of Fpn and ferroptosis in the progression of AD, thus provides 
+promising therapeutic approaches for this disease.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="620~643" text="Genetic deletion of Fpn" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P1" spans="912~927" text="Fpnfl/fl/NEXcre" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P2" spans="1308~1321" text="restoring Fpn" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="648~698" text="principal neurons of the neocortex and hippocampus" context="cells" />
+<CONTEXT id="C1" spans="935~939" text="mice" context="organism" />
+<CONTEXT id="C2" spans="1273~1281" text="in vitro" context="in vitro" />
+<CONTEXT id="C3" spans="1286~1293" text="in vivo" context="in vivo" />
+<CONTEXT id="C4" spans="1386~1390" text="mice" context="organism" />
+<PHENOTYPE id="PH0" spans="878~889" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="1335~1346" text="ferroptosis" phenotype="ferroptosis" />
+<EFFECT id="E1" spans="1322~1333" text="ameliorated" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P2" perturbing_actionText="restoring Fpn" effectID="E1" effectText="ameliorated" phenotypeID="PH1" phenotypeText="ferroptosis" contextID="C4" contextText="mice" />
+</TAGS>
+</Genomics_ConceptTask>

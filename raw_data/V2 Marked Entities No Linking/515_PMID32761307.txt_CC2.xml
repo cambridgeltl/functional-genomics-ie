@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Acetylcholinesterase promotes apoptosis in insect neurons.
+
+Apoptosis plays a major role in development, tissue renewal and the progression 
+of degenerative diseases. Studies on various types of mammalian cells reported a 
+pro-apoptotic function of acetylcholinesterase (AChE), particularly in the 
+formation of the apoptosome and the degradation of nuclear DNA. While three AChE 
+splice variants are present in mammals, invertebrates typically express two ache 
+genes that code for a synaptically located protein and a protein with 
+non-synaptic functions respectively. In order to investigate a potential 
+contribution of AChE to apoptosis in insects, we selected the migratory locust 
+Locusta migratoria. We established primary neuronal cultures of locust brains 
+and characterized apoptosis progression in vitro. Dying neurons displayed 
+typical characteristics of apoptosis, including caspase-activation, nuclear 
+condensation and DNA fragmentation visualized by TUNEL staining. Addition of the 
+AChE inhibitors neostigmine and territrem B reduced apoptotic cell death under 
+normal culture conditions. Moreover, both inhibitors completely suppressed 
+hypoxia-induced neuronal cell death. Exposure of live animals to severe hypoxia 
+moderately increased the expression of ace-1 in locust brains in vivo. Our 
+results indicate a previously unreported role of AChE in insect apoptosis that 
+parallels the pro-apoptotic role in mammalian cells. This similarity adds to the 
+list of apoptotic mechanisms shared by mammals and insects, supporting the 
+hypothesized existence of an ancient, complex apoptosis regulatory network 
+present in common ancestors of vertebrates and insects.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="1211~1218" text="animals" context="organism" />
+<CONTEXT id="C1" spans="1286~1299" text="locust brains" context="tissue/organ" />
+<CONTEXT id="C2" spans="1300~1307" text="in vivo" context="in vivo" />
+<CONTEXT id="C3" spans="670~706" text="migratory locust  Locusta migratoria" context="organism" />
+<CONTEXT id="C4" spans="723~748" text="primary neuronal cultures" context="cells" />
+<CONTEXT id="C5" spans="752~765" text="locust brains" context="tissue/organ" />
+<CONTEXT id="C6" spans="807~815" text="in vitro" context="in vitro" />
+<CONTEXT id="C7" spans="823~830" text="neurons" context="cells" />
+<PHENOTYPE id="PH0" spans="1053~1073" text="apoptotic cell death" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="1182~1192" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH2" spans="869~878" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="1045~1052" text="reduced" effect="negative" />
+<EFFECT id="E1" spans="1145~1155" text="suppressed" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

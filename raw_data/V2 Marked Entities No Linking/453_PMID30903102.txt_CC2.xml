@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[MEST induces Twist-1-mediated EMT through STAT3 activation in breast cancers.
+
+The loss of imprinting of MEST has been linked to certain types of cancer by 
+promoter switching. However, MEST-mediated regulation of tumorigenicity and 
+metastasis are yet to be understood. Herein, we reported that MEST is a key 
+regulator of IL-6/JAK/STAT3/Twist-1 signal pathway-mediated tumor metastasis. 
+Enhanced MEST expression is significantly associated with pathogenesis of breast 
+cancer patients. Also, MEST induces metastatic potential of breast cancer 
+through induction of the EMT-TFs-mediated EMT program. Moreover, MEST leads to 
+Twist-1 induction by STAT3 activation and subsequently enables the induction of 
+activation of the EMT program via the induction of STAT3 nuclear translocation. 
+Furthermore, the c-terminal region of MEST was essential for STAT3 activation 
+via the induction of JAK2/STAT3 complex formation. Finally, MEST is required for 
+metastasis in an experimental metastasis model. These observations suggest that 
+MEST is a promising target for intervention to prevent tumor metastasis.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="532~545" text="breast cancer" context="neoplasm" />
+<PHENOTYPE id="PH0" spans="508~528" text="metastatic potential" phenotype="metastasis" />
+<PHENOTYPE id="PH1" spans="589~600" text="EMT program" phenotype="epithelial-mesenchymal transition" />
+<PHENOTYPE id="PH2" spans="726~737" text="EMT program" phenotype="epithelial-mesenchymal transition" />
+<EFFECT id="E0" spans="500~507" text="induces" effect="positive" />
+<EFFECT id="E1" spans="555~564" text="induction" effect="positive" />
+<EFFECT id="E2" spans="682~689" text="enables" effect="positive" />
+<EFFECT id="E3" spans="694~703" text="induction" effect="positive" />
+<EFFECT id="E4" spans="708~718" text="activation" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[RIP1 kinase activity promotes steatohepatitis through mediating cell death and 
+inflammation in macrophages.
+
+Hepatocyte cell death and liver inflammation have been well recognized as 
+central characteristics of nonalcoholic steatohepatitis (NASH), however, the 
+underlying molecular basis remains elusive. The kinase receptor-interacting 
+protein 1 (RIP1) is a multitasking molecule with distinct functions in 
+regulating apoptosis, necroptosis, and inflammation. Dissecting the role of RIP1 
+distinct functions in different pathophysiology has absorbed huge research 
+enthusiasm. Wild-type and RIP1 kinase-dead (Rip1K45A/K45A) mice were fed with 
+high-fat diet (HFD) to investigate the role of RIP1 kinase activity in the 
+pathogenesis of NASH. Rip1K45A/K45A mice exhibited significantly alleviated NASH 
+phenotype of hepatic steatosis, liver damage, fibrosis as well as reduced 
+hepatic cell death and inflammation compared to WT mice. Our results also 
+indicated that both in vivo lipotoxicity and in vitro saturated fatty acids 
+(palmitic acid) treatment were able to induce the kinase activation of RIP1 in 
+liver macrophages. RIP1 kinase was required for mediating inflammasome 
+activation, apoptotic and necrotic cell death induced by palmitic acid in both 
+bone marrow-derived macrophage and mouse primary Kupffer cells. Results from 
+chimeric mice established through lethal irradiation and bone marrow 
+transplantation further confirmed that the RIP1 kinase in hematopoietic-derived 
+macrophages contributed mostly to the disease progression in NASH. Consistent 
+with murine models, we also found that RIP1 kinase was markedly activated in 
+human NASH, and the kinase activation mainly occurred in liver macrophages as 
+indicated by immunofluorescence double staining. In summary, our study indicated 
+that RIP1 kinase was phosphorylated and activated mainly in liver macrophages in 
+both experimental and clinical NASH. We provided direct genetic evidence that 
+the kinase activity of RIP1 especially in hematopoietic-derived macrophages 
+contributes to the pathogenesis of NASH, through mediating inflammasome 
+activation and cell death induction. Macrophage RIP1 kinase represents a 
+specific and potential therapeutic target for NASH.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="596~628" text="RIP1 kinase-dead (Rip1K45A/K45A)" perturbingaction="other" />
+<PERTURBING_ACTION id="P1" spans="747~760" text="Rip1K45A/K45A" perturbingaction="other" />
+<CONTEXT id="C0" spans="629~633" text="mice" context="organism" />
+<CONTEXT id="C1" spans="761~765" text="mice" context="organism" />
+<CONTEXT id="C2" spans="933~937" text="mice" context="organism" />
+<CONTEXT id="C3" spans="977~984" text="in vivo" context="in vivo" />
+<CONTEXT id="C4" spans="1002~1010" text="in vitro" context="in vitro" />
+<CONTEXT id="C5" spans="1114~1131" text="liver macrophages" context="cells" />
+<CONTEXT id="C6" spans="1266~1296" text="bone marrow-derived macrophage" context="cells" />
+<CONTEXT id="C7" spans="1301~1328" text="mouse primary Kupffer cells" context="cells" />
+<CONTEXT id="C8" spans="1344~1357" text="chimeric mice" context="organism" />
+<CONTEXT id="C9" spans="1472~1506" text="hematopoietic-derived  macrophages" context="cells" />
+<PHENOTYPE id="PH0" spans="890~900" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH1" spans="1212~1231" text="necrotic cell death" phenotype="necrosis" />
+<EFFECT id="E0" spans="873~880" text="reduced" effect="negative" />
+<EFFECT id="E1" spans="1232~1239" text="induced" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Rip1K45A/K45A" contextID="C1" contextText="mice" effectID="E0" effectText="reduced" phenotypeID="PH0" phenotypeText="cell death" />
+</TAGS>
+</Genomics_ConceptTask>

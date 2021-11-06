@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Integrin αvβ6-TGFβ-SOX4 Pathway Drives Immune Evasion in Triple-Negative Breast 
+Cancer.
+
+Cancer immunotherapy shows limited efficacy against many solid tumors that 
+originate from epithelial tissues, including triple-negative breast cancer 
+(TNBC). We identify the SOX4 transcription factor as an important resistance 
+mechanism to T cell-mediated cytotoxicity for TNBC cells. Mechanistic studies 
+demonstrate that inactivation of SOX4 in tumor cells increases the expression of 
+genes in a number of innate and adaptive immune pathways important for 
+protective tumor immunity. Expression of SOX4 is regulated by the integrin αvβ6 
+receptor on the surface of tumor cells, which activates TGFβ from a latent 
+precursor. An integrin αvβ6/8-blocking monoclonal antibody (mAb) inhibits SOX4 
+expression and sensitizes TNBC cells to cytotoxic T cells. This integrin mAb 
+induces a substantial survival benefit in highly metastatic murine TNBC models 
+poorly responsive to PD-1 blockade. Targeting of the integrin αvβ6-TGFβ-SOX4 
+pathway therefore provides therapeutic opportunities for TNBC and other highly 
+aggressive human cancers of epithelial origin.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="416~436" text="inactivation of SOX4" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="440~451" text="tumor cells" context="transformed cells" />
+<CONTEXT id="C1" spans="816~826" text="TNBC cells" context="transformed cells" />
+<CONTEXT id="C2" spans="928~946" text="murine TNBC models" context="neoplasm" />
+</TAGS>
+</Genomics_ConceptTask>

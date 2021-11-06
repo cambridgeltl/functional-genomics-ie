@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[miR-322/-503 rescues myoblast defects in myotonic dystrophy type 1 cell model by 
+targeting CUG repeats.
+
+Myotonic dystrophy type 1 (DM1) is the most common type of adult muscular 
+dystrophy caused by the expanded triple-nucleotides (CUG) repeats. Myoblast in 
+DM1 displayed many defects, including defective myoblast differentiation, 
+ribonuclear foci, and aberrant alternative splicing. Despite many were revealed 
+to function in DM1, microRNAs that regulated DM1 via directly targeting the 
+expanded CUG repeats were rarely reported. Here we discovered that miR-322/-503 
+rescued myoblast defects in DM1 cell model by targeting the expanded CUG 
+repeats. First, we studied the function of miR-322/-503 in normal C2C12 myoblast 
+cells. Downregulation of miR-322/-503 significantly hindered the myoblast 
+differentiation, while miR-322/-503 overexpression promoted the process. Next, 
+we examined the role of miR-322/-503 in the DM1 C2C12 cell model. miR-322/-503 
+was downregulated in the differentiation of DM1 C2C12 cells. When we introduced 
+ectopic miR-322/-503 expression into DM1 C2C12 cells, myoblast defects were 
+almost fully rescued, marked by significant improvements of myoblast 
+differentiation and repressions of ribonuclear foci formation and aberrant 
+alternative splicing. Then we investigated the downstream mechanism of 
+miR-322/-503 in DM1. Agreeing with our previous work, Celf1 was proven to be 
+miR-322/-503's target. Celf1 knockdown partially reproduced miR-322/-503's 
+function in rescuing DM1 C2C12 differentiation but was unable to repress 
+ribonuclear foci, suggesting other targets of miR-322/-503 existed in the DM1 
+C2C12 cells. As the seed regions of miR-322 and miR-503 were complementary to 
+the CUG repeats, we hypothesized that the CUG repeats were the target of 
+miR-322/-503. Through expression tests, reporter assays, and colocalization 
+staining, miR-322/-503 was proved to directly and specifically target the 
+expanded CUG repeats in the DM1 cell model rather than the shorter ones in 
+normal cells. Those results implied a potential therapeutic function of 
+miR-322/-503 on DM1, which needed further investigations in the future.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="738~768" text="Downregulation of miR-322/-503" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="829~856" text="miR-322/-503 overexpression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="1047~1078" text="ectopic miR-322/-503 expression" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P3" spans="1443~1458" text="Celf1 knockdown" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="583~591" text="myoblast" context="cells" />
+<CONTEXT id="C1" spans="603~617" text="DM1 cell model" context="cells" />
+<CONTEXT id="C3" spans="796~804" text="myoblast" context="cells" />
+<CONTEXT id="C4" spans="1084~1099" text="DM1 C2C12 cells" context="cells" />
+<CONTEXT id="C5" spans="1184~1192" text="myoblast" context="cells" />
+<CONTEXT id="C6" spans="1101~1109" text="myoblast" context="cells" />
+<CONTEXT id="C7" spans="1517~1526" text="DM1 C2C12" context="cells" />
+<PHENOTYPE id="PH0" spans="806~821" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH1" spans="1194~1209" text="differentiation" phenotype="differentiation" />
+<PHENOTYPE id="PH2" spans="1527~1542" text="differentiation" phenotype="differentiation" />
+<EFFECT id="E0" spans="783~791" text="hindered" effect="negative" />
+<EFFECT id="E1" spans="1168~1180" text="improvements" effect="positive" />
+<EFFECT id="E2" spans="1508~1516" text="rescuing" effect="rescues" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="Downregulation of miR-322/-503" effectID="E0" effectText="hindered" contextID="C3" contextText="myoblast" phenotypeID="PH0" phenotypeText="differentiation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="ectopic miR-322/-503 expression" contextID="C5" contextText="myoblast" phenotypeID="PH1" phenotypeText="differentiation" effectID="E1" effectText="improvements" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P3" perturbing_actionText="Celf1 knockdown" contextID="C7" contextText="DM1 C2C12" effectID="E2" effectText="rescuing" phenotypeID="PH2" phenotypeText="differentiation" />
+</TAGS>
+</Genomics_ConceptTask>

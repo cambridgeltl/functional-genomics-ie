@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Fenretinide induces a new form of dynamin-dependent cell death in pediatric 
+sarcoma.
+
+Alveolar rhabdomyosarcoma (aRMS) is a highly malicious childhood malignancy 
+characterized by specific chromosomal translocations mostly encoding the 
+oncogenic transcription factor PAX3-FOXO1 and therefore also referred to as 
+fusion-positive RMS (FP-RMS). Previously, we have identified fenretinide 
+(retinoic acid p-hydroxyanilide) to affect PAX3-FOXO1 expression levels as well 
+as FP-RMS cell viability. Here, we characterize the mode of action of 
+fenretinide in more detail. First, we demonstrate that fenretinide-induced 
+generation of reactive oxygen species (ROS) depends on complex II of the 
+mitochondrial respiratory chain, since ROS scavenging as well as complexing of 
+iron completely abolished cell death. Second, we co-treated cells with a range 
+of pharmacological inhibitors of specific cell death pathways including z-vad 
+(apoptosis), necrostatin-1 (necroptosis), 3-methyladenine (3-MA) (autophagy), 
+and ferrostatin-1 (ferroptosis) together with fenretinide. Surprisingly, none of 
+these inhibitors was able to prevent cell death. Also genetic depletion of key 
+players in the apoptotic and necroptotic pathway (BAK, BAX, and RIPK1) confirmed 
+the pharmacological data. Interestingly however, electron microscopy of 
+fenretinide-treated cells revealed an excessive accumulation of cytoplasmic 
+vacuoles, which were distinct from autophagosomes. Further flow cytometry and 
+fluorescence microscopy experiments suggested a hyperstimulation of 
+macropinocytosis, leading to an accumulation of enlarged early and late 
+endosomes. Surprisingly, pharmacological inhibition as well as genetic depletion 
+of large dynamin GTPases completely abolished fenretinide-induced vesicle 
+formation and subsequent cell death, suggesting a new form of dynamin-dependent 
+programmed cell death. Taken together, our data identify a new form of cell 
+death mediated through the production of ROS by fenretinide treatment, 
+highlighting the value of this compound for treatment of sarcoma patients 
+including FP-RMS.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="831~836" text="cells" context="cells" />
+<CONTEXT id="C1" spans="1346~1351" text="cells" context="cells" />
+<PHENOTYPE id="PH0" spans="797~807" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH1" spans="1128~1138" text="cell death" phenotype="cell death" />
+<PHENOTYPE id="PH2" spans="1806~1816" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="787~796" text="abolished" effect="negative" />
+<EFFECT id="E1" spans="1120~1127" text="prevent" effect="negative" />
+<EFFECT id="E2" spans="1742~1751" text="abolished" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

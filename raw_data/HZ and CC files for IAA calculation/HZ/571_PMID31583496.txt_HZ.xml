@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Loss of HMBOX1 promotes LPS-induced apoptosis and inhibits LPS-induced autophagy 
+of vascular endothelial cells in mouse.
+
+Our previous study revealed that Homeobox containing 1 (HMBOX1), essential for 
+the survival of vascular endothelial cells (VECs), was involved in the 
+progression of atherosclerosis. Knockdown of HMBOX1 promoted apoptosis and 
+inhibited autophagy through regulating intracellular free zinc level in cultured 
+VECs. In current study, in order to investigate the roles of HMBOX1 in vivo and 
+in endothelium, we generated a knockout (KO) mouse for HMBOX1 by using 
+transcription activator-like effector nucleases (TALENs) technology. Herein, we 
+reported that the protein level of HMBOX1 was gradually increased during mouse 
+development. The HMBOX1 KO mouse was viable and fertile. There existed no 
+differences in apoptosis and autophagy of aortic endothelial cells between wild 
+type and KO mouse. Whereas, loss of HMBOX1 promoted apoptosis and inhibited 
+autophagy of aortic endothelial cells under lipopolysaccharide (LPS) stimulation 
+in mouse. We also demonstrated that HMBOX1 deletion had no influence on the 
+secretion of inflammatory cytokines TNF-α and IL-6. Moreover, overexpression or 
+knockdown of HMBOX1 failed to regulate multiple pro-apoptotic genes expression 
+in vitro. In conclusion, HMBOX1 participated in the functional maintenance of 
+mouse aortic endothelial cells, the aortic endothelial cells of HMBOX1 KO mouse 
+showed increased apoptosis and decreased autophagy with LPS treatment.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="764~773" text="HMBOX1 KO" perturbingaction="-" />
+<PERTURBING_ACTION id="P1" spans="931~945" text="loss of HMBOX1" perturbingaction="-" />
+<PERTURBING_ACTION id="P2" spans="1098~1113" text="HMBOX1 deletion" perturbingaction="-" />
+<PERTURBING_ACTION id="P3" spans="1201~1239" text="overexpression or  knockdown of HMBOX1" perturbingaction="-" />
+<CONTEXT id="C0" spans="501~508" text="in vivo" context="-" />
+<CONTEXT id="C2" spans="740~745" text="mouse" context="-" />
+<CONTEXT id="C3" spans="774~779" text="mouse" context="-" />
+<CONTEXT id="C4" spans="864~888" text="aortic endothelial cells" context="-" />
+<CONTEXT id="C5" spans="993~1017" text="aortic endothelial cells" context="-" />
+<CONTEXT id="C6" spans="1065~1070" text="mouse" context="-" />
+<CONTEXT id="C7" spans="1300~1308" text="in vitro" context="-" />
+<PHENOTYPE id="PH0" spans="837~846" text="apoptosis" phenotype="-" />
+<PHENOTYPE id="PH1" spans="851~860" text="autophagy" phenotype="-" />
+<PHENOTYPE id="PH2" spans="955~964" text="apoptosis" phenotype="-" />
+<PHENOTYPE id="PH3" spans="980~989" text="autophagy" phenotype="-" />
+<EFFECT id="E0" spans="818~833" text="no  differences" effect="-" />
+<EFFECT id="E1" spans="946~954" text="promoted" effect="-" />
+<EFFECT id="E2" spans="969~978" text="inhibited" effect="-" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="loss of HMBOX1" effectID="E2" effectText="inhibited" phenotypeID="PH3" phenotypeText="autophagy" contextID="C6" contextText="mouse" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Mitochondrial 4-HNE derived from MAO-A promotes mitoCa(2+) overload in chronic 
+postischemic cardiac remodeling.
+
+Chronic remodeling postmyocardial infarction consists in various maladaptive 
+changes including interstitial fibrosis, cardiomyocyte death and mitochondrial 
+dysfunction that lead to heart failure (HF). Reactive aldehydes such as 
+4-hydroxynonenal (4-HNE) are critical mediators of mitochondrial dysfunction but 
+the sources of mitochondrial 4-HNE in cardiac diseases together with its 
+mechanisms of action remain poorly understood. Here, we evaluated whether the 
+mitochondrial enzyme monoamine oxidase-A (MAO-A), which generates H2O2 as a 
+by-product of catecholamine metabolism, is a source of deleterious 4-HNE in HF. 
+We found that MAO-A activation increased mitochondrial ROS and promoted local 
+4-HNE production inside the mitochondria through cardiolipin peroxidation in 
+primary cardiomyocytes. Deleterious effects of MAO-A/4-HNE on cardiac 
+dysfunction were prevented by activation of mitochondrial aldehyde dehydrogenase 
+2 (ALDH2), the main enzyme for 4-HNE metabolism. Mechanistically, MAO-A-derived 
+4-HNE bound to newly identified targets VDAC and MCU to promote ER-mitochondria 
+contact sites and MCU higher-order complex formation. The resulting 
+mitochondrial Ca2+ accumulation participated in mitochondrial respiratory 
+dysfunction and loss of membrane potential, as shown with the protective effects 
+of the MCU inhibitor, RU360. Most interestingly, these findings were 
+recapitulated in a chronic model of ischemic remodeling where pharmacological or 
+genetic inhibition of MAO-A protected the mice from 4-HNE accumulation, MCU 
+oligomer formation and Ca2+ overload, thus mitigating ventricular dysfunction. 
+To our knowledge, these are the first evidences linking MAO-A activation to 
+mitoCa2+ mishandling through local 4-HNE production, contributing to energetic 
+failure and postischemic remodeling.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1588~1615" text="genetic inhibition of MAO-A" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="895~917" text="primary cardiomyocytes" context="cells" />
+<CONTEXT id="C1" spans="1630~1634" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

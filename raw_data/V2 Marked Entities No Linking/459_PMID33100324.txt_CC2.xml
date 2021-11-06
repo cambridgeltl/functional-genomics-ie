@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Programmed cell death 4 modulates lysosomal function by inhibiting TFEB 
+translation.
+
+Transcription factor EB (TFEB) is a master regulator of autophagy and lysosomal 
+biogenesis. The post-translational phosphorylation modulations of TFEB by mTOR 
+and ERK signaling can determine its nucleocytoplasmic shuttling and activity in 
+response to nutrient availability. However, regulations of TFEB at translational 
+level are rarely known. Here, we found that programmed cell death 4 (PDCD4), a 
+tumor suppressor, decreased levels of nuclear TFEB to inhibit lysosome 
+biogenesis and function. Mechanistically, PDCD4 reduces global pool of TFEB by 
+suppressing TFEB translation in an eIF4A-dependent manner, rather than 
+influencing mTOR- and ERK2-dependnet TFEB nucleocytoplasmic shuttling. Both of 
+MA3 domains within PDCD4 are required for TFEB translation inhibition. 
+Furthermore, TFEB is required for PDCD4-mediated lysosomal function suppression. 
+In the tumor microenvironment, PDCD4 deficiency promotes the anti-tumor effect 
+of macrophage via enhancing TFEB expression. Our research reveals a novel 
+PDCD4-dependent TFEB translational regulation and supports PDCD4 as a potential 
+therapeutic target for lysosome dysfunction related diseases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="980~996" text="PDCD4 deficiency" perturbingaction="gene loss-of-function" />
+</TAGS>
+</Genomics_ConceptTask>

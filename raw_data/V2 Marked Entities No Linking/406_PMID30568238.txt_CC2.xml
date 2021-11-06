@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[STING directly activates autophagy to tune the innate immune response.
+
+STING (stimulator of interferon genes) is a central molecule that binds to 
+cyclic dinucleotides produced by the cyclic GMP-AMP synthase (cGAS) to activate 
+innate immunity against microbial infection. Here we report that STING harbors 
+classic LC-3 interacting regions (LIRs) and mediates autophagy through its 
+direct interaction with LC3. We observed that poly(dA:dT), cGAMP, and HSV-1 
+induced STING-dependent autophagy and degradation of STING immediately after 
+TBK1 activation. STING induces non-canonical autophagy that is dependent on 
+ATG5, whereas other autophagy regulators such as Beclin1, Atg9a, ULK1, and p62 
+are dispensable. LIR mutants of STING abolished its interaction with LC3 and its 
+activation of autophagy. Also, mutants that abolish STING dimerization and 
+cGAMP-binding diminished the STING-LC3 interaction and subsequent autophagy, 
+suggesting that STING activation is indispensable for autophagy induction. Our 
+results thus uncover dual functions of STING in activating the immune response 
+and autophagy, and suggest that STING is involved in ensuring a measured innate 
+immune response.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="714~734" text="LIR mutants of STING" perturbingaction="other" />
+<PHENOTYPE id="PH0" spans="486~495" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH1" spans="793~802" text="autophagy" phenotype="autophagy" />
+<PHENOTYPE id="PH2" spans="921~930" text="autophagy" phenotype="autophagy" />
+<EFFECT id="E0" spans="462~469" text="induced" effect="positive" />
+<EFFECT id="E1" spans="735~744" text="abolished" effect="negative" />
+<EFFECT id="E2" spans="779~789" text="activation" effect="positive" />
+<EFFECT id="E3" spans="869~879" text="diminished" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

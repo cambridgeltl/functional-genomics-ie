@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Genetic Map of the Response to DNA Damage in Human Cells.
+
+The response to DNA damage is critical for cellular homeostasis, tumor 
+suppression, immunity, and gametogenesis. In order to provide an unbiased and 
+global view of the DNA damage response in human cells, we undertook 31 
+CRISPR-Cas9 screens against 27 genotoxic agents in the retinal pigment 
+epithelium-1 (RPE1) cell line. These screens identified 890 genes whose loss 
+causes either sensitivity or resistance to DNA-damaging agents. Mining this 
+dataset, we discovered that ERCC6L2 (which is mutated in a bone-marrow failure 
+syndrome) codes for a canonical non-homologous end-joining pathway factor, that 
+the RNA polymerase II component ELOF1 modulates the response to 
+transcription-blocking agents, and that the cytotoxicity of the G-quadruplex 
+ligand pyridostatin involves trapping topoisomerase II on DNA. This map of the 
+DNA damage response provides a rich resource to study this fundamental cellular 
+system and has implications for the development and use of genotoxic agents in 
+cancer therapy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="339~385" text="retinal pigment  epithelium-1 (RPE1) cell line" context="cells" />
+</TAGS>
+</Genomics_ConceptTask>

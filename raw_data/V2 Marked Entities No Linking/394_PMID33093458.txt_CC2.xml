@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[ClC-3/SGK1 regulatory axis enhances the olaparib-induced antitumor effect in 
+human stomach adenocarcinoma.
+
+Currently, only a few available targeted drugs are considered to be effective in 
+stomach adenocarcinoma (STAD) treatment. The PARP inhibitor olaparib is a 
+molecularly targeted drug that continues to be investigated in BRCA-mutated 
+tumors. However, in tumors without BRCA gene mutations, particularly in STAD, 
+the effect and molecular mechanism of olaparib are unclear, which largely 
+restricts the use of olaparib in STAD treatment. In this study, the in vitro 
+results showed that olaparib specifically inhibited cell growth and migration, 
+exerting antitumor effect in STAD cell lines. In addition, a ClC-3/SGK1 
+regulatory axis was identified and validated in STAD cells. We then found that 
+the down-regulation of ClC-3/SGK1 axis attenuated olaparib-induced cell growth 
+and migration inhibition. On the contrary, the up-regulation of ClC-3/SGK1 axis 
+enhanced olaparib-induced cell growth and migration inhibition, and the 
+enhancement effect could be attenuated by SGK1 knockdown. Consistently, the 
+whole-cell recorded chloride current activated by olaparib presented the same 
+variation trend. Next, the clinical data showed that ClC-3 and SGK1 were highly 
+expressed in human STAD tissues and positively correlated (r = 0.276, 
+P = 0.009). Furthermore, high protein expression of both ClC-3 (P = 0.030) and 
+SGK1 (P = 0.006) was associated with poor survival rate in STAD patients, and 
+positive correlations between ClC-3/SGK1 and their downstream molecules in STAD 
+tissues were demonstrated via the GEPIA datasets. Finally, our results suggested 
+that olaparib inhibited the PI3K/AKT pathway in STAD cells, and up-regulation of 
+ClC-3/SGK1 axis enhanced olaparib-induced PI3K/AKT pathway inhibition. The 
+animal experiments indicated that olaparib also exerted antitumor effect in 
+vivo. Altogether, our findings illustrate that olaparib exerts antitumor effect 
+in human STAD, and ClC-3/SGK1 regulatory axis enhances the olaparib-induced 
+antitumor effect. Up-regulation of the ClC-3/SGK1 axis may provide promising 
+therapeutic potential for the clinical application of olaparib in STAD 
+treatment.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1084~1098" text="SGK1 knockdown" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="565~573" text="in vitro" context="in vitro" />
+<CONTEXT id="C1" spans="684~699" text="STAD cell lines" context="transformed cells" />
+<CONTEXT id="C2" spans="1720~1730" text="STAD cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1903~1911" text="in  vivo" context="in vivo" />
+<CONTEXT id="C4" spans="1830~1836" text="animal" context="organism" />
+<PHENOTYPE id="PH0" spans="627~638" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH1" spans="643~652" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH2" spans="875~886" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH3" spans="892~901" text="migration" phenotype="migration" />
+<PHENOTYPE id="PH4" spans="995~1006" text="cell growth" phenotype="cell growth" />
+<PHENOTYPE id="PH5" spans="1011~1020" text="migration" phenotype="migration" />
+<EFFECT id="E0" spans="617~626" text="inhibited" effect="negative" />
+<EFFECT id="E1" spans="847~857" text="attenuated" effect="negative" />
+<EFFECT id="E2" spans="867~874" text="induced" effect="positive" />
+<EFFECT id="E3" spans="902~912" text="inhibition" effect="negative" />
+<EFFECT id="E4" spans="969~977" text="enhanced" effect="positive" />
+<EFFECT id="E5" spans="987~994" text="induced" effect="positive" />
+<EFFECT id="E6" spans="1021~1031" text="inhibition" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

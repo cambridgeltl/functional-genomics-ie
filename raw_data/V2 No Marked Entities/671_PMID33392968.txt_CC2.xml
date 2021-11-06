@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Genome-Scale Identification of SARS-CoV-2 and Pan-coronavirus Host Factor 
+Networks.
+
+The coronavirus disease 2019 (COVID-19) pandemic has claimed the lives of over 
+one million people worldwide. The causative agent, severe acute respiratory 
+syndrome coronavirus 2 (SARS-CoV-2), is a member of the Coronaviridae family of 
+viruses that can cause respiratory infections of varying severity. The cellular 
+host factors and pathways co-opted during SARS-CoV-2 and related coronavirus 
+life cycles remain ill defined. To address this gap, we performed genome-scale 
+CRISPR knockout screens during infection by SARS-CoV-2 and three seasonal 
+coronaviruses (HCoV-OC43, HCoV-NL63, and HCoV-229E). These screens uncovered 
+host factors and pathways with pan-coronavirus and virus-specific functional 
+roles, including major dependency on glycosaminoglycan biosynthesis, sterol 
+regulatory element-binding protein (SREBP) signaling, bone morphogenetic protein 
+(BMP) signaling, and glycosylphosphatidylinositol biosynthesis, as well as a 
+requirement for several poorly characterized proteins. We identified an absolute 
+requirement for the VMP1, TMEM41, and TMEM64 (VTT) domain-containing protein 
+transmembrane protein 41B (TMEM41B) for infection by SARS-CoV-2 and three 
+seasonal coronaviruses. This human coronavirus host factor compendium represents 
+a rich resource to develop new therapeutic strategies for acute COVID-19 and 
+potential future coronavirus pandemics.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

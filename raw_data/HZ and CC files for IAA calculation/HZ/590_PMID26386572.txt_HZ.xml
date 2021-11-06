@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Apoptosis transcriptional mechanism of feline infectious peritonitis virus 
+infected cells.
+
+Apoptosis has been postulated to play an important role during feline infectious 
+peritonitis virus (FIPV) infection; however, its mechanism is not well 
+characterized. This study is focused on apoptosis and transcriptional profiling 
+of FIPV-infected cells following in vitro infection of CRFK cells with FIPV 
+79-1146 WSU. Flow cytometry was used to determine mode of cell death in first 
+42 h post infection (hpi). FIPV infected cells underwent early apoptosis at 9 
+hpi (p < 0.05) followed by late apoptosis at 12 hpi (p < 0.05) and necrosis from 
+24 hpi (p < 0.05). Then, next generation sequencing was performed on 9 hpi and 
+control uninfected cells by Illumina analyzer. An aggregate of 4546 genes (2229 
+down-regulated and 2317 up-regulated) from 17 cellular process, 11 molecular 
+functions and 130 possible biological pathways were affected by FIPV. 131 genes 
+from apoptosis cluster (80 down-regulated and 51 up-regulated) along with 
+increase of apoptosis, p53, p38 MAPK, VEGF and chemokines/cytokines signaling 
+pathways were probably involved in apoptosis process. Six of the de-regulated 
+genes expression (RASSF1, BATF2, MAGEB16, PDCD5, TNFα and TRAF2) and TNFα 
+protein concentration were analyzed by RT-qPCR and ELISA, respectively, at 
+different time-points. Up-regulations of both pro-apoptotic (i.e. PDCD5) and 
+anti-apoptotic (i.e. TRAF2) were detected from first hpi and continuing to 
+deregulate during apoptosis process in the infected cells.]]></TEXT>
+<TAGS>
+<CONTEXT id="C1" spans="525~531" text="cells " context="cells" />
+<CONTEXT id="C2" spans="383~393" text="CRFK cells" context="cells" />
+<PHENOTYPE id="PH0" spans="547~556" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH1" spans="595~604" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="630~638" text="necrosis" phenotype="necrosis" />
+<EFFECT id="E0" spans="1040~1048" text="increase" effect="-" />
+</TAGS>
+</Genomics_ConceptTask>

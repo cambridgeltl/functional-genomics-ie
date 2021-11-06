@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Cancer Cells Co-opt the Neuronal Redox-Sensing Channel TRPA1 to Promote 
+Oxidative-Stress Tolerance.
+
+Cancer cell survival is dependent on oxidative-stress defenses against reactive 
+oxygen species (ROS) that accumulate during tumorigenesis. Here, we show a 
+non-canonical oxidative-stress defense mechanism through TRPA1, a neuronal 
+redox-sensing Ca2+-influx channel. In TRPA1-enriched breast and lung cancer 
+spheroids, TRPA1 is critical for survival of inner cells that exhibit ROS 
+accumulation. Moreover, TRPA1 promotes resistance to ROS-producing 
+chemotherapies, and TRPA1 inhibition suppresses xenograft tumor growth and 
+enhances chemosensitivity. TRPA1 does not affect redox status but upregulates 
+Ca2+-dependent anti-apoptotic pathways. NRF2, an oxidant-defense transcription 
+factor, directly controls TRPA1 expression, thus providing an orthogonal 
+mechanism for protection against oxidative stress together with canonical 
+ROS-neutralizing mechanisms. These findings reveal an oxidative-stress defense 
+program involving TRPA1 that could be exploited for targeted cancer therapies.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="575~591" text="TRPA1 inhibition" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="603~612" text="xenograft" context="xenograft" />
+<PHENOTYPE id="PH0" spans="613~625" text="tumor growth" phenotype="tumour growth" />
+<EFFECT id="E0" spans="592~602" text="suppresses" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="TRPA1 inhibition" effectID="E0" effectText="suppresses" contextID="C0" contextText="xenograft" phenotypeID="PH0" phenotypeText="tumor growth" />
+</TAGS>
+</Genomics_ConceptTask>

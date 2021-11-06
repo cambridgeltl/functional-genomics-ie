@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Epigenomic State Transitions Characterize Tumor Progression in Mouse Lung 
+Adenocarcinoma.
+
+Regulatory networks that maintain functional, differentiated cell states are 
+often dysregulated in tumor development. Here, we use single-cell epigenomics to 
+profile chromatin state transitions in a mouse model of lung adenocarcinoma 
+(LUAD). We identify an epigenomic continuum representing loss of cellular 
+identity and progression toward a metastatic state. We define co-accessible 
+regulatory programs and infer key activating and repressive chromatin regulators 
+of these cell states. Among these co-accessibility programs, we identify a 
+pre-metastatic transition, characterized by activation of RUNX transcription 
+factors, which mediates extracellular matrix remodeling to promote metastasis 
+and is predictive of survival across human LUAD patients. Together, these 
+results demonstrate the power of single-cell epigenomics to identify regulatory 
+programs to uncover mechanisms and key biomarkers of tumor progression.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

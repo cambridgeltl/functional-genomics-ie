@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Onco-fetal Reprogramming of Endothelial Cells Drives Immunosuppressive 
+Macrophages in Hepatocellular Carcinoma.
+
+We employed scRNA sequencing to extensively characterize the cellular landscape 
+of human liver from development to disease. Analysis of ∼212,000 cells 
+representing human fetal, hepatocellular carcinoma (HCC), and mouse liver 
+revealed remarkable fetal-like reprogramming of the tumor microenvironment. 
+Specifically, the HCC ecosystem displayed features reminiscent of fetal 
+development, including re-emergence of fetal-associated endothelial cells 
+(PLVAP/VEGFR2) and fetal-like (FOLR2) tumor-associated macrophages. In a 
+cross-species comparative analysis, we discovered remarkable similarity between 
+mouse embryonic, fetal-liver, and tumor macrophages. Spatial transcriptomics 
+further revealed a shared onco-fetal ecosystem between fetal liver and HCC. 
+Furthermore, gene regulatory analysis, spatial transcriptomics, and in vitro 
+functional assays implicated VEGF and NOTCH signaling in maintaining onco-fetal 
+ecosystem. Taken together, we report a shared immunosuppressive onco-fetal 
+ecosystem in fetal liver and HCC. Our results unravel a previously unexplored 
+onco-fetal reprogramming of the tumor ecosystem, provide novel targets for 
+therapeutic interventions in HCC, and open avenues for identifying similar 
+paradigms in other cancers and disease.
+]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

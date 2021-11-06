@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[M1 macrophage dependent-p53 regulates the intracellular survival of 
+mycobacteria.
+
+Tumor suppressor p53 is not only affects immune responses but also contributes 
+to antibacterial activity. However, its bactericidal function during 
+mycobacterial infection remains unclear. In this study, we found that the 
+p53-deficient macrophages failed to control Mycobacterium tuberculosis (Mtb), 
+manifested as a lower apoptotic cell death rate and enhanced intracellular 
+survival. The expression levels of p53 during Mtb infection were stronger in M1 
+macrophages than in M2 macrophages. The TLR2/JNK signaling pathway plays an 
+essential role in the modulation of M1 macrophage polarization upon Mtb 
+infection. It facilitates p53-mediated apoptosis through the production of 
+reactive oxygen species, nitric oxide and inflammatory cytokines in Mtb-infected 
+M1 macrophages. In addition, nutlin-3 effectively abrogated the intracellular 
+survival of mycobacteria in both TB patients and healthy controls after H37Ra 
+infection for 24 h, indicating that the enhancement of p53 production 
+effectively suppressed the intracellular survival of Mtb in hosts. These results 
+suggest that p53 can be a new therapeutic target for TB therapy.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="853~867" text="M1 macrophages" context="cells" />
+<PHENOTYPE id="PH0" spans="734~743" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="725~733" text="mediated" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

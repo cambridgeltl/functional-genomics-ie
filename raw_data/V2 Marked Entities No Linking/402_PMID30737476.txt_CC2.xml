@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Ischemia-induced ACSL4 activation contributes to ferroptosis-mediated tissue 
+injury in intestinal ischemia/reperfusion.
+
+Ferroptosis is a recently identified form of regulated cell death defined by the 
+iron-dependent accumulation of lipid reactive oxygen species. Ferroptosis has 
+been studied in various diseases such as cancer, Parkinson's disease, and 
+stroke. However, the exact function and mechanism of ferroptosis in 
+ischemia/reperfusion (I/R) injury, especially in the intestine, remains unknown. 
+Considering the unique conditions required for ferroptosis, we hypothesize that 
+ischemia promotes ferroptosis immediately after intestinal reperfusion. In 
+contrast to conventional strategies employed in I/R studies, we focused on the 
+ischemic phase. Here we verified ferroptosis by assessing proferroptotic changes 
+after ischemia along with protein and lipid peroxidation levels during 
+reperfusion. The inhibition of ferroptosis by liproxstatin-1 ameliorated 
+I/R-induced intestinal injury. Acyl-CoA synthetase long-chain family member 4 
+(ACSL4), which is a key enzyme that regulates lipid composition, has been shown 
+to contribute to the execution of ferroptosis, but its role in I/R needs 
+clarification. In the present study, we used rosiglitazone (ROSI) and siRNA to 
+inhibit ischemia/hypoxia-induced ACSL4 in vivo and in vitro. The results 
+demonstrated that ACSL4 inhibition before reperfusion protected against 
+ferroptosis and cell death. Further investigation revealed that special protein 
+1 (Sp1) was a crucial transcription factor that increased ACSL4 transcription by 
+binding to the ACSL4 promoter region. Collectively, this study demonstrates that 
+ferroptosis is closely associated with intestinal I/R injury, and that ACSL4 has 
+a critical role in this lethal process. Sp1 is an important factor in promoting 
+ACSL4 expression. These results suggest a unique and effective mechanistic 
+approach for intestinal I/R injury prevention and treatment.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1278~1326" text="siRNA to  inhibit ischemia/hypoxia-induced ACSL4" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1380~1396" text="ACSL4 inhibition" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="1327~1334" text="in vivo" context="in vivo" />
+<CONTEXT id="C1" spans="1339~1347" text="in vitro" context="in vitro" />
+<PHENOTYPE id="PH0" spans="931~942" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH1" spans="1435~1446" text="ferroptosis" phenotype="ferroptosis" />
+<PHENOTYPE id="PH2" spans="1451~1461" text="cell death" phenotype="cell death" />
+<EFFECT id="E0" spans="917~927" text="inhibition" effect="negative" />
+<EFFECT id="E1" spans="1416~1433" text="protected against" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

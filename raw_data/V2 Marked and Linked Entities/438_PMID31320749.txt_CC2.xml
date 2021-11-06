@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The lncRNA PVT1 regulates nasopharyngeal carcinoma cell proliferation via 
+activating the KAT2A acetyltransferase and stabilizing HIF-1α.
+
+Long noncoding RNAs (lncRNAs) play important roles in regulating the development 
+and progression of many cancers. However, the clinical significance of specific 
+lncRNAs in the context of nasopharyngeal carcinoma (NPC) and the molecular 
+mechanisms by which they regulate this form of cancer remain largely unclear. In 
+this study we found that the lncRNA PVT1 was upregulated in NPC, and that in 
+patients this upregulation was associated with reduced survival. RNA sequencing 
+revealed that PVT1 was responsible for regulating NPC cell proliferation and for 
+controlling a hypoxia-related phenotype in these cells. PVT1 knockdown reduced 
+NPC cell proliferation, colony formation, and tumorigenesis in a subcutaneous 
+mouse xenograft model systems. We further found that PVT1 serves as a scaffold 
+for the chromatin modification factor KAT2A, which mediates histone 3 lysine 9 
+acetylation (H3K9), recruiting the nuclear receptor binding protein TIF1β to 
+activate NF90 transcription, thereby increasing HIF-1α stability and promoting a 
+malignant phenotype in NPC cells. Overexpression of NF90 or HIF-1α restored the 
+proliferation in cells that had ceased proliferating due to PVT1 or KAT2A 
+depletion. Conversely, overexpression of active KAT2A or TIF1β, but not of KAT2A 
+acetyltransferase activity-deficient mutants or TIF1β isoforms lacking H3K9ac 
+binding sites, promoted a PVT1-mediated increase in NF90 transcription, as well 
+as increased HIF-1α stability and cell proliferation. PVT1 knockdown enhanced 
+the radiosensitization effect in NPC cells via inhibiting binding between H3K9ac 
+and TIF1β in a manner. Taken together, our results demonstrate that PVT1 serves 
+an oncogenic role and plays an important role in radiosensitivity in malignant 
+NPC via activating the KAT2A acetyltransferase and stabilizing HIF-1α.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="757~771" text="PVT1 knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="1214~1246" text="Overexpression of NF90 or HIF-1α" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="1321~1345" text="PVT1 or KAT2A  depletion" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P3" spans="1359~1398" text="overexpression of active KAT2A or TIF1β" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P4" spans="1632~1646" text="PVT1 knockdown" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="781~789" text="NPC cell" context="transformed cells" />
+<CONTEXT id="C1" spans="846~881" text="subcutaneous  mouse xenograft model" context="xenograft" />
+<CONTEXT id="C2" spans="1203~1212" text="NPC cells" context="transformed cells" />
+<CONTEXT id="C3" spans="1278~1283" text="cells" context="cells" />
+<CONTEXT id="C4" spans="1612~1616" text="cell" context="cells" />
+<CONTEXT id="C5" spans="1690~1699" text="NPC cells" context="transformed cells" />
+<PHENOTYPE id="PH0" spans="790~803" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH1" spans="805~821" text="colony formation" phenotype="colony formation" />
+<PHENOTYPE id="PH2" spans="827~840" text="tumorigenesis" phenotype="tumourigenesis" />
+<PHENOTYPE id="PH4" spans="1261~1274" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH5" spans="1617~1630" text="proliferation" phenotype="proliferation" />
+<PHENOTYPE id="PH6" spans="1300~1313" text="proliferating" phenotype="-" />
+<EFFECT id="E0" spans="772~779" text="reduced" effect="negative" />
+<EFFECT id="E2" spans="1247~1255" text="restored" effect="rescues" />
+<EFFECT id="E3" spans="1581~1590" text="increased" effect="positive" />
+<EFFECT id="E4" spans="1293~1299" text="ceased" effect="negative" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P0" perturbing_actionText="PVT1 knockdown" effectID="E0" effectText="reduced" contextID="C0" contextText="NPC cell" phenotypeID="PH0" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P0" perturbing_actionText="PVT1 knockdown" effectID="E0" effectText="reduced" contextID="C0" contextText="NPC cell" phenotypeID="PH1" phenotypeText="colony formation" />
+<ENTITY_LINKING id="EN2" perturbing_actionID="P0" perturbing_actionText="PVT1 knockdown" effectID="E0" effectText="reduced" phenotypeID="PH2" phenotypeText="tumorigenesis" contextID="C1" contextText="subcutaneous  mouse xenograft model" />
+<ENTITY_LINKING id="EN3" perturbing_actionID="P1" perturbing_actionText="Overexpression of NF90 or HIF-1α" contextID="C3" contextText="cells" effectID="E2" effectText="restored" phenotypeID="PH4" phenotypeText="proliferation" />
+<ENTITY_LINKING id="EN4" perturbing_actionID="P2" perturbing_actionText="PVT1 or KAT2A  depletion" contextID="C3" contextText="cells" effectID="E4" effectText="ceased" phenotypeID="PH6" phenotypeText="proliferating" />
+<ENTITY_LINKING id="EN5" perturbing_actionID="P4" perturbing_actionText="PVT1 knockdown" phenotypeID="PH5" phenotypeText="proliferation" contextID="C4" contextText="cell" effectID="E3" effectText="increased" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Exosomal miRNA-19b-3p of tubular epithelial cells promotes M1 macrophage 
+activation in kidney injury.
+
+Tubulointerstitial inflammation is a common characteristic of acute and chronic 
+kidney injury. However, the mechanism by which the initial injury of tubular 
+epithelial cells (TECs) drives interstitial inflammation remains unclear. This 
+paper aims to explore the role of exosomal miRNAs derived from TECs in the 
+development of tubulointerstitial inflammation. Global microRNA(miRNA) 
+expression profiling of renal exosomes was examined in a LPS induced acute 
+kidney injury (AKI) mouse model and miR-19b-3p was identified as the miRNA that 
+was most notably increased in TEC-derived exosomes compared to controls. Similar 
+results were also found in an adriamycin (ADR) induced chronic proteinuric 
+kidney disease model in which exosomal miR-19b-3p was markedly released. 
+Interestingly, once released, TEC-derived exosomal miR-19b-3p was internalized 
+by macrophages, leading to M1 phenotype polarization through targeting 
+NF-κB/SOCS-1. A dual-luciferase reporter assay confirmed that SOCS-1 was the 
+direct target of miR-19b-3p. Importantly, the pathogenic role of exosomal 
+miR-19b-3p in initiating renal inflammation was revealed by the ability of 
+adoptively transferred of purified TEC-derived exosomes to cause 
+tubulointerstitial inflammation in mice, which was reversed by inhibition of 
+miR-19b-3p. Clinically, high levels of miR-19b-3p were found in urinary exosomes 
+and were correlated with the severity of tubulointerstitial inflammation in 
+patients with diabetic nephropathy. Thus, our studies demonstrated that exosomal 
+miR-19b-3p mediated the communication between injured TECs and macrophages, 
+leading to M1 macrophage activation. The exosome/miR-19b-3p/SOCS1 axis played a 
+critical pathologic role in tubulointerstitial inflammation, representing a new 
+therapeutic target for kidney disease.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="1390~1415" text="inhibition of  miR-19b-3p" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="587~598" text="mouse model" context="organism" />
+<CONTEXT id="C1" spans="567~573" text="kidney" context="tissue/organ" />
+<CONTEXT id="C2" spans="806~812" text="kidney" context="tissue/organ" />
+<CONTEXT id="C3" spans="1362~1366" text="mice" context="organism" />
+</TAGS>
+</Genomics_ConceptTask>

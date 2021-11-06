@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[COVID-19-neutralizing antibodies predict disease severity and survival.
+
+Coronavirus disease 2019 (COVID-19) exhibits variable symptom severity ranging 
+from asymptomatic to life-threatening, yet the relationship between severity and 
+the humoral immune response is poorly understood. We examined antibody responses 
+in 113 COVID-19 patients and found that severe cases resulting in intubation or 
+death exhibited increased inflammatory markers, lymphopenia, pro-inflammatory 
+cytokines, and high anti-receptor binding domain (RBD) antibody levels. Although 
+anti-RBD immunoglobulin G (IgG) levels generally correlated with neutralization 
+titer, quantitation of neutralization potency revealed that high potency was a 
+predictor of survival. In addition to neutralization of wild-type SARS-CoV-2, 
+patient sera were also able to neutralize the recently emerged SARS-CoV-2 mutant 
+D614G, suggesting cross-protection from reinfection by either strain. However, 
+SARS-CoV-2 sera generally lacked cross-neutralization to a highly homologous 
+pre-emergent bat coronavirus, WIV1-CoV, which has not yet crossed the species 
+barrier. These results highlight the importance of neutralizing humoral immunity 
+on disease progression and the need to develop broadly protective interventions 
+to prevent future coronavirus pandemics.]]></TEXT>
+<TAGS>
+</TAGS>
+</Genomics_ConceptTask>

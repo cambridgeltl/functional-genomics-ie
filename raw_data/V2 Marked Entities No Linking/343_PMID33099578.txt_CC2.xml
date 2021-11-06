@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[High-fat diet promotes renal injury by inducing oxidative stress and 
+mitochondrial dysfunction.
+
+Obesity has been recognized as a major risk factor for chronic kidney disease, 
+but the underlying mechanism remains elusive. Here, we investigated the 
+mechanism whereby long-term high-fat diet (HFD) feeding induces renal injury in 
+mice. The C57BL/6 mice fed HFD for 16 weeks developed obesity, diabetes, and 
+kidney dysfunction manifested by albuminuria and blood accumulation of BUN and 
+creatinine. The HFD-fed kidney showed marked glomerular and tubular injuries, 
+including prominent defects in the glomerular filtration barrier and increased 
+tubular cell apoptosis. Mechanistically, HFD feeding markedly increased 
+triglyceride and cholesterol contents in the kidney and activated lipogenic 
+pathways for cholesterol and triglyceride synthesis. HFD feeding also increased 
+oxidative stress and induced mitochondrial fission in tubular cells, thereby 
+activating the pro-apoptotic pathway. In HK-2 and mesangial cell cultures, high 
+glucose, fatty acid, and TNF-α combination was able to activate the lipogenic 
+pathways, increase oxidative stress, promote mitochondrial fission, and activate 
+the pro-apoptotic pathway, all of which could be attenuated by an inhibitor that 
+depleted reactive oxygen species. Taken together, these observations suggest 
+that long-term HFD feeding causes kidney injury at least in part as a result of 
+tissue lipid accumulation, increased oxidative stress, and mitochondrial 
+dysfunction, which promote excess programmed cell death.]]></TEXT>
+<TAGS>
+<CONTEXT id="C0" spans="342~354" text="C57BL/6 mice" context="organism" />
+<CONTEXT id="C1" spans="514~520" text="kidney" context="tissue/organ" />
+<CONTEXT id="C2" spans="649~661" text="tubular cell" context="cells" />
+<CONTEXT id="C3" spans="767~773" text="kidney" context="tissue/organ" />
+<CONTEXT id="C4" spans="934~947" text="tubular cells" context="cells" />
+<CONTEXT id="C5" spans="999~1031" text="HK-2 and mesangial cell cultures" context="cells" />
+<PHENOTYPE id="PH0" spans="662~671" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="638~647" text="increased" effect="positive" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[A Single-Dose Intranasal ChAd Vaccine Protects Upper and Lower Respiratory 
+Tracts against SARS-CoV-2.
+
+The coronavirus disease 2019 pandemic has made deployment of an effective 
+vaccine a global health priority. We evaluated the protective activity of a 
+chimpanzee adenovirus-vectored vaccine encoding a prefusion stabilized spike 
+protein (ChAd-SARS-CoV-2-S) in challenge studies with severe acute respiratory 
+syndrome coronavirus 2 (SARS-CoV-2) and mice expressing the human 
+angiotensin-converting enzyme 2 receptor. Intramuscular dosing of 
+ChAd-SARS-CoV-2-S induces robust systemic humoral and cell-mediated immune 
+responses and protects against lung infection, inflammation, and pathology but 
+does not confer sterilizing immunity, as evidenced by detection of viral RNA and 
+induction of anti-nucleoprotein antibodies after SARS-CoV-2 challenge. In 
+contrast, a single intranasal dose of ChAd-SARS-CoV-2-S induces high levels of 
+neutralizing antibodies, promotes systemic and mucosal immunoglobulin A (IgA) 
+and T cell responses, and almost entirely prevents SARS-CoV-2 infection in both 
+the upper and lower respiratory tracts. Intranasal administration of 
+ChAd-SARS-CoV-2-S is a candidate for preventing SARS-CoV-2 infection and 
+transmission and curtailing pandemic spread.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="459~521" text="expressing the human  angiotensin-converting enzyme 2 receptor" perturbingaction="gene gain-of-function" />
+<CONTEXT id="C0" spans="454~458" text="mice" context="organism" />
+<CONTEXT id="C1" spans="655~659" text="lung" context="tissue/organ" />
+<CONTEXT id="C2" spans="1024~1030" text="T cell" context="cells" />
+<CONTEXT id="C3" spans="1105~1139" text="upper and lower respiratory tracts" context="tissue/organ" />
+</TAGS>
+</Genomics_ConceptTask>

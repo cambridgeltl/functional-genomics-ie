@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Clotam enhances anti-proliferative effect of vincristine in Ewing sarcoma cells.
+
+Current therapeutic strategies used in Ewing sarcoma (ES) especially for 
+relapsed patients have resulted in modest improvements in survival over the past 
+20 years. Combination therapeutic approach presents as an alternative to 
+overcoming drug resistance in metastatic ES. This study evaluated the effect of 
+Clotam (tolfenamic acid or TA), a small molecule and inhibitor of Specificity 
+protein1 (Sp1) and survivin for sensitizing ES cell lines to chemotherapeutic 
+agent, vincristine (VCR). ES cells (CHLA-9 and TC-32) were treated with TA or 
+VCR or TA + VCR (combination), and cell viability was assessed after 24/48/72 h. 
+Effect of TA or VCR or TA + VCR treatment on cell cycle arrest and apoptosis 
+were evaluated using propidium iodide, cell cycle assay and Annexin V flow 
+cytometry respectively. The apoptosis markers, caspase 3/7 (activity levels) and 
+cleaved-PARP (protein expression) were measured. Cardiomyocytes, H9C2 were used 
+as non-malignant cells. While, all treatments caused time- and dose-dependent 
+inhibition of cell viability, interestingly, combination treatment caused 
+significantly higher response (~ 80% inhibition, p < 0.05). Cell viability 
+inhibition was accompanied by inhibition of Sp1 and Survivin. TA + VCR treatment 
+significantly (p < 0.05) increased caspase 3/7 activity which strongly 
+correlated with upregulated c-PARP level and Annexin V staining. Cell cycle 
+arrest was observed at G0/G1 (TA) or G2/M (VCR and TA + VCR). All treatments did 
+not cause cytotoxicity in H9C2 cells. These results suggest that TA could 
+enhance the anti-cancer activity of VCR in ES cells. Therefore, TA + VCR 
+combination could be further tested to develop as safe/effective therapeutic 
+strategy for treating ES.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="446~486" text="inhibitor of Specificity  protein1 (Sp1)" perturbingaction="pharmacological inhibition" />
+<CONTEXT id="C0" spans="577~585" text="ES cells" context="transformed cells" />
+<CONTEXT id="C2" spans="1598~1608" text="H9C2 cells" context="cells" />
+<CONTEXT id="C3" spans="997~1017" text="Cardiomyocytes, H9C2" context="cells" />
+<PHENOTYPE id="PH0" spans="1122~1136" text="cell viability" phenotype="cell survival" />
+<PHENOTYPE id="PH1" spans="1243~1257" text="Cell viability" phenotype="cell survival" />
+<PHENOTYPE id="PH2" spans="1478~1496" text="Cell cycle  arrest" phenotype="cell cycle arrest" />
+<EFFECT id="E0" spans="1108~1118" text="inhibition" effect="negative" />
+<EFFECT id="E1" spans="1259~1269" text="inhibition" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[Treatment-Induced Tumor Dormancy through YAP-Mediated Transcriptional 
+Reprogramming of the Apoptotic Pathway.
+
+Eradicating tumor dormancy that develops following epidermal growth factor 
+receptor (EGFR) tyrosine kinase inhibitor (TKI) treatment of EGFR-mutant 
+non-small cell lung cancer, is an attractive therapeutic strategy but the 
+mechanisms governing this process are poorly understood. Blockade of ERK1/2 
+reactivation following EGFR TKI treatment by combined EGFR/MEK inhibition 
+uncovers cells that survive by entering a senescence-like dormant state 
+characterized by high YAP/TEAD activity. YAP/TEAD engage the 
+epithelial-to-mesenchymal transition transcription factor SLUG to directly 
+repress pro-apoptotic BMF, limiting drug-induced apoptosis. Pharmacological 
+co-inhibition of YAP and TEAD, or genetic deletion of YAP1, all deplete dormant 
+cells by enhancing EGFR/MEK inhibition-induced apoptosis. Enhancing the initial 
+efficacy of targeted therapies could ultimately lead to prolonged treatment 
+responses in cancer patients.
+]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="459~487" text="combined EGFR/MEK inhibition" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P1" spans="760~806" text="Pharmacological  co-inhibition of YAP and TEAD" perturbingaction="pharmacological inhibition" />
+<PERTURBING_ACTION id="P2" spans="811~835" text="genetic deletion of YAP1" perturbingaction="gene loss-of-function" />
+<CONTEXT id="C0" spans="498~503" text="cells" context="cells" />
+<CONTEXT id="C1" spans="849~863" text="dormant  cells" context="cells" />
+<PHENOTYPE id="PH0" spans="531~560" text="senescence-like dormant state" phenotype="senescence" />
+<PHENOTYPE id="PH1" spans="749~758" text="apoptosis" phenotype="apoptosis" />
+<PHENOTYPE id="PH2" spans="905~914" text="apoptosis" phenotype="apoptosis" />
+<EFFECT id="E0" spans="727~735" text="limiting" effect="negative" />
+<EFFECT id="E1" spans="741~748" text="induced" effect="positive" />
+<EFFECT id="E2" spans="867~876" text="enhancing" effect="positive" />
+<EFFECT id="E3" spans="897~904" text="induced" effect="positive" />
+<ENTITY_LINKING id="EN0" perturbing_actionID="P1" perturbing_actionText="Pharmacological  co-inhibition of YAP and TEAD" contextID="C1" contextText="dormant  cells" effectID="E2" effectText="enhancing" phenotypeID="PH2" phenotypeText="apoptosis" />
+<ENTITY_LINKING id="EN1" perturbing_actionID="P2" perturbing_actionText="genetic deletion of YAP1" contextID="C1" contextText="dormant  cells" effectID="E2" effectText="enhancing" phenotypeID="PH2" phenotypeText="apoptosis" />
+</TAGS>
+</Genomics_ConceptTask>

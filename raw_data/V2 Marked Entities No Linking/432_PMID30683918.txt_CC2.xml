@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Genomics_ConceptTask>
+<TEXT><![CDATA[The role of the LncRNA-FA2H-2-MLKL pathway in atherosclerosis by regulation of 
+autophagy flux and inflammation through mTOR-dependent signaling.
+
+Atherosclerosis is a progressive, chronic inflammation in arterial walls. Long 
+noncoding RNAs (lncRNAs) participate in inflammation, but the exact mechanism in 
+atherosclerosis is unclear. Our microarray analyses revealed that the levels of 
+lncRNA-FA2H-2 were significantly decreased by oxidized low-density lipoprotein 
+(OX-LDL). Bioinformatics analyses indicated that mixed lineage kinase 
+domain-like protein (MLKL) might be regulated by lncRNA-FA2H-2. In vitro 
+experiments showed that lncRNA-FA2H-2 interacted with the promoter of the MLKL 
+gene, downregulated MLKL expression, and the binding sites between -750 and 471 
+were necessary for lncRNA-FA2H-2 responsiveness to MLKL. Silencing lncRNA-FA2H-2 
+and overexpression of MLKL could activate inflammation and inhibited autophagy 
+flux. Both lncRNA-FA2H-2 knockdown and overexpression of MLKL could 
+significantly aggravate inflammatory responses induced by OX-LDL. We found that 
+the 3-methyladenine (3-MA) and Atg7-shRNA enhanced inflammatory responses 
+induced by knockdown of lncRNA-FA2H-2 and overexpression of MLKL. We 
+demonstrated that the effects of MLKL on autophagy might be associated with a 
+mechanistic target of rapamycin (mTOR)-dependent signaling pathways. In vivo 
+experiments with apoE knockout mice fed a western diet demonstrated that 
+LncRNA-FA2H-2 knockdown decreased microtubule-associated expression of 
+microtubule-associated protein 1 light chain 3 II and lysosome-associated 
+membrane protein 1, but increased expression of sequestosome 1 (p62), MLKL, 
+vascular cell adhesion molecule-1, monocyte chemoattractant protein-1, and 
+interleukin-6 in atherosclerotic lesions. Our findings indicated that the 
+lncRNA-FA2H-2-MLKL pathway is essential for regulation of autophagy and 
+inflammation, and suggested that lncRNA-FA2H-2 and MLKL could act as potential 
+therapeutic targets to ameliorate atherosclerosis-related diseases.]]></TEXT>
+<TAGS>
+<PERTURBING_ACTION id="P0" spans="833~856" text="Silencing lncRNA-FA2H-2" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P1" spans="862~884" text="overexpression of MLKL" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P2" spans="949~972" text="lncRNA-FA2H-2 knockdown" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P3" spans="977~999" text="overexpression of MLKL" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P4" spans="1119~1129" text="Atg7-shRNA" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P5" spans="1174~1200" text="knockdown of lncRNA-FA2H-2" perturbingaction="rnai/knockdown" />
+<PERTURBING_ACTION id="P6" spans="1205~1227" text="overexpression of MLKL" perturbingaction="gene gain-of-function" />
+<PERTURBING_ACTION id="P8" spans="1407~1420" text="apoE knockout" perturbingaction="gene loss-of-function" />
+<PERTURBING_ACTION id="P9" spans="1464~1487" text="LncRNA-FA2H-2 knockdown" perturbingaction="rnai/knockdown" />
+<CONTEXT id="C0" spans="605~613" text="In vitro" context="in vitro" />
+<CONTEXT id="C1" spans="1381~1388" text="In vivo" context="in vivo" />
+<CONTEXT id="C2" spans="1421~1425" text="mice" context="organism" />
+<PHENOTYPE id="PH1" spans="927~942" text="autophagy  flux" phenotype="autophagy" />
+<EFFECT id="E0" spans="917~926" text="inhibited" effect="negative" />
+</TAGS>
+</Genomics_ConceptTask>
