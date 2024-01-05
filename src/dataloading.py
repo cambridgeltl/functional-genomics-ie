@@ -93,7 +93,7 @@ def load_fgeom_json_data(path, heads, raw_tag_categories, sep_sentences=False):
             elif k == "link_same_tag_only_split":
                 link_sets = set([l_type for xs in raw_link_data for x in xs
                                  for l_type, _, _ in x if l_type != "links"])
-                link_data = {k: [[[] for x in xs] for xs in raw_link_data] for k in link_sets}
+                link_data = {k: [[[] for _ in xs] for xs in raw_link_data] for k in link_sets}
                 for i, xs in enumerate(raw_link_data):
                     for j, x in enumerate(xs):
                         for l_type, l_id, l in x:
@@ -124,4 +124,12 @@ def load_txt_data(path):
         entries = f.read().split('\n')
     words = [entry.split(' ') for entry in entries if entry != '']
     return {"tfm": words, "head": {}}, None
+
+def load_raw_json_data(path):
+    with open(path) as f:
+        entries = json.load(f)
+    pairs = list(entries.items())
+    words = [entry_txt.split(' ') for _, entry_txt in pairs]
+    entry_idxs = {k: i for i, (k, _) in enumerate(pairs)}
+    return {"tfm": words, "head": {}}, None, entry_idxs
 

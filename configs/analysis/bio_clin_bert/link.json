@@ -1,0 +1,91 @@
+{
+    "MODE": "analyse",
+    "HISTORY_DATA": {
+        "PATH": "outputs/outputs_db.json",
+        "MODELS": [
+            "BioBERTv11_link_both_heads_v2_bl05_k4_2023-07-27_15-24"
+        ]
+    },
+    "ANALYSIS": {
+        "GRAPHING": {
+            "OUTPUT": "save",
+            "FOLDER": "model_analysis/bio_clin_bert/link_graphs",
+            "GRAPHS": [
+                {
+                    "TITLE": "Train Losses",
+                    "VALUES": {
+                        "train_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "link_only",
+                        "link_same_tag_only"
+                    ]
+                },
+                {
+                    "TITLE": "Val Losses",
+                    "VALUES": {
+                        "validation_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "link_only",
+                        "link_same_tag_only"
+                    ]
+                },
+                {
+                    "TITLE": "F1 Scores",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "link_only",
+                        "link_same_tag_only"
+                    ]
+                }
+            ]
+        },
+        "REPORT": {
+            "OUTPUT": "md",
+            "PATH": "model_analysis/link_report",
+            "TITLE": "Report on link models",
+            "REPORTS": [
+                {
+                    "TITLE": "Train Losses",
+                    "VALUES": {
+                        "train_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "link_only",
+                        "link_same_tag_only"
+                    ],
+                    "BEST_IS_MIN": true
+                },
+                {
+                    "TITLE": "Val Losses",
+                    "VALUES": {
+                        "validation_losses": null
+                    },
+                    "HEAD_NAMES": [
+                        "link_only",
+                        "link_same_tag_only"
+                    ],
+                    "BEST_IS_MIN": true
+                },
+                {
+                    "TITLE": "F1 Scores",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "link_only",
+                        "link_same_tag_only"
+                    ]
+                }
+            ]
+        }
+    }
+}
+

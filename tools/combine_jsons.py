@@ -3,8 +3,6 @@ import argparse
 
 
 if __name__ == "__main__":
-
-    # CLI
     parser = argparse.ArgumentParser(description="Combine two or more json databases")
     parser.add_argument("dbs", nargs='+', help="Paths to json database files")
     parser.add_argument("-n", "--name", default=None, help="Name of output file")

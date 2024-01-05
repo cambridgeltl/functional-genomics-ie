@@ -1,6 +1,7 @@
 import json
 import argparse
 import numpy as np
+from pprint import pprint
 
 from util.core import ensure_file_ext
 
@@ -151,7 +152,12 @@ def get_tag_label_counts_of_word(word_datum, tag_lists, tag_categories):
     for category, data in tag_categories.items():
         for f in data["fields"].keys():
             parent_key[f] = category
-    labels = {k: [x[k] for x in word_datum[pk]] for k, pk in parent_key.items()}
+    try:
+        labels = {k: [x[k] for x in word_datum[pk]] for k, pk in parent_key.items()}
+    except KeyError as e:
+        pprint(word_datum)
+        pprint(parent_key)
+        raise e
     return {k: {l: labels[k].count(l) for l in ls}
             for k, ls in tag_lists.items()}
 

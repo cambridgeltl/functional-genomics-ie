@@ -2,7 +2,7 @@
     "MODE": "deploy",
     "MODEL": {
         "TYPE": "existing",
-        "PATH": "outputs/models/BioBERTv11_multi_output_bl05_k4_e36_2021-08-28_00-45.pkl"
+        "PATH": "outputs/models/BioBERTv11_multi_output_v2_single_label_bio_bl05_k4_e36_2021-11-02_17-03.pkl"
     },
     "DATA": {
         "PATH": "test_deploy_data/test1.txt",

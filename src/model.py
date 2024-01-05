@@ -173,7 +173,7 @@ class Custom_Model(Module):
         self.custom_predictions2labels = predictions2labels_funcs[func_name]
 
 
-    def forward(self, model_data, class_loss_weights=None):
+    def forward(self, model_data, class_loss_weights=None, calc_loss=True):
 
         def get_output(i_dict):
             return self.dropout(self.tfm(i_dict["iids"], attention_mask=i_dict["masks"])[0])
@@ -182,16 +182,17 @@ class Custom_Model(Module):
                    if kh != "default" else get_output(vh)
                    for kh, vh in model_data["tfm"].items()}
 
-        logits = {k: h(dict_dget(outputs, k, "default"), model_data["heads"][k])
+        logits = {k: h(dict_dget(outputs, k, "default"), model_data["heads"].get(k, None))
                   for k, h in self._heads.items()}
 
         losses = {}
-        for k, h_data in model_data["heads"].items():
-            clw = class_loss_weights[k].to(self.cuda_device)
-            losses[k] = self._heads[k].loss_calc(
-                logits[k], head_data=h_data, tfm_data=dict_dget(model_data["tfm"], k, "default"),
-                class_loss_weights=clw
-            )
+        if calc_loss:
+            for k, h_data in model_data["heads"].items():
+                clw = class_loss_weights[k].to(self.cuda_device)
+                losses[k] = self._heads[k].loss_calc(
+                    logits[k], head_data=h_data, tfm_data=dict_dget(model_data["tfm"], k, "default"),
+                    class_loss_weights=clw
+                )
 
         losses = deep_eD(losses)
 
@@ -202,23 +203,27 @@ class Custom_Model(Module):
         }
 
 
-    def forward_batch(self, batch, grad=True, class_loss_weights=None):
+    def forward_batch(self, batch, grad=True, class_loss_weights=None, calc_loss=True):
         model_data, = batch
         model_data = deep_eD(model_data).to(self.cuda_device)
 
         if grad:
-            outputs = self(model_data, class_loss_weights=class_loss_weights)
+            outputs = self(model_data, class_loss_weights=class_loss_weights, calc_loss=calc_loss)
         else:
             with torch.no_grad():
-                outputs = self(model_data, class_loss_weights=class_loss_weights)
+                outputs = self(model_data, class_loss_weights=class_loss_weights,
+                               calc_loss=calc_loss)
 
         # TODO: Make this work for multi-input, WIP
         outputs["b_n_tkns_per_word"] = {kh: {ki: vi["ntpw"].to('cpu').numpy
                                              for ki, vi in vh.items()}
                                         if kh != "default" else vh["ntpw"].to('cpu').numpy()
                                         for kh, vh in model_data["tfm"].items()}
-        outputs["b_labels"] = {k: self._heads[k].get_labels(v)
-                               for k, v in model_data["heads"].items()}
+        try:
+            outputs["b_labels"] = {k: self._heads[k].get_labels(v)
+                                   for k, v in model_data["heads"].items()}
+        except KeyError:
+            outputs["b_labels"] = {}
         outputs["predictions"] = outputs["predictions"].detach().to('cpu').numpy()
         return outputs
 
@@ -350,13 +355,15 @@ class Custom_Model(Module):
         return eval_loss, val_acuracy
 
 
-    def predict_tags(self, dataloader, heads=None, recombination_method="first"):
+    def predict_tags(self, dataloader, heads=None, recombination_method="first",
+                     verbose_flag=False):
         heads = self._heads.keys() if heads is None else heads
         self.eval()
         pred_labels = {k: [] for k in heads}
 
-        for batch in dataloader:
-            outputs = self.forward_batch(batch, grad=False)
+        for step, batch in enumerate(dataloader):
+            printv(f"[I|Predict] Batch {step}/{len(dataloader)}", verbose_flag=verbose_flag)
+            outputs = self.forward_batch(batch, grad=False, calc_loss=False)
             new_pred_labels = self.predictions2condensed_labels(outputs["predictions"],
                                                                 outputs["b_n_tkns_per_word"],
                                                                 method=recombination_method)
@@ -452,11 +459,9 @@ class Custom_Model(Module):
             b_tagged_word_idxs.append(list(set(tagged_word_idxs)))
         return b_tagged_word_idxs
 
-    def get_word_tag_pairs(self, b_words, b_tags, ignored_heads=None):
+    def get_word_tag_pairs(self, b_words, b_tags):
         b_tags = {k: self._heads[k].b_tags2lists_of_tags(v) for k, v in b_tags.items()}
-        return [[(str(word), self.tag2str(tag, ignored_heads=ignored_heads))
-                 for word, tag in zip(words, dl2ld(tags))]
-                for words, tags in zip(b_words, dl2ld(b_tags))]
+        return [list(zip(words, dl2ld(tags))) for words, tags in zip(b_words, dl2ld(b_tags))]
 
     def tag2str(self, tag, ignored_heads=None):
         str_dict = {k: self._heads[k].tag2str(t) for k, t in tag.items()}
@@ -468,4 +473,32 @@ class Custom_Model(Module):
 
         r_str = f"({' | '.join([f'{k}: {v}' for k, v in str_dict.items() if v != ''])})"
         return r_str if r_str != "()" else ''
+
+    def clean_tag(self, tag, ignored_heads=None, specific_head=None):
+        assert ignored_heads is None or specific_head is None  # Can't use both
+
+        tag_dict = {k: self._heads[k].clean_tag(t) for k, t in tag.items()}
+        tag_dict = {k: v for k, v in tag_dict.items() if v is not None}
+
+        if ignored_heads is not None:
+            for head in ignored_heads:
+                if head in tag_dict.keys():
+                    del tag_dict[head]
+
+        # If we have an empty dict, return None as no relevant tags for this word
+        if tag_dict == {}:
+            return None
+
+        elif specific_head is not None:
+            if specific_head in tag_dict.keys():
+                return tag_dict[specific_head]
+            else:
+                return None
+
+        else:
+            return tag_dict
+
+    def clean_word_tag_pairs(self, wt_pairs, ignored_heads=None, specific_head=None):
+        return [[(w, self.clean_tag(t, ignored_heads, specific_head)) for w, t in entry]
+                for entry in wt_pairs]
 

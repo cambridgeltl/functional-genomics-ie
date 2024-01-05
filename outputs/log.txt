@@ -1,918 +1,87 @@
 [I] Found 2 configs:
-configs/current_best/v2_single_label_bl05_k4_e36.json
-configs/current_best/v2_single_label_bio_bl05_k4_e36.json
-[I] Loading config 1/2 configs/current_best/v2_single_label_bl05_k4_e36.json
+configs/verification/multi_output_bl05_bs2.json
+configs/verification/linking.json
+[I] Loading config 1/2 configs/verification/multi_output_bl05_bs2.json
 [I|Model] Loading Tokenizer
+Downloading:   0%|          | 0.00/29.0 [00:00<?, ?B/s]Downloading: 100%|██████████| 29.0/29.0 [00:00<00:00, 179kB/s]
+Downloading:   0%|          | 0.00/411 [00:00<?, ?B/s]Downloading: 100%|██████████| 411/411 [00:00<00:00, 4.25MB/s]
+Downloading:   0%|          | 0.00/213k [00:00<?, ?B/s]Downloading: 100%|██████████| 213k/213k [00:00<00:00, 13.2MB/s]
+Downloading:   0%|          | 0.00/436k [00:00<?, ?B/s]Downloading: 100%|██████████| 436k/436k [00:00<00:00, 5.83MB/s]
 [I|Model] Loading Model
+Downloading:   0%|          | 0.00/263M [00:00<?, ?B/s]Downloading:   3%|▎         | 7.74M/263M [00:00<00:03, 77.4MB/s]Downloading:   7%|▋         | 17.1M/263M [00:00<00:02, 87.2MB/s]Downloading:  10%|█         | 27.4M/263M [00:00<00:02, 94.1MB/s]Downloading:  14%|█▍        | 38.1M/263M [00:00<00:02, 99.3MB/s]Downloading:  19%|█▊        | 49.0M/263M [00:00<00:02, 103MB/s] Downloading:  23%|██▎       | 59.9M/263M [00:00<00:01, 105MB/s]Downloading:  27%|██▋       | 70.8M/263M [00:00<00:01, 106MB/s]Downloading:  31%|███       | 81.8M/263M [00:00<00:01, 107MB/s]Downloading:  35%|███▌      | 92.7M/263M [00:00<00:01, 108MB/s]Downloading:  39%|███▉      | 104M/263M [00:01<00:01, 108MB/s] Downloading:  43%|████▎     | 114M/263M [00:01<00:01, 108MB/s]Downloading:  48%|████▊     | 125M/263M [00:01<00:01, 109MB/s]Downloading:  52%|█████▏    | 136M/263M [00:01<00:01, 109MB/s]Downloading:  56%|█████▌    | 147M/263M [00:01<00:01, 109MB/s]Downloading:  60%|██████    | 158M/263M [00:01<00:00, 109MB/s]Downloading:  64%|██████▍   | 169M/263M [00:01<00:00, 109MB/s]Downloading:  68%|██████▊   | 180M/263M [00:01<00:00, 109MB/s]Downloading:  73%|███████▎  | 191M/263M [00:01<00:00, 109MB/s]Downloading:  77%|███████▋  | 202M/263M [00:01<00:00, 109MB/s]Downloading:  81%|████████  | 213M/263M [00:02<00:00, 109MB/s]Downloading:  85%|████████▍ | 224M/263M [00:02<00:00, 109MB/s]Downloading:  89%|████████▉ | 235M/263M [00:02<00:00, 109MB/s]Downloading:  93%|█████████▎| 246M/263M [00:02<00:00, 109MB/s]Downloading:  97%|█████████▋| 257M/263M [00:02<00:00, 109MB/s]Downloading: 100%|██████████| 263M/263M [00:02<00:00, 107MB/s]
+Some weights of the model checkpoint at distilbert-base-cased were not used when initializing DistilBertModel: ['vocab_layer_norm.bias', 'vocab_transform.weight', 'vocab_projector.weight', 'vocab_projector.bias', 'vocab_layer_norm.weight', 'vocab_transform.bias']
+- This IS expected if you are initializing DistilBertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
 [I|Model] Loading tags from file
 [I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
+/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 804: forward compatibility was attempted on non supported HW (Triggered internally at  ../c10/cuda/CUDAFunctions.cpp:115.)
+  return torch._C._cuda_getDeviceCount() > 0
+Using CPU
 [I|Data] Loading data from file
 [I|Data] Pre-processing input data
 [I|Data] Processing transformer data
 [I|Data] Processing tag data
 [W] The following tags were not found in the new tag list:
-	-
+	cell transplantation
 [W] The following tags were not found in the new tag list:
-	graft
-[W] The following tags were not found in the new tag list:
-	anoikis
 	entosis
+	netosis
+[I|Data] Tag list: {'category': ['CONTEXT', 'EFFECT', 'O', 'PERTURBING_ACTION', 'PAD'], 'description': ['conditional knock in', 'conditional knock out', 'decreased expression level', 'increased expression level', 'knock down', 'knock in', 'knock out', 'other', 'pharmacological inhibition', 'plasmid vector', 'viral vector', 'PAD'], 'experiment_type': ['cell line', 'cell transplantation', 'cells', 'not stated', 'organism', 'organoid culture', 'other', 'primary culture', 'transformed cell line', 'tumour', 'xenotransplantation', 'PAD'], 'species': ['bacterium', 'fish', 'fly', 'human', 'mouse', 'not stated', 'other', 'rat', 'yeast', 'PAD'], 'phenotype': ['adhesion', 'anoikis', 'apoptosis', 'autophagy', 'cell cycle arrest', 'cell death', 'cell growth', 'cell survival', 'colony formation', 'differentiation', 'entosis', 'epithelial-mesenchymal transition', 'ferroptosis', 'invasion', 'metastasis', 'migration', 'mitophagy', 'necroptosis', 'necrosis', 'netosis', 'oncosis', 'proliferation', 'pyroptosis', 'quiescence', 'self-renewal', 'senescence', 'transformation', 'tumour growth', 'tumourigenesis', 'PAD'], 'activity': ['causes', 'decreases', 'increases', 'inhibits', 'no effect', 'not stated', 'regulates', 'PAD']}
+[I|Data] Tag weights: {'category': tensor([0.3101, 0.3512, 0.0650, 0.2737]), 'description': tensor([67.9400, 22.1435, 14.2349, 14.8797, 13.3102, 62.7447, 13.1441, 11.9698,
+        11.9310, 44.0388, 48.4554]), 'experiment_type': tensor([ 27.3692, 517.4708,   9.3350, 172.4877,  14.1540,  49.3289, 182.9512,
+         48.4554,  12.8537,  19.5051,  22.6925]), 'species': tensor([118.7119, 211.2546, 115.7059,  18.0764,  14.4009,   6.9216,  58.2115,
+         47.8298, 138.2965]), 'phenotype': tensor([105.6237, 163.6359,  14.9991,  14.5380,  43.4137,  26.2856,  37.5280,
+         47.4260, 101.4796,  43.1110, 517.4708,  40.6441,  27.5632,  55.7915,
+         28.2127,  39.3299,  44.0388,  54.5371,  57.4882, 517.4708,  97.7878,
+         28.2548,  67.9400,  92.9353,  59.3497,  38.7733,  56.4519,  29.2790,
+         26.0176]), 'activity': tensor([12.7584, 14.2841, 13.6380, 15.2533, 36.5771, 33.8859, 32.2635])}
 [I|Train Handler] Training model
-[I|Train Handler] Fold 1/4...
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:40, predicted 00:58:49 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:41, predicted 00:57:43 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:42, predicted 00:56:23 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:43, predicted 00:55:17 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:43, predicted 00:53:25 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:43, predicted 00:51:49 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:43, predicted 00:50:05 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:42, predicted 00:47:41 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:40, predicted 00:45:26 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:40, predicted 00:43:34 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:41, predicted 00:42:09 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:41, predicted 00:40:43 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:41, predicted 00:38:45 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:40, predicted 00:36:46 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:40, predicted 00:35:11 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:40, predicted 00:33:30 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:40, predicted 00:31:49 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:41, predicted 00:30:19 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:40, predicted 00:28:32 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:42, predicted 00:27:13 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:42, predicted 00:25:32 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:43, predicted 00:24:03 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:43, predicted 00:22:19 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:42, predicted 00:20:24 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:41, predicted 00:18:32 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:37, predicted 00:16:19 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:40, predicted 00:15:07 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:40, predicted 00:13:25 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:40, predicted 00:11:44 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:40, predicted 00:10:03 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:40, predicted 00:08:24 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:40, predicted 00:06:43 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:40, predicted 00:05:02 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:40, predicted 00:03:21 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:40, predicted 00:01:40 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:40, predicted 00:00:00 left
-[I|Train Handler] Resetting model
-[I|Model] Loading tags from file
-[I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
-[I|Train Handler] Fold 2/4...
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:41, predicted 00:59:26 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:41, predicted 00:57:47 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:42, predicted 00:56:07 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:43, predicted 00:55:03 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:41, predicted 00:52:30 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:43, predicted 00:51:37 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:38, predicted 00:47:32 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:34, predicted 00:44:16 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:31, predicted 00:41:02 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:31, predicted 00:39:26 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:30, predicted 00:37:52 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:31, predicted 00:36:24 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:31, predicted 00:34:58 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:31, predicted 00:33:22 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:30, predicted 00:31:48 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:30, predicted 00:30:18 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:30, predicted 00:28:45 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:30, predicted 00:27:14 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:30, predicted 00:25:44 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:30, predicted 00:24:12 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:30, predicted 00:22:40 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:30, predicted 00:21:09 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:30, predicted 00:19:40 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:30, predicted 00:18:09 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:30, predicted 00:16:38 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:31, predicted 00:15:11 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:31, predicted 00:13:40 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:31, predicted 00:12:08 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:31, predicted 00:10:37 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:30, predicted 00:09:05 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:31, predicted 00:07:35 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:30, predicted 00:06:03 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:31, predicted 00:04:33 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:30, predicted 00:03:01 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:31, predicted 00:01:31 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:31, predicted 00:00:00 left
-[I|Train Handler] Resetting model
-[I|Model] Loading tags from file
-[I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
-[I|Train Handler] Fold 3/4...
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:32, predicted 00:53:41 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:32, predicted 00:52:08 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:31, predicted 00:50:35 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:31, predicted 00:49:03 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:31, predicted 00:47:18 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:31, predicted 00:45:39 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:31, predicted 00:44:06 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:31, predicted 00:42:35 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:31, predicted 00:41:02 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:31, predicted 00:39:26 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:30, predicted 00:37:53 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:30, predicted 00:36:21 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:30, predicted 00:34:49 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:30, predicted 00:33:21 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:30, predicted 00:31:47 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:31, predicted 00:30:21 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:31, predicted 00:28:52 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:31, predicted 00:27:18 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:31, predicted 00:25:47 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:30, predicted 00:24:15 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:30, predicted 00:22:43 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:30, predicted 00:21:13 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:30, predicted 00:19:42 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:30, predicted 00:18:10 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:30, predicted 00:16:40 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:30, predicted 00:15:09 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:30, predicted 00:13:37 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:30, predicted 00:12:07 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:30, predicted 00:10:36 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:30, predicted 00:09:05 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:30, predicted 00:07:33 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:30, predicted 00:06:03 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:30, predicted 00:04:32 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:30, predicted 00:03:01 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:30, predicted 00:01:30 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:30, predicted 00:00:00 left
-[I|Train Handler] Resetting model
-[I|Model] Loading tags from file
-[I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
-[I|Train Handler] Fold 4/4...
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:32, predicted 00:53:47 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:40, predicted 00:56:43 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:42, predicted 00:56:35 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:43, predicted 00:54:56 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:42, predicted 00:53:08 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:43, predicted 00:51:37 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:43, predicted 00:50:01 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:42, predicted 00:47:40 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:43, predicted 00:46:40 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:43, predicted 00:44:45 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:43, predicted 00:43:11 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:42, predicted 00:41:01 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:41, predicted 00:39:02 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:43, predicted 00:37:50 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:43, predicted 00:36:13 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:43, predicted 00:34:29 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:43, predicted 00:32:44 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:43, predicted 00:30:59 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:42, predicted 00:29:00 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:43, predicted 00:27:37 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:43, predicted 00:25:58 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:43, predicted 00:24:10 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:44, predicted 00:22:34 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:43, predicted 00:20:43 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:42, predicted 00:18:44 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:42, predicted 00:17:04 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:42, predicted 00:15:20 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:42, predicted 00:13:39 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:42, predicted 00:11:56 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:42, predicted 00:10:13 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:43, predicted 00:08:36 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:44, predicted 00:06:58 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:44, predicted 00:05:13 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:42, predicted 00:03:25 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:42, predicted 00:01:42 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:42, predicted 00:00:00 left
-[I|Train Handler] Resetting model
-[I|Model] Loading tags from file
-[I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
-[I|Train Handler] Final training
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:49, predicted 01:03:56 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:49, predicted 01:02:00 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:48, predicted 00:59:52 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:48, predicted 00:57:53 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:48, predicted 00:56:05 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:48, predicted 00:54:20 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:48, predicted 00:52:28 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:48, predicted 00:50:50 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:49, predicted 00:49:11 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:49, predicted 00:47:20 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:49, predicted 00:45:37 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:51, predicted 00:44:25 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:49, predicted 00:42:00 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:49, predicted 00:39:59 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:50, predicted 00:38:44 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:48, predicted 00:36:19 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:48, predicted 00:34:29 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:48, predicted 00:32:33 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:48, predicted 00:30:47 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:48, predicted 00:29:00 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:49, predicted 00:27:19 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:49, predicted 00:25:36 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:48, predicted 00:23:29 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:48, predicted 00:21:42 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:48, predicted 00:19:48 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:47, predicted 00:17:58 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:49, predicted 00:16:21 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:49, predicted 00:14:33 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:49, predicted 00:12:45 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:48, predicted 00:10:48 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:49, predicted 00:09:05 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:48, predicted 00:07:15 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:48, predicted 00:05:26 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:48, predicted 00:03:36 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:46, predicted 00:01:46 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:48, predicted 00:00:00 left
-[I|Train Handler] Testing model
-[I|Data] Loading data from file
-[I|Data] Pre-processing input data
-[I|Data] Processing transformer data
-[I|Data] Processing tag data
-[W] The following tags were not found in the new tag list:
-	-
-[W] The following tags were not found in the new tag list:
-	-
-	graft
-[W] The following tags were not found in the new tag list:
-	-
-[W] The following tags were not found in the new tag list:
-	-
-	adhesion
-	colony formation
-	entosis
-	necroptosis
-	necrosis
-	oncosis
-	quiescence
-	transformation
-	tumour progression
-	tumourigenesis
-[I|Test] Testing model
-[I|Test] Test loss: {'category': 0.10313283186405897, 'perturbing_action': 0.04599648201838136, 'context': 0.04943356988951564, 'effect': 0.01171770627843216, 'phenotype': 0.02357738488353789}
-[I|Test] Test accuracy: {'category': {'precision': 0.8070766638584668, 'recall': 0.8661844484629295, 'f1': 0.8355865678150894, 'accuracy': 0.7176029962546816}, 'perturbing_action': {'precision': 0.7537796976241901, 'recall': 0.8660049627791563, 'f1': 0.8060046189376444, 'accuracy': 0.6750483558994197}, 'context': {'precision': 0.7289293849658315, 'recall': 0.7785888077858881, 'f1': 0.7529411764705883, 'accuracy': 0.6037735849056604}, 'effect': {'precision': 0.7890625, 'recall': 0.7651515151515151, 'f1': 0.7769230769230769, 'accuracy': 0.6352201257861635}, 'phenotype': {'precision': 0.8313953488372093, 'recall': 0.8881987577639752, 'f1': 0.8588588588588588, 'accuracy': 0.7526315789473684}}
-[I|Train Handler] Saving model
-[I|Train Handler] Saving training history
-[I] Loading config 2/2 configs/current_best/v2_single_label_bio_bl05_k4_e36.json
-[I|Model] Loading Tokenizer
-[I|Model] Loading Model
-[I|Model] Loading tags from file
-[I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
-[I|Data] Loading data from file
-[I|Data] Pre-processing input data
-[I|Data] Processing transformer data
-[I|Data] Processing tag data
-[W] The following tags were not found in the new tag list:
-	B--
-	I--
-[W] The following tags were not found in the new tag list:
-	B-graft
-	I-graft
-[W] The following tags were not found in the new tag list:
-	I--
-[W] The following tags were not found in the new tag list:
-	B-anoikis
-	B-entosis
-	I--
-	I-adhesion
-	I-anoikis
-	I-entosis
-	I-mitophagy
-	I-pyroptosis
-	I-transformation
-[I|Train Handler] Training model
-[I|Train Handler] Fold 1/4...
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:42, predicted 00:59:47 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:42, predicted 00:57:56 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:44, predicted 00:57:23 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:44, predicted 00:55:43 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:43, predicted 00:53:22 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:42, predicted 00:51:01 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:41, predicted 00:49:16 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:41, predicted 00:47:35 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:41, predicted 00:45:48 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:41, predicted 00:44:00 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:41, predicted 00:42:23 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:42, predicted 00:40:49 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:41, predicted 00:38:57 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:41, predicted 00:37:17 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:36, predicted 00:33:48 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:31, predicted 00:30:30 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:31, predicted 00:29:03 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:31, predicted 00:27:27 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:31, predicted 00:25:54 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:31, predicted 00:24:18 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:31, predicted 00:22:48 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:31, predicted 00:21:22 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:31, predicted 00:19:45 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:31, predicted 00:18:16 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:31, predicted 00:16:48 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:31, predicted 00:15:18 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:31, predicted 00:13:39 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:31, predicted 00:12:09 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:31, predicted 00:10:38 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:31, predicted 00:09:07 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:31, predicted 00:07:35 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:31, predicted 00:06:04 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:31, predicted 00:04:33 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:31, predicted 00:03:02 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:31, predicted 00:01:31 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:31, predicted 00:00:00 left
-[I|Train Handler] Resetting model
-[I|Model] Loading tags from file
-[I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
-[I|Train Handler] Fold 2/4...
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:32, predicted 00:53:58 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:32, predicted 00:52:23 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:32, predicted 00:50:57 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:32, predicted 00:49:23 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:32, predicted 00:47:46 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:32, predicted 00:46:08 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:32, predicted 00:44:33 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:32, predicted 00:42:59 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:31, predicted 00:41:22 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:32, predicted 00:39:59 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:31, predicted 00:38:13 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:31, predicted 00:36:37 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:31, predicted 00:34:59 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:31, predicted 00:33:30 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:31, predicted 00:31:57 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:31, predicted 00:30:27 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:31, predicted 00:28:57 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:31, predicted 00:27:23 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:31, predicted 00:25:51 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:31, predicted 00:24:18 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:31, predicted 00:22:49 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:31, predicted 00:21:17 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:31, predicted 00:19:44 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:31, predicted 00:18:13 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:31, predicted 00:16:42 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:30, predicted 00:15:09 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:31, predicted 00:13:40 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:31, predicted 00:12:08 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:30, predicted 00:10:36 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:31, predicted 00:09:06 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:31, predicted 00:07:35 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:31, predicted 00:06:04 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:31, predicted 00:04:33 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:31, predicted 00:03:02 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:31, predicted 00:01:31 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:31, predicted 00:00:00 left
-[I|Train Handler] Resetting model
-[I|Model] Loading tags from file
-[I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
-[I|Train Handler] Fold 3/4...
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:32, predicted 00:54:00 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:32, predicted 00:52:31 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:32, predicted 00:50:52 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:32, predicted 00:49:16 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:32, predicted 00:47:48 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:32, predicted 00:46:11 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:32, predicted 00:44:36 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:32, predicted 00:43:02 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:32, predicted 00:41:27 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:32, predicted 00:39:55 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:31, predicted 00:38:19 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:32, predicted 00:36:48 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:31, predicted 00:35:13 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:31, predicted 00:33:43 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:31, predicted 00:32:08 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:31, predicted 00:30:37 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:31, predicted 00:29:04 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:31, predicted 00:27:30 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:31, predicted 00:25:59 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:31, predicted 00:24:27 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:31, predicted 00:22:54 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:31, predicted 00:21:23 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:31, predicted 00:19:50 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:31, predicted 00:18:20 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:31, predicted 00:16:47 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:31, predicted 00:15:16 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:31, predicted 00:13:45 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:31, predicted 00:12:11 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:31, predicted 00:10:41 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:31, predicted 00:09:09 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:31, predicted 00:07:38 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:31, predicted 00:06:06 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:31, predicted 00:04:34 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:31, predicted 00:03:03 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:31, predicted 00:01:31 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:31, predicted 00:00:00 left
-[I|Train Handler] Resetting model
-[I|Model] Loading tags from file
-[I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
-[I|Train Handler] Fold 4/4...
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:32, predicted 00:53:58 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:32, predicted 00:52:31 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:32, predicted 00:50:50 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:32, predicted 00:49:17 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:32, predicted 00:47:42 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:31, predicted 00:45:58 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:31, predicted 00:44:24 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:31, predicted 00:42:48 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:31, predicted 00:41:14 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:31, predicted 00:39:36 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:31, predicted 00:38:10 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:31, predicted 00:36:38 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:31, predicted 00:35:04 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:31, predicted 00:33:38 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:31, predicted 00:32:00 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:31, predicted 00:30:26 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:31, predicted 00:28:54 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:31, predicted 00:27:23 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:31, predicted 00:25:53 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:31, predicted 00:24:19 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:31, predicted 00:22:51 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:31, predicted 00:21:18 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:31, predicted 00:19:45 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:31, predicted 00:18:13 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:31, predicted 00:16:51 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:31, predicted 00:15:12 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:31, predicted 00:13:39 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:31, predicted 00:12:09 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:31, predicted 00:10:38 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:31, predicted 00:09:06 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:31, predicted 00:07:36 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:31, predicted 00:06:05 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:31, predicted 00:04:34 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:31, predicted 00:03:02 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:31, predicted 00:01:31 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:31, predicted 00:00:00 left
-[I|Train Handler] Resetting model
-[I|Model] Loading tags from file
-[I|Model] Loading tag categories from file
-Found CUDA devices:
-TITAN Xp
-TITAN X (Pascal)
-[I|Train Handler] Final training
-[I|Train] Epoch 0/36
-[I|Train] Epoch took 00:01:39, predicted 00:58:03 left
-[I|Train] Epoch 1/36
-[I|Train] Epoch took 00:01:39, predicted 00:56:29 left
-[I|Train] Epoch 2/36
-[I|Train] Epoch took 00:01:39, predicted 00:54:48 left
-[I|Train] Epoch 3/36
-[I|Train] Epoch took 00:01:39, predicted 00:52:58 left
-[I|Train] Epoch 4/36
-[I|Train] Epoch took 00:01:39, predicted 00:51:14 left
-[I|Train] Epoch 5/36
-[I|Train] Epoch took 00:01:39, predicted 00:49:31 left
-[I|Train] Epoch 6/36
-[I|Train] Epoch took 00:01:38, predicted 00:47:47 left
-[I|Train] Epoch 7/36
-[I|Train] Epoch took 00:01:38, predicted 00:46:06 left
-[I|Train] Epoch 8/36
-[I|Train] Epoch took 00:01:38, predicted 00:44:25 left
-[I|Train] Epoch 9/36
-[I|Train] Epoch took 00:01:38, predicted 00:42:41 left
-[I|Train] Epoch 10/36
-[I|Train] Epoch took 00:01:38, predicted 00:41:03 left
-[I|Train] Epoch 11/36
-[I|Train] Epoch took 00:01:38, predicted 00:39:25 left
-[I|Train] Epoch 12/36
-[I|Train] Epoch took 00:01:38, predicted 00:37:41 left
-[I|Train] Epoch 13/36
-[I|Train] Epoch took 00:01:38, predicted 00:36:03 left
-[I|Train] Epoch 14/36
-[I|Train] Epoch took 00:01:38, predicted 00:34:24 left
-[I|Train] Epoch 15/36
-[I|Train] Epoch took 00:01:38, predicted 00:32:45 left
-[I|Train] Epoch 16/36
-[I|Train] Epoch took 00:01:38, predicted 00:31:04 left
-[I|Train] Epoch 17/36
-[I|Train] Epoch took 00:01:38, predicted 00:29:27 left
-[I|Train] Epoch 18/36
-[I|Train] Epoch took 00:01:38, predicted 00:27:49 left
-[I|Train] Epoch 19/36
-[I|Train] Epoch took 00:01:38, predicted 00:26:08 left
-[I|Train] Epoch 20/36
-[I|Train] Epoch took 00:01:38, predicted 00:24:30 left
-[I|Train] Epoch 21/36
-[I|Train] Epoch took 00:01:38, predicted 00:22:52 left
-[I|Train] Epoch 22/36
-[I|Train] Epoch took 00:01:38, predicted 00:21:15 left
-[I|Train] Epoch 23/36
-[I|Train] Epoch took 00:01:38, predicted 00:19:40 left
-[I|Train] Epoch 24/36
-[I|Train] Epoch took 00:01:38, predicted 00:18:02 left
-[I|Train] Epoch 25/36
-[I|Train] Epoch took 00:01:38, predicted 00:16:22 left
-[I|Train] Epoch 26/36
-[I|Train] Epoch took 00:01:38, predicted 00:14:44 left
-[I|Train] Epoch 27/36
-[I|Train] Epoch took 00:01:38, predicted 00:13:06 left
-[I|Train] Epoch 28/36
-[I|Train] Epoch took 00:01:38, predicted 00:11:27 left
-[I|Train] Epoch 29/36
-[I|Train] Epoch took 00:01:38, predicted 00:09:49 left
-[I|Train] Epoch 30/36
-[I|Train] Epoch took 00:01:38, predicted 00:08:11 left
-[I|Train] Epoch 31/36
-[I|Train] Epoch took 00:01:38, predicted 00:06:32 left
-[I|Train] Epoch 32/36
-[I|Train] Epoch took 00:01:37, predicted 00:04:53 left
-[I|Train] Epoch 33/36
-[I|Train] Epoch took 00:01:37, predicted 00:03:15 left
-[I|Train] Epoch 34/36
-[I|Train] Epoch took 00:01:37, predicted 00:01:37 left
-[I|Train] Epoch 35/36
-[I|Train] Epoch took 00:01:37, predicted 00:00:00 left
-[I|Train Handler] Testing model
-[I|Data] Loading data from file
-[I|Data] Pre-processing input data
-[I|Data] Processing transformer data
-[I|Data] Processing tag data
-[W] The following tags were not found in the new tag list:
-	B--
-	I--
-[W] The following tags were not found in the new tag list:
-	B--
-	B-graft
-	I--
-	I-graft
-[W] The following tags were not found in the new tag list:
-	B--
-	I--
-	I-regulates
-	I-rescues
-[W] The following tags were not found in the new tag list:
-	B--
-	B-adhesion
-	B-colony formation
-	B-entosis
-	B-necroptosis
-	B-necrosis
-	B-oncosis
-	B-quiescence
-	B-transformation
-	B-tumour progression
-	B-tumourigenesis
-	I--
-	I-adhesion
-	I-anoikis
-	I-colony formation
-	I-differentiation
-	I-entosis
-	I-invasion
-	I-migration
-	I-mitophagy
-	I-necroptosis
-	I-necrosis
-	I-oncosis
-	I-proliferation
-	I-pyroptosis
-	I-quiescence
-	I-transformation
-	I-tumour progression
-	I-tumourigenesis
-[I|Test] Testing model
-[I|Test] Test loss: {'category': 0.12676049955189228, 'perturbing_action': 0.057775139808654785, 'context': 0.04819931508973241, 'effect': 0.009943735261913389, 'phenotype': 0.01939043588936329}
-[I|Test] Test accuracy: {'category': {'precision': 0.7854671280276817, 'recall': 0.8209764918625678, 'f1': 0.8028293545534925, 'accuracy': 0.670605612998523}, 'perturbing_action': {'precision': 0.6966292134831461, 'recall': 0.7692307692307693, 'f1': 0.7311320754716981, 'accuracy': 0.5762081784386617}, 'context': {'precision': 0.6960556844547564, 'recall': 0.7299270072992701, 'f1': 0.7125890736342043, 'accuracy': 0.5535055350553506}, 'effect': {'precision': 0.856, 'recall': 0.8106060606060606, 'f1': 0.8326848249027238, 'accuracy': 0.7133333333333334}, 'phenotype': {'precision': 0.8544303797468354, 'recall': 0.8385093167701864, 'f1': 0.8463949843260188, 'accuracy': 0.7336956521739131}}
-[I|Train Handler] Saving model
-[I|Train Handler] Saving training history
-[I] Finished
-[I] Successful: configs/current_best/v2_single_label_bl05_k4_e36.json, configs/current_best/v2_single_label_bio_bl05_k4_e36.json
-[I] Failed: None
-[I] Program exiting...
+[I|Train] Epoch 0/6
+Traceback (most recent call last):
+  File "/mnt/nas_home/jrb239/transformer_nlp/main.py", line 90, in <module>
+    main(c)
+  File "/mnt/nas_home/jrb239/transformer_nlp/main.py", line 32, in main
+    mode_funcs[config["MODE"]](config)
+  File "/mnt/nas_home/jrb239/transformer_nlp/src/model_handler.py", line 450, in train_mode
+    history = self.train(*dataloaders, config=config["TRAINING"])
+  File "/mnt/nas_home/jrb239/transformer_nlp/src/model_handler.py", line 122, in train
+    return self.model.train_model(train_dataloader, val_dataloader,
+  File "/mnt/nas_home/jrb239/transformer_nlp/src/model.py", line 274, in train_model
+    outputs = self.forward_batch(batch, class_loss_weights=class_loss_weights)
+  File "/mnt/nas_home/jrb239/transformer_nlp/src/model.py", line 211, in forward_batch
+    outputs = self(model_data, class_loss_weights=class_loss_weights, calc_loss=calc_loss)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/nas_home/jrb239/transformer_nlp/src/model.py", line 181, in forward
+    outputs = {kh: {ki: get_output(vi) for ki, vi in vh.items()}
+  File "/mnt/nas_home/jrb239/transformer_nlp/src/model.py", line 182, in <dictcomp>
+    if kh != "default" else get_output(vh)
+  File "/mnt/nas_home/jrb239/transformer_nlp/src/model.py", line 179, in get_output
+    return self.dropout(self.tfm(i_dict["iids"], attention_mask=i_dict["masks"])[0])
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 481, in forward
+    return self.transformer(
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 306, in forward
+    layer_outputs = layer_module(
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 264, in forward
+    ffn_output = self.ffn(sa_output)  # (bs, seq_length, dim)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 215, in forward
+    return apply_chunking_to_forward(self.ff_chunk, self.chunk_size_feed_forward, self.seq_len_dim, input)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/transformers/modeling_utils.py", line 2001, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/transformers/models/distilbert/modeling_distilbert.py", line 218, in ff_chunk
+    x = self.lin1(input)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 96, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/nas_home/jrb239/miniconda3/envs/tfm_nlp/lib/python3.9/site-packages/torch/nn/functional.py", line 1847, in linear
+    return torch._C._nn.linear(input, weight, bias)
+KeyboardInterrupt

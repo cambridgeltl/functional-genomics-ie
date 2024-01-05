@@ -1,0 +1,25 @@
+{
+    "MODE": "deploy",
+    "MODEL": {
+        "TYPE": "existing",
+        "PATH": "outputs/models/BioBERTv11_multi_output_v2_single_label_bio_bl05_k4_e36_2021-11-02_17-03.pkl",
+        "EXTRA_MODELS": {
+            "link": "outputs/models/BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27.pkl"
+        }
+    },
+    "DATA": {
+        "EXISTING_OUTPUT_FOLDER": "tmp_out"
+    },
+    "DEPLOY": {
+        "VERBOSE": 2,
+        "OUTPUT": "json",
+        "JSON_FIELDS": ["PMID", "TEXT", "TAG_DATA", "LINK_DATA", "LINKED_TAGS"],
+        "IGNORED_HEADS": ["category"],
+        "NEWLINE_WORDS": true,
+        "PATH": "abstract_analysis/pubmed_new.json",
+        "LINK": {
+            "SPECIFIC_HEAD": "link_only"
+        }
+    }
+}
+

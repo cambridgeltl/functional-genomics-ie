@@ -225,6 +225,12 @@ class DataHandler:
         return tokenized_entry, tkns_per_tag
 
 
+    def update_model_data(self, new_data):
+        # NOTE: The use case for this method is for adding in active tkn idxs for existing data
+        # For the initial input of data, use the set data functions
+        self._model_data.update(new_data)
+
+
     def get_dataloader(self, batch_size=1, sampler=None):
         return dataloader(self._model_data, batch_size=batch_size, sampler=sampler)
 

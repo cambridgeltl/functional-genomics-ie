@@ -1,0 +1,1157 @@
+/var/spool/slurmd/job12559/slurm_script: line 19: cd: /mnt/nas_home/jasonb/transformer_nlp: No such file or directory
+Changed directory to /mnt/nas_home/jrb239/transformer_nlp.
+
+JobID: 12559
+======
+Time: Tue  1 Aug 12:38:10 BST 2023
+Current directory: /mnt/nas_home/jrb239/transformer_nlp
+
+Executing command:
+==================
+python3 main.py -f /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base -v
+
+[I] Program starting...
+[T] 2023-08-01 12:38:12.752508
+[I] Found 3 configs:
+/mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base/v2_link_both_heads_bl05_k4.json
+/mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base/v2_single_label_bio_bl05_k4_e36.json
+/mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base/v2_single_label_bl05_k4_e36.json
+[I] Loading config 1/3 /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base/v2_link_both_heads_bl05_k4.json
+[T] 2023-08-01 12:38:12.753114
+[I|Model] Loading Tokenizer
+Downloading:   0%|          | 0.00/28.0 [00:00<?, ?B/s]Downloading: 100%|██████████| 28.0/28.0 [00:00<00:00, 176kB/s]
+Downloading:   0%|          | 0.00/570 [00:00<?, ?B/s]Downloading: 100%|██████████| 570/570 [00:00<00:00, 3.62MB/s]
+Downloading:   0%|          | 0.00/232k [00:00<?, ?B/s]Downloading: 100%|██████████| 232k/232k [00:00<00:00, 2.97MB/s]
+Downloading:   0%|          | 0.00/466k [00:00<?, ?B/s]Downloading: 100%|██████████| 466k/466k [00:00<00:00, 13.5MB/s]
+[I|Model] Loading Model
+Downloading:   0%|          | 0.00/440M [00:00<?, ?B/s]Downloading:   2%|▏         | 8.58M/440M [00:00<00:05, 85.8MB/s]Downloading:   4%|▍         | 18.8M/440M [00:00<00:04, 95.6MB/s]Downloading:   7%|▋         | 29.1M/440M [00:00<00:04, 98.6MB/s]Downloading:   9%|▉         | 39.0M/440M [00:00<00:04, 98.9MB/s]Downloading:  11%|█         | 48.9M/440M [00:00<00:04, 96.8MB/s]Downloading:  13%|█▎        | 58.6M/440M [00:00<00:04, 92.9MB/s]Downloading:  15%|█▌        | 68.2M/440M [00:00<00:03, 93.9MB/s]Downloading:  18%|█▊        | 77.6M/440M [00:00<00:03, 94.1MB/s]Downloading:  20%|█▉        | 87.0M/440M [00:00<00:03, 90.1MB/s]Downloading:  22%|██▏       | 96.4M/440M [00:01<00:03, 91.0MB/s]Downloading:  24%|██▍       | 106M/440M [00:01<00:03, 92.5MB/s] Downloading:  26%|██▌       | 116M/440M [00:01<00:03, 93.6MB/s]Downloading:  28%|██▊       | 125M/440M [00:01<00:03, 94.4MB/s]Downloading:  31%|███       | 135M/440M [00:01<00:03, 95.0MB/s]Downloading:  33%|███▎      | 145M/440M [00:01<00:03, 95.5MB/s]Downloading:  35%|███▌      | 154M/440M [00:01<00:02, 95.9MB/s]Downloading:  37%|███▋      | 164M/440M [00:01<00:02, 96.1MB/s]Downloading:  39%|███▉      | 174M/440M [00:01<00:02, 96.2MB/s]Downloading:  42%|████▏     | 183M/440M [00:01<00:02, 95.8MB/s]Downloading:  44%|████▍     | 193M/440M [00:02<00:02, 96.0MB/s]Downloading:  46%|████▌     | 202M/440M [00:02<00:02, 94.8MB/s]Downloading:  48%|████▊     | 212M/440M [00:02<00:02, 92.0MB/s]Downloading:  50%|█████     | 221M/440M [00:02<00:02, 91.9MB/s]Downloading:  52%|█████▏    | 231M/440M [00:02<00:02, 93.1MB/s]Downloading:  55%|█████▍    | 240M/440M [00:02<00:02, 93.6MB/s]Downloading:  57%|█████▋    | 250M/440M [00:02<00:02, 94.4MB/s]Downloading:  59%|█████▉    | 259M/440M [00:02<00:01, 95.0MB/s]Downloading:  61%|██████    | 269M/440M [00:02<00:01, 95.5MB/s]Downloading:  63%|██████▎   | 279M/440M [00:02<00:01, 95.7MB/s]Downloading:  65%|██████▌   | 288M/440M [00:03<00:01, 94.4MB/s]Downloading:  68%|██████▊   | 298M/440M [00:03<00:01, 89.7MB/s]Downloading:  70%|██████▉   | 307M/440M [00:03<00:01, 88.9MB/s]Downloading:  72%|███████▏  | 316M/440M [00:03<00:01, 88.3MB/s]Downloading:  74%|███████▎  | 325M/440M [00:03<00:01, 87.9MB/s]Downloading:  76%|███████▌  | 333M/440M [00:03<00:01, 86.8MB/s]Downloading:  78%|███████▊  | 343M/440M [00:03<00:01, 88.5MB/s]Downloading:  80%|███████▉  | 352M/440M [00:03<00:00, 90.7MB/s]Downloading:  82%|████████▏ | 362M/440M [00:03<00:00, 91.9MB/s]Downloading:  84%|████████▍ | 371M/440M [00:03<00:00, 93.1MB/s]Downloading:  86%|████████▋ | 381M/440M [00:04<00:00, 93.9MB/s]Downloading:  89%|████████▊ | 390M/440M [00:04<00:00, 94.6MB/s]Downloading:  91%|█████████ | 400M/440M [00:04<00:00, 95.2MB/s]Downloading:  93%|█████████▎| 410M/440M [00:04<00:00, 95.6MB/s]Downloading:  95%|█████████▌| 419M/440M [00:04<00:00, 95.9MB/s]Downloading:  97%|█████████▋| 429M/440M [00:04<00:00, 96.2MB/s]Downloading: 100%|█████████▉| 439M/440M [00:04<00:00, 91.8MB/s]Downloading: 100%|██████████| 440M/440M [00:04<00:00, 93.4MB/s]
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[I|Train Handler] Training model
+[I|Train Handler] Fold 1/4...
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.005281742657011896, 'link_only': 0.0013271809385838362}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.004090668532836179, 'link_only': 0.0009510443551101697}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.36727486756915834, 'recall': 0.5468886941279579, 'f1': 0.4394366197183099, 'accuracy': 0.2815884476534296}, 'link_only': {'precision': 0.6821442053605135, 'recall': 0.9075841285786037, 'f1': 0.7788793103448276, 'accuracy': 0.6378397458524532}}
+[I|Train] Epoch took 00:02:51, predicted 00:14:18 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0035572200674431446, 'link_only': 0.0010139529049873522}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0033385841980373534, 'link_only': 0.0007550480037864943}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.4987951807228916, 'recall': 0.544259421560035, 'f1': 0.5205364626990779, 'accuracy': 0.3518413597733711}, 'link_only': {'precision': 0.792003807710614, 'recall': 0.8357609241587142, 'f1': 0.8132942326490713, 'accuracy': 0.685337726523888}}
+[I|Train] Epoch took 00:02:50, predicted 00:11:23 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0028669428191556187, 'link_only': 0.0007518069226118653}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.002744970564097644, 'link_only': 0.0007642690227210271}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.5658640226628895, 'recall': 0.7002629272567923, 'f1': 0.6259302781041911, 'accuracy': 0.45553021664766247}, 'link_only': {'precision': 0.7103396789846957, 'recall': 0.9558011049723757, 'f1': 0.8149892933618843, 'accuracy': 0.6877484640404771}}
+[I|Train] Epoch took 00:02:51, predicted 00:08:33 left
+[I|Train] Epoch 3/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0023133432746902344, 'link_only': 0.0005674431774993644}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.002707140476932415, 'link_only': 0.000771463294884784}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.49593054801953335, 'recall': 0.8010517090271692, 'f1': 0.6126005361930296, 'accuracy': 0.44154589371980674}, 'link_only': {'precision': 0.69150467962563, 'recall': 0.9648417880462079, 'f1': 0.8056196267561334, 'accuracy': 0.6745084269662921}}
+[I|Train] Epoch took 00:02:51, predicted 00:05:42 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.002012293795984479, 'link_only': 0.0004925598176345437}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.002462932469102387, 'link_only': 0.0007246121390963731}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.5451825254338719, 'recall': 0.7984224364592463, 'f1': 0.6479374110953059, 'accuracy': 0.4792214623882167}, 'link_only': {'precision': 0.7271329746348962, 'recall': 0.9502762430939227, 'f1': 0.8238623993032876, 'accuracy': 0.7004813032210292}}
+[I|Train] Epoch took 00:02:51, predicted 00:02:51 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0018311855034218011, 'link_only': 0.0004361989130672354}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0024293884493183726, 'link_only': 0.0007223725074371218}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.5425776754890679, 'recall': 0.8264680105170903, 'f1': 0.6550885724209795, 'accuracy': 0.48708677685950413}, 'link_only': {'precision': 0.7257142857142858, 'recall': 0.9568056253139126, 'f1': 0.8253899480069324, 'accuracy': 0.7026927333087422}}
+[I|Train] Epoch took 00:02:51, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 2/4...
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.00591892862477403, 'link_only': 0.0014433009623721542}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0034791900722596506, 'link_only': 0.0010633575718831988}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.4199134199134199, 'recall': 0.12597402597402596, 'f1': 0.1938061938061938, 'accuracy': 0.10730088495575221}, 'link_only': {'precision': 0.976303317535545, 'recall': 0.11566535654126894, 'f1': 0.20682730923694778, 'accuracy': 0.11534154535274356}}
+[I|Train] Epoch took 00:02:56, predicted 00:14:42 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.004093626331314997, 'link_only': 0.001066786181967226}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.002556037567466354, 'link_only': 0.0006979320501275838}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.5051546391752577, 'recall': 0.44545454545454544, 'f1': 0.47342995169082125, 'accuracy': 0.310126582278481}, 'link_only': {'precision': 0.8638211382113821, 'recall': 0.7158899494665918, 'f1': 0.7829290758366595, 'accuracy': 0.643289606458123}}
+[I|Train] Epoch took 00:02:56, predicted 00:11:45 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0029886681744355267, 'link_only': 0.0007423819492865054}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0021872110351418648, 'link_only': 0.0005583861378769283}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.5068627450980392, 'recall': 0.6714285714285714, 'f1': 0.5776536312849162, 'accuracy': 0.406127258444619}, 'link_only': {'precision': 0.8319371727748691, 'recall': 0.8921953958450309, 'f1': 0.8610132755350853, 'accuracy': 0.7559467174119886}}
+[I|Train] Epoch took 00:02:56, predicted 00:08:49 left
+[I|Train] Epoch 3/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.002676510483902579, 'link_only': 0.0006101204015421745}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0021121377555969865, 'link_only': 0.0005452358233854354}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.4967074317968015, 'recall': 0.6857142857142857, 'f1': 0.5761047463175123, 'accuracy': 0.4045977011494253}, 'link_only': {'precision': 0.8322007318348145, 'recall': 0.8938798427849522, 'f1': 0.8619382782891175, 'accuracy': 0.7573739295908658}}
+[I|Train] Epoch took 00:02:56, predicted 00:05:53 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0021564482454253927, 'link_only': 0.0005171985807988923}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.001985715894709126, 'link_only': 0.0005311058980740386}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.5268817204301075, 'recall': 0.7, 'f1': 0.6012269938650306, 'accuracy': 0.4298245614035088}, 'link_only': {'precision': 0.8242089402310396, 'recall': 0.9213924761370017, 'f1': 0.8700954400848356, 'accuracy': 0.7700610042233693}}
+[I|Train] Epoch took 00:02:56, predicted 00:02:56 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0019631147235671404, 'link_only': 0.00045324557631675367}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0019911494569103713, 'link_only': 0.0005362030660762684}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.48554913294797686, 'recall': 0.7636363636363637, 'f1': 0.5936395759717314, 'accuracy': 0.4221105527638191}, 'link_only': {'precision': 0.8254288597376388, 'recall': 0.9185850645704661, 'f1': 0.8695190007972363, 'accuracy': 0.769158439116126}}
+[I|Train] Epoch took 00:02:57, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 3/4...
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.004874640243064801, 'link_only': 0.0012335283339841951}
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[I|Train] Average validation loss: {'link_same_tag_only': 0.005211470025152756, 'link_only': 0.0013089762729717991}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.2997840172786177, 'recall': 0.5152190051967335, 'f1': 0.3790278536318952, 'accuracy': 0.23382749326145552}, 'link_only': {'precision': 0.8050632911392405, 'recall': 0.4864244741873805, 'f1': 0.6064362336114422, 'accuracy': 0.4351693465617516}}
+[I|Train] Epoch took 00:02:48, predicted 00:14:04 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.003429007491538838, 'link_only': 0.0008689554762772247}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.00413645177673644, 'link_only': 0.0009906711347866803}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.5371312309257376, 'recall': 0.39198218262806234, 'f1': 0.45321888412017164, 'accuracy': 0.293007769145394}, 'link_only': {'precision': 0.8310835461510397, 'recall': 0.8711281070745698, 'f1': 0.8506348020911128, 'accuracy': 0.7400909681611436}}
+[I|Train] Epoch took 00:02:49, predicted 00:11:18 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0026382864699541135, 'link_only': 0.0006661907538604653}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0035434934558370747, 'link_only': 0.000846035282171588}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.4770916334661355, 'recall': 0.7112100965107646, 'f1': 0.5710879284649776, 'accuracy': 0.3996662494785148}, 'link_only': {'precision': 0.7862523540489642, 'recall': 0.9579349904397706, 'f1': 0.8636441992759869, 'accuracy': 0.7600121359223301}}
+[I|Train] Epoch took 00:02:48, predicted 00:08:26 left
+[I|Train] Epoch 3/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.002079538192740105, 'link_only': 0.0005254762205768818}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.003236121056267084, 'link_only': 0.0007726430065257517}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.5094339622641509, 'recall': 0.6815144766146993, 'f1': 0.5830422356303588, 'accuracy': 0.41147467503361723}, 'link_only': {'precision': 0.8084832904884319, 'recall': 0.9621414913957935, 'f1': 0.8786450148419765, 'accuracy': 0.7835565244472127}}
+[I|Train] Epoch took 00:02:49, predicted 00:05:39 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0018137408537845427, 'link_only': 0.0004259810689984726}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0032376457440057914, 'link_only': 0.0007729130211839966}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.4427903019991493, 'recall': 0.7728285077951003, 'f1': 0.5630070308274744, 'accuracy': 0.39179525780955965}, 'link_only': {'precision': 0.7905531385954009, 'recall': 0.972848948374761, 'f1': 0.8722784159094805, 'accuracy': 0.7734873821830344}}
+[I|Train] Epoch took 00:02:49, predicted 00:02:49 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0016474504765198108, 'link_only': 0.0003827772928285042}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0032199942715800344, 'link_only': 0.0007680873889349198}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.4438524590163934, 'recall': 0.8040089086859689, 'f1': 0.5719566939529972, 'accuracy': 0.4005177514792899}, 'link_only': {'precision': 0.7949359174742107, 'recall': 0.9724665391969407, 'f1': 0.8747850017199863, 'accuracy': 0.7774380923265056}}
+[I|Train] Epoch took 00:02:49, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 4/4...
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.005893472800504926, 'link_only': 0.0012979198766274787}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.004699405391875189, 'link_only': 0.0014968139685151982}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.2366412213740458, 'recall': 0.04602821083890126, 'f1': 0.07706650093225607, 'accuracy': 0.0400775694893342}, 'link_only': {'precision': 0.6299531981279252, 'recall': 0.7673888255416191, 'f1': 0.6919122686771763, 'accuracy': 0.5289494367304166}}
+[I|Train] Epoch took 00:02:54, predicted 00:14:32 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.003929608448261283, 'link_only': 0.0010136340335411972}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.003755868885491509, 'link_only': 0.0011464646516287757}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.3513920240782543, 'recall': 0.34669636228656275, 'f1': 0.3490284005979073, 'accuracy': 0.2114078768673608}, 'link_only': {'precision': 0.7070232148104614, 'recall': 0.9144811858608894, 'f1': 0.7974809413324495, 'accuracy': 0.663175303197354}}
+[I|Train] Epoch took 00:02:54, predicted 00:11:38 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0034590980983796953, 'link_only': 0.000769394617982937}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0034719117735221515, 'link_only': 0.0011213065461106453}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.386613021214338, 'recall': 0.7847067557535263, 'f1': 0.5180102915951973, 'accuracy': 0.34953703703703703}, 'link_only': {'precision': 0.7199421965317919, 'recall': 0.9467882934245534, 'f1': 0.8179280906255131, 'accuracy': 0.6919444444444445}}
+[I|Train] Epoch took 00:02:55, predicted 00:08:45 left
+[I|Train] Epoch 3/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0025986822745633414, 'link_only': 0.0006262894011086199}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0030285187378467525, 'link_only': 0.0010748793528364332}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.4674698795180723, 'recall': 0.7201187824795843, 'f1': 0.5669199298655757, 'accuracy': 0.39559543230016314}, 'link_only': {'precision': 0.7193575655114116, 'recall': 0.9703534777651083, 'f1': 0.8262135922330097, 'accuracy': 0.7038875103391232}}
+[I|Train] Epoch took 00:02:54, predicted 00:05:49 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0022860237665406754, 'link_only': 0.0005111036296931651}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0028923347948875745, 'link_only': 0.0010070362169699366}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.46990116801437554, 'recall': 0.7765404602821084, 'f1': 0.5855023789532605, 'accuracy': 0.4139295607439652}, 'link_only': {'precision': 0.7313602731929425, 'recall': 0.9768148992778412, 'f1': 0.8364524003254679, 'accuracy': 0.7188811188811188}}
+[I|Train] Epoch took 00:02:54, predicted 00:02:54 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0020987817306921254, 'link_only': 0.00046425759027885925}
+[I|Train] Average validation loss: {'link_same_tag_only': 0.0028464022165280768, 'link_only': 0.0009788358832565792}
+[I|Train] Validation Accuracy: {'link_same_tag_only': {'precision': 0.4606112785191563, 'recall': 0.7943578322197475, 'f1': 0.5831062670299727, 'accuracy': 0.4115384615384615}, 'link_only': {'precision': 0.7421784472769409, 'recall': 0.9737742303306728, 'f1': 0.8423475258918297, 'accuracy': 0.7276341948310139}}
+[I|Train] Epoch took 00:02:54, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Final training
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.005618070801041552, 'link_only': 0.0013275738372636149}
+[I|Train] Epoch took 00:01:52, predicted 00:09:20 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.004370803379373637, 'link_only': 0.001065921101764187}
+[I|Train] Epoch took 00:01:52, predicted 00:07:28 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.003134368562453225, 'link_only': 0.0007635712484205991}
+[I|Train] Epoch took 00:01:51, predicted 00:05:35 left
+[I|Train] Epoch 3/6
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[I|Train] Average train loss: {'link_same_tag_only': 0.002525223119736421, 'link_only': 0.0006255702605841949}
+[I|Train] Epoch took 00:01:52, predicted 00:03:44 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0021322789511333405, 'link_only': 0.0005026450479047404}
+[I|Train] Epoch took 00:01:51, predicted 00:01:51 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_same_tag_only': 0.0019395569988020702, 'link_only': 0.0004461235062399572}
+[I|Train] Epoch took 00:01:51, predicted 00:00:00 left
+[I|Train Handler] Testing model
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[I|Test] Testing model
+[I|Test] Test loss: {'link_same_tag_only': 0.000432774178787238, 'link_only': 0.0001450010426601188}
+[I|Test] Test accuracy: {'link_same_tag_only': {'precision': 0.4683734939759036, 'recall': 0.8162729658792651, 'f1': 0.5952153110047848, 'accuracy': 0.42370572207084467}, 'link_only': {'precision': 0.8191616766467066, 'recall': 0.9633802816901409, 'f1': 0.8854368932038835, 'accuracy': 0.794425087108014}}
+[I|Train Handler] Saving model
+[I|Train Handler] Saving training history
+[I] Loading config 2/3 /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base/v2_single_label_bio_bl05_k4_e36.json
+[T] 2023-08-01 14:00:13.703994
+[I|Model] Loading Tokenizer
+[I|Model] Loading Model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[W] The following tags were not found in the new tag list:
+	B--
+	I--
+[W] The following tags were not found in the new tag list:
+	B-graft
+	I-graft
+[W] The following tags were not found in the new tag list:
+	I--
+[W] The following tags were not found in the new tag list:
+	B-anoikis
+	B-entosis
+	I--
+	I-adhesion
+	I-anoikis
+	I-entosis
+	I-mitophagy
+	I-pyroptosis
+	I-transformation
+[I|Train Handler] Training model
+[I|Train Handler] Fold 1/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:27, predicted 00:50:53 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:28, predicted 00:49:58 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:01:28, predicted 00:48:31 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:28, predicted 00:47:24 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:28, predicted 00:45:51 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:28, predicted 00:44:14 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:28, predicted 00:42:36 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:28, predicted 00:41:04 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:28, predicted 00:39:43 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:28, predicted 00:38:12 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:28, predicted 00:36:41 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:28, predicted 00:35:16 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:27, predicted 00:33:42 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:27, predicted 00:32:11 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:27, predicted 00:30:45 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:28, predicted 00:29:21 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:28, predicted 00:27:54 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:27, predicted 00:26:15 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:27, predicted 00:24:53 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:27, predicted 00:23:26 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:27, predicted 00:21:52 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:28, predicted 00:20:32 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:28, predicted 00:19:04 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:27, predicted 00:17:32 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:27, predicted 00:16:05 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:27, predicted 00:14:34 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:27, predicted 00:13:10 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:27, predicted 00:11:40 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:27, predicted 00:10:13 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:27, predicted 00:08:45 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:27, predicted 00:07:18 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:27, predicted 00:05:50 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:27, predicted 00:04:22 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:26, predicted 00:02:53 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:26, predicted 00:01:26 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:27, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 2/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:28, predicted 00:51:53 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:29, predicted 00:50:31 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:01:28, predicted 00:48:43 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:28, predicted 00:47:27 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:28, predicted 00:45:51 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:28, predicted 00:44:12 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:28, predicted 00:42:57 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:28, predicted 00:41:20 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:28, predicted 00:39:52 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:28, predicted 00:38:21 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:28, predicted 00:36:52 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:28, predicted 00:35:21 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:28, predicted 00:33:49 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:28, predicted 00:32:17 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:28, predicted 00:30:48 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:28, predicted 00:29:22 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:28, predicted 00:27:58 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:28, predicted 00:26:25 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:28, predicted 00:24:59 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:28, predicted 00:23:30 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:27, predicted 00:21:58 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:27, predicted 00:20:30 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:27, predicted 00:19:01 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:27, predicted 00:17:32 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:27, predicted 00:16:05 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:27, predicted 00:14:35 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:28, predicted 00:13:12 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:27, predicted 00:11:40 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:27, predicted 00:10:14 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:27, predicted 00:08:47 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:27, predicted 00:07:17 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:27, predicted 00:05:51 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:27, predicted 00:04:23 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:27, predicted 00:02:55 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:27, predicted 00:01:27 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:27, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 3/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:29, predicted 00:52:05 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:28, predicted 00:50:23 left
+[I|Train] Epoch 2/36
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[I|Train] Epoch took 00:01:28, predicted 00:48:52 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:28, predicted 00:47:23 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:28, predicted 00:45:55 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:28, predicted 00:44:29 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:28, predicted 00:42:55 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:28, predicted 00:41:24 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:28, predicted 00:39:53 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:28, predicted 00:38:13 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:28, predicted 00:36:40 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:28, predicted 00:35:25 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:28, predicted 00:33:55 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:28, predicted 00:32:28 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:28, predicted 00:30:51 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:28, predicted 00:29:22 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:28, predicted 00:27:59 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:28, predicted 00:26:26 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:27, predicted 00:24:53 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:28, predicted 00:23:31 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:28, predicted 00:22:00 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:27, predicted 00:20:25 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:27, predicted 00:19:01 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:28, predicted 00:17:36 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:27, predicted 00:16:02 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:27, predicted 00:14:37 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:27, predicted 00:13:10 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:28, predicted 00:11:44 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:27, predicted 00:10:15 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:27, predicted 00:08:47 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:27, predicted 00:07:18 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:27, predicted 00:05:49 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:27, predicted 00:04:23 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:28, predicted 00:02:56 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:27, predicted 00:01:27 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:27, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 4/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:28, predicted 00:51:49 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:29, predicted 00:50:29 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:01:28, predicted 00:48:50 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:29, predicted 00:47:28 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:28, predicted 00:45:50 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:28, predicted 00:44:27 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:28, predicted 00:42:48 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:28, predicted 00:41:16 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:28, predicted 00:39:57 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:28, predicted 00:38:20 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:28, predicted 00:36:55 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:27, predicted 00:35:11 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:28, predicted 00:33:50 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:28, predicted 00:32:23 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:27, predicted 00:30:45 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:28, predicted 00:29:26 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:27, predicted 00:27:45 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:27, predicted 00:26:17 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:27, predicted 00:24:50 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:27, predicted 00:23:27 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:28, predicted 00:22:00 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:27, predicted 00:20:30 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:27, predicted 00:19:01 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:27, predicted 00:17:34 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:27, predicted 00:16:06 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:28, predicted 00:14:40 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:27, predicted 00:13:07 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:27, predicted 00:11:43 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:28, predicted 00:10:16 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:27, predicted 00:08:47 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:27, predicted 00:07:17 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:27, predicted 00:05:50 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:27, predicted 00:04:23 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:27, predicted 00:02:55 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:27, predicted 00:01:27 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:27, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Final training
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:37, predicted 00:57:07 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:37, predicted 00:55:25 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:01:37, predicted 00:53:53 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:37, predicted 00:52:06 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:37, predicted 00:50:33 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:37, predicted 00:48:55 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:37, predicted 00:47:21 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:37, predicted 00:45:37 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:37, predicted 00:43:45 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:37, predicted 00:42:03 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:36, predicted 00:40:24 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:37, predicted 00:38:53 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:37, predicted 00:37:22 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:37, predicted 00:35:41 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:36, predicted 00:33:52 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:36, predicted 00:32:12 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:36, predicted 00:30:30 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:36, predicted 00:29:02 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:36, predicted 00:27:28 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:36, predicted 00:25:43 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:36, predicted 00:24:05 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:36, predicted 00:22:33 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:36, predicted 00:20:59 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:36, predicted 00:19:13 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:35, predicted 00:17:35 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:36, predicted 00:16:01 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:36, predicted 00:14:27 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:36, predicted 00:12:53 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:36, predicted 00:11:14 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:36, predicted 00:09:40 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:36, predicted 00:08:02 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:36, predicted 00:06:27 left
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:36, predicted 00:04:49 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:36, predicted 00:03:12 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:36, predicted 00:01:36 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:36, predicted 00:00:00 left
+[I|Train Handler] Testing model
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[W] The following tags were not found in the new tag list:
+	B--
+	I--
+[W] The following tags were not found in the new tag list:
+	B--
+	B-graft
+	I--
+	I-graft
+[W] The following tags were not found in the new tag list:
+	B--
+	I--
+	I-regulates
+	I-rescues
+[W] The following tags were not found in the new tag list:
+	B--
+	B-adhesion
+	B-colony formation
+	B-entosis
+	B-necroptosis
+	B-necrosis
+	B-oncosis
+	B-quiescence
+	B-transformation
+	B-tumour progression
+	B-tumourigenesis
+	I--
+	I-adhesion
+	I-anoikis
+	I-colony formation
+	I-differentiation
+	I-entosis
+	I-invasion
+	I-migration
+	I-mitophagy
+	I-necroptosis
+	I-necrosis
+	I-oncosis
+	I-proliferation
+	I-pyroptosis
+	I-quiescence
+	I-transformation
+	I-tumour progression
+	I-tumourigenesis
+[I|Test] Testing model
+[I|Test] Test loss: {'category': 0.12665670830756426, 'perturbing_action': 0.049580346792936325, 'context': 0.05214640963822603, 'effect': 0.009575781470630318, 'phenotype': 0.029167739674448967}
+[I|Test] Test accuracy: {'category': {'precision': 0.7596606974552309, 'recall': 0.7196428571428571, 'f1': 0.7391104997707474, 'accuracy': 0.6005961251862891}, 'perturbing_action': {'precision': 0.7660818713450293, 'recall': 0.6390243902439025, 'f1': 0.6968085106382979, 'accuracy': 0.5622317596566524}, 'context': {'precision': 0.6597222222222222, 'recall': 0.691747572815534, 'f1': 0.6753554502369667, 'accuracy': 0.5428571428571428}, 'effect': {'precision': 0.7886178861788617, 'recall': 0.7132352941176471, 'f1': 0.749034749034749, 'accuracy': 0.60625}, 'phenotype': {'precision': 0.7616279069767442, 'recall': 0.803680981595092, 'f1': 0.7820895522388059, 'accuracy': 0.6517412935323383}}
+[I|Train Handler] Saving model
+[I|Train Handler] Saving training history
+[I] Loading config 3/3 /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base/v2_single_label_bl05_k4_e36.json
+[T] 2023-08-01 18:30:20.177008
+[I|Model] Loading Tokenizer
+[I|Model] Loading Model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[W] The following tags were not found in the new tag list:
+	-
+[W] The following tags were not found in the new tag list:
+	graft
+[W] The following tags were not found in the new tag list:
+	anoikis
+	entosis
+[I|Train Handler] Training model
+[I|Train Handler] Fold 1/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:28, predicted 00:51:28 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:28, predicted 00:50:06 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:01:28, predicted 00:48:54 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:28, predicted 00:47:17 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:28, predicted 00:45:44 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:28, predicted 00:44:19 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:28, predicted 00:42:49 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:28, predicted 00:41:05 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:28, predicted 00:39:36 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:28, predicted 00:38:22 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:28, predicted 00:36:44 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:27, predicted 00:35:00 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:27, predicted 00:33:42 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:28, predicted 00:32:17 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:28, predicted 00:30:50 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:27, predicted 00:29:19 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:27, predicted 00:27:47 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:27, predicted 00:26:18 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:27, predicted 00:24:55 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:27, predicted 00:23:14 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:28, predicted 00:22:00 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:27, predicted 00:20:21 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:27, predicted 00:18:57 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:27, predicted 00:17:29 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:27, predicted 00:16:02 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:27, predicted 00:14:35 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:27, predicted 00:13:04 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:27, predicted 00:11:39 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:27, predicted 00:10:12 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:27, predicted 00:08:42 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:27, predicted 00:07:16 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:27, predicted 00:05:48 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:27, predicted 00:04:22 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:27, predicted 00:02:54 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:27, predicted 00:01:27 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:27, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 2/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:28, predicted 00:51:42 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:28, predicted 00:50:25 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:01:28, predicted 00:48:51 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:28, predicted 00:47:12 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:29, predicted 00:46:00 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:28, predicted 00:44:21 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:28, predicted 00:42:49 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:28, predicted 00:41:08 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:28, predicted 00:39:49 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:28, predicted 00:38:24 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:28, predicted 00:36:44 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:28, predicted 00:35:18 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:27, predicted 00:33:40 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:27, predicted 00:32:13 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:27, predicted 00:30:46 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:27, predicted 00:29:13 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:27, predicted 00:27:45 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:27, predicted 00:26:17 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:27, predicted 00:24:45 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:27, predicted 00:23:21 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:27, predicted 00:21:49 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:27, predicted 00:20:28 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:27, predicted 00:18:57 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:27, predicted 00:17:32 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:27, predicted 00:16:04 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:27, predicted 00:14:35 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:27, predicted 00:13:10 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:27, predicted 00:11:40 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:27, predicted 00:10:09 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:27, predicted 00:08:44 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:27, predicted 00:07:17 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:27, predicted 00:05:49 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:27, predicted 00:04:21 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:27, predicted 00:02:55 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:27, predicted 00:01:27 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:27, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 3/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:28, predicted 00:51:49 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:28, predicted 00:50:18 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:01:28, predicted 00:48:50 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:28, predicted 00:47:18 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:28, predicted 00:45:39 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:28, predicted 00:44:23 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:28, predicted 00:42:49 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:28, predicted 00:41:13 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:28, predicted 00:39:36 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:28, predicted 00:38:11 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:28, predicted 00:36:40 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:28, predicted 00:35:17 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:27, predicted 00:33:43 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:27, predicted 00:32:09 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:28, predicted 00:30:48 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:27, predicted 00:29:17 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:27, predicted 00:27:46 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:27, predicted 00:26:15 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:27, predicted 00:24:51 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:27, predicted 00:23:19 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:27, predicted 00:21:50 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:27, predicted 00:20:28 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:27, predicted 00:18:55 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:27, predicted 00:17:33 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:27, predicted 00:16:03 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:27, predicted 00:14:32 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:27, predicted 00:13:08 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:27, predicted 00:11:37 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:27, predicted 00:10:11 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:27, predicted 00:08:43 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:27, predicted 00:07:18 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:27, predicted 00:05:48 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:27, predicted 00:04:22 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:26, predicted 00:02:53 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:27, predicted 00:01:27 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:27, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 4/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:28, predicted 00:51:42 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:28, predicted 00:50:12 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:01:28, predicted 00:48:43 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:28, predicted 00:47:05 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:28, predicted 00:45:39 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:28, predicted 00:44:17 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:28, predicted 00:42:38 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:28, predicted 00:41:06 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:28, predicted 00:39:45 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:28, predicted 00:38:13 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:27, predicted 00:36:35 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:27, predicted 00:35:06 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:27, predicted 00:33:39 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:27, predicted 00:32:14 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:27, predicted 00:30:42 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:27, predicted 00:29:17 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:27, predicted 00:27:48 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:27, predicted 00:26:14 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:27, predicted 00:24:45 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:27, predicted 00:23:21 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:27, predicted 00:21:51 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:27, predicted 00:20:25 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:27, predicted 00:18:57 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:27, predicted 00:17:26 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:27, predicted 00:16:00 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:27, predicted 00:14:33 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:27, predicted 00:13:06 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:27, predicted 00:11:40 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:27, predicted 00:10:10 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:27, predicted 00:08:44 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:27, predicted 00:07:15 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:27, predicted 00:05:48 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:27, predicted 00:04:21 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:27, predicted 00:02:54 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:27, predicted 00:01:27 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:27, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Final training
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:01:37, predicted 00:56:37 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:01:37, predicted 00:55:11 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:01:37, predicted 00:53:42 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:01:37, predicted 00:52:03 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:01:37, predicted 00:50:24 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:01:37, predicted 00:48:46 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:01:36, predicted 00:46:46 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:01:37, predicted 00:45:19 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:01:37, predicted 00:43:40 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:01:37, predicted 00:42:05 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:01:36, predicted 00:40:23 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:01:36, predicted 00:38:45 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:01:36, predicted 00:37:09 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:01:36, predicted 00:35:32 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:01:36, predicted 00:33:46 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:01:36, predicted 00:32:12 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:01:36, predicted 00:30:31 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:01:36, predicted 00:28:58 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:01:36, predicted 00:27:17 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:01:36, predicted 00:25:42 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:01:36, predicted 00:24:04 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:01:36, predicted 00:22:28 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:01:36, predicted 00:20:52 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:01:36, predicted 00:19:14 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:01:36, predicted 00:17:36 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:01:36, predicted 00:16:01 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:01:36, predicted 00:14:26 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:01:36, predicted 00:12:48 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:01:36, predicted 00:11:12 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:01:35, predicted 00:09:35 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:01:35, predicted 00:07:59 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:01:35, predicted 00:06:23 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:01:35, predicted 00:04:47 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:01:35, predicted 00:03:11 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:01:35, predicted 00:01:35 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:01:36, predicted 00:00:00 left
+[I|Train Handler] Testing model
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[W] The following tags were not found in the new tag list:
+	-
+[W] The following tags were not found in the new tag list:
+	-
+	graft
+[W] The following tags were not found in the new tag list:
+	-
+[W] The following tags were not found in the new tag list:
+	-
+	adhesion
+	colony formation
+	entosis
+	necroptosis
+	necrosis
+	oncosis
+	quiescence
+	transformation
+	tumour progression
+	tumourigenesis
+[I|Test] Testing model
+[I|Test] Test loss: {'category': 0.09641195274889469, 'perturbing_action': 0.04835896100848913, 'context': 0.03707052138634026, 'effect': 0.00880716711981222, 'phenotype': 0.03516253363341093}
+[I|Test] Test accuracy: {'category': {'precision': 0.7909090909090909, 'recall': 0.7767857142857143, 'f1': 0.7837837837837838, 'accuracy': 0.6458797327394209}, 'perturbing_action': {'precision': 0.78125, 'recall': 0.6707317073170732, 'f1': 0.7217847769028871, 'accuracy': 0.5901287553648069}, 'context': {'precision': 0.6890380313199105, 'recall': 0.7475728155339806, 'f1': 0.7171129220023283, 'accuracy': 0.5822306238185255}, 'effect': {'precision': 0.7985074626865671, 'recall': 0.7867647058823529, 'f1': 0.7925925925925927, 'accuracy': 0.6604938271604939}, 'phenotype': {'precision': 0.7611111111111111, 'recall': 0.8404907975460123, 'f1': 0.7988338192419825, 'accuracy': 0.6650485436893204}}
+[I|Train Handler] Saving model
+[I|Train Handler] Saving training history
+[I] Finished
+[I] Successful: /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base/v2_link_both_heads_bl05_k4.json, /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base/v2_single_label_bio_bl05_k4_e36.json, /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/bert_base/v2_single_label_bl05_k4_e36.json
+[I] Failed: None
+[T] 2023-08-01 22:59:33.738123
+[I] Program exiting...

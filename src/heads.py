@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from torch import nn
 
-from allennlp.modules.conditional_random_field import ConditionalRandomField, allowed_transitions
+# from allennlp.modules.conditional_random_field import ConditionalRandomField, allowed_transitions
 
 from src.misc import get_prf1a, check_tag_list, pad_sequences, copy_type
 
@@ -187,8 +187,13 @@ tag list:\n{tag_list_str}")
     def b_tags2lists_of_tags(b_tags):
         raise NotImplementedError
 
-    def tag2str(self, tag):
+    @classmethod
+    def tag2str(cls, tag):
         raise NotImplementedError
+
+    @classmethod
+    def clean_tag(cls, tag):
+        return None if tag == cls._none_tag else tag
 
     @staticmethod
     def apply_schema_to_tag_list(tag_list, schema):
@@ -394,14 +399,15 @@ class Single_Label(_Tkn_Base):
                     fp += t != p and p != self._none_label
                     fn += t != p and t != self._none_label
                     total_Neg += t != p
-        return get_prf1a(tp, fp, fn, (fp + fn))
+        return get_prf1a(tp, fp, fn, total_Neg)
 
     def get_loss_masks(self, b_labels):
         return [[float(label != self._full_pad_label) for label in labels]
                 for labels in b_labels]
 
-    def tag2str(self, tag):
-        return '' if tag == self._none_tag else str(tag)
+    @classmethod
+    def tag2str(cls, tag):
+        return '' if tag == cls._none_tag else str(tag)
 
 
 class CRF(Single_Label):
@@ -409,6 +415,7 @@ class CRF(Single_Label):
     predic_func = nn.Identity()  # Viterbi tags algorithm expects logits
 
     def __init__(self, schema, **kwargs):
+        raise Exception("Currently deactivated")
         assert schema == "BIO"  # Only supported at the moment
         super().__init__(schema=schema, **kwargs)
         self._crf = None
@@ -534,8 +541,9 @@ class Multi_Label(_Tkn_Base):
         return [[float(any(label != self._full_pad_label)) for label in labels]
                 for labels in b_labels]
 
-    def tag2str(self, tag):
-        return "" if tag == self._none_tag else ', '.join([str(t) for t in tag])
+    @classmethod
+    def tag2str(cls, tag):
+        return "" if tag == cls._none_tag else ', '.join([str(t) for t in tag])
 
 
 class Multi_Label_Seq(Multi_Label):
@@ -792,16 +800,37 @@ class Entity_Link(_Head_Base):
     def b_tags2lists_of_tags(b_tags):
         return [dl2ld(tags) for tags in dl2ld(b_tags)]
 
-    def tag2str(self, tag_dict):
+    @classmethod
+    def tag2str(cls, tag_dict):
         tag_strs = []
-        for k, v in tag_dict:
-            if v != self._none_tag:
+        for k, v in tag_dict.items():
+            if v != cls._none_tag:
                 tag_strs.append(', '.join([f"{k}_{i}_{t}" for i, t in v]))
         return ', '.join(tag_strs)
 
     @staticmethod
     def apply_schema_to_tag_list(tag_list, schema):
         return tag_list
+
+    def clean_tag(self, tag):
+        return_obj = None
+
+        # If we have multiple link types, check the dictionary of links
+        if isinstance(tag, dict):
+            if len(tag) == 1:  # Only one link type so flatten out the dict
+                tag_val = list(tag.values())[0]
+                return_obj = None if tag_val == self._none_tag else tag_val
+            else:
+                r_dict = {k: v for k, v in tag.items() if v != self._none_tag}
+                return_obj = None if r_dict == {} else r_dict
+        else:
+            return_obj = None if tag == self._none_tag else tag
+
+        # If we only have 1 tag in our prediction, flatten that out (i.e. binary classification)
+        if len(self.tag_list) == 1 and return_obj is not None:
+            return_obj = [x for (x, _) in return_obj]
+
+        return return_obj
 
 
 # DERIVATIVE CLASSES

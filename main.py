@@ -3,6 +3,7 @@ import argparse
 import json
 import traceback
 
+from datetime import datetime
 from util.core import printv, ensure_file_ext
 from src.model_handler import ModelHandler
 from src.analysis import analyse_mode
@@ -50,6 +51,9 @@ if __name__ == "__main__":
     v = args.verbose
     r = args.recursive
 
+    printv("[I] Program starting...", verbose_flag=v)
+    printv(f"[T] {datetime.now()}", verbose_flag=v)
+
     if args.config_paths is None and args.config_folders is None:
         raise Exception("[E] No configs provided, see main.py -h")
 
@@ -87,6 +91,7 @@ if __name__ == "__main__":
         try:
             c = ensure_file_ext(c, "json")
             printv(f"[I] Loading config {i+1}/{len(configs)} {c}", verbose_flag=v)
+            printv(f"[T] {datetime.now()}", verbose_flag=v)
             main(c)
         except Exception as e:
             print(f"[E] Got an error in config {c}:")
@@ -101,5 +106,6 @@ if __name__ == "__main__":
     printv("[I] Finished", verbose_flag=v)
     printv(f"[I] Successful: {s_string}", verbose_flag=v)
     printv(f"[I] Failed: {f_string}", verbose_flag=v)
+    printv(f"[T] {datetime.now()}", verbose_flag=v)
     printv("[I] Program exiting...", verbose_flag=v)
 

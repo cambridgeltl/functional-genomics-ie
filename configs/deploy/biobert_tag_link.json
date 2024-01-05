@@ -2,9 +2,9 @@
     "MODE": "deploy",
     "MODEL": {
         "TYPE": "existing",
-        "PATH": "outputs/models/BioBERTv11_multi_output_bl05_k4_e36_2021-08-28_00-45.pkl",
+        "PATH": "outputs/models/BioBERTv11_multi_output_v2_single_label_bio_bl05_k4_e36_2021-11-02_17-03.pkl",
         "EXTRA_PATHS": {
-            "link": "outputs/models/BioBERTv12_linking_bl05_bs4_k4_2021-09-02_08-32.pkl"
+            "link": "outputs/models/BioBERTv11_link_both_heads_v2_bl05_k4_2021-10-30_18-27.pkl"
         }
     },
     "DATA": {

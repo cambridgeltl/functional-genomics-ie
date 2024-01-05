@@ -1,10 +1,44 @@
 from matplotlib import pyplot as plt
+from argparse import ArgumentParser
 import matplotlib
 import json
 import numpy as np
 
-from util.core import printv, ensure_file_ext
-from src.misc import txt_str_to_md
+
+def printv(*args, verbose_flag):
+    if verbose_flag:
+        print(*args)
+
+def ensure_suffix(txt: str, suffix: str) -> str:
+    return txt if txt[-len(suffix):] == suffix else txt + suffix
+
+def txt_str_to_md(string, bullet_consecutive_lines=False):
+
+    # Make things titles based on newlines
+    string = '\n\n\n## '.join(string.split('\n\n\n'))
+
+    # If applicable, make lists out of consective, non-empty lines
+    if bullet_consecutive_lines:
+        s_split = string.split('\n')
+        new_string = [s_split[0], s_split[1]]
+
+        # We want to bullet when the previous line is not empty and neither is the current
+        # If we're at the top of the bullets we need to insert a newline
+        for l1, l2, l3 in zip(s_split, s_split[1:], s_split[2:]):
+            if l2 != '' and l3 != '':
+                if l1 == '':
+                    new_string.append("\n* " + l3)
+                else:
+                    new_string.append("* " + l3)
+            else:
+                new_string.append(l3)
+
+        string = '\n'.join(new_string)
+
+    # Insert header and make first line title
+    string = "---\ngeometry: margin=2.5cm\n---\n\n# " + string
+
+    return string
 
 
 styles = ["r-", "b-", "g-", "y-", "k-",
@@ -185,12 +219,12 @@ def report(history_data, config):
         print(report_str)
 
     elif config["OUTPUT"] == "txt":
-        p = ensure_file_ext(config["PATH"], "txt")
+        p = ensure_suffix(config["PATH"], ".txt")
         with open(p, 'w') as f:
             f.write(report_str)
 
     elif config["OUTPUT"] == "md":
-        p = ensure_file_ext(config["PATH"], "md")
+        p = ensure_suffix(config["PATH"], ".md")
         with open(p, 'w') as f:
             f.write(txt_str_to_md(report_str, bullet_consecutive_lines=True))
 
@@ -212,4 +246,13 @@ def analyse_mode(config):
 
     printv("[I] Analysing...", verbose_flag=v)
     analyse(history_data, config["ANALYSIS"])
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser(description="Analysis of metrics")
+    parser.add_argument("config_path")
+    args = parser.parse_args()
+    with open(args.config_path) as f:
+        config = json.load(f)
+    analyse_mode(config)
 

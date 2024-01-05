@@ -1,0 +1,1814 @@
+/var/spool/slurmd/job16549/slurm_script: line 19: cd: /mnt/nas_home/jasonb/transformer_nlp: No such file or directory
+Changed directory to /mnt/nas_home/jrb239/transformer_nlp.
+
+JobID: 16549
+======
+Time: Tue 15 Aug 13:05:59 BST 2023
+Current directory: /mnt/nas_home/jrb239/transformer_nlp
+
+Executing command:
+==================
+python3 main.py -f /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads -v
+
+[I] Program starting...
+[T] 2023-08-15 13:06:09.595245
+[I] Found 6 configs:
+/mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_link_only_bl05_k4.json
+/mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_category_single_label_bio_bl05_k4_e36.json
+/mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_perturbing_action_single_label_bio_bl05_k4_e36.json
+/mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_context_single_label_bio_bl05_k4_e36.json
+/mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_effect_single_label_bio_bl05_k4_e36.json
+/mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_phenotype_single_label_bio_bl05_k4_e36.json
+[I] Loading config 1/6 /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_link_only_bl05_k4.json
+[T] 2023-08-15 13:06:09.595893
+[I|Model] Loading Tokenizer
+[I|Model] Loading Model
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[I|Train Handler] Training model
+[I|Train Handler] Fold 1/4...
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_only': 0.0014493327189021806}
+[I|Train] Average validation loss: {'link_only': 0.0011752092356730897}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7807840971838763, 'recall': 0.7311271975180972, 'f1': 0.7551401869158878, 'accuracy': 0.6066066066066066}}
+[I|Train] Epoch took 00:01:06, predicted 00:05:32 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_only': 0.0007663891915476366}
+[I|Train] Average validation loss: {'link_only': 0.0016535222429620961}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.6920541926034419, 'recall': 0.9772492244053774, 'f1': 0.8102893890675241, 'accuracy': 0.6810810810810811}}
+[I|Train] Epoch took 00:01:06, predicted 00:04:27 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_only': 0.0004911842246795043}
+[I|Train] Average validation loss: {'link_only': 0.0009981459011331212}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7931477516059957, 'recall': 0.9576008273009308, 'f1': 0.8676505036308269, 'accuracy': 0.7662391394290443}}
+[I|Train] Epoch took 00:01:06, predicted 00:03:20 left
+[I|Train] Epoch 3/6
+[I|Train] Average train loss: {'link_only': 0.00036008944785646883}
+[I|Train] Average validation loss: {'link_only': 0.0009510421635194432}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7913188647746243, 'recall': 0.9803516028955532, 'f1': 0.8757505773672055, 'accuracy': 0.7789646672144618}}
+[I|Train] Epoch took 00:01:07, predicted 00:02:14 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_only': 0.0002594982631762832}
+[I|Train] Average validation loss: {'link_only': 0.0010793997154486044}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7768151815181518, 'recall': 0.9736297828335057, 'f1': 0.8641578705828361, 'accuracy': 0.7608080808080808}}
+[I|Train] Epoch took 00:01:07, predicted 00:01:07 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_only': 0.0002212924695745102}
+[I|Train] Average validation loss: {'link_only': 0.0011429131117065248}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7649434571890146, 'recall': 0.9793174767321613, 'f1': 0.8589569160997732, 'accuracy': 0.7527821939586645}}
+[I|Train] Epoch took 00:01:07, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 2/4...
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_only': 0.0016516491905966147}
+[I|Train] Average validation loss: {'link_only': 0.0009053451071033636}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7240270183338694, 'recall': 0.9769965277777778, 'f1': 0.8317014594494735, 'accuracy': 0.7118912080961417}}
+[I|Train] Epoch took 00:01:07, predicted 00:05:35 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_only': 0.0010831314833367133}
+[I|Train] Average validation loss: {'link_only': 0.0007923406290221744}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.8348960456583775, 'recall': 0.8888888888888888, 'f1': 0.8610468782846331, 'accuracy': 0.7559985234403839}}
+[I|Train] Epoch took 00:01:07, predicted 00:04:29 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_only': 0.000637880606179459}
+[I|Train] Average validation loss: {'link_only': 0.000710141451725996}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7794520547945205, 'recall': 0.9878472222222222, 'f1': 0.8713629402756508, 'accuracy': 0.7720488466757124}}
+[I|Train] Epoch took 00:01:07, predicted 00:03:21 left
+[I|Train] Epoch 3/6
+[I|Train] Average train loss: {'link_only': 0.00043820825005426185}
+[I|Train] Average validation loss: {'link_only': 0.0006169319676234572}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.8193123628383321, 'recall': 0.9722222222222222, 'f1': 0.8892417626042081, 'accuracy': 0.8005718370264474}}
+[I|Train] Epoch took 00:01:07, predicted 00:02:14 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_only': 0.00033073471061825175}
+[I|Train] Average validation loss: {'link_only': 0.0007052493137262689}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.8011323425336164, 'recall': 0.9826388888888888, 'f1': 0.8826510721247562, 'accuracy': 0.7899511514305653}}
+[I|Train] Epoch took 00:01:07, predicted 00:01:07 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_only': 0.00027333014076386954}
+[I|Train] Average validation loss: {'link_only': 0.0007646529816739553}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.79402460456942, 'recall': 0.98046875, 'f1': 0.8774519324140609, 'accuracy': 0.7816608996539792}}
+[I|Train] Epoch took 00:01:07, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 3/4...
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_only': 0.0014140736240456058}
+[I|Train] Average validation loss: {'link_only': 0.0010694264326444587}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7736369910282954, 'recall': 0.9143556280587276, 'f1': 0.8381308411214955, 'accuracy': 0.7213642213642214}}
+[I|Train] Epoch took 00:01:06, predicted 00:05:34 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_only': 0.0008284981164960901}
+[I|Train] Average validation loss: {'link_only': 0.0009630935731902121}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7858839497794368, 'recall': 0.9445350734094616, 'f1': 0.8579366549360993, 'accuracy': 0.7512163477132663}}
+[I|Train] Epoch took 00:01:07, predicted 00:04:28 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_only': 0.0005435300045218802}
+[I|Train] Average validation loss: {'link_only': 0.0007584979363085809}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.8134100914324416, 'recall': 0.9796084828711256, 'f1': 0.8888066604995374, 'accuracy': 0.7998667998667999}}
+[I|Train] Epoch took 00:01:07, predicted 00:03:21 left
+[I|Train] Epoch 3/6
+[I|Train] Average train loss: {'link_only': 0.00034102026571201997}
+[I|Train] Average validation loss: {'link_only': 0.0007830394180741562}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.809604328711532, 'recall': 0.9763458401305057, 'f1': 0.8851913477537438, 'accuracy': 0.7940298507462686}}
+[I|Train] Epoch took 00:01:07, predicted 00:02:14 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_only': 0.00028576592517388005}
+[I|Train] Average validation loss: {'link_only': 0.0008023393600710849}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.8036375884136073, 'recall': 0.9730831973898858, 'f1': 0.880280391071758, 'accuracy': 0.786161449752883}}
+[I|Train] Epoch took 00:01:07, predicted 00:01:07 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_only': 0.0002562575935841732}
+[I|Train] Average validation loss: {'link_only': 0.0008336683501441327}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7922163588390502, 'recall': 0.9796084828711256, 'f1': 0.8760029175784099, 'accuracy': 0.7793640493186242}}
+[I|Train] Epoch took 00:01:07, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 4/4...
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_only': 0.001375307147892995}
+[I|Train] Average validation loss: {'link_only': 0.0010811037559506076}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.8034026465028355, 'recall': 0.9219088937093276, 'f1': 0.8585858585858587, 'accuracy': 0.7522123893805309}}
+[I|Train] Epoch took 00:01:08, predicted 00:05:40 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_only': 0.0007624580975815716}
+[I|Train] Average validation loss: {'link_only': 0.0009160293394415931}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7533967391304348, 'recall': 0.9622559652928416, 'f1': 0.8451133549247475, 'accuracy': 0.7317716925107225}}
+[I|Train] Epoch took 00:01:07, predicted 00:04:30 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_only': 0.0005461817957586748}
+[I|Train] Average validation loss: {'link_only': 0.0009515553404526144}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.696793893129771, 'recall': 0.9900216919739696, 'f1': 0.817921146953405, 'accuracy': 0.6919345057610673}}
+[I|Train] Epoch took 00:01:08, predicted 00:03:24 left
+[I|Train] Epoch 3/6
+[I|Train] Average train loss: {'link_only': 0.00038580979826992215}
+[I|Train] Average validation loss: {'link_only': 0.0008696244920884056}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7831669044222539, 'recall': 0.9527114967462039, 'f1': 0.8596594245449207, 'accuracy': 0.7538619979402678}}
+[I|Train] Epoch took 00:01:08, predicted 00:02:16 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_only': 0.0002848922164965686}
+[I|Train] Average validation loss: {'link_only': 0.0009272766086724004}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7689667009955372, 'recall': 0.9718004338394793, 'f1': 0.8585665005749329, 'accuracy': 0.7521826729348556}}
+[I|Train] Epoch took 00:01:07, predicted 00:01:07 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_only': 0.00023784987820946323}
+[I|Train] Average validation loss: {'link_only': 0.0008602997318575944}
+[I|Train] Validation Accuracy: {'link_only': {'precision': 0.7828831988775868, 'recall': 0.9683297180043384, 'f1': 0.865787432117921, 'accuracy': 0.7633378932968536}}
+[I|Train] Epoch took 00:01:07, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Final training
+[I|Train] Epoch 0/6
+[I|Train] Average train loss: {'link_only': 0.001334832310380902}
+[I|Train] Epoch took 00:00:34, predicted 00:02:53 left
+[I|Train] Epoch 1/6
+[I|Train] Average train loss: {'link_only': 0.0008414637193211301}
+[I|Train] Epoch took 00:00:34, predicted 00:02:19 left
+[I|Train] Epoch 2/6
+[I|Train] Average train loss: {'link_only': 0.0004768212268103595}
+[I|Train] Epoch took 00:00:35, predicted 00:01:45 left
+[I|Train] Epoch 3/6
+[I|Train] Average train loss: {'link_only': 0.0003815363990470128}
+[I|Train] Epoch took 00:00:35, predicted 00:01:10 left
+[I|Train] Epoch 4/6
+[I|Train] Average train loss: {'link_only': 0.0002775617810995963}
+[I|Train] Epoch took 00:00:35, predicted 00:00:35 left
+[I|Train] Epoch 5/6
+[I|Train] Average train loss: {'link_only': 0.00023482803979879845}
+[I|Train] Epoch took 00:00:35, predicted 00:00:00 left
+[I|Train Handler] Testing model
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[I|Test] Testing model
+[I|Test] Test loss: {'link_only': 0.0001016570184017635}
+[I|Test] Test accuracy: {'link_only': {'precision': 0.9036458333333334, 'recall': 0.9774647887323944, 'f1': 0.939106901217862, 'accuracy': 0.8852040816326531}}
+[I|Train Handler] Saving model
+[I|Train Handler] Saving training history
+[I] Loading config 2/6 /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_category_single_label_bio_bl05_k4_e36.json
+[T] 2023-08-15 13:37:17.803109
+[I|Model] Loading Tokenizer
+[I|Model] Loading Model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[I|Train Handler] Training model
+[I|Train Handler] Fold 1/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:55 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:12 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:16 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:26 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:30 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:41 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:52 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:56 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:03 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:12 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:48, predicted 00:20:20 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:49, predicted 00:19:39 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:45 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:56 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:08 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:19 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:49, predicted 00:15:31 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:40 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:49, predicted 00:13:53 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:49, predicted 00:13:05 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:11 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:49, predicted 00:11:28 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:34 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:45 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:57 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:49, predicted 00:08:10 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:20 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:30 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:42 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:53 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:04 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:15 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:49, predicted 00:01:38 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 2/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:50, predicted 00:29:12 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:18 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:27 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:29 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:35 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:40 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:51 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:56 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:04 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:49, predicted 00:21:17 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:49, predicted 00:20:28 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:49, predicted 00:19:37 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:49, predicted 00:18:47 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:49, predicted 00:18:01 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:49, predicted 00:17:09 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:18 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:30 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:49, predicted 00:14:43 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:52 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:01 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:14 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:23 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:49, predicted 00:10:37 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:45 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:57 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:07 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:49, predicted 00:07:21 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:29 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:42 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:52 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:04 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:15 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:49, predicted 00:00:49 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 3/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:29:06 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:17 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:23 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:31 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:35 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:41 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:44 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:56 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:04 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:49, predicted 00:21:16 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:49, predicted 00:20:25 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:34 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:44 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:49, predicted 00:18:03 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:08 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:49, predicted 00:16:20 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:49, predicted 00:15:34 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:49, predicted 00:14:42 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:49, predicted 00:13:55 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:03 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:12 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:21 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:35 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:47 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:58 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:05 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:20 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:29 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:41 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:52 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:03 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:15 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:49, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 4/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:29:06 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:10 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:22 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:23 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:33 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:37 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:52 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:50 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:03 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:09 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:48, predicted 00:20:24 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:31 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:45 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:49, predicted 00:17:59 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:05 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:15 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:24 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:40 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:50 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:59 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:14 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:22 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:34 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:46 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:56 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:08 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:16 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:29 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:40 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:52 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:03 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:14 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:25 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Final training
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:59, predicted 00:34:32 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:59, predicted 00:33:35 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:59, predicted 00:32:30 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:58, predicted 00:31:27 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:58, predicted 00:30:18 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:58, predicted 00:29:21 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:58, predicted 00:28:10 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:58, predicted 00:27:16 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:58, predicted 00:26:13 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:58, predicted 00:25:18 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:58, predicted 00:24:10 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:57, predicted 00:23:11 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:58, predicted 00:22:15 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:58, predicted 00:21:19 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:57, predicted 00:20:14 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:57, predicted 00:19:17 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:57, predicted 00:18:20 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:57, predicted 00:17:17 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:57, predicted 00:16:25 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:57, predicted 00:15:22 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:57, predicted 00:14:27 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:57, predicted 00:13:29 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:57, predicted 00:12:29 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:57, predicted 00:11:35 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:57, predicted 00:10:34 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:57, predicted 00:09:38 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:57, predicted 00:08:39 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:57, predicted 00:07:40 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:57, predicted 00:06:44 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:57, predicted 00:05:45 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:57, predicted 00:04:47 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:57, predicted 00:03:51 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:57, predicted 00:02:53 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:57, predicted 00:01:55 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:57, predicted 00:00:57 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:57, predicted 00:00:00 left
+[I|Train Handler] Testing model
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[I|Test] Testing model
+[I|Test] Test loss: {'category': 0.1036142110824585}
+[I|Test] Test accuracy: {'category': {'precision': 0.8026548672566372, 'recall': 0.8200723327305606, 'f1': 0.8112701252236135, 'accuracy': 0.7031007751937984}}
+[I|Train Handler] Saving model
+[I|Train Handler] Saving training history
+[I] Loading config 3/6 /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_perturbing_action_single_label_bio_bl05_k4_e36.json
+[T] 2023-08-15 16:10:13.667486
+[I|Model] Loading Tokenizer
+[I|Model] Loading Model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[W] The following tags were not found in the new tag list:
+	B--
+	I--
+[I|Train Handler] Training model
+[I|Train Handler] Fold 1/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:54 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:50, predicted 00:28:21 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:20 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:21 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:25 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:40 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:43 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:57 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:07 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:13 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:48, predicted 00:20:22 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:34 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:49, predicted 00:18:47 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:49, predicted 00:18:01 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:06 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:19 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:30 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:39 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:51 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:03 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:13 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:25 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:35 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:44 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:57 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:07 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:19 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:29 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:41 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:51 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:03 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:14 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 2/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:29:05 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:06 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:10 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:19 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:24 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:32 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:41 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:53 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:04 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:12 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:49, predicted 00:20:30 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:35 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:46 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:56 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:49, predicted 00:17:09 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:16 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:30 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:41 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:51 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:02 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:12 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:49, predicted 00:11:27 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:34 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:46 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:56 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:49, predicted 00:08:11 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:20 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:31 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:41 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:53 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:04 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:15 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:49, predicted 00:00:49 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 3/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:29:08 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:12 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:14 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:20 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:25 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:30 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:46 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:49 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:08 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:13 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:48, predicted 00:20:20 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:49, predicted 00:19:36 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:49, predicted 00:18:48 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:57 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:49, predicted 00:17:10 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:18 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:26 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:40 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:51 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:00 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:12 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:23 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:49, predicted 00:10:37 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:45 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:57 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:06 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:19 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:29 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:41 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:49, predicted 00:04:54 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:03 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:15 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:49, predicted 00:00:49 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 4/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:29:01 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:03 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:07 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:10 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:26 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:48, predicted 00:24:25 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:48, predicted 00:23:36 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:49 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:57 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:10 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:48, predicted 00:20:21 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:33 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:41 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:51 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:04 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:15 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:24 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:38 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:47 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:57 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:10 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:21 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:31 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:44 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:55 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:05 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:18 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:30 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:40 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:51 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:03 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:14 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:25 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Final training
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:58, predicted 00:34:19 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:58, predicted 00:33:22 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:58, predicted 00:32:13 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:58, predicted 00:31:12 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:58, predicted 00:30:12 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:58, predicted 00:29:01 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:58, predicted 00:28:08 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:58, predicted 00:27:08 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:57, predicted 00:26:05 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:58, predicted 00:25:08 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:57, predicted 00:24:06 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:57, predicted 00:23:10 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:57, predicted 00:22:10 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:57, predicted 00:21:12 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:57, predicted 00:20:14 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:57, predicted 00:19:18 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:57, predicted 00:18:21 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:57, predicted 00:17:20 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:57, predicted 00:16:22 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:57, predicted 00:15:23 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:57, predicted 00:14:28 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:57, predicted 00:13:28 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:57, predicted 00:12:30 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:57, predicted 00:11:33 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:57, predicted 00:10:34 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:57, predicted 00:09:38 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:57, predicted 00:08:41 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:57, predicted 00:07:43 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:57, predicted 00:06:44 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:57, predicted 00:05:46 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:57, predicted 00:04:49 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:57, predicted 00:03:51 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:57, predicted 00:02:53 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:57, predicted 00:01:55 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:57, predicted 00:00:57 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:57, predicted 00:00:00 left
+[I|Train Handler] Testing model
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[W] The following tags were not found in the new tag list:
+	B--
+	I--
+[I|Test] Testing model
+[I|Test] Test loss: {'perturbing_action': 0.05387532780878246}
+[I|Test] Test accuracy: {'perturbing_action': {'precision': 0.7571428571428571, 'recall': 0.7890818858560794, 'f1': 0.772782503037667, 'accuracy': 0.6694736842105263}}
+[I|Train Handler] Saving model
+[I|Train Handler] Saving training history
+[I] Loading config 4/6 /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_context_single_label_bio_bl05_k4_e36.json
+[T] 2023-08-15 18:42:53.741563
+[I|Model] Loading Tokenizer
+[I|Model] Loading Model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[W] The following tags were not found in the new tag list:
+	B-graft
+	I-graft
+[I|Train Handler] Training model
+[I|Train Handler] Fold 1/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:54 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:50, predicted 00:28:30 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:22 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:24 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:35 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:35 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:46 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:56 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:03 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:49, predicted 00:21:17 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:49, predicted 00:20:26 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:49, predicted 00:19:36 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:49, predicted 00:18:47 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:56 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:08 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:49, predicted 00:16:21 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:29 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:40 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:49, predicted 00:13:56 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:00 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:13 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:25 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:35 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:46 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:56 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:08 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:19 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:49, predicted 00:06:32 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:40 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:53 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:04 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:15 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 2/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:50, predicted 00:29:12 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:09 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:15 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:25 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:25 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:38 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:42 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:55 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:02 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:49, predicted 00:21:19 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:49, predicted 00:20:27 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:33 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:49, predicted 00:18:55 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:49, predicted 00:17:59 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:49, predicted 00:17:12 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:19 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:30 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:49, predicted 00:14:44 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:49, predicted 00:13:53 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:03 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:49, predicted 00:12:15 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:22 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:34 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:47 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:49, predicted 00:09:00 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:08 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:49, predicted 00:07:22 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:30 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:42 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:53 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:04 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:15 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:49, predicted 00:01:38 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 3/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:50, predicted 00:29:16 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:15 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:28 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:22 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:34 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:40 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:51 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:49 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:04 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:49, predicted 00:21:17 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:49, predicted 00:20:26 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:49, predicted 00:19:37 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:44 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:55 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:05 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:19 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:30 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:39 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:49, predicted 00:13:54 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:02 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:14 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:24 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:49, predicted 00:10:37 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:47 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:58 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:49, predicted 00:08:12 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:20 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:49, predicted 00:06:32 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:42 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:53 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:49, predicted 00:04:05 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:15 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:49, predicted 00:00:49 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 4/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:29:08 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:15 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:16 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:20 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:33 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:34 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:45 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:01 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:49, predicted 00:22:06 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:49, predicted 00:21:15 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:48, predicted 00:20:21 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:33 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:44 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:52 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:08 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:17 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:24 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:41 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:47 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:00 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:14 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:21 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:34 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:43 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:54 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:07 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:17 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:30 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:41 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:51 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:04 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:14 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:25 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Final training
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:59, predicted 00:34:37 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:59, predicted 00:33:29 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:58, predicted 00:32:23 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:58, predicted 00:31:16 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:58, predicted 00:30:17 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:58, predicted 00:29:13 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:58, predicted 00:28:13 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:58, predicted 00:27:08 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:58, predicted 00:26:10 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:58, predicted 00:25:12 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:57, predicted 00:24:09 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:58, predicted 00:23:12 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:57, predicted 00:22:10 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:57, predicted 00:21:15 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:58, predicted 00:20:18 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:57, predicted 00:19:18 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:57, predicted 00:18:20 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:57, predicted 00:17:19 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:57, predicted 00:16:23 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:57, predicted 00:15:25 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:57, predicted 00:14:27 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:57, predicted 00:13:29 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:57, predicted 00:12:31 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:57, predicted 00:11:34 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:57, predicted 00:10:34 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:57, predicted 00:09:37 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:58, predicted 00:08:42 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:57, predicted 00:07:41 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:57, predicted 00:06:44 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:57, predicted 00:05:45 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:57, predicted 00:04:49 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:57, predicted 00:03:49 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:57, predicted 00:02:53 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:57, predicted 00:01:55 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:57, predicted 00:00:57 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:57, predicted 00:00:00 left
+[I|Train Handler] Testing model
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[W] The following tags were not found in the new tag list:
+	B--
+	B-graft
+	I--
+	I-graft
+[I|Test] Testing model
+[I|Test] Test loss: {'context': 0.05832997616380453}
+[I|Test] Test accuracy: {'context': {'precision': 0.6866359447004609, 'recall': 0.7250608272506083, 'f1': 0.7053254437869823, 'accuracy': 0.5764023210831721}}
+[I|Train Handler] Saving model
+[I|Train Handler] Saving training history
+[I] Loading config 5/6 /mnt/nas_home/jrb239/transformer_nlp/to_run_config_folders/single_heads/v2_effect_single_label_bio_bl05_k4_e36.json
+[T] 2023-08-15 21:15:49.873763
+[I|Model] Loading Tokenizer
+[I|Model] Loading Model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Data] Loading data from file
+[I|Data] Pre-processing input data
+[I|Data] Processing transformer data
+[I|Data] Processing tag data
+[W] The following tags were not found in the new tag list:
+	I--
+[I|Train Handler] Training model
+[I|Train Handler] Fold 1/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:45 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:13 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:12 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:14 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:20 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:31 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:48, predicted 00:23:35 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:48 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:57 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:08 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:48, predicted 00:20:15 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:49, predicted 00:19:41 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:44 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:55 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:00 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:15 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:27 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:36 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:50 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:03 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:12 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:24 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:34 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:45 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:57 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:07 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:49, predicted 00:07:21 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:29 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:40 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:52 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:02 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:14 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:25 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 2/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:29:08 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:55 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:04 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:12 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:49, predicted 00:25:21 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:49, predicted 00:24:31 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:49, predicted 00:23:41 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:44 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:59 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:09 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:49, predicted 00:20:30 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:27 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:39 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:56 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:04 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:17 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:23 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:38 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:49 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:01 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:09 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:24 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:33 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:47 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:54 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:08 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:18 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:30 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:42 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:51 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:04 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:49, predicted 00:03:16 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:26 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 3/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:58 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:57 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:27:03 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:48, predicted 00:26:04 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:48, predicted 00:25:18 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:48, predicted 00:24:27 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:48, predicted 00:23:33 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:41 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:01 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:10 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:48, predicted 00:20:16 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:30 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:40 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:49 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:04 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:19 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:49, predicted 00:15:31 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:49, predicted 00:14:42 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:48, predicted 00:13:50 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:49, predicted 00:13:04 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:11 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:23 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:32 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:44 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:54 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:07 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:19 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:28 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:49, predicted 00:05:43 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:51 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:03 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:14 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:25 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Fold 4/4...
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:49, predicted 00:28:48 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:48, predicted 00:27:42 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:49, predicted 00:26:57 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:48, predicted 00:25:58 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:48, predicted 00:25:17 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:48, predicted 00:24:19 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:48, predicted 00:23:32 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:48, predicted 00:22:45 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:58 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:48, predicted 00:21:04 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:48, predicted 00:20:16 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:48, predicted 00:19:28 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:48, predicted 00:18:38 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:48, predicted 00:17:47 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:58 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:48, predicted 00:16:12 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:48, predicted 00:15:29 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:48, predicted 00:14:35 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:49, predicted 00:13:54 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:58 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:48, predicted 00:12:10 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:48, predicted 00:11:21 left
+[I|Train] Epoch 22/36
+[I|Train] Epoch took 00:00:48, predicted 00:10:30 left
+[I|Train] Epoch 23/36
+[I|Train] Epoch took 00:00:48, predicted 00:09:46 left
+[I|Train] Epoch 24/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:54 left
+[I|Train] Epoch 25/36
+[I|Train] Epoch took 00:00:48, predicted 00:08:07 left
+[I|Train] Epoch 26/36
+[I|Train] Epoch took 00:00:48, predicted 00:07:17 left
+[I|Train] Epoch 27/36
+[I|Train] Epoch took 00:00:48, predicted 00:06:29 left
+[I|Train] Epoch 28/36
+[I|Train] Epoch took 00:00:48, predicted 00:05:41 left
+[I|Train] Epoch 29/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:51 left
+[I|Train] Epoch 30/36
+[I|Train] Epoch took 00:00:48, predicted 00:04:02 left
+[I|Train] Epoch 31/36
+[I|Train] Epoch took 00:00:48, predicted 00:03:14 left
+[I|Train] Epoch 32/36
+[I|Train] Epoch took 00:00:48, predicted 00:02:25 left
+[I|Train] Epoch 33/36
+[I|Train] Epoch took 00:00:48, predicted 00:01:37 left
+[I|Train] Epoch 34/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:48 left
+[I|Train] Epoch 35/36
+[I|Train] Epoch took 00:00:48, predicted 00:00:00 left
+[I|Train Handler] Resetting model
+[I|Model] Loading tags from file
+[I|Model] Loading tag categories from file
+Found CUDA devices:
+NVIDIA TITAN X (Pascal)
+[I|Train Handler] Final training
+[I|Train] Epoch 0/36
+[I|Train] Epoch took 00:00:58, predicted 00:34:07 left
+[I|Train] Epoch 1/36
+[I|Train] Epoch took 00:00:58, predicted 00:33:11 left
+[I|Train] Epoch 2/36
+[I|Train] Epoch took 00:00:58, predicted 00:31:59 left
+[I|Train] Epoch 3/36
+[I|Train] Epoch took 00:00:58, predicted 00:30:59 left
+[I|Train] Epoch 4/36
+[I|Train] Epoch took 00:00:57, predicted 00:29:54 left
+[I|Train] Epoch 5/36
+[I|Train] Epoch took 00:00:57, predicted 00:28:56 left
+[I|Train] Epoch 6/36
+[I|Train] Epoch took 00:00:58, predicted 00:28:10 left
+[I|Train] Epoch 7/36
+[I|Train] Epoch took 00:00:57, predicted 00:26:55 left
+[I|Train] Epoch 8/36
+[I|Train] Epoch took 00:00:57, predicted 00:25:59 left
+[I|Train] Epoch 9/36
+[I|Train] Epoch took 00:00:57, predicted 00:25:02 left
+[I|Train] Epoch 10/36
+[I|Train] Epoch took 00:00:57, predicted 00:24:01 left
+[I|Train] Epoch 11/36
+[I|Train] Epoch took 00:00:57, predicted 00:23:05 left
+[I|Train] Epoch 12/36
+[I|Train] Epoch took 00:00:57, predicted 00:22:05 left
+[I|Train] Epoch 13/36
+[I|Train] Epoch took 00:00:57, predicted 00:21:04 left
+[I|Train] Epoch 14/36
+[I|Train] Epoch took 00:00:57, predicted 00:20:10 left
+[I|Train] Epoch 15/36
+[I|Train] Epoch took 00:00:57, predicted 00:19:13 left
+[I|Train] Epoch 16/36
+[I|Train] Epoch took 00:00:57, predicted 00:18:17 left
+[I|Train] Epoch 17/36
+[I|Train] Epoch took 00:00:57, predicted 00:17:16 left
+[I|Train] Epoch 18/36
+[I|Train] Epoch took 00:00:57, predicted 00:16:19 left
+[I|Train] Epoch 19/36
+[I|Train] Epoch took 00:00:57, predicted 00:15:22 left
+[I|Train] Epoch 20/36
+[I|Train] Epoch took 00:00:57, predicted 00:14:26 left
+[I|Train] Epoch 21/36
+[I|Train] Epoch took 00:00:57, predicted 00:13:28 left
+[I|Train] Epoch 22/36
+slurmstepd: error: *** JOB 16549 ON dtal5000 CANCELLED AT 2023-08-16T01:06:24 DUE TO TIME LIMIT ***

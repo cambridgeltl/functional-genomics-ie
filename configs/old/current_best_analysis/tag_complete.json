@@ -1,0 +1,89 @@
+{
+    "MODE": "analyse",
+    "HISTORY_DATA": {
+        "PATH": "outputs/outputs_db.json",
+        "MODELS": [
+            "BioBERTv11_multi_output_v2_single_label_bio_bl05_k4_e36_2021-11-02_17-03"
+        ]
+    },
+    "ANALYSIS": {
+        "REPORT": {
+            "OUTPUT": "md",
+            "PATH": "model_analysis/tag_report_full",
+            "TITLE": "Report on tag models",
+            "REPORTS": [
+                {
+                    "TITLE": "Cateogry All",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "accuracy",
+                            "precision",
+                            "recall",
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "category"
+                    ]
+                },
+                {
+                    "TITLE": "Perturbing Action All",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "accuracy",
+                            "precision",
+                            "recall",
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "perturbing_action"
+                    ]
+                },
+                {
+                    "TITLE": "Context All",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "accuracy",
+                            "precision",
+                            "recall",
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "context"
+                    ]
+                },
+                {
+                    "TITLE": "Effect All",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "accuracy",
+                            "precision",
+                            "recall",
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "effect"
+                    ]
+                },
+                {
+                    "TITLE": "Phenotype All",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "accuracy",
+                            "precision",
+                            "recall",
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "phenotype"
+                    ]
+                }
+            ]
+        }
+    }
+}
+

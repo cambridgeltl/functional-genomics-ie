@@ -1,5 +1,5 @@
 #!/bin/sh
 
-. ~/user_venv/bin/activate
+conda activate tfm_nlp
 python3 main.py -f configs/debug -v
 

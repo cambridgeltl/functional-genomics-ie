@@ -1,0 +1,206 @@
+{
+    "MODE": "analyse",
+    "HISTORY_DATA": {
+        "PATH": "outputs/outputs_db.json",
+        "MODELS": [
+            "BioBERTv11_multi_output_v2_single_label_bio_bl05_k4_e36_2023-07-26_00-19",
+            "BioBERTv11_category_v2_single_label_bio_bl05_k4_e36_2023-08-15_16-10",
+            "BioBERTv11_perturbing_action_v2_single_label_bio_bl05_k4_e36_2023-08-15_18-42",
+            "BioBERTv11_context_v2_single_label_bio_bl05_k4_e36_2023-08-15_21-15",
+            "BioBERTv11_effect_v2_single_label_bio_bl05_k4_e36_2023-08-15_23-47",
+            "BioBERTv11_phenotype_v2_single_label_bio_bl05_k4_e36_2023-08-17_16-12"
+        ]
+    },
+    "ANALYSIS": {
+        "GRAPHING": {
+            "OUTPUT": "save",
+            "FOLDER": "model_analysis/single_heads/tag_graphs",
+            "GRAPHS": [
+                {
+                    "TITLE": "Combined Train Losses",
+                    "VALUES": {
+                        "train_losses": null
+                    },
+                    "HEAD_COMBINE": "sum"
+                },
+                {
+                    "TITLE": "Combined Val Losses",
+                    "VALUES": {
+                        "validation_losses": null
+                    },
+                    "HEAD_COMBINE": "sum"
+                },
+                {
+                    "TITLE": "F1 Geometric Mean",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_COMBINE": "g_mean"
+                },
+                {
+                    "TITLE": "F1 Arithmetic Mean",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_COMBINE": "mean"
+                },
+                {
+                    "TITLE": "Cateogry F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "category"
+                    ]
+                },
+                {
+                    "TITLE": "Perturbing Action F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "perturbing_action"
+                    ]
+                },
+                {
+                    "TITLE": "Context F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "context"
+                    ]
+                },
+                {
+                    "TITLE": "Effect F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "effect"
+                    ]
+                },
+                {
+                    "TITLE": "Phenotype F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "phenotype"
+                    ]
+                }
+            ]
+        },
+        "REPORT": {
+            "OUTPUT": "md",
+            "PATH": "model_analysis/single_heads/tag_report",
+            "TITLE": "Report on tag models",
+            "REPORTS": [
+                {
+                    "TITLE": "Combined Train Losses",
+                    "VALUES": {
+                        "train_losses": null
+                    },
+                    "HEAD_COMBINE": "sum",
+                    "BEST_IS_MIN": true
+                },
+                {
+                    "TITLE": "Combined Val Losses",
+                    "VALUES": {
+                        "validation_losses": null
+                    },
+                    "HEAD_COMBINE": "sum",
+                    "BEST_IS_MIN": true
+                },
+                {
+                    "TITLE": "F1 Geometric Mean",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_COMBINE": "g_mean"
+                },
+                {
+                    "TITLE": "F1 Arithmetic Mean",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_COMBINE": "mean"
+                },
+                {
+                    "TITLE": "Cateogry F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "category"
+                    ]
+                },
+                {
+                    "TITLE": "Perturbing Action F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "perturbing_action"
+                    ]
+                },
+                {
+                    "TITLE": "Context F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "context"
+                    ]
+                },
+                {
+                    "TITLE": "Effect F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "effect"
+                    ]
+                },
+                {
+                    "TITLE": "Phenotype F1",
+                    "VALUES": {
+                        "validation_accuracies": [
+                            "f1"
+                        ]
+                    },
+                    "HEAD_NAMES": [
+                        "phenotype"
+                    ]
+                }
+            ]
+        }
+    }
+}
+
