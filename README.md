@@ -7,6 +7,15 @@
 Data and python code to train transformer based models for named entity recognition and entity linking for functional genomics papers. `main.py` and other tools should have help pages, supply `-h` as a command line option to see these (e.g. `python foo.py -h`)
 
 
+## Running Existing Models
+
+To run an existing model, `path/to/model.pkl`, on a text file, `path/to/text.txt`, do the following:
+
+1. Copy one of the relevant configuration files in `configs/deploy`, saving it to e.g. `my/new/config.json`
+2. Edit it, setting `MODEL -> PATH` to `path/to/model.pkl` and `DATA -> PATH` to `path/to/text.txt` (`MODEL -> EXTRA_PATHS` may also need altering if performing both tagging and linking)
+3. Run the config via `python main.py my/new/config.json`
+
+
 ## General Usage
 
 
@@ -124,6 +133,7 @@ The ones in `configs/current_best` are most up to date.
 ### Notes:
 
 If a key is not marked as always required (AR) or optional (Opt) then it only needs to be present if it is in the required extra fields (REFs) of another value in the parent dict.
+This specification is incomplete, when in doubt check examples or code.
 
 ### Config options:
 
@@ -132,6 +142,8 @@ If a key is not marked as always required (AR) or optional (Opt) then it only ne
     * test REFs: MODEL, DATA, TESTING
     * deploy REFs: MODEL, DATA, DEPLOY
     * analyse REFs: HISTORY_DATA, ANALYSIS
+
+* VERBOSE (Opt): Global verbosity that overwrites verboseness in rest of config (0-3, default 1)
 
 * MODEL
     * TYPE (AR)
@@ -149,12 +161,15 @@ If a key is not marked as always required (AR) or optional (Opt) then it only ne
     * TAG_CATEGORY_DEFINITIONS: Path to file containing data on tag categories to be used by dataloading to know what to look for. These files are also used by the maexml_to_json_data tool
     * MAX_TOKEN_LENGTH: Max token length of any input, usually 512 for big input tasks
     * PATH: Path to transformer file (.pkl), file extension is not needed
+    * EXTRA_PATHS: Dictionary of paths to other transformer files. Needed for linking, in this case key should be `link`.
 
-* DATA (TEST_DATA)
+* DATA
     * PATH (AR): Path to file with data on it
-    * FILETYPE (AR): Currently only json_fgeom is supported
+    * FILETYPE (AR): Currently only `json_fgeom` is supported for training, `txt` is also supported for deploy
     * BATCH_SIZE (AR): Batch size for model inputs
     * BALANCE_CLASSES (AR): 0 means no balancing of losses, 1 means full balancing (i.e. if a label in single_label or positive value in multi_label occours half as often compared to the average / negative value then scale losses for this label by 2), in between values mix between these
+
+* TEST DATA: See DATA
 
 * TRAINING
     * TRAINED_NAME (AR): Name to give trained model when saving it
@@ -171,4 +186,9 @@ If a key is not marked as always required (AR) or optional (Opt) then it only ne
     * K_FOLDS (Opt): If present will use this number of folds in k-fold cross validation, validation scores are averaged across all folds and train losses are given from the final train across the whole dataset
 
 * TESTING: Currently no args but its presence is required for testing or post train testing
+
+* DEPLOY
+    * OUTPUT (AR): Output mode, `print` or `txt`, latter saves to a file and requires PATH field
+    * PATH (Opt): Needed if OUTPUT is `txt`, file path to save to
+    * LINK (Opt): Whether a linking model is present (requires EXTRA_PATHS entry in MODEL)
 
