@@ -9,6 +9,8 @@ Data and python code to train transformer based models for named entity recognit
 
 ## Running Existing Models
 
+All models can be downloaded from [here](https://drive.google.com/drive/folders/1HNgjVN_8CtZsJAudXyKNSe3igWeGxzBG?usp=sharing)
+
 To run an existing model, `path/to/model.pkl`, on a text file, `path/to/text.txt`, do the following:
 
 1. Copy one of the relevant configuration files in `configs/deploy`, saving it to e.g. `my/new/config.json`
